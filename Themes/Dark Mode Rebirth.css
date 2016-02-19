@@ -682,6 +682,10 @@ border-top-color:#e74c3c;
 }
 .message-group.has-divider {
 	background: #2E3136;
+	border-color: none;
+	margin-left: 19px;
+    margin-right: 5px;
+	border: 5px solid #36393E
 }
 .theme-dark .chat>.content .messages .message-group .comment .markup .highlight {
 	background-color: #2E3136;
@@ -710,4 +714,21 @@ border-top-color:#e74c3c;
 .theme-dark .hljs {
 	border: 1px solid transparent;
 	border-radius: 4px;
+}
+.chat .divider {
+	background: #2E3136;
+	border: 5px solid #36393E;
+	border-radius: 10px;
+	height: 30px;
+	margin-left: 20px;
+    margin-right: 5px;
+}
+.theme-dark .chat>.content .messages .divider:not(.red) div {
+	background: transparent;
+}
+.theme-dark .chat>.content .messages .divider span {
+	background: transparent;
+}
+.chat .divider>span {
+	color: rgb(183, 184, 185);
 }
