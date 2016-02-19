@@ -3,4 +3,4 @@
 <li><i>All <b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i>All <b>Plugins</b> go into %AppData%\BetterDiscord\themes</i><br>
 <b>Description:</b><i> A cozy modern dark theme this is how <b>Discord</b> DARK mode should of been.</i><br>
-<img href="https://github.com/Chaotiic/Discord-Themes-and-Plugins/blob/master/Themes/Dark%20Mode%20Rebirth.css" src="https://gyazo.com/b33a232178e97e5f5ab567e06cf315de.png"></img>
+<img href="https://github.com/Chaotiic/Discord-Themes-and-Plugins/blob/master/Themes/Dark%20Mode%20Rebirth.css" src="https://gyazo.com/72f47c706e561b7e5d2334b3953f65ac.png"></img>
