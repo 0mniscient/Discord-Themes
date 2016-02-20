@@ -16,8 +16,6 @@ THE THEME TILL THEN BE PATIENT AND THIS THEME IS STILL A WORK IN PROGRESS! SEE A
 CONTACT ME @CHAOTIIC IN THE BETTERDISCORD SERVER OR BETTERDISCORD+ SERVER*/
 
 
-.chat .new-messages-bar {
-background-color: rgba(0, 144, 137, 0.9);
 }
 .theme-dark .chat>.content .messages .message-group .comment .markup {
     color: #fff;
@@ -246,6 +244,7 @@ a:link {
 }
 .chat .new-messages-bar button {
     background: #a92121;
+    border-radius: 5px;
 }
 .chat .new-messages-bar button:last-child {
     color: #fff;
@@ -841,4 +840,11 @@ border-top-color:#a92121;
 }
 .user-settings-modal button.preview-sound:before {
     background-image: url("https://i.imgur.com/E8gsoBs.png");
+}
+.chat .new-messages-bar button:first-child {
+    border-radius: 5px;
+    margin-right: -14px;
+}
+.chat .new-messages-bar {
+    background-color: transparent !important;
 }
