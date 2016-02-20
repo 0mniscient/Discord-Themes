@@ -838,3 +838,7 @@ border-top-color:#a92121;
     background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: 10px 18px;
+}
+.user-settings-modal button.preview-sound:before {
+    background-image: url("https://i.imgur.com/E8gsoBs.png");
+}
