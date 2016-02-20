@@ -15,6 +15,7 @@ ________/\\\\\\\\\__/\\\________/\\\_____/\\\\\\\\\__________/\\\\\_______/\\\\\
 THE THEME TILL THEN BE PATIENT AND THIS THEME IS STILL A WORK IN PROGRESS! SEE ANYTHING WEIRD OR WANT SOMETHING CHANGED?
 CONTACT ME @CHAOTIIC IN THE BETTERDISCORD SERVER OR BETTERDISCORD+ SERVER*/
 
+
 .chat .new-messages-bar {
 background-color: rgba(0, 144, 137, 0.9);
 }
@@ -706,10 +707,10 @@ border-top-color:#a92121;
 	background: #a92121;
 }
 .guilds li.unread .guild-inner:before {
-	background: rgba(26, 188, 156, 0.39);
+	background: #7e1818;
 }
 .guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
-	background: rgba(26, 188, 156, 0.39);
+	background: #7e1818;
 }
 .theme-dark .hljs {
 	border: 1px solid transparent;
@@ -752,3 +753,88 @@ border-top-color:#a92121;
 #autocomplete-popout .row.selected, #autocomplete-popout .row:hover {
     background: linear-gradient(90deg,#36393F,#303238);
 }
+.download-apps .platforms .platform.active p {
+    color: #a92121;
+}
+.download-apps .platforms .platform .icon.apple.active {
+    background-image: url(/assets/57568e1cfc37c81cf56db9498b4f128a.svg);
+}
+.download-apps .platforms .platform .icon.windows.active {
+    background-image: url(/assets/d6221c5e88f5cb89f125868c077e9859.svg);
+}
+.download-apps .platforms .platform .icon.ios.active {
+    background-image: url(/assets/0c460e9b848f5c4cc964ae9c62c0f9b9.svg);
+}
+.download-apps .platforms .platform .icon.android.active {
+    background-image: url(/assets/d73fd4014c02b360d9529a720ecb7c44.svg);
+}
+.create-guild-container {
+    background-color: transparent;
+}
+.form .form-inner {
+    background-image: nourl("https://i.imgur.com/KCLIPt4.gif");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 50% 74%;
+}
+.account .avatar-small:hover {
+    border: 2px solid #A92121;
+    border-radius: 116%;
+    width: 32px;
+    height: 32px;
+}
+.account .avatar-small {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.need-help-button {
+    visibility: hidden;
+}
+.guilds-add {
+    color: transparent;
+    background-image: url("https://i.imgur.com/jJw52aR.gif");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 5px 4px;
+}
+.slider-handle span {
+    border: 1px solid #A92121;
+}
+.slider-handle span:after, .slider-handle span:before {
+    content: none;
+}
+.popout section:after, .popout section:before {
+    content: none;
+}
+.chat .welcome-message .item-container .icon.exclamation {
+    background-image: url("https://i.imgur.com/DgVTX9d.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px 18px;
+}
+.chat .welcome-message .item-container .icon.share {
+    background-image: url("https://i.imgur.com/XlwhBPd.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px 18px;
+}
+.chat .welcome-message .item-container .icon.apps {
+    background-image: url("https://i.imgur.com/Q2YfRw4.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px 18px;
+}
+.chat .welcome-message .item-container .icon.mobile {
+    background-image: url("https://i.imgur.com/vA378hr.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px 18px;
+}
+.chat .welcome-message .item-container .icon.twitter {
+    background-image: url("https://i.imgur.com/dxhQVea.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px 18px;
