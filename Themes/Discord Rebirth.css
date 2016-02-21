@@ -873,3 +873,6 @@ border-top-color:#a92121;
 .checkbox .checkbox-inner.alt input[type=checkbox]:checked+span:after {
     border-color: #43B581;
 }
+.sensitivity .slider .slider-bar-auto {
+    background-color: #393C42;
+}
