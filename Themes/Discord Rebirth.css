@@ -895,3 +895,6 @@ border-top-color:#a92121;
     background-repeat: no-repeat;
     background-position: 50%;   
 }
+.alert.form .form-inner .btn {
+    border: 1px solid #7e1818;
+}
