@@ -15,7 +15,6 @@ ________/\\\\\\\\\__/\\\________/\\\_____/\\\\\\\\\__________/\\\\\_______/\\\\\
 THE THEME TILL THEN BE PATIENT AND THIS THEME IS STILL A WORK IN PROGRESS! SEE ANYTHING WEIRD OR WANT SOMETHING CHANGED?
 CONTACT ME @CHAOTIIC IN THE BETTERDISCORD SERVER OR BETTERDISCORD+ SERVER*/
 
-
 }
 .theme-dark .chat>.content .messages .message-group .comment .markup {
     color: #fff;
@@ -771,23 +770,10 @@ border-top-color:#a92121;
     background-color: transparent;
 }
 .form .form-inner {
-    background-image: nourl("https://i.imgur.com/KCLIPt4.gif");
+    background-image: Justincase("https://i.imgur.com/KCLIPt4.gif");
     background-size: 40px 40px;
     background-repeat: no-repeat;
     background-position: 50% 74%;
-}
-.account .avatar-small:hover {
-    border: 2px solid #A92121;
-    border-radius: 116%;
-    width: 32px;
-    height: 32px;
-}
-.account .avatar-small {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
 }
 .need-help-button {
     visibility: hidden;
@@ -847,4 +833,43 @@ border-top-color:#a92121;
 }
 .chat .new-messages-bar {
     background-color: transparent !important;
+}
+.account {
+    background-image: url("https://i.imgur.com/5fmuF9t.png");
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+}
+.create-guild-container .action.create .action-icon {
+    background-image: url("https://i.imgur.com/MW4Ddjc.png");
+    height: 78px;
+    background-size: 112px 78px;
+    background-repeat: no-repeat;
+    background-position: 55px 0px;
+}
+.user-settings-modal-games {
+    background: #2E3136;
+    border-top: 1px solid #404040;
+    color: #E2E2E3;
+}
+.user-settings-modal-games .games-table .games-row .item-game .last-played {
+    color: #E2E2E3;
+}
+.user-settings-modal-games .games-table .games-row .item-game .game-input {
+    color: #E2E2E3;
+}
+.user-settings-modal-games .games-table .games-row .item-game {
+    border-bottom: 1px solid #404040;
+}
+.user-settings-modal-games .games-table .games-row .item-overlay {
+    border-bottom: 1px solid #404040;
+}
+.now-playing {
+    background: #A92121;
+}
+.checkbox .checkbox-inner.alt input[type=checkbox]+span {
+    background: #2E3136;
+    border-color: #8E8E8E;
+}                                       
+.checkbox .checkbox-inner.alt input[type=checkbox]:checked+span:after {
+    border-color: #43B581;
 }
