@@ -744,6 +744,16 @@ border-top-color:#a92121;
 }
 .guilds .friends-icon {
     background-image: url(https://i.imgur.com/OKzjIO9.png);
+    -webkit-animation: mover 4s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-6px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-6px); }
 }
 #autocomplete-popout .row.selected a, #autocomplete-popout .row:hover a {
     color: #D4D4D5;
