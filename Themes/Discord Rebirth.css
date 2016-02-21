@@ -151,8 +151,8 @@ a:link {
     color: #a92121;
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
-    background-color: #a92121;
-    border-color: #a92121;
+    background-color: #a92121 !important;
+    border-color: #a92121 !important;
 }
 .radio .radio-inner span:after {
     background: #a92121;
