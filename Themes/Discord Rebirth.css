@@ -898,3 +898,14 @@ border-top-color:#a92121;
 .alert.form .form-inner .btn {
     border: 1px solid #7e1818;
 }
+.alert.form .form-inner .cancel {
+    border-color: #99aab5 !important;
+}
+.user-settings-modal.settings {
+    opacity: .8;
+}
+.user-settings-modal .account-warning {
+    border: 1px solid #7e1818;
+    background: #B54343;
+    color: #F5FBF9;
+}
