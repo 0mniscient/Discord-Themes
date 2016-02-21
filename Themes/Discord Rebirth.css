@@ -141,10 +141,10 @@ a:link {
     color: rgba(222, 222, 222, 0.59);
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations {
-    border: 1px solid #a92121;
+    border: 1px solid #404040;
 }
 .user-settings-modal-connections .user-settings-modal-connections-list {
-    box-shadow: 0 -1px #a92121;
+    box-shadow: 0 -1px #404040;
 }
 .tab-bar.TOP .tab-bar-item.selected {
     border-bottom: 2px solid #a92121;
@@ -888,4 +888,10 @@ border-top-color:#a92121;
 }
 .user-settings-modal-keybinds .user-settings-modal-keybinds-header {
     border-bottom: 1px solid #404040;
+}
+.user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .btn {
+    background: #2E3136;
+    border: 2px solid #282B2F;
+    background-repeat: no-repeat;
+    background-position: 50%;   
 }
