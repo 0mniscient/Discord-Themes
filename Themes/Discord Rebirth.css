@@ -921,3 +921,28 @@ border-top-color:#a92121;
 .chat .divider {
     background: #2A2C2F;
 }
+.create-guild-container .action.join .action-icon {
+    background: url(https://i.imgur.com/5s2wOtM.png) 50% no-repeat;
+    height: 78px;
+    background-size: 178.5px 78px;
+}
+.links:after {
+    content: "Chaotiic";
+    color: #535559;
+    margin-left: 9px;
+    font-weight: bold;
+}
+.links li+li:after {
+    content: '\2022';
+    color: #535559;
+    margin-left: 6px;
+}
+.message-group h2 strong {
+    color: #aaaba7;
+}
+#emote-menu, #tc-settings-panel, .tc-switch {
+    border: 1px solid #2B2B2B;
+}
+.emote-container:hover {
+    background: #A92121;
+}
