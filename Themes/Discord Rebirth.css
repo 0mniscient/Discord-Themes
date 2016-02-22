@@ -909,3 +909,9 @@ border-top-color:#a92121;
     background: #B54343;
     color: #F5FBF9;
 }
+.user-settings-modal-games .games-table .games-row .item-game .icon {
+    background-image: url(https://i.imgur.com/DYCx6qB.png);
+    background-repeat: no-repeat;
+    background-position: -13px -14px;
+    background-size: 42px;
+}
