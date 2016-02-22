@@ -916,7 +916,7 @@ border-top-color:#a92121;
     background-size: 42px;
 }
 .theme-dark .chat>.content .messages .divider:not(.red) span {
-    opacity: none;
+    opacity: .9;
 }
 .chat .divider {
     background: #2A2C2F;
@@ -945,4 +945,7 @@ border-top-color:#a92121;
 }
 .emote-container:hover {
     background: #A92121;
+}
+.spinner-wandering-cubes .spinner-item {
+    background-color: #A92121;
 }
