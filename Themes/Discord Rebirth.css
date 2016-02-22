@@ -668,8 +668,8 @@ border-top-color:#a92121;
 	color: #7e1818;
 }
 .theme-dark .chat>.content .messages .message-group .comment .markup .highlight:hover {
-	background: rgba(215, 115, 115, 0.7);
-	border: 1px solid rgba(215, 115, 115, 0.7);
+	background: #A92121;
+    border: transparent;
 	border-radius: 3px;
 }
 .theme-dark .chat>.content .messages .message-group:not(.has-divider) {
@@ -729,7 +729,7 @@ border-top-color:#a92121;
 	background: transparent;
 }
 .chat .divider>span {
-	color: rgb(183, 184, 185);
+	color: #F1F1F1;
 }
 .message-group .comment .markup pre {
 	background: #282B30;
@@ -914,4 +914,10 @@ border-top-color:#a92121;
     background-repeat: no-repeat;
     background-position: -13px -14px;
     background-size: 42px;
+}
+.theme-dark .chat>.content .messages .divider:not(.red) span {
+    opacity: none;
+}
+.chat .divider {
+    background: #2A2C2F;
 }
