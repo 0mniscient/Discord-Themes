@@ -997,3 +997,6 @@ border-top-color:#a92121;
     height: 12px;
     background-size: 10px;
 }
+.member-roles .member-role:hover {
+    background-color: #7e1818;
+}
