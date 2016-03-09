@@ -82,6 +82,7 @@ CONTACT ME @CHAOTIIC IN THE BETTERDISCORD SERVER OR BETTERDISCORD+ SERVER*/
 }
 .avatar-uploader .avatar-uploader-inner {
     background-color: #a92121;
+	border: 5px solid #7e1818;
 }
 .form .form-actions {
     background-color: #282B30;
@@ -271,7 +272,7 @@ top:-2px;
 opacity:.5;
 -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
 filter:alpha(opacity=50);
-border-color:#a92121;
+border-color: #a92121;
 }
 .guilds li.active .guild-inner,.guilds li:hover .guild-inner {
 border-radius:15px;
@@ -596,7 +597,7 @@ border-top-color:#a92121;
 	color: #CECECE;
 }
 .guild-settings-modal-members .guild-settings-modal-members-header {
-	border-bottom: 1px solid #a92121;
+	border-bottom: 1px solid #2E3136;
 }
 #autocomplete-popout .empty:hover {
 	background-color: #2E3136;
@@ -623,7 +624,7 @@ border-top-color:#a92121;
 	color: #7e1818;
 }
 .guild-settings-modal-members .guild-settings-modal-members-footer {
-	border-top: 1px solid #a92121;
+	border-top: 1px solid #2E3136;
 }
 #settings-roles .roles li:hover {
 	background: none;
@@ -843,6 +844,7 @@ border-top-color:#a92121;
 }
 .chat .new-messages-bar {
     background-color: transparent !important;
+	opacity: 0.8;
 }
 .account {
     background-image: url("https://i.imgur.com/5fmuF9t.png");
@@ -948,4 +950,50 @@ border-top-color:#a92121;
 }
 .spinner-wandering-cubes .spinner-item {
     background-color: #A92121;
+}
+#bd-ps-container {
+	border: 1px solid transparent;
+    border-radius: 4px;
+	opacity: 0.9;
+}
+#bd-ps-header {
+	background: #1E2124;
+	border-bottom: 1px solid #24272B;
+}
+#bd-ps-body table tr {
+	border-bottom: 1px solid #2E3136 !important;
+	background-color: none;
+}
+#bd-ps-body table th {
+	background-color: #25272B;
+}
+#bd-ps-body table tr:nth-child(odd):hover {
+	background-color: #A92121;
+}
+.guild-settings-modal-members .member-buttons .btn {
+	background: #A92121;
+    border: 1px solid #A92121;
+    color: #EFEFEF;
+}
+.guild-settings-modal-members .member-buttons .btn.btn-danger:hover {
+	background: #7e1818;
+}
+.guild-settings-modal-members .member-buttons .btn.btn-danger {
+	border: 1px solid #7e1818;
+    color: #FFFFFF;
+}
+.guild-settings-modal-members .guild-settings-modal-list .member+.member {
+	border-top: 1px solid #2E3136;
+}
+.member-roles .member-role .member-role-remove {
+	background: url(https://i.imgur.com/O2TX2bn.png) 50% no-repeat;
+	width: 8px;
+	height: 12px;
+    background-size: 8px;
+}
+.member-roles .member-role .member-role-add {
+	background: url(https://i.imgur.com/1MfzLoF.png) 50% no-repeat;
+    width: 8px;
+    height: 12px;
+    background-size: 10px;
 }
