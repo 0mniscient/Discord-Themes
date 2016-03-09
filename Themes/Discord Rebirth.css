@@ -1006,4 +1006,44 @@ border-top-color:#a92121;
     border-color: hsl(145, 64%, 50%);
     color: transparent;
     opacity: 1.0;
+    -webkit-animation: color_change 1s infinite alternate;
+    -moz-animation: color_change 1s infinite alternate;
+    -ms-animation: color_change 1s infinite alternate;
+    -o-animation: color_change 1s infinite alternate;
+    animation: color_change 1s infinite alternate;
+}
+
+@-webkit-keyframes color_change {
+ from { border-color: #535559; }
+ to { border-color: green; }
+}
+@-moz-keyframes color_change {
+ from { border-color: #535559; }
+ to { border-color: green; }
+}
+@-ms-keyframes color_change {
+ from { border-color: #535559; }
+ to { border-color: green; }
+}
+@-o-keyframes color_change {
+ from { border-color: #535559; }
+ to { border-color: green; }
+}
+@keyframes color_change {
+ from { border-color: #535559; }
+ to { border-color: green; }
+}
+.channel-members h2 {
+    color: #A92121 !important;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-weight: 600;
+    padding: 4px 58px;
+    background-color: #282B30;
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 3px;
+    width: 90px;
+    margin-left: 15px;
 }
