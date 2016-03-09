@@ -791,10 +791,12 @@ border-top-color:#a92121;
 }
 .guilds-add {
     color: transparent;
-    background-image: url("https://i.imgur.com/jJw52aR.gif");
-    background-size: 40px 40px;
+    background-image: url("https://i.imgur.com/1MfzLoF.png");
+    background-size: 20px 20px;
     background-repeat: no-repeat;
-    background-position: 5px 4px;
+    background-position: 14px 14px;
+    background-color: #2E3136;
+    opacity: 0.7;
 }
 .slider-handle span {
     border: 1px solid #A92121;
@@ -999,4 +1001,9 @@ border-top-color:#a92121;
 }
 .member-roles .member-role:hover {
     background-color: #7e1818;
+}
+.guilds-add:hover {
+    border-color: hsl(145, 64%, 50%);
+    color: transparent;
+    opacity: 1.0;
 }
