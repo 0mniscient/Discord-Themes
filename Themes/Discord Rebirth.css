@@ -675,6 +675,7 @@ border-top-color: #a92121;
 }
 .theme-dark .chat>.content .messages .message-group:not(.has-divider) {
 	background: #2E3136;
+	border-bottom-color: transparent;
 }
 .message-group {
 	border: 5px solid #36393E;
@@ -1050,4 +1051,7 @@ border-top-color: #a92121;
 }
 .private-channels .search-result.selected:before, .private-channels .search-result:hover:before {
     border-left: 4px solid #7e1818;
+}
+.theme-dark .chat>.content .messages .message-group:not(.has-divider):hover {
+	background: #2A2D31;
 }
