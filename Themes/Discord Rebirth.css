@@ -1046,4 +1046,8 @@ border-top-color:#a92121;
     border-radius: 3px;
     width: 90px;
     margin-left: 15px;
+    text-align: center
+}
+.private-channels .search-result.selected:before, .private-channels .search-result:hover:before {
+    border-left: 4px solid #7e1818;
 }
