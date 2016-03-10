@@ -250,7 +250,7 @@ a:link {
     color: #fff;
 }
 .download-apps .platforms .platform.active .download-button,.change-log .changelog-fixed,.modal-new-user .steps-wrap .steps li.on,.modal-new-user .steps-wrap .steps li.on+.divider,.modal-new-user .steps-wrap .steps li.on:before,.chat .new-messages-bar:hover {
-background-color:#a92121;
+background-color: #a92121;
 }
 .radio-image .radio-inner span:after {
 opacity:0;
@@ -276,10 +276,10 @@ border-color: #a92121;
 }
 .guilds li.active .guild-inner,.guilds li:hover .guild-inner {
 border-radius:15px;
-background:#a92121;
+background: #a92121;
 }
 .guild-channels ul .channel-voice-states li.speaking .avatar-small {
-background-color:#a92121;
+background-color: #a92121;
 cursor:pointer;
 border:2px solid #43b581;
 box-shadow:inset 0 0 0 2px #2e3136;
@@ -288,7 +288,7 @@ box-shadow:inset 0 0 0 2px #2e3136;
 #unsupported-browser li:hover {
 -webkit-transform:scale(1.04);
 transform:scale(1.04);
-border-color:#a92121;
+border-color: #a92121;
 }
 
 #unsupported-browser li:hover .browser {
@@ -296,24 +296,24 @@ background-position-y:100px;
 }
 
 #unsupported-browser li:hover .btn {
-background-color:#a92121;
-color:#fff;
-border-color:#a92121;
+background-color: #a92121;
+color: #fff;
+border-color: #a92121;
 }
 .mentioned .highlight:hover {
-color:#a92121;
+color: #a92121;
 text-decoration:underline;
 }
 .highlight:hover {
 cursor:pointer;
-color:#fff;
-background-color:#a92121;
+color: #fff;
+background-color: #a92121;
 }
 .tooltip.tooltip-left:after {
 position:absolute;
 left:100%;
 top:50%;
-border-left-color:#a92121;
+border-left-color: #a92121;
 margin-top:-5px;
 }
 
@@ -321,17 +321,17 @@ margin-top:-5px;
 position:absolute;
 right:100%;
 top:50%;
-border-right-color:#a92121;
+border-right-color: #a92121;
 margin-top:-5px;
 }
 .tooltip {
 position:absolute;
-background-color:#a92121;
+background-color: #a92121;
 box-shadow:0 2px 4px 1px rgba(0,0,0,.1);
 border-radius:3px;
 font-weight:600;
 font-size:12px;
-color:#fff;
+color: #fff;
 z-index:1002;
 max-width:160px;
 box-sizing:border-box;
@@ -342,7 +342,7 @@ padding:5px 10px;
 position:absolute;
 bottom:100%;
 left:50%;
-border-bottom-color:#a92121;
+border-bottom-color: #a92121;
 margin-left:-5px;
 }
 .tooltip.tooltip-top:after {
@@ -350,7 +350,7 @@ position:absolute;
 top:100%;
 left:50%;
 margin-left:-5px;
-border-top-color:#a92121;
+border-top-color: #a92121;
 }
 .region-select-modal {
 	background: #36393e;
