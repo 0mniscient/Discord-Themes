@@ -1059,3 +1059,6 @@ border-top-color: #a92121;
     background: #2A2D31;
     border-bottom-color: none !important;
 }
+.message-group .edit-message .channel-textarea-inner {
+    border-color: #A92121;
+}
