@@ -675,7 +675,7 @@ border-top-color: #a92121;
 }
 .theme-dark .chat>.content .messages .message-group:not(.has-divider) {
 	background: #2E3136;
-	border-bottom-color: transparent;
+    border-bottom-color: hsl(218, 7%, 23%);
 }
 .message-group {
 	border: 5px solid #36393E;
@@ -1054,4 +1054,8 @@ border-top-color: #a92121;
 }
 .theme-dark .chat>.content .messages .message-group:not(.has-divider):hover {
 	background: #2A2D31;
+}
+.message-group.has-divider:hover {
+    background: #2A2D31;
+    border-bottom-color: none !important;
 }
