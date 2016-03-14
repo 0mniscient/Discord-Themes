@@ -1063,3 +1063,6 @@ border-top-color: #a92121;
 .message-group .edit-message .channel-textarea-inner {
     border-color: #A92121;
 }
+.channel-members .member .member-game strong {
+    color: #A92121;
+}
