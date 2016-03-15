@@ -1079,3 +1079,98 @@ border-top-color: #a92121;
 #bd-ps-body table tr:hover {
 	background-color: #A92121;
 }
+@keyframes swing
+{
+0% {transform: rotate(0deg) ;
+  -webkit-transform: rotate(0deg) ;
+  -moz-transform: rotate(0deg) ;
+  -o-transform: rotate(0deg) ;
+  -ms-transform: rotate(0deg) ;}
+  
+25% {transform: rotate(-30deg) ;
+  -webkit-transform: rotate(-30deg) ;
+  -moz-transform: rotate(-30deg) ;
+  -o-transform: rotate(-30deg) ;
+  -ms-transform: rotate(-30deg) ;}
+  
+50% {transform: rotate(0deg) ;
+  -webkit-transform: rotate(0deg) ;
+  -moz-transform: rotate(0deg) ;
+  -o-transform: rotate(0deg) ;
+  -ms-transform: rotate(0deg) ;}
+  
+75% {transform: rotate(30deg) ;
+  -webkit-transform: rotate(30deg) ;
+  -moz-transform: rotate(30deg) ;
+  -o-transform: rotate(30deg) ;
+  -ms-transform: rotate(30deg) ;}
+  
+100% {transform: rotate(0deg) ;
+  -webkit-transform: rotate(0deg) ;
+  -moz-transform: rotate(0deg) ;
+  -o-transform: rotate(0deg) ;
+  -ms-transform: rotate(0deg) ;}
+}
+
+@-webkit-keyframes swing
+{
+0% {transform: rotate(0deg) ;
+  -webkit-transform: rotate(0deg) ;
+  -moz-transform: rotate(0deg) ;
+  -o-transform: rotate(0deg) ;
+  -ms-transform: rotate(0deg) ;}
+  
+25% {transform: rotate(-30deg) ;
+  -webkit-transform: rotate(-30deg) ;
+  -moz-transform: rotate(-30deg) ;
+  -o-transform: rotate(-30deg) ;
+  -ms-transform: rotate(-30deg) ;}
+  
+50% {transform: rotate(0deg) ;
+  -webkit-transform: rotate(0deg) ;
+  -moz-transform: rotate(0deg) ;
+  -o-transform: rotate(0deg) ;
+  -ms-transform: rotate(0deg) ;}
+  
+75% {transform: rotate(30deg) ;
+  -webkit-transform: rotate(30deg) ;
+  -moz-transform: rotate(30deg) ;
+  -o-transform: rotate(30deg) ;
+  -ms-transform: rotate(30deg) ;}
+  
+100% {transform: rotate(0deg) ;
+  -webkit-transform: rotate(0deg) ;
+  -moz-transform: rotate(0deg) ;
+  -o-transform: rotate(0deg) ;
+  -ms-transform: rotate(0deg) ;}
+}
+
+@keyframes swing1
+{
+0% {left:-15px; right:0;}
+  
+25% {left:-100px; right:0;}
+  
+50% {left:-15px; right:0;}
+  
+75% {left:0; right:-100px;}
+  
+100% {left:-15px; right:0;}
+}
+
+@-webkit-keyframes swing1
+{
+0% {left:-15px; right:0;}
+  
+25% {left:-100px; right:0;}
+  
+50% {left:-15px; right:0;}
+  
+75% {left:0; right:-100px;}
+  
+100% {left:-15px; right:0;}
+}
+.theme-dark .chat .title-wrap .channel-mute-button:hover {
+  animation:swing 4s infinite linear;
+  -webkit-animation:swing 4s infinite linear;
+}
