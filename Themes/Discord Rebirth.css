@@ -1174,3 +1174,30 @@ border-top-color: #a92121;
   animation:swing 4s infinite linear;
   -webkit-animation:swing 4s infinite linear;
 }
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.account .btn-settings:hover:after {
+   -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 2.8s infinite linear;
+  animation: load8 2.8s infinite linear;
+}
