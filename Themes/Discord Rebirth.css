@@ -1077,3 +1077,6 @@ border-top-color: #a92121;
 	min-height: 0px;
 	padding-top: 14px;
 }
+#bd-ps-body table tr:hover {
+	background-color: #A92121;
+}
