@@ -1066,3 +1066,14 @@ border-top-color: #a92121;
 .channel-members .member .member-game strong {
     color: #A92121;
 }
+.spoiler {
+	Background-color: #1E2124;
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 6px;
+}
+.spoiler:before {
+	background: #1E2124;
+	min-height: 0px;
+	padding-top: 14px;
+}
