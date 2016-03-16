@@ -1202,7 +1202,7 @@ border-top-color: #a92121;
   animation: load8 2.8s infinite linear;
 }
 .guilds li .badge {
-    animation: zoom 1s infinite;
+    animation: zoom 1.5s infinite;
 }
 @keyframes zoom {
     0% {
