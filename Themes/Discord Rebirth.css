@@ -747,6 +747,9 @@ border-top-color: #A92121;
 .guilds .friends-icon {
     color: transparent;
 }
+.guilds .friends-icon {
+    color: transparent;
+}
 
 #autocomplete-popout .row.selected a, #autocomplete-popout .row:hover a {
     color: #D4D4D5;
@@ -1292,4 +1295,7 @@ border-top-color: #A92121;
 }
 #user-profile-modal .empty {
     background: #2E3136;
+}
+.user-settings-modal-account .discord-tag {
+    color: #A92121;
 }
