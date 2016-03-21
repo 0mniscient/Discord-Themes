@@ -25,7 +25,7 @@ CONTACT ME @CHAOTIIC IN THE BETTERDISCORD SERVER OR BETTERDISCORD+ SERVER*/
     border-left: 4px solid #A92121;
 }
 .guilds li.active .guild-inner, .guilds li:hover .guild-inner {
-    background: #A92121;
+    background: #A92121 !important;
 }
 .theme-dark .chat>.content :first-child .scroller-wrap ::-webkit-scrollbar-thumb {
     background-color: #A92121;
@@ -744,11 +744,10 @@ border-top-color: #A92121;
 /*[[Directboid]]*/
 /*[[Directnaruto]]*/
 /*[[Directreimu]]*/
+/*[[DirectM]]*/
 .guilds .friends-icon {
     color: transparent;
-}
-.guilds .friends-icon {
-    color: transparent;
+    background-color: #A92121;
 }
 
 #autocomplete-popout .row.selected a, #autocomplete-popout .row:hover a {
@@ -1296,7 +1295,63 @@ border-top-color: #A92121;
 #user-profile-modal .empty {
     background: #2E3136;
 }
+/*[[Hidden]]*/
+/*[[Visible]]*/
+.message-group-blocked {
+    background: #fcfcfc;
+    -webkit-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border: 1px solid #e3e5e7;
+    border-radius: 3px;
+    margin: 6px 6px 6px 19px;
+    display: none;
+}
 .user-settings-modal-account .discord-tag {
+    color: #A92121;
+}
+.guilds .friends-online {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #DCDCDC;
+    margin: 10px 0;
+    word-wrap: normal;
+    white-space: normal;
+    width: 50px;
+    cursor: pointer;
+    -webkit-transition: background-color .25s ease-in,border-radius .3s cubic-bezier(.68,-1.25,.228,1.8);
+    transition: background-color .25s ease-in,border-radius .3s cubic-bezier(.68,-1.25,.228,1.8);
+    overflow: hidden;
+    border-radius: 25px;
+    background: #2e3136;
+    font-size: 9px;
+    text-align: center;
+    line-height: 17px;
+}
+.guilds .friends-online:hover {
+    background: #43B581;
+}
+.add-friend-popout-info .add-friend-popout-info-confirmation:before {
+    background: url(https://i.imgur.com/DYCx6qB.png) 50% no-repeat;
+    content: ' ';
+    width: 17px;
+    height: 16px;
+    background-size: 40px 39px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -8px;
+    margin-right: 4px;
+}
+.message-group .btn-option:hover {
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 2.8s infinite linear;
+    animation: load8 2.8s infinite linear;
+}
+.chat .has-more button {
     color: #A92121;
 }
 .theme-dark #friends .friends-table .friends-table-header .friends-column:after {
