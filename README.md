@@ -9,4 +9,4 @@ For <b>WEB</b> version of Discord only! <a href="https://userstyles.org/styles/1
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/Chaotiic/Discord-Themes-and-Plugins/blob/master/Themes/Discord%20Reborn.css">Discord Reborn</a></div></b></font>
 <b>Description:</b><i>A cold, dark & winter like theme. Darkened Discord's UI a bit and implemented a nice dark background image.</b><br>
 For <b>WEB</b> version of Discord only! <a href="https://userstyles.org/styles/125848/discord-reborn">Click Me</a><br>
-<img href="https://i.imgur.com/nKXXjv9.png"></img>
+![Screenshot](https://a.pomf.cat/swuofs.jpg)
