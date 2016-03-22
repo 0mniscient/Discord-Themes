@@ -7,6 +7,6 @@
 For <b>WEB</b> version of Discord only! <a href="https://userstyles.org/styles/125412/discord-rebirth">Click Me</a>
 <img href="https://github.com/Chaotiic/Discord-Themes-and-Plugins/blob/master/Themes/Dark%20Mode%20Rebirth.css" src="https://i.imgur.com/lPdrdDe.png"></img>
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/Chaotiic/Discord-Themes-and-Plugins/blob/master/Themes/Discord%20Reborn.css">Discord Reborn</a></div></b></font>
-<b>Description:</b><i>A cold, dark & winter like theme. Darkened Discord's UI a bit and implemented a nice dark background image.</b><br>
+<b>Description:</b><i> A cold, dark & winter like theme. Darkened Discord's UI a bit and implemented a nice dark background image.</b><br>
 For <b>WEB</b> version of Discord only! <a href="https://userstyles.org/styles/125848/discord-reborn">Click Me</a><br>
 ![Screenshot](https://a.pomf.cat/swuofs.jpg)
