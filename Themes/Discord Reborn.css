@@ -1,6 +1,6 @@
 //META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscien.t","version":"4.19"}*//
 /* Better Discord CSS Made By @Omniscien.t */
-
+/*
 _______/\\\\\________________________________________________________________________________________________________________________________        
  _____/\\\///\\\______________________________________________________________________________________________________________________________       
   ___/\\\/__\///\\\_____________________________________/\\\_____________________________/\\\________________________________________/\\\______      
@@ -10,7 +10,7 @@ _______/\\\\\___________________________________________________________________
       __\///\\\__/\\\____\/\\\__\/\\\__\/\\\_\/\\\___\/\\\_\/\\\_\////////\\\_\//\\\________\/\\\_\//\\///////___\/\\\___\/\\\__________\/\\\_/\\__  
        ____\///\\\\\/_____\/\\\__\/\\\__\/\\\_\/\\\___\/\\\_\/\\\__/\\\\\\\\\\__\///\\\\\\\\_\/\\\__\//\\\\\\\\\\_\/\\\___\/\\\__/\\\____\//\\\\\___ 
         ______\/////_______\///___\///___\///__\///____\///__\///__\//////////_____\////////__\///____\//////////__\///____\///__\///______\/////____
- 
+*/ 
 .app {
     background-image: url("https://imgur.com/RG03PyX.png") !important;
     background-size: cover !important;
@@ -1472,7 +1472,6 @@ a:link {
     display: -ms-flexbox;
     display: box;
     display: flex;
-    display: none;
 }
 .message-group .edit-message .channel-textarea-inner {
     border-color: #3DA9A9;
@@ -1769,7 +1768,7 @@ a:link {
     line-height: 17px;
 }
 .guilds .friends-online:hover {
-    background: #43B581;
+    background: #43B581 !important;
 }
 .add-friend-popout-info .add-friend-popout-info-confirmation:before {
     background: url(https://i.imgur.com/DYCx6qB.png) 50% no-repeat;
@@ -1826,4 +1825,12 @@ a:link {
 }
 .user-settings-modal.settings {
     opacity: 0.8;
+/*[[NSFWON]]*/
+/*[[NSFWOFF]]*/
+}
+.message-group .image {
+    -webkit-filter: none;
+}
+.message-group .image:hover {
+    -webkit-filter: none;
 }
