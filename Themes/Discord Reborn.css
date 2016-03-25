@@ -1865,27 +1865,27 @@ a:link {
 #user-profile-modal footer .btn.disabled:hover {
     background: #777777 !important;
 }
-#user-profile-modal .header .username .discriminator {
-    font-size: 11px;
-    color: hsla(0, 0%, 100%, 0.7);
-    margin-left: 8px;
-    border-radius: 5px;
-    background: rgba(0, 0, 0, 0.19);
-    font-weight: bold;
-    border: 3px solid transparent;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
+span.discriminator {
+    font-size: 11px !important;
+    color: hsla(0, 0%, 100%, 0.7) !important;
+    margin-left: 8px !important;
+    border-radius: 5px !important;
+    background: rgba(0, 0, 0, 0.19) !important;
+    font-weight: bold !important;
+    border: 3px solid transparent !important;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+    -o-transition: all 0.3s ease !important;
+    -ms-transition: all 0.3s ease !important;
 }
-#user-profile-modal .header .username .discriminator:hover {
-    background: rgba(0, 0, 0, 0.32);
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
+span.discriminator:hover {
+    background: rgba(0, 0, 0, 0.32) !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
 }
 .guilds-error {
-    width: 40px;
-    height: 40px;
-    line-height: 39px
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 39px !important;
 }
