@@ -1189,13 +1189,13 @@ a:link {
     visibility: hidden;
 }
 .guilds-add {
-    color: transparent;
-    background-image: url("https://i.imgur.com/1MfzLoF.png");
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    background-position: 9px 9px;
+    color: transparent !important;
+    background-image: url("https://i.imgur.com/1MfzLoF.png") !important;
+    background-size: 20px 20px !important;
+    background-repeat: no-repeat !important;
+    background-position: 9px 9px !important;
     background-color: rgba(21, 21, 21, 0.41) !important;
-    opacity: 0.7;
+    opacity: 0.7 !important;
 }
 .slider-handle span {
     border: 1px solid #3DA9A9;
