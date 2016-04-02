@@ -1968,9 +1968,24 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 .channel-members .member.member-status-offline .avatar-small {
     -webkit-filter: grayscale(100%) blur(1px);
+    position: relative;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    transition: all .8s ease;
+    -webkit-transform: translateZ(0px);
+    transform: translateZ(0px);
 }
 .channel-members .member.popout-open .avatar-small, .channel-members .member:hover .avatar-small {
     -webkit-filter: none !important;
+    filter: none;
+    position: relative;
+    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .8s ease-out;
+    -o-transition: all .8s ease-out;
+    transition: all .8s ease-out;
+    -webkit-transform: translateZ(0px);
+    transform: translateZ(0px);
 }
 .offline {
     background-color: #FA1A1A;
