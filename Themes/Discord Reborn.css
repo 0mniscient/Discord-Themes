@@ -2016,3 +2016,6 @@ div.control-group .shortcut-recorder input[type=text] {
     webkit-animation: friend-request-pulse 1.5s infinite;
     animation: friend-request-pulse 1.5s infinite;
 }
+#user-profile-modal .guilds .avatar-large {
+    background: /*[[Color]]*/;
+}
