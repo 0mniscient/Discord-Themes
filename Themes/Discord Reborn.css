@@ -1917,3 +1917,11 @@ span.discriminator:hover {
     color: #3DA9A9;
     background-color: #fff;
 }
+.upload-modal .footer .button-primary {
+    color: #3DA9A9;
+    background-color: #fff;
+}
+div.control-group .shortcut-recorder input[type=text] {
+    border: 1px solid #3DA9A9;
+    text-shadow: 0 0 0 #FFFFFF;
+}
