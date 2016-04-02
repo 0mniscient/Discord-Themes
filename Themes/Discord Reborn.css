@@ -2017,5 +2017,5 @@ div.control-group .shortcut-recorder input[type=text] {
     animation: friend-request-pulse 1.5s infinite;
 }
 #user-profile-modal .guilds .avatar-large {
-    background: /*[[Color]]*/;
+    background: #3DA9A9;
 }
