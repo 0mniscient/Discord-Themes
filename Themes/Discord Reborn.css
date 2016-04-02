@@ -2019,3 +2019,6 @@ div.control-group .shortcut-recorder input[type=text] {
 #user-profile-modal .guilds .avatar-large {
     background: #3DA9A9;
 }
+img.image {
+    border-radius: 5px;
+}
