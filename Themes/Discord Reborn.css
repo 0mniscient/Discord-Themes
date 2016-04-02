@@ -1966,3 +1966,6 @@ div.control-group .shortcut-recorder input[type=text] {
     border: 3px solid transparent !important;
     padding: 0px;
 }
+.channel-members .member.member-status-offline .avatar-small {
+    -webkit-filter: grayscale(100%) blur(1px);
+}
