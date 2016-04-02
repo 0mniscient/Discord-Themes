@@ -1972,3 +1972,6 @@ div.control-group .shortcut-recorder input[type=text] {
 .channel-members .member.popout-open .avatar-small, .channel-members .member:hover .avatar-small {
     -webkit-filter: none !important;
 }
+.offline {
+    background-color: #FA1A1A;
+}
