@@ -1898,3 +1898,22 @@ span.discriminator:hover {
    background-color: rgba(0, 0, 0, 0.62);
     border: 1px solid #000000;
 }
+.private-channels .channel .icon-friends {
+    background-color: rgba(21, 21, 21, 0.41) !important;
+}
+.upload-modal {
+    background-color: rgba(30, 30, 30, 0.78);
+}
+.upload-modal .footer {
+    background-color: rgba(0, 0, 0, 0.44);
+}
+.upload-modal .inner {
+    border:2px dashed rgba(6, 6, 6, 0.52);
+}
+.upload-modal .footer .button {
+    background-color: #3DA9A9;
+}
+.upload-modal .footer .button-primary {
+    color: #3DA9A9;
+    background-color: #fff;
+}
