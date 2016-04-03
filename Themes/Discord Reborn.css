@@ -2032,3 +2032,41 @@ img.image {
     box-shadow: none !important;
     border-radius: 40px;
 }
+#voice-connection .btn {
+    background: rgba(0, 0, 0, 0.45);
+    box-shadow: none !important;
+    border-radius: 40px;
+}
+.account .btn-deafen, .account .btn-mute, .account .btn-settings {
+    background: rgba(0, 0, 0, 0.45);
+    box-shadow: none !important;
+    border-radius: 40px;
+}
+#connecting {
+    background: rgba( 0, 0, 0,.80);
+}
+#connecting video.ready {
+    visibility: hidden;
+}
+#connecting video {
+    visibility: hidden;
+}
+#connecting .quote {
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    visibility: hidden;
+}
+#connecting img,
+#connecting video {
+    visibility: hidden;
+}
+#connecting .attribution {
+    visibility: hidden;
+}
+#connecting .attribution, #connecting .connection-status, #connecting .quote {
+    margin-bottom: -122px;
+    font-size: 30px;
+}
