@@ -2022,3 +2022,13 @@ div.control-group .shortcut-recorder input[type=text] {
 img.image {
     border-radius: 5px;
 }
+#voice-connection .btn {
+    background: rgba(0, 0, 0, 0.45);
+    box-shadow: none !important;
+    border-radius: 40px;
+}
+.account .btn-deafen, .account .btn-mute, .account .btn-settings {
+    background: rgba(0, 0, 0, 0.45);
+    box-shadow: none !important;
+    border-radius: 40px;
+}
