@@ -2069,6 +2069,7 @@ img.image {
 #connecting .attribution, #connecting .connection-status, #connecting .quote {
     margin-bottom: -122px;
     font-size: 30px;
+    text-align: center;
 }
 .theme-dark .friends-table .messages .mentioned .message-text, .theme-dark .messages-wrapper .messages .mentioned .message-text {
     animation: mentioned-pulse 1.5s infinite;
