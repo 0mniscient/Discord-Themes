@@ -1490,6 +1490,7 @@ a:link {
     border: 1px solid;
     border-color: transparent;
     border-radius: 6px;
+    cursor: pointer;
 }
 #bd-ps-body table tr:hover {
     background-color: #3DA9A9;
