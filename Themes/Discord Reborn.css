@@ -810,7 +810,7 @@ textarea {
     box-shadow: inset -10px 0px 20px -10px rgba(0, 0, 0, 0.2);
 }
 .guild-header ul {
-    background: rgb(0, 0, 0) !important;
+    background: rgba(0, 0, 0, 0.52) !important;
     transition: transform .5s cubic-bezier(0.18, 0.89, 0.32, 1.28) !important;
     padding-top: 100px;
     top: -56px;
@@ -2111,4 +2111,7 @@ img.image {
 }
 .account .btn-settings:after {
     opacity: .3;
+}
+.guild-header ul li:hover a {
+    background-color: hsla(0, 0%, 0%, 0.78);
 }
