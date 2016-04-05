@@ -1040,10 +1040,9 @@ textarea {
     display: none;
 }
 .spoiler:before {
+    padding-top: 7px;
+    padding-bottom: 3px;
     min-height: 18px;
-    padding-top: 2px;
-    border-radius: 5px;
-    background: rgba(25, 25, 25, 0.7);
 }
 #twitchcord-button {
     background-size: 24px;
@@ -1486,15 +1485,10 @@ a:link {
     color: #3DA9A9;
 }
 .spoiler {
-    Background-color: #1E2124;
+    Background-color: rgba(125, 58, 114, 0.28);
     border: 1px solid;
     border-color: transparent;
     border-radius: 6px;
-}
-.spoiler:before {
-    background: #1E2124;
-    min-height: 0px;
-    padding-top: 14px;
 }
 #bd-ps-body table tr:hover {
     background-color: #3DA9A9;
