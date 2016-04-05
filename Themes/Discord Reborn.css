@@ -1043,6 +1043,7 @@ textarea {
     padding-top: 7px;
     padding-bottom: 3px;
     min-height: 18px;
+    Background: none;
 }
 #twitchcord-button {
     background-size: 24px;
