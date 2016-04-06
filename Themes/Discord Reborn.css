@@ -2059,31 +2059,6 @@ img.image {
      webkit-animation: pulse 1.5s infinite;
     animation: pulse 1.5s infinite;
 }
-.theme-dark .friends-table .messages .mentioned .message-text, .theme-dark .messages-wrapper .messages .mentioned .message-text {
-    animation: mentioned-pulse 1.5s infinite;
-}
-@-webkit-keyframes mentioned-pulse {
-    0% {
-    box-shadow: 0 0 0 0 #fab81a;
-    }
-    70% {
-    box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0)
-    }
-    to {
-    box-shadow: 0 0 0 0 rgba(241, 71, 71, 0)
-    }
-}
-@keyframes mentioned-pulse {
-    0% {
-    box-shadow: 0 0 0 0 #fab81a;
-    }
-    70% {
-    box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0)
-    }
-    to {
-    box-shadow: 0 0 0 0 rgba(241, 71, 71, 0)
-    }
-}
 @-webkit-keyframes pulse {
     0% { -webkit-transform: scale(1); }
     50% { -webkit-transform: scale(1.1); }
