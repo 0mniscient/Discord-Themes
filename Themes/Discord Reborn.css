@@ -1043,7 +1043,7 @@ textarea {
     padding-top: 7px;
     padding-bottom: 3px;
     min-height: 18px;
-    Background: none;
+    background: none;
 }
 #twitchcord-button {
     background-size: 24px;
@@ -1892,7 +1892,7 @@ span.discriminator:hover {
     border-color: rgba(0, 0, 0, 0.35);
 }
 .invite-button-icon {
-   background-color: rgba(0, 0, 0, 0.62);
+    background-color: rgba(0, 0, 0, 0.62);
     border: 1px solid #000000;
 }
 .private-channels .channel .icon-friends {
@@ -1909,10 +1909,6 @@ span.discriminator:hover {
 }
 .upload-modal .footer .button {
     background-color: #3DA9A9;
-}
-.upload-modal .footer .button-primary {
-    color: #3DA9A9;
-    background-color: #fff;
 }
 .upload-modal .footer .button-primary {
     color: #3DA9A9;
@@ -1985,7 +1981,10 @@ div.control-group .shortcut-recorder input[type=text] {
     transform: translateZ(0px);
 }
 .offline {
-    background-color: #FA1A1A;
+    background-color: #982929;
+}
+.status-offline {
+    background-color: #982929;
 }
 @-webkit-keyframes friend-request-pulse {
     0% {
@@ -2029,16 +2028,6 @@ img.image {
     box-shadow: none !important;
     border-radius: 40px;
 }
-#voice-connection .btn {
-    background: rgba(0, 0, 0, 0.45);
-    box-shadow: none !important;
-    border-radius: 40px;
-}
-.account .btn-deafen, .account .btn-mute, .account .btn-settings {
-    background: rgba(0, 0, 0, 0.45);
-    box-shadow: none !important;
-    border-radius: 40px;
-}
 #connecting {
     background: rgba( 0, 0, 0,.80);
 }
@@ -2067,7 +2056,7 @@ img.image {
     margin-bottom: -122px;
     font-size: 30px;
     text-align: center;
-    webkit-animation: pulse 1.5s infinite;
+     webkit-animation: pulse 1.5s infinite;
     animation: pulse 1.5s infinite;
 }
 .theme-dark .friends-table .messages .mentioned .message-text, .theme-dark .messages-wrapper .messages .mentioned .message-text {
