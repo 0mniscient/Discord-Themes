@@ -1613,7 +1613,7 @@ a:link {
         right: 0;
     }
 }
-.theme-dark .chat .title-wrap .channel-mute-button:hover {
+.header-toolbar button span:hover {
     animation: swing 4s infinite linear;
     -webkit-animation: swing 4s infinite linear;
 }
