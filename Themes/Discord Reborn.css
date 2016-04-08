@@ -2082,3 +2082,6 @@ img.image {
 .markdown-modal .markdown-modal-header {
     border-bottom: 1px solid #1A1E1F;
 }
+.theme-dark .header-toolbar button.active {
+    background-color: #3DA9A9;
+}
