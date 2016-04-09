@@ -2085,3 +2085,28 @@ img.image {
 .theme-dark .header-toolbar button.active {
     background-color: #3DA9A9;
 }
+#pubs-header {
+    background: #3DA9A9;
+}
+.server-icon {
+    border-radius: 30px;
+}
+.server-info span {
+    color: #fff;
+}
+.server-row:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.92);
+}
+.server-row {
+    background-color: rgba(0, 0, 0, 0.88);
+}
+.server-info button {
+    border-radius: 5px;
+    background-color: #3DA9A9;
+}
+.server-info button:hover {
+    background-color: #2C7E7B;
+}
+#pubs-footer {
+    background: #3DA9A9;
+}
