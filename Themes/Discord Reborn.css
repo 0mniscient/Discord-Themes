@@ -2094,11 +2094,11 @@ img.image {
 .server-info span {
     color: #fff;
 }
-.server-row:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.92);
-}
 .server-row {
-    background-color: rgba(0, 0, 0, 0.88);
+    background-color: rgba(12, 12, 12, 0.88);
+}
+.server-row:nth-child(odd) {
+    background-color: rgba(21, 21, 21, 0.95)
 }
 .server-info button {
     border-radius: 5px;
