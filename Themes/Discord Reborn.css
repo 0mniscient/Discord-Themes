@@ -2113,3 +2113,10 @@ img.image {
 #pubs-container {
     background: #2D2D2D;
 }
+#bd-customcss-attach-controls {
+    border: 1px solid #3DA9A9;
+    border-top: 0px solid #3DA9A9;
+}
+#bd-customcss-attach-controls, #bd-customcss-detach-controls {
+    background: #2E3136;
+}
