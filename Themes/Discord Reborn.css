@@ -1613,7 +1613,7 @@ a:link {
         right: 0;
     }
 }
-.header-toolbar button span:hover {
+.header-toolbar button[data-reactid=".0.1.1.0.2.0.4.0:0"]:hover {
     animation: swing 4s infinite linear;
     -webkit-animation: swing 4s infinite linear;
 }
