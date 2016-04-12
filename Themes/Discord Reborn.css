@@ -1309,7 +1309,7 @@ textarea {
     border: 3px solid rgba(211, 5, 5, 0) !important;
 }
 .tab-bar.SIDE .tab-bar-item:before {
-    border-left: 4px solid #3DA9A9;
+    border-left: none;
 }
 a:link {
     color: #3DA9A9;
@@ -2119,4 +2119,12 @@ img.image {
 }
 #bd-customcss-attach-controls, #bd-customcss-detach-controls {
     background: #2E3136;
+}
+.tab-bar.SIDE .tab-bar-item.selected, .tab-bar.SIDE .tab-bar-item:hover {
+    border-bottom: 3px solid #3DA9A9;
+    background: #2E3136;
+}
+.tab-bar.SIDE .tab-bar-item:hover {
+    font-weight: 500;
+    background: rgb(46, 49, 54);
 }
