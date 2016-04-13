@@ -16,9 +16,18 @@ _______/\\\\\___________________________________________________________________
     background-image: url("https://imgur.com/RG03PyX.png") !important;
     background-size: cover !important;
 }
-
+.callout-backdrop {
+    background-color: rgb(0, 0, 0) !important;
+    background-image: url("https://imgur.com/RG03PyX.png") !important;
+    -webkit-filter: blur(2px) grayscale(50%);
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    background-size: cover !important;
+}
 .Select-control {
-    background: #2E3136;
+    background: rgba(0, 0, 0, 0.62);
     border: #3DA9A9;
     border-color: #3DA9A9 #3DA9A9 #3DA9A9;
 }
@@ -36,14 +45,14 @@ _______/\\\\\___________________________________________________________________
 }
 .slider-handle,
 .slider-handle span {
-    background-color: #393C42;
+    background-color: rgb(21, 21, 21);
 }
 .form .control-group .Select-control .Select-placeholder {
     color: #787A7B;
 }
 .tab-bar.SIDE {
     overflow-y: hidden;
-    background-color: #25282B;
+    background-color: rgba(0,0,0,0.8);
 }
 .create-guild-container .join-server .link-container input {
     border: 1px solid #3DA9A9;
@@ -69,7 +78,7 @@ _______/\\\\\___________________________________________________________________
     color: #3DA9A9;
 }
 .settings .settings-inner {
-    background-color: #36393e;
+    background-color: rgba(0, 0, 0, 0.70);
 }
 .notification-settings-modal .mute-server .checkbox .label {
     color: #fff;
@@ -199,14 +208,14 @@ _______/\\\\\___________________________________________________________________
     border-top-color: #3DA9A9;
 }
 .region-select-modal {
-    background: #36393e;
+    background: rgba(0, 0, 0, 0.75);
 }
 .region-select-modal .region-select-modal-header {
     color: #3DA9A9;
 }
 .region-select-modal .region-select-modal-option {
-    background-color: #2e3338;
-    border: 2px solid #25292d;
+    background-color: rgba(0, 0, 0, 0.48);
+    border: 2px solid rgba(0, 0, 0, 0.35);
 }
 .region-select-modal .region-select-modal-option:hover {
     border-color: #3DA9A9;
@@ -218,7 +227,7 @@ _______/\\\\\___________________________________________________________________
     box-shadow: 0 2px 1px #3DA9A9;
 }
 .change-log {
-    background: #282D2F;
+    background: rgba(0, 0, 0, 0.75);
 }
 .change-log .header {
     color: #2C7E7B;
@@ -231,9 +240,6 @@ _______/\\\\\___________________________________________________________________
     border-top: 1px solid #4C4C4C;
     color: #2C7E7B;
     background-color: #282D2F;
-}
-.callout-backdrop {
-    background-color: rgb(0, 0, 0) !important;
 }
 .download-apps .platforms .platform {
     border: 2px solid #2C7E7B;
@@ -268,28 +274,25 @@ _______/\\\\\___________________________________________________________________
 .modal-content .form-inner p {
     color: #E6E6E6;
 }
-.form .form-inner {
-    background: #34383e;
-}
 .form .form-actions {
     border-top: 1px solid #414958;
 }
 .form .form-header {
-    background: #353940;
-    border-bottom: 1px solid #494C50;
+    background: rgba(0,0,0,0.85);
+    border-bottom: 1px solid #171717;
 }
 .popout header {
     background-color: #3DA9A9;
 }
 .popout section {
-    background-color: hsl(218, 7%, 23%);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 #voice-connection-popout hr {
     border: 1px solid #4C4C4C;
 }
 .small-popout-box {
-    background: #282B30;
-    border: 1px solid #24272B;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.28);
 }
 .option-popout .btn-item:hover {
     color: #BBBBBB;
@@ -329,19 +332,19 @@ _______/\\\\\___________________________________________________________________
     background: #3DA9A9;
 }
 .clipboard-input-inner button {
-    border-left: 1px solid #424549;
-    background-color: #282B30;
+    border-left: 1px solid rgba(0, 0, 0, 0.69);
+    background-color: rgba(0, 0, 0, 0.83);
 }
 .clipboard-input-inner input {
     color: #2C7E7B;
-    background: #424549;
+    background: rgba(0, 0, 0, 0.6);
 }
 .clipboard-input-inner {
-    background: #1C1E22;
-    border: 1px solid #2E3136;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 .clipboard-input-inner button:first-of-type:before {
-    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #313131);
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), rgba(0, 0, 0, 0.79));
 }
 ::selection {
     color: #fff;
@@ -364,7 +367,7 @@ _______/\\\\\___________________________________________________________________
     border: #51555F;
 }
 #settings-roles .roles header {
-    border-bottom: 1px solid #2A2C31;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.47);
 }
 #settings-roles .roles {
     border-right: 1px solid #3DA9A9;
@@ -406,7 +409,8 @@ _______/\\\\\___________________________________________________________________
     position: relative;
 }
 .checkbox .checkbox-inner span {
-    border: 2px solid #8E8E8E;
+    border: 2px solid rgba(0, 0, 0, 0.41);
+    background: rgba(0, 0, 0, 0.44);
 }
 .form .control-group .help-text {
     color: #B6BBC1;
@@ -441,7 +445,7 @@ _______/\\\\\___________________________________________________________________
     color: #CECECE;
 }
 .guild-settings-modal-members .guild-settings-modal-members-header {
-    border-bottom: 1px solid #2E3136;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.36);
 }
 #autocomplete-popout .empty:hover {
     background-color: #2E3136;
@@ -456,7 +460,7 @@ _______/\\\\\___________________________________________________________________
     border-bottom-color: #3DA9A9;
 }
 .guild-settings-modal .guild-settings-modal-search {
-    border: 1px solid #2E3136;
+    border: 1px solid rgba(0, 0, 0, 0.4);
 }
 .guild-settings-modal .guild-settings-modal-search:focus {
     border: 1px solid #24272b;
@@ -468,7 +472,7 @@ _______/\\\\\___________________________________________________________________
     color: #2C7E7B;
 }
 .guild-settings-modal-members .guild-settings-modal-members-footer {
-    border-top: 1px solid #2E3136;
+    border-top: 1px solid rgba(0, 0, 0, 0.36);
 }
 #settings-roles .roles li:hover {
     background: none;
@@ -494,7 +498,7 @@ _______/\\\\\___________________________________________________________________
     background-color: #3DA9A9;
 }
 #user-profile-modal .scroller {
-    background: #2E3136;
+    background: rgba(0, 0, 0, 0.83);
 }
 #user-profile-modal .friends .friend:hover {
     background: #26292D;
@@ -504,7 +508,8 @@ _______/\\\\\___________________________________________________________________
     color: #2C7E7B;
 }
 #user-profile-modal footer {
-    background: #1e2124;
+    background: rgba(0, 0, 0, 0.83);
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
 }
 #user-profile-modal footer button {
     color: #3DA9A9
@@ -699,8 +704,8 @@ _______/\\\\\___________________________________________________________________
     border-bottom: 1px solid #404040;
 }
 .user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .btn {
-    background: #2E3136;
-    border: 2px solid #282B2F;
+    background: rgba(0, 0, 0, 0.57);
+    border: 2px solid rgba(0, 0, 0, 0.23);
     background-repeat: no-repeat;
     background-position: 50%;
 }
@@ -1197,7 +1202,7 @@ textarea {
     width: 30px;
 }
 .settings .settings-header {
-    background: #1a1d20 !important;
+    background: none !important;
 }
 .channel-notification-settings .content .content-inner {
     background: transparent !important;
@@ -1232,7 +1237,7 @@ textarea {
     color: #282B30;
 }
 .form .form-inner {
-    background-color: #282B30;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .form header {
     color: #3DA9A9;
@@ -1241,8 +1246,8 @@ textarea {
 .form .control-group input[type=password],
 .form .control-group input[type=text],
 .form .control-group textarea {
-    background: #32353A;
-    color: #90A0AA;
+    background: rgba(0, 0, 0, 0.69);
+    color: #B7B7B7;
     border-bottom: 1px solid #232529;
     border-radius: 3px;
 }
@@ -1253,15 +1258,15 @@ textarea {
     border-bottom: 2px solid #3DA9A9;
 }
 .region-select {
-    background: #32353A;
+    background: transparent;
 }
 .region-select .region-select-inner {
-    background: #32353A;
-    border: 1px solid #232529;
+    background: rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(0, 0, 0, 0.24);
 }
 .region-select button {
-    background-color: #32353A;
-    border: 1px solid #232529;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.28);
     color: #3DA9A9;
 }
 .region-select:hover .region-select-inner,
@@ -1279,14 +1284,16 @@ textarea {
     border: 5px solid #2C7E7B;
 }
 .form .form-actions {
-    background-color: #282B30;
-    border-top: 1px solid #232529;
+    background-color: rgba(0,0,0,0.85);
+    border-top: 1px solid #171717;
 }
 .form .btn-default {
-    background-color: #282B30;
-    border-bottom: 2px solid #282B30;
-    border-radius: 5px;
-    width: 62px;
+    background-color: rgba(0, 0, 0, 0.77);
+    padding:10px 0 !important;
+    width: 75px;
+    height: 35.5px;
+    border-radius: 3px;
+    border-bottom: none;
 }
 .form .btn-primary {
     background-color: #3DA9A9;
@@ -1317,13 +1324,12 @@ a:link {
 .user-settings-modal a {
     color: #3DA9A9;
 }
-.user-settings-modal .settings-wrapper,
-.user-settings-modal .voice-settings {
-    background: #2E3136;
+.user-settings-modal .settings-wrapper,.user-settings-modal .voice-settings {
+    background: none;
 }
 .settings .settings-actions {
-    background-color: #2E3136;
-    border-top: 1px solid #3DA9A9;
+    background-color: rgba(0, 0, 0, 0.76);
+    border-top: 2px solid #3DA9A9;
 }
 .checkbox .checkbox-inner+span {
     color: #fff
@@ -1338,10 +1344,11 @@ a:link {
     color: rgba(222, 222, 222, 0.59);
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations {
-    border: 1px solid #404040;
+    border: 2px solid rgba(0, 0, 0, 0.45);
+    border-top: transparent;
 }
 .user-settings-modal-connections .user-settings-modal-connections-list {
-    box-shadow: 0 -1px #404040;
+    box-shadow: 0 -1px rgba(0, 0, 0, 0.37);
 }
 .tab-bar.TOP .tab-bar-item.selected {
     border-bottom: 2px solid #3DA9A9;
@@ -1361,7 +1368,7 @@ a:link {
     border: 1px solid #3DA9A9;
 }
 .radio .radio-inner {
-    background: #454950;
+    background: rgba(0, 0, 0, 0.64);
     border: 2px solid #3DA9A9;
 }
 .tab-bar.TOP {
@@ -1468,16 +1475,6 @@ a:link {
 .private-channels .search-result.selected:before,
 .private-channels .search-result:hover:before {
     border-left: 4px solid #2C7E7B;
-}
-/*[[Onlineon]]*/
-/*[[Onlineoff]]*/
-.channel-members-wrap {
-    min-width: 240px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: box;
-    display: flex;
 }
 .message-group .edit-message .channel-textarea-inner {
     border-color: #3DA9A9;
@@ -1705,11 +1702,11 @@ a:link {
     background-color: #2C7E7B;
 }
 #user-profile-modal .sub-header {
-    background: #2E3136;
+    background: rgba(0, 0, 0, 0.83);
 }
 #user-profile-modal .tab-bar {
-    background: #2E3136;
-    border-bottom: 1px solid #2B2B2B;
+    background: rgba(0, 0, 0, 0.83);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
 #user-profile-modal .btn {
     background-color: #3DA9A9;
@@ -1728,7 +1725,7 @@ a:link {
     background: #292B2F;
 }
 #user-profile-modal .guilds .guild:hover {
-    background: linear-gradient(90deg, #27292D 90%, #2E3136);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.61) 90%, rgba(0, 0, 0, 0));
     color: #D8D8D8;
 }
 #user-profile-modal .empty {
@@ -1823,7 +1820,7 @@ a:link {
     background-color: #3DA9A9;
 }
 .user-popout {
-    opacity: 1;
+    opacity: 0.85;
 }
 .user-settings-modal.settings {
     opacity: 1;
@@ -2076,7 +2073,7 @@ img.image {
     background-color: hsla(0, 0%, 0%, 0.78);
 }
 .markdown-modal .markdown-modal-footer {
-    background-color: #232729;
+    background-color: rgba(0, 0, 0, 0.3);
     border-top: 1px solid #1A1E1F;
 }
 .markdown-modal .markdown-modal-header {
@@ -2120,11 +2117,75 @@ img.image {
 #bd-customcss-attach-controls, #bd-customcss-detach-controls {
     background: #2E3136;
 }
-.tab-bar.SIDE .tab-bar-item.selected, .tab-bar.SIDE .tab-bar-item:hover {
-    border-bottom: 3px solid #3DA9A9;
-    background: #2E3136;
+.tab-bar.SIDE .tab-bar-item.selected {
+    border-bottom: 2px solid #3DA9A9;
+    background: rgba(0, 0, 0, 0.69);
 }
 .tab-bar.SIDE .tab-bar-item:hover {
     font-weight: 500;
-    background: rgb(46, 49, 54);
+    border-bottom: 2px solid #3DA9A9;
+    background: rgba(0, 0, 0, 0.48);
+    opacity: 0.85;
+}
+.notice {
+    background-color: rgba(251, 81, 0, 0.68);
+}
+.channel-members .member[data-reactid*=".0.1.1.0.2.1.1.0.0.1:1:$102180837625200640"] {
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.53);
+    border-radius: 10px;
+}
+.channel-members .member[data-reactid*=".0.1.1.0.2.1.1.0.0.1:1:$102180837625200640"]:hover {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+.emoji-picker .scroller .emoji-item.selected {
+    background-color: #3DA9A9;
+    border-radius: 3px;
+}
+.emoji-picker .dimmer {
+    background-color: transparent;
+}
+.emoji-picker .search-bar input {
+    background-color: rgba(32, 32, 32, 0.46);
+} 
+.emoji-picker .sticky-header {
+    background-color: transparent;
+} 
+.emoji-picker .categories .item.selected {
+    border-bottom-color: #3DA9A9;;
+}
+.emoji-picker .categories .item.people {
+    background-image: url(https://discordapp.com/assets/0509bf058793ef8ddd770a977e63614c.svg);
+}
+.emoji-picker .categories .item.nature {
+    background-image: url(https://discordapp.com/assets/aafe899a4d7ad7717acc64f5b8f36342.svg);
+}
+.emoji-picker .categories .item.food {
+    background-image: url(https://discordapp.com/assets/0eb5a2b715ff649e9757a232996817ab.svg);
+}
+.emoji-picker .categories .item.activity {
+    background-image: url(https://discordapp.com/assets/8674c1028a63d29fb605be53eeedf1bf.svg);
+}
+.emoji-picker .categories .item.travel {
+    background-image: url(https://discordapp.com/assets/13e86ddf4302f697243425b2f954d00b.svg);
+}
+.emoji-picker .categories .item.objects {
+    background-image: url(https://discordapp.com/assets/6d9a5b47dc3bf7adf54f19b1e3f6c5ad.svg);
+}
+.emoji-picker .categories .item.symbols {
+    background-image: url(https://discordapp.com/assets/83095e6af6c7cf33669e3ab169296867.svg);
+}
+.emoji-picker .categories .item.flags {
+    background-image: url(https://discordapp.com/assets/ccda5cf0a64abbd18fdb9f914b55292e.svg);
+}
+.emoji-picker .categories .item.recent {
+    background-image: url(https://discordapp.com/assets/0f1f2dff98b5e2099086e303d9be0dad.svg);
+}
+.theme-dark .chat .title-wrap .topic .highlight:hover {
+    background-color: rgb(61, 169, 169);
+    border-radius: 4px;
+}
+.theme-dark .chat .title-wrap .topic .highlight {
+    border-radius: 4px;
 }
