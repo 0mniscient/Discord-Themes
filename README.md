@@ -9,4 +9,5 @@ For <b>OLD</b> version of Discord Reborn <a href="https://skidpaste.org/N5ClcJFh
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/Chaotiic/Discord-Themes-and-Plugins/blob/master/Themes/Discord%20Rebirth.css">Discord Rebirth</a></div></b></font>
 <b>Description:</b><i> A cozy modern dark theme most time ever spent on a theme. 98% of the theme darkened like it should be.</i> </b><br>Want to change the color of the theme? <a href="http://pastebin.com/jNQLS005">CLICK ME</a><br>
 For <b>WEB</b> version of Discord only! <a href="https://userstyles.org/styles/125412/discord-rebirth">Click Me</a>
-<img href="https://github.com/Chaotiic/Discord-Themes-and-Plugins/blob/master/Themes/Dark%20Mode%20Rebirth.css" src="https://i.imgur.com/lPdrdDe.png"></img>
+<img href="https://github.com/Chaotiic/Discord-Themes-and-Plugins/blob/master/Themes/Dark%20Mode%20Rebirth.css" src="https://i.imgur.com/lPdrdDe.png"></img><br>
+>WARNING: This theme is currently optimized for dark appearance settings. The light version works, but it is more prone to bugs and looks horrendous. In its current state, it is recommended to use the dark theme until further notice.
