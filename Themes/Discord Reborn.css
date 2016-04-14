@@ -409,8 +409,8 @@ _______/\\\\\___________________________________________________________________
     position: relative;
 }
 .checkbox .checkbox-inner span {
-    border: 2px solid rgba(0, 0, 0, 0.41);
-    background: rgba(0, 0, 0, 0.44);
+    background: rgba(0, 0, 0, 0.2);
+    transition: .2s linear all !important;
 }
 .form .control-group .help-text {
     color: #B6BBC1;
@@ -1357,6 +1357,7 @@ a:link {
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     background-color: #3DA9A9 !important;
     border-color: #3DA9A9 !important;
+    transition: .2s ease-in-out all !important;
 }
 .radio .radio-inner span:after {
     background: #3DA9A9;
@@ -2210,4 +2211,45 @@ img.image {
 .form .control-group .Select-option.is-focused {
     background: rgba(0, 0, 0, 0.59);
     color: #FFFFFF;
+}
+.checkbox .checkbox-inner.alt input[type=checkbox]:checked+span:after {
+    border-color: white !important;
+}
+.checkbox .checkbox-inner {
+    width: 40px;
+    height: 20px;
+	background-color: black !important;
+    border-radius: 40px;
+}
+
+.checkbox .checkbox-inner span {
+    border-radius: 40px !important;
+    transition: 0s !important;
+}
+
+.checkbox .checkbox-inner input:checked + span {
+    background-color: black !important;
+    border: 2px solid #1ED760 !important;
+}
+
+.checkbox .checkbox-inner input + span {
+    border: 2px solid white;
+}
+
+.checkbox .checkbox-inner input:checked + span:after {
+    border-radius: 50% !important;
+    display: block !important;
+    background-color: #FFFFFF;
+    width: 18px !important;
+    height: 18px !important;
+    left: 18px !important;
+    top: -2px !important;
+}
+
+.checkbox .checkbox-inner:before {
+    border-radius: 50% !important;
+    display: block !important;
+    background-color: #3DA9A9;
+    width: 19px !important;
+    height: 19px !important;
 }
