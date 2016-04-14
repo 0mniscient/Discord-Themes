@@ -1729,7 +1729,7 @@ a:link {
     color: #D8D8D8;
 }
 #user-profile-modal .empty {
-    background: #2E3136;
+    background: rgba(0, 0, 0, 0.83);
 }
 /*[[Hidden]]*/
 /*[[Visible]]*/
