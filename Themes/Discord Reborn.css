@@ -41,7 +41,7 @@ _______/\\\\\___________________________________________________________________
     border: 1px solid #3DA9A9;
 }
 .slider-bar {
-    background: #393C42;
+    background: rgba(0, 0, 0, 0.44);
 }
 .slider-handle,
 .slider-handle span {
@@ -698,7 +698,7 @@ _______/\\\\\___________________________________________________________________
     border-color: #43B581;
 }
 .sensitivity .slider .slider-bar-auto {
-    background-color: #393C42;
+    background-color: rgba(0, 0, 0, 0.44);
 }
 .user-settings-modal-keybinds .user-settings-modal-keybinds-header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.44);
