@@ -2189,3 +2189,7 @@ img.image {
 .theme-dark .chat .title-wrap .topic .highlight {
     border-radius: 4px;
 }
+.markdown-modal {
+    background-color: rgba(0, 0, 0, 0.79);
+    color: #A3A3A3;
+}
