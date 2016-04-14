@@ -701,7 +701,7 @@ _______/\\\\\___________________________________________________________________
     background-color: #393C42;
 }
 .user-settings-modal-keybinds .user-settings-modal-keybinds-header {
-    border-bottom: 1px solid #404040;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.44);
 }
 .user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .btn {
     background: rgba(0, 0, 0, 0.57);
@@ -2192,4 +2192,22 @@ img.image {
 .markdown-modal {
     background-color: rgba(0, 0, 0, 0.79);
     color: #A3A3A3;
+}
+.form .control-group .Select.is-disabled .Select-control:hover, .form .control-group .Select.is-open .Select-control:hover {
+    border-color: rgba(0, 0, 0, 0.51);
+}
+.is-open>.Select-control {
+    background: rgba(0, 0, 0, 0.62);
+}
+.Select-menu-outer {
+    background-color: rgba(0, 0, 0, 0.79);
+    border: 1px solid rgba(0, 0, 0, 0.51);
+    border-top-color: rgba(0, 0, 0, 0.51);
+}
+.form .control-group .Select-option {
+    color: #BDBDBD;
+}
+.form .control-group .Select-option.is-focused {
+    background: rgba(0, 0, 0, 0.59);
+    color: #FFFFFF;
 }
