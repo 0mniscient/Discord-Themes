@@ -1,4 +1,4 @@
-#<DIV ALIGN=CENTER>Quality Themes and Plugins</div><br><div align=right><br>
+#<DIV ALIGN=CENTER>Quality Themes</div><br><div align=right><br>
 <li><i>All <b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i>All <b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/Chaotiic/Discord-Themes-and-Plugins/blob/master/Themes/Discord%20Reborn.css">Discord Reborn</a></div></b></font>
