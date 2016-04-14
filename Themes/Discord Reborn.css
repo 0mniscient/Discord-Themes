@@ -671,8 +671,8 @@ _______/\\\\\___________________________________________________________________
     background-position: 55px 0px;
 }
 .user-settings-modal-games {
-    background: #2E3136;
-    border-top: 1px solid #404040;
+    background: transparent;
+    border-top: 1px solid rgba(0,0,0,0.4);
     color: #E2E2E3;
 }
 .user-settings-modal-games .games-table .games-row .item-game .last-played {
@@ -682,10 +682,10 @@ _______/\\\\\___________________________________________________________________
     color: #E2E2E3;
 }
 .user-settings-modal-games .games-table .games-row .item-game {
-    border-bottom: 1px solid #404040;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
 }
 .user-settings-modal-games .games-table .games-row .item-overlay {
-    border-bottom: 1px solid #404040;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
 }
 .now-playing {
     background: #3DA9A9;
@@ -2115,7 +2115,7 @@ img.image {
     border-top: 0px solid #3DA9A9;
 }
 #bd-customcss-attach-controls, #bd-customcss-detach-controls {
-    background: #2E3136;
+    background: transparent;
 }
 .tab-bar.SIDE .tab-bar-item.selected {
     border-bottom: 2px solid #3DA9A9;
