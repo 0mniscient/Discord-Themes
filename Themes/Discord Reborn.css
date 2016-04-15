@@ -2253,3 +2253,13 @@ img.image {
     width: 19px !important;
     height: 19px !important;
 }
+.tab-bar.SIDE .tab-bar-item {
+    transition: .2s ease-in-out all;
+}
+span.replyer:hover {
+    background: #2A7575 !important;
+}
+span.replyer {
+    border-radius: 3px;
+    transition: .3s ease-in-out all;
+}
