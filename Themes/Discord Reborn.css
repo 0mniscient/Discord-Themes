@@ -2093,10 +2093,10 @@ img.image {
     color: #fff;
 }
 .server-row {
-    background-color: rgba(12, 12, 12, 0.88);
+    background-color: rgb(0, 0, 0);
 }
 .server-row:nth-child(odd) {
-    background-color: rgba(21, 21, 21, 0.95)
+    background-color: rgba(0, 0, 0, 0.38);
 }
 .server-info button {
     border-radius: 5px;
@@ -2109,7 +2109,7 @@ img.image {
     background: #3DA9A9;
 }
 #pubs-container {
-    background: #2D2D2D;
+    background: rgba(0,0,0,0.8);
 }
 #bd-customcss-attach-controls {
     border: 1px solid #3DA9A9;
@@ -2257,9 +2257,13 @@ img.image {
     transition: .2s ease-in-out all;
 }
 span.replyer:hover {
-    background: #2A7575 !important;
+    background: #3DA9A9 !important;
 }
 span.replyer {
     border-radius: 3px;
     transition: .3s ease-in-out all;
+}
+.server-info button {
+    width: 60px;
+    height: 34px;
 }
