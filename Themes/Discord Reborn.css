@@ -2272,3 +2272,7 @@ span.replyer {
     opacity: 0.6;
     transition: .3s ease-in-out all;
 }
+.server-row:hover {
+    opacity: 0.95;
+    cursor: pointer;
+}
