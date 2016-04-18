@@ -572,7 +572,7 @@ Hover Color: #2C7E7B; */
 }
 #autocomplete-popout .row.selected,
 #autocomplete-popout .row:hover {
-    background: linear-gradient(90deg, #36393F, #303238);
+    background: rgba(0, 0, 0, 0.85);
 }
 .download-apps .platforms .platform.active p {
     color: #3DA9A9;
