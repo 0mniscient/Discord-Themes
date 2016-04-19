@@ -520,7 +520,7 @@ Hover Color: #2C7E7B; */
 .avatar-large {
     width: 33px;
     height: 33px;
-    background-size: 33px 33px;
+    background-size: 33px 33px !important;
     left: 8px;
 }
 .channel-textarea {
