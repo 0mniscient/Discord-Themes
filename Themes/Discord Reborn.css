@@ -2279,3 +2279,6 @@ span.replyer {
     opacity: 0.95;
     cursor: pointer;
 }
+.chat>.content .messages .message-group:hover h2 span.timestamp {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
