@@ -2284,3 +2284,6 @@ span.replyer {
 .chat>.content .messages .message-group:hover h2 span.timestamp {
     color: rgba(255, 255, 255, 0.7) !important;
 }
+.streamer-mode-enabled {
+    background: transparent;
+}
