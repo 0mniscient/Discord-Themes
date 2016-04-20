@@ -2296,3 +2296,6 @@ span.replyer {
 .channel-textarea-inner textarea {
     color: #ABABAB ;
 }
+.chat>.title-wrap>.title .channel-name {
+    color: #9A9A9A;
+}
