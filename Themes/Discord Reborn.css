@@ -2293,3 +2293,6 @@ span.replyer {
 .chat .empty-message {
     border-color: rgba(0, 0, 0, 0.75);
 }
+.channel-textarea-inner textarea {
+    color: #ABABAB ;
+}
