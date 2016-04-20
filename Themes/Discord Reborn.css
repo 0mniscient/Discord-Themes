@@ -738,7 +738,7 @@ Hover Color: #2C7E7B; */
     background-size: 178.5px 78px;
 }
 .links:after {
-    content: "Chaotiic";
+    content: "Omniscient";
     color: #8C8F94;
     margin-left: 9px;
     font-weight: bold;
@@ -2136,15 +2136,6 @@ img.image {
 .notice {
     background-color: rgba(251, 81, 0, 0.68);
 }
-.channel-members .member[data-reactid*=".0.1.1.0.2.1.1.0.0.1:1:$102180837625200640"] {
-    position: absolute;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.53);
-    border-radius: 10px;
-}
-.channel-members .member[data-reactid*=".0.1.1.0.2.1.1.0.0.1:1:$102180837625200640"]:hover {
-    background-color: rgba(255, 255, 255, 0.9) !important;
-}
 .emoji-picker .scroller .emoji-item.selected {
     background-color: #3DA9A9;
     border-radius: 3px;
@@ -2298,4 +2289,14 @@ span.replyer {
 }
 .chat>.title-wrap>.title .channel-name {
     color: #9A9A9A;
+}
+.member-username-inner[data-reactid*="102180837625200640"]:after {
+    content: "Omniscient";
+    color: #E81C4F;
+    margin-left: 0px;
+    font-weight: 900;
+    font-size: 120%;
+}
+.member-username-inner[data-reactid*="102180837625200640"] {
+    color: transparent;
 }
