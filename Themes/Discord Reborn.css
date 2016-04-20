@@ -1897,7 +1897,7 @@ span.discriminator:hover {
     border: 1px solid #000000;
 }
 .private-channels .channel .icon-friends {
-    background-color: rgba(21, 21, 21, 0.41) !important;
+    background-color: rgba(21, 21, 21, 0.75) !important;
 }
 .upload-modal {
     background-color: rgba(30, 30, 30, 0.78);
