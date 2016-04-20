@@ -2287,3 +2287,7 @@ span.replyer {
 .streamer-mode-enabled {
     background: transparent;
 }
+.chat>.title-wrap>.separator {
+	background-color: #000;
+}
+}
