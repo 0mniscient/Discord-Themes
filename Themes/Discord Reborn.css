@@ -67,7 +67,7 @@ Hover Color: #2C7E7B; */
     color: #3DA9A9;
 }
 .need-help-modal .footer {
-    background-color: #282b30;
+    background-color: rgba(0, 0, 0, 0.88);
     border-top: 1px solid #1D1F23;
 }
 .need-help-modal .header {
