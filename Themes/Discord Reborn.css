@@ -2290,4 +2290,6 @@ span.replyer {
 .chat>.title-wrap>.separator {
 	background-color: #000;
 }
+.chat .empty-message {
+    border-color: rgba(0, 0, 0, 0.75);
 }
