@@ -2312,3 +2312,6 @@ span.replyer {
     -webkit-filter: invert(100%);
     opacity: 0.5;
 }
+.notice.notice-streamer-mode {
+    background-color: rgba(100, 61, 167, 0.71);
+}
