@@ -2322,3 +2322,7 @@ span.replyer {
     background: rgba(0, 0, 0, 0.52);
     border: 1px solid #000000;
 }
+.streamer-mode-enabled .streamer-mode-enabled-btn {
+    background-color: rgba(100, 61, 167, 0.41);
+    transition: .3s all ease-in-out;
+}
