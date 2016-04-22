@@ -2315,3 +2315,7 @@ span.replyer {
 .notice.notice-streamer-mode {
     background-color: rgba(100, 61, 167, 0.71);
 }
+.theme-dark .chat .has-more button {
+    background: rgba(0, 0, 0, 0.52);
+    border: 1px solid #000000;
+}
