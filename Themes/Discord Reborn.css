@@ -2300,3 +2300,15 @@ span.replyer {
 .member-username-inner[data-reactid*="102180837625200640"] {
     color: transparent;
 }
+.streamer-mode-enabled .streamer-mode-enabled-image {
+    -webkit-filter: invert(100%);
+    opacity: 0.5;
+}
+.user-settings-streamer-mode .user-settings-streamer-mode-image {
+    -webkit-filter: invert(100%);
+    opacity: 0.5;
+}
+.alert.form.has-icon:before {
+    -webkit-filter: invert(100%);
+    opacity: 0.5;
+}
