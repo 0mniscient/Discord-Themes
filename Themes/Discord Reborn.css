@@ -1339,6 +1339,9 @@ a:link {
 }
 .highlight {
     color: #3DA9A9;
+    background: rgba(0, 0, 0, 0.51);
+    border-radius: 3px;
+    transition: .3s all ease-in-out;
 }
 .user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .name {
     color: #fff;
