@@ -2326,3 +2326,9 @@ span.replyer {
     background-color: rgba(100, 61, 167, 0.41);
     transition: .3s all ease-in-out;
 }
+.auth-inner .auth-brand {
+    background: hsla(0, 0%, 0%, 0.8);
+}
+form.auth-form {
+    background: rgba(0, 0, 0, 0.56);
+}
