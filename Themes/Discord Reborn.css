@@ -2373,3 +2373,9 @@ form.auth-form {
 #friends .friends-empty.section-online .empty-state-image {
     opacity: 0.5;
 }
+.message-group .comment .markup {
+    color: #8A8A8A;
+}
+.message-group h2 .timestamp {
+    color: #B4B5B5;
+}
