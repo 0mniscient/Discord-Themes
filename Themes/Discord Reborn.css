@@ -2282,7 +2282,7 @@ span.replyer {
     background: transparent;
 }
 .chat>.title-wrap>.separator {
-	background-color: #000;
+    background-color: #000;
 }
 .chat .empty-message {
     border-color: rgba(0, 0, 0, 0.75);
@@ -2331,4 +2331,45 @@ span.replyer {
 }
 form.auth-form {
     background: rgba(0, 0, 0, 0.56);
+}
+.modal-new-user>.steps {
+    background: rgba(0, 0, 0, 0.85);
+}
+.modal-new-user h5 {
+    color: #3DA9A9;
+}
+#friends .friends-table .friends-table-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+}
+#friends .friends-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.44);
+    box-shadow: none;
+}
+#friends .friends-header .tab-bar .tab-bar-item.selected {
+    background-color: #43B581;
+    color: #fff;
+}
+#friends .friends-table .friends-table-header .friends-column-separator {
+    background-color: rgba(0, 0, 0, 0.54);
+}
+#friends .friends-empty p {
+    color: rgba(195, 195, 195, 0.4);
+}
+.tutorial-popout .button-area .skip-tips a {
+    color: #3DA9A9;
+}
+.button {
+    background-color: #3DA9A9;
+}
+.button:hover {
+    background-color: #2C7E7B;
+}
+#friends .friends-header .tab-bar .tab-bar-separator {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.popout.popout-right header:before {
+    border-right-color: #3DA9A9;
+}
+#friends .friends-empty.section-online .empty-state-image {
+    opacity: 0.5;
 }
