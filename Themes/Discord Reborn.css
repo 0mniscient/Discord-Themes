@@ -1,4 +1,4 @@
-//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscien.t","version":"4.22"}*//
+//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscien.t","version":"4.23"}*//
 /* Better Discord CSS Made By @Omniscien.t */
 /*
 _______/\\\\\________________________________________________________________________________________________________________________________        
@@ -2147,7 +2147,7 @@ img.image {
     background-color: transparent;
 }
 .emoji-picker .search-bar input {
-    background-color: rgba(32, 32, 32, 0.46);
+    background-color: rgba(0, 0, 0, 0.55);
 } 
 .emoji-picker .sticky-header {
     background-color: transparent;
@@ -2378,4 +2378,21 @@ form.auth-form {
 }
 .message-group h2 .timestamp {
     color: #B4B5B5;
+}
+  .emoji-picker {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.55);
+    border: 1px solid hsla(0, 0%, 0%, 0.31);
+    box-shadow: none;
+}
+.emoji-picker .search-bar {
+    background-color: transparent;
+}
+.diversity-selector .popout {
+    background: rgba(23, 23, 23, 0.82);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+.emoji-picker .dimmer.visible {
+    pointer-events: auto;
+    background-color: hsla(0, 0%, 0%, 0.7);
 }
