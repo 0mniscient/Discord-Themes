@@ -740,7 +740,7 @@ Hover Color: #2C7E7B; */
 .links:after {
     content: "Omniscient";
     color: #8C8F94;
-    margin-left: 9px;
+    margin-left: 6px;
     font-weight: bold;
 }
 .links li+li:after {
@@ -806,7 +806,8 @@ textarea {
     background: rgba(0, 0, 0, 0.6) !important
 }
 .channels-wrap {
-    background: rgba(0, 0, 0, 0.75)
+    background: rgba(0, 0, 0, 0.75);
+    width: 220px;
 }
 .content .flex-spacer {
     background: rgba(0, 0, 0, 0.85)
@@ -912,7 +913,7 @@ textarea {
     background: #fff;
 }
 .account {
-    padding: 0 15px !important;
+    padding: 0 4px !important;
     background: rgba(0, 0, 0, 0);
     height: 77px;
     border: 0px solid transparent;
@@ -2148,6 +2149,8 @@ img.image {
 }
 .emoji-picker .search-bar input {
     background-color: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    border: 1px solid rgb(0, 0, 0);
 } 
 .emoji-picker .sticky-header {
     background-color: transparent;
@@ -2395,4 +2398,49 @@ form.auth-form {
 .emoji-picker .dimmer.visible {
     pointer-events: auto;
     background-color: hsla(0, 0%, 0%, 0.7);
+}
+.theme-dark #friends .friends-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+    box-shadow: none;
+}
+.theme-dark #friends .friends-table .friends-table-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+}
+.theme-dark #friends .friends-table .friends-table-header .friends-column-separator {
+    background-color: rgba(0, 0, 0, 0.54);
+}
+.theme-dark #friends .friends-table .friends-table-header .friends-column {
+    color: hsla(0, 0%, 100%, 0.5);
+}
+.theme-dark #friends .friends-table .friends-table-header .friends-column:after {
+    color: hsla(0, 0%, 100%, 0.5);
+}
+.emoji-picker .category {
+    color: #BBBBBB;
+}
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+.emoji-picker .search-bar-clear {
+    background: #FFFFFF;
+}
+.emoji-picker .search-bar-clear:before {
+    background: rgb(0, 0, 0);
+}
+.emoji-picker .search-bar-clear:after {
+    background: #FFFFFF;
+}
+.search-bar-clear:after {
+    background: #FFFFFF;
+}
+.emoji-picker .search-bar-clear.active:after, .emoji-picker .search-bar-clear.active:before {
+    background: rgb(28, 28, 28);
+}
+.emoji-picker .no-search-results .sad-discord {
+    opacity: 0.6;
+    -webkit-filter: invert(90%);
+}
+.emoji-picker .no-search-results {
+    color: #B2B2B2;
 }
