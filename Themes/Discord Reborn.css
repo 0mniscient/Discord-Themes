@@ -1726,12 +1726,6 @@ a:link {
     background-color: #3DA9A9;
     background-image: none;
 }
-.context-menu {
-    background: #2E3136;
-}
-.context-menu .item:hover {
-    background: #292B2F;
-}
 #user-profile-modal .guilds .guild:hover {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.61) 90%, rgba(0, 0, 0, 0));
     color: #D8D8D8;
@@ -1828,7 +1822,7 @@ a:link {
     background-color: #3DA9A9;
 }
 .user-popout {
-    opacity: 0.85;
+    opacity: 1;
 }
 .user-settings-modal.settings {
     opacity: 1;
@@ -2443,4 +2437,62 @@ form.auth-form {
 }
 .emoji-picker .no-search-results {
     color: #B2B2B2;
+}
+.theme-dark.context-menu {
+    background: rgba(0,0,0,0.6);
+    box-shadow: 0 0 1px rgba(0,0,0,.82),0 1px 4px rgba(0,0,0,.1);
+}
+.theme-dark.context-menu:hover {
+    background: rgba(0,0,0,0.69);
+    box-shadow: 0 0 1px rgba(0,0,0,.82),0 1px 4px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+.context-menu {
+    background: rgba(0,0,0,0.6);
+    box-shadow: 0 0 1px rgba(0,0,0,.82),0 1px 4px rgba(0,0,0,.1);
+}
+.context-menu .item:hover {
+    background: rgba(0,0,0,0.69);
+    box-shadow: 0 0 1px rgba(0,0,0,.82),0 1px 4px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+.form .control-group label a {
+    color: #3DA9A9;
+}
+.form .control-group label a:hover {
+    color: #2C7E7B;
+}
+.theme-dark.context-menu .item-subMenu {
+    background: rgba(0,0,0,0.63) url(https://discordapp.com/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
+}
+.theme-dark.context-menu .item-subMenu:hover {
+    background: rgba(0,0,0,0.69) url(https://discordapp.com/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;
+}
+.theme-dark.context-menu .context-menu {
+    background: rgba(0,0,0,0.6);
+    border: 1px solid #000000;
+    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}
+.theme-dark.context-menu .item-group {
+    border-top-color: hsla(0, 0%, 0%, 0.85);
+}
+.user-popout .header {
+    background: #3DA9A9;
+}
+.user-popout .avatar-wrapper .avatar-popout {
+    border: 4px solid #2C7E7B;
+    background-color: #2C7E7B;
+}
+.user-popout .body {
+    background: #000;
+    padding-bottom: 10px;
+}
+.user-popout .footer {
+    background: #000;
+    border-top: 2px #3DA9A9 solid;
+}
+.user-popout .footer .quick-message-wrapper .input {
+    border: 1px solid #1D1D1D;
+    background: #131212;
+    color: #fff;
 }
