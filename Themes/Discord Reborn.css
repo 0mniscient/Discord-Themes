@@ -81,7 +81,7 @@ Hover Color: #2C7E7B; */
     color: #3DA9A9;
 }
 .settings .settings-inner {
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.70) !important;
 }
 .notification-settings-modal .mute-server .checkbox .label {
     color: #fff;
@@ -1398,7 +1398,7 @@ a:link {
     color: #FFFFFF;
 }
 .guild-settings-modal-members .guild-settings-modal-list .member+.member {
-    border-top: 1px solid #2E3136;
+    border-top: 1px solid rgba(0, 0, 0, 0.45);
 }
 .member-roles .member-role .member-role-remove {
     background: url(https://i.imgur.com/O2TX2bn.png) 50% no-repeat;
@@ -2500,4 +2500,46 @@ form.auth-form {
     background: rgba(0,0,0,0.69);
     box-shadow: 0 0 1px rgba(0,0,0,.82),0 1px 4px rgba(0,0,0,.1);
     cursor: pointer;
+}
+.guild-settings-modal-members {
+    background-color: transparent;
+}
+.guild-settings-modal-members .member-buttons .btn:hover {
+    background: #2C7E7B;
+}
+.guild-settings-modal-members .guild-settings-modal-members-header .form .Select .Select-value {
+    color: #DDD;
+}
+
+.is-open>.Select-control {
+    border-color: #000000 #000 #000000;
+}
+.form .Select-control {
+    border: 1px solid #000000;
+}
+.search-bar.search-bar-light input {
+    background-color: transparent;
+    color: #B6B6B6;
+}
+.search-bar.search-bar-light {
+    background-color: rgba(0, 0, 0, 0.58);
+    color: #fff !important;
+    border-radius: 3px;
+}
+.form .Select-option.is-focused {
+    background: rgba(0, 0, 0, 0.68);
+    color: #FFFFFF;
+}
+.form .Select-option {
+    color: #C5C5C5;
+}
+.form .Select-control:hover {
+    border-color: #000;
+}
+.form .Select.is-disabled .Select-control:hover, .form .Select.is-open .Select-control:hover {
+    border-color: #000;
+}
+.form .is-focused:not(.is-open)>.Select-control {
+    border: 1px solid #000;
+    box-shadow: none;
 }
