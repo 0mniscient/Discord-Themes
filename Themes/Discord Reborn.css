@@ -1470,9 +1470,9 @@ a:link {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: .08em;
-    font-weight: 600;
+    font-weight: bold;
     padding: 4px 58px;
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 0, 0, 0.48);
     border: 1px solid;
     border-color: transparent;
     border-radius: 3px;
