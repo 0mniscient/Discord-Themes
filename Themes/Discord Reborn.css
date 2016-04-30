@@ -2496,3 +2496,8 @@ form.auth-form {
     background: #131212;
     color: #fff;
 }
+.theme-dark.context-menu .item:hover {
+    background: rgba(0,0,0,0.69);
+    box-shadow: 0 0 1px rgba(0,0,0,.82),0 1px 4px rgba(0,0,0,.1);
+    cursor: pointer;
+}
