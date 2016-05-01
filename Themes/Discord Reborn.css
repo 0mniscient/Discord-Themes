@@ -1013,7 +1013,7 @@ textarea {
 }
 .chat>.content .messages .message-group .markup {
     color: rgba(255, 255, 255, 0.5) !important;
-    line-height: 1.5em;
+    line-height: 1em;
 }
 .chat>.content .messages .message-group h2 .user-name {
     color: rgba(255, 255, 255, 0.8);
