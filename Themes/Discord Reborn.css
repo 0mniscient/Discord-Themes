@@ -533,7 +533,7 @@ Hover Color: #2C7E7B; */
     background: #3DA9A9;
 }
 .guilds li.unread .guild-inner:before {
-    background: #2C7E7B;
+    background: #3DA9A9;
 }
 .guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
     background: #2C7E7B;
