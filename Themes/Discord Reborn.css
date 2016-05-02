@@ -2301,6 +2301,12 @@ span.replyer {
     font-weight: 900;
     font-size: 120%;
 }
+.member-username-inner[data-reactid*="172218388880293888"] {
+    color: #E81C4F;
+    margin-left: 0px;
+    font-weight: 900;
+    font-size: 120%;
+}
 .member-username-inner[data-reactid*="102180837625200640"] {
     color: transparent;
 }
