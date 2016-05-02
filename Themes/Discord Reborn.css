@@ -22,7 +22,6 @@ Hover Color: #2C7E7B; */
 .callout-backdrop {
     background-color: rgb(0, 0, 0) !important;
     background-image: url("https://imgur.com/RG03PyX.png") !important;
-    -webkit-filter: blur(2px) grayscale(50%);
     -webkit-transition: 0.3s all ease;
     -o-transition: 0.3s all ease;
     -moz-transition: 0.3s all ease;
