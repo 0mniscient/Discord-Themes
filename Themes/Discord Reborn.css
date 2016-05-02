@@ -1,4 +1,4 @@
-//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscien.t","version":"4.23"}*//
+//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscien.t","version":"4.24"}*//
 /* Better Discord CSS Made By @Omniscien.t */
 /*
 _______/\\\\\________________________________________________________________________________________________________________________________        
@@ -1792,15 +1792,16 @@ a:link {
 .chat .has-more button {
     color: #3DA9A9;
 }
-.theme-dark #friends .friends-table .friends-table-header .friends-column:after {
+.theme-dark #friends .friends-table .friends-table-header .friends-column[data-reactid*=".0.1.1.0.2.1.0.6"]:after {
     content: "Actions";
-    color: hsla(0, 0%, 100%, .3);
+    color: hsla(0, 0%, 100%, 0.5);
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: .025em;
     font-weight: 600;
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
+    margin-left: 60px;
 }
 .theme-dark .friends-table .messages .message-group .comment .markup pre,
 .theme-dark .messages-wrapper .messages .message-group .comment .markup pre {
@@ -2542,4 +2543,8 @@ form.auth-form {
 .form .is-focused:not(.is-open)>.Select-control {
     border: 1px solid #000;
     box-shadow: none;
+}
+.private-channels .channel .channel-game strong {
+    font-weight: 700;
+    color: #3DA9A9;
 }
