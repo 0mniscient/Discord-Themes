@@ -2463,7 +2463,7 @@ form.auth-form {
     color: #2C7E7B;
 }
 .theme-dark.context-menu .item-subMenu {
-    background: rgba(0,0,0,0.63) url(https://discordapp.com/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
+    background: transparent url(https://discordapp.com/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
 }
 .theme-dark.context-menu .item-subMenu:hover {
     background: rgba(0,0,0,0.69) url(https://discordapp.com/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;
