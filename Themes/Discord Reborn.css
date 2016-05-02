@@ -894,7 +894,10 @@ textarea {
     background: rgba(0, 0, 0, 0.4) !important;
 }
 .search-bar-clear:before {
-    background: rgba(0, 0, 0, 0.68);
+    background: #000;
+}
+.search-bar-clear {
+    background: #fff;
 }
 .guild-channels ul .channel.selected,
 .private-channels .channel.selected,
