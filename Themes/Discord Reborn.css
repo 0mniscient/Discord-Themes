@@ -2555,3 +2555,15 @@ form.auth-form {
     font-weight: 700;
     color: #3DA9A9;
 }
+.auth-background {
+    background-image: url("https://imgur.com/RG03PyX.png") !important;
+    background-size: cover !important;
+}
+.auth-copyright {
+    color: #FFFFFF;
+    opacity: .8;
+    font-weight: bold;
+    border: 2px #fff solid;
+    background: #000;
+    border-radius: 3px;
+}
