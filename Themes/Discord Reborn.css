@@ -2567,3 +2567,9 @@ form.auth-form {
     background: #000;
     border-radius: 3px;
 }
+#bd-customcss-detach-container {
+    background-color: #000000;
+}
+#bd-customcss-detach-container #bd-customcss-detach-controls-buttons button {
+    background-color: #3DA9A9;
+}
