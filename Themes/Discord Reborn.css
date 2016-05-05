@@ -2084,7 +2084,7 @@ img.image {
     border-bottom: 1px solid #1A1E1F;
 }
 .theme-dark .header-toolbar button.active {
-    background-color: #3DA9A9;
+    background-color: transparent;
 }
 #pubs-header {
     background: #3DA9A9;
@@ -2576,6 +2576,7 @@ form.auth-form {
 .win-buttons button {
     width: 26px;
     height: 26px;
+    margin-left: 5px;
 }
 button.win-close:hover {
     background-color: #B50303;
@@ -2588,4 +2589,8 @@ button.win-maximize:hover {
 button.win-minimize:hover {
     background-color: #03B584;
     border-radius: 3px;
+}
+.header-toolbar button+button[data-reactid=".0.1.1.0.2.0.3.0:1"] {
+    background-color: #3DA9A9;
+    opacity: 0.8;
 }
