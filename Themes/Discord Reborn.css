@@ -2085,6 +2085,7 @@ img.image {
 }
 .theme-dark .header-toolbar button.active {
     background-color: transparent;
+    opacity: 1;
 }
 #pubs-header {
     background: #3DA9A9;
