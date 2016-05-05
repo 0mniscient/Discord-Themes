@@ -2573,3 +2573,19 @@ form.auth-form {
 #bd-customcss-detach-container #bd-customcss-detach-controls-buttons button {
     background-color: #3DA9A9;
 }
+.win-buttons button {
+    width: 26px;
+    height: 26px;
+}
+button.win-close:hover {
+    background-color: #B50303;
+    border-radius: 3px;
+}
+button.win-maximize:hover {
+    background-color: #0373B5;
+    border-radius: 3px;
+}
+button.win-minimize:hover {
+    background-color: #03B584;
+    border-radius: 3px;
+}
