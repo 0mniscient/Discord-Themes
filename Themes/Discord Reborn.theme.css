@@ -1228,9 +1228,6 @@ textarea {
 .theme-dark .chat>.content:first-child .scroller-wrap::-webkit-scrollbar-thumb {
     background-color: #3DA9A9;
 }
-.guild-header ul a.red-highlight {
-    color: #3DA9A9;
-}
 .create-guild-container .create-or-join .form-inner {
     background-color: #282b30;
 }
@@ -2601,4 +2598,26 @@ button.win-minimize:hover {
 .bda-slist .checkbox {
     margin-left: 18px;
     margin-top: -121px;
+}
+a[data-reactid*=".0.1.1.0.1.0.0.1.1.0"] {
+    background-color: #3DA9A9;
+    border-radius: 3px;
+}
+a[data-reactid*=".0.1.1.0.1.0.0.1.1.0"]:hover {
+    background-color: #3DA9A9 !important;
+}
+a[data-reactid*=".0.1.1.0.1.0.0.1.0.0"] {
+    background-color: #3DA9A9;
+    border-radius: 3px;
+}
+a[data-reactid*=".0.1.1.0.1.0.0.1.0.0"]:hover {
+    background-color: #3DA9A9 !important;
+}
+.guild-header ul a.red-highlight:hover {
+    background-color: #A93D3D !important;
+}
+.guild-header ul a.red-highlight {
+    color: #fff;
+    background-color: #A93D3D;
+    border-radius: 3px;
 }
