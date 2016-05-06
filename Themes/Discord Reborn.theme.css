@@ -2621,3 +2621,11 @@ a[data-reactid*=".0.1.1.0.1.0.0.1.0.0"]:hover {
     background-color: #A93D3D;
     border-radius: 3px;
 }
+.channel-members .member .member-activity strong {
+    font-weight: 900;
+    color: #3DA9A9;
+}
+.private-channels .channel .channel-activity strong {
+    font-weight: 900;
+    color: #3DA9A9;
+}
