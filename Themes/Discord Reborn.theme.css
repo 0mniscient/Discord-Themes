@@ -2598,3 +2598,7 @@ button.win-minimize:hover {
 .tipsy-inner {
     border-radius: 3px;
 }
+.bda-slist .checkbox {
+    margin-left: 18px;
+    margin-top: -121px;
+}
