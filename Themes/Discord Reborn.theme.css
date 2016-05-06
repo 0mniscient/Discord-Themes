@@ -2616,6 +2616,20 @@ a[data-reactid*=".0.1.1.0.1.0.0.1.0.0"]:hover {
 .guild-header ul a.red-highlight:hover {
     background-color: #A93D3D !important;
 }
+a[data-reactid*=".0.1.1.0.1.0.0.1.2.0"]:hover {
+    background-color: #3DA9A9 !important;
+}
+a[data-reactid*=".0.1.1.0.1.0.0.1.2.0"] {
+    background-color: #3DA9A9;
+    border-radius: 3px;
+}
+a[data-reactid*=".0.1.1.0.1.0.0.1.3.0"]:hover {
+    background-color: #3DA9A9 !important;
+}
+a[data-reactid*=".0.1.1.0.1.0.0.1.3.0"] {
+    background-color: #3DA9A9;
+    border-radius: 3px;
+}
 .guild-header ul a.red-highlight {
     color: #fff;
     background-color: #A93D3D;
