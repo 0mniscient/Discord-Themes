@@ -2595,3 +2595,6 @@ button.win-minimize:hover {
     background-color: #3DA9A9;
     opacity: 0.8;
 }
+.tipsy-inner {
+    border-radius: 3px;
+}
