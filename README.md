@@ -1,7 +1,7 @@
 #<DIV ALIGN=CENTER>Quality Themes</div><br><div align=right><br>
 <li><i>All <b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i>All <b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
-#<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/Chaotiic/Discord-Themes-and-Plugins/blob/master/Themes/Discord%20Reborn.css">Discord Reborn</a></div></b></font>
+#<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/Chaotiic/Discord-Themes-and-Plugins/blob/master/Themes/Discord%20Reborn.theme.css">Discord Reborn</a></div></b></font>
 <b>Description:</b><i> A cold, dark & winter like theme. Darkened Discord's UI a bit and implemented a nice dark background image.</b><br>
 For <b>WEB</b> version of Discord only! <a href="https://userstyles.org/styles/125848/discord-reborn">Click Me</a><br>
 For <b>OLD</b> version of Discord Reborn <a href="https://skidpaste.org/N5ClcJFh">Click Me</a><br>
