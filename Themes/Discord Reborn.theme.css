@@ -2643,3 +2643,15 @@ a[data-reactid*=".0.1.1.0.1.0.0.1.3.0"] {
     font-weight: 900;
     color: #3DA9A9;
 }
+.CodeMirror {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.66)!important;
+    border-radius: 3px;
+}
+.CodeMirror-gutters {
+    border-right: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+#bd-pane .scroller-wrap div[style*="background:#2E3136; color:#ADADAD; height:30px; position:absolute; bottom:0; left:0; right:0;"] {
+    background: #000 !important;
+}
