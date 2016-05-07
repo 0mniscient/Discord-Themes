@@ -142,7 +142,7 @@ Hover Color: #2C7E7B; */
 .guild-channels ul .channel-voice-states li.speaking .avatar-small {
     background-color: #3DA9A9;
     cursor: pointer;
-    border: 2px solid #43b581;
+    border: 2px solid #3DA9A9;
     box-shadow: inset 0 0 0 2px #2e3136;
 }
 #unsupported-browser li:hover {
