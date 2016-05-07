@@ -1013,7 +1013,6 @@ textarea {
     color: #fff !important;
 }
 .chat>.content .messages .message-group .markup {
-    color: rgba(255, 255, 255, 0.5) !important;
     line-height: 1em;
 }
 .chat>.content .messages .message-group h2 .user-name {
@@ -1211,9 +1210,6 @@ textarea {
 }
 .channel-notification-settings .content .content-inner {
     background: transparent !important;
-}
-.theme-dark .chat>.content .messages .message-group .comment .markup {
-    color: #fff;
 }
 .guild-channels ul .channel-text:hover:not(.unread):before {
     border-left: 4px solid #3DA9A9;
@@ -2377,9 +2373,6 @@ form.auth-form {
 #friends .friends-empty.section-online .empty-state-image {
     opacity: 0.5;
 }
-.message-group .comment .markup {
-    color: #8A8A8A;
-}
 .message-group h2 .timestamp {
     color: #B4B5B5;
 }
@@ -2655,4 +2648,7 @@ a[data-reactid*=".0.1.1.0.1.0.0.1.3.0"] {
 }
 #bd-pane .scroller-wrap div[style*="background:#2E3136; color:#ADADAD; height:30px; position:absolute; bottom:0; left:0; right:0;"] {
     background: #000 !important;
+}
+.markup:not([style*="color: color: rgba(255, 255, 255, 0.8);"]) {
+    color: #B1B1B1;
 }
