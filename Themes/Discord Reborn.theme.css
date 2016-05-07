@@ -2119,7 +2119,8 @@ img.image {
     border-top: 0px solid #3DA9A9;
 }
 #bd-customcss-attach-controls, #bd-customcss-detach-controls {
-    background: transparent;
+    background: rgba(0, 0, 0, 0.83);
+    -webkit-box-shadow: inset 0 1px 0 0 #3DA9A9;
 }
 .tab-bar.SIDE .tab-bar-item.selected {
     border-bottom: 2px solid #3DA9A9;
