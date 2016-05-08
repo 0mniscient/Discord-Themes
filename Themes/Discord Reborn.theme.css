@@ -2694,3 +2694,8 @@ ul.bda-slist {
     width: 9px;
     height: 9px;
 }
+div#bd-customcss-innerpane {
+    margin-top: 18px;
+    width: 588px;
+    margin-left: -34px;
+}
