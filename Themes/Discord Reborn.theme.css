@@ -2699,3 +2699,6 @@ div#bd-customcss-innerpane {
     width: 588px;
     margin-left: -34px;
 }
+.chat .welcome-message p {
+    color: #A0A0A0;
+}
