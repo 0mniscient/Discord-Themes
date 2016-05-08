@@ -2680,3 +2680,13 @@ ul.bda-slist {
     border-bottom: 2px solid #3DA9A9;
     border-radius: none;
 }
+#bd-themes-pane .bda-plugin-reload {
+    margin-top: 68px;
+    margin-left: 20px;
+}
+.bda-slist .bda-right .btn {
+    margin-left: 20px;
+}
+.bda-slist .bda-right .bda-plugin-settings {
+    margin-top: 3px;
+}
