@@ -2591,7 +2591,7 @@ button.win-minimize:hover {
 }
 .bda-slist .checkbox {
     margin-left: 18px;
-    margin-top: -121px;
+    margin-top: 0px;
 }
 a[data-reactid*=".0.1.1.0.1.0.0.1.1.0"] {
     background-color: #3DA9A9;
@@ -2654,4 +2654,29 @@ a[data-reactid*=".0.1.1.0.1.0.0.1.3.0"] {
 }
 .message-group .comment .markup {
     color: #B7B7B7;
+}
+ul.bda-slist {
+    margin-top: 18px;
+    width: 588px;
+    margin-left: -34px;
+}
+.bda-slist li:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.56);
+    border-top: none;
+    border-radius: none;
+}
+.bda-slist .bda-name {
+    color: #3DA9A9;
+    font-weight: 700;
+    font-size: 13px;
+}
+.bda-slist .bda-description {
+    color: #D2D2D2;
+    border-top: 2px solid #3DA9A9;
+    font-size: 14px;
+}
+.bda-slist li {
+    background: rgba(0, 0, 0, 0.56);
+    border-bottom: 2px solid #3DA9A9;
+    border-radius: none;
 }
