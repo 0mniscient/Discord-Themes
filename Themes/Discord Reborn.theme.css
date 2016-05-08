@@ -2690,3 +2690,7 @@ ul.bda-slist {
 .bda-slist .bda-right .bda-plugin-settings {
     margin-top: 3px;
 }
+#user-profile-modal .guilds .guild .status {
+    width: 9px;
+    height: 9px;
+}
