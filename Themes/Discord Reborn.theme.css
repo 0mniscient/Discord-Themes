@@ -1028,7 +1028,7 @@ textarea {
 .chat>.content .messages .message-group .markup pre code.hljs {
     background: rgba(0, 0, 0, 0.42) !important;
     color: rgba(255, 255, 255, 0.7) !important;
-    padding: 1em !important;
+    padding: 5px !important;
 }
 .chat>.content .messages .message-group .markup code.inline {
     background: rgba(255, 255, 255, 0.1) !important;
