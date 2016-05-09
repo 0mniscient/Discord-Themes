@@ -2702,3 +2702,6 @@ div#bd-customcss-innerpane {
 .chat .welcome-message p {
     color: #A0A0A0;
 }
+.guild-channels ul .channel-text .channel-name {
+    text-transform: capitalize;
+}
