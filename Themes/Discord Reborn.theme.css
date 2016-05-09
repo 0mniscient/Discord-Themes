@@ -2709,3 +2709,9 @@ div#bd-customcss-innerpane {
 .form .control-group label {
     color: #D0D0D0;
 }
+.chat>.title-wrap {
+    box-shadow: none;
+}
+.theme-dark #friends .friends-table .friends-row+.friends-row {
+    border-top: 1px solid hsla(0, 0%, 0%, 0.5);
+}
