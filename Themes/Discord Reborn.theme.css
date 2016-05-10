@@ -395,11 +395,12 @@ Hover Color: #2C7E7B; */
     background: #3DA9A9;
 }
 .instant-invites .instant-invite-buttons .btn.btn-danger {
-    border: 1px solid #AD392D;
+    border: 1px solid #3DA9A9;
     color: #fff
 }
 .instant-invites .instant-invite-buttons .btn.btn-danger:hover {
-    background: #FF1700;
+    background: #D22B3A;
+    border-color: #D22B3A;
 }
 .instant-invites .instant-invites-list .instant-invite .member {
     color: #C3C3C3;
