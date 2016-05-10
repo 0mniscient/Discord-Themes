@@ -2752,3 +2752,7 @@ div#bd-customcss-innerpane {
 .guild-channels ul .channel-voice .channel-arrow:hover {
     background-color: #3DA9A9;
 }
+.auth-tiling-bg {
+    background-color: #2e3136;
+    background-image: url(/*[[Dbgimage]]*/) !important;
+}
