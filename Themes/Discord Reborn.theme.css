@@ -389,7 +389,8 @@ Hover Color: #2C7E7B; */
     background-color: #2C7E7B;
 }
 .instant-invites .instant-invites-header {
-    border-bottom: 1px solid #3DA9A9;
+    border-bottom: 2px solid #3DA9A9;
+    color: #E9E9E9;
 }
 .instant-invites .instant-invite-buttons .btn {
     background: #3DA9A9;
@@ -424,7 +425,8 @@ Hover Color: #2C7E7B; */
     color: #2C7E7B;
 }
 .instant-invites .instant-invites-list .instant-invite .show-channel .channel {
-    color: #B3B3B3;
+    color: #D6D6D6;
+    text-transform: capitalize;
 }
 .instant-invites .instant-invites-list .instant-invite+.instant-invite {
     border-top: 1px solid #3DA9A9;
@@ -2737,4 +2739,13 @@ div#bd-customcss-innerpane {
     background-color: #53BB8C;
     border-radius: 3px;
     padding: 0px 0px 0px 9px;
+}
+#settings-roles .roles li:before {
+    width: 3px;
+}
+.instant-invites .instant-invites-list .instant-invite .code {
+    color: #C4C4C4;
+}
+.instant-invites .instant-invites-list .instant-invite {
+    color: #C4C4C4;
 }
