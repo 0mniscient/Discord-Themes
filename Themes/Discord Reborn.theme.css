@@ -2749,3 +2749,6 @@ div#bd-customcss-innerpane {
 .instant-invites .instant-invites-list .instant-invite {
     color: #C4C4C4;
 }
+.guild-channels ul .channel-voice .channel-arrow:hover {
+    background-color: #3DA9A9;
+}
