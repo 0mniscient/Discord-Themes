@@ -433,7 +433,7 @@ Hover Color: #2C7E7B; */
 }
 .guild-settings-modal-integrations .guild-settings-modal-integrations-header {
     color: #CCCCCC;
-    border-bottom: 1px solid #2A2C31;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.47);
     box-shadow: none;
 }
 .guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations p {
@@ -2721,4 +2721,19 @@ div#bd-customcss-innerpane {
 }
 .markdown-modal a {
     color: #3DA9A9;
+}
+.form .control-group .help-text.error, .form .control-group .help-text.error a {
+    color: #FFFFFF;
+    background-color: #D22B3A;
+    border-radius: 3px;
+    padding: 2px;
+}
+#settings-roles-pro-tip .pro-tip {
+    color: #FFFFFF;
+}
+#settings-roles-pro-tip {
+    color: #F5F5F5;
+    background-color: #53BB8C;
+    border-radius: 3px;
+    padding: 0px 0px 0px 9px;
 }
