@@ -2075,7 +2075,7 @@ img.image {
     border-top: 1px solid #1A1E1F;
 }
 .markdown-modal .markdown-modal-header {
-    border-bottom: 1px solid #1A1E1F;
+    border-bottom: 1px solid #0F0F0F;
 }
 .theme-dark .header-toolbar button.active {
     background-color: transparent;
@@ -2718,4 +2718,7 @@ div#bd-customcss-innerpane {
 .guild-channels header span {
     text-align: center;
     margin-left: -7px;
+}
+.markdown-modal a {
+    color: #3DA9A9;
 }
