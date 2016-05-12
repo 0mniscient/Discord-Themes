@@ -758,6 +758,7 @@ Hover Color: #2C7E7B; */
 }
 .spinner-wandering-cubes .spinner-item {
     background-color: #3DA9A9;
+    border-radius: 10px;
 }
 #bd-ps-container {
     border: 1px solid transparent;
