@@ -1,4 +1,4 @@
-//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.26"}*//
+//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.27"}*//
 /* CSS Made By @Omniscient */
 /*
 _______/\\\\\________________________________________________________________________________________________________________________________        
@@ -667,13 +667,6 @@ Hover Color: #2C7E7B; */
     background-repeat: no-repeat;
     background-position: 12px 11px;
 }
-.create-guild-container .action.create .action-icon {
-    background-image: url("https://i.imgur.com/MW4Ddjc.png");
-    height: 78px;
-    background-size: 112px 78px;
-    background-repeat: no-repeat;
-    background-position: 55px 0px;
-}
 .user-settings-modal-games {
     background: transparent;
     border-top: 1px solid rgba(0,0,0,0.4);
@@ -732,11 +725,6 @@ Hover Color: #2C7E7B; */
 }
 .theme-dark .chat>.content .messages .divider:not(.red) span {
     opacity: .9;
-}
-.create-guild-container .action.join .action-icon {
-    background: url(https://i.imgur.com/5s2wOtM.png) 50% no-repeat;
-    height: 78px;
-    background-size: 178.5px 78px;
 }
 .links:after {
     content: "Omniscient";
@@ -1228,14 +1216,14 @@ textarea {
     background-color: #3DA9A9;
 }
 .create-guild-container .create-or-join .form-inner {
-    background-color: #282b30;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .create-guild-container .action {
-    background: #31343A;
+    background: rgba(0, 0, 0, 0.58);
 }
 .create-guild-container .create-or-join .actions .or {
-    background-image: none;
-    color: #282B30;
+    color: #000;
+    -webkit-filter: invert(100%);
 }
 .form .form-inner {
     background-color: rgba(0, 0, 0, 0.8);
@@ -2755,4 +2743,7 @@ div#bd-customcss-innerpane {
 .auth-tiling-bg {
     background-color: #2e3136;
     background-image: url("https://imgur.com/RG03PyX.png") !important;
+}
+.create-guild-container .action.create .action-icon, .create-guild-container .action.join .action-icon {
+    -webkit-filter: invert() hue-rotate(145deg);
 }
