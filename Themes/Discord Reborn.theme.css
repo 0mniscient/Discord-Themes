@@ -1344,6 +1344,7 @@ a:link {
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations.no-integrations {
     color: rgba(222, 222, 222, 0.59);
+    background-color: rgba(0, 0, 0, 0.38);
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations {
     border: 2px solid rgba(0, 0, 0, 0.45);
