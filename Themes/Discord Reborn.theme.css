@@ -138,6 +138,15 @@ Hover Color: #2C7E7B; */
 .guilds li:hover .guild-inner {
     border-radius: 15px;
     background: #3DA9A9;
+    animation: FColorPulse 2s infinite alternate;
+}
+@-webkit-keyframes FColorPulse {
+    0% {
+        background: #2C7E7B;
+    }
+    100% {
+        background: #3DA9A9;
+    }
 }
 .guild-channels ul .channel-voice-states li.speaking .avatar-small {
     background-color: #3DA9A9;
