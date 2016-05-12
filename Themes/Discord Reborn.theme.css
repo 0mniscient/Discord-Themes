@@ -1914,19 +1914,6 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 .private-channels .search-bar input:focus {
     border: 2px solid #3DA9A9;
-    webkit-animation: input-pulse 1.5s infinite;
-    animation: input-pulse 1.5s infinite;
-}
-@-webkit-keyframes input-pulse {
-    0% {
-    box-shadow: 0 0 0 0 #3DA9A9;
-    }
-    70% {
-    box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0)
-    }
-    to {
-    box-shadow: 0 0 0 0 rgba(241, 71, 71, 0)
-    }
 }
 @keyframes input-pulse {
     0% {
