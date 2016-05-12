@@ -694,6 +694,7 @@ Hover Color: #2C7E7B; */
 }
 .now-playing {
     background: #3DA9A9;
+    padding: 22px;
 }
 .checkbox .checkbox-inner.alt input[type=checkbox]+span {
     background: #2E3136;
