@@ -1,4 +1,4 @@
-//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.28"}*//
+//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.29"}*//
 /* CSS Made By @Omniscient */
 /*
 _______/\\\\\________________________________________________________________________________________________________________________________        
@@ -2742,4 +2742,7 @@ div#bd-customcss-innerpane {
 }
 .create-guild-container .action.create .action-icon, .create-guild-container .action.join .action-icon {
     -webkit-filter: invert() hue-rotate(145deg);
+}
+.user-popout .username-wrapper .activity {
+    color: #DEDEDE;
 }
