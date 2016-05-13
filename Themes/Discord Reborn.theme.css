@@ -284,11 +284,11 @@ Hover Color: #2C7E7B; */
     color: #E6E6E6;
 }
 .form .form-actions {
-    border-top: 1px solid #414958;
+    border-top: 1px solid rgba(0, 0, 0, 0.53);
 }
 .form .form-header {
     background: rgba(0,0,0,0.85);
-    border-bottom: 1px solid #171717;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.53);
 }
 .popout header {
     background-color: #3DA9A9;
