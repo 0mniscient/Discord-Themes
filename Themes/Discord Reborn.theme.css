@@ -1836,7 +1836,7 @@ a:link {
 }
 .channel-textarea-autocomplete ul li.active {
     background: #3DA9A9 !important;
-    opacity: 0.8;
+    opacity: 0.7;
     color: #fff;
 }
 #user-profile-modal .avatar-profile {
