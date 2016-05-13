@@ -2745,3 +2745,13 @@ div#bd-customcss-innerpane {
 .user-popout .username-wrapper .activity {
     color: #DEDEDE;
 }
+.user-settings-locale .select-item .primary {
+    font-size: 15px;
+    color: #AEAEAE !important;
+}
+span[data-reactid=".0.5.$=1$UserSettingsModal.0.0.1.0.$LOCALE.0.1:1.0.1.$0.0"] {
+    color: #CDCDCD;
+}
+span[data-reactid=".0.5.$=1$UserSettingsModal.0.0.1.0.$LOCALE.0.1:1.0.1.$1.0"] {
+    color: #CDCDCD;
+}
