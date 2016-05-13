@@ -1826,19 +1826,18 @@ a:link {
     background:rgba(0,0,0,0.84)!important;
     border:none !important;
 }
-
 .channel-textarea-autocomplete-inner:after {
     display:none;
 }
-
 .channel-textarea-autocomplete-inner header {
     background:rgba(0,0,0,0.84)!important;
     border-radius:5px 5px 0 0;
     border:none !important;
 }
-
 .channel-textarea-autocomplete ul li.active {
-    background:rgba(255,255,255,0.1)!important;
+    background: #3DA9A9 !important;
+    opacity: 0.8;
+    color: #fff;
 }
 #user-profile-modal .avatar-profile {
     border: 6px solid #3DA9A9 !important;
