@@ -1,4 +1,4 @@
-//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.27"}*//
+//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.28"}*//
 /* CSS Made By @Omniscient */
 /*
 _______/\\\\\________________________________________________________________________________________________________________________________        
@@ -101,7 +101,6 @@ Hover Color: #2C7E7B; */
     box-shadow: 0 -1px #3DA9A9;
 }
 .chat .new-messages-bar button {
-    background: #3DA9A9;
     border-radius: 5px;
 }
 .chat .new-messages-bar button:last-child {
@@ -663,12 +662,8 @@ Hover Color: #2C7E7B; */
 .user-settings-modal button.preview-sound:before {
     background-image: url("https://i.imgur.com/E8gsoBs.png");
 }
-.chat .new-messages-bar button:first-child {
-    border-radius: 5px;
-    margin-right: -14px;
-}
 .chat .new-messages-bar {
-    background-color: transparent !important;
+    background-color: rgb(61, 169, 169);
     opacity: 0.8;
 }
 .account {
@@ -981,14 +976,8 @@ textarea {
 .chat .divider>div {
     display: none;
 }
-.chat .new-messages-bar {
-    background-color: rgba(29, 101, 134, .9);
-}
 .chat .new-messages-bar:hover {
-    background-color: rgba(29, 101, 134, 1);
-}
-.chat .new-messages-bar button:last-child {
-    color: rgba(255, 255, 255, 0.5);
+    background-color: #2C7E7B;
 }
 .chat-empty {
     background: rgba(20, 23, 27, 0.95);
