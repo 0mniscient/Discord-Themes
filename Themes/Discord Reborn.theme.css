@@ -283,9 +283,6 @@ Hover Color: #2C7E7B; */
 .modal-content .form-inner p {
     color: #E6E6E6;
 }
-.form .form-actions {
-    border-top: 1px solid rgba(0, 0, 0, 0.53);
-}
 .form .form-header {
     background: rgba(0,0,0,0.85);
     border-bottom: 1px solid rgba(0, 0, 0, 0.53);
@@ -1274,7 +1271,7 @@ textarea {
 }
 .form .form-actions {
     background-color: rgba(0,0,0,0.85);
-    border-top: 1px solid #171717;
+    border-top: 1px solid rgba(0, 0, 0, 0.53);
 }
 .form .btn-default {
     background-color: rgba(0, 0, 0, 0.77);
