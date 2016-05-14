@@ -2761,3 +2761,9 @@ span[data-reactid=".0.5.$=1$UserSettingsModal.0.0.1.0.$LOCALE.0.1:1.0.1.$1.0"] {
 .user-popout .footer .update-notice {
     color: #A0A0A0;
 }
+.message-group.compact .message .markup .user-name:After {
+    content: ":";
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 600;
+}
