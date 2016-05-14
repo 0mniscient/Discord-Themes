@@ -2755,3 +2755,12 @@ span[data-reactid=".0.5.$=1$UserSettingsModal.0.0.1.0.$LOCALE.0.1:1.0.1.$0.0"] {
 span[data-reactid=".0.5.$=1$UserSettingsModal.0.0.1.0.$LOCALE.0.1:1.0.1.$1.0"] {
     color: #CDCDCD;
 }
+.user-popout .username-wrapper.has-nickname .discriminator, .user-popout .username-wrapper.has-nickname .username {
+    color: #EAEAEA;
+}
+.user-popout .body .section .label {
+    color: #A7A7A7;
+}
+.user-popout .footer .update-notice {
+    color: #A0A0A0;
+}
