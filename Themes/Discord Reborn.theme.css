@@ -660,7 +660,7 @@ Hover Color: #2C7E7B; */
     background-image: url("https://i.imgur.com/E8gsoBs.png");
 }
 .chat .new-messages-bar {
-    background-color: rgb(61, 169, 169);
+    background-color: #3DA9A9;
     opacity: 0.8;
 }
 .account {
