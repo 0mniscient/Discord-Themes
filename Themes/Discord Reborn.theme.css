@@ -15,6 +15,9 @@ _______/\\\\\___________________________________________________________________
 /* IMPORTANT: Default Colors to change are
 Color : #057F95;
 Hover Color: #045B6B; */
+.DummyClass {
+    background: #fff;
+}
 .app {
     background-image: url("https://imgur.com/RG03PyX.png") !important;
     background-size: cover !important;
@@ -982,7 +985,7 @@ textarea {
 .chat>.title-wrap>.topic {
     font-size: 12px;
     margin-top: 5px;
-    color: #656565 !important;
+    color: #AFAFAF !important;
 }
 .chat>.content .messages .message-group:not(.has-divider) {
     border-bottom-color: hsla(0, 0%, 100%, .04) !important;
@@ -2260,7 +2263,8 @@ span.replyer {
     color: #ABABAB ;
 }
 .chat>.title-wrap>.title .channel-name {
-    color: #9A9A9A;
+    color: #BFBFBF;
+    text-transform: capitalize;
 }
 .member-username-inner[data-reactid*="102180837625200640"]:after {
     content: "Omniscient";
