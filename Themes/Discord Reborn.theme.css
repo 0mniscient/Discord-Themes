@@ -526,9 +526,9 @@ Hover Color: #045B6B; */
     color: #057F95
 }
 .avatar-large {
-    width: 33px;
-    height: 33px;
-    background-size: 33px 33px !important;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px !important;
     left: 8px;
 }
 .channel-textarea {
