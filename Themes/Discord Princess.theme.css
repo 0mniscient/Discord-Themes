@@ -1,4 +1,4 @@
-//META{"name":"Discord_Princess","description":"A theme just for princesses","author":"Omniscient","version":"4.2"}*//
+//META{"name":"Discord_Princess","description":"A theme just for princesses","author":"Omniscient","version":"4.3"}*//
 /* CSS Made By @Omniscient */
 /*
 _______/\\\\\________________________________________________________________________________________________________________________________        
@@ -2851,4 +2851,11 @@ span[data-reactid=".0.1.1.0.1.0.1.0.1:1.$=1$181646984669560832.0.1.1.0"] {
 }
 .links li a:hover {
     color: #C734BB;
+}
+.message-group .mentioned .message-text:after {
+    background: rgba(199, 52, 187, 0.63);
+    border-left: 4px solid #C734BB;
+}
+.theme-dark .friends-table .messages .mentioned .message-text, .theme-dark .messages-wrapper .messages .mentioned .message-text {
+    background: rgba(199, 52, 187, 0.35);
 }
