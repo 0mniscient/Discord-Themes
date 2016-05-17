@@ -349,19 +349,19 @@ Hover Color: #A12A97; */
     background: #C734BB;
 }
 .clipboard-input-inner button {
-    border-left: 1px solid rgba(0, 0, 0, 0.69);
-    background-color: rgba(0, 0, 0, 0.83);
+    border-left: 1px solid rgb(199, 52, 187);
+    background-color: rgb(240, 164, 227);
 }
 .clipboard-input-inner input {
     color: #A12A97;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgb(240, 164, 227);
 }
 .clipboard-input-inner {
     background: transparent;
     border: 1px solid rgba(0, 0, 0, 0);
 }
 .clipboard-input-inner button:first-of-type:before {
-    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), rgba(0, 0, 0, 0.79));
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), rgb(199, 52, 187));
 }
 ::selection {
     color: #fff;
@@ -1891,8 +1891,8 @@ span.discriminator:hover {
     line-height: 39px !important;
 }
 .theme-dark .friends-table .messages .invite-button, .theme-dark .messages-wrapper .messages .invite-button {
-    background-color: rgba(0, 0, 0, 0.54);
-    border-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(244, 181, 233, 0.5);
+    border-color: rgb(199, 52, 187);
 }
 .invite-button-icon {
     background-color: rgba(0, 0, 0, 0.62);
