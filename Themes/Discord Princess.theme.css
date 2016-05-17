@@ -2833,3 +2833,6 @@ span[data-reactid=".0.1.1.0.1.0.1.0.1:1.$=1$181646984669560832.0.1.1.0"] {
 .channel-notification-settings .content label:before {
     color: #C734BB;
 }
+.theme-dark .friends-table .messages .message-group .comment .markup .highlight, .theme-dark .messages-wrapper .messages .message-group .comment .markup .highlight {
+    background-color: #C734BB;
+}
