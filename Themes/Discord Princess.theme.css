@@ -1,4 +1,4 @@
-//META{"name":"Discord_Princess","description":"A theme just for princesses","author":"Omniscient","version":"4.3"}*//
+//META{"name":"Discord_Princess","description":"A theme just for princesses","author":"Omniscient","version":"4.4"}*//
 /* CSS Made By @Omniscient */
 /*
 _______/\\\\\________________________________________________________________________________________________________________________________        
@@ -1745,8 +1745,8 @@ a:link {
     background-image: none;
 }
 #user-profile-modal .guilds .guild:hover {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.61) 90%, rgba(0, 0, 0, 0));
-    color: #D8D8D8;
+    background: linear-gradient(90deg, rgb(244, 158, 228) 90%, rgba(0, 0, 0, 0));
+    color: #FFFFFF;
 }
 #user-profile-modal .empty {
     background: rgba(0, 0, 0, 0.83);
@@ -2460,11 +2460,11 @@ form.auth-form {
     cursor: pointer;
 }
 .context-menu {
-    background: rgba(0,0,0,0.6);
+    background: rgb(245, 181, 232);
     box-shadow: 0 0 1px rgba(0,0,0,.82),0 1px 4px rgba(0,0,0,.1);
 }
 .context-menu .item:hover {
-    background: rgba(0,0,0,0.69);
+    background: rgb(244, 158, 228);
     box-shadow: 0 0 1px rgba(0,0,0,.82),0 1px 4px rgba(0,0,0,.1);
     cursor: pointer;
 }
