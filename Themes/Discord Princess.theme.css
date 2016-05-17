@@ -306,11 +306,14 @@ Hover Color: #A12A97; */
     border: 1px solid #4C4C4C;
 }
 .small-popout-box {
-    background: rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(0, 0, 0, 0.28);
+    background: rgb(244, 181, 233);
+    border: 1px solid rgb(199, 52, 187);
+}
+.option-popout .btn-item {
+    color: #C734BB;
 }
 .option-popout .btn-item:hover {
-    color: #BBBBBB;
+    color:  #A12A97;
 }
 .member-roles .member-role {
     background-color: #C734BB;
@@ -748,7 +751,7 @@ Hover Color: #A12A97; */
     margin-left: 6px;
 }
 .message-group h2 strong {
-    color: #aaaba7;
+    color: #C734BB;
 }
 #emote-menu,
 #tc-settings-panel,
@@ -1299,6 +1302,7 @@ textarea {
     height: 35.5px;
     border-radius: 3px;
     border-bottom: none;
+    color: #fff;
 }
 .create-guild-container .form-actions .btn-default {
     color: #FFFFFF;
@@ -2375,7 +2379,7 @@ form.auth-form {
     opacity: 0.5;
 }
 .message-group h2 .timestamp {
-    color: #B4B5B5;
+    color: #5CB4B2;
 }
   .emoji-picker {
     overflow: hidden;
