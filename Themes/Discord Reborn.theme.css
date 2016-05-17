@@ -1,5 +1,5 @@
 //META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.30"}*//
-/* CSS Made By @Omniscient */ /*MADE FOR DISCORDS DARK THEME ONLY*/
+/* CSS Made By @Omniscient */
 /*
 _______/\\\\\________________________________________________________________________________________________________________________________        
  _____/\\\///\\\______________________________________________________________________________________________________________________________       
@@ -705,8 +705,8 @@ Hover Color: #045B6B; */
     border-bottom: 1px solid rgba(0, 0, 0, 0.44);
 }
 .user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .btn {
-    background: rgb(228, 177, 229);
-    border: 2px solid rgb(199, 52, 187);
+    background: rgba(0, 0, 0, 0.57);
+    border: 2px solid rgba(0, 0, 0, 0.23);
     background-repeat: no-repeat;
     background-position: 50%;
 }
@@ -1333,18 +1333,15 @@ a:link {
     color: #fff;
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations.no-integrations {
-    color: rgb(199, 52, 187);
-    background-color: rgb(228, 177, 229);
+    color: rgba(222, 222, 222, 0.59);
+    background-color: rgba(0, 0, 0, 0.38);
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations {
-    border: 2px solid rgb(199, 52, 187);
+    border: 2px solid rgba(0, 0, 0, 0.45);
     border-top: transparent;
 }
 .user-settings-modal-connections .user-settings-modal-connections-list {
-    box-shadow: 0 -1px rgb(199, 52, 187);
-}
-.user-settings-modal-connections .user-settings-modal-connections-header label {
-    color: #FFFFFF;
+    box-shadow: 0 -1px rgba(0, 0, 0, 0.37);
 }
 .tab-bar.TOP .tab-bar-item.selected {
     border-bottom: 2px solid #057F95;
@@ -2301,8 +2298,8 @@ span.replyer {
     background-color: rgba(100, 61, 167, 0.71);
 }
 .theme-dark .chat .has-more button {
-    background: rgb(245, 182, 231);
-    border: 1px solid #C734BB;
+    background: rgba(0, 0, 0, 0.52);
+    border: 1px solid #000000;
 }
 .streamer-mode-enabled .streamer-mode-enabled-btn {
     background-color: rgba(100, 61, 167, 0.41);
