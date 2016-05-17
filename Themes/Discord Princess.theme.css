@@ -367,6 +367,9 @@ Hover Color: #A12A97; */
     color: #fff;
     background: #C734BB;
 }
+.user-settings-modal-connections .user-settings-modal-connections-header label {
+    color: #FFFFFF;
+}
 .theme-dark .chat .welcome-message a {
     color: #C734BB;
 }
@@ -1364,7 +1367,7 @@ a:link {
     border-top: transparent;
 }
 .user-settings-modal-connections .user-settings-modal-connections-list {
-    box-shadow: 0 -1px rgba(0, 0, 0, 0.37);
+    box-shadow: 0 -1px rgb(199, 52, 187);
 }
 .tab-bar.TOP .tab-bar-item.selected {
     border-bottom: 2px solid #C734BB;
