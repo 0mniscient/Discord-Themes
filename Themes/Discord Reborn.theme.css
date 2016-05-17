@@ -1,5 +1,5 @@
 //META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.30"}*//
-/* CSS Made By @Omniscient */
+/* CSS Made By @Omniscient */ /*MADE FOR DISCORDS DARK THEME ONLY*/
 /*
 _______/\\\\\________________________________________________________________________________________________________________________________        
  _____/\\\///\\\______________________________________________________________________________________________________________________________       
@@ -2301,8 +2301,8 @@ span.replyer {
     background-color: rgba(100, 61, 167, 0.71);
 }
 .theme-dark .chat .has-more button {
-    background: rgba(0, 0, 0, 0.52);
-    border: 1px solid #000000;
+    background: rgb(245, 182, 231);
+    border: 1px solid #C734BB;
 }
 .streamer-mode-enabled .streamer-mode-enabled-btn {
     background-color: rgba(100, 61, 167, 0.41);
