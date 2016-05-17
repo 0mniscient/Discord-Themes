@@ -245,7 +245,7 @@ Hover Color: #A12A97; */
     box-shadow: 0 2px 1px #C734BB;
 }
 .change-log {
-    background: rgba(0, 0, 0, 0.75);
+    background: #e4b1e5;
 }
 .change-log .header {
     color: #A12A97;
@@ -2065,11 +2065,13 @@ img.image {
     background-color: hsla(0, 0%, 0%, 0.78);
 }
 .markdown-modal .markdown-modal-footer {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-top: 1px solid #1A1E1F;
+    background-color: rgb(228, 177, 229);
+    border-top: 1px solid #C734BB;
+    color: #fff;
 }
 .markdown-modal .markdown-modal-header {
-    border-bottom: 1px solid #0F0F0F;
+    border-bottom: 1px solid #C734BB;
+    color: #fff;
 }
 .theme-dark .header-toolbar button.active {
     background-color: transparent;
@@ -2180,8 +2182,8 @@ img.image {
     border-radius: 4px;
 }
 .markdown-modal {
-    background-color: rgba(0, 0, 0, 0.79);
-    color: #A3A3A3;
+    background-color: #e4b1e5;
+    color: #FFFFFF;
 }
 .form .control-group .Select.is-disabled .Select-control:hover, .form .control-group .Select.is-open .Select-control:hover {
     border-color: rgba(0, 0, 0, 0.51);
@@ -2841,5 +2843,8 @@ span[data-reactid=".0.1.1.0.1.0.1.0.1:1.$=1$181646984669560832.0.1.1.0"] {
     color: #C734BB;
 }
 .theme-dark .chat form .typing span {
+    color: #C734BB;
+}
+.links li a:hover {
     color: #C734BB;
 }
