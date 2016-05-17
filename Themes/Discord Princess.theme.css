@@ -714,8 +714,8 @@ Hover Color: #A12A97; */
     border-bottom: 1px solid rgba(0, 0, 0, 0.44);
 }
 .user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .btn {
-    background: rgba(0, 0, 0, 0.57);
-    border: 2px solid rgba(0, 0, 0, 0.23);
+    background: rgb(228, 177, 229);
+    border: 2px solid rgb(199, 52, 187);
     background-repeat: no-repeat;
     background-position: 50%;
 }
@@ -1356,11 +1356,11 @@ a:link {
     color: #fff;
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations.no-integrations {
-    color: rgba(222, 222, 222, 0.59);
-    background-color: rgba(0, 0, 0, 0.38);
+    color: rgb(199, 52, 187);
+    background-color: rgb(228, 177, 229);
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations {
-    border: 2px solid rgba(0, 0, 0, 0.45);
+    border: 2px solid rgb(199, 52, 187);
     border-top: transparent;
 }
 .user-settings-modal-connections .user-settings-modal-connections-list {
@@ -2324,8 +2324,8 @@ span.replyer {
     background-color: rgba(100, 61, 167, 0.71);
 }
 .theme-dark .chat .has-more button {
-    background: rgba(0, 0, 0, 0.52);
-    border: 1px solid #000000;
+    background: rgb(243, 180, 235);
+    border: 1px solid #C734BB;
 }
 .streamer-mode-enabled .streamer-mode-enabled-btn {
     background-color: rgba(100, 61, 167, 0.41);
