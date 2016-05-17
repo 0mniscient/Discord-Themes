@@ -1,4 +1,4 @@
-//META{"name":"Discord_Princess","description":"A theme just for princesses","author":"Omniscient","version":"4.1"}*//
+//META{"name":"Discord_Princess","description":"A theme just for princesses","author":"Omniscient","version":"4.2"}*//
 /* CSS Made By @Omniscient */
 /*
 _______/\\\\\________________________________________________________________________________________________________________________________        
@@ -1020,6 +1020,7 @@ textarea {
 }
 .chat>.content .messages .message-group h2 span {
     color: rgba(42, 151, 150, 0.73) !important;
+    font-weight: 800;
 }
 .chat>.content .messages .message-group .markup pre {
     background: transparent !important;
