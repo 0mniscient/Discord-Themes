@@ -1,4 +1,4 @@
-//META{"name":"Discord_Princess","description":"A theme just for princesses","author":"Omniscient","version":"4"}*//
+//META{"name":"Discord_Princess","description":"A theme just for princesses","author":"Omniscient","version":"4.1"}*//
 /* CSS Made By @Omniscient */
 /*
 _______/\\\\\________________________________________________________________________________________________________________________________        
@@ -300,7 +300,7 @@ Hover Color: #A12A97; */
     background-color: #C734BB;
 }
 .popout section {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #F4B5E9;
 }
 #voice-connection-popout hr {
     border: 1px solid #4C4C4C;
@@ -586,7 +586,7 @@ Hover Color: #A12A97; */
 }
 #autocomplete-popout .row.selected,
 #autocomplete-popout .row:hover {
-    background: rgba(0, 0, 0, 0.85);
+    background: linear-gradient(90deg,#C734BB,rgba(255, 255, 255, 0));
 }
 .download-apps .platforms .platform.active p {
     color: #C734BB;
@@ -1848,14 +1848,14 @@ a:link {
     -webkit-filter: none;
 }
 .channel-textarea-autocomplete-inner {
-    background:rgba(0,0,0,0.84)!important;
+    background: rgba(228, 177, 229, 0.8) !important;
     border:none !important;
 }
 .channel-textarea-autocomplete-inner:after {
     display:none;
 }
 .channel-textarea-autocomplete-inner header {
-    background:rgba(0,0,0,0.84)!important;
+    background: rgb(228, 177, 229) !important;
     border-radius:5px 5px 0 0;
     border:none !important;
 }
@@ -2471,8 +2471,8 @@ form.auth-form {
     background: rgba(0,0,0,0.69) url(https://discordapp.com/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;
 }
 .theme-dark.context-menu .context-menu {
-    background: rgba(0,0,0,0.6);
-    border: 1px solid #000000;
+    background: #e4b1e5;
+    border: 1px solid #e4b1e5;
     box-shadow: 0 1px 4px rgba(0,0,0,.1);
 }
 .theme-dark.context-menu .item-group {
