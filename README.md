@@ -2,7 +2,7 @@
 <li><i>All <b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i>All <b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/Chaotiic/Discord-Themes/blob/master/Themes/Discord%20Princess.theme.css">Discord Princess</a></div></b></font>
-<b>Description:</b><i>A theme just for princesses</i>
+<b>Description:</b><i> A theme just for princesses 👸🏻</i>
 <img href="https://github.com/Chaotiic/Discord-Themes/blob/master/Themes/Discord%20Princess.theme.css" src="https://a.pomf.cat/qtoppj.png"></img><br>
 <b>WARNING: This theme is currently optimized for dark appearance settings. The light version works, but it is more prone to bugs and looks horrendous. In its current state, it is recommended to use the dark theme until further notice.</b><br>
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/Chaotiic/Discord-Themes-and-Plugins/blob/master/Themes/Discord%20Reborn.theme.css">Discord Reborn</a></div></b></font>
