@@ -2045,7 +2045,7 @@ img.image {
     opacity: .3;
 }
 .guild-header ul li:hover a {
-    background-color: hsla(0, 0%, 0%, 0.78);
+    background-color: #045B6B;
 }
 .markdown-modal .markdown-modal-footer {
     background-color: rgba(0, 0, 0, 0.3);
@@ -2845,4 +2845,8 @@ a.avatar-small[style*="font-size: 18px;"] {
 }
 .guild-inner[style*="border-radius: 25px;background-color: rgba(173, 36, 36, 0.5);"] {
     background-color: rgba(0,0,0,0.5) !important;
+}
+.guild-header ul a {
+    background-color: #057F95;
+    border-radius: 3px;
 }
