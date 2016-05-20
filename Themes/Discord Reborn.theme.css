@@ -2867,3 +2867,6 @@ a.avatar-small[style*="font-size: 18px;"] {
     background-color: #43b581;
     padding: 5px 3px 35px 6px;
 }
+.protip .label {
+    color: #FFFFFF;
+}
