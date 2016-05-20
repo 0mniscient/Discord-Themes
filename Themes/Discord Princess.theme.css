@@ -1768,24 +1768,6 @@ a:link {
 .user-settings-modal-account .discord-tag {
     color: #C734BB;
 }
-.guilds .friends-online {
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #DCDCDC;
-    margin: 10px -5px;
-    word-wrap: normal;
-    white-space: normal;
-    width: 50px;
-    cursor: pointer;
-    -webkit-transition: background-color .25s ease-in, border-radius .3s cubic-bezier(.68, -1.25, .228, 1.8);
-    transition: background-color .25s ease-in, border-radius .3s cubic-bezier(.68, -1.25, .228, 1.8);
-    overflow: hidden;
-    border-radius: 25px;
-    background: rgb(214, 143, 209) !important;
-    font-size: 9px;
-    text-align: center;
-    line-height: 17px;
-}
 .guilds .friends-online:hover {
     background: #43B581 !important;
 }
@@ -2069,7 +2051,8 @@ img.image {
     opacity: .3;
 }
 .guild-header ul li:hover a {
-    background-color: hsla(0, 0%, 0%, 0.78);
+    background-color: hsl(305, 69%, 66%);
+    transition: .3s all ease-in-out;
 }
 .markdown-modal .markdown-modal-footer {
     background-color: rgb(228, 177, 229);
@@ -2903,7 +2886,7 @@ span[data-reactid=".0.1.1.0.1.0.1.0.1:1.$=1$181646984669560832.0.1.1.0"] {
 }
 .guilds-wrapper .guild-separator:after {
     left: 0%;
-    background: rgba(0,0,0,0.3);
+    background: rgb(219, 160, 212);
 }
 .guilds-wrapper .guilds .friends-online {
     text-transform: uppercase;
@@ -2928,4 +2911,8 @@ a.avatar-small[style*="font-size: 18px;"] {
 }
 .guild-inner[style*="border-radius: 25px;background-color: rgba(173, 36, 36, 0.5);"] {
     background-color: rgba(0,0,0,0.5) !important;
+}
+.guild-header ul li a {
+    background-color: #D04DC4;
+    border-radius: 3px;
 }
