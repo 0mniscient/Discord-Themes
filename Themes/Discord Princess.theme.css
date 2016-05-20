@@ -2849,15 +2849,11 @@ span[data-reactid=".0.1.1.0.1.0.1.0.1:1.$=1$181646984669560832.0.1.1.0"] {
     background-color: rgb(219, 160, 212) !important;
 }
 .guild-inner {
-	width: 40px;
-    height: 40px;
-}
-.guild-inner:hover {
-    background-color: #057F95 !important;
+    color: #CACACA;
 }
 .guilds-wrapper .guilds .guild .guild-inner a {
     background-size: 40px 40px;
-	width: 40px;
+    width: 40px;
     height: 40px;
 }
 .guilds-wrapper .guilds .guild {
