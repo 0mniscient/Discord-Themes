@@ -2840,14 +2840,8 @@ span[data-reactid=".0.5.$=1$UserSettingsModal.0.0.1.0.$LOCALE.0.1:1.0.1.$1.0"] {
     text-align: center;
     line-height: 17px;
 }
-.guilds .friends-online {
-    margin-left: -5px;
-}
 a.avatar-small[style*="font-size: 18px;"] {
     top: -4px;
-}
-.guild-inner[draggable="falsee"] {
-    background-color: #057F95 !important;
 }
 .guild-inner[style*="border-radius: 25px;background-color: rgba(173, 36, 36, 0.5);"] {
     background-color: rgba(0,0,0,0.5) !important;
