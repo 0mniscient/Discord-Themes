@@ -2046,6 +2046,7 @@ img.image {
 }
 .guild-header ul li:hover a {
     background-color: #045B6B;
+    transition: .3s all ease-in-out;
 }
 .markdown-modal .markdown-modal-footer {
     background-color: rgba(0, 0, 0, 0.3);
