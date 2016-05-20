@@ -2851,3 +2851,19 @@ a.avatar-small[style*="font-size: 18px;"] {
     background-color: #057F95;
     border-radius: 3px;
 }
+.protip {
+    color: #FFFFFF;
+    background-color: #43B581;
+    border-radius: 3px;
+    padding: 2px 4px 2px 4px;
+}
+.user-settings-appearance .protip .tip, .user-settings-streamer-mode .protip .tip {
+    color: #FFF;
+}
+.protip .tip a {
+    color: #057F95;
+}
+.user-settings-appearance .protip .label, .user-settings-streamer-mode .protip {
+    background-color: #43b581;
+    padding: 5px 3px 35px 6px;
+}
