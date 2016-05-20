@@ -1635,7 +1635,7 @@ a:link {
     -webkit-animation: load8 2.8s infinite linear;
     animation: load8 2.8s infinite linear;
 }
-.guilds li .badge {
+.badge {
     animation: zoom 2s infinite;
 }
 @keyframes zoom {
