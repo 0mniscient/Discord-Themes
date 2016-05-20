@@ -2779,3 +2779,76 @@ span[data-reactid=".0.5.$=1$UserSettingsModal.0.0.1.0.$LOCALE.0.1:1.0.1.$1.0"] {
     font-size: 11px;
     color: #A5A5A5;
 }
+.guilds-wrapper .guilds .guild .guild-inner {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.guild-inner {
+	width: 40px;
+    height: 40px;
+}
+.guild-inner:hover {
+    background-color: #057F95 !important;
+}
+.guilds-wrapper .guilds .guild .guild-inner a {
+    background-size: 40px 40px;
+	width: 40px;
+    height: 40px;
+}
+.guilds-wrapper .guilds .guild {
+    height: 40px;
+	width: 40px;
+}
+.guilds-wrapper .guilds .guild.unread:before {
+    background: #057F95;
+}
+.guilds-wrapper .guilds .guild.selected:before {
+    height: 30px;
+    border-radius: 20px;
+    background: #057F95;
+    margin-top: -15px;
+}
+.guilds-wrapper .guilds .friends-icon {
+    width: 40px;
+    height: 40px;
+    background-size: 25px 25px;
+}
+.guilds {
+    padding: 18px 20px 85px 20px !important;
+}
+.guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before {
+    left: -27px;
+}
+.guilds-wrapper .guild-separator:after {
+    left: 0%;
+    background: rgba(0,0,0,0.3);
+}
+.guilds-wrapper .guilds .friends-online {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #DCDCDC;
+    margin: 10px -5px;
+    word-wrap: normal;
+    white-space: normal;
+    width: 50px;
+    cursor: pointer;
+    -webkit-transition: background-color .25s ease-in, border-radius .3s cubic-bezier(.68, -1.25, .228, 1.8);
+    transition: background-color .25s ease-in, border-radius .3s cubic-bezier(.68, -1.25, .228, 1.8);
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: rgba(21, 21, 21, 0.41) !important;
+    font-size: 9px;
+    text-align: center;
+    line-height: 17px;
+}
+.guilds .friends-online {
+    margin-left: -5px;
+}
+a.avatar-small[style*="font-size: 18px;"] {
+    top: -4px;
+}
+.guild-inner[draggable="falsee"] {
+    background-color: #057F95 !important;
+}
+.guild-inner[style*="border-radius: 25px;background-color: rgba(173, 36, 36, 0.5);"] {
+    background-color: rgba(0,0,0,0.5) !important;
+}
