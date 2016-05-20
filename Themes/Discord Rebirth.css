@@ -1364,3 +1364,6 @@ border-top-color: #A92121;
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
 }
+.protip .label {
+    color: #FFFFFF;
+}
