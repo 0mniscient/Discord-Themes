@@ -2813,7 +2813,7 @@ span[data-reactid=".0.5.$=1$UserSettingsModal.0.0.1.0.$LOCALE.0.1:1.0.1.$1.0"] {
     padding: 18px 20px 85px 20px !important;
 }
 .guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before {
-    left: -27px;
+    left: -28px;
 }
 .guilds-wrapper .guild-separator:after {
     left: 0%;
