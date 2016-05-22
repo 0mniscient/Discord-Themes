@@ -1,6 +1,9 @@
 #<DIV ALIGN=CENTER>Quality Themes</div><br><div align=right><br>
 <li><i>All <b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i>All <b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
+#<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/Chaotiic/Discord-Themes/blob/master/Themes/Aesthetic%20Discord.theme.css">Aesthetic Discord</a></div></b></font>
+<b>Description:</b><i> KMS🏻</i>
+<img href="https://github.com/Chaotiic/Discord-Themes/blob/master/Themes/Aesthetic%20Discord.theme.css" src="https://a.pomf.cat/vvjkzd.png"></img><br>
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/Chaotiic/Discord-Themes/blob/master/Themes/Discord%20Princess.theme.css">Discord Princess</a></div></b></font>
 <b>Description:</b><i> A theme just for princesses 👸🏻</i>
 <img href="https://github.com/Chaotiic/Discord-Themes/blob/master/Themes/Discord%20Princess.theme.css" src="https://a.pomf.cat/qtoppj.png"></img><br>
