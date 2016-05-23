@@ -5759,3 +5759,6 @@ a.avatar-small[style*="font-size: 18px;"] {
 .user-settings-locale p {
     color: #8E8E8E;
 }
+.guild-channels .channel-text.selected:before {
+    border-left: 4px solid #057F95;
+}
