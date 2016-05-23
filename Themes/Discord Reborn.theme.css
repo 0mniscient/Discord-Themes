@@ -560,11 +560,11 @@ Hover Color: #045B6B; */
     color: #F1F1F1;
 }
 .message-group .comment .markup pre {
-    background: #282B30;
-    border: 2px solid #282B30;
+    background: rgba(0,0,0,0.45);
+    border: 2px solid #29363E;
 }
 .message-group .comment .markup pre code {
-    background: #282B30;
+    background: transparent;
     color: #D4D4D4;
 }
 .theme-dark .chat .title-wrap .topic a {
@@ -2896,4 +2896,9 @@ a.avatar-small[style*="font-size: 18px;"] {
 }
 #voice-connection .btn-info {
     border-right: 0px solid transparent;
+}
+.message-group .comment .markup code.inline {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding: 0.3em 0.6em;
 }
