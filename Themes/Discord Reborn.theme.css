@@ -819,7 +819,8 @@ textarea {
     opacity: 0.5;
 }
 .guilds-wrapper {
-    border-right: 1px solid rgba(0, 0, 0, 0.4);
+    border-right: none;
+    background-color: transparent;
 }
 .guild-header header span {
     margin-left: -5px;
