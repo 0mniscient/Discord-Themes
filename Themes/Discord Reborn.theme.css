@@ -5766,3 +5766,6 @@ a.avatar-small[style*="font-size: 18px;"] {
     background-color: #057F95;
     border: 2px solid #057F95;
 }
+.guild-channels .channel-voice-states li.speaking .avatar-small:hover, .guild-channels .channel-voice-states li.speaking .draggable:hover .avatar-small {
+    border-color: #045B6B;
+}
