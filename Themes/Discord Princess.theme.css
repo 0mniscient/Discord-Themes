@@ -879,7 +879,7 @@ textarea {
     width: 40px;
     height: 40px;
     background-size: 25px 25px;
-    background-image: url(https://imgur.com/2cBwFK7.png);
+    background-image: url(https://imgur.com/2cBwFK7.png) !important;
 }
 .guilds li.audio .guild-inner:after {
     background-size: 12px;
