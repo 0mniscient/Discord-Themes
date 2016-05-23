@@ -5762,3 +5762,7 @@ a.avatar-small[style*="font-size: 18px;"] {
 .guild-channels .channel-text.selected:before {
     border-left: 4px solid #057F95;
 }
+.guild-channels .channel-voice-states li.speaking .avatar-small {
+    background-color: #057F95;
+    border: 2px solid #057F95;
+}
