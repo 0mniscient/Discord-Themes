@@ -5756,3 +5756,6 @@ a.avatar-small[style*="font-size: 18px;"] {
 .guild-channels .channel .channel-name {
     text-transform: Capitalize;
 }
+.user-settings-locale p {
+    color: #8E8E8E;
+}
