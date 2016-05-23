@@ -2895,3 +2895,6 @@ a.avatar-small[style*="font-size: 18px;"] {
 .guild-channels .channel-voice-states li.speaking .avatar-small:hover, .guild-channels .channel-voice-states li.speaking .draggable:hover .avatar-small {
     border-color: #045B6B;
 }
+#voice-connection .btn-info {
+    border-right: 0px solid transparent;
+}
