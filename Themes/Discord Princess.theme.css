@@ -2946,3 +2946,9 @@ a.avatar-small[style*="font-size: 18px;"] {
 .guild-channels .channel .channel-name {
     text-transform: Capitalize;
 }
+.guild-channels .channel-text:hover.channel-muted:before, .guild-channels .channel-text:hover:not(.unread):before {
+    border-left: 4px solid #C734BB;
+}
+.guild-channels .channel-text:hover {
+    background: linear-gradient(90deg,rgba(225, 161, 219, 0.37) 85%,rgba(46, 49, 54, 0));
+}
