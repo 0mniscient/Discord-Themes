@@ -1278,7 +1278,7 @@ textarea {
 }
 .form .btn-default {
     background-color: rgba(0, 0, 0, 0.77);
-    padding:10px 0 !important;
+    padding:10px 0;
     width: 75px;
     height: 35.5px;
     border-radius: 3px;
