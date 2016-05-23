@@ -2931,3 +2931,18 @@ a.avatar-small[style*="font-size: 18px;"] {
 .protip .label {
     color: #FFFFFF;
 }
+.guild-channels .channel-text.selected {
+    background: linear-gradient(90deg,rgba(225, 140, 219, 0.6) 85%,rgba(255, 255, 255, 0));
+}
+.guild-channels .channel-text.selected:before {
+    border-left: 4px solid #C734BB;
+}
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    background: #C734BB;
+}
+.guild-channels .channel-text .channel-name:before {
+    color: #C734BB !important;
+}
+.guild-channels .channel .channel-name {
+    text-transform: Capitalize;
+}
