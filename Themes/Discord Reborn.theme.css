@@ -796,9 +796,6 @@ textarea {
 #voice-connection {
     background: transparent !important;
 }
-.guilds-wrapper {
-    background: rgba(0, 0, 0, 0.6) !important
-}
 .channels-wrap {
     background: rgba(0, 0, 0, 0.75);
     width: 220px;
@@ -837,6 +834,7 @@ textarea {
 }
 .guilds {
     padding: 18px 20px 85px 20px;
+    background: rgba(0, 0, 0, 0.6) !important;
 }
 .guilds-add {
     font-size: 30px;
