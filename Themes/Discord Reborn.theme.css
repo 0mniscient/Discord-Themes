@@ -2964,3 +2964,6 @@ div#bd-pub-button:hover {
     background-color: #43B581 !important;
     transition: .3s all ease-in-out;
 }
+.guild-channels .channel-user-limit {
+    background: #000000;
+}
