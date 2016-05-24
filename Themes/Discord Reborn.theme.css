@@ -509,7 +509,7 @@ Hover Color: #045B6B; */
     background-color: #057F95;
 }
 #user-profile-modal .scroller {
-    background: rgba(0, 0, 0, 0.83);
+    background: rgba(0, 0, 0, 0.83) !important;
 }
 #user-profile-modal .friends .friend:hover {
     background: #26292D;
