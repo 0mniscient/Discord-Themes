@@ -2960,3 +2960,7 @@ a.avatar-small[style*="font-size: 18px;"] {
 .chat>.title-wrap>.topic:before {
     background-color: rgba(0, 0, 0, 0.34);
 }
+div#bd-pub-button:hover {
+    background-color: #43B581 !important;
+    transition: .3s all ease-in-out;
+}
