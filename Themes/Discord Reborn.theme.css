@@ -2951,3 +2951,12 @@ a.avatar-small[style*="font-size: 18px;"] {
 .tab-bar.TOP .tab-bar-item:hover {
     border-bottom: 2px solid #BBBBBB;
 }
+#friends .friends-table .friends-row+.friends-row {
+    border-top: 1px solid rgba(0, 0, 0, 0.34);
+}
+.header-toolbar .separator {
+    background-color: rgba(0, 0, 0, 0.34);
+}
+.chat>.title-wrap>.topic:before {
+    background-color: rgba(0, 0, 0, 0.34);
+}
