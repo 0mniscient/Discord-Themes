@@ -2945,3 +2945,9 @@ a.avatar-small[style*="font-size: 18px;"] {
     color: rgba(255, 255, 255, 0.7) !important;
     padding: 0.3em 0.6em;
 }
+.tab-bar.TOP .tab-bar-item {
+    color: #BBBBBB;
+}
+.tab-bar.TOP .tab-bar-item:hover {
+    border-bottom: 2px solid #BBBBBB;
+}
