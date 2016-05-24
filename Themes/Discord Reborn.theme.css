@@ -2068,10 +2068,41 @@ img.image {
     color: #fff;
 }
 .server-row {
-    background-color: rgba(0,0,0,0.93);
+    background-color: rgba(0,0,0,0.93) !important;
 }
 .server-row:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.85) !important;
+}
+.bda-dark .server-info button {
+    background-color: #057F95;
+    transition: .3s all ease-in-out;
+}
+.server-official {
+    color: #057F95 !important;
+    text-shadow: 0 0 4px #057F95;
+    background: url('https://imgur.com/oEC0fbx.gif');
+}
+.bda-dark #pubs-footer, .bda-dark #pubs-header {
+    background: #000;
+}
+#pubs-header button {
+    color: #FDFEFE;
+    border-radius: 3px;
+}
+.bda-dark #pubs-header button {
+    background-color: #057F95;
+}
+.server-pinned {
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid rgba(0, 0, 0, 0);
+}
+.bda-dark .bd-dropdown-list ul li:nth-child(odd) {
+    background: #045B6B;
+    color: #fff;
+}
+.bda-dark .bd-dropdown-list ul li {
+    background: #057F95;
+    color: #fff;
 }
 .server-info button {
     border-radius: 5px;
@@ -2079,6 +2110,18 @@ img.image {
 }
 .server-info button:hover {
     background-color: #045B6B;
+}
+.bda-dark .bd-dropdown-list ul li:nth-child(2n+1):hover {
+    opacity: 0.7;
+}
+.bda-dark .bd-dropdown-list ul li:hover {
+    opacity: 0.7;
+}
+.bda-dark #pubs-sterm {
+    background: #212121;
+    color: #FFF;
+    border-radius: 3px;
+    margin-right: 4px;
 }
 #pubs-footer {
     background: #057F95;
