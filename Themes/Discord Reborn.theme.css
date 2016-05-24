@@ -2831,7 +2831,7 @@ span[data-reactid=".0.5.$=1$UserSettingsModal.0.0.1.0.$LOCALE.0.1:1.0.1.$1.0"] {
     transition: background-color .25s ease-in, border-radius .3s cubic-bezier(.68, -1.25, .228, 1.8);
     overflow: hidden;
     border-radius: 25px;
-    background-color: rgba(21, 21, 21, 0.41) !important;
+    background-color: rgba(21, 21, 21, 0.41);
     font-size: 9px;
     text-align: center;
     line-height: 17px;
