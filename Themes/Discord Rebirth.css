@@ -1,5 +1,5 @@
 //META{"name":"Discord_Rebirth","description":"A cozy modern dark theme this is how Discord DARK mode should be.","author":"Omniscient","version":"4.19"}*//
-/* Better Discord CSS Made By @Omniscien.t */
+/* Better Discord CSS Made By @Omniscient */
 /*
 _______/\\\\\________________________________________________________________________________________________________________________________        
  _____/\\\///\\\______________________________________________________________________________________________________________________________       
@@ -1389,4 +1389,22 @@ border-top-color: #A92121;
 #user-profile-modal .avatar-profile {
     border: 5px solid #7E1818;
     background-color: #7E1818;
+}
+.guilds-wrapper .guilds .guild.selected:before {
+    background: #A92121;
+}
+.guilds-wrapper .guilds .guild.unread:before {
+    background: #7E1818;
+}
+.guild-channels .channel-text.selected:before {
+    border-left: 3px solid #A92121;
+}
+.guild-channels .channel-text:hover.channel-muted:before, .guild-channels .channel-text:hover:not(.unread):before {
+    border-left: 3px solid #A92121;
+}
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    background: #7E1818;
+}
+.guilds-wrapper .guilds .friends-icon:hover {
+    background-color: #A92121 !important;
 }
