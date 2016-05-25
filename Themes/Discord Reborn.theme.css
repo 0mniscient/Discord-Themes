@@ -2903,7 +2903,7 @@ a.avatar-small[style*="font-size: 18px;"] {
 }
 .user-settings-appearance .protip .label, .user-settings-streamer-mode .protip {
     background-color: #43b581;
-    padding: 5px 3px 35px 6px;
+    padding: 5px 3px 20x 6px;
 }
 .protip .label {
     color: #FFFFFF;
@@ -2966,4 +2966,12 @@ div#bd-pub-button:hover {
 }
 .guild-channels .channel-user-limit {
     background: #000000;
+}
+.guild-settings-modal-members .guild-settings-modal-list .member {
+    padding: 5px;
+}
+.guild-settings-modal-members .guild-settings-modal-list .member:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    padding: 5px;
 }
