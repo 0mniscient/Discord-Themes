@@ -249,9 +249,9 @@ Hover Color: #045B6B; */
     color: #057F95;
 }
 .change-log .footer {
-    border-top: 1px solid #4C4C4C;
+    border-top: 2px solid #057F95;
     color: #045B6B;
-    background-color: #282D2F;
+    background-color: transparent;
 }
 .download-apps .platforms .platform {
     border: 2px solid #045B6B;
@@ -2049,7 +2049,7 @@ img.image {
 }
 .markdown-modal .markdown-modal-footer {
     background-color: rgba(0, 0, 0, 0.3);
-    border-top: 1px solid #1A1E1F;
+    border-top: 1px solid #000;
 }
 .markdown-modal .markdown-modal-header {
     border-bottom: 1px solid #0F0F0F;
