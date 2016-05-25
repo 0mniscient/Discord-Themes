@@ -2982,3 +2982,7 @@ div#bd-pub-button:hover {
 .channel-textarea-autocomplete-inner .command-description {
     color: #FFFFFF;
 }
+.guild-channels .toggle-muted-text-channels a {
+    color: #fff;
+    opacity: .3;
+}
