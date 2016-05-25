@@ -2130,13 +2130,14 @@ img.image {
     background-image: url("https://imgur.com/RG03PyX.png") !important;
     transition: 0.3s all ease;
     background-size: cover !important;
-}e
+}
 #bd-customcss-attach-controls {
-    border: 1px solid #057F95;
-    border-top: 0px solid #057F95;
+    border: 2px solid #057F95;
+    border-top: 1px solid #057F95;
+    border-radius: 4px;
 }
 #bd-customcss-attach-controls, #bd-customcss-detach-controls {
-    background: rgba(0, 0, 0, 0.83);
+    background: rgba(0, 0, 0, 0.6);
     -webkit-box-shadow: inset 0 1px 0 0 #057F95;
 }
 .tab-bar.SIDE .tab-bar-item.selected {
