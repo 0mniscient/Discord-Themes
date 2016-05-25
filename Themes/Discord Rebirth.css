@@ -1,4 +1,4 @@
-//META{"name":"Discord_Rebirth","description":"A cozy modern dark theme this is how Discord DARK mode should be.","author":"Omniscien.t","version":"4.19"}*//
+//META{"name":"Discord_Rebirth","description":"A cozy modern dark theme this is how Discord DARK mode should be.","author":"Omniscient","version":"4.19"}*//
 /* Better Discord CSS Made By @Omniscien.t */
 
 _______/\\\\\________________________________________________________________________________________________________________________________        
@@ -898,12 +898,6 @@ border-top-color: #A92121;
 .alert.form .form-inner .cancel {
     border-color: #99aab5 !important;
 }
-/*[[0.8]]*/  /*[[0.9]]*/  /*[[1]]*/  /*[[0.7]]*/  /*[[0.6]]*/
-/*[[0.5]]*/  /*[[0.4]]*/
-.user-settings-modal.settings {
-    opacity: 0.8;
-}
-
 .user-settings-modal .account-warning {
     border: 1px solid #7E1818;
     background: #B54343;
@@ -1366,4 +1360,30 @@ border-top-color: #A92121;
 }
 .protip .label {
     color: #FFFFFF;
+}
+.user-popout .header {
+    background: #A92121;
+}
+.user-popout .body {
+    background: #34373C;
+}
+.user-popout .footer {
+    background: #2B2E32;
+    border-top: 2px solid #A92121;
+}
+.user-popout .footer .quick-message-wrapper .input {
+    border: 1px solid #A92121;
+    background: #34373C;
+    color: #fff;
+}
+.user-popout .username-wrapper .activity {
+    color: #D4D4D4;
+}
+.user-popout .avatar-wrapper .avatar-popout {
+    border: 4px solid #7E1818;
+    background-color: #7E1818;
+}
+#user-profile-modal .avatar-profile {
+    border: 5px solid #7E1818;
+    background-color: #7E1818;
 }
