@@ -2904,7 +2904,7 @@ a.avatar-small[style*="font-size: 18px;"] {
 }
 .user-settings-appearance .protip .label, .user-settings-streamer-mode .protip {
     background-color: #43b581;
-    padding: 5px 3px 20x 6px;
+    padding: 5px 4px 18px 4px;
 }
 .protip .label {
     color: #FFFFFF;
