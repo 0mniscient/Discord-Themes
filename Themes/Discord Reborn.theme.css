@@ -2976,3 +2976,6 @@ div#bd-pub-button:hover {
     border-radius: 3px;
     padding: 5px;
 }
+.channel-textarea-guard .countdown .countdown-number {
+    background: #057F95 !important;
+}
