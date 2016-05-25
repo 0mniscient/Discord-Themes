@@ -1835,7 +1835,7 @@ a:link {
 }
 .channel-textarea-autocomplete ul li.active {
     background: #057F95 !important;
-    opacity: 0.7;
+    opacity: 0.95;
     color: #fff;
 }
 #user-profile-modal .avatar-profile {
@@ -2978,4 +2978,7 @@ div#bd-pub-button:hover {
 }
 .channel-textarea-guard .countdown .countdown-number {
     background: #057F95 !important;
+}
+.channel-textarea-autocomplete-inner .command-description {
+    color: #FFFFFF;
 }
