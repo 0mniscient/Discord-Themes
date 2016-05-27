@@ -1736,24 +1736,6 @@ a:link {
 .user-settings-modal-account .discord-tag {
     color: #057F95;
 }
-.guilds .friends-online {
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #DCDCDC;
-    margin: 10px -5px;
-    word-wrap: normal;
-    white-space: normal;
-    width: 50px;
-    cursor: pointer;
-    -webkit-transition: background-color .25s ease-in, border-radius .3s cubic-bezier(.68, -1.25, .228, 1.8);
-    transition: background-color .25s ease-in, border-radius .3s cubic-bezier(.68, -1.25, .228, 1.8);
-    overflow: hidden;
-    border-radius: 25px;
-    background: rgba(21, 21, 21, 0.41) !important;
-    font-size: 9px;
-    text-align: center;
-    line-height: 17px;
-}
 .guilds .friends-online:hover {
     background: #43B581 !important;
 }
@@ -2876,7 +2858,7 @@ span[data-reactid=".0.5.$=1$UserSettingsModal.0.0.1.0.$LOCALE.0.1:1.0.1.$1.0"] {
     transition: background-color .25s ease-in, border-radius .3s cubic-bezier(.68, -1.25, .228, 1.8);
     overflow: hidden;
     border-radius: 4px;
-    background-color: rgba(21, 21, 21, 0.41);
+    background-color: rgba(0, 0, 0, 0.41);
     font-size: 9px;
     text-align: center;
     line-height: 17px;
