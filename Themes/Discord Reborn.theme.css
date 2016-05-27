@@ -2969,3 +2969,22 @@ div#bd-pub-button:hover {
     color: #fff;
     opacity: .3;
 }
+#clockPluginClock {
+    position: absolute;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 12px 0 13px;
+    min-width: 48px;
+    max-width: 45px;
+    z-index: 100;
+    bottom: 712px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 65px;
+    left: 4px;
+}
+#clockPluginClock:hover {
+    transition: .3s all ease-in-out;
+    background: #43B581;
+    cursor: pointer;
+}
