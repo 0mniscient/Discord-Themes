@@ -2516,8 +2516,8 @@ form.auth-form {
     border-top: 2px #057F95 solid;
 }
 .user-popout .footer .quick-message-wrapper .input {
-    border: 1px solid #1D1D1D;
-    background: #131212;
+    border: 2px solid #057F95;
+    background: #0C0C0C;
     color: #fff;
 }
 .theme-dark.context-menu .item:hover {
