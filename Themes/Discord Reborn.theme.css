@@ -2872,6 +2872,7 @@ a.avatar-small[style*="font-size: 18px;"] {
 .guild-header ul a {
     background-color: #057F95;
     border-radius: 3px;
+    opacity: 0.55;
 }
 .protip {
     color: #FFFFFF;
