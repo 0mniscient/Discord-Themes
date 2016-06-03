@@ -3033,3 +3033,9 @@ div#bd-pub-button:hover {
 .header-toolbar button+button {
     background-color: #057F95;
 }
+.guilds-wrapper .guilds .guild.active:first-of-type .guild-inner {
+    background: #057F95 !important;
+}
+#friends .btn, .add-friend-popout .btn, .private-channels .channel.selected .icon-friends {
+    background-color: #057F95 !important;
+}
