@@ -3007,3 +3007,26 @@ div#bd-pub-button:hover {
 .mfa-modal .mfa-step {
     border-bottom: 1px solid #080808;
 }
+.form .btn {
+    -webkit-transition: all .2s ease-in-out !important;
+}
+.user-settings-security .backup-codes p strong {
+    font-weight: 900;
+    color: #ABABAB;
+}
+.user-settings-security .backup-codes p {
+    color: #ABABAB;
+}
+.user-settings-security .backup-codes .code {
+    color: #E2E2E2;
+    margin-left: -4px;
+}
+.user-settings-modal .link-button {
+    color: #057F95;
+}
+.user-settings-modal .link-button:hover {
+    color: #045B6B;
+}
+.radio-theme input[type=radio]:checked~label {
+    border-color: #057F95;
+}
