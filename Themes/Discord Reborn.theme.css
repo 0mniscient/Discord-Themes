@@ -2989,3 +2989,21 @@ div#bd-pub-button:hover {
     background: #43B581;
     cursor: pointer;
 }
+.user-settings-security .btn-ghost {
+    background: #057F95;
+    border: 2px solid #057F95;
+    color: #fff;
+}
+.user-settings-security .btn-ghost:hover {
+    background: #045B6B;
+    border-color: #045B6B;
+}
+.user-settings-security button, .user-settings-security p {
+    color: #C7C7C7;
+}
+.mfa-modal .form-inner p {
+    color: #B9B9B9 !important;
+}
+.mfa-modal .mfa-step {
+    border-bottom: 1px solid #080808;
+}
