@@ -3030,3 +3030,6 @@ div#bd-pub-button:hover {
 .radio-theme input[type=radio]:checked~label {
     border-color: #057F95;
 }
+.header-toolbar button+button {
+    background-color: #057F95;
+}
