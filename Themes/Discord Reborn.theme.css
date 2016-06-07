@@ -3039,3 +3039,7 @@ div#bd-pub-button:hover {
 #friends .btn, .add-friend-popout .btn, .private-channels .channel.selected .icon-friends {
     background-color: #057F95 !important;
 }
+.user-popout .body .notes textarea {
+    color: #B1B1B1;
+    background-color: #0C0C0C !important;
+}
