@@ -3043,3 +3043,7 @@ div#bd-pub-button:hover {
     color: #B1B1B1;
     background-color: #0C0C0C !important;
 }
+.invite-button {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #000000;
+}
