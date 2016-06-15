@@ -30,6 +30,7 @@ Hover Color: #045B6B; */
     -moz-transition: 0.3s all ease;
     transition: 0.3s all ease;
     background-size: cover !important;
+    -webkit-filter: brightness(75%);
 }
 .Select-control {
     background: rgba(0, 0, 0, 0.62);
