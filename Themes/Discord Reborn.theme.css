@@ -2232,7 +2232,7 @@ img.image {
 }
 
 .checkbox .checkbox-inner input + span {
-    border: 2px solid white;
+    border: 2px solid #057f95;
 }
 
 .checkbox .checkbox-inner input:checked + span:after {
