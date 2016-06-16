@@ -3009,7 +3009,7 @@ div#bd-pub-button:hover {
     border-bottom: 1px solid #080808;
 }
 .form .btn {
-    -webkit-transition: all .2s ease-in-out !important;
+    -webkit-transition: all .2s ease-in-out;
 }
 .user-settings-security .backup-codes p strong {
     font-weight: 900;
