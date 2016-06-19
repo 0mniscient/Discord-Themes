@@ -1019,7 +1019,7 @@ textarea {
     color: #fff !important;
 }
 .chat>.content .messages .message-group .markup {
-    line-height: 1em;
+    line-height: 16px;
 }
 .chat>.content .messages .message-group h2 .user-name {
     color: #961C91;
