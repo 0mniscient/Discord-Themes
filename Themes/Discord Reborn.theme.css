@@ -2184,7 +2184,7 @@ img.image {
     background-image: url(https://discordapp.com/assets/0f1f2dff98b5e2099086e303d9be0dad.svg);
 }
 .theme-dark .chat .title-wrap .topic .highlight:hover {
-    background-color: rgb(61, 169, 169);
+    background-color: #057F95;
     border-radius: 4px;
 }
 .theme-dark .chat .title-wrap .topic .highlight {
