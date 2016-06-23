@@ -3078,6 +3078,7 @@ div#bd-pub-button:hover {
 }
 .theme-dark .channel-pins-wrap .header {
     background-color: rgba(0,0,0,0.65) !important;
+    border-bottom: 2px solid #057F95;
 }
 .theme-dark .channel-pins-wrap .channel-pins .message-group {
     background-color: rgba(0, 0, 0, 0.69) !important;
