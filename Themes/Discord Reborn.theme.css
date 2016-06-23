@@ -2521,7 +2521,7 @@ button.win-minimize:hover {
     border-radius: 3px;
 }
 .header-toolbar button+button[data-reactid=".0.1.1.0.2.0.3.0:1"] {
-    background-color: #057F95;
+    background-color: transparent;
     opacity: 0.8;
 }
 .tipsy-inner {
@@ -2953,7 +2953,7 @@ div#bd-pub-button:hover {
     border-color: #057F95;
 }
 .header-toolbar button+button {
-    background-color: #057F95;
+    background-color: transparent;
 }
 .guilds-wrapper .guilds .guild.active:first-of-type .guild-inner {
     background: #057F95 !important;
@@ -3072,4 +3072,44 @@ div#bd-pub-button:hover {
     border-bottom: 0px;
     transition: all 200ms ease;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3)
+}
+.theme-dark .channel-pins-wrap {
+    background-color: rgba(0, 0, 0, 0.45) !important;
+}
+.theme-dark .channel-pins-wrap .header {
+    background-color: rgba(0,0,0,0.65) !important;
+}
+.theme-dark .channel-pins-wrap .channel-pins .message-group {
+    background-color: rgba(0, 0, 0, 0.69) !important;
+}
+.message-group .comment .markup pre {
+    background: rgba(0,0,0,0.45);
+    border: 2px solid rgba(121, 122, 122, 0.27);
+}
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+    background: rgba(255, 255, 255, 0.06);
+}
+.theme-dark .message-group .comment .markup pre {
+    background: rgba(0, 0, 0, 0);
+}
+.theme-dark .channel-pins-wrap .channel-pins .message-group:hover .action-buttons {
+    box-shadow: 0 0 6px 4px transparent !important;
+    background-color: transparent !important;
+}
+.theme-dark .channel-pins-wrap .channel-pins .message-group .action-buttons .jump-button {
+    background-color: #057f95 !important;
+    color: #fff !important;
+}
+.theme-dark .channel-pins-wrap .channel-pins .message-group:hover {
+    border-color: #057f95 !important;
+}
+.theme-dark .channel-pins-wrap .footer {
+    background-color: rgba(0,0,0,0.65) !important;
+}
+.chat .has-more button {
+    background: rgba(0, 0, 0, 0.47);
+    border: 1px solid #000000;
+}
+.theme-dark .message-group h2 span {
+    color: rgba(255, 255, 255, 0.5);
 }
