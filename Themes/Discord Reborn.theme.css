@@ -2872,7 +2872,7 @@ div#bd-pub-button:hover {
     transition: .3s all ease-in-out;
 }
 .guild-channels .channel-user-limit {
-    background: #000000;
+    background: rgba(0, 0, 0, 0.5);
 }
 .guild-settings-modal-members .guild-settings-modal-list .member {
     padding: 5px;
