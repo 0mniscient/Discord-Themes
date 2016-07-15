@@ -1917,7 +1917,7 @@ div.control-group .shortcut-recorder input[type=text] {
     }
 }
 #user-profile-modal footer .btn.add-friend {
-    webkit-animation: friend-request-pulse 1.5s infinite;
+    -webkit-animation: friend-request-pulse 1.5s infinite;
     animation: friend-request-pulse 1.5s infinite;
 }
 #user-profile-modal .guilds .avatar-large {
@@ -1963,7 +1963,7 @@ img.image {
     margin-bottom: -122px;
     font-size: 30px;
     text-align: center;
-    webkit-animation: pulse 1.5s infinite;
+    -webkit-animation: pulse 1.5s infinite;
     animation: pulse 1.5s infinite;
 }
 @-webkit-keyframes pulse {
