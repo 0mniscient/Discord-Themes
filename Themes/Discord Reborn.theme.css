@@ -3315,3 +3315,6 @@ div#bd-pub-button:hover {
 	.popout.popout-top-right.no-arrow,
 	.popout.popout-top.no-arrow{margin-left:30px;}
 }
+.guilds-wrapper .btn-download-apps:after {
+    background-color: transparent;
+}
