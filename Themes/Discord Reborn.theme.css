@@ -3275,7 +3275,7 @@ div#bd-pub-button:hover {
 @media screen and (max-width: 650px) {
 	.channels-wrap{display:none;}
 
-	.chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap{background-color: rgba(3,169,244,0.8);}
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap{background-color: rgba(0, 0, 0, 0.9);}
 	.chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap:before{font-size: 1.5rem;}
 
 }
@@ -3297,7 +3297,7 @@ div#bd-pub-button:hover {
 		background: #ec1e63;
 	}
 
-	.chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap{background-color: rgba(3,169,244,1);}
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap{background-color: #000;}
 }
 
 @media screen and (max-width: 400px) {.message-group .btn-option{display:none;}}
