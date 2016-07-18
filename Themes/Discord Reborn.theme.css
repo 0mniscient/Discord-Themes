@@ -3215,3 +3215,103 @@ div#bd-pub-button:hover {
 .region-select-popout .region-select-name {
     color: #B9B9B9;
 }
+@media screen and (max-width: 1100px) {
+	.chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup{max-width: 95%;}
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup{max-width: 85%;}
+}
+
+
+@media screen and (max-width: 1020px) {
+	.chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup{max-width: 90%;}
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup{max-width: 80%;}
+}
+
+@media screen and (max-width: 920px){
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group:not(.compact) h2 .timestamp{display:none;}
+}
+
+@media screen and (max-width: 900px){
+	.message-group:not(.compact) .comment .accessory{max-width:80%;}
+
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap{
+		cursor:not-allowed;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.75);
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		border-radius: 5px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: inherit;
+		z-index: 1000;
+	}
+
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap:before{
+		content: "Media screen size too small";
+		color: #fff;
+		margin: auto;
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap .scroller-wrap{display:none;}
+	
+	.chat:not(.private) .content .message-group:not(.compact) h2 .timestamp{display:block;}
+}
+
+@media screen and (max-width: 850px) {
+	.chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup,
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup{max-width: 80%;}
+}
+
+@media screen and (max-width: 725px) {
+	.chat.private .content .message-group:not(.compact) h2 .timestamp{display:none;}
+}
+
+@media screen and (max-width: 650px) {
+	.channels-wrap{display:none;}
+
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap{background-color: rgba(3,169,244,0.8);}
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap:before{font-size: 1.5rem;}
+
+}
+
+
+@media screen and (max-width: 600px) {.channels-wrap{width: calc(84% - 10px);}}
+@media screen and (max-width: 540px) {
+	.channels-wrap{width:82%;}
+
+	.chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup,
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup{max-width: 80%;}
+}
+
+@media screen and (max-width: 430px) {
+	.guilds-wrapper{display:none;}
+
+	.channels-wrap{
+		width:97%;
+		background: #ec1e63;
+	}
+
+	.chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap{background-color: rgba(3,169,244,1);}
+}
+
+@media screen and (max-width: 400px) {.message-group .btn-option{display:none;}}
+
+@media screen and (max-width: 340px) {
+	.message-group h2{
+		max-width: 60%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.emoji-picker{width:90%;}
+
+	.popout.popout-top-right.no-arrow,
+	.popout.popout-top.no-arrow{margin-left:30px;}
+}
