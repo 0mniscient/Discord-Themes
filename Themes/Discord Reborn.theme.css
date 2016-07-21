@@ -1704,3 +1704,11 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 @media screen and (max-width: 340px) { .message-group h2 { max-width: 60%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .emoji-picker { width: 90%; }
   .popout.popout-top-right.no-arrow, .popout.popout-top.no-arrow { margin-left: 30px; } }
+
+.change-log-button-container:hover { font-weight: 500; border-bottom: 2px solid #057F95; background: rgba(0, 0, 0, 0.48); opacity: 0.85; }
+
+.change-log-button-container { position: inherit; padding-top: 1px; margin-top: 0px; transition: .2s ease-in-out all; font-weight: 500; }
+
+.change-log-button-container .change-log-button:hover  {color: #fff; }
+
+.change-log-button-container .change-log-button { color: hsla(0,0%,100%,.3); font-size: 14px; opacity: 1; }
