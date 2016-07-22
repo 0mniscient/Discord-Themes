@@ -1712,3 +1712,15 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 .change-log-button-container .change-log-button:hover  {color: #fff; }
 
 .change-log-button-container .change-log-button { color: hsla(0,0%,100%,.3); font-size: 14px; opacity: 1; }
+
+.theme-dark .channel-members-loading .heading { background: transparent !important; }
+
+.theme-dark .channel-members-loading .member { background: transparent !important; }
+
+.theme-dark .channel-members-loading .member:nth-child(3n+2), .theme-dark .channel-members-loading .member:nth-child(7n+4) { background: transparent !important; }
+
+.theme-dark .channel-members-loading .member:nth-child(2n-4), .theme-dark .channel-members-loading .member:nth-child(7n-1) { background: transparent !important; }
+
+.theme-dark .channel-members-loading { background-color: transparent !important; }
+
+.theme-dark .channel-members-loading .background { background-image: -webkit-linear-gradient(0deg,transparent,rgba(0, 0, 0, 0.4),transparent); background-image: linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4),transparent); }
