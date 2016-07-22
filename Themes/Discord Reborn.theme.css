@@ -1002,19 +1002,19 @@ img.image { border-radius: 5px; }
 
 .account .btn-deafen, .account .btn-mute, .account .btn-settings { background: rgba(0, 0, 0, 0.45); box-shadow: none !important; border-radius: 40px; }
 
-#connecting { background: rgba(0, 0, 0, 0.8); }
+.connecting { background: rgba(0, 0, 0, 0.8); }
 
-#connecting video.ready { visibility: hidden; }
+.connecting video.ready { visibility: hidden; }
 
-#connecting video { visibility: hidden; }
+.connecting video { visibility: hidden; }
 
-#connecting .quote { margin-bottom: 10px; color: #fff; font-weight: 400; font-style: italic; font-size: 16px; visibility: hidden; }
+.connecting .quote { margin-bottom: 10px; color: #fff; font-weight: 400; font-style: italic; font-size: 16px; visibility: hidden; }
 
-#connecting img, #connecting video { visibility: hidden; }
+.connecting img, .connecting video { visibility: hidden; }
 
-#connecting .attribution { visibility: hidden; }
+.connecting .attribution { visibility: hidden; }
 
-#connecting .attribution, #connecting .connection-status, #connecting .quote { margin-bottom: -122px; font-size: 30px; text-align: center; -webkit-animation: pulse 1.5s infinite; animation: pulse 1.5s infinite; }
+.connecting .attribution, .connecting .connection-status, .connecting .quote { margin-bottom: -122px; font-size: 30px; text-align: center; -webkit-animation: pulse 1.5s infinite; animation: pulse 1.5s infinite; }
 
 @-webkit-keyframes pulse { 0% { -webkit-transform: scale(1); }
   50% { -webkit-transform: scale(1.1); }
@@ -1668,59 +1668,82 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .account:after {content: "Reborn v4.34"; color: #8A8A8A; font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
-@media screen and (max-width: 1100px) { .chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup { max-width: 95%; }
-  .chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup { max-width: 85%; } }
+@media screen and (max-width: 1100px) {
+ .chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup{max-width: 95%;}
+ .chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup{max-width: 85%;}
+}
 
-@media screen and (max-width: 1020px) { .chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup { max-width: 90%; }
-  .chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup { max-width: 80%; } }
 
-@media screen and (max-width: 920px) { .chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group:not(.compact) h2 .timestamp { display: none; } }
+@media screen and (max-width: 1020px) {
+ .chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup{max-width: 90%;}
+ .chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup{max-width: 80%;}
+}
 
-@media screen and (max-width: 900px) { .message-group:not(.compact) .comment .accessory { max-width: 80%; }
-  .chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap { cursor: not-allowed; position: fixed; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.75); background-size: cover; background-position: center center; background-repeat: no-repeat; border-radius: 5px; top: 0; right: 0; bottom: 0; left: inherit; z-index: 1000; }
-  .chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap:before { content: "Media screen size too small"; color: #fff; margin: auto; font-size: 2rem; text-align: center; }
-  .chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap .scroller-wrap { display: none; }
-  .chat:not(.private) .content .message-group:not(.compact) h2 .timestamp { display: block; } }
+@media screen and (max-width: 920px){
+ .chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group:not(.compact) h2 .timestamp{display:none;}
+}
 
-@media screen and (max-width: 850px) { .chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup, .chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup { max-width: 80%; } }
+@media screen and (max-width: 970px){
+ .guilds-wrapper{position:absolute;z-index:5;left:-80px;transition: left ease .5s;height:100%;background:transparent;border-right:solid transparent 50px;}
+ .guilds-wrapper:hover {left: 0;}
+ .channel-members{transform:translate(145px);z-index:2;transition:all 300ms ease;}
+ .channel-members:hover{animation: member 300ms ease;transform:translate(0px);background: #000 !important;}
+ .channel-members .member .member-activity,
+ .channel-members .member .member-username-inner{opacity:0;transition:opacity 300ms ease, margin 100ms ease;}
+ .channel-members .member .member-username-inner{margin-bottom: 6px;}
+ .channel-members:hover .member .member-activity, .channel-members:hover .member .member-username-inner{opacity:1;}
+ .header-toolbar button.active{display:none;}
+ .channel-members h2{transform-origin:left;transform:scale(0.7);padding:0px 0px 0px 10px;transition: all 300ms ease;}
+ .channel-members:hover h2{transform:scale(1);padding: 4px 58px;}
+ .channel-members .avatar-small{transform:scale(1.2);}
+ .channel-members:hover .avatar-small{transform:scale(1);}
+ .chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:-145px;z-index:1}
+ .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:0px;z-index:1}
+ .theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {background: -webkit-linear-gradient(left, rgb(9, 10, 10) 85%, rgba(46, 49, 54, 0)) !important;}
+ .channel-members .member.popout-open .avatar-small, .channel-members .member:hover .avatar-small {transform: scale(1.2);}
+ .chat:not(.private) .content .message-group:not(.compact) h2 .timestamp{display:block;}
+}
 
-@media screen and (max-width: 725px) { .chat.private .content .message-group:not(.compact) h2 .timestamp { display: none; } }
+@media screen and (max-width: 850px) {
+ .chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup,
+ .chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup{max-width: 80%;}
+ .channels-wrap{position:absolute;z-index:5;left:-275px;transition: left ease .5s;height:100%;background:rgba(0, 0, 0, 0.6);border-right:solid transparent 50px;width: 178px;}
+ .scroller-wrap.fade.dark {width: 218px !important;}
+ .guild-header {width: 228px;}
+ .guilds-wrapper:hover ~ .channels-wrap {left: 80px;width: 178px;}
+ .channels-wrap:hover {left: 80px;width: 178px;}
+ .guild-channels .channel a {opacity: 0.7}
+}
 
-@media screen and (max-width: 650px) { .channels-wrap { display: none; }
-  .chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap { background-color: rgba(0, 0, 0, 0.9); }
-  .chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap:before { font-size: 1.5rem; } }
+@media screen and (max-width: 725px) {
+ .chat.private .content .message-group:not(.compact) h2 .timestamp{display:none;}
+}
 
-@media screen and (max-width: 600px) { .channels-wrap { width: calc(84% - 10px); } }
+@media screen and (max-width: 430px) {
+ .chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap { cursor: not-allowed; position: fixed; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.75); background-size: cover; background-position: center center; background-repeat: no-repeat; border-radius: 5px; top: 0; right: 0; bottom: 0; left: inherit; z-index: 1000; }
+ .chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap:before { content: "Media screen size too small"; color: #fff; margin: auto; font-size: 2rem; text-align: center; }
+ .chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap .scroller-wrap { display: none; }
+ .chat:not(.private) .content .message-group:not(.compact) h2 .timestamp { display: block; }
+}
 
-@media screen and (max-width: 540px) { .channels-wrap { width: 82%; }
-  .chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup, .chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup { max-width: 80%; } }
+@media screen and (max-width: 400px) {
+ .message-group .btn-option{display:none;}
+}
 
-@media screen and (max-width: 430px) { .guilds-wrapper { display: none; }
-  .channels-wrap { width: 97%; background: #ec1e63; }
-  .chat .content .flex-spacer.flex-vertical:not(:only-child) ~ .channel-members-wrap { background-color: #000; } }
+@media screen and (max-width: 340px) {
+ .message-group h2{max-width: 60%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+ .emoji-picker{width:90%;}
+}
 
-@media screen and (max-width: 400px) { .message-group .btn-option { display: none; } }
-
-@media screen and (max-width: 340px) { .message-group h2 { max-width: 60%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .emoji-picker { width: 90%; }
-  .popout.popout-top-right.no-arrow, .popout.popout-top.no-arrow { margin-left: 30px; } }
-
-.change-log-button-container:hover { font-weight: 500; border-bottom: 2px solid #057F95; background: rgba(0, 0, 0, 0.48); opacity: 0.85; }
-
-.change-log-button-container { position: inherit; padding-top: 1px; margin-top: 0px; transition: .2s ease-in-out all; font-weight: 500; }
-
-.change-log-button-container .change-log-button:hover  {color: #fff; }
-
-.change-log-button-container .change-log-button { color: hsla(0,0%,100%,.3); font-size: 14px; opacity: 1; }
-
-.theme-dark .channel-members-loading .heading { background: transparent !important; }
-
-.theme-dark .channel-members-loading .member { background: transparent !important; }
-
-.theme-dark .channel-members-loading .member:nth-child(3n+2), .theme-dark .channel-members-loading .member:nth-child(7n+4) { background: transparent !important; }
-
-.theme-dark .channel-members-loading .member:nth-child(2n-4), .theme-dark .channel-members-loading .member:nth-child(7n-1) { background: transparent !important; }
-
-.theme-dark .channel-members-loading { background-color: transparent !important; }
-
-.theme-dark .channel-members-loading .background { background-image: -webkit-linear-gradient(0deg,transparent,rgba(0, 0, 0, 0.4),transparent); background-image: linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4),transparent); }
+.popout.popout-top-right.no-arrow,
+.popout.popout-top.no-arrow{margin-left:30px;}}
+.change-log-button-container:hover {font-weight: 500;border-bottom: 2px solid #057F95;background: rgba(0, 0, 0, 0.48);opacity: 0.85;}
+.change-log-button-container {position: inherit;padding-top: 1px;margin-top: 0px;transition: .2s ease-in-out all;font-weight: 500;}
+.change-log-button-container .change-log-button:hover {color: #fff;}
+.change-log-button-container .change-log-button {color: hsla(0,0%,100%,.3);font-size: 14px;opacity: 1;}
+.theme-dark .channel-members-loading .heading {background: transparent !important;}
+.theme-dark .channel-members-loading .member {background: transparent !important;}
+.theme-dark .channel-members-loading .member:nth-child(3n+2), .theme-dark .channel-members-loading .member:nth-child(7n+4) {background: transparent !important;}
+.theme-dark .channel-members-loading .member:nth-child(2n-4), .theme-dark .channel-members-loading .member:nth-child(7n-1) {background: transparent !important;}
+.theme-dark .channel-members-loading {background-color: transparent !important;}
+.theme-dark .channel-members-loading .background {background-image: -webkit-linear-gradient(0deg,transparent,rgba(0, 0, 0, 0.4),transparent);background-image: linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4),transparent);}
