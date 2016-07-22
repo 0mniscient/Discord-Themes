@@ -1,4 +1,4 @@
-//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.34"}*//
+//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.35"}*//
 
 /* CSS Made By @Omniscient */
 /*
@@ -1666,7 +1666,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .region-select-popout .region-select-name { color: #B9B9B9; }
 
-.account:after {content: "Reborn v4.34"; color: #8A8A8A; font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+.account:after {content: "Reborn v4.35"; color: #8A8A8A; font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
 @media screen and (max-width: 1100px) {
  .chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup{max-width: 95%;}
