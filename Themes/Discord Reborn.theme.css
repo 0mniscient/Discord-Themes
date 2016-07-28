@@ -1747,3 +1747,27 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 .theme-dark .channel-members-loading .member:nth-child(2n-4), .theme-dark .channel-members-loading .member:nth-child(7n-1) {background: transparent !important;}
 .theme-dark .channel-members-loading {background-color: transparent !important;}
 .theme-dark .channel-members-loading .background {background-image: -webkit-linear-gradient(0deg,transparent,rgba(0, 0, 0, 0.4),transparent);background-image: linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4),transparent);}
+
+.settings-connections-wrapper .authed-app { background: rgba(0,0,0,0.5); border: 1px solid rgba(0,0,0,0.5);}
+
+.settings-connections-wrapper .authed-app:hover { border: 2px solid #057f95;}
+
+.settings-connections-wrapper .authed-app .header .app-name {color: #d2d2d2;}
+
+.settings-connections-wrapper .authed-app .details .header {color: #b7b7b7;}
+
+.settings-connections-wrapper .authed-app .details .body {color: #afafaf;}
+
+.settings-connections-wrapper .authed-app .details .permissions .body {color: #afafaf;}
+
+.settings-connections-wrapper .authed-app .details .permission-checkmark {-webkit-filter: invert(100%) hue-rotate(110deg);}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list {box-shadow: 0 -1px transparent;}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations {border: 2px solid #057f95;}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations.no-integrations {color: #057f95;opacity: 0.7;}
+
+.alert.form .form-inner h4 {color: #dcdcdc;}
+
+.alert.form .form-inner p {color: #bbbbbb;}
