@@ -4,7 +4,7 @@
 ```css
 /*Member List*/
 .channel-members {
-background: rgba(0, 0, 0, 0.9)!important;
+    background: rgba(0, 0, 0, 0.9)!important;
 } 
 /*Messages (Middle Area)*/
 .content .flex-spacer {
@@ -17,4 +17,8 @@ background: rgba(0, 0, 0, 0.9)!important;
 /*Server List*/
 .guilds {
     background-color: rgba(0, 0, 0, 0.6) !important;
+}
+/* Title Bar (bar on top of messages) */
+.title-wrap {
+    background: rgba(0, 0, 0, 0.88) !important;
 }
