@@ -36,7 +36,9 @@ Hover Color: #045B6B; */
 
 .form .control-group .Select-control .Select-placeholder { color: #787A7B; }
 
-.tab-bar.SIDE { overflow-y: hidden; background-color: rgba(0, 0, 0, 0.8); }
+.tab-bar.SIDE { overflow-y: scroll; background-color: rgba(0, 0, 0, 0.8); }
+
+.tab-bar.SIDE::-webkit-scrollbar { width: 0px; }
 
 .create-guild-container .join-server .link-container input { border: 1px solid #057F95; }
 
