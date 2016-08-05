@@ -1773,3 +1773,11 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 .alert.form .form-inner h4 {color: #dcdcdc;}
 
 .alert.form .form-inner p {color: #bbbbbb;}
+
+.invite-modal .scroller { background: #057f95 url(/assets/29d5ff462afb11bce1979cf694aee3d1.png) repeat; }
+
+.invite-modal .invite-body { color: #fff; background: #045B6B; border-radius: 3px }
+
+.invite-modal .invite-title { color: #fff; background: #045b6b; border-radius: 3px; }
+
+.invite-modal .invite-cancel { color: #fff; background: #A93D3D; border-radius: 3px; padding: 3px; }
