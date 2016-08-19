@@ -16,9 +16,10 @@ _______/\\\\\___________________________________________________________________
 
 .DummyClass { background: #fff; }
 
-:root { --main-color: #057F95; } /* Changing this will change ALL main colors */
-
-:root { --hover-color: #045B6B; } /*Changing this will change ALL hover colors */
+:root { 
+ --main-color: #057F95; /* Changing this will change ALL main colors */
+ --hover-color: #045B6B; /*Changing this will change ALL hover colors */
+ }
 
 /*Change the HTTPS:// url in .app to change the background behind chat */
 
