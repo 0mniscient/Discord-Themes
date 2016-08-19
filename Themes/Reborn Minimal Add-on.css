@@ -1,3 +1,7 @@
+/* THIS IS NOT A THEME THIS IS AN ADD-ON FOR DISCORD REBORN. */
+
+/* Hides Channels, Server Guilds and minimizes member list. Brings them back on hover. */
+
 .guilds-wrapper{position:absolute;z-index:5;left:-80px;transition: left ease .5s;height:100%;background:transparent;border-right:solid transparent 50px;}
  .guilds-wrapper:hover {left: 0;}
  .channel-members{transform:translate(145px);z-index:2;transition:all 300ms ease;}
@@ -15,7 +19,7 @@
  .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:0px;z-index:1}
  .theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {background: -webkit-linear-gradient(left, rgb(9, 10, 10) 85%, rgba(46, 49, 54, 0)) !important;}
  .channel-members .member.popout-open .avatar-small, .channel-members .member:hover .avatar-small {transform: scale(1.2);}
-.chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup,
+ .chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup,
  .chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup{max-width: 80%;}
  .channels-wrap{position:absolute;z-index:5;left:-275px;transition: left ease .5s;height:100%;background:rgba(0, 0, 0, 0.6);border-right:solid transparent 50px;width: 178px;}
  .scroller-wrap.fade.dark {width: 218px !important;}
