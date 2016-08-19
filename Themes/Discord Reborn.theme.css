@@ -29,7 +29,7 @@ _______/\\\\\___________________________________________________________________
 
 .callout-backdrop { background-color: black !important; background-image: url("https://imgur.com/RG03PyX.png") !important; -webkit-transition: 0.3s all ease; -o-transition: 0.3s all ease; -moz-transition: 0.3s all ease; transition: 0.3s all ease; background-size: cover !important; -webkit-filter: brightness(75%); }
 
-.account:after {content: "Reborn v4.39"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+.account:after {content: "Reborn v4.40"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
 .Select-control { background: rgba(0, 0, 0, 0.62); border: var(--main-color); border-color: var(--main-color) var(--main-color) var(--main-color); }
 
@@ -538,7 +538,7 @@ textarea { background: transparent !important; }
 
 .chat > .content .messages .message-group h2 .user-name { color: rgba(255, 255, 255, 0.8); }
 
-.chat > .content .messages .message-group h2 span { color: rgba(255, 255, 255, 0.2) !important; }
+.chat > .content .messages .message-group h2 span { color: rgba(255, 255, 255, 0.2); }
 
 .chat > .content .messages .message-group .markup pre { background: transparent !important; border-color: rgba(255, 255, 255, 0.1) !important; }
 
@@ -981,7 +981,7 @@ div.control-group .shortcut-recorder input[type=text] { border: 1px solid var(--
   70% { box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0); }
   to { box-shadow: 0 0 0 0 rgba(241, 71, 71, 0); } }
 
-.bot-tag { background: rgba(255, 255, 255, 0.28); color: rgba(255, 255, 255, 0.62); }
+.bot-tag { background: #057f95; }
 
 .bot-tag.bot-tag-invert { font-size: 11px !important; color: rgba(255, 255, 255, 0.7) !important; margin-left: 8px !important; border-radius: 5px !important; background: rgba(0, 0, 0, 0.19) !important; font-weight: bold !important; border: 3px solid transparent !important; padding: 0px; }
 
