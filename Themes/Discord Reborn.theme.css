@@ -20,11 +20,15 @@ _______/\\\\\___________________________________________________________________
 
 :root { --hover-color: #045B6B; } /*Changing this will change ALL hover colors */
 
+/*Change the HTTPS:// url in .app to change the background behind chat */
+
 .app { background-image: url("https://imgur.com/RG03PyX.png") !important; background-size: cover !important; }
+
+/*Change the HTTPS:// url in .callout-backdrop to change the background when modal pop outs happen */
 
 .callout-backdrop { background-color: black !important; background-image: url("https://imgur.com/RG03PyX.png") !important; -webkit-transition: 0.3s all ease; -o-transition: 0.3s all ease; -moz-transition: 0.3s all ease; transition: 0.3s all ease; background-size: cover !important; -webkit-filter: brightness(75%); }
 
-.account:after {content: "Reborn v4.36"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+.account:after {content: "Reborn v4.38"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
 .Select-control { background: rgba(0, 0, 0, 0.62); border: var(--main-color); border-color: var(--main-color) var(--main-color) var(--main-color); }
 
