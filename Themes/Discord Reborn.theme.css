@@ -1720,6 +1720,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
  .guilds-wrapper:hover ~ .channels-wrap {left: 80px;width: 178px;}
  .channels-wrap:hover {left: 6px;width: 178px;}
  .guild-channels .channel a {opacity: 0.7}
+ #voice-connection .btn-group {margin-right: -56px;}
 }
 
 @media screen and (max-width: 725px) {
