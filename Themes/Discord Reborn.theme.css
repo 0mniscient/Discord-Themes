@@ -446,8 +446,6 @@ textarea { background: transparent !important; }
 
 .guilds-wrapper { border-right: none; background-color: transparent; }
 
-.guild-header header span { margin-left: -5px; }
-
 .guild-header header { box-shadow: none !important; color: #ddd; }
 
 .guild-channels header h2, .guild-channels ul .channel a { color: #fff; }
