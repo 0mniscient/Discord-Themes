@@ -1555,7 +1555,9 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .user-popout .body .notes textarea { color: #B1B1B1; background-color: #0C0C0C !important; }
 
-.invite-button { background-color: rgba(0, 0, 0, 0.7); border: 1px solid #000000; }
+.invite-button { background-color: rgba(0, 0, 0, 0.7); border: 2px solid #000000; }
+
+.invite-button:hover { border-color: #057f95 !important; }
 
 @-webkit-keyframes mentionpulse { 0% { box-shadow: 0 0 0 0 rgba(250, 166, 26, 0.23); }
   70% { box-shadow: 0 0 5px 5px rgba(241, 71, 71, 0); }
