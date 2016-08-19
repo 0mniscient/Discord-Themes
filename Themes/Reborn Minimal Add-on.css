@@ -1,5 +1,7 @@
 /* THIS IS NOT A THEME THIS IS AN ADD-ON FOR DISCORD REBORN. */
 
+/* Add this to the bottom of Discord Reborn CSS file or put it in BetterDiscord custom CSS tab */
+
 /* Hides Channels, Server Guilds and minimizes member list. Brings them back on hover. */
 
 .guilds-wrapper{position:absolute;z-index:5;left:-80px;transition: left ease .5s;height:100%;background:transparent;border-right:solid transparent 50px;}
