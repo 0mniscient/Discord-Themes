@@ -29,7 +29,7 @@ _______/\\\\\___________________________________________________________________
 
 .callout-backdrop { background-color: black !important; background-image: url("https://imgur.com/RG03PyX.png") !important; -webkit-transition: 0.3s all ease; -o-transition: 0.3s all ease; -moz-transition: 0.3s all ease; transition: 0.3s all ease; background-size: cover !important; -webkit-filter: brightness(75%); }
 
-.account:after {content: "Reborn v4.38"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+.account:after {content: "Reborn v4.39"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
 .Select-control { background: rgba(0, 0, 0, 0.62); border: var(--main-color); border-color: var(--main-color) var(--main-color) var(--main-color); }
 
@@ -1788,3 +1788,5 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 .invite-modal .invite-cancel { color: #fff; background: #A93D3D; border-radius: 3px; padding: 3px; }
 
 .theme-dark .invite-button { background-color: rgba(0, 0, 0, 0.68); border-color: #000000; }
+
+body { -webkit-font-smoothing: antialiased; -webkit-backface-visibility: hidden; }
