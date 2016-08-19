@@ -953,8 +953,6 @@ a:link { color: var(--main-color); }
 
 span.discriminator { font-size: 11px !important; color: rgba(255, 255, 255, 0.7) !important; margin-left: 8px !important; border-radius: 5px !important; background: rgba(0, 0, 0, 0.19) !important; font-weight: bold !important; border: 3px solid transparent !important; -webkit-transition: all 0.3s ease !important; -moz-transition: all 0.3s ease !important; -o-transition: all 0.3s ease !important; -ms-transition: all 0.3s ease !important; }
 
-span.discriminator:hover { background: rgba(0, 0, 0, 0.32) !important; color: #fff !important; font-size: 14px !important; font-weight: bold !important; }
-
 .guilds-error { width: 40px !important; height: 40px !important; line-height: 39px !important; }
 
 .theme-dark .friends-table .messages .invite-button, .theme-dark .messages-wrapper .messages .invite-button { background-color: rgba(0, 0, 0, 0.54); border-color: rgba(0, 0, 0, 0.35); }
@@ -981,7 +979,7 @@ div.control-group .shortcut-recorder input[type=text] { border: 1px solid var(--
   70% { box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0); }
   to { box-shadow: 0 0 0 0 rgba(241, 71, 71, 0); } }
 
-.bot-tag { background: #057f95; }
+.bot-tag { background: #057f95; opacity: 0.8; }
 
 .bot-tag.bot-tag-invert { font-size: 11px !important; color: rgba(255, 255, 255, 0.7) !important; margin-left: 8px !important; border-radius: 5px !important; background: rgba(0, 0, 0, 0.19) !important; font-weight: bold !important; border: 3px solid transparent !important; padding: 0px; }
 
