@@ -1790,4 +1790,4 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .theme-dark .invite-button { background-color: rgba(0, 0, 0, 0.68); border-color: #000000; }
 
-body { -webkit-font-smoothing: antialiased; -webkit-backface-visibility: hidden; }
+* { -webkit-font-smoothing: antialiased; -webkit-backface-visibility: hidden; }
