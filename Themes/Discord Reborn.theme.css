@@ -1,4 +1,4 @@
-//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.40"}*//
+//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.41"}*//
 
 /* CSS Made By @Omniscient */
 /*
@@ -1700,7 +1700,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
  .channel-members .member .member-username-inner{margin-bottom: 6px;}
  .channel-members:hover .member .member-activity, .channel-members:hover .member .member-username-inner{opacity:1;}
  .header-toolbar button.active{display:none;}
- .channel-members h2{transform-origin:left;transform:scale(0.7);padding:0px 0px 0px 10px;transition: all 300ms ease;}
+ .channel-members h2{transform-origin:left;transform:scale(0.7);padding:6px;transition: all 300ms ease;background-color:#057f95;color:#fff !important;}
  .channel-members:hover h2{transform:scale(1);padding: 4px 58px;}
  .channel-members .avatar-small{transform:scale(1.2);}
  .channel-members:hover .avatar-small{transform:scale(1);}
@@ -1790,4 +1790,4 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .theme-dark .invite-button { background-color: rgba(0, 0, 0, 0.68); border-color: #000000; }
 
-* { -webkit-font-smoothing: antialiased !important; -webkit-backface-visibility: hidden !important; }
+body,.channel-members .member .member-username { -webkit-font-smoothing: antialiased !important; -webkit-backface-visibility: hidden !important; }
