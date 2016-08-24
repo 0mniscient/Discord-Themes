@@ -1870,3 +1870,34 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .option-popout .btn-item { color: #909090; }
 
 .popout.popout-invert.popout-top header:before, .popout.popout-invert.popout-top-right header:before { border-top-color: #057f95; }
+
+#ebr-themes-pane .ebr-top .themes-header,
+#ebr-plugins-pane .ebr-top .plugins-header { font-weight: 700;text-transform: uppercase;color: #fff;cursor: default;overflow: hidden; }
+
+#theme-search,
+#plugin-search { background-color: rgba(0, 0, 0, .3);border-color: transparent !important;border-radius: 3px; }
+
+#theme-search:focus,
+#plugin-search:focus { outline-color: #057F95; }
+
+.ebr-plugin-item,
+.ebr-theme-item { background-color: rgba(0, 0, 0, .3) !important; border-color: transparent !important; }
+
+.install-button,
+.view-source-button,
+.update-button { background-color: #057F95 !important; }
+
+.install-button:hover,
+.view-source-button:hover,
+.update-button:hover { background-color: #045B6B !important; }
+
+.ebr-themes p,
+.ebr-plugins p { font-size: 13.5px; }
+
+.ebr-themes .name,
+.ebr-plugins .name { color: #057F95;font-weight: 700; }
+
+.ebr-themes .author,
+.ebr-plugins .author { font-weight: 700; }
+
+#ebr-themes-pane .ebr-top .themes-header, #ebr-plugins-pane .ebr-top .plugins-header, .ebr-themes p.author, .ebr-plugins p.author, .ebr-themes p.description, .ebr-plugins p.description { color:#fff; }
