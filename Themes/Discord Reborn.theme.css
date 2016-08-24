@@ -1866,3 +1866,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }
 
 #friends .friends-empty p{color: rgba(225, 225, 225, 0.8);}
+
+.option-popout .btn-item { color: #909090; }
+
+.popout.popout-invert.popout-top header:before, .popout.popout-invert.popout-top-right header:before { border-top-color: #057f95; }
