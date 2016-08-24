@@ -1,4 +1,4 @@
-//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.42"}*//
+//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.43"}*//
 
 /* CSS Made By @Omniscient */
 /*
@@ -29,7 +29,7 @@ _______/\\\\\___________________________________________________________________
 
 .callout-backdrop { background-color: black !important; background-image: url("https://imgur.com/RG03PyX.png") !important; -webkit-transition: 0.3s all ease; -o-transition: 0.3s all ease; -moz-transition: 0.3s all ease; transition: 0.3s all ease; background-size: cover !important; -webkit-filter: brightness(75%); }
 
-.account:after {content: "Reborn v4.42"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+.account:after {content: "Reborn v4.43"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
 .Select-control { background: rgba(0, 0, 0, 0.62); border: var(--main-color); border-color: var(--main-color) var(--main-color) var(--main-color); }
 
@@ -742,7 +742,7 @@ a:link { color: var(--main-color); }
 
 .member-roles .member-role .member-role-remove { background: url(https://i.imgur.com/O2TX2bn.png) 50% no-repeat; width: 8px; height: 12px; background-size: 8px; }
 
-.member-roles .member-role .member-role-add { background: url(https://i.imgur.com/1MfzLoF.png) 50% no-repeat; width: 8px; height: 12px; background-size: 10px; }
+.member-roles .member-role .member-role-add button { background: url(https://i.imgur.com/1MfzLoF.png) 50% no-repeat; width: 8px; height: 12px; background-size: 10px; }
 
 .member-roles .member-role:hover { background-color: var(--hover-color); }
 
