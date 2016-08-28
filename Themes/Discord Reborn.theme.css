@@ -1756,7 +1756,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 .theme-dark .channel-members-loading {background-color: transparent !important;}
 .theme-dark .channel-members-loading .background {background-image: -webkit-linear-gradient(0deg,transparent,rgba(0, 0, 0, 0.4),transparent);background-image: linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4),transparent);}
 
-.settings-connections-wrapper .authed-app { background: rgba(0,0,0,0.5); border: 1px solid rgba(0,0,0,0.5);}
+.settings-connections-wrapper .authed-app { background: rgba(0,0,0,0.5); border: 2px solid rgba(0,0,0,0.5);}
 
 .settings-connections-wrapper .authed-app:hover { border: 2px solid var(--main-color);}
 
