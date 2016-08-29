@@ -1,4 +1,4 @@
-//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.43"}*//
+//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.44"}*//
 
 /* CSS Made By @Omniscient */
 /*
@@ -29,7 +29,7 @@ _______/\\\\\___________________________________________________________________
 
 .callout-backdrop { background-color: black !important; background-image: url("https://imgur.com/RG03PyX.png") !important; -webkit-transition: 0.3s all ease; -o-transition: 0.3s all ease; -moz-transition: 0.3s all ease; transition: 0.3s all ease; background-size: cover !important; -webkit-filter: brightness(75%); }
 
-.account:after {content: "Reborn v4.43"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+.account:after {content: "Reborn v4.44"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
 .Select-control { background: rgba(0, 0, 0, 0.62); border: var(--main-color); border-color: var(--main-color) var(--main-color) var(--main-color); }
 
@@ -1237,7 +1237,7 @@ form.auth-form { background: rgba(0, 0, 0, 0.56); }
 
 .emoji-picker .search-bar-clear:after { background: #FFFFFF; }
 
-.search-bar-clear:after { background: #FFFFFF; }
+.search-bar-clear:after { background: #000; }
 
 .emoji-picker .search-bar-clear.active:after, .emoji-picker .search-bar-clear.active:before { background: #1c1c1c; }
 
@@ -1901,3 +1901,11 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .ebr-plugins .author { font-weight: 700; }
 
 #ebr-themes-pane .ebr-top .themes-header, #ebr-plugins-pane .ebr-top .plugins-header, .ebr-themes p.author, .ebr-plugins p.author, .ebr-themes p.description, .ebr-plugins p.description { color:#fff; }
+
+.search-bar.search-bar-light .search-bar-inner { background-color: transparent;border: 1px solid transparent; }
+
+.search-bar-light .search-bar-clear { background: #057f95; }
+
+.search-bar-clear:before { background: #000; }
+
+.search-bar-light .search-bar-clear:after { background: #057f95; }
