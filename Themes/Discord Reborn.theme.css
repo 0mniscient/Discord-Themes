@@ -480,7 +480,7 @@ textarea { background: transparent !important; }
 
 .search-bar-clear:before { background: #000; }
 
-.search-bar-clear { background: #fff; }
+.search-bar-clear { background: #057f95; }
 
 .guild-channels ul .channel.selected, .private-channels .channel.selected, .private-channels .search-result.selected, .private-channels .search-result:hover { background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.6) 85%, rgba(46, 49, 54, 0)) !important; }
 
@@ -1237,7 +1237,7 @@ form.auth-form { background: rgba(0, 0, 0, 0.56); }
 
 .emoji-picker .search-bar-clear:after { background: #FFFFFF; }
 
-.search-bar-clear:after { background: #000; }
+.search-bar-clear:after { background: #057f95; }
 
 .emoji-picker .search-bar-clear.active:after, .emoji-picker .search-bar-clear.active:before { background: #1c1c1c; }
 
@@ -1909,3 +1909,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .search-bar-clear:before { background: #000; }
 
 .search-bar-light .search-bar-clear:after { background: #057f95; }
+
+.search-bar-light .search-bar-clear:before { background: #000; }
+
+.guild-settings-modal-members h6 { color: #c1c1c1; } 
