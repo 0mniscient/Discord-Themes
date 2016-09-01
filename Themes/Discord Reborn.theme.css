@@ -1913,3 +1913,5 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .search-bar-light .search-bar-clear:before { background: #000; }
 
 .guild-settings-modal-members h6 { color: #c1c1c1; } 
+
+.emoji-picker .search-bar .search-bar-inner { background-color: transparent; }
