@@ -1,4 +1,4 @@
-//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.47"}*//
+//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"5.00"}*//
 
 /* CSS Made By @Omniscient */
 /*
@@ -58,7 +58,7 @@ content: "";position: absolute;left: 0;top: 0;width: 100%;height: 100%;z-index: 
 
 .user-popout .header.streaming{background-color: rgba(89, 54, 149, 0.69);}
 
-.account:after {content: "Reborn v4.47"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+.account:after {content: "Reborn v5.00"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
 .Select-control { background: rgba(0, 0, 0, 0.62); border: var(--main-color); border-color: var(--main-color) var(--main-color) var(--main-color); }
 
@@ -761,7 +761,7 @@ a:link { color: var(--main-color); }
 
 #user-profile-modal .header .discord-tag {color: #fff;font-size: 18px;margin-top: -27px;}
 
-.tab-bar.TOP { border-bottom: 1px solid var(--main-color); position: absolute; margin-top: -28px; }
+.tab-bar.TOP { border-bottom: 1px solid var(--main-color); }
 
 #bd-ps-body table tr:nth-child(odd):hover { background-color: var(--main-color); }
 
