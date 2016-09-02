@@ -29,6 +29,35 @@ _______/\\\\\___________________________________________________________________
 
 .callout-backdrop { background-color: black !important; background-image: url("https://imgur.com/RG03PyX.png") !important; -webkit-transition: 0.3s all ease; -o-transition: 0.3s all ease; -moz-transition: 0.3s all ease; transition: 0.3s all ease; background-size: cover !important; -webkit-filter: brightness(75%); }
 
+.user-popout:before {
+    background-image: url("https://imgur.com/RG03PyX.png") !important;
+content: "";position: absolute;left: 0;top: 0;height: 100%;width: 100%;z-index: -1;background-position: 50% 50%;-webkit-filter: blur(3px);-webkit-transform: scale(1.05);transform: scale(1.05);}
+
+#user-profile-modal .header:before {
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url("https://imgur.com/RG03PyX.png") !important;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url("https://imgur.com/RG03PyX.png") !important;
+content: "";position: absolute;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;background-position: 50% 50%;background-size: cover !important;-webkit-filter: blur(3px);-webkit-transform: scale(1.1);transform: scale(1.1);}
+
+.user-popout .header {background: rgba(0, 0, 0, .3);}
+
+.user-popout {background: transparent !important;opacity: 1;}
+
+#user-profile-modal .header {background: transparent !important;overflow: hidden;height: 182px;}
+
+.user-popout .body {background: rgba(0, 0, 0, .8);}
+
+.user-popout .footer {background: rgba(0, 0, 0, .8);}
+
+.user-popout .avatar-wrapper .avatar-popout {border: none;background-color: transparent;}
+
+.user-popout .avatar-wrapper {box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);border-radius: 50%;}
+
+#user-profile-modal .avatar-profile {box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);border: none !important;margin-top: 4px;margin-left: 4px;background-color: transparent;}
+
+#user-profile-modal .guilds .avatar-large {background-color: transparent;}
+
+.user-popout .header.streaming{background-color: rgba(89, 54, 149, 0.69);}
+
 .account:after {content: "Reborn v4.47"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
 .Select-control { background: rgba(0, 0, 0, 0.62); border: var(--main-color); border-color: var(--main-color) var(--main-color) var(--main-color); }
@@ -728,7 +757,7 @@ a:link { color: var(--main-color); }
 
 .radio .radio-inner { background: rgba(0, 0, 0, 0.64); border: 2px solid var(--main-color); }
 
-.tab-bar.TOP { border-bottom: 1px solid var(--main-color); }
+.tab-bar.TOP { border-bottom: 1px solid var(--main-color); position: absolute; margin-top: -28px; }
 
 #bd-ps-body table tr:nth-child(odd):hover { background-color: var(--main-color); }
 
@@ -891,20 +920,16 @@ a:link { color: var(--main-color); }
 
 #user-profile-modal .sub-header { background: rgba(0, 0, 0, 0.83); }
 
-#user-profile-modal .tab-bar { background: #057f95;border-bottom: 1px solid transparent;}
+#user-profile-modal .tab-bar {     background: rgba(0, 0, 0, 0.62);border-bottom: 1px solid transparent;border-radius: 3px;}
 
 #user-profile-modal .btn { background-color: var(--main-color); }
 
 #user-profile-modal .btn:hover { background-color: var(--hover-color); }
 
-#user-profile-modal .header { background-color: var(--main-color); background-image: none; }
-
 #user-profile-modal .guilds .guild:hover { background: linear-gradient(90deg, rgba(0, 0, 0, 0.61) 90%, transparent); color: #D8D8D8; }
 
 #user-profile-modal .empty { background: rgba(0, 0, 0, 0.83); }
 
-/*[[Hidden]]*/
-/*[[Visible]]*/
 .message-group-blocked { background: #fcfcfc; -webkit-box-pack: center; -o-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; border: 1px solid #e3e5e7; border-radius: 3px; margin: 6px 6px 6px 19px; display: none; }
 
 .user-settings-modal-account .discord-tag { color: var(--main-color); }
@@ -1265,13 +1290,11 @@ form.auth-form { background: rgba(0, 0, 0, 0.56); }
 
 .theme-dark.context-menu .item-group { border-top-color: rgba(0, 0, 0, 0.85); }
 
-.user-popout .header { background: var(--main-color); }
-
 .user-popout .avatar-wrapper .avatar-popout { border: 4px solid var(--hover-color); background-color: var(--hover-color); }
 
-.user-popout .body { background: #000; padding-bottom: 10px; }
+.user-popout .body { padding-bottom: 10px; }
 
-.user-popout .footer { background: #000; border-top: 2px var(--main-color) solid; }
+.user-popout .footer { border-top: 2px var(--main-color) solid; }
 
 .user-popout .footer .quick-message-wrapper .input { border: 2px solid var(--main-color); background: #0C0C0C; color: #fff; }
 
@@ -1553,7 +1576,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 #friends .btn, .add-friend-popout .btn, .private-channels .channel.selected .icon-friends { background-color: var(--main-color) !important; }
 
-.user-popout .body .notes textarea { color: #B1B1B1; background-color: #0C0C0C !important; }
+.user-popout .body .notes textarea { color: #B1B1B1; }
 
 .invite-button { background-color: rgba(0, 0, 0, 0.7); border: 2px solid #000000; }
 
@@ -1944,7 +1967,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list .user-settings-modal-accounts-list-description .user-settings-modal-accounts-list-description-inner {color: #cccccc;}
 
-#user-profile-modal .tab-bar-container {background-color: #057f95;border-bottom: 1px solid transparent;}
+#user-profile-modal .tab-bar-container {background-color: #057f95;border-bottom: 1px solid rgba(0,0,0,0.9);}
 
 #user-profile-modal .guilds .section+.section {border-top: 1px solid transparent;}
 
@@ -1956,4 +1979,4 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 
 #user-profile-modal .avatar-profile .status {border: 4px solid var(--hover-color);}
 
-.quick-message {border: 2px solid var(--main-color);background: #000000;}
+.quick-message {border: 2px solid var(--main-color);background: rgba(0, 0, 0, 0.6);}
