@@ -757,6 +757,10 @@ a:link { color: var(--main-color); }
 
 .radio .radio-inner { background: rgba(0, 0, 0, 0.64); border: 2px solid var(--main-color); }
 
+#user-profile-modal .tab-bar.TOP { position: absolute; margin-top: -28px; }
+
+#user-profile-modal .header .discord-tag {color: #fff;font-size: 18px;margin-top: -27px;}
+
 .tab-bar.TOP { border-bottom: 1px solid var(--main-color); position: absolute; margin-top: -28px; }
 
 #bd-ps-body table tr:nth-child(odd):hover { background-color: var(--main-color); }
