@@ -18,6 +18,7 @@
 .callout-backdrop { background-color: black !important; background-image: url("https://imgur.com/RG03PyX.png") !important; -webkit-transition: 0.3s all ease; -o-transition: 0.3s all ease; -moz-transition: 0.3s all ease; transition: 0.3s all ease; background-size: cover !important; -webkit-filter: brightness(75%); }
 
 /*Change the HTTPS:// urls below to change the background of a profile modal pop up */
+/*Zerthox profile modals fixed by me*/
 
 .user-popout:before {
     background-image: url("https://imgur.com/RG03PyX.png") !important; /*Change this URL*/
