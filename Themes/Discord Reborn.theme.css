@@ -742,7 +742,7 @@ a:link { color: var(--main-color); }
 
 .member-roles .member-role .member-role-remove { background: url(https://i.imgur.com/O2TX2bn.png) 50% no-repeat; width: 8px; height: 12px; background-size: 8px; }
 
-.member-roles .member-role .member-role-add button { background: url(https://i.imgur.com/1MfzLoF.png) 50% no-repeat; width: 8px; height: 12px; background-size: 10px; }
+.member-roles .member-role.member-role-add button { background: url(https://i.imgur.com/1MfzLoF.png) 50% no-repeat; width: 8px; height: 12px; background-size: 10px; }
 
 .member-roles .member-role:hover { background-color: var(--hover-color); }
 
