@@ -945,7 +945,7 @@ a:link { color: var(--main-color); }
 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece { border: 3px solid rgba(255, 255, 255, 0) !important; background-color: rgba(0, 0, 0, 0.3) !important; }
 
-.theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) { background: rgba(0, 0, 0, 0.29); }
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) { background: var(--hover-color);color: #fff; }
 
 .theme-dark .friends-table .messages .message-group .comment .markup .highlight:hover, .theme-dark .messages-wrapper .messages .message-group .comment .markup .highlight:hover { background-color: var(--main-color); }
 
@@ -2054,10 +2054,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 
 #user-profile-modal .scroller-wrap{height: 380px;}
 
-#user-profile-modal .scroller-wrap .scroller{
-	margin-top: 60px;
-	animation: sw-fade 300ms ease-in-out;
-}
+#user-profile-modal .scroller-wrap .scroller{margin-top: 60px;animation: sw-fade 300ms ease-in-out;}
 
 @keyframes sw-fade {
 	0% {opacity: 0;}
@@ -2066,35 +2063,22 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 
 
 #user-profile-modal .guilds .section .section-header{color: #fff;}
+
 #user-profile-modal .guilds .section + .section{border: 0!important;}
 
-#user-profile-modal .guilds .section .note textarea:focus{
-	background-color: rgba(0, 0, 0, 0.15);
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	color: #e4e4e4;
-}
+#user-profile-modal .guilds .section .note textarea:focus{background-color: rgba(0, 0, 0, 0.15);border: 1px solid rgba(0, 0, 0, 0.1);color: #e4e4e4;}
 
-#user-profile-modal .guilds .section .connected-account .connected-account-name a{
-	color: rgba(0, 176, 244, 0.6);
-	font-weight: 700;
-	transition: color 500ms;
-}
+#user-profile-modal .guilds .section .connected-account .connected-account-name a{color: rgba(0, 176, 244, 0.6);font-weight: 700;transition: color 500ms;}
 
 #user-profile-modal .guilds .section .connected-account:hover .connected-account-name a{color: rgba(0, 176, 244, 1);}
 
-#user-profile-modal .guilds .guild{
-	color: #a4aeb9;
-	margin: 0 10px;
-	transition: background 300ms;
-}
+#user-profile-modal .guilds .guild{color: #a4aeb9;margin: 0 10px;transition: background 300ms;}
 
 #user-profile-modal .guilds .guild .avatar-large{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);}
+
 #user-profile-modal .guilds .guild .avatar-large:empty{border-radius: 15px!important;}
 
-#user-profile-modal .guilds .guild:hover{
-	border-radius: 5px;
-	color: #fff;
-}
+#user-profile-modal .guilds .guild:hover{border-radius: 5px;color: #fff;}
 
 #user-profile-modal .guilds .guild .status{border: 2px solid rgba(64, 68, 74, 1);}
 #user-profile-modal .guilds .guild:hover .status{border: 2px solid rgba(133, 141, 150, 0.7);}
@@ -2106,3 +2090,11 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 #user-profile-modal footer .btn.add-friend{transition: background 500ms;}
 
 #user-profile-modal .scroller-wrap .scroller::-webkit-scrollbar{width:0px;}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary .badge {background-color: #f04747;color: #fff;}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) .badge {color: #ffffff;}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected .badge {background-color: #f04747;color: #fff;}
+
+#friends .friends-table .friends-row .friends-column-guilds .avatar-small {background-color: var(--main-color);}
