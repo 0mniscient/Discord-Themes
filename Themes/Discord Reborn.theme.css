@@ -1,4 +1,4 @@
-//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.46"}*//
+//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.47"}*//
 
 /* CSS Made By @Omniscient */
 /*
@@ -29,7 +29,7 @@ _______/\\\\\___________________________________________________________________
 
 .callout-backdrop { background-color: black !important; background-image: url("https://imgur.com/RG03PyX.png") !important; -webkit-transition: 0.3s all ease; -o-transition: 0.3s all ease; -moz-transition: 0.3s all ease; transition: 0.3s all ease; background-size: cover !important; -webkit-filter: brightness(75%); }
 
-.account:after {content: "Reborn v4.46"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+.account:after {content: "Reborn v4.47"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
 .Select-control { background: rgba(0, 0, 0, 0.62); border: var(--main-color); border-color: var(--main-color) var(--main-color) var(--main-color); }
 
@@ -891,7 +891,7 @@ a:link { color: var(--main-color); }
 
 #user-profile-modal .sub-header { background: rgba(0, 0, 0, 0.83); }
 
-#user-profile-modal .tab-bar { {background: #057f95;border-bottom: 1px solid transparent;}
+#user-profile-modal .tab-bar { background: #057f95;border-bottom: 1px solid transparent;}
 
 #user-profile-modal .btn { background-color: var(--main-color); }
 
