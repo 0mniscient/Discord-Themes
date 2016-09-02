@@ -1593,7 +1593,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .checkbox .checkbox-inner input[type=checkbox]:checked + span { background: #ADB8E1; border: 0px; height: 15px; width: 30px; top: 2px; border-radius: 100px; }
 
-.checkbox .checkbox-inner span { top: 2px; height: 15px; width: 30px; border-radius: 100px; border: 0px; background: #A6A6A6; }
+.checkbox .checkbox-inner span { top: 2px; height: 15px; width: 30px; border-radius: 100px; border: 0px; }
 
 .checkbox .checkbox-inner + span { margin-left: 20px; }
 
