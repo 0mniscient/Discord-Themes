@@ -1,17 +1,5 @@
 //META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"5.00"}*//
 
-/* CSS Made By @Omniscient */
-/*
-_______/\\\\\________________________________________________________________________________________________________________________________
- _____/\\\///\\\______________________________________________________________________________________________________________________________
-  ___/\\\/__\///\\\_____________________________________/\\\_____________________________/\\\_____________________________________/\\\______
-   __/\\\______\//\\\____/\\\\\__/\\\\\____/\\/\\\\\\___\///___/\\\\\\\\\\_____/\\\\\\\\_\///______/\\\\\\\\___/\\/\\\\\\_____/\\\\\\\\\\\_
-    _\/\\\_______\/\\\__/\\\///\\\\\///\\\_\/\\\////\\\___/\\\_\/\\\//////____/\\\//////___/\\\___/\\\/////\\\_\/\\\////\\\___\////\\\////__
-     _\//\\\______/\\\__\/\\\_\//\\\__\/\\\_\/\\\__\//\\\_\/\\\_\/\\\\\\\\\\__/\\\_________\/\\\__/\\\\\\\\\\\__\/\\\__\//\\\_____\/\\\______
-      __\///\\\__/\\\____\/\\\__\/\\\__\/\\\_\/\\\___\/\\\_\/\\\_\////////\\\_\//\\\________\/\\\_\//\\///////___\/\\\___\/\\\_____\/\\\_/\\__
-       ____\///\\\\\/_____\/\\\__\/\\\__\/\\\_\/\\\___\/\\\_\/\\\__/\\\\\\\\\\__\///\\\\\\\\_\/\\\__\//\\\\\\\\\\_\/\\\___\/\\\_____\//\\\\\___
-        ______\/////_______\///___\///___\///__\///____\///__\///__\//////////_____\////////__\///____\//////////__\///____\///______\/////____
-*/
 /* EVERY LINK HAS TO BE HTTPS:// IN ORDER TO WORK IN DISCORD */
 
 .DummyClass { background: #fff; }
@@ -20,7 +8,7 @@ _______/\\\\\___________________________________________________________________
  --main-color: #057F95; /* Changing this will change ALL main colors */
  --hover-color: #045B6B; /*Changing this will change ALL hover colors */
  }
-
+ 
 /*Change the HTTPS:// url in .app to change the background behind chat */
 
 .app { background-image: url("https://imgur.com/RG03PyX.png") !important; background-size: cover !important; }
@@ -29,13 +17,15 @@ _______/\\\\\___________________________________________________________________
 
 .callout-backdrop { background-color: black !important; background-image: url("https://imgur.com/RG03PyX.png") !important; -webkit-transition: 0.3s all ease; -o-transition: 0.3s all ease; -moz-transition: 0.3s all ease; transition: 0.3s all ease; background-size: cover !important; -webkit-filter: brightness(75%); }
 
+/*Change the HTTPS:// urls below to change the background of a profile modal pop up */
+
 .user-popout:before {
-    background-image: url("https://imgur.com/RG03PyX.png") !important;
+    background-image: url("https://imgur.com/RG03PyX.png") !important; /*Change this URL*/
 content: "";position: absolute;left: 0;top: 0;height: 100%;width: 100%;z-index: -1;background-position: 50% 50%;-webkit-filter: blur(3px);-webkit-transform: scale(1.05);transform: scale(1.05);}
 
 #user-profile-modal .header:before {
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url("https://imgur.com/RG03PyX.png") !important;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url("https://imgur.com/RG03PyX.png") !important;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url("https://imgur.com/RG03PyX.png") !important; /*Change this URL*/
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url("https://imgur.com/RG03PyX.png") !important; /*Change this URL*/
 content: "";position: absolute;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;background-position: 50% 50%;background-size: cover !important;-webkit-filter: blur(3px);-webkit-transform: scale(1.1);transform: scale(1.1);}
 
 .user-popout .header {background: rgba(0, 0, 0, .3);}
