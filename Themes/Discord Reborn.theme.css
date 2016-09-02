@@ -1,4 +1,4 @@
-//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.45"}*//
+//META{"name":"Discord_Reborn","description":"A cozy modern dark theme.","author":"Omniscient","version":"4.46"}*//
 
 /* CSS Made By @Omniscient */
 /*
@@ -29,7 +29,7 @@ _______/\\\\\___________________________________________________________________
 
 .callout-backdrop { background-color: black !important; background-image: url("https://imgur.com/RG03PyX.png") !important; -webkit-transition: 0.3s all ease; -o-transition: 0.3s all ease; -moz-transition: 0.3s all ease; transition: 0.3s all ease; background-size: cover !important; -webkit-filter: brightness(75%); }
 
-.account:after {content: "Reborn v4.45 color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+.account:after {content: "Reborn v4.46"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
 .Select-control { background: rgba(0, 0, 0, 0.62); border: var(--main-color); border-color: var(--main-color) var(--main-color) var(--main-color); }
 
@@ -234,7 +234,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small { background-colo
 
 #permissions .permission-actions.disabled > div { border: #565963; background: #565963; position: relative; }
 
-.checkbox .checkbox-inner span { background: rgba(0, 0, 0, 0.2); transition: .2s linear all !important; }
+.checkbox .checkbox-inner span { background: rgba(0, 0, 0, 0.30); transition: .2s linear all !important; }
 
 .form .control-group .help-text { color: #B6BBC1; }
 
@@ -382,7 +382,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small { background-colo
 
 .now-playing { background: var(--main-color); padding: 22px; }
 
-.checkbox .checkbox-inner.alt input[type=checkbox] + span { background: #2E3136; border-color: #8E8E8E; }
+.checkbox .checkbox-inner.alt input[type=checkbox] + span { background: var(--main-color) !important; }
 
 .checkbox .checkbox-inner.alt input[type=checkbox]:checked + span:after { border-color: #43B581; }
 
@@ -716,7 +716,7 @@ a:link { color: var(--main-color); }
 
 .user-settings-modal-connections .user-settings-modal-connections-list { box-shadow: 0 -1px rgba(0, 0, 0, 0.37); }
 
-.tab-bar.TOP .tab-bar-item.selected { border-bottom: 2px solid var(--main-color); color: var(--main-color); }
+.tab-bar.TOP .tab-bar-item.selected { border-bottom: 2px solid var(--hover-color); color: #fff;}
 
 .checkbox .checkbox-inner input[type=checkbox]:checked + span { background-color: var(--main-color) !important; border-color: var(--main-color) !important; transition: .2s ease-in-out all !important; }
 
@@ -891,7 +891,7 @@ a:link { color: var(--main-color); }
 
 #user-profile-modal .sub-header { background: rgba(0, 0, 0, 0.83); }
 
-#user-profile-modal .tab-bar { background: rgba(0, 0, 0, 0.83); border-bottom: 1px solid rgba(0, 0, 0, 0.8); }
+#user-profile-modal .tab-bar { {background: #057f95;border-bottom: 1px solid transparent;}
 
 #user-profile-modal .btn { background-color: var(--main-color); }
 
@@ -1495,9 +1495,9 @@ a.avatar-small[style*="font-size: 18px;"] { top: -4px; }
 
 .message-group .comment .markup code.inline { background: rgba(255, 255, 255, 0.1) !important; color: rgba(255, 255, 255, 0.7) !important; padding: 0.3em 0.6em; }
 
-.tab-bar.TOP .tab-bar-item { color: #BBBBBB; }
+.tab-bar.TOP .tab-bar-item { color: #d4d4d4; }
 
-.tab-bar.TOP .tab-bar-item:hover { border-bottom: 2px solid #BBBBBB; }
+.tab-bar.TOP .tab-bar-item:hover {border-bottom: 2px solid var(--hover-color);}
 
 #friends .friends-table .friends-row + .friends-row { border-top: 1px solid rgba(0, 0, 0, 0.34); }
 
@@ -1597,7 +1597,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .checkbox .checkbox-inner + span { margin-left: 20px; }
 
-.checkbox .checkbox-inner span:after { content: ""; position: absolute; background: #fff; transform: rotate(0deg) translate(-5px, 0px); height: 20px !important; width: 20px !important; top: -3px; border-radius: 100px; border-right: 0px; border-bottom: 0px; transition: all 200ms ease; box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3); }
+.checkbox .checkbox-inner span:after{ content:"";  position:absolute;  background:var(--hover-color);  transform:rotate(0deg)translate(-5px,0px);  height:20px!important;  width:20px!important;  top:-3px;  border-radius:100px;  border-right:0px;  border-bottom:0px;  transition:all 200ms ease;  box-shadow:0px 2px 3px rgba(0,0,0,0.3)}
 
 .theme-dark .channel-pins-wrap { background-color: rgba(0, 0, 0, 0.45) !important; }
 
@@ -1915,3 +1915,45 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .guild-settings-modal-members h6 { color: #c1c1c1; } 
 
 .emoji-picker .search-bar .search-bar-inner { background-color: transparent; }
+
+.detected-platform-accounts-modal { background-color: rgba(0, 0, 0, 0.61);padding: 10px;border-radius: 3px; }
+
+.detected-platform-accounts-modal .btn-group .btn-primary { background-color: var(--main-color); }
+
+.detected-platform-accounts-modal .btn-group .btn-primary:hover:not(:disabled) { background-color: var(--hover-color); }
+
+.detected-platform-accounts-modal .btn-group .btn-default:hover { border-bottom: 2px solid var(--main-color); }
+
+.detected-platform-accounts-modal .privacy { color:#fff; }
+
+.theme-dark .friends-table .messages .divider span, .theme-dark .friends-table .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before { background-color: transparent; }
+
+.chat .divider { height: 28px; background-color: transparent; }
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary { background-color: var(--main-color); color: #fff; }
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) { background-color: var(--hover-color); }
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected { background-color: var(--main-color); color: #fff; }
+
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header { border-bottom: 1px solid rgba(0,0,0,.2); background: rgba(0, 0, 0, 0.44) !important; margin-top: -10px; }
+
+.connect-account-btn .connect-account-btn-inner {background-color: rgba(0, 0, 0, 0.39);}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list h3 {color: #d8d8d8;}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list .user-settings-modal-accounts-list-description .user-settings-modal-accounts-list-description-inner {color: #cccccc;}
+
+#user-profile-modal .tab-bar-container {background-color: #057f95;border-bottom: 1px solid transparent;}
+
+#user-profile-modal .guilds .section+.section {border-top: 1px solid transparent;}
+
+#user-profile-modal .guilds .section .section-header {color: #c7c7c7;}
+
+#user-profile-modal .guilds .guild .status {border: 2px solid var(--main-color);}
+
+#user-profile-modal .guilds .guild:hover .status {border: 2px solid var(--hover-color);}
+
+#user-profile-modal .avatar-profile .status {border: 4px solid var(--hover-color);}
+
+.quick-message {border: 2px solid var(--main-color);background: #000000;}
