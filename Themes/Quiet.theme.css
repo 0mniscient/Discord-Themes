@@ -33,7 +33,7 @@
 }
 
 /* Server list area */
-.guilds-wrapper { background:#0f0f10 !important }
+.guilds-wrapper { background:#121213 !important }
 
 /* Channels list area */
 .channels-wrap { background:#19191b !important }
@@ -159,8 +159,6 @@ textarea {
 	padding:0 15px !important;
 	background:#19191b;
 	height:50px;
-    box-shadow: 0 -7px 10px -5px rgba(0, 0, 0, 0.2);
-    
 }
 
 .links {
@@ -380,7 +378,7 @@ body { -webkit-font-smoothing: antialiased; -webkit-backface-visibility: hidden;
 }
 
 .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
-    background: #0f0f10;
+    background: #121213;
 }
 
 .chat .new-messages-bar button:last-child {
@@ -389,11 +387,11 @@ body { -webkit-font-smoothing: antialiased; -webkit-backface-visibility: hidden;
 .chat>.title-wrap>.topic:before { display:none;}
 
 .guild-header ul li:hover a {
-    background-color: #0f0f10;
+    background-color: #121213;
 }
 
 .guild-channels .channel-text.selected {
-    background: linear-gradient(to right,#0f0f10 85%,#141417);
+    background: linear-gradient(to right,#121213 85%,#141417);
 }
 
 .guilds-wrapper .guilds .guild.selected:before {
@@ -409,7 +407,7 @@ body { -webkit-font-smoothing: antialiased; -webkit-backface-visibility: hidden;
     background: #6f182a;
 }
 .guild-channels .channel-text:hover {
-    background: linear-gradient(to right,#0f0f10 85%,#141417);
+    background: linear-gradient(to right,#121213 85%,#141417);
 }
 .guild-channels .channel-text:hover.channel-muted:before, .guild-channels .channel-text:hover:not(.unread):before {
     border-left: 2px solid #8d2036;
@@ -418,7 +416,7 @@ body { -webkit-font-smoothing: antialiased; -webkit-backface-visibility: hidden;
     border-top: 1px solid #171719;
 }
 .channel-textarea {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgb(23, 23, 23);
 }
 .theme-dark .channel-textarea-inner .channel-textarea-upload {
     border-right-color: transparent;
@@ -428,8 +426,8 @@ body { -webkit-font-smoothing: antialiased; -webkit-backface-visibility: hidden;
     border-radius: 3px;
 }
 .theme-dark .invite-button {
-    background-color: #0f0f10 !important;
-    border: 2px solid #0f0f10 !important;
+    background-color: #121213 !important;
+    border: 2px solid #121213 !important;
 }
 .theme-dark .invite-button.join:hover {
 border: 2px solid #8d2036 !important;
@@ -439,7 +437,7 @@ border: 2px solid #8d2036 !important;
     border: 1px solid #101013;
 }
 .channel-members .member:hover {
-    background: linear-gradient(to right,#0f0f10 85%,#19191b) !important;
+    background: linear-gradient(to right,#121213 85%,#19191b) !important;
     margin-left: 14px;
 	border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -529,7 +527,7 @@ button.btn:hover {
     width: 230px;
 }
 .theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
-    background: linear-gradient(to right,#0f0f10 85%,#19191b) !important;
+    background: linear-gradient(to right,#121213 85%,#19191b) !important;
 }
 .user-popout .avatar-wrapper .avatar-popout {
     border: 4px solid #6f182a;
@@ -570,13 +568,13 @@ button.btn:hover {
 .user-popout .username-wrapper.has-nickname .discriminator, .user-popout .username-wrapper.has-nickname .username {
     color: #b5b5b5;
 }
-#user-profile-modal{opacity: 0.95;position: relative;}
+#user-profile-modal{opacity: 1;position: relative;}
  
 #user-profile-modal .avatar-wrapper .avatar-profile,
 #user-profile-modal .sub-header,
 #user-profile-modal .scroller-wrap,
 #user-profile-modal .empty,
-#user-profile-modal .scroller{background-color: #19191b !important;}
+#user-profile-modal .scroller{background-color: #141415 !important;}
  
 #user-profile-modal .header:before{content: "";width: 100%;height: 100px;background-size: cover;background-position: center center;background-repeat: no-repeat;position: absolute;top: 0;right: 0;left: 0;z-index: -1;}
  
@@ -599,7 +597,7 @@ button.btn:hover {
  
 #user-profile-modal .avatar-wrapper .avatar-profile .status{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);right: 0;bottom: 0;}
  
-#user-profile-modal .header{background-color: #141417;background-image:none;}
+#user-profile-modal .header{background-color: #121213;background-image:none;}
 
 #user-profile-modal .tab-bar-container {
     border: 0!important;
@@ -613,7 +611,7 @@ button.btn:hover {
     transition: width 500ms;
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     z-index: 1;
-    background-color: #141417;
+    background-color: #121213;
     -webkit-background-size: 270px 213px;
     -moz-background-size: 270px 213px;
     background-size: 270px 213px;
@@ -702,7 +700,7 @@ button.btn:hover {
  
 #user-profile-modal footer {
     border-top: 1px solid transparent;
-	background: #19191b !important;
+	background: #141415 !important;
     z-index: 10;
 }
  
@@ -823,10 +821,10 @@ button.btn:hover {
     border-left: 3px solid #8d2036;
 }
 .private-channels .channel.selected {
-    background: linear-gradient(to right,#0f0f10 85%,#19191b);
+    background: linear-gradient(to right,#121213 85%,#19191b);
 }
 .private-channels .channel:hover {
-    background: linear-gradient(to right,#0f0f10 85%,#19191b);
+    background: linear-gradient(to right,#121213 85%,#19191b);
 }
 .private-channels .channel:hover:before {
     border-left: 3px solid #8d2036;
@@ -875,13 +873,13 @@ button.btn:hover {
     background-repeat: no-repeat;
 }
 .settings .settings-actions {
-    background-color: #0f0f10;
-    border-top: 1px solid #0f0f10;
+    background-color: #121213;
+    border-top: 1px solid #121213;
 }
 .form .control-group input[type=text], .form .control-group input[type=email], .form .control-group input[type=password], .form .control-group input[type=number], .form .control-group textarea {
     color: #cecece;
-    border-bottom: 1px solid #0f0f10;
-    background: #0f0f10;
+    border-bottom: 1px solid #121213;
+    background: #121213;
     padding: 0px 0px 0px 7px;
     border-radius: 3px;
 }
@@ -897,21 +895,21 @@ button.btn:hover {
     color: #b7b7b7;
 }
 .form .btn-default {
-    background-color: #0f0f10;
+    background-color: #121213;
     color: #949494;
     border-bottom: 2px solid #39393b;
 }
 .btn.btn-default:hover {
-    background-color: #0f0f10;
+    background-color: #121213;
     border-radius: 0px;
 }
 .radio .radio-inner {
-    background: #0f0f10;
-    border: 1px solid #0f0f10;
+    background: #121213;
+    border: 1px solid #121213;
 }
 .user-settings-security .btn-ghost {
-    background: #0f0f10;
-    border: 2px solid #0f0f10;
+    background: #121213;
+    border: 2px solid #121213;
 }
 .user-settings-security .btn-ghost:hover {
     background: #111113;
@@ -968,19 +966,19 @@ button.btn:hover {
     background: #8d2036;
 }
 .slider-bar {
-    background: #0f0f10;
+    background: #121213;
 }
 .slider-handle {
     border: 2px solid #8d2036;
 }
 .slider-handle, .slider-handle span {
-    background-color: #0f0f10;
+    background-color: #121213;
 }
 .form .Select-control {
     border: 2px solid #8d2036;
 }
 .Select-control {
-    background-color: #0f0f10;
+    background-color: #121213;
     color: #d8d8d8;
 }
 .has-value>.Select-control>.Select-placeholder {
@@ -996,12 +994,12 @@ button.btn:hover {
     border-color: #8d2036;
 }
 .is-open>.Select-control {
-    background: #0f0f10;
+    background: #121213;
 }
 .Select-menu-outer {
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
-    background-color: #0f0f10;
+    background-color: #121213;
     border: 2px solid #8d2036;
     border-top-color: #8d2036;
 }
@@ -1055,27 +1053,27 @@ button.btn:hover {
 }
 .clipboard-input-inner button {
     border-left: 2px solid #8d2036;
-    background-color: #0f0f10;
+    background-color: #121213;
 }
 .clipboard-input-inner {
-    background: #0f0f10;
+    background: #121213;
     border: 2px solid #8d2036;
 }
 .clipboard-input-inner input {
     color: #afafaf;
-    background: #0f0f10;
+    background: #121213;
 }
 .clipboard-input-inner button:first-of-type:before {
     background: linear-gradient(to right,rgba(255,255,255,0),#040404);
 }
 .create-guild-container .create-or-join .form-inner, .form .form-inner, .region-select-modal {
-    background-color: #19191b;
+    background-color: #0d0d0e;
 }
 .create-guild-container {
     background-color: transparent;
 }
 .create-guild-container .action {
-    background: #0f0f10;
+    background: #121213;
 }
 .form .btn-primary:hover {
     background-color: #8d2036 !important;
@@ -1084,8 +1082,8 @@ button.btn:hover {
     color: #8d2036;
 }
 .form .form-actions {
-    background-color: #0f0f10;
-    border-top: 1px solid #0f0f10;
+    background-color: #121213;
+    border-top: 1px solid #121213;
 }
 .create-guild-container .form-actions .btn-default {
     color: #b3b3b3;
@@ -1123,8 +1121,8 @@ button.btn:hover {
     color: #c1c1c1;
 }
 .form .form-header {
-    background: #0f0f10;
-    border-bottom: 1px solid #0f0f10;
+    background: #121213;
+    border-bottom: 1px solid #121213;
 }
 .form .control-group label a {
     color: #8d2036;
@@ -1160,10 +1158,10 @@ button.btn:hover {
     color: #e6e6e6;
 }
 .guild-settings-modal-members .member-buttons .btn.btn-danger {
-    border: 1px solid #0f0f10;
+    border: 1px solid #121213;
 }
 .guild-settings-modal-members .member-buttons .btn {
-    background: #0f0f10;
+    background: #121213;
 }
 .guild-settings-modal-members .member-buttons .btn.btn-danger:hover {
     background: #8d2036;
@@ -1181,8 +1179,8 @@ button.btn:hover {
     color: #fff;
 }
 .search-bar.search-bar-light .search-bar-inner {
-    background-color: #0f0f10;
-    border: 1px solid #0f0f10;
+    background-color: #121213;
+    border: 1px solid #121213;
 }
 .search-bar.search-bar-light {
     background-color: transparent;
@@ -1194,7 +1192,7 @@ button.btn:hover {
     color: #a0a0a0;
 }
 .search-bar-light .search-bar-clear:before {
-    background: #0f0f10 !important;
+    background: #121213 !important;
 }
 .search-bar-light .search-bar-clear {
     background: #8d2036 !important;
@@ -1233,4 +1231,40 @@ button.btn:hover {
 }
 #permissions .permissions-helpdesk:hover {
     color: #6f182a;
+}
+.notification-settings-modal .mute-server .checkbox .label {
+    color: #eaeaea;
+}
+.notification-settings-modal .notification-settings-modal-channel-settings-header label {
+    color: #a0a0a0;
+}
+.notification-settings-modal .notification-settings-modal-channel-settings-list {
+    box-shadow: 0 -2px #8d2036 !important;
+}
+.channel-notification-settings .content label {
+    color: #888888;
+}
+.popout.popout-right header:before {
+    border-right-color: #8d2036;
+}
+.channel-notification-settings {
+    border-bottom: 0px solid #f0f0f0;
+    background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, #8d2036, transparent);
+    background-size: 100% 3px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+}
+.tutorial-popout .button-area .skip-tips a {
+    color: #8d2036;
+}
+.button:hover {
+    background-color: #6f182a;
+}
+.button {
+    background-color: #8d2036;
+}
+.guilds-wrapper .guilds-add {
+    background: #0a0a0a;
+    color: #8d2036;
+    border: 1px dashed #8d2036;
 }
