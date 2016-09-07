@@ -499,7 +499,8 @@ button.btn:hover {
     background-color: transparent;
 }
 .highlight {
-    color: #8d2036 !important;
+    color: #8d2036;
+	background: #131315;
     border-radius: 3px;
     padding: 1px 4px 2px 3px;
 }
@@ -1267,4 +1268,23 @@ button.btn:hover {
     background: #0a0a0a;
     color: #8d2036;
     border: 1px dashed #8d2036;
+}
+.user-popout .body .roles .member-roles::-webkit-scrollbar {
+    width: 0px;
+}
+.user-popout .body .roles .member-roles {
+    overflow-y: scroll;
+	max-height: 179px;
+}
+.confirm-message-modal .form-inner .message-group {
+    background: #0d0d0e;
+}
+.modal-content .form-inner p {
+    color: #e4e4e4;
+}
+.message-group h2 strong {
+    color: #f3f3f3;
+}
+.message-group h2 .timestamp {
+    color: #b5b5b5;
 }
