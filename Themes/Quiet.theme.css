@@ -546,9 +546,9 @@ button.btn:hover {
     border-top: 2px solid #6f182a;
 }
 .member-roles .member-role {
-    background: #0b0b0c;
-    border-color: #0b0b0c;
-    color: #afafaf;
+    background: #6f182a;
+    border-color: #8d2036;
+    color: #d8d8d8;
 }
 .quick-message {
     background: #0b0b0c;
@@ -608,7 +608,7 @@ button.btn:hover {
     right: 0;
     padding: 0;
     width: 80px;
-    height: 70%;
+    height: 100%;
     justify-content: center;
     transition: width 500ms;
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
@@ -619,7 +619,7 @@ button.btn:hover {
     background-size: 270px 213px;
 }
  
-#user-profile-modal .tab-bar-container:before{content: "...";position: absolute;top: 0;left: 0;width: 10px;height: 50%;padding-top: 180px;background: transparent;writing-mode: vertical-lr;color: transparent;font-size: 18px;font-weight: 700;letter-spacing: 15px;line-height: 20px;cursor: pointer;transition: letter-spacing 300ms, padding 300ms;;}
+#user-profile-modal .tab-bar-container:before{content: "...";position: absolute;top: 0;left: 0;width: 10px;height: 100%;padding-top: 180px;background: transparent;writing-mode: vertical-lr;color: transparent;font-size: 18px;font-weight: 700;letter-spacing: 15px;line-height: 20px;cursor: pointer;transition: letter-spacing 300ms, padding 300ms;;}
  
 #user-profile-modal .tab-bar-container:hover{width: 180px;}
  
@@ -703,6 +703,7 @@ button.btn:hover {
 #user-profile-modal footer {
     border-top: 1px solid transparent;
 	background: #19191b !important;
+    z-index: 10;
 }
  
 #user-profile-modal .guilds .section {
@@ -1110,4 +1111,126 @@ button.btn:hover {
 }
 .create-guild-container .join-server .link-container label {
     color: #a5a5a5;
+}
+.small-popout-box {
+    background: #141417;
+    border: 1px solid #141417;
+}
+.option-popout .btn-item {
+    color: #a2a2a2;
+}
+.option-popout .btn-item:hover {
+    color: #c1c1c1;
+}
+.form .form-header {
+    background: #0f0f10;
+    border-bottom: 1px solid #0f0f10;
+}
+.form .control-group label a {
+    color: #8d2036;
+}
+.form .control-group label a:hover {
+    color: #6f182a;
+}
+.markdown-modal .scroller-wrap .scroller {
+    background: #19191b;
+    color: #bdbdbd;
+}
+.markdown-modal {
+    background-color: #141417;
+}
+.markdown-modal .markdown-modal-header {
+    border-bottom: 1px solid #141417;
+    color: #efefef;
+	text-transform: capitalize;
+}
+.guild-settings-modal-members {
+    background-color: #19191b !important;
+}
+.guild-settings-modal-members .guild-settings-modal-members-header {
+    border-bottom: 2px solid #8d2036;
+}
+.guild-settings-modal-members .guild-settings-modal-members-footer .help-text {
+    color: #ababab;
+}
+.guild-settings-modal-members .guild-settings-modal-members-footer {
+    border-top: 2px solid #8d2036;
+}
+.guild-settings-modal-members .guild-settings-modal-list .member .member-username {
+    color: #e6e6e6;
+}
+.guild-settings-modal-members .member-buttons .btn.btn-danger {
+    border: 1px solid #0f0f10;
+}
+.guild-settings-modal-members .member-buttons .btn {
+    background: #0f0f10;
+}
+.guild-settings-modal-members .member-buttons .btn.btn-danger:hover {
+    background: #8d2036;
+    color: #fff;
+}
+.guild-settings-modal-members .guild-settings-modal-list .member:hover {
+    background: #141417;
+    border-radius: 3px;
+    padding: 0px 17px 0px 23px;
+}
+.guild-settings-modal-members .guild-settings-modal-list .member {
+    padding: 0px 17px 0px 23px;
+}
+.guild-settings-modal-members h6 {
+    color: #fff;
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: #0f0f10;
+    border: 1px solid #0f0f10;
+}
+.search-bar.search-bar-light {
+    background-color: transparent;
+}
+.search-bar.search-bar-light input {
+    color: #b7b7b7;
+}
+.search-bar.search-bar-light input::-webkit-input-placeholder {
+    color: #a0a0a0;
+}
+.search-bar-light .search-bar-clear:before {
+    background: #0f0f10 !important;
+}
+.search-bar-light .search-bar-clear {
+    background: #8d2036 !important;
+}
+.search-bar-light .search-bar-clear:after {
+    background: #8d2036 !important;
+}
+#settings-roles .roles {
+    border-right: 2px solid #141417;
+}
+#settings-roles .roles header {
+	background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, #8d2036, transparent);
+    background-size: 100% 3px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+	border-bottom: 0px solid;
+}
+#settings-roles h1 {
+    color: #e8e8e8;
+}
+#settings-roles .roles li:hover, #settings-roles .roles li.selected {
+    background: linear-gradient(to right,#141417,#19191b) !important;
+}
+#settings-roles .roles li:hover:before {
+    background-color: #8d2036;
+}
+#settings-roles .roles li:before {
+    width: 4px;
+}
+#settings-roles .roles li.selected:before {
+    color: #8d2036;
+    background-color: #8d2036;
+}
+#permissions .permissions-helpdesk {
+    color: #8d2036;
+}
+#permissions .permissions-helpdesk:hover {
+    color: #6f182a;
 }
