@@ -1468,3 +1468,6 @@ textarea {
 .theme-dark .channel-members-loading .background {
     background-image: linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4),transparent);
 }
+.theme-dark.context-menu .context-menu {
+    background: #18181b;
+}
