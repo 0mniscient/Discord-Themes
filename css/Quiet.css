@@ -1505,10 +1505,10 @@ textarea {
     background-position: 0 0, 0 100%;
     background-repeat: no-repeat;
 }
-.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary .badge {
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary .badge, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected .badge {
     background-color: #f04747;
     color: #fff;
 }
-.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) .badge {
     color: #fff;
 }
