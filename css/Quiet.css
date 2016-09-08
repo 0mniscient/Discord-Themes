@@ -704,7 +704,7 @@ button.btn:hover {
     background-repeat: no-repeat;
 }
 .tab-bar.SIDE .tab-bar-item {
-	-webkit-box-orient: horizontal;
+    -webkit-box-orient: horizontal;
     -moz-box-orient: horizontal;
     -o-box-orient: horizontal;
     -webkit-flex-direction: row;
@@ -713,9 +713,10 @@ button.btn:hover {
     display: block;
     text-decoration: 0;
     font-weight: 500;
-    padding: 8px 6px 10px 0px;
+    padding: 8px 0px 10px 0px;
     color: rgba(255,255,255,.3);
     text-align: center;
+    margin-left: -17px;
 }
 .change-log-button-container:before {
 	display: none;
