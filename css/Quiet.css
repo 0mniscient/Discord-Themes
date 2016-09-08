@@ -657,14 +657,14 @@ button.btn:hover {
     border-color: transparent;
 }
 .theme-dark.context-menu .item-subMenu {
-    background: url(/assets/1988164a7c55346d32117b151f4e319d.svg) 155px 50% no-repeat #18181b;
+    background: url(https://discordapp.com/assets/1988164a7c55346d32117b151f4e319d.svg) 155px 50% no-repeat #18181b;
 }
 .theme-dark.context-menu .item:hover {
     background: #131315;
     color: #fff;
 }
 .theme-dark.context-menu .item-subMenu:hover {
-    background: url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) 155px 50% no-repeat #131315;
+    background: url(https://discordapp.com/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) 155px 50% no-repeat #131315;
 }
 .popout.popout-bottom header:before, .popout.popout-bottom-right header:before {
     border-bottom-color: var(--main-color);
