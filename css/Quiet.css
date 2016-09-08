@@ -1522,3 +1522,8 @@ textarea {
 .settings-connections-wrapper .authed-app:hover {
     border-color: var(--main-color);
 }
+#user-profile-modal .guilds .guild:hover {
+    background: linear-gradient(to right,#121213 90%,#141415);
+    color: #2e3136;
+    width: 300px;
+}
