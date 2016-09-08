@@ -1527,3 +1527,6 @@ textarea {
     color: #2e3136;
     width: 300px;
 }
+.channel-members .member .member-activity {
+    color: #d4d4d4;
+}
