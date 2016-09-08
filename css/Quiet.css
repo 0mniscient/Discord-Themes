@@ -1449,3 +1449,13 @@ textarea {
     background: #111113;
     color: #a0a0a0 !important;
 }
+#friends .btn:hover {
+    background: var(--hover-color);
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+    background-color: var(--main-color);
+    color: #fff;
+}
+.private-channels .channel .channel-activity {
+    color: #e2e2e2;
+}
