@@ -1462,3 +1462,9 @@ textarea {
 .member-roles .manipulate:hover {
     border-color: var(--main-color);
 }
+.theme-dark .channel-members-loading .member:nth-child(2n-4), .theme-dark .channel-members-loading .member, .theme-dark .channel-members-loading .heading, .theme-dark .channel-members-loading .member:nth-child(7n-1), .theme-dark .channel-members-loading, .theme-dark .channel-members-loading .member:nth-child(3n+2), .theme-dark .channel-members-loading .member:nth-child(7n+4) {
+    background: transparent;
+}
+.theme-dark .channel-members-loading .background {
+    background-image: linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4),transparent);
+}
