@@ -1478,3 +1478,30 @@ textarea {
 .slider-handle span:before {
     border-color: var(--main-color) transparent transparent;
 }
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+    background-color: var(--hover-color);
+    color: #fff;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: var(--main-color);
+}
+.theme-dark .add-friend-input-wrapper {
+    border-color: transparent;
+    background-color: rgba(36,39,43,.2);
+    background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
+    background-size: 100% 3px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+}
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
+    background: transparent;
+    border-bottom: 1px solid transparent;
+}
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header {
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
+    background-size: 100% 3px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+}
