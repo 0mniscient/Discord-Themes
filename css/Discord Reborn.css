@@ -281,7 +281,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small { background-colo
 
 .need-help-modal a:hover { color: var(--hover-color); }
 
-#user-profile-modal footer { background: rgba(0, 0, 0, 0.83); border-top: 1px solid transparent; }
+#user-profile-modal footer { background: rgba(0, 0, 0, 0.83); border-top: 1px solid transparent; z-index: 10;}
 
 #user-profile-modal footer button { color: var(--main-color); }
 
@@ -2016,8 +2016,6 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 #user-profile-modal .tab-bar-container .tab-bar-item.selected{border: 0!important;}
 
 #user-profile-modal .tab-bar-container .tab-bar-item + .tab-bar-item{margin: 0;}
-
-#user-profile-modal > *:nth-child(n + 4){margin-right: 80px;}
 
 #user-profile-modal .scroller-wrap{height: 380px;}
 
