@@ -2063,3 +2063,5 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected .badge {background-color: #f04747;color: #fff;}
 
 #friends .friends-table .friends-row .friends-column-guilds .avatar-small {background-color: var(--main-color);}
+
+.spinner-pulsing-ellipsis .spinner-item {background-color: var(--main-color);}
