@@ -1379,7 +1379,7 @@ textarea {
     background-color: var(--main-color);
 }
 .message-group .mentioned .message-text {
-    background: #111113;
+    background: #111113 !important;
 }
 .message-group .mentioned .message-text:after {
     background: var(--main-color);
@@ -1437,4 +1437,15 @@ textarea {
     width: 8px;
     height: 12px;
     background-size: 10px;
+}
+.theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
+    background: #111113 !important;
+    border-color: #111113;
+}
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    opacity: 1;
+}
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: #111113;
+    color: #a0a0a0 !important;
 }
