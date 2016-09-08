@@ -1459,3 +1459,6 @@ textarea {
 .private-channels .channel .channel-activity {
     color: #e2e2e2;
 }
+.member-roles .manipulate:hover {
+    border-color: var(--main-color);
+}
