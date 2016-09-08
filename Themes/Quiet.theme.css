@@ -1,10 +1,10 @@
-//META{"name":"Quiet","description":"Dark and Quiet. Easy on the eyes.","author":"Omniscient","version":"1.00"}*//
+//META{"name":"Quiet","description":"Dark and Quiet. Easy on the eyes.","author":"Omniscient","version":"1.02"}*//
 
 /* IMPORT CSS FROM GITHUB */
 @import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/Quiet.css");
 /*
 /* Version Displayed */
-.account:after {content: "Quiet v1.01"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+.account:after {content: "Quiet v1.02"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
