@@ -1470,4 +1470,11 @@ textarea {
 }
 .theme-dark.context-menu .context-menu {
     background: #18181b;
+    border-color: #18181b;
+}
+.slider-handle span {
+    border: 2px solid var(--main-color);
+}
+.slider-handle span:before {
+    border-color: var(--main-color) transparent transparent;
 }
