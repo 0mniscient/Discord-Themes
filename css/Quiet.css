@@ -1512,3 +1512,13 @@ textarea {
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) .badge {
     color: #fff;
 }
+.settings-connections-wrapper .authed-app {
+    background: #141417;
+    border: 2px solid #141417;
+}
+.settings-connections-wrapper .authed-app .header .app-name, .settings-connections-wrapper .authed-app .details .header, .settings-connections-wrapper .authed-app .details .body, .settings-connections-wrapper .authed-app .details .permissions .body {
+    color: #a2a2a2;
+}
+.settings-connections-wrapper .authed-app:hover {
+    border-color: var(--main-color);
+}
