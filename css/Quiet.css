@@ -81,7 +81,7 @@
 }
 
 .chat>.content .messages .message-group .markup {
-	color:#aaaaaa !important;
+	color:#aaaaaa;
 	line-height:1.3em;
     padding: 1px 4px 2px 3px;
 }
@@ -1535,4 +1535,6 @@ textarea {
 .private-channels .search-result.selected:before, .private-channels .search-result:hover:before {
     border-left: 3px solid var(--main-color);
 }
+.message-group .comment .markup {
+    color: #9c9c9c;
 }
