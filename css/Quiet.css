@@ -2,7 +2,7 @@
 	display:none;
 }
 /* Version Displayed */
-.account:after {content: "Quiet v1.04"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
+.account:after {content: "Quiet v1.05"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
 }
 .help-container {
 	display: none;
@@ -1546,4 +1546,7 @@ textarea {
 }
 #voice-connection .btn:active {
     background: #151517 !important;
+}
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+    background: #111113 !important;
 }
