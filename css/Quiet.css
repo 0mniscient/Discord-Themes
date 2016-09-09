@@ -1545,5 +1545,5 @@ textarea {
     border: 2px solid var(--main-color);
 }
 #voice-connection .btn:active {
-    background: #151517;
+    background: #151517 !important;
 }
