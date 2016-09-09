@@ -87,7 +87,7 @@
 }
 
 .channel-textarea-inner {
-	border: transparent;
+	border: 1px solid #1D1C1B;
 	background:#19191b !important;
 	padding: 13px 13px;
 }
