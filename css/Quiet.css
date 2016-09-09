@@ -2,7 +2,7 @@
 	display:none;
 }
 /* Version Displayed */
-.account:after {content: "Quiet v1.03"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+.account:after {content: "Quiet v1.03"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
 }
 .help-container {
 	display: none;
