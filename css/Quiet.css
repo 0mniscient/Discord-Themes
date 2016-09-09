@@ -761,7 +761,7 @@ button.btn:hover {
 }
 
 /* Server list area */
-.guilds-wrapper { background:#121213 !important }
+.guilds-wrapper { background:#121213; }
 
 /* Channels list area */
 .channels-wrap { background:#19191b !important }
