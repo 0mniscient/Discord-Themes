@@ -8,11 +8,6 @@
 	display: none;
 }
 
-.guild-channels ul .channel:not(.selected):hover,
-.private-channels .channel:not(.selected):hover {
-	background:rgba(0,0,0,0.3) !important;
-}
-
 .account {
 	z-index:9;
 	border-top:none !important;
@@ -412,6 +407,7 @@ button.btn:hover {
 .quick-message {
     background: #0b0b0c;
     border: 2px solid var(--hover-color);
+    color: #adadad;
 }
 .user-popout .username-wrapper .activity {
     color: #c7c7c7;
@@ -1532,4 +1528,11 @@ textarea {
 }
 .channel-members .member .member-activity {
     color: #d4d4d4;
+}
+.private-channels .search-result.selected, .private-channels .search-result:hover {
+    background: linear-gradient(to right,#121213 85%,#19191b);
+}
+.private-channels .search-result.selected:before, .private-channels .search-result:hover:before {
+    border-left: 3px solid var(--main-color);
+}
 }
