@@ -2,7 +2,7 @@
 	display:none;
 }
 /* Version Displayed */
-.account:after {content: "Quiet v1.05"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
+.account:after {content: "Quiet v1.06"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
 }
 .help-container {
 	display: none;
@@ -723,6 +723,7 @@ button.btn:hover {
 .change-log-button-container .change-log-button {
     padding: 8px 6px 10px 0px;
 	text-align: center;
+	font-size: 14px;
 }
 .change-log-button-container .change-log-button:hover {
 	background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
@@ -1549,4 +1550,9 @@ textarea {
 }
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
     background: #111113 !important;
+}
+.change-log-button-container {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-weight:600;
 }
