@@ -1556,3 +1556,15 @@ textarea {
     margin-top: 0px;
     font-weight:600;
 }
+.alert.form .form-inner .btn {
+    border: 1px solid transparent;
+}
+.alert.form.has-icon:before {
+    -webkit-filter: invert() grayscale();
+}
+.alert.form .form-inner h4 {
+    color: #b4b4b5;
+}
+.alert.form .form-inner p {
+    color: #a9a9a9;
+}
