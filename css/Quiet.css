@@ -2,7 +2,7 @@
 	display:none;
 }
 /* Version Displayed */
-.account:after {content: "Quiet v1.06"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
+.account:after {content: "Quiet v1.07"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
 }
 .help-container {
 	display: none;
@@ -536,7 +536,7 @@ button.btn:hover {
  
 #user-profile-modal .guilds .section .connected-account:hover .connected-account-name a{color: rgba(0, 176, 244, 1);}
  
-#user-profile-modal .guilds .guild{color: #a4aeb9;margin: 0 10px;transition: background 300ms;}
+#user-profile-modal .guilds .guild{color: #c1c1c1;margin: 0 10px;transition: background 300ms;}
  
 #user-profile-modal .guilds .guild .avatar-large{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);}
  
@@ -1530,7 +1530,7 @@ textarea {
 .channel-members .member .member-activity {
     color: #d4d4d4;
 }
-.private-channels .search-result.selected, .private-channels .search-result:hover {
+.private-channels .search-result.selected, .private-channels .search-result:hover, #user-profile-modal .guilds .guild:hover {
     background: linear-gradient(to right,#121213 85%,#19191b);
 }
 .private-channels .search-result.selected:before, .private-channels .search-result:hover:before {
