@@ -1626,3 +1626,9 @@ textarea {
 #permissions .permission-actions>div.PASSTHROUGH:hover {
     border-color: var(--main-color);
 }
+.guild-settings-modal-members .guild-settings-modal-members-header .form .Select .Select-value {
+    color: #bdbdbd;
+}
+.Select-arrow {
+    border-color: var(--main-color) transparent transparent;
+}
