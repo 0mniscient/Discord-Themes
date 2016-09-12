@@ -2,7 +2,7 @@
 	display:none;
 }
 /* Version Displayed */
-.account:after {content: "Quiet v1.10"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
+.account:after {content: "Quiet v1.11"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
 }
 .help-container {
 	display: none;
@@ -1162,6 +1162,8 @@ textarea {
 }
 .guild-settings-modal-members .member-buttons .btn {
     background: #121213;
+    border: 1px solid #121213;
+    color: #d6d6d6;
 }
 .guild-settings-modal-members .member-buttons .btn.btn-danger:hover {
     background: var(--main-color);
@@ -1654,4 +1656,11 @@ textarea {
 }
 .private-channels .channel.selected .icon-friends {
     background-color: var(--hover-color);
+}
+.guild-settings-modal-members .guild-settings-modal-list .member+.member {
+    border-top: 2px solid var(--main-color);
+}
+.guild-settings-modal-members .member-buttons .btn:hover {
+    background: var(--main-color);
+    color: #fff;
 }
