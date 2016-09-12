@@ -160,8 +160,7 @@ background-repeat: no-repeat;
     top:-56px;
     border-bottom: 2px solid var(--main-color);
 }
-.add-friend-popout .btn,
-.private-channels .channel.selected .icon-friends {
+.add-friend-popout .btn {
 	background-color:#19191b !important;
 }
 .private-channels .search-bar {
@@ -1646,4 +1645,13 @@ textarea {
     background-image: linear-gradient(90deg,#19191b 80%,#19191b 100%);
     -webkit-box-shadow: -20px 0 #19191b,20px 0 #19191b,-20px -1px 0 0 #19191b,-20px 1px 0 #19191b,20px 1px 0 #19191b,20px -1px 0 #19191b;
     box-shadow: -20px 0 #19191b,20px 0 #19191b,-20px -1px 0 0 #19191b,-20px 1px 0 #19191b,20px 1px 0 #19191b,20px -1px 0 #19191b;
+}
+.private-channels .channel .icon-friends {
+    background: url(https://discordapp.com/assets/78edad9e528abdda340ef4341ac52b57.svg) center center no-repeat #121213;
+}
+.private-channels .channel:hover .icon-friends {
+    background-color: var(--main-color);
+}
+.private-channels .channel.selected .icon-friends {
+    background-color: var(--hover-color);
 }
