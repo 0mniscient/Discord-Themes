@@ -1631,3 +1631,7 @@ textarea {
 .Select-arrow {
     border-color: var(--main-color) transparent transparent;
 }
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected .badge {
+    background-color: #f04747;
+    color: #fff;
+}
