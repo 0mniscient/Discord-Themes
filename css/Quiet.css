@@ -1352,9 +1352,8 @@ textarea {
 .theme-dark #friends .friends-header {
 	border-bottom: 1px #141416 solid !important;
 }
-.message-group .comment {
-    margin-left: -8px;
-    margin-top: -3px;
+.message-group .avatar-large {
+    margin-top: 0px;
 }
 .spinner-wandering-cubes .spinner-item {
     background-color: var(--main-color);
