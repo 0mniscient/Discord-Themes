@@ -1664,3 +1664,6 @@ textarea {
     background: var(--main-color);
     color: #fff;
 }
+#autocomplete-popout .row.selected, #autocomplete-popout .row:hover {
+    background: linear-gradient(to right,#121213 85%,#141417);
+}
