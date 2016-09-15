@@ -2,7 +2,7 @@
 	display:none;
 }
 /* Version Displayed */
-.account:after {content: "Quiet v1.11"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
+.account:after {content: "Quiet v1.12"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
 }
 .help-container {
 	display: none;
@@ -1666,4 +1666,27 @@ textarea {
 }
 #autocomplete-popout .row.selected, #autocomplete-popout .row:hover {
     background: linear-gradient(to right,#121213 85%,#141417);
+}
+div.control-group .shortcut-recorder input[type=text] {
+   border: 2px solid var(--main-color);
+   color: #fff;
+}
+.now-playing {
+    background: var(--main-color);
+}
+.user-settings-modal-games .games-table .games-row {
+   background: #19191b;
+}
+.user-settings-modal-games {
+    background: #19191b;
+    border-top: 2px solid var(--main-color);
+}
+.user-settings-modal-games .games-table .games-row .item-game .game-input {
+   color: #fff;
+}
+.user-settings-modal-games .games-table .games-row .item-game, .user-settings-modal-games .games-table .games-row .item-overlay {
+   border-bottom: 2px solid var(--main-color);
+}
+.user-settings-modal-games .games-table .games-row .item-game .last-played {
+    color: #c7c7c7;
 }
