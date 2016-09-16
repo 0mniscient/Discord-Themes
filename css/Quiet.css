@@ -892,12 +892,12 @@ textarea {
     color: #b7b7b7;
 }
 .form .btn-default {
-    background-color: #121213;
+    background-color: transparent;
     color: #949494;
     border-bottom: 2px solid #39393b;
 }
 .btn.btn-default:hover {
-    background-color: #121213;
+    background-color: transparent;
     border-radius: 0px;
 }
 .radio .radio-inner {
