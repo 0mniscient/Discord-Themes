@@ -2,7 +2,7 @@
 	display:none;
 }
 /* Version Displayed */
-.account:after {content: "Quiet v1.12"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
+.account:after {content: "Quiet v1.13"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
 }
 .help-container {
 	display: none;
@@ -1689,4 +1689,30 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 .user-settings-modal-games .games-table .games-row .item-game .last-played {
     color: #c7c7c7;
+}
+.bda-slist .bda-description {
+    color: #bbbbbb;
+    border-top: 2px solid var(--main-color);
+}
+.bda-slist li:nth-child(odd) {
+    background: #121213;
+    border-top: 1px solid #121213;
+}
+.bda-slist li {
+    background: #121213;
+    border-bottom: 1px solid var(--main-color);
+}
+.bda-slist .bda-name {
+    color: #d6d6d6;
+    font-size: 14px;
+}
+.bda-slist .checkbox:before {
+    color: #cccccc;
+}
+#bd-customcss-attach-controls {
+    border: 1px solid #121213;
+    border-top: 1px solid #121213;
+}
+#bd-customcss-attach-controls, #bd-customcss-detach-controls {
+    background: #121213;
 }
