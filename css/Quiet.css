@@ -1716,3 +1716,6 @@ div.control-group .shortcut-recorder input[type=text] {
 #bd-customcss-attach-controls, #bd-customcss-detach-controls {
     background: #121213;
 }
+.chat>.content .messages .message-group.hide-overflow.compact .markup {
+    padding: 0px 0px 0px 5rem;
+}
