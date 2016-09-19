@@ -2,7 +2,7 @@
 	display:none;
 }
 /* Version Displayed */
-.account:after {content: "Quiet v1.14"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
+.account:after {content: "Quiet v1.15"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
 }
 .help-container {
 	display: none;
@@ -1718,4 +1718,55 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 .chat>.content .messages .message-group.hide-overflow.compact .markup {
     padding: 0px 0px 0px 5rem;
+}
+
+.gitbutton {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff !important;
+    background-color: var(--main-color);
+    padding: 8px 0;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+    text-align: center;
+}
+.docsbutton {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff !important;
+    background: var(--main-color);
+    padding: 8px 0;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0px;
+    right: 105px;
+    width: 100px;
+    text-align: center;
+}
+.serverbutton {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff !important;
+    background: var(--main-color);
+    padding: 8px 0;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -8px;
+    right: 210px;
+    width: 100px;
+    text-align: center;
+}
+.gitbutton:hover, .docsbutton:hover, .serverbutton:hover {
+	background-color: var(--hover-color);
+}
+.jump-to-present-bar button:first-of-type {
+    display: none;
+}
+.jump-to-present-bar {
+    width: 130px!important;
+    right: 10px!important;
+    left: auto!important;
 }
