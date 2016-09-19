@@ -1754,9 +1754,9 @@ div.control-group .shortcut-recorder input[type=text] {
     padding: 8px 0;
     border-radius: 3px;
     position: absolute;
-    bottom: -8px;
+    bottom: 0px;
     right: 210px;
-    width: 100px;
+    width: 141px;
     text-align: center;
 }
 .gitbutton:hover, .docsbutton:hover, .serverbutton:hover {
