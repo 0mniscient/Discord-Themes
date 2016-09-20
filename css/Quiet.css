@@ -1773,3 +1773,4 @@ div.control-group .shortcut-recorder input[type=text] {
     right: 10px!important;
     left: auto!important;
 }
+.chat .divider:before { display: none; }
