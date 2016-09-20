@@ -2,7 +2,7 @@
 	display:none;
 }
 /* Version Displayed */
-.account:after {content: "Quiet v1.16"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
+.account:after {content: "Quiet v1.17"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
 }
 .help-container {
 	display: none;
@@ -1774,3 +1774,18 @@ div.control-group .shortcut-recorder input[type=text] {
     left: auto!important;
 }
 .chat .divider:before { display: none; }
+
+.guilds-wrapper {width: 76px;}
+
+.guilds-wrapper .guilds .guild,
+.guilds-wrapper .guilds .guild .guild-inner a,
+.guilds-wrapper .guilds .friends-icon,
+.private-channels .channel .icon-friends {width: 45px;height: 45px;}
+
+.guilds-wrapper .guilds .guild .guild-inner a {background-size: cover;}
+
+.guilds-wrapper .guilds .friends-online {margin: 10px -4px;}
+
+.guilds-wrapper .guild-separator:after {margin-left: -5px;margin-right: 10px;}
+
+.guilds-wrapper .guilds .guild.selected:before {height: 35px;margin-top: -16px;}
