@@ -2,7 +2,7 @@
 	display:none;
 }
 /* Version Displayed */
-.account:after {content: "Quiet v1.15"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
+.account:after {content: "Quiet v1.16"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
 }
 .help-container {
 	display: none;
@@ -225,7 +225,7 @@ div.avatar-small {
 
 body { -webkit-font-smoothing: antialiased; -webkit-backface-visibility: hidden; }
 
-.chat .divider.divider-red > span {color: #b12340 !important;background-color: #111113 !important;border-radius: 3px;}
+.chat .divider.divider-red > span {color: #b12340 !important;background-color: #111113 !important;border-radius: 3px;text-align: center;left:0px;}
 
 .message-group.has-divider {
     border-color: transparent;
@@ -340,8 +340,11 @@ button.btn:hover {
 }
 .chat .divider > span {
     color: #a0a0a0 !important;
-    background: #111113 !important;
+    background: transparent !important;
     border-radius: 3px;
+    position: relative;
+    text-align: left;
+    left: -14px;
 }
 .theme-dark .chat .has-more button {
     background: #111113 !important;
