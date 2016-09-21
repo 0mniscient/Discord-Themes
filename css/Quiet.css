@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.18";
+    --version-content: "1.19";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -391,7 +391,7 @@ button.btn:hover {
     background-color: var(--main-color);
 }
 .theme-dark .message-group .comment .markup .highlight:hover {
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-color);
     color: #fff !important;
     opacity: 0.9;
 }
@@ -1815,3 +1815,9 @@ div.control-group .shortcut-recorder input[type=text] {
 .guilds-wrapper .guild-separator:after {margin-left: -5px;margin-right: 10px;}
 
 .guilds-wrapper .guilds .guild.selected:before {height: 35px;margin-top: -18px;}
+
+code {background: #121213 !important;}
+
+.message-group .comment .markup pre {border: 2px solid #121213;}
+    
+.message-group .comment .markup code.inline, .message-group .comment .markup pre {background: #121213 !important;}
