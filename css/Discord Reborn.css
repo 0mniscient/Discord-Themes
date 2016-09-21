@@ -1,5 +1,15 @@
 /* Version Displayed */
-.account:after {content: "Reborn v5.05"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+:root {--version-content: "5.06";}
+
+.account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
+
+.version {display: inline-block;margin: 0px 0px 0px 0px;}
+    
+.version:after {content: var(--version-content);display: block;font-size: 14px;font-weight: 700;color: #43B581;}
+
+.themedescription {display: block;width: 100%;margin-right: 5px;}
+
+.themedescription:before {display: block;font-size: 14px;height: 15px;color: #3ddcb1;font-weight: 700;content: "Updates are automatic. Just restart Discord to get the latest version.";}
 
 .user-popout .header {background: rgba(0, 0, 0, .3);}
 
