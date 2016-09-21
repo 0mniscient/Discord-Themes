@@ -7,10 +7,33 @@
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
 }
+.version {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+.version:after {
+    content: var(--version-content);
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #43B581;
+}
+.themedescription {
+    display: block;
+    width: 100%;
+    margin-right: 5px;
+}
+.themedescription:before {
+    display: block;
+    font-size: 14px;
+    height: 15px;
+    color: #3ddcb1;
+    font-weight: 700;
+    content: "Updates are automatic. Just restart Discord to get the latest version.";
+}
 .help-container {
 	display: none;
 }
-
 .account {
 	z-index:9;
 	border-top:none !important;
