@@ -7,9 +7,9 @@
     
 .rversion:after {content: var(--version-content);display: block;font-size: 14px;font-weight: 700;color: #43B581;}
 
-.themedescription {display: block;width: 100%;margin-right: 5px;}
+.rthemedescription {display: block;width: 100%;margin-right: 5px;}
 
-.themedescription:before {display: block;font-size: 14px;height: 15px;color: #3ddcb1;font-weight: 700;content: "Updates are automatic. Just restart Discord to get the latest version.";}
+.rthemedescription:before {display: block;font-size: 14px;height: 15px;color: #3ddcb1;font-weight: 700;content: "Updates are automatic. Just restart Discord to get the latest version.";}
 
 .user-popout .header {background: rgba(0, 0, 0, .3);}
 
