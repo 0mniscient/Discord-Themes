@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.20";
+    --version-content: "1.21";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -1827,3 +1827,26 @@ code {background: #121213 !important;}
 .invite-button-header {color: #b9b9b9;}
 
 .invite-button {background-color: #121213;border: 1px solid #121213;}
+
+.upload-modal {
+background-color: var(--main-color);
+}
+.upload-modal .footer {
+background-color: var(--hover-color);
+}
+.upload-modal .inner {
+border: 2px dashed var(--hover-color);
+}
+.upload-modal .inner .file .icon.image {
+border: 2px solid var(--hover-color);
+}
+.upload-modal .inner .comment .channel-textarea {
+    box-shadow: 0 0px 0px rgb(23, 23, 23);
+}
+.upload-modal .footer .button {
+    background-color: var(--main-color);
+}
+.upload-modal .footer .button-primary {
+    color: #ffffff;
+    background-color: var(--main-color);
+}
