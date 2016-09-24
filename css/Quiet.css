@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.22";
+    --version-content: "1.23";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -1673,7 +1673,6 @@ textarea {
 }
 .theme-dark .message-group.is-local-bot-message {
     background-image: linear-gradient(90deg,#19191b 80%,#19191b 100%);
-    background-image: linear-gradient(90deg,#19191b 80%,#19191b 100%);
     -webkit-box-shadow: -20px 0 #19191b,20px 0 #19191b,-20px -1px 0 0 #19191b,-20px 1px 0 #19191b,20px 1px 0 #19191b,20px -1px 0 #19191b;
     box-shadow: -20px 0 #19191b,20px 0 #19191b,-20px -1px 0 0 #19191b,-20px 1px 0 #19191b,20px 1px 0 #19191b,20px -1px 0 #19191b;
 }
@@ -1874,4 +1873,32 @@ border: 2px solid var(--hover-color);
 #instant-invite-modal-advanced .form-actions .btn {
     padding: 9px;
     top: 9px;
+}
+.popout-menu {
+    background: #19191b;
+}
+.popout-menu .popout-menu-icon, .popout-menu .popout-menu-item:hover .popout-menu-icon {
+    -webkit-filter: grayscale(100%);
+}
+.popout-menu .popout-menu-separator {
+    border-bottom: 2px solid var(--main-color);
+}
+.popout-menu .popout-menu-item, .popout-menu .popout-menu-item.invite {
+    color: #bdbdbd;
+}
+.popout-menu .popout-menu-item:hover {
+    background-color: #121213;
+    color: #f7f7f7;
+}
+.popout-menu .popout-menu-item:hover.invite {
+    color: #f7f7f7;
+}
+.popout {
+    box-shadow: 0 3px 6px rgba(0,0,0,.2);
+}
+.sensitivity .slider .slider-bar-auto {
+    background-color: #121213;
+}
+.user-settings-modal-keybinds .user-settings-modal-keybinds-header {
+    border-bottom: 1px solid #151515;
 }
