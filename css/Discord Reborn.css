@@ -1,5 +1,5 @@
 /* Version Displayed */
-:root {--version-content: "5.06";}
+:root {--version-content: "5.07";}
 
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
@@ -2128,4 +2128,55 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     width: 130px!important;
     right: 10px!important;
     left: auto!important;
+}
+.popout-menu {
+    background: rgba(0, 0, 0, 0.83);
+}
+.popout-menu .popout-menu-icon, .popout-menu .popout-menu-item:hover .popout-menu-icon {
+    -webkit-filter: grayscale(100%);
+}
+.popout-menu .popout-menu-separator {
+    border-bottom: transparent;
+}
+.popout-menu .popout-menu-item, .popout-menu .popout-menu-item.invite {
+    color: #bdbdbd;
+}
+.popout-menu .popout-menu-item:hover {
+    background-color: var(--main-color);
+    color: #f7f7f7;
+}
+.popout-menu .popout-menu-item:hover.invite {
+    color: #f7f7f7;
+}
+.popout {
+    box-shadow: 0 3px 6px rgba(0,0,0,.2);
+}
+.user-settings-modal-keybinds .user-settings-modal-keybinds-header {
+    border-bottom: 1px solid #151515;
+}
+.channel-notices .channel-notice.invite {
+    background: url(https://discordapp.com/assets/bf625d222187f542b9d7179109422e2c.svg) center 20px no-repeat rgba(0, 0, 0, 0.83);
+}
+#instant-invite-modal .form-actions, #instant-invite-modal-advanced .form-actions {
+    background-color: rgba(0, 0, 0, 0.83);
+    border-top: 2px solid #151515;
+}
+.instant-invite-modal {
+    background: transparent;
+}
+#instant-invite-modal .form-header header {
+    color: #d2d2d2;
+}
+#instant-invite-modal .blurb {
+    color: #ffffff;
+}
+#instant-invite-modal .expire-text {
+    color: #c7c7c7;
+}
+#instant-invite-modal .copy {
+    background-color:  var(--main-color);
+}
+#instant-invite-modal-advanced .form-actions .btn {
+    padding: 9px;
+    top: 9px;
 }
