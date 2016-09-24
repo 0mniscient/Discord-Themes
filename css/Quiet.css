@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.21";
+    --version-content: "1.22";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -1805,8 +1805,7 @@ div.control-group .shortcut-recorder input[type=text] {
 
 .guilds-wrapper .guilds .guild,
 .guilds-wrapper .guilds .guild .guild-inner a,
-.guilds-wrapper .guilds .friends-icon,
-.private-channels .channel .icon-friends {width: 45px;height: 45px;}
+.guilds-wrapper .guilds .friends-icon, {width: 45px;height: 45px;}
 
 .guilds-wrapper .guilds .guild .guild-inner a {background-size: cover;}
 
@@ -1849,4 +1848,30 @@ border: 2px solid var(--hover-color);
 .upload-modal .footer .button-primary {
     color: #ffffff;
     background-color: var(--main-color);
+}
+.channel-notices .channel-notice.invite {
+    background: url(https://discordapp.com/assets/bf625d222187f542b9d7179109422e2c.svg) center 20px no-repeat #19191b;
+}
+#instant-invite-modal .form-actions, #instant-invite-modal-advanced .form-actions {
+    background-color: #0d0d0e;
+    border-top: 2px solid #151515;
+}
+.instant-invite-modal {
+    background: transparent;
+}
+#instant-invite-modal .form-header header {
+    color: #d2d2d2;
+}
+#instant-invite-modal .blurb {
+    color: #ffffff;
+}
+#instant-invite-modal .expire-text {
+    color: #c7c7c7;
+}
+#instant-invite-modal .copy {
+    background-color:  var(--main-color);
+}
+#instant-invite-modal-advanced .form-actions .btn {
+    padding: 9px;
+    top: 9px;
 }
