@@ -1902,3 +1902,6 @@ border: 2px solid var(--hover-color);
 .user-settings-modal-keybinds .user-settings-modal-keybinds-header {
     border-bottom: 1px solid #151515;
 }
+#user-profile-modal .guilds .avatar-large {
+    background-color: var(--main-color);
+}
