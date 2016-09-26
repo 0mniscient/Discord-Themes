@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.24";
+    --version-content: "1.25";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -1904,4 +1904,13 @@ border: 2px solid var(--hover-color);
 }
 #user-profile-modal .guilds .avatar-large {
     background-color: var(--main-color);
+}
+.guilds-wrapper .guilds .guild:first-of-type .guild-inner {
+    background: #0a0a0a !important;
+}
+.guilds-wrapper .guilds .guild.selected .guild-inner {
+	background: var(--main-color) !important;
+}
+.guilds-wrapper .guilds .guild:hover .guild-inner {
+	background: var(--main-color) !important;
 }
