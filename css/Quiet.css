@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.25";
+    --version-content: "1.26";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -1913,4 +1913,43 @@ border: 2px solid var(--hover-color);
 }
 .guilds-wrapper .guilds .guild:hover .guild-inner {
 	background: var(--main-color) !important;
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header h6 {
+    color: #fff;
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header p {
+    color: #c5c5c5;
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header {
+    border-bottom: 1px solid transparent;
+    background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
+    background-size: 100% 3px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+}
+.guild-settings-modal-emoji .no-emoji p {
+    color: #dadada;
+}
+.guild-settings-modal-emoji .table-header {
+    color: #ececec;
+}
+.guild-settings-modal-emoji .emoji-uploader .emoji-uploader-username {
+    color: #fff;
+}
+.guild-settings-modal-emoji .emoji-row .emoji-name {
+    background: #121213;
+    color: #fff;
+}
+.guild-settings-modal-emoji .emoji-row:hover .emoji-name {
+    background-color: rgba(43, 43, 43, 0.6);
+}
+.guild-settings-modal .emoji-row .btn.btn-danger, .guild-settings-modal .member-buttons .btn.btn-danger {
+    border: 1px solid #9c2121;
+    color: #ffffff;
+}
+.guild-settings-modal .emoji-row .btn, .guild-settings-modal .member-buttons .btn {
+    background: #9c2121;
+}
+.guild-settings-modal-emoji .emoji-row {
+    border-bottom: 2px solid #151515;
 }
