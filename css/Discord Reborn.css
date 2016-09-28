@@ -1,5 +1,5 @@
 /* Version Displayed */
-:root {--version-content: "5.07";}
+:root {--version-content: "5.08";}
 
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
@@ -2179,4 +2179,40 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 #instant-invite-modal-advanced .form-actions .btn {
     padding: 9px;
     top: 9px;
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header h6 {
+    color: #fff;
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header p {
+    color: #c5c5c5;
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header {
+    border-bottom: 1px solid transparent;
+}
+.guild-settings-modal-emoji .no-emoji p {
+    color: #dadada;
+}
+.guild-settings-modal-emoji .table-header {
+    color: #ececec;
+}
+.guild-settings-modal-emoji .emoji-uploader .emoji-uploader-username {
+    color: #fff;
+}
+.guild-settings-modal-emoji .emoji-row .emoji-name {
+    background: rgba(0, 0, 0, 0.52);
+    color: #fff;
+}
+.guild-settings-modal-emoji .emoji-row:hover .emoji-name {
+    background-color: rgba(0, 0, 0, 0.39);
+    border-color: transparent;
+}
+.guild-settings-modal .emoji-row .btn.btn-danger, .guild-settings-modal .member-buttons .btn.btn-danger {
+    border: 1px solid #9c2121;
+    color: #ffffff;
+}
+.guild-settings-modal .emoji-row .btn, .guild-settings-modal .member-buttons .btn, .guild-settings-modal .emoji-row .btn.btn-danger:hover {
+    background: #9c2121;
+}
+.guild-settings-modal-emoji .emoji-row {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.22);
 }
