@@ -2113,7 +2113,7 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     left: 50%;
     margin-left: -124px;
 }
-.theme-light .account .btn-deafen, .account .btn-mute {
+.theme-light .account .btn-deafen, .theme-light .account .btn-mute {
     border-right: 1px solid transparent;
     display: none;
 }
