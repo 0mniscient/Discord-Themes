@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.28";
+    --version-content: "1.29";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -1324,8 +1324,8 @@ textarea {
 .radio-theme input[type=radio]:checked~label {
     width: 500px;
     background-image: none;
-    background: #141417;
-	border-color: var(--main-color);
+    background: #27ae60;
+    border-color: var(--main-color);
 }
 .radio-theme label {
     border: 4px solid #656565;
@@ -2009,4 +2009,130 @@ border: 2px solid var(--hover-color);
 .bda-dark .emoji-picker .diversity-selector .popout {
     background: #121213;
     border-color: #121213;
+}
+.theme-dark .channel-textarea-inner {
+    border-color: #1D1C1B;
+}
+.chat .jump-to-present-bar button:last-child {
+    color: #fff;
+}
+.theme-dark .chat .jump-to-present-bar {
+    background-color: var(--main-color);
+}
+
+.theme-dark .chat .jump-to-present-bar:hover {
+    background-color: var(--hover-color);
+}
+.tutorial-indicators+.theme-light:before {
+  content: "You need to have the dark mode enabled for this theme to work properly. To enable it, go into settings > appearance.";
+  position: fixed;
+  display: block;
+  width: 400px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  background: #121213;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 20px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px var(--main-color);
+  border: 3px solid var(--main-color);
+  z-index: 10;
+}
+ .tutorial-indicators+.theme-light:after {
+  content: "";
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 200%;
+  left: 50%;
+  top: 45%;
+  background: rgba(0,0,0,0.7);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 20px 20px;
+  border-radius: 5px;
+  z-index: 8;
+}
+.radio-theme input[type=radio]:checked~label {
+  border-color: transparent
+}
+
+.radio-theme.dark label {
+  width: 506px;
+  height: 50px;
+  background: #7289DA;
+  border: 0px!important
+}
+
+.theme-light+span .radio-theme.dark label {
+  background: #F04747;
+  box-shadow: 0 2px 10px rgba(240, 71, 71, .3);
+}
+
+.radio-theme.dark:after {
+  content: "ENABLE DARK MODE";
+  display: block;
+  color: #fff;
+  -webkit-transform: translate(-50%, -32px);
+          transform: translate(-50%, -32px);
+  position: absolute;
+  left: 50%;
+  font-weight: 800;
+  pointer-events: none
+}
+
+.theme-dark+span .radio-theme.dark:after {
+  content: "DARK MODE ENABLED"
+}
+
+.radio-theme.light {
+  display: none;
+}
+
+div[data-reactroot]:not(.platform-osx):not(.platform-win) .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(8),
+div.platform-win .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(9),
+div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(9) {
+  box-shadow: 0 2px 10px var(--main-color);
+  border: 3px solid var(--main-color);
+  width: 110px;
+  border-radius: 3px;
+  margin-left: 29px;
+}
+.theme-light .account .btn-settings {
+    position: fixed;
+    width: 256px;
+    height: 31px;
+    border-radius: 3px;
+    font-size: 20px;
+    box-shadow: 0 2px 10px var(--main-color) !important;
+    border: 3px solid var(--main-color);
+    top: 60%;
+    left: 50%;
+    margin-left: -124px;
+}
+.theme-light .account .btn-deafen, .account .btn-mute {
+    border-right: 1px solid transparent;
+    display: none;
+}
+.theme-light .account .btn-settings:after {
+    opacity: 1;
+}
+.theme-light .account .btn-settings:after {
+    z-index: 1000;
+    position: absolute;
+}
+.theme-light .account .btn:after {
+    content: "CLICK ME FOR SETTINGS";
+    display: block;
+    color: #fff;
+    background: #121213;
+    opacity: 1;
+    z-index: 1003;
+}
+.theme-light .account {
+    height: 0px;
+    margin-bottom: -30px;
 }
