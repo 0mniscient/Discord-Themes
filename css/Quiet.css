@@ -2153,3 +2153,6 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     border-radius: 3px;
     color: #fff;
 }
+.message-group .edit-message .channel-textarea-inner {
+    border-color: #1D1C1B;
+}
