@@ -2023,6 +2023,7 @@ border: 2px solid var(--hover-color);
 .theme-dark .chat .jump-to-present-bar:hover {
     background-color: var(--hover-color);
 }
+/* Alert made by BeardDesign and heavily modified by me */
 .tutorial-indicators+.theme-light:before {
   content: "You need to have the dark mode enabled for this theme to work properly. To enable it, go into settings > appearance.";
   position: fixed;
