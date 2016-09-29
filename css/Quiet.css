@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.29";
+    --version-content: "1.30";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -2136,4 +2136,20 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 .theme-light .account {
     height: 0px;
     margin-bottom: -30px;
+}
+.ebr-theme-item-info, .ebr-plugin-item-info {
+    color: #fff;
+}
+.ebr-plugin-item, .ebr-theme-item {
+    background-color: #121213;
+    border: 1px solid #121213;
+}
+#ebr-themes-pane .ebr-top .themes-header, #ebr-plugins-pane .ebr-top .plugins-header {
+    color: #fff;
+}
+#theme-search, #plugin-search {
+    border: 1px solid #121213;
+    background: #121213;
+    border-radius: 3px;
+    color: #fff;
 }
