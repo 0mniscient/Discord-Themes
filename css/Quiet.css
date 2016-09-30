@@ -2202,7 +2202,7 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     margin-top: -15px;
 }
 .keyboard-shortcuts-modal {
-    background-color: #141417;
+    background-color: #19191b;
 }
 .keybind-shortcut span {
     border: 1px solid var(--main-color);
