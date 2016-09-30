@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.32";
+    --version-content: "1.33";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -2160,7 +2160,7 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     margin-left: -55%;
 }
 .change-log::before {
-    content: "  v1.33: \A \A• Fixed Change Log menu. \A \A v1.32: \A \A• Added a new Change Log menu. \A• Keyboard Combos screen will no longer burn your eyes.\A \A v1.30-31: \A \A• Light Mode shall not break this theme no longer! \A • Fixed text-area border color.";
+    content: " v1.33: \A \A• Fixed Change Log menu. \A \A v1.32: \A \A• Added a new Change Log menu. \A• Keyboard Combos screen will no longer burn your eyes.\A \A v1.30-31: \A \A• Light Mode shall not break this theme no longer! \A • Fixed text-area border color.";
     color: #fff;
     background: #19191b;
     display: block;
@@ -2168,9 +2168,9 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     width: 478px;
     margin-left: 45%;
     z-index: 2;
-    height: 402px;
+    height: 490px;
     border-radius: 3px;
-    padding: 208px 33px 0px;
+    padding: 120px 33px 0px;
 }
 .markdown-modal .markdown-modal-header::before {
     content: "What's New in Quiet.";
