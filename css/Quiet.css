@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.33";
+    --version-content: "1.34";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -2156,51 +2156,6 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 .message-group .edit-message .channel-textarea-inner {
     border-color: #1D1C1B;
 }
-.change-log {
-    margin-left: -55%;
-}
-.change-log::before {
-    content: " v1.33: \A \A• Fixed Change Log menu. \A \A v1.32: \A \A• Added a new Change Log menu. \A• Keyboard Combos screen will no longer burn your eyes.\A \A v1.30-31: \A \A• Light Mode shall not break this theme no longer! \A • Fixed text-area border color.";
-    color: #fff;
-    background: #19191b;
-    display: block;
-    position: fixed;
-    width: 478px;
-    margin-left: 45%;
-    z-index: 2;
-    height: 490px;
-    border-radius: 3px;
-    padding: 120px 33px 0px;
-}
-.markdown-modal .markdown-modal-header::before {
-    content: "What's New in Quiet.";
-    background: #141417;
-    display: block;
-    position: fixed;
-    width: 504px;
-    margin-left: 596px;
-    z-index: 3;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    padding: 26px 20px 32px;
-    margin-top: -28px;
-    font-weight: 700;
-    font-size: 14px;
-}
-.markdown-modal .markdown-modal-footer::before {
-    content: "Missed an update? Just restart Discord!";
-    color: #a5a5a5;
-    background: #141417;
-    display: block;
-    position: fixed;
-    width: 504px;
-    margin-left: 588px;
-    z-index: 3;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    padding: 12px 20px 17px;
-    margin-top: -15px;
-}
 .keyboard-shortcuts-modal {
     background-color: #19191b;
 }
@@ -2222,4 +2177,26 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 }
 .keyboard-shortcuts-modal .ddr-arrows .arrow {
     -webkit-filter: invert() hue-rotate(208deg);
+}
+.webhooks .webhooks-header {
+    border-bottom: 2px solid var(--main-color);
+}
+.webhooks .webhook {
+    background: #141417;
+}
+.webhooks .webhook .webhook-header .webhook-details .webhook-name {
+    color: #e8e8e8;
+}
+.webhooks .webhook .webhook-header .webhook-details .webhook-created-on {
+    color: #d0d0d0;
+}
+.form .btn-clear {
+    background: var(--main-color);
+    color: #fff;
+}
+.form .btn-clear:hover {
+    background: var(--hover-color);
+}
+#instant-invite-modal .clipboard-input-inner input {
+    color: #adadad;
 }
