@@ -2160,7 +2160,7 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     margin-left: -55%;
 }
 .change-log::before {
-    content: "  v1.32: \A \A• Added a new Change Log menu. \A• Keyboard Combos screen will no longer burn your eyes.\A \A v1.30-31: \A \A• Light Mode shall not break this theme no longer! \A • Fixed text-area border color.";
+    content: "  v1.33: \A \A• Fixed Change Log menu. \A \A v1.32: \A \A• Added a new Change Log menu. \A• Keyboard Combos screen will no longer burn your eyes.\A \A v1.30-31: \A \A• Light Mode shall not break this theme no longer! \A • Fixed text-area border color.";
     color: #fff;
     background: #19191b;
     display: block;
@@ -2170,7 +2170,7 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     z-index: 2;
     height: 402px;
     border-radius: 3px;
-    padding: 115px 33px 0px;
+    padding: 208px 33px 0px;
 }
 .markdown-modal .markdown-modal-header::before {
     content: "What's New in Quiet.";
@@ -2178,23 +2178,23 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     display: block;
     position: fixed;
     width: 504px;
-    margin-left: 594px;
+    margin-left: 596px;
     z-index: 3;
     border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
     padding: 26px 20px 32px;
     margin-top: -28px;
-	font-weight: 700;
+    font-weight: 700;
     font-size: 14px;
 }
 .markdown-modal .markdown-modal-footer::before {
     content: "Missed an update? Just restart Discord!";
-	color: #a5a5a5;
+    color: #a5a5a5;
     background: #141417;
     display: block;
     position: fixed;
     width: 504px;
-    margin-left: 586px;
+    margin-left: 588px;
     z-index: 3;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
