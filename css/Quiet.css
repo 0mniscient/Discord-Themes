@@ -2200,3 +2200,6 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 #instant-invite-modal .clipboard-input-inner input {
     color: #adadad;
 }
+.channel-notices .channel-notice.guild-mfa-warning {
+    background: url(/assets/916a384814e3bbd2a84e2a1b352a17c3.svg) center 20px no-repeat #19191b;
+}
