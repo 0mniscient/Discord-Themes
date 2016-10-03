@@ -2206,3 +2206,18 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 .messages .renamer-tag {
     margin-left: 6px;
 }
+.message-group:not(.compact) .avatar-large[style*="172218388880293888"] ~ .comment .message h2 span.username-wrapper::after {
+    content: "Developer";
+    color: #fff;
+    background: #7289da;
+    border-radius: 3px;
+    margin-left: 6px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 1px 2px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+}
