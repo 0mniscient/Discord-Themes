@@ -13,7 +13,7 @@
 
 .user-popout .header {background: rgba(0, 0, 0, .3);}
 
-.user-popout {background: transparent !important;opacity: 1;}
+.user-popout {background: transparent !important;opacity: 1;} 
 
 #user-profile-modal .header {background: transparent !important;overflow: hidden;height: 182px;}
 
