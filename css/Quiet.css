@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.37";
+    --version-content: "1.39";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -1741,6 +1741,7 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 #bd-customcss-attach-controls, #bd-customcss-detach-controls {
     background: #121213;
+    -webkit-box-shadow: inset 0 1px 0 0 #19191b;
 }
 .chat>.content .messages .message-group.hide-overflow.compact .markup {
     padding: 0px 0px 0px 5rem;
@@ -2143,14 +2144,14 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     color: #fff;
 }
 .ebr-plugin-item, .ebr-theme-item {
-    background-color: #121213;
-    border: 1px solid #121213;
+    background-color: #121213 !important;
+    border: 1px solid #121213 !important;
 }
 #ebr-themes-pane .ebr-top .themes-header, #ebr-plugins-pane .ebr-top .plugins-header {
     color: #fff;
 }
 #theme-search, #plugin-search {
-    border: 1px solid #121213;
+    border: 1px solid #121213 !important;
     background: #121213;
     border-radius: 3px;
     color: #fff;
@@ -2461,4 +2462,40 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 }
 .status-picker.popout-menu {
     background: transparent !important;
+}
+/*by maple*/
+#app-mount > div > div.context-menu {
+    margin-left: -10px;
+    margin-top: -15px;
+}
+#app-mount > div > div.context-menu .item-group {
+    display: flex;
+    flex-direction: column;
+}
+#app-mount > div > div.context-menu .item-group .item.danger {
+    order: 1 !important;
+}
+#app-mount > div > div.context-menu .item-group .item {
+    order: 2;
+}
+#app-mount > div > div.context-menu.invertY {
+    margin-left: -10px;
+    margin-top: 135px;
+}
+#app-mount > div > div.context-menu.invertX.invertY.invertChildX {
+    margin-left: 100px;
+    margin-top: 135px;
+}
+#app-mount > div > div.context-menu.invertX.invertChildX {
+    margin-left: 100px;
+    margin-top: -10px;
+}
+/* */
+.CodeMirror {
+    color: #efefef;
+    background-color: #121213!important;
+}
+.CodeMirror-gutters {
+    border-right: 1px solid #19191b;
+    background-color: #141417;
 }
