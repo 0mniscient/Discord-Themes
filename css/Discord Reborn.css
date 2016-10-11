@@ -1267,8 +1267,6 @@ form.auth-form { background: rgba(0, 0, 0, 0.56); }
 
 .user-popout .avatar-wrapper .avatar-popout { border: 4px solid var(--hover-color); background-color: var(--hover-color); }
 
-.user-popout .body { padding-bottom: 2px; }
-
 .user-popout .footer { border-top: 2px var(--main-color) solid; }
 
 .user-popout .footer .quick-message-wrapper .input { border: 2px solid var(--main-color); background: #0C0C0C; color: #fff; }
@@ -2312,6 +2310,8 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }
 .user-popout .body {
     display: flex;
+	padding-bottom: 2px;
+	padding-top: 10px;
 }
 .user-popout .header {
     height: 100px;
@@ -2330,6 +2330,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .section.notes, .section.roles {
     background: rgba(0, 0, 0, 0.53);
 	margin-left: 15px;
+	border-radius: 3px;
 }
 .user-popout .username-wrapper .activity, .user-popout .username-wrapper .discord-tag, .user-popout .username-wrapper .nickname {
     text-align: left;
