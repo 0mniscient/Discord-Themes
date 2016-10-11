@@ -1267,7 +1267,7 @@ form.auth-form { background: rgba(0, 0, 0, 0.56); }
 
 .user-popout .avatar-wrapper .avatar-popout { border: 4px solid var(--hover-color); background-color: var(--hover-color); }
 
-.user-popout .body { padding-bottom: 10px; }
+.user-popout .body { padding-bottom: 2px; }
 
 .user-popout .footer { border-top: 2px var(--main-color) solid; }
 
@@ -2290,7 +2290,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 	margin-right: 0px !important;
 }
 .status-picker .popout-menu-item {
-    -webkit-align-items: center;
+    -webkit-align-items: center;z
     align-items: center;
 }
 .status-picker.popout-menu {
@@ -2298,4 +2298,47 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }
 .quick-message.isBlocked {
     background: rgba(0, 0, 0, 0.53);
+}
+
+.user-popout .body .roles .member-roles {
+    padding-bottom: 7px;
+}
+.user-popout .body {
+    display: flex;
+}
+.user-popout .header {
+    height: 100px;
+}
+.user-popout .avatar-wrapper {
+    position: fixed;
+    margin: 4px 0px 14px -150px;
+}
+.user-popout {
+    width: 450px;
+}
+.section.roles {
+    max-width: 250px;
+	width: 250px;
+}
+.section.notes, .section.roles {
+    background: rgba(0, 0, 0, 0.53);
+	margin-left: 15px;
+}
+.user-popout .username-wrapper .activity, .user-popout .username-wrapper .discord-tag, .user-popout .username-wrapper .nickname {
+    text-align: left;
+    margin-left: 138px;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.user-popout .username-wrapper .nickname::before {
+    content: "Nickname:";
+    color: #cecece;
+    padding-right: 3px;
+}
+.user-popout .username-wrapper .nickname {
+    margin-bottom: 2px;
+}
+.creation-date-wrapper {
+    margin-left: -33px;
 }
