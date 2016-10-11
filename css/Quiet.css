@@ -1471,7 +1471,7 @@ textarea {
     background-size: 10px;
 }
 .theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
-    background: #111113 !important;
+    background: #19191b !important;
     border-color: #111113;
 }
 .theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
@@ -2550,4 +2550,9 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 }
 .quick-message.isBlocked {
     background: #0b0b0c;
+}
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+    border: 2px solid #111113;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.16);
+    box-shadow: 0 1px 3px rgba(0,0,0,.16);
 }
