@@ -2507,3 +2507,76 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
+.status-picker .popout-menu-item:nth-child(1) {
+	background: #43b581 !important;
+	color: #fff;
+}
+.status-picker>.popout-menu-separator {
+	border-bottom: 0px solid #000 !important;
+}
+.status-picker .popout-menu-item:nth-child(3) {
+	background: #faa61a !important;
+	color: #fff;
+}
+.status-picker .popout-menu-item:nth-child(4) {
+	background: #f04747 !important;
+	color: #fff;
+	transition: .2s all linear;
+	height: 38px;
+}
+.status-picker .popout-menu-item:nth-child(4) >  .status-icon-text > .status-text{
+    margin-top: 19px;
+	transition: .2s all linear;
+}
+.status-picker .popout-menu-item:nth-child(4) >  .helper{
+    margin-top: -3px;
+	opacity: 0;
+	color: #fff;
+	text-align: center;
+    padding-right: 26px;
+}
+.status-picker .popout-menu-item:nth-child(4):hover >  .helper{
+	opacity: 1;
+	transition: .2s all linear;
+}
+.status-picker .popout-menu-item:nth-child(4):hover >  .status-icon-text > .status-text{
+	opacity: 0;
+	transition: .2s all linear;
+}
+.status-picker .popout-menu-item:nth-child(5) {
+	background: #747f8d !important;
+	color: #fff;
+	transition: .2s all linear;
+	height: 38px;
+}
+.status-picker .popout-menu-item:nth-child(5) >  .status-icon-text > .status-text{
+    margin-top: 16px;
+	transition: .2s all linear;
+}
+.status-picker .popout-menu-item:nth-child(5) >  .helper{
+    margin-top: -5px;
+	opacity: 0;
+	color: #fff;
+    margin: -3px 0 0 19px;	
+}
+.status-picker .popout-menu-item:nth-child(5):hover >  .helper{
+	opacity: 1 !important;
+	transition: .2s all linear;
+}
+.status-picker .popout-menu-item:nth-child(5):hover >  .status-icon-text > .status-text{
+	opacity: 0 !important;
+	transition: .2s all linear;
+}
+.status-icon-text > .status-text {
+    margin-left: -13px;
+}
+.status-icon-text > .status {
+	margin-right: 0px !important;
+}
+.status-picker .popout-menu-item {
+    -webkit-align-items: center;
+    align-items: center;
+}
+.status-picker.popout-menu {
+    background: transparent !important;
+}
