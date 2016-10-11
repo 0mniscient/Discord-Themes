@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.43";
+    --version-content: "1.44";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -2556,7 +2556,7 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.16);
     box-shadow: 0 1px 3px rgba(0,0,0,.16);
 }
-.message-group .btn-option {
-    width: 22px;
-    height: 22px;
+.message-group .comment>div:hover .btn-option {
+    margin-top: 4px;
+    margin-right: 4px;
 }
