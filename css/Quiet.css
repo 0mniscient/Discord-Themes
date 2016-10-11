@@ -2547,3 +2547,6 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 .creation-date-wrapper {
     margin-left: -33px;
 }
+.quick-message.isBlocked {
+    background: #0b0b0c;
+}
