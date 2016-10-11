@@ -2557,6 +2557,6 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     box-shadow: 0 1px 3px rgba(0,0,0,.16);
 }
 .message-group .comment>div:hover .btn-option {
-    margin-top: 4px;
+    margin-top: 0px;
     margin-right: 4px;
 }
