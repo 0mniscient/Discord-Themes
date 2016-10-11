@@ -2299,6 +2299,3 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .quick-message.isBlocked {
     background: rgba(0, 0, 0, 0.53);
 }
-.quick-message.isBlocked {
-    background: #0b0b0c;
-}
