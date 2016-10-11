@@ -1,5 +1,5 @@
 /* Version Displayed */
-:root {--version-content: "5.11";}
+:root {--version-content: "5.12";}
 
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
@@ -2299,7 +2299,14 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .quick-message.isBlocked {
     background: rgba(0, 0, 0, 0.53);
 }
-
+.user-popout .body .roles .member-roles::-webkit-scrollbar {
+    width: 0px;
+    padding-bottom: 7px;
+}
+.user-popout .body .roles .member-roles {
+    overflow-y: scroll;
+	max-height: 179px;
+}
 .user-popout .body .roles .member-roles {
     padding-bottom: 7px;
 }
