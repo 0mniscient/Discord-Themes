@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.42";
+    --version-content: "1.43";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -2515,7 +2515,7 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 .user-popout .body {
     display: flex;
     background: #111113;
-    padding-top: 26px;
+    padding-top: 14px;
 }
 .user-popout .avatar-wrapper {
     position: fixed;
@@ -2527,7 +2527,8 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 }
 .section.notes, .section.roles {
     background: #0f0f10;
-	margin-left: 15px;
+    margin-left: 15px;
+    border-radius: 3px;
 }
 .user-popout .username-wrapper .activity, .user-popout .username-wrapper .discord-tag, .user-popout .username-wrapper .nickname {
     text-align: left;
