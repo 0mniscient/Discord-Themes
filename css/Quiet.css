@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.40";
+    --version-content: "1.42";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -418,7 +418,8 @@ button.btn:hover {
     background-color: var(--hover-color);
 }
 .user-popout .header {
-	background: #141417;
+    background: #141417;
+    height: 100px;
 }
 .user-popout .body {
     background: #111113;
@@ -1302,7 +1303,8 @@ textarea {
 }
 .user-popout .body .roles .member-roles {
     overflow-y: scroll;
-	max-height: 179px;
+    max-height: 179px;
+    padding-bottom: 7px;
 }
 .confirm-message-modal .form-inner .message-group {
     background: #0d0d0e;
@@ -2506,4 +2508,42 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     margin-left: 14px;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
+}
+.user-popout {
+    width: 450px;
+}
+.user-popout .body {
+    display: flex;
+    background: #111113;
+    padding-top: 26px;
+}
+.user-popout .avatar-wrapper {
+    position: fixed;
+    margin: 4px 0px 14px -150px;
+}
+.section.roles {
+    max-width: 250px;
+	width: 250px;
+}
+.section.notes, .section.roles {
+    background: #0f0f10;
+	margin-left: 15px;
+}
+.user-popout .username-wrapper .activity, .user-popout .username-wrapper .discord-tag, .user-popout .username-wrapper .nickname {
+    text-align: left;
+    margin-left: 138px;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.user-popout .username-wrapper .nickname::before {
+    content: "Nickname:";
+    color: #cecece;
+    padding-right: 3px;
+}
+.user-popout .username-wrapper .nickname {
+    margin-bottom: 2px;
+}
+.creation-date-wrapper {
+    margin-left: -33px;
 }
