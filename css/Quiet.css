@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.44";
+    --version-content: "1.45";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -2553,10 +2553,23 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 }
 .theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
     border: 2px solid #111113;
-	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.16);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.16);
     box-shadow: 0 1px 3px rgba(0,0,0,.16);
 }
-.message-group .comment>div:hover .btn-option {
-    margin-top: 0px;
-    margin-right: 4px;
+.user-popout .header.streaming .live-on-twitch {
+    border-top: 0px solid transparent;
+    text-decoration: none;
+    width: 150px;
+    margin-left: 129px;
+    border-radius: 3px;
+    padding: 4px 0;
+}
+.user-popout .header.streaming {
+    padding-bottom: 8px;
+}
+.user-popout .header.streaming .activity {
+    padding: 0;
+}
+.streaming>.creation-date-wrapper {
+    display: none;
 }
