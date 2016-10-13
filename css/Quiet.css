@@ -1,9 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Karla);
 .dummyclass {
 	display:none;
 }
 div>*:not(code) {
-    font-family: 'Karla',Whitney,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif !important;
+    font-family: Comic Sans,sans-serif !important;
 }
 :root {
     --version-content: "1.46";
