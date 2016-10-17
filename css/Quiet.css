@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.48";
+    --version-content: "1.49";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -2027,6 +2027,87 @@ border: 2px solid var(--hover-color);
 
 .theme-dark .chat .jump-to-present-bar:hover {
     background-color: var(--hover-color);
+}
+.context-menu,
+.small-popout-box {
+    -webkit-animation: animation-folding .3s cubic-bezier(.2, .6, .5, 1.1);
+    animation: animation-folding .3s cubic-bezier(.2, .6, .5, 1.1);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+}
+.context-menu.invertY {
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.user-popout {
+    -webkit-animation: animation-popping .15s cubic-bezier(.2, .6, .5, 1.1);
+    animation: animation-popping .15s cubic-bezier(.2, .6, .5, 1.1);
+}
+.item-subMenu .context-menu {
+    -webkit-animation: animation-sliding .15s cubic-bezier(.2, .6, .5, 1.1);
+    animation: animation-sliding .15s cubic-bezier(.2, .6, .5, 1.1);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+}
+@-webkit-keyframes animation-folding {
+    0% {
+        -webkit-transform: rotateX(-90deg);
+        transform: rotateX(-90deg);
+    }
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes animation-folding {
+    0% {
+        -webkit-transform: rotateX(-90deg);
+        transform: rotateX(-90deg);
+    }
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@-webkit-keyframes animation-sliding {
+    0% {
+        -webkit-transform: rotateY(-90deg);
+        transform: rotateY(-90deg);
+    }
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes animation-sliding {
+    0% {
+        -webkit-transform: rotateY(-90deg);
+        transform: rotateY(-90deg);
+    }
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@-webkit-keyframes animation-popping {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes animation-popping {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
 }
 /* Alert made by BeardDesign and heavily modified by me */
 .tutorial-indicators+.theme-light:before {
