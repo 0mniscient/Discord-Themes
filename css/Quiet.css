@@ -2788,3 +2788,6 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     color: #fff !important;
     background: var(--main-color);
 }
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 12px;
+}
