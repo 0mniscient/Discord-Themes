@@ -2791,3 +2791,15 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 .scroller-wrap .scroller::-webkit-scrollbar {
     width: 12px;
 }
+.messages-popout .channel-separator {
+    margin-top: 26px;
+    margin-bottom: 10px;
+    background: #131315;
+    padding: 8px;
+    border-radius: 3px;
+    top: 5px;
+    border: 2px solid #131315;
+}
+.messages-popout .channel-separator:hover {
+    border: 2px solid var(--main-color);
+}
