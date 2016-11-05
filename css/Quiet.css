@@ -409,7 +409,7 @@ border: 2px solid var(--main-color) !important;
     color: #888888 !important;
 }
 .account .btn-settings:after {
-    opacity: 0.35;
+    opacity: 0.2;
 }
 .account .btn-group {
     border: 1px solid transparent;
@@ -2731,4 +2731,56 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     padding-right: 7px;
     padding: 8px;
     padding-left: 50px;
+}
+.account .btn-settings:after {
+    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_settings_white_24px.svg) !important;
+    zoom: 1.2;
+}
+
+.account .btn-settings:hover:after {
+    opacity: 0.6;
+}
+
+.account .btn-deafen:after {
+    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_volume_up_white_24px.svg) !important;
+    opacity: 0.2;
+    zoom: 1.2;
+}
+
+.account .btn-deafen:hover:after {
+    opacity: 0.6;
+}
+
+.icon-deafened,
+.account .btn-deafen.disabled:after {
+    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_volume_off_white_24px.svg) !important;
+}
+
+.account .btn-mute:after {
+    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_mic_white_24px.svg) !important;
+    opacity: 0.2!important;
+    zoom: 1.2;
+}
+
+.account .btn-mute:hover:after {
+    opacity: 0.6!important;
+}
+
+.icon-muted,
+.account .btn-mute.disabled:after {
+    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_mic_off_white_24px.svg) !important;
+}
+
+#voice-connection .btn-info:after {
+    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_info_white_24px.svg) !important;
+    zoom: 2;
+}
+
+#voice-connection .btn-disconnect:after {
+    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_call_end_white_24px.svg);
+    zoom: 1.3;
+    -webkit-transition: -webkit-transform 300ms ease;
+    transition: -webkit-transform 300ms ease;
+    transition: transform 300ms ease;
+    transition: transform 300ms ease, -webkit-transform 300ms ease;
 }
