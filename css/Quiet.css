@@ -50,7 +50,7 @@ body:after {
 }
 
 body:before {
-    content: "Thank's for using Quiet!";
+    content: "Thanks for using Quiet!";
     z-index: 1000000000000000000000000;
     color: #fff;
     background: var(--main-color);
