@@ -1,5 +1,79 @@
 /* Version Displayed */
-:root {--version-content: "5.13";}
+:root {--version-content: "5.14";}
+
+body:after {
+    content: "Current Version: v" var(--version-content);
+    z-index: 10000000000000000000000000;
+    color: #fff;
+    background: var(--main-color);
+    top: 0;
+    left: 50%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    -webkit-animation: version 3s ease;
+    animation: version 3s ease;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+body:before {
+    content: "Thank's for using Quiet!";
+    z-index: 1000000000000000000000000;
+    color: #fff;
+    background: var(--main-color);
+    top: 0px;
+    left: 50%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    -webkit-animation: version 3s ease;
+    animation: version 3s ease;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+@-webkit-keyframes version {
+    from {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+    20% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    80% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    to {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+}
+
+@keyframes version {
+    from {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+    20% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    80% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    to {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+}
 
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;}
 
