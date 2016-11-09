@@ -2821,3 +2821,11 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     width: 199px;
     padding-left: 17px;
 }
+.title-wrap {
+    background-image:url(https://i.imgur.com/QJTRtyD.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.chat>.title-wrap>.topic {
+	color: transparent !important;
+}
