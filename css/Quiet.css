@@ -2803,29 +2803,3 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 .messages-popout .channel-separator:hover {
     border: 2px solid var(--main-color);
 }
-
-/*Trump Luke made me do it*/
-.channel-textarea-emoji .sprite-item {
-    background-image:url(https://i.imgur.com/XGFefL4.png) !important;
-    background-size: 100% !important;
-    background-position: center !important;
-}
-.friends-icon {
-    background-image:url(https://i.imgur.com/ByMpHbA.png) !important;
-    background-position: center bottom !important;
-    background-size: 95% !important;
-}
-.theme-dark .channel-textarea-inner:after {
-    content: "Lukes fault not mine";
-    color: #4c4c4c;
-    width: 199px;
-    padding-left: 17px;
-}
-.title-wrap {
-    background-image:url(https://i.imgur.com/QJTRtyD.png) !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-}
-.chat>.title-wrap>.topic {
-	color: transparent !important;
-}
