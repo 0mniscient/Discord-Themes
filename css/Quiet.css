@@ -2056,7 +2056,7 @@ border: 2px solid var(--hover-color);
     background-repeat: no-repeat;
 }
 .emoji-picker {
-    border: 1px solid #121213;
+    border: 1px solid #19191b !important;
 }
 .emoji-picker .search-bar .search-bar-inner {
     background-color: #19191b;
