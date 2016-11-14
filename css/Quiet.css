@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.5";
+    --version-content: "1.54";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -2808,4 +2808,8 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 }
 .upload-drop-modal .inner .icon {
     filter: grayscale(100%) !important;
+}
+.theme-light .account .btn-settings:after {
+    background-image: none !important;
+    zoom: 1.2;
 }
