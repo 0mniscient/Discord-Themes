@@ -2985,25 +2985,6 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     background-image: none !important;
     zoom: 1.2;
 }
-.popout.popout-top-right.no-arrow.no-shadow[style*="z-index: 2000;"] {
-    z-index: 0!important;
-    -webkit-animation: slide-up2 600ms cubic-bezier(0, .73, 0, 1), opacity 300ms ease;
-    animation: slide-up2 600ms cubic-bezier(0, .73, 0, 1), opacity 300ms ease
-}
-
-@-webkit-keyframes slide-up2 {
-    from {
-        -webkit-transform: translate(-100%, -30%);
-        transform: translate(-100%, -30%)
-    }
-}
-
-@keyframes slide-up2 {
-    from {
-        -webkit-transform: translate(-100%, -30%);
-        transform: translate(-100%, -30%)
-    }
-}
 .chat form {
     z-index: 1000;
     background: #19191b;
