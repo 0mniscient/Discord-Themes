@@ -3008,34 +3008,12 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     z-index: 1000;
     background: #19191b;
 }
-.chat form .typing {
-    background: #141417 !important;
-    bottom: 100%;
-    padding-left: 20px;
-    z-index: 0;
-    -webkit-animation: opacity 300ms ease;
-    animation: opacity 300ms ease;
-    -webkit-transform-origin: bottom left;
-    transform-origin: bottom left;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    width: auto;
-    padding-right: 20px;
-    padding-top: 0px;
-    margin-left: 74%;
-    color: #fff;
-    box-shadow: 0 -3px 20px rgba(0, 0, 0, .1);
-    opacity: .95;
-    -webkit-transition: all 200ms ease!important;
-    transition: all 200ms ease!important;
-}
-
-.typing .text {
-    line-height: 26px
-}
-.typing .ellipsis {
-    margin-top: 0px;
-}
 .emoji-picker .categories .item.selected {
     border-bottom-color: var(--main-color);
+}
+.typing {
+    height: 18px;
+}
+.typing .ellipsis {
+    margin-top: 5px;
 }
