@@ -232,11 +232,10 @@ background-repeat: no-repeat;
 }
 
 .form .btn-primary {
-	background-color:#39393b;
+    background-color: var(--main-color);
 }
-
 .form .btn-primary:hover {
-	background-color:#19191b;
+    background-color: var(--hover-color) !important;
 }
 
 .user-settings-modal a:hover {
@@ -533,11 +532,11 @@ button.btn:hover {
  
 #user-profile-modal .header:before{content: "";width: 100%;height: 100px;background-size: cover;background-position: center center;background-repeat: no-repeat;position: absolute;top: 0;right: 0;left: 0;z-index: -1;}
  
-#user-profile-modal .header{height: 100px;}
- 
-#user-profile-modal .header .discord-tag,
-#user-profile-modal .header .activity{margin-left: -15px;}
-#user-profile-modal .header .activity{margin-top: 5px;}
+#user-profile-modal .header .activity {
+        margin-left: -50px;
+	margin-top: -4px;
+	padding-top: 13px !important;
+}
  
 #user-profile-modal .header .discord-tag .username,
 #user-profile-modal .header .activity{text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);}
@@ -555,7 +554,7 @@ button.btn:hover {
 #user-profile-modal .tab-bar-container {
     border: 0!important;
     position: absolute;
-    top: 100px;
+    top: 120px;
     right: 0;
     padding: 0;
     width: 80px;
@@ -614,7 +613,7 @@ button.btn:hover {
  
 #user-profile-modal .scroller-wrap{height: 380px;}
  
-#user-profile-modal .scroller-wrap .scroller{margin-top: 60px;animation: sw-fade 300ms ease-in-out;}
+#user-profile-modal .scroller-wrap .scroller{margin-top: 15px;animation: sw-fade 300ms ease-in-out;}
  
 @keyframes sw-fade {
     0% {opacity: 0;}
@@ -2997,4 +2996,62 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 }
 .typing .ellipsis {
     margin-top: 5px;
+}
+#user-profile-modal .header:after {
+    content: ' ';
+    background-color: transparent;
+    background-image: linear-gradient(-180deg,transparent,transparent);
+}
+#user-profile-modal .avatar-wrapper {
+    background-color: transparent;
+    top: 8px;
+    left: 0px;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag {
+    color: #e4e4e4;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
+    color: #969696;
+}
+.avatar-profile {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+#user-profile-modal .header {
+    height: 120px;
+}
+#user-profile-modal .header .discord-tag {
+    margin-left: -50px;
+	margin-top: -20px;
+}
+#user-profile-modal .actions {
+    padding-top: 14px;
+    margin-left: -50px;
+}
+.connected-account {
+    width: 500px !important;
+}
+.connected-accounts {
+    max-width: 85%;
+    min-width: 85%;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+    color: #bbbbbb;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+    border: 2px solid #101010;
+    background: #121213;
+}
+.alert.form .form-inner .cancel {
+    background-color: #a23636;
+}
+.alert.form .form-inner .cancel:hover {
+    background-color: #8a2c2c;
+}
+.upload-drop-modal .bgScale {
+    background: var(--main-color);
+}
+.upload-drop-modal .inner .icon {
+    filter: grayscale(100%) !important;
 }
