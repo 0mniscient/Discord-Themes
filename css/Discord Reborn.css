@@ -1,5 +1,5 @@
 /* Version Displayed */
-:root {--version-content: "5.14";}
+:root {--version-content: "5.15";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
@@ -804,7 +804,7 @@ a:link { color: var(--main-color); }
 
 #user-profile-modal .tab-bar.TOP { position: absolute; margin-top: -28px; }
 
-#user-profile-modal .header .discord-tag {color: #fff;font-size: 18px;margin-top: -27px;}
+#user-profile-modal .header .discord-tag {color: #fff;font-size: 18px;margin-top: -20px;margin-left: -50px;}
 
 .tab-bar.TOP { border-bottom: 1px solid var(--main-color); }
 
@@ -2040,11 +2040,13 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 #user-profile-modal .header{background: 0;}
 #user-profile-modal .header:before{content: "";width: 100%;height: 100px;background-size: cover;background-position: center center;background-repeat: no-repeat;position: absolute;top: 0;right: 0;left: 0;z-index: -1;}
 
-#user-profile-modal .header{height: 100px;}
+#user-profile-modal .header{height: 130px;}
 
-#user-profile-modal .header .discord-tag,
-#user-profile-modal .header .activity{margin-left: -15px;}
-#user-profile-modal .header .activity{margin-top: 5px;}
+#user-profile-modal .header .discord-tag{margin-left: -15px;}
+#user-profile-modal .header .activity{
+        margin-left: -50px;
+	margin-top: -4px;
+	padding-top: 13px !important;}
 
 #user-profile-modal .header .discord-tag .username,
 #user-profile-modal .header .activity{text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);}
@@ -2058,7 +2060,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 
 #user-profile-modal .avatar-wrapper .avatar-profile .status{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);right: 0;bottom: 0;}
 
-#user-profile-modal .tab-bar-container{background-color: rgba(0,0,0,0.83) !important;border: 0!important;position: absolute;top: 100px;right: 0;padding: 0;width: 80px;height: 100%;justify-content: center;transition: width 500ms;transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);z-index: 1;}
+#user-profile-modal .tab-bar-container{background-color: rgba(0,0,0,0.83) !important;border: 0!important;position: absolute;top: 130px;right: 0;padding: 0;width: 80px;height: 100%;justify-content: center;transition: width 500ms;transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);z-index: 1;}
 
 #user-profile-modal .tab-bar-container:before{content: "...";position: absolute;top: 0;left: 0;width: 10px;height: 100%;padding-top: 180px;background: transparent;writing-mode: vertical-lr;color: transparent;font-size: 18px;font-weight: 700;letter-spacing: 15px;line-height: 20px;cursor: pointer;transition: letter-spacing 300ms, padding 300ms;;}
 
@@ -2104,7 +2106,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 
 #user-profile-modal .scroller-wrap{height: 380px;}
 
-#user-profile-modal .scroller-wrap .scroller{margin-top: 60px;animation: sw-fade 300ms ease-in-out;}
+#user-profile-modal .scroller-wrap .scroller{margin-top: 15px;animation: sw-fade 300ms ease-in-out;}
 
 @keyframes sw-fade {
 	0% {opacity: 0;}
@@ -2423,4 +2425,46 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }
 .creation-date-wrapper {
     margin-left: -33px;
+}
+#user-profile-modal .header:after {
+    content: ' ';
+    background-color: transparent;
+	background-image: linear-gradient(-180deg,transparent,transparent);
+}
+#user-profile-modal .avatar-wrapper {
+    background-color: transparent;
+    top: 8px;
+    left: 0px;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag {
+    color: #e4e4e4;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
+    color: #969696;
+}
+.avatar-profile {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+#user-profile-modal .actions {
+    padding-top: 14px;
+    margin-left: -50px;
+}
+.connected-account {
+    width: 500px !important;
+}
+.connected-accounts {
+    max-width: 85%;
+    min-width: 85%;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+    color: #bbbbbb;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+    border: 2px solid #000;
+    background: #000;
+}
+#user-profile-modal .header .header-info .header-info-inner .activity {
+    color: #929292;
 }
