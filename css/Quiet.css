@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.57";
+    --version-content: "1.58";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -3054,4 +3054,26 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 }
 .upload-drop-modal .inner .icon {
     filter: grayscale(100%) !important;
+}
+.message-reactions-modal {
+    background: #19191b;
+}
+.message-reactions-modal .message-reactions-reactors .reactor .name {
+    color: #e4e4e4;
+}
+.message-reactions-modal .message-reactions-reactors .reactor {
+    -webkit-box-shadow: inset 0 -1px 0 0 #1f1f1f;
+    box-shadow: inset 0 -1px 0 0 #1f1f1f;
+}
+.message-reactions-modal .message-reactions-list .scroller-wrap {
+    background: #19191b;
+}
+.tooltip.tooltip-left:after {
+    border-left-color: var(--main-color);
+}
+.message-reactions-modal .message-reactions-list-inner .reaction .count {
+    color: #d0d0d0;
+}
+.message-reactions-modal .message-reactions-list-inner .reaction.selected,.message-reactions-modal .message-reactions-list-inner .reaction:hover:not(.selected) {
+    background: #131313;
 }
