@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.58";
+    --version-content: "1.59";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -923,7 +923,7 @@ textarea {
 .popout:not(.no-shadow) #bda-qem,
 .popout:not(.no-shadow) #bda-qem-twitch-container,
 .popout:not(.no-shadow) #bda-qem-favourite-container {
-    display: none!important;
+    display: block;
 }
 #bda-qem-twitch:after {
     content: "";
@@ -990,7 +990,7 @@ textarea {
 
 #bda-qem {
     border: 0!important;
-    height: 0
+    height: 40px;
 }
 
 #bda-qem-twitch,
@@ -998,12 +998,7 @@ textarea {
 #bda-qem-emojis {
     visibility: hidden
 }
-.no-shadow #bda-qem-favourite-container,
-.no-shadow #bda-qem-twitch-container {
-    padding-top: 40px;
-}
 .no-shadow .emoji-picker {
-    padding-top: 32px;
     padding-left: 2px;
     border-radius: 3px 3px 0 0!important;
 }
@@ -2219,13 +2214,6 @@ border: 2px solid var(--hover-color);
     border-bottom: 0px solid transparent!important;
     background: #121213;
 }
-.bda-dark #bda-qem button.active, .bda-dark #bda-qem button:hover {
-    background-color: #121213;
-    background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
-    background-size: 100% 3px;
-    background-position: 0 0, 0 100%;
-    background-repeat: no-repeat;
-}
 .emoji-picker {
     border: 1px solid #19191b !important;
 }
@@ -3076,4 +3064,11 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 }
 .message-reactions-modal .message-reactions-list-inner .reaction.selected,.message-reactions-modal .message-reactions-list-inner .reaction:hover:not(.selected) {
     background: #131313;
+}
+#bda-qem-line {
+    margin-left: 104px;
+    opacity: 0.55;
+}
+#bda-qem-line:hover,#bda-qem-line.active {
+    opacity: 1;
 }
