@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.60";
+    --version-content: "1.61";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -3106,4 +3106,11 @@ button.bd-customicon-settings {
 }
 .bda-dark .emoji-picker .scroller .emoji-item.selected {
     background: var(--hover-color);
+}
+.theme-dark .message-group .embed {
+    background-color: #111113;
+    border-color: #111113;
+}
+.embed-color-pill[style*='background-color: rgb(114, 137, 218);'] {
+    background-color: var(--main-color) !important;
 }
