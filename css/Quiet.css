@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.59";
+    --version-content: "1.60";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -2216,6 +2216,7 @@ border: 2px solid var(--hover-color);
 }
 .emoji-picker {
     border: 1px solid #19191b !important;
+    border-top: 0px solid transparent !important;
 }
 .emoji-picker .search-bar .search-bar-inner {
     background-color: #19191b;
@@ -3071,4 +3072,38 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 }
 #bda-qem-line:hover,#bda-qem-line.active {
     opacity: 1;
+}
+.bda-dark #bda-qem button:hover {
+    background-color: #121213;
+}
+.bda-dark #bda-qem button.active {
+    background-color: #121213;
+}
+button.bd-customicon-settings {
+    display: none;
+}
+#bda-qem-line {
+    margin-left: 100px;
+    opacity: 0.55;
+    color: transparent !important;
+    margin-top: 3px;
+    background-image: url(https://i.imgur.com/v1dAJSb.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% !important;
+    background-size: 22px !important;
+}
+#bda-qem-line-container .emote-menu-inner, #bda-qem-line-container .categories {
+    background: #121213 !important;
+}
+#bda-qem-line-container .category-header {
+    color: #c3c3c3 !important;
+}
+.emote-container:hover {
+    background: #19191b;
+}
+#preview-sticker-wrapper {
+    background-color: #121213 !important;
+}
+.bda-dark .emoji-picker .scroller .emoji-item.selected {
+    background: var(--hover-color);
 }
