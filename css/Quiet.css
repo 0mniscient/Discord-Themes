@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.63";
+    --version-content: "1.64";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -3120,14 +3120,6 @@ button.bd-customicon-settings {
 .theme-dark .reaction.reaction-me .reaction-count {
     color: #fff;
 }
-.attachment-image .image:hover, .embed-thumbnail.embed-thumbnail-image .image:hover {
-    -webkit-transform: scale(0.98);
-    transform: scale(0.98);
-}
-.attachment-image .image, .embed-thumbnail.embed-thumbnail-image .image {
-    -webkit-transition: 200ms cubic-bezier(.2, .11, 0, 1);
-    transition: 200ms cubic-bezier(.2, .11, 0, 1);
-}
 .attachment-image .image, .message-group .comment .attachment-image img, .embed .image, .embed .embed-thumbnail img {
     border-radius: 3px;
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
@@ -3138,8 +3130,8 @@ button.bd-customicon-settings {
     box-shadow: 2px 2px 10px #0c0c0c;
 }
 .embed-wrapper:hover {
-	-webkit-transform: scale(0.98);
-    transform: scale(0.98)
+	-webkit-transform: scale(1.03);
+    transform: scale(1.03)
 }
 .theme-dark .chat .title-wrap {
     border-bottom: 2px solid var(--main-color) !important;
