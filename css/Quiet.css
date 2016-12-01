@@ -3140,3 +3140,14 @@ button.bd-customicon-settings {
 .message-reactions-modal .message-reactions-list-inner {
     background: #19191b;
 }
+/*Christmas things*/
+.guild-channels .channel-text .channel-name:before {
+    content: '#';
+    color: transparent!important;
+    background-image: url(http://i.imgur.com/S4tLloW.png);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: -3px 3px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
