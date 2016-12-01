@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.65";
+    --version-content: "1.0";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -32,7 +32,7 @@
     content: "Updates are automatic. Just restart Discord to get the latest version.";
 }
 body:after {
-    content: "Current Version: v" var(--version-content);
+    content: "Christmas Edition: v" var(--version-content);
     z-index: 10000000000000000000000000;
     color: #fff;
     background: var(--main-color);
@@ -3144,10 +3144,9 @@ button.bd-customicon-settings {
 .guild-channels .channel-text .channel-name:before {
     content: '#';
     color: transparent!important;
-    background-image: url(http://i.imgur.com/S4tLloW.png);
+    background-image: url(https://i.imgur.com/S4tLloW.png);
     background-size: 16px 16px;
     background-repeat: no-repeat;
-    background-position: -3px 3px;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    background-position: -1px 6px;
+    padding: 2px;
 }
