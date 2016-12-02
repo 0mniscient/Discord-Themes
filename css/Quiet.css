@@ -3170,6 +3170,16 @@ button.bd-customicon-settings {
         opacity: 0
     }
 }
+.search-bar {
+    border-bottom: 2px var(--main-color) solid !important;
+    box-shadow: 0 0px 0 0 rgba(0,0,0,.06),inset 0 0px 0 0 rgba(0,0,0,.2);
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    margin-top: -1px;
+}
+.theme-dark #friends .friends-header {
+    border-bottom: 2px var(--main-color) solid !important;
+}
 /*Christmas things*/
 .guild-channels .channel-text .channel-name:before {
     content: '#';
