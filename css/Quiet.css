@@ -3174,6 +3174,17 @@ button.bd-customicon-settings {
 .theme-dark #friends .friends-header {
     border-bottom: 2px var(--main-color) solid !important;
 }
+#friends .friends-table .friends-row .friends-suggestion-inner .avatar-large {
+    margin-right: 20px;
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    background-size: 60px;
+}
+#friends .friends-table .friends-row .friends-suggestion-inner {
+    padding: 15px;
+}
 /*Christmas things*/
 .guild-channels .channel-text .channel-name:before {
     content: '#';
