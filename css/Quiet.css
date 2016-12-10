@@ -2969,7 +2969,6 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     zoom: 1.2;
 }
 .chat form {
-    z-index: 1000;
     background: #19191b;
 }
 .emoji-picker .categories .item.selected {
