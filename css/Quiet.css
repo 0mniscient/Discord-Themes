@@ -3230,6 +3230,12 @@ button.bd-customicon-settings {
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
 }
+.new-messages-indicator.bottom .icon.icon-unread-arrow, .new-messages-indicator .icon.icon-unread-arrow {
+    margin-right: -19px;
+}
+.new-messages-indicator.new-messages-indicator-mention {
+    margin-left: -52px;
+}
 /*Christmas things*/
 .guild-channels .channel-text .channel-name:before {
     content: '#';
