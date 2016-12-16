@@ -3255,9 +3255,6 @@ button.bd-customicon-settings {
     color: #fff;
     opacity: 0.9;
 }
-.guilds-wrapper .guilds .friends-icon {
-    background-image: url(https://i.imgur.com/qv8p0b7.png);
-}
 /*Christmas things*/
 .guild-channels .channel-text .channel-name:before {
     content: '#';
@@ -3267,4 +3264,7 @@ button.bd-customicon-settings {
     background-repeat: no-repeat;
     background-position: -1px 6px;
     padding: 2px;
+}
+.guilds-wrapper .guilds .friends-icon {
+    background-image: url(https://i.imgur.com/qv8p0b7.png);
 }
