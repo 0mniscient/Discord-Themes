@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.5";
+    --version-content: "1.6";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
@@ -3269,23 +3269,19 @@ button.bd-customicon-settings {
     background-image: url(https://i.imgur.com/qv8p0b7.png);
 }
 .theme-dark .channel-textarea-upload {
-    background: url(https://i.imgur.com/iiOaykT.png);
+    background: url(https://i.imgur.com/iiOaykT.png) center center no-repeat;
     -webkit-background-size: 33px 32px;
     -moz-background-size: 33px 32px;
     background-size: 33px 32px;
-    background-repeat: no-repeat;
     opacity: 0.5;
-    background-position: 4px 4px;
 }
 .theme-dark .channel-textarea-upload:hover {
-    background: url(https://i.imgur.com/iiOaykT.png);
+    background: url(https://i.imgur.com/iiOaykT.png) center center no-repeat;
     background-color: rgba(255,255,255,.06);
     -webkit-background-size: 33px 32px;
     -moz-background-size: 33px 32px;
     background-size: 33px 32px;
-    background-repeat: no-repeat;
     opacity: 0.8;
-    background-position: 3px 4px;
 }
 .spinner-item:nth-child(1) {
     background-color: turquoise;
