@@ -3268,3 +3268,22 @@ button.bd-customicon-settings {
 .guilds-wrapper .guilds .friends-icon {
     background-image: url(https://i.imgur.com/qv8p0b7.png);
 }
+.theme-dark .channel-textarea-upload {
+    background: url(https://i.imgur.com/iiOaykT.png);
+    -webkit-background-size: 32px 32px;
+    -moz-background-size: 32px 32px;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-position: 4px 4px;
+}
+.theme-dark .channel-textarea-upload:hover {
+    background: url(https://i.imgur.com/iiOaykT.png);
+    background-color: rgba(255,255,255,.06);
+    -webkit-background-size: 32px 32px;
+    -moz-background-size: 32px 32px;
+    background-size: 33px 32px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    background-position: 3px 4px;
+}
