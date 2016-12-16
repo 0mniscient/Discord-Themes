@@ -3236,6 +3236,25 @@ button.bd-customicon-settings {
 .new-messages-indicator.new-messages-indicator-mention {
     margin-left: -52px;
 }
+.mention {
+    color: var(--main-color);
+}
+.mentioned .mention:hover {
+    color: #fff !important;
+    opacity: 0.9;
+}
+.theme-dark .message-group .comment .markup .mention {
+    background-color: ;
+    color: var(--main-color);
+    background: #131315;
+    border-radius: 3px;
+    padding: 1px 4px 2px 3px;
+}
+.theme-dark .message-group .comment .markup .mention:hover {
+    background-color: var(--main-color);
+    color: #fff;
+    opacity: 0.9;
+}
 /*Christmas things*/
 .guild-channels .channel-text .channel-name:before {
     content: '#';
