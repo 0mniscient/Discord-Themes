@@ -1,5 +1,5 @@
 /* Version Displayed */
-:root {--version-content: "5.15";}
+:root {--version-content: "5.16";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
@@ -2467,4 +2467,28 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }
 #user-profile-modal .header .header-info .header-info-inner .activity {
     color: #929292;
+}
+.bot-tag { background: var(--main-color);}
+.search-bar-clear { background: var(--main-color);}
+.mention {
+    color: var(--main-color);
+}
+.mentioned .mention:hover {
+    color: #fff !important;
+    opacity: 0.9;
+}
+.theme-dark .message-group .comment .markup .mention {
+    background-color: ;
+    color: var(--main-color);
+    background: rgba(0,0,0,0.7);
+    border-radius: 3px;
+    padding: 1px 4px 2px 3px;
+}
+.theme-dark .message-group .comment .markup .mention:hover {
+    background-color: var(--main-color);
+    color: #fff;
+    opacity: 0.9;
+}
+.context-menu .item-toggle .checkbox {
+    margin-right: 18px;
 }
