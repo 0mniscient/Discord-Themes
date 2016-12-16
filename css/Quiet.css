@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "1.3";
+    --version-content: "1.4";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
