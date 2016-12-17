@@ -3255,6 +3255,16 @@ button.bd-customicon-settings {
     color: #fff;
     opacity: 0.9;
 }
+.icon.icon-file {
+    -webkit-filter: invert() grayscale(100%);
+}
+.progress {
+    background-color: #0e0e0e;
+}
+.progress .progress-bar {
+    background-color: var(--main-color);
+}
+
 /*Christmas things*/
 .guild-channels .channel-text .channel-name:before {
     content: '#';
