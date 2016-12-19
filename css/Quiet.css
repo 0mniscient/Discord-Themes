@@ -3276,6 +3276,10 @@ button.bd-customicon-settings {
     background-color: #19191b;
     border: 2px solid #121213;
     padding: 0px 0px 28px 0px;
+    border-bottom: 2px solid #121213 !important;
+}
+.popout-open > .search-bar {
+    border-bottom: 2px solid var(--main-color) !important;
 }
 .theme-dark .search .search-bar .search-bar-icon:before {
     background-image: none;
