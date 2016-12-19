@@ -3685,6 +3685,15 @@ button.bd-customicon-settings {
     border-radius: 3px;
     padding: 1px 4px 2px 3px;
 }
+.new-messages-indicator.new-messages-indicator-channel.new-messages-indicator-mention {
+    margin-left: 0px;
+}
+.popout-menu-item > .status-icon-text > .status {
+    display: none;
+}
+.theme-dark .search-results-wrap .search-result .search-result-message.after, .theme-dark .search-results-wrap .search-result .search-result-message.before {
+    -webkit-filter: blur(1px);
+}
 /*Christmas things*/
 .guild-channels .channel-text .channel-name:before {
     content: '#';
