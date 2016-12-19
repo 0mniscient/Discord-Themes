@@ -3276,9 +3276,9 @@ button.bd-customicon-settings {
     background-color: #19191b;
     border: 2px solid #121213;
     padding: 0px 0px 28px 0px;
-    border-bottom: 2px solid #121213 !important;
+    border-bottom: 2px solid #121213;
 }
-.popout-open > .search-bar {
+.search.popout-open > .search-bar {
     border-bottom: 2px solid var(--main-color) !important;
 }
 .theme-dark .search .search-bar .search-bar-icon:before {
@@ -3430,6 +3430,22 @@ button.bd-customicon-settings {
 }
 .search-popout.date-picker {
     border-top: 1px solid transparent;
+}
+.theme-dark .search .search-bar .search-bar-clear.active:after, .theme-dark .search .search-bar .search-bar-clear.active:before {
+    background-color: #000000;
+}
+.search .search-bar .search-bar-clear.active:after {
+    background-color: #000000 !important;
+}
+.search-bar-clear.active:after, .search-bar-clear.active:before {
+    background: #000 !important;
+}
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: #111113!important;
+}
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    background-color: var(--main-color)!important;
+    border: 2px solid #19191b!important;
 }
 /*Christmas things*/
 .guild-channels .channel-text .channel-name:before {
