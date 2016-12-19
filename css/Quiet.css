@@ -3678,6 +3678,13 @@ button.bd-customicon-settings {
     background-color: var(--main-color)!important;
     border: 2px solid #19191b!important;
 }
+.mention {
+    background-color: #131315 !important;
+    color: var(--main-color);
+    background: #131315;
+    border-radius: 3px;
+    padding: 1px 4px 2px 3px;
+}
 /*Christmas things*/
 .guild-channels .channel-text .channel-name:before {
     content: '#';
