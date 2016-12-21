@@ -3650,14 +3650,14 @@ button.bd-customicon-settings {
 .react-datepicker .react-datepicker__navigation.react-datepicker__navigation--next, .react-datepicker .react-datepicker__navigation.react-datepicker__navigation--previous {
     border: 1px solid #0c0c0c;
 }
-.search-popout.date-picker .date-picker-hint .hint-value:hover {
-    background-color: var(--hover-color);
+.search-popout .date-picker .date-picker-hint .hint-value:hover {
+    background-color: var(--hover-color) !important;
 }
-.search-popout.date-picker .date-picker-hint .hint-value {
-    background-color: var(--main-color);
+.search-popout .date-picker .date-picker-hint .hint-value {
+    background-color: var(--main-color) !important;
 }
-.search-popout.date-picker .date-picker-hint {
-    border-top: 1px solid rgba(0, 0, 0, 0.4);
+.search-popout .date-picker .date-picker-hint {
+    border-top: 1px solid rgba(0, 0, 0, 0.4) !important;
 }
 .search-popout.date-picker {
     border-top: 1px solid transparent;
