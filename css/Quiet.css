@@ -3694,6 +3694,10 @@ button.bd-customicon-settings {
 .theme-dark .search-results-wrap .search-result .search-result-message.after, .theme-dark .search-results-wrap .search-result .search-result-message.before {
     -webkit-filter: blur(1px);
 }
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message {
+    filter: none; !important
+    -webkit-filter: none !important;
+}
 /*Christmas things*/
 .guild-channels .channel-text .channel-name:before {
     content: '#';
