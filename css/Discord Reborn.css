@@ -1,5 +1,5 @@
 /* Version Displayed */
-:root {--version-content: "5.17";}
+:root {--version-content: "5.18";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
@@ -1774,7 +1774,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
  .channel-members:hover h2{transform:scale(1);padding: 4px 58px;}
  .channel-members .avatar-small{transform:scale(1.2);}
  .channel-members:hover .avatar-small{transform:scale(1);}
- .chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:-145px;z-index:1}
+ .chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:-145px !important;z-index:1}
  .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:0px;z-index:1}
  .theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {background: -webkit-linear-gradient(left, rgb(9, 10, 10) 85%, rgba(46, 49, 54, 0)) !important;}
  .channel-members .member.popout-open .avatar-small, .channel-members .member:hover .avatar-small {transform: scale(1.2);}
