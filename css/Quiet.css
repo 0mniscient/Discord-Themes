@@ -3492,14 +3492,14 @@ button.bd-customicon-settings {
     opacity: 0.9;
 }
 .theme-dark .message-group .comment .markup .mention {
-    background-color: ;
     color: var(--main-color);
     background: #131315;
     border-radius: 3px;
     padding: 1px 4px 2px 3px;
+   transition: .2s all linear;
 }
 .theme-dark .message-group .comment .markup .mention:hover {
-    background-color: var(--main-color);
+    background-color: var(--main-color) !important;
     color: #fff;
     opacity: 0.9;
 }
