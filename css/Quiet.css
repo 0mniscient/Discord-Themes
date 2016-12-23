@@ -3811,6 +3811,10 @@ button.bd-customicon-settings {
     background-color: var(--main-color);
     color: #fff;
 }
+.theme-dark .recent-mentions-popout .mention-filter .label {
+    color: var(--main-color);
+    font-weight: bold;
+}
 /*Christmas things*/
 .guild-channels .channel-text .channel-name:before {
     content: '#';
