@@ -5,8 +5,9 @@
     --version-content: "1.6";
 }
 /* Version Displayed */
-.account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; left: 149px; right: 0; opacity: 1;
+.account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
 }
+.account{position: relative;}
 .version {
     display: inline-block;
     margin: 0px 0px 0px 0px;
@@ -1040,8 +1041,8 @@ button.btn:hover {
 }
 .tab-bar.SIDE .tab-bar-item.selected, .tab-bar.SIDE .tab-bar-item:hover {
     background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
-    background-size: 100% 3px;
-    background-position: 0 0, 0 100%;
+    background-size: 70% 3px;
+    background-position: bottom center;
     background-repeat: no-repeat;
 }
 .tab-bar.SIDE .tab-bar-item {
@@ -1057,7 +1058,6 @@ button.btn:hover {
     padding: 8px 0px 10px 0px;
     color: rgba(255,255,255,.3);
     text-align: center;
-    margin-left: -17px;
 }
 .change-log-button-container:before {
 	display: none;
@@ -1069,8 +1069,8 @@ button.btn:hover {
 }
 .change-log-button-container .change-log-button:hover {
 	background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
-    background-size: 100% 3px;
-    background-position: 0 0, 0 100%;
+    background-size: 80% 3px;
+    background-position: bottom center;
     background-repeat: no-repeat;
 }
 .settings .settings-actions {
@@ -3773,6 +3773,42 @@ button.bd-customicon-settings {
 @media screen and (max-width: 340px) {
  .message-group h2{max-width: 60%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
  .emoji-picker{width:90%;}
+}
+.premium-settings .subscription.active, .premium-settings .subscription {
+    background: var(--main-color) !important;
+}
+.premium-settings .subscription .btn-filled, .premium-settings .subscription.active .btn-filled {
+    color: var(--main-color);
+}
+.premium-settings .payment-subhead {
+    color: #fff;
+}
+.premium-settings .payment-method .payment-info .card-info .card-description {
+    color: #dbdbdb;
+}
+.premium-settings .payment-method .payment-info .card-info .card-description strong {
+    color: var(--main-color);
+}
+.premium-settings .payment-method .payment-info .card-info .card-details {
+    color: #a2a2a2;
+}
+.premium-settings .billing-history-list li.header-row {
+    color: var(--hover-color);
+}
+.premium-settings .billing-history-list li {
+    color: #a1a1a1;
+}
+.premium-settings .premium-header {
+    border-bottom: 0px solid transparent;
+}
+.btn-stroked {
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    transition: .2s all linear;
+}
+.btn-stroked:hover {
+    background-color: var(--main-color);
+    color: #fff;
 }
 /*Christmas things*/
 .guild-channels .channel-text .channel-name:before {
