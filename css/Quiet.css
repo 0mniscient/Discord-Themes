@@ -552,7 +552,7 @@ button.btn:hover {
  
 #user-profile-modal .avatar-wrapper .avatar-profile{border-color: #19191b;box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);left: 20px;}
  
-#user-profile-modal .avatar-wrapper .avatar-profile .status{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);right: 0;bottom: 0;}
+#user-profile-modal .avatar-wrapper .avatar-profile .status{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);right: 0;bottom: 0;left: -3px;}
  
 #user-profile-modal .header{background-color: #121213;background-image:none;}
 
@@ -573,7 +573,18 @@ button.btn:hover {
     -moz-background-size: 270px 213px;
     background-size: 270px 213px;
 }
- 
+#user-profile-modal .header .header-info .badge-premium {
+    margin-right: -46px;
+	background-size: 38px;
+    background-repeat: no-repeat;
+    left: 81px;
+}
+.badge-premium {
+    top: 80px !important;
+    right: 540px;
+    position: absolute;
+}
+
 #user-profile-modal .tab-bar-container:before{content: "...";position: absolute;top: 0;left: 0;width: 10px;height: 100%;padding-top: 180px;background: transparent;writing-mode: vertical-lr;color: transparent;font-size: 18px;font-weight: 700;letter-spacing: 15px;line-height: 20px;cursor: pointer;transition: letter-spacing 300ms, padding 300ms;;}
  
 #user-profile-modal .tab-bar-container:hover{width: 180px;}
