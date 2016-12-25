@@ -3863,3 +3863,36 @@ button.bd-customicon-settings {
     background-color: green;
 }
 .spinner-item{-webkit-filter:brightness(91%);}
+
+/* OUTDATED */
+
+#app-mount::before {
+    content: "";
+    background: transparent;
+    z-index: 9998;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, .5) !important;
+    -webkit-animation: none !important;
+    -animation: none !important;
+}
+#app-mount:after {
+    content: "OUTDATED \a Please Update Quiet \a https://betterdocs.net/themes/quiet.html" !important;
+    top: 40% !important;
+    white-space: pre !important;
+    -webkit-animation: none !important;
+    -animation: none !important;
+    color: #fff !important;
+    z-index: 9999;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
