@@ -2251,7 +2251,6 @@ div.control-group .shortcut-recorder input[type=text] {
     position: absolute;
     bottom: 0px;
     right: 69px;
-    width: 100px;
     text-align: center;
 }
 .serverbutton {
@@ -2263,7 +2262,7 @@ div.control-group .shortcut-recorder input[type=text] {
     border-radius: 3px;
     position: absolute;
     bottom: 0px;
-    right: 173px;
+    right: 182px;
     text-align: center;
 }
 .donatebutton {
@@ -2275,7 +2274,7 @@ div.control-group .shortcut-recorder input[type=text] {
     border-radius: 3px;
     position: absolute;
     bottom: 0px;
-    right: 240px;
+    right: 255px;
     text-align: center;
 }
 .gitbutton:hover, .docsbutton:hover, .serverbutton:hover, .donatebutton:hover {
