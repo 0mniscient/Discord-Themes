@@ -804,7 +804,7 @@ a:link { color: var(--main-color); }
 
 #user-profile-modal .tab-bar.TOP { position: absolute; margin-top: -28px; }
 
-#user-profile-modal .header .discord-tag {color: #fff;font-size: 18px;margin-top: -20px;margin-left: -50px;}
+#user-profile-modal .header .discord-tag {color: #fff;font-size: 18px;margin-top: -20px;margin-left: -49px !important;}
 
 .tab-bar.TOP { border-bottom: 1px solid var(--main-color); }
 
@@ -2282,7 +2282,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 
 #user-profile-modal .avatar-wrapper .avatar-profile{border: 0;box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);left: 20px;}
 
-#user-profile-modal .avatar-wrapper .avatar-profile .status{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);right: 0;bottom: 0;}
+#user-profile-modal .avatar-wrapper .avatar-profile .status{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);right: 0;bottom: 0;left:-3px;}
 
 #user-profile-modal .tab-bar-container{background-color: rgba(0,0,0,0.83) !important;border: 0!important;position: absolute;top: 130px;right: 0;padding: 0;width: 80px;height: 100%;justify-content: center;transition: width 500ms;transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);z-index: 1;}
 
@@ -2766,4 +2766,15 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .theme-dark .recent-mentions-popout .mention-filter .label {
     color: var(--main-color);
     font-weight: bold;
+}
+#user-profile-modal .header .header-info .badge-premium {
+    margin-right: -46px;
+	background-size: 38px;
+    background-repeat: no-repeat;
+    left: 99px;
+}
+.badge-premium {
+    top: 89px !important;
+    right: 540px;
+    position: absolute;
 }
