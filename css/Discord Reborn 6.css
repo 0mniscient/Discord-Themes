@@ -2398,7 +2398,6 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     position: absolute;
     bottom: 0px;
     right: 69px;
-    width: 100px;
     text-align: center;
 }
 .serverbutton {
@@ -2410,7 +2409,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     border-radius: 3px;
     position: absolute;
     bottom: 0px;
-    right: 173px;
+    right: 182px;
     text-align: center;
 }
 .donatebutton {
@@ -2422,7 +2421,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     border-radius: 3px;
     position: absolute;
     bottom: 0px;
-    right: 240px;
+    right: 255px;
     text-align: center;
 }
 .gitbutton:hover, .docsbutton:hover, .serverbutton:hover, .donatebutton:hover {
@@ -2724,4 +2723,47 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }
 .context-menu .item-toggle .checkbox {
     margin-right: 18px;
+}
+.embed-color-pill[style*='background-color: rgb(114, 137, 218);'] {
+    background-color: var(--main-color) !important;
+}
+.premium-settings .subscription.active, .premium-settings .subscription {
+    background: var(--main-color) !important;
+}
+.premium-settings .subscription .btn-filled, .premium-settings .subscription.active .btn-filled {
+    color: var(--main-color);
+}
+.premium-settings .payment-subhead {
+    color: #fff;
+}
+.premium-settings .payment-method .payment-info .card-info .card-description {
+    color: #dbdbdb;
+}
+.premium-settings .payment-method .payment-info .card-info .card-description strong {
+    color: var(--main-color);
+}
+.premium-settings .payment-method .payment-info .card-info .card-details {
+    color: #a2a2a2;
+}
+.premium-settings .billing-history-list li.header-row {
+    color: var(--hover-color);
+}
+.premium-settings .billing-history-list li {
+    color: #a1a1a1;
+}
+.premium-settings .premium-header {
+    border-bottom: 0px solid transparent;
+}
+.btn-stroked {
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    transition: .2s all linear;
+}
+.btn-stroked:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+.theme-dark .recent-mentions-popout .mention-filter .label {
+    color: var(--main-color);
+    font-weight: bold;
 }
