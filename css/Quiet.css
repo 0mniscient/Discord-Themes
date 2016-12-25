@@ -31,7 +31,7 @@
     color: #3ddcb1;
     font-weight: 700;
     content: "Updates are automatic. Just restart Discord to get the latest version.";
-}
+} 
 body:after {
     content: "Christmas Edition: v" var(--version-content);
     z-index: 10000000000000000000000000;
