@@ -2235,12 +2235,11 @@ div.control-group .shortcut-recorder input[type=text] {
     font-weight: 600;
     color: #fff !important;
     background-color: var(--main-color);
-    padding: 8px 0;
+    padding: 8px 8px;
     border-radius: 3px;
     position: absolute;
     bottom: 0px;
     right: 0px;
-    width: 100px;
     text-align: center;
 }
 .docsbutton {
@@ -2248,11 +2247,11 @@ div.control-group .shortcut-recorder input[type=text] {
     font-weight: 600;
     color: #fff !important;
     background: var(--main-color);
-    padding: 8px 0;
+    padding: 8px 8px;
     border-radius: 3px;
     position: absolute;
     bottom: 0px;
-    right: 105px;
+    right: 69px;
     width: 100px;
     text-align: center;
 }
@@ -2261,15 +2260,26 @@ div.control-group .shortcut-recorder input[type=text] {
     font-weight: 600;
     color: #fff !important;
     background: var(--main-color);
-    padding: 8px 0;
+    padding: 8px 11px;
     border-radius: 3px;
     position: absolute;
     bottom: 0px;
-    right: 210px;
-    width: 141px;
+    right: 173px;
     text-align: center;
 }
-.gitbutton:hover, .docsbutton:hover, .serverbutton:hover {
+.donatebutton {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff !important;
+    background: var(--main-color);
+    padding: 8px 8px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0px;
+    right: 240px;
+    text-align: center;
+}
+.gitbutton:hover, .docsbutton:hover, .serverbutton:hover, .donatebutton:hover {
 	background-color: var(--hover-color);
 }
 .jump-to-present-bar button:first-of-type {
