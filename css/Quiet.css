@@ -3881,7 +3881,7 @@ button.bd-customicon-settings {
     -animation: none !important;
 }
 #app-mount:after {
-    content: "OUTDATED \a Please Update Quiet \a https://betterdocs.net/themes/quiet.html" !important;
+    content: "OUTDATED \a Please Redownload Quiet \a https://betterdocs.net/themes/quiet.html" !important;
     top: 40% !important;
     white-space: pre !important;
     -webkit-animation: none !important;
