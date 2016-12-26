@@ -3823,41 +3823,6 @@ button.bd-customicon-settings {
     color: var(--main-color);
     font-weight: bold;
 }
-/*Christmas things*/
-.guild-channels .channel-text .channel-name:before {
-    content: '#';
-    color: transparent!important;
-    background-image: url(https://i.imgur.com/S4tLloW.png);
-    background-size: 16px 16px;
-    background-repeat: no-repeat;
-    background-position: -1px 6px;
-    padding: 2px;
+.footer > .button:nth-child(1) {
+    right: 5px;
 }
-.guilds-wrapper .guilds .friends-icon {
-    background-image: url(https://i.imgur.com/qv8p0b7.png);
-}
-.theme-dark .channel-textarea-upload {
-    background: url(https://i.imgur.com/iiOaykT.png) center center no-repeat;
-    -webkit-background-size: 33px 32px;
-    -moz-background-size: 33px 32px;
-    background-size: 33px 32px;
-    opacity: 0.5;
-}
-.theme-dark .channel-textarea-upload:hover {
-    background: url(https://i.imgur.com/iiOaykT.png) center center no-repeat;
-    background-color: rgba(255,255,255,.06);
-    -webkit-background-size: 33px 32px;
-    -moz-background-size: 33px 32px;
-    background-size: 33px 32px;
-    opacity: 0.8;
-}
-.spinner-item:nth-child(1) {
-    background-color: turquoise;
-}
-.spinner-item:nth-child(2) {
-    background-color: red;
-}
-.spinner-item:nth-child(3) {
-    background-color: green;
-}
-.spinner-item{-webkit-filter:brightness(91%);}
