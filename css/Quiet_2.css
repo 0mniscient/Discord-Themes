@@ -3832,3 +3832,14 @@ button.bd-customicon-settings {
 .region-select-popout .check {
     -webkit-filter: hue-rotate(272deg);
 }
+.note textarea {
+    color: #b2b2b2;
+}
+.private-channel-call .quick-region-select {
+    background: var(--main-color);
+    padding: 4px;
+	border-radius: 3px;
+}
+.theme-dark .chat .quick-region-select .label {
+    color: #ffffff;
+}
