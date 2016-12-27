@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "2.1";
+    --version-content: "2.2";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -3842,4 +3842,34 @@ button.bd-customicon-settings {
 }
 .theme-dark .chat .quick-region-select .label {
     color: #ffffff;
+}
+.form .control-groups>.control-group:nth-child(1),.form .control-groups>.control-group+.control-group:nth-child(2) {
+    color: #b4b4b4;
+}
+.settings .settings-inner .settings-panel:nth-child(1) {
+    color: #e5e5e5;
+}
+#voice-debug-modal #users-section .user-list {
+    border-right: 1px solid #121213;
+}
+#voice-debug-modal #users-section .selected-user .scroller:nth-child(1) {
+    color: #d7d7d7;
+}
+#voice-debug-modal #users-section .user-list li {
+    color: #c9c9c9;
+}
+#voice-debug-modal #users-section .user-list li:hover:before {
+    background-color: var(--main-color);
+}
+#voice-debug-modal #users-section .user-list li:before {
+    width: 4px;
+}
+#voice-debug-modal #users-section .user-list li:hover {
+    background: linear-gradient(to right,#121213,#19191b);
+}
+#voice-debug-modal #users-section .user-list li.selected {
+    background: linear-gradient(to right,#121213,#19191b);
+}
+#voice-debug-modal #users-section .user-list li.selected:before {
+    background-color: var(--main-color);
 }
