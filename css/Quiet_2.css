@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "2.3";
+    --version-content: "2.5";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -3884,21 +3884,41 @@ button.bd-customicon-settings {
     background-color: transparent;
     border: 4px solid #43b581 !important;
 }
+.friends-column.friends-column-status > .status-online {
+    background-color: #43b581;
+    border: 0px solid transparent !important;
+}
 .status-idle {
     background-color: transparent;
     border: 4px solid #faa61a !important;
+}
+.friends-column.friends-column-status > .status-idle {
+    background-color: #faa61a;
+    border: 0px solid transparent !important;
 }
 .status-dnd {
     background-color: transparent;
 	border: 4px solid #f04747 !important;
 }
+.friends-column.friends-column-status > .status-dnd {
+    background-color: #f04747;
+    border: 0px solid transparent !important;
+}
 .status-offline {
     background-color: transparent;
 	border: 4px solid #282829 !important;
 }
+.friends-column.friends-column-status > .status-offline {
+    background-color: #282829;
+    border: 0px solid transparent !important;
+}
 .status-invisible {
     background-color: transparent;
 	border: 4px solid #747f8d !important;
+}
+.friends-column.friends-column-status > .status-invisible {
+    background-color: #747f8d;
+    border: 0px solid transparent !important;
 }
 .theme-dark .channel-textarea-autocomplete-inner .avatar-small .status {
     width: 100%;
@@ -3908,4 +3928,12 @@ button.bd-customicon-settings {
     right: 0px;
     bottom: -3px;
     border-radius: 9px;
+}
+#user-profile-modal .guilds .guild .status {
+    bottom: -3px;
+    right: -3px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border-width: 3px !important;
 }
