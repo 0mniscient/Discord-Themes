@@ -3937,3 +3937,6 @@ button.bd-customicon-settings {
     border-radius: 10px;
     border-width: 3px !important;
 }
+.message-group .comment>div:hover .btn-option, .message-group .comment>div:hover .btn-reaction, .message-group .comment>div .btn-option, .message-group .comment>div .btn-reaction {
+    padding-top: 5px !important;
+}
