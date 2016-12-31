@@ -3900,3 +3900,12 @@ button.bd-customicon-settings {
     background-color: transparent;
 	border: 4px solid #747f8d !important;
 }
+.theme-dark .channel-textarea-autocomplete-inner .avatar-small .status {
+    width: 100%;
+    height: 100%;
+    border-width: 3px !important;
+    left: -3px;
+    right: 0px;
+    bottom: -3px;
+    border-radius: 9px;
+}
