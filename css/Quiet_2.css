@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "2.2";
+    --version-content: "2.3";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -553,7 +553,7 @@ button.btn:hover {
  
 #user-profile-modal .avatar-wrapper .avatar-profile{border-color: #19191b;box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);left: 20px;}
  
-#user-profile-modal .avatar-wrapper .avatar-profile .status{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);right: 0;bottom: 0;left: -3px;}
+#user-profile-modal .avatar-wrapper .avatar-profile .status{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);right: 0;bottom: 0;left: 0;width: 100%; height: 100%; border-radius: 5px;}
  
 #user-profile-modal .header{background-color: #121213;background-image:none;}
 
@@ -573,17 +573,6 @@ button.btn:hover {
     -webkit-background-size: 270px 213px;
     -moz-background-size: 270px 213px;
     background-size: 270px 213px;
-}
-#user-profile-modal .header .header-info .badge-premium {
-    margin-right: -46px;
-	background-size: 38px;
-    background-repeat: no-repeat;
-    left: 81px;
-}
-.badge-premium {
-    top: 80px !important;
-    right: 540px;
-    position: absolute;
 }
 
 #user-profile-modal .tab-bar-container:before{content: "...";position: absolute;top: 0;left: 0;width: 10px;height: 100%;padding-top: 180px;background: transparent;writing-mode: vertical-lr;color: transparent;font-size: 18px;font-weight: 700;letter-spacing: 15px;line-height: 20px;cursor: pointer;transition: letter-spacing 300ms, padding 300ms;;}
@@ -662,7 +651,19 @@ button.btn:hover {
 #user-profile-modal .guilds .guild .guild-name .discriminator{display: none;}
 #user-profile-modal .guilds .guild:hover .guild-name .discriminator{display: block;}
  
- 
+#user-profile-modal .header .header-info .badge-premium {
+    background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDM5LjgzNiAzOS44MzUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM5LjgzNiAzOS44MzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMzkuODM2LDE0Ljc0MmMwLDEuMjU5LTAuMTkzLDIuNTA0LTAuNTc0LDMuNzAxYy0xLjk3Nyw4LjMzNi0xNi4zNjcsMTcuNTgzLTE4LjAwOCwxOC42MTQgICBjLTAuNDA2LDAuMjU2LTAuODY5LDAuMzgzLTEuMzMsMC4zODNjLTAuNDYzLDAtMC45MjQtMC4xMjctMS4zMy0wLjM4M0MxNi45NTEsMzYuMDI1LDIuNTQ3LDI2Ljc3NSwwLjU3NiwxOC40NCAgIEMwLjE5MywxNy4yMzQsMCwxNS45OSwwLDE0Ljc0MUMwLDEwLjI1LDIuNDQzLDYuMTA5LDYuMzc5LDMuOTMyYzEuODI2LTEuMDA1LDMuODg3LTEuNTM2LDUuOTU5LTEuNTM2ICAgYzIuNzc5LDAsNS40MzQsMC45MjYsNy41ODIsMi41OTljMi4xNDUtMS42NzMsNC43OTctMi41OTksNy41NzYtMi41OTljMi4wOCwwLDQuMTQxLDAuNTMxLDUuOTU5LDEuNTM1ICAgQzM3LjM5Myw2LjEwOSwzOS44MzYsMTAuMjUxLDM5LjgzNiwxNC43NDJ6IiBmaWxsPSIjRDgwMDI3Ii8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==)!important;
+    background-position: center;
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    padding: 0;
+    opacity: 0.9;
+    left: 96px;
+}
+
 #user-profile-modal footer .btn.add-friend{transition: background 500ms;}
  
 #user-profile-modal .scroller-wrap .scroller::-webkit-scrollbar{width:0px;}
@@ -3872,4 +3873,30 @@ button.bd-customicon-settings {
 }
 #voice-debug-modal #users-section .user-list li.selected:before {
     background-color: var(--main-color);
+}
+.user-popout .avatar-wrapper .avatar-hint {
+    border-radius: 0px;
+}
+.user-popout .avatar-wrapper .avatar-popout .status, .avatar-popout, #user-profile-modal .avatar-wrapper .avatar-profile {
+    border-radius: 5px !important;
+}
+.status-online {
+    background-color: transparent;
+    border: 4px solid #43b581 !important;
+}
+.status-idle {
+    background-color: transparent;
+    border: 4px solid #faa61a !important;
+}
+.status-dnd {
+    background-color: transparent;
+	border: 4px solid #f04747 !important;
+}
+.status-offline {
+    background-color: transparent;
+	border: 4px solid #282829 !important;
+}
+.status-invisible {
+    background-color: transparent;
+	border: 4px solid #747f8d !important;
 }
