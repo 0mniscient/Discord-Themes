@@ -2,7 +2,7 @@
 	display:none;
 }
 :root {
-    --version-content: "2.6";
+    --version-content: "2.7";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -302,9 +302,6 @@ background-repeat: no-repeat;
 }
 .theme-dark .chat .title-wrap .topic {
  padding-bottom: 6px;   
-}
-.theme-dark .friends-table .messages .message-group h2 span, .theme-dark .messages-wrapper .messages .message-group h2 span {
-font-size: 10px;
 }
 
 .theme-dark .friends-table .messages .message-group h2 strong, .theme-dark .messages-wrapper .messages .message-group h2 strong {
@@ -1805,6 +1802,7 @@ textarea {
 }
 .message-group h2 .timestamp {
     color: #b5b5b5;
+    padding-top: 3px;
 }
 .radio-theme.light {
     display: none;
@@ -2777,6 +2775,12 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 .messages .renamer-tag {
     margin-left: 6px;
 }
+.bot-tag.kawaii-tag {
+    padding: 1px 5px 1px 3px;
+}
+.renamer-tag {
+    padding: 1px 5px 2px 4px;
+}
 .message-group:not(.compact) .avatar-large[style*="172218388880293888"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="172218388880293888"] ~ .member-inner .member-username .member-username-inner::after {
     content: "Developer";
     color: #fff;
@@ -2785,7 +2789,7 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     margin-left: 6px;
     font-size: 10px;
     font-weight: 600;
-    padding: 1px 2px;
+    padding: 1px 4px;
     text-transform: uppercase;
     vertical-align: bottom;
     line-height: 16px;
@@ -3959,4 +3963,27 @@ button.bd-customicon-settings {
 .title > .status-offline {
     background: #747f8d !important;
     border: 0px transparent !important;
+}
+.message-group:not(.compact) .avatar-large[style*="/a_"] ~ .comment .body h2 .timestamp {
+    order: 3;
+}
+.message-group:not(.compact) .avatar-large[style*="/a_"] ~ .comment .body h2 .replyer{
+    order: 4;
+}
+.message-group:not(.compact) h2{
+    display: flex;
+    position: relative;
+}
+.message-group:not(.compact) .avatar-large[style*="/a_"] ~ .comment .body h2:before{
+    content: "nitro";
+    position: relative;
+    margin: 0 0 0 5px;
+    padding: 3px 5px;
+    color: #fff;
+    font-size: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    background-color: var(--main-color);
+    border-radius: 3px;
+    order: 2;
 }
