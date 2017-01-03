@@ -3978,7 +3978,7 @@ button.bd-customicon-settings {
     content: "nitro";
     position: relative;
     margin: 0 0 0 5px;
-    padding: 3px 5px;
+    padding: 3px 4px 3px 4px;
     color: #fff;
     font-size: 10px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
@@ -3986,4 +3986,5 @@ button.bd-customicon-settings {
     background-color: var(--main-color);
     border-radius: 3px;
     order: 2;
+    height: 100%;
 }
