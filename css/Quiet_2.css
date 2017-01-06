@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-    --version-content: "2.8";
+    --version-content: "2.9";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -1876,20 +1876,24 @@ textarea {
     background-color: var(--main-color);
 	border-radius: 20px;
 }
-.theme-dark .channel-textarea-autocomplete-inner {
+.theme-dark .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner {
     background-color: #19191b;
     border-color: #131315;
 }
-.theme-dark .channel-textarea-autocomplete-inner ul li.active {
+.theme-dark .channel-textarea-autocomplete-inner ul li.active, .channel-textarea-autocomplete-inner ul li.active {
     background: #131315;
 }
-.theme-dark .channel-textarea-autocomplete-inner:after {
+.channel-textarea-autocomplete-inner ul li {
+    color: rgba(255,255,255,.6);
+}
+.theme-dark .channel-textarea-autocomplete-inner:after, .channel-textarea-autocomplete-inner:after {
     border-bottom: 2px solid #131315;
 }
-.theme-dark .channel-textarea-autocomplete-inner header {
-    border-bottom-color: #131315;
-    background-color: #131315;
-    color: #e4e4e4;
+.theme-dark .channel-textarea-autocomplete-inner header, .channel-textarea-autocomplete-inner header {
+    border-bottom-color: var(--main-color);
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 3px 3px 0px 0px;
 }
 .spinner-pulsing-ellipsis .spinner-item {
     background-color: var(--main-color);
@@ -3922,13 +3926,24 @@ button.bd-customicon-settings {
     background-color: #747f8d;
     border: 0px solid transparent !important;
 }
-.theme-dark .channel-textarea-autocomplete-inner .avatar-small .status {
+.channel-textarea-autocomplete-inner .avatar-small .status {
+    right: -3px;
+    bottom: -3px;
     width: 100%;
     height: 100%;
     border-width: 3px !important;
-    left: -3px;
+    border-radius: 8px;
+}
+.theme-dark .channel-textarea.has-results .channel-textarea-inner {
+    border-color: #1D1C1B;
+}
+.theme-dark .channel-textarea-autocomplete-inner .avatar-small .status {
+    width: 100%;
+    height: 100%;
+    border-width: 2px !important;
+    left: -2px;
     right: 0px;
-    bottom: -3px;
+    bottom: -2px;
     border-radius: 9px;
 }
 #user-profile-modal .guilds .guild .status {
