@@ -1,8 +1,6 @@
-.dummyclass {
-	display:none;
-}
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-    --version-content: "2.7";
+    --version-content: "2.8";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -3988,3 +3986,121 @@ button.bd-customicon-settings {
     order: 2;
     height: 100%;
 }
+.message-group:not(.compact) .avatar-large[style*="148059412165033984"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="148059412165033984"] ~ .member-inner .member-username .member-username-inner::after {
+    content: "Kinky";
+    color: #fff;
+    background: hotpink;
+    border-radius: 3px;
+    margin-left: 6px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 1px 2px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+}
+
+.search-bar .search-bar-inner {
+    background: transparent;
+    border: 2px solid rgba(0,0,0,.2);
+}
+form.modal-content.form.need-help-modal::after {
+    content: "";
+    background: #fff;
+    position: relative;
+    z-index: 10;
+}
+.need-help-modal .header {
+    background-color: transparent;
+    height: 140px;;
+    padding: 0;
+}
+.need-help-modal .header::after {
+    content: "";
+    background-color: var(--main-color);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    position: relative;
+    z-index: 10;
+    height: 150px;
+    width: 100%;
+    padding: 0;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+}
+.need-help-modal .header h1 {
+    color: transparent;
+    font-weight: 700;
+    margin: 38px 0 0;
+    font-size: 18px;
+}
+.need-help-modal .header input[type=text] {
+    display:none;
+}
+.need-help-modal .header h1 {
+    color: transparent;
+    font-weight: 700;
+    margin: 38px 0px 0px;
+    font-size: 18px;
+    margin-right: 36%;
+    top: 15%;
+    position: relative;
+}
+.need-help-modal .header h1::after {
+    content: "Quiet";
+    color: #fff;
+    font-weight: 700;
+    font-size: 250%;
+    z-index: 11;
+    position: absolute;
+    width: 100%;
+    top: 110%;
+	font-family: Satisfy;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.need-help-modal .form-inner.loading {
+    background: transparent;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.need-help-modal .form-inner.loading::after {
+    content: "M\0332 a\0332 k\0332 e\0332 r\0332 :\A Omniscient#0002 \A\A P\0332 e\0332 r\0332 s\0332 o\0332 n\0332 a\0332 l\0332  S\0332 e\0332 v\0332 e\0332 r\0332 : \A https://discord.gg/MpWmqQk \A\A D\0332 o\0332 n\0332 a\0332 t\0332 i\0332 o\0332 n\0332 : \A https://www.paypal.me/Chaotiic \A\A C\0332 r\0332 e\0332 d\0332 i\0332 t\0332 : \A uri#2016 (Hit him up)";
+    padding: 38px;
+    min-height: 200px;
+    background-color: #19191b;
+    width: 100%;
+	white-space: pre;
+	color: #fff;
+}
+.need-help-modal .form-inner > ul {
+    display: none;
+}
+.need-help-modal .footer a {
+    display: none;
+}
+.need-help-modal .footer {
+    background-color: transparent;
+    color: transparent;
+    border-top: 0px #e9e7e7 solid;
+	padding-top: 0px;
+    padding-left: 0px;
+	width: 100%;
+	position: relative;
+}
+.need-help-modal .footer::after{
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0Need help? Visit https://betterdocs.net";
+    background-color: #19191b;
+    width: 100%;
+    height: 34px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	line-height: 32px;
+    border-radius: 0 0 5px 5px;
+	border-top: 2px solid #161618;
+	color: #fff;
+}
+.need-help-modal .form-inner.loading .spinner{display: none!important;}
