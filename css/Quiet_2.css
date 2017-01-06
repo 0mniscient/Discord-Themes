@@ -4119,3 +4119,6 @@ form.modal-content.form.need-help-modal::after {
 	color: #fff;
 }
 .need-help-modal .form-inner.loading .spinner{display: none!important;}
+.need-help-modal .form-inner .failed {
+	display: none;
+}
