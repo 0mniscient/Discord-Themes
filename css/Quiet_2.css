@@ -3276,7 +3276,7 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     margin-left: -50px;
 }
 .connected-account {
-    width: 500px !important;
+    max-width: 170px !important;
 }
 .connected-accounts {
     max-width: 85%;
