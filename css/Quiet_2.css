@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-    --version-content: "2.9";
+    --version-content: "2.91";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -4121,4 +4121,123 @@ form.modal-content.form.need-help-modal::after {
 .need-help-modal .form-inner.loading .spinner{display: none!important;}
 .need-help-modal .form-inner .failed {
 	display: none;
+}
+.empty-placeholder .image[style*='background-image: url("/assets/6793e022dc1b065b21f12d6df02f91bd.svg");'] {
+    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_sentiment_very_dissatisfied_white_24px.svg)!important;
+    opacity: 0.3;
+}
+
+
+.radio .radio-inner input[type=radio]:checked+span:after {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-delay: 50ms;
+    transition-delay: 50ms;
+}
+
+.radio:hover span:after {
+    background: #19191b!important;
+    opacity: 1!important
+}
+
+.radio .radio-inner span:after {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background: #19191b;
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    border-radius: 50%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 300ms cubic-bezier(.35, .01, 0, 1);
+    transition: all 300ms cubic-bezier(.35, .01, 0, 1);
+    opacity: 1!important;
+    -webkit-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+
+.radio .radio-inner span:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: var(--main-color);
+    display: block;
+    position: absolute;
+    bottom: -11px;
+    left: -5px;
+    border-radius: 50%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 300ms cubic-bezier(.35, .01, 0, 1);
+    transition: all 300ms cubic-bezier(.35, .01, 0, 1);
+    -webkit-transition-delay: 50ms;
+    transition-delay: 50ms;
+}
+
+.radio .radio-inner input[type=radio]:checked+span:before {
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+
+.radio .radio-inner {
+    -webkit-transform: scale(0.55);
+    transform: scale(0.55);
+    background: transparent;
+    border: 4px solid var(--main-color);
+    background: transparent;
+    border-radius: 100px;
+    -webkit-transition: all 200ms cubic-bezier(.35, .01, 0, 1);
+    transition: all 200ms cubic-bezier(.35, .01, 0, 1);
+    margin-top: -2px!important
+}
+
+.radio .radio-inner:after {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%)scale(.8);
+    transform: translate(-50%, -50%)scale(.8);
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transition: 200ms cubic-bezier(.35, .01, 0, 1);
+    transition: 200ms cubic-bezier(.35, .01, 0, 1);
+}
+
+.radio:active .radio-inner:after {
+    -webkit-transform: translate(-50%, -50%)scale(1);
+    transform: translate(-50%, -50%)scale(1);
+    opacity: .2;
+}
+.emoji-picker{ border:1px solid #19191b}
+.emoji-picker, .emoji-picker .sticky-header, .emoji-picker .search-bar{ background-color:#121213}
+.emoji-picker .search-bar input{ color:#d2d2d2}
+.emoji-picker .search-bar .search-bar-inner{ background-color:#19191b}
+.emoji-picker .search-bar input::-webkit-input-placeholder{ color:#ddd}
+.emoji-picker .search-bar input::-moz-placeholder{ color:#ddd}
+.emoji-picker .search-bar input:-ms-input-placeholder{ color:#ddd}
+.emoji-picker .search-bar input::placeholder{ color:#ddd}
+.emoji-picker .search-bar-clear:before{ background:#19191b}
+.emoji-picker .category{ color:#cecece}
+.emoji-picker .scroller .emoji-item.selected{ background-color:#008D88}
+.emoji-picker .dimmer.visible{    background-color:rgba(0,0,0,0.8)}
+.emoji-picker .dimmer{    z-index:2}
+.diversity-selector .popout{;     background:#121213;     border-color:#121213}
+.status-picker .popout-menu-item .helper{    margin:-21px 0px 0 -4px;     color:#fff;     text-align:center;     padding-top:6px;     opacity:0}
+#bda-qem {
+    background: #121213;
+}
+#bda-qem button {
+    border-left: 0px solid #EFEFEF;
+    box-shadow: #CECECE 0px 0 0 0;
+}
+#bda-qem button:hover {
+    background: transparent;
 }
