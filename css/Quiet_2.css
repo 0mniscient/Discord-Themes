@@ -176,7 +176,7 @@ body:before {
 .chat>.content .messages .message-group .markup {
 	color:#aaaaaa;
 	line-height:1.3em;
-    padding: 1px 4px 2px 3px;
+        padding: 0;
 }
 
 .channel-textarea-inner {
@@ -1128,7 +1128,9 @@ textarea {
 	border: 3px solid rgb(25, 25, 27) !important;
     background-color: #111113 !important;
 }
-
+.message-group {
+    padding: 11px 0;
+}
 .guild-header header {
 	box-shadow:none !important;
 	color:var(--main-color);
