@@ -118,7 +118,7 @@ body:before {
     font-size: 14px;
     font-weight: 600;
     color: #fff !important;
-    background-color: linear-gradient(-90deg, #24CCAA, #A2DB95);
+    background: linear-gradient(-90deg, #24CCAA, #A2DB95);
     padding: 8px 8px;
     border-radius: 3px;
     position: absolute;
@@ -163,7 +163,14 @@ body:before {
     text-align: center;
 }
 .gitbutton:hover, .docsbutton:hover, .serverbutton:hover, .donatebutton:hover {
-	background-color: linear-gradient(-90deg, #22B495, #8DC184);
+	background: linear-gradient(-90deg, #22B495, #8DC184);
+}
+#bd-themes-pane .bda-plugin-reload, .bda-slist .bda-right .bda-plugin-reload {
+    background: linear-gradient(-90deg, #657773, #bdbdbd);
+    color: #fff;
+}
+.bda-slist .bda-right .bda-plugin-settings {
+    color: #fff;
 }
 @keyframes opacity {
 	from {
