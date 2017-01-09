@@ -1,3 +1,107 @@
+:root {
+    --version-content: "1.0";
+}
+/* Version Displayed */
+.account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
+}
+.account{position: relative;}
+.version {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+.version:after {
+    content: var(--version-content);
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #43B581;
+}
+.themedescription {
+    display: block;
+    width: 100%;
+    margin-right: 5px;
+}
+.themedescription:before {
+    display: block;
+    font-size: 14px;
+    height: 15px;
+    color: #3ddcb1;
+    font-weight: 700;
+    content: "Updates are automatic. Just restart Discord to get the latest version.";
+}
+body:after {
+    content: "Current Version: v" var(--version-content);
+    z-index: 10000000000000000000000000;
+    color: #fff;
+    background: linear-gradient(-90deg, #24CCAA, #A2DB95);
+    top: 0;
+    left: 50%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    -webkit-animation: version 3s ease;
+    animation: version 3s ease;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+body:before {
+    content: "Thanks for using Aqua!";
+    z-index: 1000000000000000000000000;
+    color: #fff;
+    background: linear-gradient(-90deg, #24CCAA, #A2DB95);
+    top: 0px;
+    left: 50%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    -webkit-animation: version 3s ease;
+    animation: version 3s ease;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+@-webkit-keyframes version {
+    from {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+    20% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    80% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    to {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+}
+
+@keyframes version {
+    from {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+    20% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    80% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    to {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+}
 .form .btn-primary {
 	background: linear-gradient(-90deg, #24CCAA, #A2DB95);
 	border-radius: 100px;
