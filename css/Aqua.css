@@ -561,3 +561,124 @@ a.change-log-button {
 .chat .new-messages-bar:hover {
     background-color: #26676b;
 }
+.tutorial-indicators+.theme-dark:before {
+  content: "You need to have the dark mode enabled for this theme to work properly. To enable it, go into settings > appearance.";
+  position: fixed;
+  display: block;
+  width: 400px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  background: #121213;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 20px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px #4abf9e;
+  border: 3px solid #4abf9e;
+  z-index: 10;
+}
+ .tutorial-indicators+.theme-dark:after {
+  content: "";
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 200%;
+  left: 50%;
+  top: 45%;
+  background: rgba(0,0,0,0.7);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 20px 20px;
+  border-radius: 5px;
+  z-index: 8;
+}
+.radio-theme input[type=radio]:checked~label {
+  border-color: transparent
+}
+
+.radio-theme.light label {
+  width: 506px;
+  height: 50px;
+  background: #4abf9e;
+  border: 0px!important
+}
+
+.theme-light+span .radio-theme.dark label {
+  background: #F04747;
+  box-shadow: 0 2px 10px rgba(240, 71, 71, .3);
+}
+
+.radio-theme.light:after {
+  content: "ENABLE LIGHT MODE";
+  display: block;
+  color: #fff;
+  -webkit-transform: translate(-50%, -32px);
+          transform: translate(-50%, -32px);
+  position: absolute;
+  left: 50%;
+  font-weight: 800;
+  pointer-events: none
+}
+
+.theme-light+span .radio-theme.light:after {
+  content: "LIGHT MODE ENABLED"
+}
+
+.radio-theme.dark {
+  display: none;
+}
+
+div[data-reactroot]:not(.platform-osx):not(.platform-win) .theme-dark+span .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(8),
+div.platform-win .theme-dark+span .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(9),
+div.platform-osx .theme-dark+span .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(9) {
+  box-shadow: 0 2px 10px #cd2061;
+  border: 3px solid #cd2061;
+  width: 110px;
+  border-radius: 3px;
+  margin-left: 29px;
+}
+.theme-dark .account .btn-deafen, .theme-dark .account .btn-mute {
+    border-right: 1px solid transparent;
+    display: none;
+}
+.theme-dark .account .btn-settings:after {
+    opacity: 1;
+}
+.theme-dark .account .btn-settings:after {
+    z-index: 1000;
+    position: absolute;
+}
+.theme-dark .account .btn-settings:after {
+    background-image: none !important;
+    zoom: 1.2;
+}
+.theme-dark .account .btn-settings {
+    position: fixed;
+    width: 256px;
+    height: 31px;
+    border-radius: 3px;
+    font-size: 20px;
+    box-shadow: 0 2px 10px #4abf9e !important;
+    border: 3px solid #4abf9e;
+    top: 60%;
+    left: 50%;
+    margin-left: -124px;
+	z-index: 10;
+}
+.theme-dark .account .btn:after {
+    content: "CLICK ME FOR SETTINGS";
+    display: block;
+    color: #fff;
+    background: #121213;
+    opacity: 1;
+    z-index: 1003;
+}
+.theme-dark .account {
+    height: 0px;
+    margin-bottom: -30px;
+}
+.embed-color-pill[style*='background-color: rgb(114, 137, 218);'] {
+    background-color: #4abf9e !important;
+}
