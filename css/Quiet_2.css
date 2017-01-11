@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-    --version-content: "2.91";
+    --version-content: "2.91pi";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -676,7 +676,7 @@ button.btn:hover {
     padding-bottom: 25px;
 }
 
-#friends .friends-header{position: relative;}
+#friends .friends-header{position: relative; height: 46px !important;}
 
 #friends .friends-header .tab-bar{
 	width: 100%;
@@ -4242,4 +4242,22 @@ form.modal-content.form.need-help-modal::after {
 }
 #bda-qem button:hover {
     background: transparent;
+}
+.chat .title-wrap {
+    border-bottom: 2px solid var(--main-color) !important;
+    height: 48px !important;
+    min-height: 45px !important;
+}
+.win-buttons {
+    height: 51px !important;
+}
+.guild-header {
+    border-bottom: 2px solid var(--main-color);
+    top: -10px;
+}
+.guild-header header {
+    padding: 28px 24px 14px 28px;
+}
+.private-channels .search-bar {
+    height: 47px !important;
 }
