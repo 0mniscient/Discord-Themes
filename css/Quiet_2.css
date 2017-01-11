@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-    --version-content: "2.91pi";
+    --version-content: "2.92pi";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -4260,4 +4260,13 @@ form.modal-content.form.need-help-modal::after {
 }
 .private-channels .search-bar {
     height: 47px !important;
+}
+.system-message {
+    color: #b7b7b7;
+}
+.system-message .system-message-content .user-name, .system-message .system-message-content a {
+    color: #e4e4e4;
+}
+.system-message .system-message-content .system-message-timestamp {
+    color: #b7b7b7;
 }
