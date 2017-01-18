@@ -4270,3 +4270,6 @@ form.modal-content.form.need-help-modal::after {
 .system-message .system-message-content .system-message-timestamp {
     color: #b7b7b7;
 }
+.theme-dark .message-group .embed {
+    border-left-color: rgba(243,243,243,.1);
+}
