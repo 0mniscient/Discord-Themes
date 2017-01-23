@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-    --version-content: "2.92pi";
+    --version-content: "2.93pi";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -4272,4 +4272,33 @@ form.modal-content.form.need-help-modal::after {
 }
 .theme-dark .message-group .embed {
     border-left-color: rgba(243,243,243,.1);
+}
+.private-channel-recipients-invite > .header > .search-bar > .search-bar-inner {
+    background: #131315;
+}
+.private-channel-recipients-invite > .header > .search-bar {
+    background: transparent;
+}
+.theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
+    background: linear-gradient(to right,#161619 85%,#131315);
+}
+.theme-dark .private-channel-recipients-invite .friend {
+    background: #131315;
+}
+.private-channel-recipients-invite .footer button {
+    background-color: var(--main-color);
+}
+.private-channel-recipients-invite .footer button:hover {
+    background-color: var(--hover-color);
+}
+.search-bar-tag {
+    background: var(--main-color);
+}
+.private-channel-recipients-invite .friend .avatar-small .status {
+    right: -3px;
+    bottom: -3px;
+    width: 100%;
+    height: 100%;
+    border-width: 3px !important;
+    border-radius: 9px;
 }
