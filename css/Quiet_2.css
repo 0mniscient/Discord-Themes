@@ -2665,9 +2665,9 @@ border: 2px solid var(--hover-color);
   display: none;
 }
 
-div[data-reactroot]:not(.platform-osx):not(.platform-win) .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(8),
-div.platform-win .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(9),
-div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(9) {
+div[data-reactroot]:not(.platform-osx):not(.platform-win) .theme-light + div .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(9),
+div.platform-win .theme-light + div .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(10),
+div.platform-osx .theme-light + div .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(10) {
   box-shadow: 0 2px 10px var(--main-color);
   border: 3px solid var(--main-color);
   width: 110px;
