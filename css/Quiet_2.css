@@ -4302,3 +4302,6 @@ form.modal-content.form.need-help-modal::after {
     border-width: 3px !important;
     border-radius: 9px;
 }
+.premium-settings .billing-history-list li {
+    border-bottom: 2px solid #141417;
+}
