@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-    --version-content: "2.93π";
+    --version-content: "2.94π";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -4304,4 +4304,23 @@ form.modal-content.form.need-help-modal::after {
 }
 .premium-settings .billing-history-list li {
     border-bottom: 2px solid #141417;
+}
+.channel-textarea-inner textarea {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.channel-textarea-inner textarea:focus {
+    color: #fff;
+	-webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+    opacity: 0.95;
+}
+.channel-textarea-inner {
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    opacity: 0.8;
+}
+.channel-textarea-inner:hover {
+    opacity: 0.95;
 }
