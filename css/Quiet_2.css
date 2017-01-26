@@ -4491,13 +4491,13 @@ form.modal-content.form.need-help-modal::after {
 	-moz-background-size: 17px 17px !important;
 	background-size: 17px 17px !important;
 	opacity: 0.5 !important;
+	transition: .1s all linear !important;
 }
 .theme-dark .channel-textarea-upload:hover {
 	opacity: 0.8 !important;
 	-webkit-background-size: 20px 20px !important;
 	-moz-background-size: 20px 20px !important;
 	background-size: 20px 20px !important;
-	transition: .1s all linear;
 }
 .guilds-wrapper .guilds .guild .guild-inner a {
     line-height: 40px;
