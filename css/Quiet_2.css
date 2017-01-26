@@ -1311,8 +1311,17 @@ textarea {
 }
 
 .guilds-add {
-	font-size:30px;
-	background:#19191b;
+    font-size: 30px !important;
+	color: #fff !important;
+	font-weight: 500 !important;
+	background: var(--main-color) !important;
+	transition: .2s all linear !important;
+	transform: scale(1);
+	box-shadow: 0 0px 6px 0px var(--hover-color);
+}
+.guilds-add:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0px 9px 0px var(--hover-color);
 }
 
 .guilds .friends-online {
@@ -4472,4 +4481,24 @@ form.modal-content.form.need-help-modal::after {
 }
 .channel-members .member .avatar-small[style*="81388395867156480"] ~ .member-inner .member-username .kawaii-tag {
 	display: none;
+}
+.theme-dark .search-results-wrap {
+	z-index: 10;
+}
+.channel-textarea-upload {
+	background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDQ1LjgxMSA0NS44MTEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ1LjgxMSA0NS44MTE7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjQuNDQ2LDAuNTczQzI0LjA3OSwwLjIwMywyMy41MDIsMCwyMi45MjUsMGMtMC41MTYsMC0xLjE1MywwLjIwMy0xLjUyLDAuNTcybC0xMS40LDExLjQ4MSAgICBjLTAuNTYsMC41NjMtMC43MjUsMS40MDgtMC40MTcsMi4xMzljMC4zMDYsMC43MzEsMS4wMjIsMS4yMDcsMS44MTUsMS4yMDZsMy43Mi0wLjAzbC0wLjA1NCwxNi4yODggICAgYzAuMDA2LDEuNjEzLDEuMzE2LDIuOTE5LDIuOTMsMi45MTloOS44NTVjMS42MTEsMCwyLjkyMi0xLjMwNiwyLjkyOC0yLjkxOWwtMC4wNTMtMTYuMjg0bDMuNzE5LDAuMDI3ICAgIGMwLjc5MywwLjAwMiwxLjUxMi0wLjQ3NCwxLjgxNS0xLjIwNmMwLjMwOC0wLjczLDAuMTQ0LTEuNTc3LTAuNDE3LTIuMTM5TDI0LjQ0NiwwLjU3M3oiIGZpbGw9IiNhNGE5YjAiLz4KCQk8cGF0aCBkPSJNNDIuNDQyLDE5LjM3MWMtMS42MjMsMC0yLjk0NywxLjMxNS0yLjk0NywyLjkzOHYxNi4zOTJjMCwwLjY3OC0wLjUyMiwxLjIxNy0xLjIwMywxLjIxN0g3LjQ3ICAgIGMtMC42OCwwLTEuMjM5LTAuNTM5LTEuMjM5LTEuMjE3VjIyLjMwOGMwLTEuNjIyLTEuMjgyLTIuOTM4LTIuOTA1LTIuOTM4Yy0xLjYyMiwwLTIuOTA1LDEuMzE1LTIuOTA1LDIuOTM4VjM4LjcgICAgYzAsMy45MTgsMy4xMzEsNy4xMSw3LjA1LDcuMTFoMzAuODIxYzMuOTIsMCw3LjA5OC0zLjE5Miw3LjA5OC03LjExVjIyLjMwOEM0NS4zODksMjAuNjg2LDQ0LjA2MywxOS4zNzEsNDIuNDQyLDE5LjM3MXoiIGZpbGw9IiNhNGE5YjAiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K) center center no-repeat !important;
+	-webkit-background-size: 17px 17px !important;
+	-moz-background-size: 17px 17px !important;
+	background-size: 17px 17px !important;
+	opacity: 0.5 !important;
+}
+.theme-dark .channel-textarea-upload:hover {
+	opacity: 0.8 !important;
+	-webkit-background-size: 20px 20px !important;
+	-moz-background-size: 20px 20px !important;
+	background-size: 20px 20px !important;
+	transition: .1s all linear;
+}
+.guilds-wrapper .guilds .guild .guild-inner a {
+    line-height: 40px;
 }
