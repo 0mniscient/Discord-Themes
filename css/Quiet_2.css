@@ -4466,3 +4466,6 @@ form.modal-content.form.need-help-modal::after {
 .user-popout .footer .update-notice {
 	display: none;
 }
+.context-menu .item {
+    border-radius: 0px;
+}
