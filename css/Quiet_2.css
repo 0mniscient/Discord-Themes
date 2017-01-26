@@ -4389,3 +4389,30 @@ form.modal-content.form.need-help-modal::after {
 .user-popout .body .roles .member-role.member-role-add {
     background: var(--main-color) !important;
 }
+.guild-channels .channel:hover .channel-name {
+    -webkit-transform: translate(5px);
+    transform: translate(5px);
+}
+.guild-channels .channel .channel-name {
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+.private-channels .channel:hover, .guild-channels .channel-text:hover, .guild-channels .channel.selected .icon, .guild-channels .channel .icon {
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+.guild-channels .channel.selected .icon, .guild-channels .channel:hover .icon {
+    opacity: 0.1;
+}
+.guild-channels .icon-instant-invite {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAABH0lEQVR4Ae3WUU7CQBgA4cFwADmAmOiNtwm03kDKOYTiQdpeoUTxxSY0utl04j7JzztfOyu/uyDz/CfgBlwObHhl+HPgwvd8cEfPC1vafADAmT0Fh1zAOO8UkWAa+Pxx4D0VJW0+YAwWOGYBRDANjMG2dB64EBkRTAAimABEMAmMwWoKjjMANScKdgwC0MEiwIqnq8+apQgWaOLAdJasJ+DKBlskypj366go6WYA4v0G9gQaDzxOgPtfgJrAaU6i56svfEgkKinpx0T2GWOHHNhxnhyyeEYgGsX/0NJ/N7lWRaC2qyIdpaARy05EUYDYnx6YLDT9T19EEYCIIgARRV0dSyraXJffkIiigfRdwQMz7tMCeGOTjuIBPzfgBnwBzU+4Bybzg/0AAAAASUVORK5CYII=');
+}
+.guild-channels .icon {
+    margin-top: 2px;
+}
+.guild-channels .icon-settings {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTkuNDMgMTIuOThjLjA0LS4zMi4wNy0uNjQuMDctLjk4cy0uMDMtLjY2LS4wNy0uOThsMi4xMS0xLjY1Yy4xOS0uMTUuMjQtLjQyLjEyLS42NGwtMi0zLjQ2Yy0uMTItLjIyLS4zOS0uMy0uNjEtLjIybC0yLjQ5IDFjLS41Mi0uNC0xLjA4LS43My0xLjY5LS45OGwtLjM4LTIuNjVDMTQuNDYgMi4xOCAxNC4yNSAyIDE0IDJoLTRjLS4yNSAwLS40Ni4xOC0uNDkuNDJsLS4zOCAyLjY1Yy0uNjEuMjUtMS4xNy41OS0xLjY5Ljk4bC0yLjQ5LTFjLS4yMy0uMDktLjQ5IDAtLjYxLjIybC0yIDMuNDZjLS4xMy4yMi0uMDcuNDkuMTIuNjRsMi4xMSAxLjY1Yy0uMDQuMzItLjA3LjY1LS4wNy45OHMuMDMuNjYuMDcuOThsLTIuMTEgMS42NWMtLjE5LjE1LS4yNC40Mi0uMTIuNjRsMiAzLjQ2Yy4xMi4yMi4zOS4zLjYxLjIybDIuNDktMWMuNTIuNCAxLjA4LjczIDEuNjkuOThsLjM4IDIuNjVjLjAzLjI0LjI0LjQyLjQ5LjQyaDRjLjI1IDAgLjQ2LS4xOC40OS0uNDJsLjM4LTIuNjVjLjYxLS4yNSAxLjE3LS41OSAxLjY5LS45OGwyLjQ5IDFjLjIzLjA5LjQ5IDAgLjYxLS4yMmwyLTMuNDZjLjEyLS4yMi4wNy0uNDktLjEyLS42NGwtMi4xMS0xLjY1ek0xMiAxNS41Yy0xLjkzIDAtMy41LTEuNTctMy41LTMuNXMxLjU3LTMuNSAzLjUtMy41IDMuNSAxLjU3IDMuNSAzLjUtMS41NyAzLjUtMy41IDMuNXoiLz48L3N2Zz4=);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    margin-top: 2px;
+}
