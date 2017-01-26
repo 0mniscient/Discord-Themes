@@ -498,9 +498,7 @@ button.btn:hover {
     border-top: 2px solid var(--hover-color);
 }
 .member-roles .member-role {
-    background: var(--hover-color);
-    border-color: var(--main-color);
-    color: #d8d8d8;
+    color: var(--hover-color);
 }
 .quick-message {
     background: #0b0b0c;
@@ -4378,7 +4376,7 @@ form.modal-content.form.need-help-modal::after {
 	font-weight: 600;
 }
 .user-popout .body .roles .member-role.member-role-add {
-    background: var(--main-color) !important;
+    background: var(--hover-color) !important;
 }
 .guild-channels .channel:hover .channel-name {
     -webkit-transform: translate(5px);
