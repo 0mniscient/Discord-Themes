@@ -4467,3 +4467,9 @@ form.modal-content.form.need-help-modal::after {
 .context-menu .item {
     border-radius: 0px;
 }
+.channel-members .member .avatar-small[style*="81388395867156480"] ~ .member-inner .member-username .renamer-tag {
+	display: none;
+}
+.channel-members .member .avatar-small[style*="81388395867156480"] ~ .member-inner .member-username .kawaii-tag {
+	display: none;
+}
