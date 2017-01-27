@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-    --version-content: "2.96π";
+    --version-content: "2.97π";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -4501,4 +4501,92 @@ form.modal-content.form.need-help-modal::after {
 }
 .guilds-wrapper .guilds .guild .guild-inner a {
     line-height: 40px;
+}
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):hover::before {
+	background: transparent!important;
+	border-left: 3px solid var(--hover-color);
+	height: 36px;
+	width: 1px;
+	margin-top: -12px;
+	margin-left: 6px;
+	border-radius: 0;
+	opacity: .25;
+}
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted)::before {
+    background: var(--main-color)!important;
+    border-left: 0 solid transparent;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.emoji-picker .category {
+    height: 21px;
+    color: #BBB;
+    border-radius: 2px;
+    text-align: center;
+    color: var(--main-color);
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+.game-name {
+    color: #fff;
+}
+.now-playing-add {
+    color: #d5d5d5;
+}
+.checkbox .checkbox-inner.alt input[type=checkbox]:checked+span:after {
+    border-color: #fff;
+}
+.checkbox .checkbox-inner.alt input[type=checkbox]+span {
+    background: #19191b;
+    border-color: 2px solid var(--hover-color);
+}
+@keyframes now-playing-pulse {
+	0% {
+		box-shadow: 0 0 10px 2px rgba(0, 0, 0, .12), 0 0 0 0 var(--main-color);
+	}
+	70% {
+		box-shadow: 0 0 10px 2px rgba(0, 0, 0, .12), 0 0 10px 10px rgba(115, 139, 215, 0);
+	}
+	to {
+		box-shadow: 0 0 10px 2px rgba(0, 0, 0, .12), 0 0 0 0 rgba(115, 139, 215, 0);
+	}
+}
+#voice-connection {
+    -webkit-animation: connected 300ms ease;
+    animation: connected 300ms ease;
+	box-shadow: 0px -2px 9px -2px #101010;
+}
+
+@-webkit-keyframes connected {
+    0% {
+        -webkit-transform: translate(0, 60px);
+        transform: translate(0, 60px)
+    }
+    100% {
+        -webkit-transform: translate(0, 0px);
+        transform: translate(0, 0px)
+    }
+}
+
+@keyframes connected {
+    0% {
+        -webkit-transform: translate(0, 60px);
+        transform: translate(0, 60px)
+    }
+    100% {
+        -webkit-transform: translate(0, 0px);
+        transform: translate(0, 0px)
+    }
+}
+
+#voice-connection:focus {
+    -webkit-transition: all 300ms ease!important;
+    transition: all 300ms ease!important;
+    -webkit-transition-delay: 100ms;
+    transition-delay: 100ms;
+    -webkit-transform: translate(0, 60px);
+    transform: translate(0, 60px);
 }
