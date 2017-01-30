@@ -4382,7 +4382,8 @@ form.modal-content.form.need-help-modal::after {
 }
 .member-roles .member-role>.name {
     color: #fff;
-	font-weight: 600;
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #000;
 }
 .user-popout .body .roles .member-role.member-role-add {
     background: var(--hover-color) !important;
