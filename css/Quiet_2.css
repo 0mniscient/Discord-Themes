@@ -428,10 +428,11 @@ button.btn:hover {
 }
 .tooltip.tooltip-right {
 	margin-top: -25px;
-    border-bottom-left-radius: 0px !important;
-    border-radius: 7px;
-    padding: 7px;
-    padding-right: 8px;
+   	border-bottom-left-radius: 0px !important;
+   	border-radius: 7px;
+   	padding: 7px;
+   	padding-right: 8px;
+	margin-left: 0px;
 }
 .tooltip.tooltip-bottom:after {
     border-bottom-color: var(--main-color) !important;
