@@ -5055,7 +5055,7 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item:first-child .popout-menu-item-label{left: -10px;}
-.popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item:last-child .popout-menu-item-label{left: -40px;}
+.popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item:last-child .popout-menu-item-label{left: -26px;}
 
 
 @keyframes server-titles {
