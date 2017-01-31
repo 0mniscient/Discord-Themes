@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-    --version-content: "2.97π";
+    --version-content: "2.98π";
 }
 /* Version Displayed */
 .account:after {content: var(--version-content); color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; left: 0; bottom: 0; right: 0; opacity: 1; display: flex; justify-content: center;
@@ -4783,9 +4783,20 @@ form.modal-content.form.need-help-modal::after {
 	border-radius: 3px;
 	color: #fff;
 	opacity: 1 !important;
-	margin-top: -32px;
+	margin-top: -38px;
 	animation: fadeFromTop-tooltip 200ms;
 	
+}
+
+.status-picker .popout-menu-item:hover:nth-of-type(1) > .status-icon-text > .status-text:after {
+	content: "▼";
+	color: #43B581;
+	margin-top: 16px;
+    margin-left: -26px;
+    animation: fadeFromTop-tooltip 200ms;
+    width: 95px !important;
+    position: fixed;
+	font-size: 14px;
 }
 
 .status-picker .popout-menu-item:nth-of-type(3) {
@@ -4809,9 +4820,20 @@ form.modal-content.form.need-help-modal::after {
 	border-radius: 3px;
 	color: #fff;
 	opacity: 1 !important;
-	margin-top: -32px;
+	margin-top: -38px;
 	animation: fadeFromTop-tooltip 200ms;
 	
+}
+
+.status-picker .popout-menu-item:hover:nth-of-type(3) > .status-icon-text > .status-text:after {
+	content: "▼";
+	color: #FAA61A;
+	margin-top: 16px;
+    margin-left: -19px;
+    animation: fadeFromTop-tooltip 200ms;
+    width: 95px !important;
+    position: fixed;
+	font-size: 14px;
 }
 
 .status-picker .popout-menu-item:nth-of-type(4) {
@@ -4836,10 +4858,21 @@ form.modal-content.form.need-help-modal::after {
 	border-radius: 3px;
 	color: #fff;
 	opacity: 1 !important;
-	margin-top: -32px;
+	margin-top: -38px;
 	animation: fadeFromTop-tooltip 200ms;
 	width: 95px !important;
 	
+}
+
+.status-picker .popout-menu-item:hover:nth-of-type(4) > .status-icon-text > .status-text:after {
+	content: "▼";
+	color: #F04747;
+	margin-top: 16px;
+    margin-left: -55px;
+    animation: fadeFromTop-tooltip 200ms;
+    width: 95px !important;
+    position: fixed;
+	font-size: 14px;
 }
 
 .status-picker .popout-menu-item:nth-of-type(5) {
@@ -4863,9 +4896,20 @@ form.modal-content.form.need-help-modal::after {
 	border-radius: 3px;
 	color: #fff;
 	opacity: 1 !important;
-	margin-top: -32px;
+	margin-top: -38px;
 	animation: fadeFromTop-tooltip 200ms;
 	
+}
+
+.status-picker .popout-menu-item:hover:nth-of-type(5) > .status-icon-text > .status-text:after {
+	content: "▼";
+	color: #747f8d;
+	margin-top: 16px;
+    margin-left: -33px;
+    animation: fadeFromTop-tooltip 200ms;
+    width: 95px !important;
+    position: fixed;
+	font-size: 14px;
 }
 
 .status-picker .popout-menu-separator {
@@ -4875,21 +4919,6 @@ form.modal-content.form.need-help-modal::after {
 .status-picker .popout-menu-item .status-icon-text {
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
