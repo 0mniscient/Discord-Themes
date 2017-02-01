@@ -4913,20 +4913,14 @@ form.modal-content.form.need-help-modal::after {
 
 
 /* Channel - Server Settings */
-.popout.popout-bottom:not(.no-arrow){
-	top: 46px!important;
-	width: inherit!important;
-	height: initial!important;
-	box-shadow: none!important;
-}
 
 .popout.popout-bottom:not(.no-arrow),
 .popout.popout-bottom:not(.no-arrow) .popout-menu,
-.popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item .popout-menu-item-label{overflow: visible!important;}
+.popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item .popout-menu-item-label{overflow: visible!important; box-shadow: 0 0 0 0;    height: 37px !important;}
 
 .popout.popout-bottom:not(.no-arrow) .popout-menu{
 	width: 210px;
-	height: 100px;
+	height: 50px;
 	background: transparent;
 	border-radius: 5px;
 	margin: 0 5px!important;
@@ -4943,7 +4937,7 @@ form.modal-content.form.need-help-modal::after {
 	background: none!important;
 	opacity: 0;
 	animation: server-settings ease-in 1;
-	animation-duration: 1000ms;
+	animation-duration: .5s;
 	animation-fill-mode: forwards;
 }
 
