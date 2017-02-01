@@ -564,7 +564,7 @@ textarea { background: transparent !important; }
 
 .btn-hamburger span { background: #fff; }
 
-.account { padding: 0 4px !important; background: transparent; height: 77px; border: 0px solid transparent; }
+.account { padding: 0 4px !important; background: transparent; height: 77px; border: 0px solid transparent; z-index: 1001;}
 
 .account .status { border: 2px solid black; }
 
@@ -2758,4 +2758,23 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     width: 100%;
     height: 100%;
     pointer-events: none;
+}
+.status-picker.popout-menu {
+    animation: StatusSlide .3s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes StatusSlide {
+  0% {
+    bottom: 0px;
+    background: transparent !important;
+    opacity: 0;
+  }
+  20% {
+	opacity: 1;
+  }
+  100% {
+    bottom: 55px;
+    background: #19191b !important;
+    opacity: 1;
+}
 }
