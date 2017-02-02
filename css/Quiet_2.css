@@ -4502,7 +4502,7 @@ form.modal-content.form.need-help-modal::after {
 	background-size: 20px 20px !important;
 }
 .guilds-wrapper .guilds .guild .guild-inner a {
-    line-height: 40px;
+    line-height: 45px;
 }
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):hover::before {
 	background: transparent!important;
@@ -5082,4 +5082,13 @@ form.modal-content.form.need-help-modal::after {
     background: #19191b !important;
     opacity: 1;
 }
+}
+.callout-backdrop {
+    z-index: 1002;
+}
+.modal {
+	z-index: 1003;
+}
+.avatar-uploader .avatar-uploader-inner {
+    border-radius: 4px;
 }
