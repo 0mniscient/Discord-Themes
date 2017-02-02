@@ -3041,9 +3041,6 @@ div.platform-osx .theme-light + div .user-settings-modal .tab-bar.SIDE .tab-bar-
     -webkit-align-items: center;
     align-items: center;
 }
-.status-picker.popout-menu {
-    background: transparent !important;
-}
 /*by maple*/
 #app-mount > div > div.context-menu {
     margin-left: -10px;
@@ -4654,7 +4651,7 @@ form.modal-content.form.need-help-modal::after {
 .status-picker.popout-menu {
     background: #19191b !important;
     border-radius: 0!important;
-    width: 240px!important;
+    width: 230px!important;
     bottom: 0px!important;
     top: initial!important;
     height: 70px!important;
