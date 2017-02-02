@@ -1,7 +1,7 @@
 .dummyclass {
 	display:none;
 }
-:root {
+:root { 
     --version-content: "OUTDATED";
 }
 /* Version Displayed */
