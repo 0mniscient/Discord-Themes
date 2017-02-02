@@ -107,7 +107,7 @@ body:before {
 	display: none;
 }
 .account {
-	z-index:9;
+	z-index:1001;
 	border-top:none !important;
 	padding:0 15px !important;
 	background:#19191b;
@@ -4916,7 +4916,7 @@ form.modal-content.form.need-help-modal::after {
 
 .popout.popout-bottom:not(.no-arrow),
 .popout.popout-bottom:not(.no-arrow) .popout-menu,
-.popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item .popout-menu-item-label{overflow: visible!important; box-shadow: 0 0 0 0;    height: 37px !important;}
+.popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item .popout-menu-item-label{overflow: visible!important; box-shadow: 0 0 0 0;}
 
 .popout.popout-bottom:not(.no-arrow) .popout-menu{
 	width: 210px;
@@ -4926,6 +4926,10 @@ form.modal-content.form.need-help-modal::after {
 	margin: 0 5px!important;
 	box-shadow: none;
 	display: inline-flex;
+}
+
+.popout.popout-bottom:not(.no-arrow) {
+    height: 37px !important;
 }
 
 .popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item{
@@ -5059,3 +5063,23 @@ form.modal-content.form.need-help-modal::after {
 
 .channels-wrap .guild-header.popout-open + .channel-notices:not(:empty){margin-top: 60px!important;}
 .channels-wrap .guild-header.popout-open + .channel-notices:empty + .scroller-wrap .guild-channels{margin-top: 40px!important;}
+
+.status-picker.popout-menu {
+    animation: StatusSlide .3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes StatusSlide {
+  0% {
+    bottom: 0px;
+    background: transparent !important;
+    opacity: 0;
+  }
+  20% {
+	opacity: 1;
+  }
+  100% {
+    bottom: 55px;
+    background: #19191b !important;
+    opacity: 1;
+}
+}
