@@ -5089,6 +5089,6 @@ form.modal-content.form.need-help-modal::after {
 .modal {
 	z-index: 1003;
 }
-.avatar-uploader .avatar-uploader-inner {
+.avatar-uploader .avatar-uploader-inner, .avatar-xxlarge {
     border-radius: 4px;
 }
