@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "2.98π";
+	--version-content: "2.99π";
 }
 /* Version Displayed */
 .account:after{content:var(--version-content);color:rgba(255, 255, 255, 0.2);font-size:11px;font-weight:bold;position:absolute;left:0;bottom:0;right:0;opacity:1;display:flex;justify-content:center;}
@@ -402,9 +402,9 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 
 #friends .friends-table .friends-row .friends-column + .friends-column{margin:0;}
 
-#friends .friends-table .friends-row .friends-column-name .avatar-small{top:25px;left:15px;width:85px;height:85px;background-size:85px 85px;opacity:0.6;transition:opacity 500ms;}
+#friends .friends-table .friends-row .friends-column-name .avatar-small{top:25px;left:15px;width:85px;height:85px;background-size:85px 85px;opacity:0.6;transition:opacity 500ms, transform .2s linear, box-shadow .2s linear;transform: scale(0.97) perspective(1px);}
 
-#friends .friends-table .friends-row:hover .friends-column-name .avatar-small{opacity:0.9;}
+#friends .friends-table .friends-row:hover .friends-column-name .avatar-small{opacity:0.9;transform: scale(1) perspective(1px);box-shadow: 1px 1px 8px 1px #000;}
 
 #friends .friends-table .friends-row .friends-column-name .discord-tag{display:block;position:absolute;top:25px;left:115px;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.3);}
 
