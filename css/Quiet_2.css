@@ -2136,13 +2136,11 @@ form.modal-content.form.need-help-modal::after{content:"";background:#fff;positi
 
 .channel-textarea-upload+textarea {margin-left: 5px;}
 
-.channel-textarea-inner textarea{color:#fff;opacity:0.8;-webkit-transition: all 100ms ease;transition: all 100ms ease;margin-left: 10px !important;padding: 26px 0px;margin-left: 25px;margin-right: 0;max-height: 200px}}
+.channel-textarea-inner textarea{color:#fff;-webkit-transition: all 100ms ease;transition: all 100ms ease;margin-left: 10px !important;padding: 26px 0px;margin-left: 25px;margin-right: 0;max-height: 200px}}
 
 .channel-textarea-inner textarea:focus{color:#fff;-webkit-transition:all 100ms ease;transition:all 100ms ease;opacity:0.95;}
 
-.channel-textarea-inner{-webkit-transition:all 200ms ease;transition:all 200ms ease;opacity:0.8;}
-
-.channel-textarea-inner:hover{opacity:0.95;}
+.channel-textarea-inner{-webkit-transition:all 200ms ease;transition:all 200ms ease;}
 
 .user-popout .username-wrapper .activity strong,#user-profile-modal .header .activity strong{color:var(--main-color);font-weight:800;}
 
