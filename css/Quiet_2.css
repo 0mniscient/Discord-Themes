@@ -2012,8 +2012,6 @@ button.bd-customicon-settings{display:none;}
 
 .message-group:not(.compact) .avatar-large[style*="/a_"] ~ .comment .body h2:before{content:"nitro";position:relative;margin:0 0 0 5px;padding:3px 4px 3px 4px;color:#fff;font-size:10px;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);text-transform:uppercase;background-color:var(--main-color);border-radius:3px;order:2;height:100%;}
 
-.message-group:not(.compact) .avatar-large[style*="148059412165033984"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="148059412165033984"] ~ .member-inner .member-username .member-username-inner::after{content:"Kinky";color:#fff;background:hotpink;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 2px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;}
-
 .search-bar .search-bar-inner{background:transparent;border:2px solid rgba(0, 0, 0, .2);}
 
 form.modal-content.form.need-help-modal::after{content:"";background:#fff;position:relative;z-index:10;}
