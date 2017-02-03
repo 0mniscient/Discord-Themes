@@ -70,7 +70,7 @@ padding:15px 20px 15px 18px !important;}
 
 .channel-textarea-inner{border: 0;background:#19191b !important;padding:0;border-radius: 0px!important;height: 100%;}
 
-.typing{font-size:11px; z-index: 3;}
+.typing{font-size:11px; z-index: 3;margin-left: 18px;}
 
 .channel-members .member:hover{background:rgba(255, 255, 255, 0.07) !important;}
 
