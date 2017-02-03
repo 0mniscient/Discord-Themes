@@ -1624,7 +1624,7 @@ button.bd-customicon-settings{display:none;}
 
 .theme-dark .message-group .embed{background-color:#111113;border-color:#111113;}
 
-.embed-color-pill[style*='background-color:rgb(114, 137, 218);']{background-color:var(--main-color) !important;}
+.embed-color-pill[style*='background-color: rgb(114, 137, 218);']{background-color:var(--main-color) !important;}
 
 .theme-dark .reaction.reaction-me{background:var(--main-color);}
 
