@@ -2789,3 +2789,5 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .message-group .avatar-large[style*="81388395867156480"]:hover,.channel-members .member .avatar-small[style*="81388395867156480"]:hover{cursor: not-allowed !important;}
  
 .message-group .avatar-large[style*="81388395867156480"]{pointer-events: none;}
+
+.popout.popout-bottom, .popout.popout-bottom-right {z-index: 1005 !important;}
