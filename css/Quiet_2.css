@@ -170,12 +170,6 @@ body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface
 
 .edit-message .channel-textarea-emoji {width: 40px;top: 2px;display: block;}
 
-.theme-dark .invite-button{background-color:#121213 !important;border:2px solid #121213 !important;}
-
-.theme-dark .invite-button.join:hover{border:2px solid var(--main-color) !important;}
-
-.invite-button-icon{background-color:#101013;border:1px solid #101013;}
-
 .channel-members .member:hover{background:linear-gradient(to right, #121213 85%, #19191b) !important;margin-left:14px;border-top-left-radius:3px;border-bottom-left-radius:3px;}
 
 .channel-members .member:hover>.avatar-small{margin-left:-14px;}
@@ -1154,12 +1148,6 @@ code{background:#121213 !important;box-shadow: 0 0 5px -1px #000}
 .message-group .comment .markup pre{border:2px solid #121213;}
 
 .message-group .comment .markup code.inline,.message-group .comment .markup pre{background:#121213 !important;}
-
-.invite-button-body{color:#b3b3b3;}
-
-.invite-button-header{color:#b9b9b9;}
-
-.invite-button{background-color:#121213;border:1px solid #121213;}
 
 .upload-modal{background-color:var(--main-color);}
 
@@ -2799,3 +2787,17 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .citar-btn {order: 5;}
 
 .popout.popout-bottom, .popout.popout-bottom-right {z-index: 1005 !important;}
+
+.invite-button.accepted{background-color:#43b581 !important;border-color:#43b581 !important;}
+
+.invite-button.expired{background-color:#f04747 !important;border-color:#f04747 !important;}
+
+.invite-button.expired:hover{cursor:not-allowed;}
+
+.invite-button-icon.accepted, .invite-button-icon.expired{box-shadow:0 0 8px -2px #000;transform:scale(0.94);transition:.2s transform linear, .2s box-shadow linear !important;}
+
+.invite-button:hover .invite-button-icon.accepted, .invite-button:hover .invite-button-icon.expired{transform:scale(1);box-shadow:0 0 8px -1px #000;}
+
+.invite-button .invite-button-header{color:#fff !important;}
+
+.invite-button .invite-button-body{color:rgba(255,255,255,0.65) !important;}
