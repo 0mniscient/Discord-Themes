@@ -2744,7 +2744,7 @@ to{box-shadow:0 0 10px 2px rgba(0, 0, 0, .12), 0 0 0 0 rgba(115, 139, 215, 0);}
 
 .channel-textarea-emoji{-webkit-transition: all 100ms ease;transition: all 100ms ease;width: 80px;margin: 0;height: 100%;}
 
-.message-group .edit-message .channel-textarea{margin-top: 4px;box-shadow: 0 4px 10px rgb(23, 23, 23);}
+.message-group .edit-message .channel-textarea{margin-top: 4px;box-shadow: 0 0 6px -1px #000;}
 
 .message-group .edit-message .channel-textarea-inner, .message-group .edit-message .channel-textarea{border-radius: 3px!important;opacity: 1!important;}
 
@@ -2790,6 +2790,12 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
  
 .message-group .avatar-large[style*="81388395867156480"]{pointer-events: none;}
 
-.popout.popout-bottom, .popout.popout-bottom-right {z-index: 1005 !important;}
-
 .channel-members .member .avatar-small[style*="81388395867156480"] ~ .member-inner {pointer-events: none;cursor: not-allowed;}
+
+.message-group .avatar-large[style*="81388395867156480"] ~ .comment {pointer-events: none;}
+
+.quote-msg {box-shadow: 0px 0px 6px -2px #000;}
+
+.citar-btn {order: 5;}
+
+.popout.popout-bottom, .popout.popout-bottom-right {z-index: 1005 !important;}
