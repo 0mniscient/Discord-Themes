@@ -2823,3 +2823,5 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .invite-button:hover .invite-button-icon.join{box-shadow:0 2px 8px -1px #4f545c;}
 
 .invite-button:hover .invite-button-icon.accepted, .invite-button:hover .invite-button-icon.expired, .invite-button:hover .invite-button-icon.join{transform:scale(1);}
+
+.invite-button .invite-button-header {line-height: normal;}
