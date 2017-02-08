@@ -2792,12 +2792,34 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .invite-button.expired{background-color:#f04747 !important;border-color:#f04747 !important;}
 
+.invite-button.join{background-color:#747f8d !important;border-color:#747f8d !important;}
+
+.invite-button-icon.join{background-color:#747f8d;border-color:#747f8d;}
+
+.invite-button.join:hover .invite-button-icon{border-color:#747f8d;}
+
+.invite-button-icon:before{border-color:transparent;opacity:1;}
+
+.invite-button-icon.join:before{content:"";background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iLTk0NyA1MjkgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgLTk0NyA1MjkgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojRkZGRkZGO308L3N0eWxlPjxnPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0tOTM0LjEsNTQzLjZoLTEuOHYtMC45YzAtMC41LDAuMS0xLDAuMy0xLjRjMC4yLTAuNCwwLjYtMC45LDEuMi0xLjRjMC42LTAuNSwxLTEsMS4yLTEuM2MwLjItMC4zLDAuMy0wLjcsMC4zLTEuMWMwLTAuNi0wLjItMS4xLTAuNi0xLjRjLTAuNC0wLjMtMC45LTAuNS0xLjUtMC41Yy0xLjEsMC0xLjgsMC42LTIuMiwxLjhsLTEuNi0wLjdjMC4zLTAuOCwwLjgtMS41LDEuNS0yYzAuNy0wLjUsMS41LTAuOCwyLjQtMC44YzEuMSwwLDIsMC4zLDIuOCwxYzAuNywwLjcsMS4xLDEuNSwxLjEsMi42YzAsMC41LTAuMSwxLTAuNCwxLjVjLTAuMywwLjUtMC44LDEuMS0xLjUsMS43Yy0wLjcsMC43LTEuMSwxLjMtMS4xLDJWNTQzLjZ6IE0tOTMzLjgsNTQ2LjZjMCwwLjQtMC4xLDAuNi0wLjQsMC45Yy0wLjIsMC4yLTAuNSwwLjQtMC45LDAuNGMtMC4zLDAtMC42LTAuMS0wLjktMC40Yy0wLjItMC4yLTAuNC0wLjUtMC40LTAuOWMwLTAuNCwwLjEtMC43LDAuNC0wLjljMC4yLTAuMiwwLjUtMC40LDAuOS0wLjRjMC40LDAsMC43LDAuMSwwLjksMC40Qy05MzMuOSw1NDYtOTMzLjgsNTQ2LjMtOTMzLjgsNTQ2LjZ6Ii8+PC9nPjwvc3ZnPg==) !important;background-repeat:no-repeat;background-position:189%;height:30px;transform:rotate(0deg);background-size:50px;opacity:1;width:40px;}
+
 .invite-button.expired:hover{cursor:not-allowed;}
-
-.invite-button-icon.accepted, .invite-button-icon.expired{box-shadow:0 0 8px -2px #000;transform:scale(0.94);transition:.2s transform linear, .2s box-shadow linear !important;}
-
-.invite-button:hover .invite-button-icon.accepted, .invite-button:hover .invite-button-icon.expired{transform:scale(1);box-shadow:0 0 8px -1px #000;}
 
 .invite-button .invite-button-header{color:#fff !important;}
 
 .invite-button .invite-button-body{color:rgba(255,255,255,0.65) !important;}
+
+.invite-button-icon.accepted, .invite-button-icon.expired, .invite-button-icon.join{transform:scale(0.94);transition:.2s transform linear, .2s box-shadow linear !important;}
+
+.invite-button-icon.accepted{box-shadow:0 0 8px -2px #095331;}
+
+.invite-button-icon.expired{box-shadow:0 0 8px -2px #8d0d0d;}
+
+.invite-button-icon.join{box-shadow:0 0 8px -2px #4f545c;}
+
+.invite-button:hover .invite-button-icon.accepted{box-shadow:0 2px 8px -1px #095331;}
+
+.invite-button:hover .invite-button-icon.expired{box-shadow:0 2px 8px -1px #8d0d0d;}
+
+.invite-button:hover .invite-button-icon.join{box-shadow:0 2px 8px -1px #4f545c;}
+
+.invite-button:hover .invite-button-icon.accepted, .invite-button:hover .invite-button-icon.expired, .invite-button:hover .invite-button-icon.join{transform:scale(1);}
