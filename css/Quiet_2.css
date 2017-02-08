@@ -1149,7 +1149,7 @@ div.control-group .shortcut-recorder input[type=text]{border:2px solid var(--mai
 
 .guilds-wrapper .guilds .guild.selected:before{height:35px;margin-top:-18px;}
 
-code{background:#121213 !important;}
+code{background:#121213 !important;box-shadow: 0 0 5px -1px #000}
 
 .message-group .comment .markup pre{border:2px solid #121213;}
 
