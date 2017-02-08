@@ -2070,7 +2070,7 @@ form.modal-content.form.need-help-modal::after{content:"";background:#fff;positi
 
 .emoji-picker .category{color:#cecece}
 
-.emoji-picker .scroller .emoji-item.selected{background-color:#008D88}
+.emoji-picker .scroller .emoji-item.selected{background-color:var(--main-color);}
 
 .emoji-picker .dimmer.visible{background-color:rgba(0, 0, 0, 0.8)}
 
