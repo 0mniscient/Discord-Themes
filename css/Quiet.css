@@ -1165,7 +1165,6 @@ textarea {
 
 .popout.no-shadow {
     box-shadow: none!important;
-    z-index: 1;
 }
 
 .popout:not(.no-shadow) #bda-qem,
