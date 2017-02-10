@@ -2782,7 +2782,11 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .citar-btn {order: 5;}
 
-.popout.popout-bottom, .popout.popout-bottom-right {z-index: 1005 !important;}
+.new-messages-indicator-channel {top: 48px;}
+
+.popout.popout-bottom {margin-top: 0px;}
+
+.guild-channels header {margin: 5px 0 0;}
 
 .invite-button.accepted{background-color:#43b581 !important;border-color:#43b581 !important;}
 
