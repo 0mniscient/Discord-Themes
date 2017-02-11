@@ -41,7 +41,7 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 
 .help-container{display:none;}
 
-.account{z-index:1001;border-top:none !important;padding:0 15px !important;background:#19191b;border-top:1px solid #171719 !important;}
+.account{border-top:none !important;padding:0 15px !important;background:#19191b;border-top:1px solid #171719 !important;}
 
 .links{background-color:#19191b !important;}
 
@@ -2688,12 +2688,6 @@ to{box-shadow:0 0 10px 2px rgba(0, 0, 0, .12), 0 0 0 0 rgba(115, 139, 215, 0);}
 	100% {
 		bottom: 70px;
 	}
-}
-.callout-backdrop {
-	z-index: 1002;
-}
-.modal {
-	z-index: 1003;
 }
 .avatar-uploader .avatar-uploader-inner,
 .avatar-xxlarge {
