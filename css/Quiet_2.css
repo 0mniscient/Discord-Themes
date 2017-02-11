@@ -2817,3 +2817,7 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .invite-button:hover .invite-button-icon.join{box-shadow:0 2px 8px -1px #4f545c;}
 
 .invite-button:hover .invite-button-icon.accepted, .invite-button:hover .invite-button-icon.expired, .invite-button:hover .invite-button-icon.join{transform:scale(1);}
+
+.premium-settings .premium-header .premium-logo{margin: 36px 0 10px 40px;text-indent: 0px;background: 0;color: var(--main-color);font-size: 65px;font-weight: 600;font-style: italic;line-height: 53px;}
+
+.premium-settings .premium-header .premium-splash-wumpus {right: 75px;}
