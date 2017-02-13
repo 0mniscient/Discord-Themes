@@ -192,9 +192,7 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 
 .tooltip.tooltip-top:after{border-top-color:var(--main-color) !important;}
 
-.tooltip.tooltip-right:after{display:none;}
-
-.tooltip.tooltip-right{margin-top:-25px;border-bottom-left-radius:0px !important;border-radius:7px;padding:7px;padding-right:8px;margin-left:0px;}
+.tooltip.tooltip-right:after{border-right-color: var(--main-color);}
 
 .tooltip.tooltip-bottom:after{border-bottom-color:var(--main-color) !important;}
 
@@ -1201,7 +1199,7 @@ code{background:#121213 !important;box-shadow: 0 0 5px -1px #000}
 
 .guilds-wrapper .guilds .guild.selected .guild-inner{background:var(--main-color) !important;}
 
-.guilds-wrapper .guilds .guild:hover .guild-inner{background:var(--main-color) !important;border-top-right-radius:1px !important;}
+.guilds-wrapper .guilds .guild:hover .guild-inner{background:var(--main-color) !important;}
 
 .guild-settings-modal-emoji .guild-settings-modal-emoji-header h6{color:#fff;}
 
@@ -2134,7 +2132,9 @@ form.modal-content.form.need-help-modal::after{content:"";background:#fff;positi
 
 .user-popout .body .roles .member-role:before{width:100%;height:100%;content:"";display:block;position:absolute;background-color:inherit;top:0;left:0;z-index:-1;border-radius:4px;visibility:hidden;cursor:text !important;}
 
-.user-popout .body .roles .member-role:after{width:100%;height:100%;content:"";display:block;position:absolute;background-color:inherit;top:0;left:0;z-index:-1;border-radius:4px;visibility:visible;-webkit-filter:brightness(85%);cursor:text !important;}
+.user-popout .body .roles .member-role:after{width:100%;height:100%;content:"";display:block;position:absolute;background-color:inherit;top:0;left:0;z-index:-1;border-radius:4px;visibility:visible;-webkit-filter:brightness(85%);cursor:text !important;transition: .2s all linear;}
+
+.user-popout .body .roles .member-role:hover:after{-webkit-filter:brightness(100%)}
 
 .member-role{padding:4px 8px!important;font-weight:500;border-radius:4px!important;box-shadow:0 5px 5px rgba(0, 0, 0, .2);border:none!important;background:currentColor!important;visibility:hidden;}
 
@@ -2821,3 +2821,5 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .premium-settings .premium-header .premium-logo{margin: 36px 0 10px 40px;text-indent: 0px;background: 0;color: var(--main-color);font-size: 65px;font-weight: 600;font-style: italic;line-height: 53px;}
 
 .premium-settings .premium-header .premium-splash-wumpus {right: 75px;}
+
+#settings-roles .roles li.sorting:after {border: 2px solid var(--hover-color);content: " ";}
