@@ -1143,6 +1143,8 @@ div.control-group .shortcut-recorder input[type=text]{border:2px solid var(--mai
 
 code{background:#121213 !important;box-shadow: 0 0 5px -1px #000}
 
+.modal .modal-inner .modal-content .form-inner .message-group code {box-shadow: 0 0 0 0 #fff;}
+
 .message-group .comment .markup pre{border:2px solid #121213;}
 
 .message-group .comment .markup code.inline,.message-group .comment .markup pre{background:#121213 !important;}
