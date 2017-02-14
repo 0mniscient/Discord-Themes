@@ -631,9 +631,9 @@ textarea{background:transparent !important;}
 
 .guilds .friends-online{color:#717171 !important;font-size:9px;margin-left:-7px;line-height:20px;width:55px;height:20px;border-radius:25px;overflow:hidden;}
 
-.form .control-group input[type=text],.form .control-group input[type=email],.form .control-group input[type=password],.form .control-group input[type=number],.form .control-group textarea{color:#cecece;border-bottom:1px solid #121213;background:#121213;padding:0px 0px 0px 7px;border-radius:3px;}
+.form .control-group input[type=text],.form .control-group input[type=email],.form .control-group input[type=password],.form .control-group input[type=number],.form .control-group textarea{color:#cecece;border-bottom:2px solid #121213;background:#121213;padding:0px 0px 0px 7px;border-radius:3px;}
 
-.form .control-group input[type=text]:focus,.form .control-group input[type=email]:focus,.form .control-group input[type=password]:focus,.form .control-group input[type=number]:focus,.form .control-group textarea:focus{border-bottom:0px solid #7289da;margin-bottom:0;background-image:linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent) !important;background-size:100% 3px !important;background-position:0 0, 0 100% !important;background-repeat:no-repeat !important;}
+.form .control-group input[type=text]:focus,.form .control-group input[type=email]:focus,.form .control-group input[type=password]:focus,.form .control-group input[type=number]:focus,.form .control-group textarea:focus{border-bottom:2px solid var(--main-color);}
 
 .checkbox .checkbox-inner+span,.form .control-group label,.form .radio-group .radio,.user-settings-security button,.user-settings-security p,.tab-bar.TOP .tab-bar-item,.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list h3{color:#b7b7b7;}
 
