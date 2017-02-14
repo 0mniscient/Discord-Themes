@@ -126,7 +126,7 @@ background-repeat:no-repeat;padding-top:8px;padding-bottom:8px;text-align:center
 
 div.avatar-large{border-radius:5px;}
 
-.avatar-small{border-radius:0px;}
+.avatar-small{border-radius:3px;}
 
 .guilds-wrapper .guild-separator:after{display:none;}
 
