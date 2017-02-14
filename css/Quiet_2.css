@@ -2837,3 +2837,5 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .channel-members .avatar-small{border-radius: 0px;}
 
 .status-typing{border-radius: 7px !important;}
+
+.spinner-chasing-dots .spinner-item {background-color: var(--main-color) !important;}
