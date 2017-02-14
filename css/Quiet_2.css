@@ -2840,4 +2840,18 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .spinner-chasing-dots .spinner-item {background-color: var(--main-color) !important;}
 
-.guild-channels .channel-text .channel-name:before{content: "❤";color: var(--main-color)!important;margin-right: 4px;}
+.guild-channels .channel-text .channel-name:before{content: "";color: var(--main-color)!important;margin-right: 4px;}
+
+.embed-video-actions-inner{padding:0!important;width:100%;height:100%;border-radius:3px!important;background:rgba(0, 0, 0, .6)!important;-webkit-transition:all 300ms cubic-bezier(.23, .01, 0, 1);transition:all 300ms cubic-bezier(.23, .01, 0, 1);}
+
+.embed-video-play:first-of-type{width:100%!important;height:100%!important;background-image:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptLTIgMTQuNXYtOWw2IDQuNS02IDQuNXoiLz48L3N2Zz4=)!important;background-position:50%!important;background-repeat:no-repeat!important;background-size:20%!important;-webkit-transition:all 300ms cubic-bezier(.23, .01, 0, 1);transition:all 300ms cubic-bezier(.23, .01, 0, 1);}
+
+.embed-video-actions-inner:hover{background:rgba(0, 0, 0, .7)!important}
+
+.embed-video-play+.embed-video-popout{position:absolute;right:10px;bottom:10px;background-image:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTkgMTlINVY1aDdWM0g1Yy0xLjExIDAtMiAuOS0yIDJ2MTRjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJ2LTdoLTJ2N3pNMTQgM3YyaDMuNTlsLTkuODMgOS44MyAxLjQxIDEuNDFMMTkgNi40MVYxMGgyVjNoLTd6Ii8+PC9zdmc+)!important;background-size:100%!important;height:25px!important;width:25px!important;}
+
+.embed-thumbnail-video{-webkit-transition:all 300ms cubic-bezier(.23, .01, 0, 1);transition:all 300ms cubic-bezier(.23, .01, 0, 1);}
+
+.change-log .embed .embed-video-actions{padding-bottom:4px}
+
+.detTubeButton{position:absolute;right:40px;bottom:12px;background-image:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMyAxM2gydi0ySDN2MnptMCA0aDJ2LTJIM3Yyem0yIDR2LTJIM2MwIDEuMS44OSAyIDIgMnpNMyA5aDJWN0gzdjJ6bTEyIDEyaDJ2LTJoLTJ2MnptNC0xOEg5Yy0xLjExIDAtMiAuOS0yIDJ2MTBjMCAxLjEuODkgMiAyIDJoMTBjMS4xIDAgMi0uOSAyLTJWNWMwLTEuMS0uOS0yLTItMnptMCAxMkg5VjVoMTB2MTB6bS04IDZoMnYtMmgtMnYyem0tNCAwaDJ2LTJIN3YyeiIvPjwvc3ZnPg==)!important;background-size:100%!important;height:24px!important;width:25px!important;}
