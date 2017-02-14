@@ -558,7 +558,7 @@ textarea{background:transparent !important;}
 
 #bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar-thumb:active,#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar-thumb:active,.emoji-picker .scroller-wrap .scroller::-webkit-scrollbar-thumb:active{border:none !important;background-color:rgba(225, 225, 225, 0.4) !important;display:initial;border-radius:0!important}
 
-.popout.no-shadow{box-shadow:none!important;z-index:1;}
+.popout.no-shadow{box-shadow:none!important;}
 
 .popout:not(.no-shadow) #bda-qem,.popout:not(.no-shadow) #bda-qem-twitch-container,.popout:not(.no-shadow) #bda-qem-favourite-container{display:block;}
 
