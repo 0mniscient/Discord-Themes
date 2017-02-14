@@ -1457,8 +1457,6 @@ div[data-reactroot]:not(.platform-osx):not(.platform-win) .theme-light + div .us
 
 #app-mount > div > div.context-menu .item-group .item{order:2;}
 
-#app-mount > div > div.context-menu.invertY{margin-left:-10px;margin-top:135px;}
-
 #app-mount > div > div.context-menu.invertX.invertY.invertChildX{margin-left:100px;margin-top:135px;}
 
 #app-mount > div > div.context-menu.invertX.invertChildX{margin-left:100px;margin-top:-10px;}
