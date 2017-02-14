@@ -2790,6 +2790,8 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .invite-button.join{background-color:#747f8d !important;border-color:#747f8d !important;}
 
+.invite-button.resolving{background-color: orange !important;border-color: orange !important;}
+
 .invite-button-icon.join{background-color:#747f8d;border-color:#747f8d;}
 
 .invite-button.join:hover .invite-button-icon{border-color:#747f8d;}
@@ -2804,7 +2806,7 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .invite-button .invite-button-body{color:rgba(255,255,255,0.65) !important;}
 
-.invite-button-icon.accepted, .invite-button-icon.expired, .invite-button-icon.join{transform:scale(0.94);transition:.2s transform linear, .2s box-shadow linear !important;}
+.invite-button-icon.accepted, .invite-button-icon.resolving, .invite-button-icon.expired, .invite-button-icon.join{transform:scale(0.94);transition:.2s transform linear, .2s box-shadow linear !important;}
 
 .invite-button-icon.accepted{box-shadow:0 0 8px -2px #095331;}
 
@@ -2812,13 +2814,17 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .invite-button-icon.join{box-shadow:0 0 8px -2px #4f545c;}
 
+.invite-button-icon.resolving{box-shadow:0 0 8px -2px #966203;}
+
 .invite-button:hover .invite-button-icon.accepted{box-shadow:0 2px 8px -1px #095331;}
 
 .invite-button:hover .invite-button-icon.expired{box-shadow:0 2px 8px -1px #8d0d0d;}
 
 .invite-button:hover .invite-button-icon.join{box-shadow:0 2px 8px -1px #4f545c;}
 
-.invite-button:hover .invite-button-icon.accepted, .invite-button:hover .invite-button-icon.expired, .invite-button:hover .invite-button-icon.join{transform:scale(1);}
+.invite-button:hover .invite-button-icon.resolving{box-shadow:0 2px 8px -1px #966203;}
+
+.invite-button:hover .invite-button-icon.accepted, .invite-button:hover .invite-button-icon.resolving, .invite-button:hover .invite-button-icon.expired, .invite-button:hover .invite-button-icon.join{transform:scale(1);}
 
 .premium-settings .premium-header .premium-logo{margin: 36px 0 10px 40px;text-indent: 0px;background: 0;color: var(--main-color);font-size: 65px;font-weight: 600;font-style: italic;line-height: 53px;}
 
