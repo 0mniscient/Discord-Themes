@@ -2838,7 +2838,7 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .spinner-chasing-dots .spinner-item {background-color: var(--main-color) !important;}
 
-.guild-channels .channel-text .channel-name:before{content: "";color: var(--main-color)!important;margin-right: 4px;}
+.guild-channels .channel-text .channel-name:before{content: "❤";color: var(--main-color)!important;margin-right: 4px;}
 
 .embed-video-actions-inner{padding:0!important;width:100%;height:100%;border-radius:3px!important;background:rgba(0, 0, 0, .6)!important;-webkit-transition:all 300ms cubic-bezier(.23, .01, 0, 1);transition:all 300ms cubic-bezier(.23, .01, 0, 1);}
 
