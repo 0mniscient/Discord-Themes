@@ -2827,3 +2827,7 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 #settings-roles .roles li.sorting:after {border: 2px solid var(--hover-color);content: " ";}
 
 .avatar-small .status{border-radius: 3px;}
+
+.channel-members .avatar-small{border-radius: 0px;}
+
+.status-typing{border-radius: 7px !important;}
