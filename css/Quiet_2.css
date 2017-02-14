@@ -509,17 +509,11 @@ top:80px;left:115px;width:150px;display:flex!important;}
 
 .settings .settings-inner{background-color:#19191b;}
 
-.tab-bar.SIDE .tab-bar-item:before{border-left:0px solid var(--main-color);}
-
-.tab-bar.SIDE .tab-bar-item.selected,.tab-bar.SIDE .tab-bar-item:hover{background-image:linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);background-size:70% 3px;background-position:bottom center;background-repeat:no-repeat;}
-
-.tab-bar.SIDE .tab-bar-item{-webkit-box-orient:horizontal;-moz-box-orient:horizontal;-o-box-orient:horizontal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;;display:block;text-decoration:0;font-weight:500;padding:8px 0px 10px 0px;color:rgba(255, 255, 255, .3);text-align:center;}
+.tab-bar.SIDE .tab-bar-item:before{border-left:3px solid var(--main-color);}
 
 .change-log-button-container:before{display:none;}
 
-.change-log-button-container .change-log-button{padding:8px 6px 10px 0px;text-align:center;font-size:14px;}
-
-.change-log-button-container .change-log-button:hover{background-image:linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);background-size:80% 3px;background-position:bottom center;background-repeat:no-repeat;}
+.change-log-button-container .change-log-button{font-size:14px;}
 
 .settings .settings-actions{background-color:#121213;border-top:1px solid #121213;}
 
@@ -2838,7 +2832,7 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .spinner-chasing-dots .spinner-item {background-color: var(--main-color) !important;}
 
-.guild-channels .channel-text .channel-name:before{content: "❤";color: var(--main-color)!important;margin-right: 4px;}
+.guild-channels .channel-text .channel-name:before{content: "";color: var(--main-color)!important;margin-right: 4px;}
 
 .embed-video-actions-inner{padding:0!important;width:100%;height:100%;border-radius:3px!important;background:rgba(0, 0, 0, .6)!important;-webkit-transition:all 300ms cubic-bezier(.23, .01, 0, 1);transition:all 300ms cubic-bezier(.23, .01, 0, 1);}
 
