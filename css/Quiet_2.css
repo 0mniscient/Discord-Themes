@@ -19,6 +19,8 @@ body:after{content:"Current Version:v" var(--version-content);z-index:1000000000
 
 body:before{content:"Thanks for using Quiet!";z-index:1000000000000000000000000;color:#fff;background:var(--main-color);top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
 
+body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface-visibility:hidden;}
+
 @-webkit-keyframes version{from{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 
 20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
@@ -124,13 +126,11 @@ background-repeat:no-repeat;padding-top:8px;padding-bottom:8px;text-align:center
 
 div.avatar-large{border-radius:5px;}
 
-div.avatar-small{border-radius:5px;}
+.avatar-small{border-radius:0px;}
 
 .guilds-wrapper .guild-separator:after{display:none;}
 
 .guilds-wrapper .guilds .guild .guild-inner{background:#0a0a0a !important;}
-
-body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface-visibility:hidden;}
 
 .chat .divider.divider-red > span{color:#b12340 !important;background-color:#111113 !important;border-radius:3px;text-align:center;left:0px;}
 
@@ -2825,3 +2825,5 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .premium-settings .premium-header .premium-splash-wumpus {right: 75px;}
 
 #settings-roles .roles li.sorting:after {border: 2px solid var(--hover-color);content: " ";}
+
+.avatar-small .status{border-radius: 3px;}
