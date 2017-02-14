@@ -2847,3 +2847,7 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .change-log .embed .embed-video-actions{padding-bottom:4px}
 
 .detTubeButton{position:absolute;right:40px;bottom:12px;background-image:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMyAxM2gydi0ySDN2MnptMCA0aDJ2LTJIM3Yyem0yIDR2LTJIM2MwIDEuMS44OSAyIDIgMnpNMyA5aDJWN0gzdjJ6bTEyIDEyaDJ2LTJoLTJ2MnptNC0xOEg5Yy0xLjExIDAtMiAuOS0yIDJ2MTBjMCAxLjEuODkgMiAyIDJoMTBjMS4xIDAgMi0uOSAyLTJWNWMwLTEuMS0uOS0yLTItMnptMCAxMkg5VjVoMTB2MTB6bS04IDZoMnYtMmgtMnYyem0tNCAwaDJ2LTJIN3YyeiIvPjwvc3ZnPg==)!important;background-size:100%!important;height:24px!important;width:25px!important;}
+
+.search-popout .date-picker{border-top: 0px solid transparent;}
+
+.search-popout .date-picker, .search-popout .date-picker .date-picker-hint{background-color: #141416;}
