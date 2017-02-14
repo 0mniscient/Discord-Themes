@@ -2839,3 +2839,5 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .status-typing{border-radius: 7px !important;}
 
 .spinner-chasing-dots .spinner-item {background-color: var(--main-color) !important;}
+
+.guild-channels .channel-text .channel-name:before{content: "❤";color: var(--main-color)!important;margin-right: 4px;}
