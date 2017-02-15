@@ -631,9 +631,19 @@ textarea{background:transparent !important;}
 
 .guilds .friends-online{color:#717171 !important;font-size:9px;margin-left:-7px;line-height:20px;width:55px;height:20px;border-radius:25px;overflow:hidden;}
 
-.form .control-group input[type=text],.form .control-group input[type=email],.form .control-group input[type=password],.form .control-group input[type=number],.form .control-group textarea{color:#cecece;border-bottom:2px solid #121213;background:#121213;padding:0px 0px 0px 7px;border-radius:3px;}
+.form .control-group input[type=text],.form .control-group input[type=email],.form .control-group input[type=password],.form .control-group input[type=number],.form .control-group textarea{color:#cecece;border-bottom:2px solid #121213;border: 2px solid #121213 !important;background:#121213;padding:0px 0px 0px 7px;border-radius:3px;}
 
-.form .control-group input[type=text]:focus,.form .control-group input[type=email]:focus,.form .control-group input[type=password]:focus,.form .control-group input[type=number]:focus,.form .control-group textarea:focus{border-bottom:2px solid var(--main-color);}
+.form .control-group input[type=text]:focus,.form .control-group input[type=email]:focus,.form .control-group input[type=password]:focus,.form .control-group input[type=number]:focus,.form .control-group textarea:focus{animation-duration: 2s;animation-name: focusborder;animation-fill-mode: forwards;transition-property: all;transition-timing-function: ease;}
+
+@keyframes focusborder{0%{border-bottom:2px solid var(--main-color);}
+
+25%{border-right:2px solid var(--main-color);border-bottom:2px solid var(--main-color);}
+
+50%{border-top:2px solid var(--main-color);border-right:2px solid var(--main-color);border-bottom:2px solid var(--main-color);}
+
+100%{border-left:2px solid var(--main-color);border-top:2px solid var(--main-color);border-right:2px solid var(--main-color);border-bottom:2px solid var(--main-color);}
+
+}
 
 .checkbox .checkbox-inner+span,.form .control-group label,.form .radio-group .radio,.user-settings-security button,.user-settings-security p,.tab-bar.TOP .tab-bar-item,.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list h3{color:#b7b7b7;}
 
@@ -1209,9 +1219,9 @@ code{background:#121213 !important;box-shadow: 0 0 5px -1px #000}
 
 .guild-settings-modal-emoji .emoji-uploader .emoji-uploader-username{color:#fff;}
 
-.guild-settings-modal-emoji .emoji-row .emoji-name{background:#121213;color:#fff;}
+.guild-settings-modal-emoji .emoji-row .emoji-name{background:#121213;color:#fff;border: 2px solid transparent;}
 
-.guild-settings-modal-emoji .emoji-row:hover .emoji-name{background-color:rgba(43, 43, 43, 0.6);}
+.guild-settings-modal-emoji .emoji-row:hover .emoji-name{background-color:rgba(43, 43, 43, 0.6);border-color: var(--main-color);border: 2px solid var(--main-color);}
 
 .guild-settings-modal .emoji-row .btn.btn-danger,.guild-settings-modal .member-buttons .btn.btn-danger{border:1px solid #9c2121;color:#ffffff;}
 
