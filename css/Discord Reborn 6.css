@@ -2778,3 +2778,5 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     right: 540px;
     position: absolute;
 }
+.theme-dark .layers { background: transparent !important; }
+.theme-light .layers { background: transparent !important; }
