@@ -2597,3 +2597,7 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .search-popout .date-picker{border-top: 0px solid transparent;}
 
 .search-popout .date-picker, .search-popout .date-picker .date-picker-hint{background-color: #141416;}
+
+.scroller.messages:hover{overflow-y: scroll;}
+
+.scroller.messages{overflow-y: hidden;}
