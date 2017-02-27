@@ -2601,3 +2601,5 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .scroller.messages:hover{overflow-y: scroll;}
 
 .scroller.messages{overflow-y: hidden;}
+
+.channel-notices .channel-notice .message .btn{background-color: var(--main-color);}
