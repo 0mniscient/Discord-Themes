@@ -2603,3 +2603,22 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .scroller.messages{overflow-y: hidden;}
 
 .channel-notices .channel-notice .message .btn{background-color: var(--main-color);}
+
+.quickswitcher.dark{background-color:#19191b;}
+
+.quickswitcher.dark .scroller-wrap:before{background-image:-webkit-linear-gradient(bottom,transparent,#19191b 60%,#19191b);background-image:linear-gradient(0deg,transparent,#19191b 60%,#19191b);}
+
+.quickswitcher.dark .big-input{background-color:#19191b;color:#fff;box-shadow:0 0 0 0;border:2px solid #121213;}
+
+.quickswitcher.dark .result.selected{background-color:#121213;}
+
+.quickswitcher.dark .result .result-action{color:rgba(255, 255, 255, 0.55);box-shadow:-4px 0 4px #121213;background-color:#121213;}
+
+.quickswitcher.dark .tips{border-color:#121213;}
+
+.quickswitcher.dark .scroller-wrap .scroller::-webkit-scrollbar-track-piece{background-color:#111113!important;}
+
+.quickswitcher.dark .scroller-wrap .scroller::-webkit-scrollbar-thumb{background-color:var(--main-color)!important;}
+
+.quickswitcher .tips .misc-controls .keybind-shortcut:last-of-type:before{display:none;}
+
