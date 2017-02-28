@@ -2623,3 +2623,5 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 .quickswitcher .tips .misc-controls .keybind-shortcut:last-of-type:before{display:none;}
 
 .keybind-shortcut span:active{box-shadow: inset 0 -3px 0 var(--main-color) !important;}
+
+.quickswitcher .result .section-title{color: var(--main-color);font-weight: 800;font-size: 14px;}
