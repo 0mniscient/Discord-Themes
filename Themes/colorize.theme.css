@@ -1,0 +1,7 @@
+//META{"name":"Colorize","description":"Colorize your Discord to your liking!","author":"Omniscient","version":"1.00"}*//
+
+@import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/colorize.css");
+
+:root {
+	--main-color: #36393e;
+}
