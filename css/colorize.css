@@ -1,3 +1,5 @@
+body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface-visibility:hidden;}
+
 .layers, #friends {
 	background: var(--main-color) !important;
 }
@@ -115,55 +117,6 @@
     background-color: var(--main-color) !important;
 	filter: brightness(1.4) !important;
 }
-.context-menu {
-    background: var(--main-color) !important;
-	/*filter: brightness(0.8);*/
-}
-.context-menu .item:hover {
-    background: rgba(0, 0, 0, 0.07) !important;
-    color: #fff;
-}
-.context-menu .item-group, .context-menu .item {
-    background: rgba(0, 0, 0, 0.25) !important;
-    height: 100% !important;
-    border-radius: 4px !important;
-    margin-top: -2px !important;
-}
-.context-menu .item {
-    background: rgba(0, 0, 0, 0.25) !important;
-    height: 100% !important;
-    border-radius: 0px !important;
-    margin-top: -2px !important;
-}
-.context-menu.recent-mentions-filter-popout .item-group .item {
-    border-radius: 0px !important;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-}
-.context-menu.recent-mentions-filter-popout{
-    border-radius: 0px !important;
-	    box-shadow: 0 0 0 0 transparent !important;
-}
-.context-menu .item:hover {
-    background: rgba(0, 0, 0, 0.3) !important;
-}
-.context-menu .item-subMenu {
-    background: url(/assets/1988164a7c55346d32117b151f4e319d.svg) 155px 50% no-repeat rgba(0, 0, 0, 0.25) !important;
-}
-.context-menu .item-subMenu:hover {
-    background: url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) 155px 50% no-repeat rgba(0, 0, 0, 0.3) !important;
-}
-.item.item-toggle {
-    border-radius: 5px !important;
-}
-.item-subMenu .context-menu .item {
-	border-radius: 0px !important;
-	margin-top: 0px !important;
-	    margin-bottom: 0px !important;
-}
-.theme-dark.context-menu .context-menu {
-    border: 1px solid rgba(0, 0, 0, 0.3);
-}
 .account .btn, #voice-connection .btn {
 	background: var(--main-color);
 }
@@ -242,7 +195,7 @@
 .friends-table .messages .divider:before,
 .messages-wrapper .messages .divider span,
 .messages-wrapper .messages .divider:before {
-	background-color: transparent !important;
+	background-color: var(--main-color) !important;
 }
 .chat form .typing {
 	background-color: transparent !important;
@@ -279,4 +232,13 @@
 }
 .theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.friends-table .messages .divider:not(.red) div, .messages-wrapper .messages .divider:not(.red) div {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+.themed-popout .footer {
+    background-color: rgba(0, 0, 0, 0.21) !important;
+}
+.scroller-wrap .scroller {
+    border-radius: 0px !important;
 }
