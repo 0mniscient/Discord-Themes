@@ -208,8 +208,8 @@ body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface
 ::-webkit-scrollbar-track-piece,.app .scroller-wrap .scroller.messages::-webkit-scrollbar-track-piece, .app .scroller-wrap .scroller.guilds::-webkit-scrollbar-track-piece  {
 	background: rgba(0, 0, 0, 0.2);
 }
-.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
-	border-color: var(--main-color);
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb, .context-menu .context-menu .scroller-wrap ::-webkit-scrollbar-thumb {
+	border-color: transparent;
 	background-color: rgba(0,0,0,.4);
 }
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
@@ -242,3 +242,8 @@ body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface
 .scroller-wrap .scroller {
     border-radius: 0px !important;
 }
+
+/* context menu by maple */
+.modal-container ~ .context-menu::before {content:'';position:absolute;display:block;width:100%;height:100%;background:var(--main-color);filter:brightness(83%);z-index: -1}
+.theme-dark.context-menu, .theme-dark.context-menu .context-menu, .theme-dark.context-menu .item-subMenu{background-color:transparent;}
+.theme-dark.context-menu .item:hover {background-color:rgba(0,0,0,.14);}
