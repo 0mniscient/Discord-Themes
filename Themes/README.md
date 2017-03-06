@@ -8,11 +8,11 @@
 } 
 /*Messages (Middle Area)*/
 .content .flex-spacer {
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.85)!important;
 }
 /*Channel List*/
 .channels-wrap {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.75)!important;
 }
 /*Server List*/
 .guilds {
