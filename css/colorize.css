@@ -279,8 +279,10 @@ body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface
 .theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {background: linear-gradient(to right, rgba(0, 0, 0, 0.12) 85%, transparent);}
 .theme-dark .private-channel-recipients-invite .friend{background:transparent;}
 .theme-dark .private-channel-recipients-invite .footer {z-index: 1;background-color:rgba(0,0,0,.12)!important;}
-.search-bar-tag {background:var(--main-color);}
-.theme-dark .channel-textarea-autocomplete-inner {background: linear-gradient(hsla(0,0%,100%,.06),hsla(0,0%,100%,.06)) var(--main-color);}
+.search-bar-tag {background:transparent;position: relative;}
+.search-bar-tag:before {content:'';position:absolute;display:block;width:100%;height:22px;left:0;top:0;background:var(--main-color);filter:brightness(123%);z-index: -1}
+.theme-dark .channel-textarea-autocomplete-inner {background-color:transparent;}
+.theme-dark .channel-textarea-autocomplete-inner:before {content:'';position:absolute;display:block;width:calc(100% + 4px);height:100%;top:-2px;left:-2px;background-color: var(--main-color);filter:brightness(1.2);z-index:-1;}
 .theme-dark .channel-textarea-autocomplete-inner ul li.active {background-color:rgba(0,0,0,.11);}
-.theme-dark .channel-textarea-autocomplete-inner header {border-bottom-color:rgba(0,0,0,.2);}
+.theme-dark .channel-textarea-autocomplete-inner header {border-bottom-color:rgba(0,0,0,.3);}
 .premium-promo-autocomplete {display: none}
