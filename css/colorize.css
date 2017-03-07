@@ -246,8 +246,7 @@ body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface
 }
 
 /* stuff by maple */
-.context-menu::before {content:'';position:absolute;display:block;width:100%;height:100%;background:var(--main-color);filter:brightness(83%);z-index: -1}
-.theme-dark.context-menu, .theme-dark.context-menu .context-menu, .theme-dark.context-menu .item-subMenu{background-color:transparent;}
+.theme-dark.context-menu, .theme-dark.context-menu .context-menu, .theme-dark.context-menu .item-subMenu{background:linear-gradient(rgba(0,0,0,.17),rgba(0,0,0,.17)) var(--main-color);}
 .popout .context-menu {background:#fff !important;}
 .popout ::before {display: none}
 .context-menu.recent-mentions-filter-popout .label {color:#99aab5;}
