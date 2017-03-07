@@ -286,3 +286,8 @@ body {
 .theme-dark .channel-textarea-autocomplete-inner ul li.active {background-color:rgba(0,0,0,.11);}
 .theme-dark .channel-textarea-autocomplete-inner header {border-bottom-color:rgba(0,0,0,.3);}
 .premium-promo-autocomplete {display: none}
+.message-group .comment .markup code.inline{padding:2px 2px 0px 2px;}
+.invite-button {
+    background-color: rgba(0, 0, 0, 0.15) !important;
+    border-color: rgba(0, 0, 0, 0.07) !important;
+}
