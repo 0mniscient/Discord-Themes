@@ -246,8 +246,7 @@ body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface
 }
 
 /* stuff by maple */
-.context-menu::before {content:'';position:absolute;display:block;width:100%;height:100%;background:var(--main-color);filter:brightness(83%);z-index: -1}
-.theme-dark.context-menu, .theme-dark.context-menu .context-menu, .theme-dark.context-menu .item-subMenu{background-color:transparent;}
+.theme-dark.context-menu, .theme-dark.context-menu .context-menu, .theme-dark.context-menu .item-subMenu{background:linear-gradient(rgba(0,0,0,.17),rgba(0,0,0,.17)) var(--main-color);}
 .popout .context-menu {background:#fff !important;}
 .popout ::before {display: none}
 .context-menu.recent-mentions-filter-popout .label {color:#99aab5;}
@@ -262,7 +261,7 @@ body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface
 .member .status:before {filter:brightness(87%);}
 .member:hover .status::before, .popout-open .status::before {filter:brightness(76%);}
 
-.private-channels .channel .icon-friends{background-color:transparent;}
+.private-channels .channel .icon-friends{background-color:transparent!important;}
 .private-channels .channel .icon-friends::before {content:'';position:absolute;display:block;width:30px;height:30px;background-color: var(--main-color);filter:brightness(147%);z-index:-1;border-radius: 50%}
 .private-channels .channel:hover .icon-friends::before {filter:brightness(150%)contrast(160%);}
 
@@ -281,8 +280,7 @@ body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface
 .theme-dark .private-channel-recipients-invite .footer {z-index: 1;background-color:rgba(0,0,0,.12)!important;}
 .search-bar-tag {background:transparent;position: relative;}
 .search-bar-tag:before {content:'';position:absolute;display:block;width:100%;height:22px;left:0;top:0;background:var(--main-color);filter:brightness(123%);z-index: -1}
-.theme-dark .channel-textarea-autocomplete-inner {background-color:transparent;}
-.theme-dark .channel-textarea-autocomplete-inner:before {content:'';position:absolute;display:block;width:calc(100% + 4px);height:100%;top:-2px;left:-2px;background-color: var(--main-color);filter:brightness(1.2);z-index:-1;}
+.theme-dark .channel-textarea-autocomplete-inner {background:linear-gradient(rgba(255,255,255,.06),rgba(255,255,255,.06)) var(--main-color);}
 .theme-dark .channel-textarea-autocomplete-inner ul li.active {background-color:rgba(0,0,0,.11);}
 .theme-dark .channel-textarea-autocomplete-inner header {border-bottom-color:rgba(0,0,0,.3);}
 .premium-promo-autocomplete {display: none}
