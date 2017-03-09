@@ -142,9 +142,9 @@ body{background: var(--main-color);}
 
 .theme-dark.context-menu .context-menu {border:1px solid rgba(0,0,0,.25)}
 
-.app :-webkit-any(.member,.channel) .status {border-color:transparent !important;}
+.app :-webkit-any(.member,.channel,.account) .status {border-color:transparent !important;}
 
-.app :-webkit-any(.member,.channel) .status::before {content:'';position:absolute;display:block;width:100%;height:10px;top:-2px;left:-2px;background:transparent;border:2px solid var(--main-color);filter:brightness(86%);border-radius:100px;}
+.app :-webkit-any(.member,.channel,.account) .status::before {content:'';position:absolute;display:block;width:100%;height:10px;top:-2px;left:-2px;background:transparent;border:2px solid var(--main-color);filter:brightness(86%);border-radius:100px;}
 
 .channel:hover .status::before, .selected .status::before {filter:brightness(90%);}
 
