@@ -2669,3 +2669,7 @@ img[src="/assets/4a3496c5b0924198ae0234331c912d1b.png"]{content:url(data:image/s
 .connect-account-btn .connect-account-btn-inner:hover{background-color:var(--main-color);}
 
 .channel-members .member.member-status-offline .status{display: block !important;}
+
+form .bf-toolbar{transform:translate(0,-35px);margin-left:60px;width:auto;position:relative;z-index:1337}
+
+.bf-toolbar{color:#fff}
