@@ -2673,3 +2673,17 @@ img[src="/assets/4a3496c5b0924198ae0234331c912d1b.png"]{content:url(data:image/s
 form .bf-toolbar{transform:translate(0,-35px);margin-left:60px;width:auto;position:relative;z-index:1337}
 
 .bf-toolbar{color:#fff}
+
+.channels-wrap .guild-header ~ .channel-notices:not(:empty), /* For non-canary users */
+.channels-wrap .guild-header ~ .channel-list-top,
+.channels-wrap .guild-header ~ .scroller-wrap{transition: 300ms cubic-bezier(0, 1, 0.5, 1);}
+
+.channels-wrap .guild-header ~ .scroller-wrap{margin-top: 0px;}
+
+.channels-wrap .guild-header ~ .channel-list-top{margin-top: 0px;}
+
+.channels-wrap .guild-header.popout-open ~ .channel-notices:not(:empty){margin-top: 30px;} /* For non-canary users */
+
+.channels-wrap .guild-header.popout-open ~ .channel-list-top{margin-top: 30px;}
+
+.channels-wrap .guild-header.popout-open + .channel-notices:empty + .scroller-wrap{margin-top: 30px;} /* For non-canary users */
