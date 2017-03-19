@@ -50,7 +50,7 @@ body{background: var(--main-color);}
 
 .guild-channels .channel-text.selected,.guild-channels .channel-text:hover,.private-channels .channel.selected,.private-channels .channel:hover,.private-channels .search-result.selected,.private-channels .search-result:hover{background:-webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 85%, transparent);background:linear-gradient(to right, rgba(0, 0, 0, 0.1) 85%, transparent);}
 
-.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover{background:linear-gradient(to right, rgba(0, 0, 0, 0.1) 85%, transparent);background:linear-gradient(to right, rgba(0, 0, 0, 0.1) 85%, transparent);}
+.theme-dark .channel-members .member:not(.disabled).popout-open,.theme-dark .channel-members .member:not(.disabled):hover{background:linear-gradient(to right, rgba(0, 0, 0, 0.1) 85%, transparent);background:linear-gradient(to right, rgba(0, 0, 0, 0.1) 85%, transparent);}
 
 .channel-members{background-color:rgba(0, 0, 0, 0.15) !important;}
 
