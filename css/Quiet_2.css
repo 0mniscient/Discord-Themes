@@ -2718,4 +2718,67 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .ui-checkbox-wrapper .input:focus+.ui-checkbox{box-shadow:none;}
 
+.user-settings-modal .tab-bar.SIDE .tab-bar-item:before{opacity:1!important;border-left:0px;margin-top:4px;-webkit-transition:all 100ms ease;transition:all 100ms ease;content:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTkuNDMgMTIuOThjLjA0LS4zMi4wNy0uNjQuMDctLjk4cy0uMDMtLjY2LS4wNy0uOThsMi4xMS0xLjY1Yy4xOS0uMTUuMjQtLjQyLjEyLS42NGwtMi0zLjQ2Yy0uMTItLjIyLS4zOS0uMy0uNjEtLjIybC0yLjQ5IDFjLS41Mi0uNC0xLjA4LS43My0xLjY5LS45OGwtLjM4LTIuNjVDMTQuNDYgMi4xOCAxNC4yNSAyIDE0IDJoLTRjLS4yNSAwLS40Ni4xOC0uNDkuNDJsLS4zOCAyLjY1Yy0uNjEuMjUtMS4xNy41OS0xLjY5Ljk4bC0yLjQ5LTFjLS4yMy0uMDktLjQ5IDAtLjYxLjIybC0yIDMuNDZjLS4xMy4yMi0uMDcuNDkuMTIuNjRsMi4xMSAxLjY1Yy0uMDQuMzItLjA3LjY1LS4wNy45OHMuMDMuNjYuMDcuOThsLTIuMTEgMS42NWMtLjE5LjE1LS4yNC40Mi0uMTIuNjRsMiAzLjQ2Yy4xMi4yMi4zOS4zLjYxLjIybDIuNDktMWMuNTIuNCAxLjA4LjczIDEuNjkuOThsLjM4IDIuNjVjLjAzLjI0LjI0LjQyLjQ5LjQyaDRjLjI1IDAgLjQ2LS4xOC40OS0uNDJsLjM4LTIuNjVjLjYxLS4yNSAxLjE3LS41OSAxLjY5LS45OGwyLjQ5IDFjLjIzLjA5LjQ5IDAgLjYxLS4yMmwyLTMuNDZjLjEyLS4yMi4wNy0uNDktLjEyLS42NGwtMi4xMS0xLjY1ek0xMiAxNS41Yy0xLjkzIDAtMy41LTEuNTctMy41LTMuNXMxLjU3LTMuNSAzLjUtMy41IDMuNSAxLjU3IDMuNSAzLjUtMS41NyAzLjUtMy41IDMuNXoiLz48L3N2Zz4=);}
+
+.user-settings-modal .tab-bar.SIDE .tab-bar-item.selected,.user-settings-modal .tab-bar.SIDE .tab-bar-item:hover{opacity:1!important;}
+
+.user-settings-modal .tab-bar.SIDE .tab-bar-item:hover{-webkit-transition:0ms;transition:0ms}
+
+.user-settings-modal .tab-bar.SIDE .tab-bar-item{padding-left:35px;margin-left:15px;padding-top:10px;opacity:.3;color:#fff;}
+
+.ui-tab-bar.SIDE .ui-tab-bar-item:before{margin-right:10px;vertical-align:-30%;}
+
+.ui-tab-bar-item:before{opacity:0.7;}
+
+.ui-tab-bar-item:hover:before, .ui-tab-bar-item.selected:before{opacity:1 !important;}
+
+/* Emotes:https://material.io/icons/ */
+.ui-tab-bar-item:nth-of-type(2):before{/* Account */
+ content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_person_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(3):before{/* Authorized Apps */
+ top:113px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_security_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(4):before{/* Connections */
+ top:147px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_signal_wifi_4_bar_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(6):before{/* Nitro */
+ top:196px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_favorite_white_24px.svg);}
+
+div.platform-osx .ui-tab-bar-item:nth-of-type(9):before,div.platform-win .ui-tab-bar-item:nth-of-type(9):before{/* Voice */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_mic_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(9):before,div.platform-win .ui-tab-bar-item:nth-of-type(10):before,div.platform-osx .ui-tab-bar-item:nth-of-type(10):before{/* Overlay */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_desktop_windows_white_24px.svg);}
+
+div.platform-win .ui-tab-bar-item:nth-of-type(11):before,div.platform-osx .ui-tab-bar-item:nth-of-type(11):before{/* Notification */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_notifications_white_24px.svg);}
+
+div.platform-win .ui-tab-bar-item:nth-of-type(12):before{/* Keybinds */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_keyboard_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(10):before,div.platform-osx .ui-tab-bar-item:nth-of-type(12):before,div.platform-win .ui-tab-bar-item:nth-of-type(13):before{/* Games */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_games_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(11):before,div.platform-osx .ui-tab-bar-item:nth-of-type(13):before,div.platform-win .ui-tab-bar-item:nth-of-type(14):before{/* Text & Images */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_chat_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(12):before,div.platform-osx .ui-tab-bar-item:nth-of-type(14):before,div.platform-win .ui-tab-bar-item:nth-of-type(15):before{/* Appearance */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_palette_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(13):before,div.platform-osx .ui-tab-bar-item:nth-of-type(15):before,div.platform-win .ui-tab-bar-item:nth-of-type(16):before{/* Streamer Mode */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_videocam_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(14):before,div.platform-osx .ui-tab-bar-item:nth-of-type(16):before,div.platform-win .ui-tab-bar-item:nth-of-type(17):before{/* Language */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_translate_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(16):before,div.platform-osx .ui-tab-bar-item:nth-of-type(18):before,div.platform-win .ui-tab-bar-item:nth-of-type(19):before{/* Change log */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_edit_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(18):before,div.platform-osx .ui-tab-bar-item:nth-of-type(20):before,div.platform-win .ui-tab-bar-item:nth-of-type(21):before{/* Change log */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_reply_white_24px.svg);}
+
+/* END OF:Server/Client Settings */
+.ui-slider .slider-bar-fill{background:var(--main-color);}
+
 
