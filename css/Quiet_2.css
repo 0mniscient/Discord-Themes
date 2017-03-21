@@ -2687,3 +2687,35 @@ form .bf-toolbar{transform:translate(0,-35px);margin-left:60px;width:auto;positi
 .channels-wrap .guild-header.popout-open ~ .channel-list-top{margin-top: 30px;}
 
 .channels-wrap .guild-header.popout-open + .channel-notices:empty + .scroller-wrap{margin-top: 30px;} /* For non-canary users */
+
+.ui-button.brand.filled:hover{background-color:var(--hover-color);}
+
+.ui-button.brand.filled, .ui-tab-bar.SIDE .ui-tab-bar-item.selected{background-color:var(--main-color);}
+
+.ui-tab-bar.SIDE .ui-tab-bar-item.brand{color:var(--main-color);}
+
+.ui-standard-sidebar-view .sidebar-region,.ui-standard-sidebar-view .sidebar-region .scrollbar{background:#19191b !important;}
+
+.ui-standard-sidebar-view .content-region,.ui-standard-sidebar-view .content-region .scrollbar{background:#19191b !important;}
+
+.ui-tab-bar-item:hover{background-color:#111113 !important;}
+
+.ui-card-primary{background:rgba(0, 0, 0, 0.18)!important;}
+
+.theme-dark .ui-standard-sidebar-view .btn-close:hover{background-color:var(--main-color);border-color:var(--hover-color);}
+
+.ui-switch-checkbox:checked+.ui-switch{background:var(--main-color);}
+
+.theme-dark .ui-card-primary .ui-form-title.h5{color:#fff;}
+
+.theme-dark .ui-card-primary.editable{border:2px solid var(--main-color) !important;}
+
+.theme-dark .ui-radiogroup .checked{border-color:var(--hover-color);}
+
+.theme-dark .ui-checkbox.checked{background:#131313;}
+
+polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
+
+.ui-checkbox-wrapper .input:focus+.ui-checkbox{box-shadow:none;}
+
+
