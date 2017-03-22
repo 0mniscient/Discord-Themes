@@ -2781,4 +2781,6 @@ div.platform-win .ui-tab-bar-item:nth-of-type(12):before{/* Keybinds */
 /* END OF:Server/Client Settings */
 .ui-slider .slider-bar-fill{background:var(--main-color);}
 
+.theme-dark .ui-standard-sidebar-view{background: transparent;}
 
+.layers{background: #19191b !important;}
