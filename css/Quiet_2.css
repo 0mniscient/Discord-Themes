@@ -2778,9 +2778,28 @@ div.platform-win .ui-tab-bar-item:nth-of-type(12):before{/* Keybinds */
 .ui-tab-bar-item:nth-of-type(18):before,div.platform-osx .ui-tab-bar-item:nth-of-type(20):before,div.platform-win .ui-tab-bar-item:nth-of-type(21):before{/* Change log */
  margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_reply_white_24px.svg);}
 
-/* END OF:Server/Client Settings */
 .ui-slider .slider-bar-fill{background:var(--main-color);}
 
-.theme-dark .ui-standard-sidebar-view{background: transparent;}
+/* END OF:Server/Client Settings */
 
-.layers{background: #19191b !important;}
+.theme-dark .ui-standard-sidebar-view{background:transparent;}
+
+.layers{background:#19191b !important;}
+
+.layers>.layer.animating,.layers>.layer.animating *{pointer-events:none!important}
+
+.platform-osx .layer.animating .chat>.title-wrap{-webkit-app-region:no-drag}
+
+.ui-text-input .input:focus{border-color:var(--main-color) !important;border-width:2px !important;}
+
+.ui-standard-sidebar-view .sidebar-region .scroller::-webkit-scrollbar{width:0px;}
+
+.theme-dark .ui-select .Select-menu-outer{border-left-color:#000;border-bottom-color:#000;border-right-color:#000;border-top-color:transparent;border-width:1px;border-top-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;background:#121213;}
+
+.theme-dark .ui-select .Select-option.is-selected, .theme-dark .ui-select .Select-option.is-focused{background:var(--main-color) !important;color:#fff !important;}
+
+.Select-option.is-focused, .theme-dark .ui-select .Select-option:hover{background:var(--hover-color) !important;color:#fff !important;}
+
+.Select-control{background-color:#121213 !important;}
+
+
