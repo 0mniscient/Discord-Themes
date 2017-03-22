@@ -2803,3 +2803,26 @@ div.platform-win .ui-tab-bar-item:nth-of-type(12):before{/* Keybinds */
 .Select-control{background-color:#121213 !important;}
 
 #user-profile-modal .header .header-info .profile-badge.badge-partner, #user-profile-modal .header .header-info .profile-badge.badge-staff {bottom: 3px;position: absolute;left: 93px;top: 78px;opacity: 0.9;}
+
+.ui-popout{background-color: #202225;border: 0px solid rgba(0,0,0,.05);border-radius: 3px;}
+
+.ui-popout .item:hover{background-color: rgba(0,0,0,0.2);}
+
+.ui-popout .item .name{color: var(--main-color);}
+
+.ui-popout{background-color:#202225;border:0px solid rgba(0,0,0,.05);border-radius:3px;}
+
+.ui-popout .item:hover{background-color:rgba(0,0,0,0.2);}
+
+.ui-popout .item .name{color:var(--main-color);}
+
+.invite-banner{background-color:var(--main-color);}
+
+.invite-banner.invite-banner-2 .instant-invite:not(.clipboard-input-copied) .clipboard-input-inner{border-color:var(--hover-color);}
+
+.invite-banner.invite-banner-2 .instant-invite .clipboard-input-inner{background-color:var(--hover-color);opacity:0.9;}
+
+.invite-banner .instant-invite:not(.clipboard-input-copied) .clipboard-input-inner button{background-color:#19191b;color:#fff;}
+
+.invite-banner.invite-banner-2 .instant-invite .clipboard-input-inner button:before{background:linear-gradient(to right,hsla(0,0%,100%,0),rgba(0,0,0,.3));}
+
