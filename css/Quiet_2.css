@@ -2860,7 +2860,7 @@ div.platform-win .ui-tab-bar-item:nth-of-type(12):before{/* Keybinds */
     width: 230px;
     height: 40px;
     visibility: visible!important;
-    background: #F04747!important;
+    background: var(--main-color)!important;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(240, 71, 71, .3);
     -webkit-animation: darktheme 1s ease infinite;
