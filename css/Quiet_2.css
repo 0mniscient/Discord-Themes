@@ -2827,69 +2827,28 @@ div.platform-win .ui-tab-bar-item:nth-of-type(12):before{/* Keybinds */
 .invite-banner.invite-banner-2 .instant-invite .clipboard-input-inner button:before{background:linear-gradient(to right,hsla(0,0%,100%,0),rgba(0,0,0,.3));}
 
 /*Undone*/
-.message .username-wrapper.popout-open {
-    background: var(--main-color);
-}
+.message .username-wrapper.popout-open{background: var(--main-color);}
 
-.message .username-wrapper.popout-open .user-name {
-    color: #fff!important;
-}
+.message .username-wrapper.popout-open .user-name {color: #fff!important;}
 
-.message .username-wrapper .user-name {
-    transition: all 0ms ease!important;
-}
+.message .username-wrapper .user-name{transition: all 0ms ease!important;}
 
-.message .username-wrapper {
-    border-radius: 2px;
-    margin-left: -2px;
-    margin-right: -2px;
-    padding-right: 4px;
-    padding-left: 4px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    transition: all 0ms ease;
-}
-.theme-light .btn.btn-settings {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    margin-top: 65px;
-    width: 230px;
-    height: 40px;
-    visibility: visible!important;
-    background: var(--main-color)!important;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(240, 71, 71, .3);
-    -webkit-animation: darktheme 1s ease infinite;
-            animation: darktheme 1s ease infinite;
-}
+.message .username-wrapper{border-radius: 2px;margin-left: -2px;margin-right: -2px;padding-right: 4px;padding-left: 4px;padding-top: 3px;padding-bottom: 3px;transition: all 0ms ease;}
 
-.theme-light .btn.btn-settings:before {
-    position: absolute;
-    z-index: 10000;
-    content: "GO TO SETTINGS";
-    display: block;
-    width: 230px;
-    height: 22px;
-    border-radius: 5px;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    visibility: visible!important;
-    font-size: 17px;
-    font-weight: 700;
-    color: #fff
-}
+.theme-light .btn.btn-settings{position: fixed;left: 50%;top: 50%;-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);margin-top: 65px;width: 230px;height: 40px;visibility: visible!important;background: var(--main-color)!important;border-radius: 5px;box-shadow: 0 2px 10px rgba(240, 71, 71, .3);}
 
-.theme-light .btn.btn-settings:after {
-    visibility: hidden
-}
+.theme-light .btn.btn-settings:before{position: absolute;z-index: 10000;content: "GO TO SETTINGS";display: block;width: 230px;height: 22px;border-radius: 5px;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);visibility: visible!important;font-size: 17px;font-weight: 700;color: #fff}
 
-.app.flex-vertical.theme-light * {
-    visibility: hidden
-}
+.theme-light .btn.btn-settings:after{visibility: hidden;}
+
+.app.flex-vertical.theme-light * {visibility: hidden;}
+
+.theme-dark .ui-radiogroup .desc {color: #b1b1b1;}
+
+.theme-dark .ui-form-text.style-description, .theme-dark .ui-form-text.style-label-descriptor {color: #a2a2a2;}
+
+.ui-card[style*="padding: 10px; border-color: rgb(250, 166, 26); background-color: rgb(250, 166, 26);"] {border-color: #faa61a !important;background-color: #faa61a !important;border: 2px solid #faa61a !important; }
+
+.ui-card[style*="padding: 10px; border-color: rgb(67, 181, 129); background-color: rgb(67, 181, 129);"] {border-color: #43b581 !important;background-color: #43b581 !important;border: 2px solid #43b581 !important;}
+
+.ui-card[style*="padding: 10px; border-color: rgb(240, 71, 71); background-color: rgb(240, 71, 71);"] {border-color: #f04747 !important;background-color: #f04747 !important;border: 2px solid #f04747 !important;}
