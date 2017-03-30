@@ -879,7 +879,7 @@ textarea{background:transparent !important;}
 
 .message-group h2 strong{color:#f3f3f3;}
 
-.message-group h2 .timestamp{color:#b5b5b5;padding-top:3px;}
+.message-group h2 .timestamp{color:#b5b5b5;padding-top:6px;}
 
 .radio-theme.light{display:none;}
 
@@ -2454,7 +2454,7 @@ to{background:#19191b}
 
 .copybutton:active {transform: scale(0.96);}
 
-.replyer {top: 1px !important;background-color: #121213 !important;padding: 3px 5px 0px 5px !important;}
+.replyer {top: 1px !important;background-color: #121213 !important;padding: 6px 5px 0px 5px !important;}
 
 #settings-roles .roles li {color: #c2c2c2;padding: 0 21px 0 24px;}
 
@@ -2514,7 +2514,9 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .quote-msg {box-shadow: 0px 0px 6px -2px #000;}
 
-.citar-btn {order: 5;}
+.citar-btn {order: 5;top: 1px !important;background-color: #121213 !important;padding: 5px 5px 0px 5px !important;}
+
+.citar-btn.quoting {background: #43b581 !important;}
 
 .new-messages-indicator-channel {top: 48px;}
 
