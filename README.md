@@ -7,7 +7,7 @@ Need help with BetterDiscord? visit the <a href="https://betterdocs.net/">Better
 
 <b>Description:</b><i> Dark and Quiet. Easy on the eyes.🏻</i><br>
 
-<img href="https://github.com/Chaotiic/Discord-Themes/blob/master/Quiet.theme.css" src="https://i.imgur.com/pBnNaDb.png"></img><br>
+<img href="https://github.com/Chaotiic/Discord-Themes/blob/master/Quiet.theme.css" src="http://i.imgur.com/AzXK522.png"></img><br>
 
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/Chaotiic/Discord-Themes/blob/master/Themes/Aesthetic%20Discord.theme.css">Aesthetic</a></div></b></font>
 
