@@ -1,1 +1,0 @@
-<div class='theme-banner'><div class='notice notice-danger'><div class='notice-dismiss'></div>Well, it looks like your Quiet theme is outdated. Let's fix that... &#8203;together.<a class='btn' href='https://betterdocs.net/themes/quiet.html' target='_blank'>Download</a></div></div>
