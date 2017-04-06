@@ -2872,3 +2872,5 @@ div.platform-win .ui-tab-bar-item:nth-of-type(12):before{/* Keybinds */
 .scroller.channel-members{height: calc(100% - 73px);}
 
 #friends .friends-table .friends-table-body{height: calc(100% - 133px);}
+
+.quiet{height: 70px;}
