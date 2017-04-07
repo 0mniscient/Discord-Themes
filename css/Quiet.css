@@ -2901,3 +2901,5 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 *[style*="172218388880293888"] {background-image:url(https://u.nya.is/nmtoar.gif) !important;}
 
 .app .guilds .guild.active:first-child{background: #131313;}
+
+.titlebar{-webkit-app-region: drag;width: calc(100% - 300px);left: auto;right: 0;}
