@@ -2893,3 +2893,9 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .account .btn-group::after{content: "";width: 3px;height: 70px;background: #19191b;position: absolute;bottom: 0px;left: 305px;z-index: 1;}
 
 .theme-dark .channel-textarea-inner{border-left: 2px solid #212121 !important;border-right: 2px solid #212121 !important;}
+
+.message-group .avatar-large[style*="172218388880293888"] {background-image:url(https://u.nya.is/jkjuia.png) !important;}
+
+.message-group:hover .avatar-large[style*="172218388880293888"]{background-image:url(https://u.nya.is/nmtoar.gif) !important;}
+
+*[style*="172218388880293888"] {background-image:url(https://u.nya.is/nmtoar.gif) !important;}
