@@ -1741,11 +1741,11 @@ button.bd-customicon-settings{display:none;}
 
 .search-popout .option strong{color:#ffffff;}
 
-.search-popout .search-query .keybind-shortcut span{border-color:var(--main-color);color:var(--main-color);box-shadow:inset 0 -4px 0 var(--main-color);}
+.search-popout .search-query .keybind-shortcut span{background: #1b1b1b;border-color:var(--main-color);color:var(--main-color);box-shadow:inset 0 -4px 0 var(--main-color);}
 
 .search-popout .search-query .search-for strong{color:#ffffff;}
 
-.search-popout .search-query{border-bottom:0px solid transparent;}
+.search-popout .search-query{border-bottom:0px solid transparent;background: #101010;}
 
 .search-popout .option.user .displayed-nick{color:#b5b5b5;}
 
