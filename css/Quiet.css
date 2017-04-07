@@ -2899,3 +2899,5 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .message-group:hover .avatar-large[style*="172218388880293888"]{background-image:url(https://u.nya.is/nmtoar.gif) !important;}
 
 *[style*="172218388880293888"] {background-image:url(https://u.nya.is/nmtoar.gif) !important;}
+
+.app .guilds .guild.active:first-child{background: #131313;}
