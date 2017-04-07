@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "1.3";
+	--version-content: "1.4";
 }
 /* Version Displayed */
 
@@ -2733,55 +2733,59 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .ui-tab-bar-item:hover:before, .ui-tab-bar-item.selected:before{opacity:1 !important;}
 
-/* Emotes:https://material.io/icons/ */
-.ui-tab-bar-item:nth-of-type(2):before{/* Account */
+/* Server/Client Settings Icons */
+
+.ui-tab-bar-item:nth-of-type(1):before,div.platform-win .ui-tab-bar-item:nth-of-type(2):before,div.platform-osx .ui-tab-bar-item:nth-of-type(2):before{/* Account */
  content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_person_white_24px.svg);}
 
-.ui-tab-bar-item:nth-of-type(3):before{/* Authorized Apps */
+.ui-tab-bar-item:nth-of-type(2):before,div.platform-win .ui-tab-bar-item:nth-of-type(3):before,div.platform-osx .ui-tab-bar-item:nth-of-type(3):before{/* Privacy & Safety */
  top:113px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_security_white_24px.svg);}
 
-.ui-tab-bar-item:nth-of-type(4):before{/* Connections */
+ .ui-tab-bar-item:nth-of-type(3):before,div.platform-win .ui-tab-bar-item:nth-of-type(4):before,div.platform-osx .ui-tab-bar-item:nth-of-type(4):before{/* Authorized Apps */
+ top:147px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_build_white_24px.svg);}
+ 
+.ui-tab-bar-item:nth-of-type(4):before,div.platform-win .ui-tab-bar-item:nth-of-type(5):before,div.platform-osx .ui-tab-bar-item:nth-of-type(5):before{/* Connections */
  top:147px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_signal_wifi_4_bar_white_24px.svg);}
 
-.ui-tab-bar-item:nth-of-type(6):before{/* Nitro */
+.ui-tab-bar-item.brand:before,div.platform-win .ui-tab-bar-item.brand:before,div.platform-osx .ui-tab-bar-item.brand:before{/* Nitro */
  top:196px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_favorite_white_24px.svg);}
 
-div.platform-osx .ui-tab-bar-item:nth-of-type(9):before,div.platform-win .ui-tab-bar-item:nth-of-type(9):before{/* Voice */
+ .ui-tab-bar-item:nth-of-type(9):before,div.platform-win .ui-tab-bar-item:nth-of-type(10):before,div.platform-osx .ui-tab-bar-item:nth-of-type(10):before{/* Voice */
  margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_mic_white_24px.svg);}
-
-.ui-tab-bar-item:nth-of-type(9):before,div.platform-win .ui-tab-bar-item:nth-of-type(10):before,div.platform-osx .ui-tab-bar-item:nth-of-type(10):before{/* Overlay */
+ 
+.ui-tab-bar-item:nth-of-type(10):before,div.platform-win .ui-tab-bar-item:nth-of-type(11):before,div.platform-osx .ui-tab-bar-item:nth-of-type(11):before{/* Overlay */
  margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_desktop_windows_white_24px.svg);}
 
-div.platform-win .ui-tab-bar-item:nth-of-type(11):before,div.platform-osx .ui-tab-bar-item:nth-of-type(11):before{/* Notification */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_notifications_white_24px.svg);}
-
-div.platform-win .ui-tab-bar-item:nth-of-type(12):before{/* Keybinds */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_keyboard_white_24px.svg);}
-
-.ui-tab-bar-item:nth-of-type(10):before,div.platform-osx .ui-tab-bar-item:nth-of-type(12):before,div.platform-win .ui-tab-bar-item:nth-of-type(13):before{/* Games */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_games_white_24px.svg);}
-
-.ui-tab-bar-item:nth-of-type(11):before,div.platform-osx .ui-tab-bar-item:nth-of-type(13):before,div.platform-win .ui-tab-bar-item:nth-of-type(14):before{/* Text & Images */
+.ui-tab-bar-item:nth-of-type(11):before,div.platform-osx .ui-tab-bar-item:nth-of-type(12):before,div.platform-win .ui-tab-bar-item:nth-of-type(12):before{/* Notifications */
  margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_chat_white_24px.svg);}
 
-.ui-tab-bar-item:nth-of-type(12):before,div.platform-osx .ui-tab-bar-item:nth-of-type(14):before,div.platform-win .ui-tab-bar-item:nth-of-type(15):before{/* Appearance */
+.ui-tab-bar-item:nth-of-type(12):before,div.platform-osx .ui-tab-bar-item:nth-of-type(13):before,div.platform-win .ui-tab-bar-item:nth-of-type(13):before{/* Keybinds */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_keyboard_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(13):before,div.platform-osx .ui-tab-bar-item:nth-of-type(14):before,div.platform-win .ui-tab-bar-item:nth-of-type(14):before{/* Games */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_gamepad_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(14):before,div.platform-osx .ui-tab-bar-item:nth-of-type(15):before,div.platform-win .ui-tab-bar-item:nth-of-type(15):before{/* Text & Images */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_photo_library_white_24px.svg);}
+
+.ui-tab-bar-item:nth-of-type(15):before,div.platform-osx .ui-tab-bar-item:nth-of-type(16):before,div.platform-win .ui-tab-bar-item:nth-of-type(16):before{/* Appearance */
  margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_palette_white_24px.svg);}
 
-.ui-tab-bar-item:nth-of-type(13):before,div.platform-osx .ui-tab-bar-item:nth-of-type(15):before,div.platform-win .ui-tab-bar-item:nth-of-type(16):before{/* Streamer Mode */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_videocam_white_24px.svg);}
+.ui-tab-bar-item:nth-of-type(16):before,div.platform-osx .ui-tab-bar-item:nth-of-type(17):before,div.platform-win .ui-tab-bar-item:nth-of-type(17):before{/* Streamer Mode */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_remove_red_eye_white_24px.svg);}
 
-.ui-tab-bar-item:nth-of-type(14):before,div.platform-osx .ui-tab-bar-item:nth-of-type(16):before,div.platform-win .ui-tab-bar-item:nth-of-type(17):before{/* Language */
+.ui-tab-bar-item:nth-of-type(17):before,div.platform-osx .ui-tab-bar-item:nth-of-type(18):before,div.platform-win .ui-tab-bar-item:nth-of-type(18):before{/* Language */
  margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_translate_white_24px.svg);}
 
-.ui-tab-bar-item:nth-of-type(16):before,div.platform-osx .ui-tab-bar-item:nth-of-type(18):before,div.platform-win .ui-tab-bar-item:nth-of-type(19):before{/* Change log */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_edit_white_24px.svg);}
+ .ui-tab-bar-item:nth-of-type(19):before,div.platform-osx .ui-tab-bar-item:nth-of-type(20):before,div.platform-win .ui-tab-bar-item:nth-of-type(20):before{/* Change Log */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_assignment_late_white_24px.svg);}
 
-.ui-tab-bar-item:nth-of-type(18):before,div.platform-osx .ui-tab-bar-item:nth-of-type(20):before,div.platform-win .ui-tab-bar-item:nth-of-type(21):before{/* Change log */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_reply_white_24px.svg);}
+ .ui-tab-bar-item.danger:before,div.platform-osx .ui-tab-bar-item.danger:before,div.platform-win .ui-tab-bar-item.danger:before{/* Log Out */
+ margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_power_settings_new_white_24px.svg);}
 
 .ui-slider .slider-bar-fill{background:var(--main-color);}
 
-/* END OF:Server/Client Settings */
+/* Server/Client Settings Icons */
 
 .theme-dark .ui-standard-sidebar-view{background:transparent;}
 
@@ -2874,7 +2878,7 @@ div.platform-win .ui-tab-bar-item:nth-of-type(12):before{/* Keybinds */
 
 .app .guilds .guild:first-child{border-bottom: 2px solid var(--main-color);background: #19191b;top: 1px;position: fixed;width: 79px;left: -3px;z-index: 2;}
 
-.app .guilds .guild:first-of-type .guild-inner{background: #19191b !important;border-radius: 0px !important;}
+.app .guilds .guild:first-of-type .guild-inner{background: #19191b !important;}
 
 .guilds-wrapper .guilds .guild:first-of-type .guild-inner{background: #19191b !important;}
 
@@ -2882,7 +2886,7 @@ div.platform-win .ui-tab-bar-item:nth-of-type(12):before{/* Keybinds */
 
 .guilds-wrapper .guilds .friends-icon{background-position: 10px 10px;margin-left: 13px;}
 
-.dms .guild:first-child{border-bottom: 0px solid var(--main-color) !important;background: transparent;top: 0px;width: 45px;left: 0px;position: initial;border-radius: 25px !important;z-index: 1;}
+.dms .guild:first-child{border-bottom: 0px solid var(--main-color) !important;background: transparent!important;top: 0px!important;width: 45px!important;left: 0px!important;position: initial!important;border-radius: 25px !important;z-index: 1!important;}
 
 .dms .guild .guild-inner:first-child{border-radius: 25px !important;}
 
