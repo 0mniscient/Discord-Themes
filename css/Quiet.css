@@ -504,7 +504,7 @@ top:80px;left:115px;width:150px;display:flex!important;}
 
 .account .btn:active{background:#151517;}
 
-.settings .settings-inner{background-color:#19191b;}
+.settings .settings-inner, .user-settings-modal-streamer-mode{background-color:#19191b;}
 
 .tab-bar.SIDE .tab-bar-item:before{border-left:3px solid var(--main-color);}
 
@@ -2719,13 +2719,11 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .ui-checkbox-wrapper .input:focus+.ui-checkbox{box-shadow:none;}
 
-.user-settings-modal .tab-bar.SIDE .tab-bar-item:before{opacity:1!important;border-left:0px;margin-top:4px;-webkit-transition:all 100ms ease;transition:all 100ms ease;content:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTkuNDMgMTIuOThjLjA0LS4zMi4wNy0uNjQuMDctLjk4cy0uMDMtLjY2LS4wNy0uOThsMi4xMS0xLjY1Yy4xOS0uMTUuMjQtLjQyLjEyLS42NGwtMi0zLjQ2Yy0uMTItLjIyLS4zOS0uMy0uNjEtLjIybC0yLjQ5IDFjLS41Mi0uNC0xLjA4LS43My0xLjY5LS45OGwtLjM4LTIuNjVDMTQuNDYgMi4xOCAxNC4yNSAyIDE0IDJoLTRjLS4yNSAwLS40Ni4xOC0uNDkuNDJsLS4zOCAyLjY1Yy0uNjEuMjUtMS4xNy41OS0xLjY5Ljk4bC0yLjQ5LTFjLS4yMy0uMDktLjQ5IDAtLjYxLjIybC0yIDMuNDZjLS4xMy4yMi0uMDcuNDkuMTIuNjRsMi4xMSAxLjY1Yy0uMDQuMzItLjA3LjY1LS4wNy45OHMuMDMuNjYuMDcuOThsLTIuMTEgMS42NWMtLjE5LjE1LS4yNC40Mi0uMTIuNjRsMiAzLjQ2Yy4xMi4yMi4zOS4zLjYxLjIybDIuNDktMWMuNTIuNCAxLjA4LjczIDEuNjkuOThsLjM4IDIuNjVjLjAzLjI0LjI0LjQyLjQ5LjQyaDRjLjI1IDAgLjQ2LS4xOC40OS0uNDJsLjM4LTIuNjVjLjYxLS4yNSAxLjE3LS41OSAxLjY5LS45OGwyLjQ5IDFjLjIzLjA5LjQ5IDAgLjYxLS4yMmwyLTMuNDZjLjEyLS4yMi4wNy0uNDktLjEyLS42NGwtMi4xMS0xLjY1ek0xMiAxNS41Yy0xLjkzIDAtMy41LTEuNTctMy41LTMuNXMxLjU3LTMuNSAzLjUtMy41IDMuNSAxLjU3IDMuNSAzLjUtMS41NyAzLjUtMy41IDMuNXoiLz48L3N2Zz4=);}
-
 .user-settings-modal .tab-bar.SIDE .tab-bar-item.selected,.user-settings-modal .tab-bar.SIDE .tab-bar-item:hover{opacity:1!important;}
 
 .user-settings-modal .tab-bar.SIDE .tab-bar-item:hover{-webkit-transition:0ms;transition:0ms}
 
-.user-settings-modal .tab-bar.SIDE .tab-bar-item{padding-left:35px;margin-left:15px;padding-top:10px;opacity:.3;color:#fff;}
+.user-settings-modal .tab-bar.SIDE .tab-bar-item{opacity:.3;color:#fff;}
 
 .ui-tab-bar.SIDE .ui-tab-bar-item:before{margin-right:10px;vertical-align:-30%;}
 
