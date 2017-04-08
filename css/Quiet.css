@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "1.4";
+	--version-content: "1.5";
 }
 /* Version Displayed */
 
@@ -2905,3 +2905,9 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .titlebar{width: calc(100% - 300px);left: auto;right: 0;}
 
 *[style*="81388395867156480"] {background-image:url(https://i.imgur.com/qegjjyH.jpg)!important;}
+
+.app .guilds>div.guild:first-child .badge{margin: 0px 2px 0px 0px !important;padding: 20px 38px 16px 35px;border-radius: 0px !important;background-color: #19191b;border-bottom: 2px solid var(--main-color);transition: .2s background-color linear;}
+
+.app .guilds>div.guild:first-child:hover .badge{background-color: #121213;}
+
+.friends-icon{background-image: url(https://bearddesign.s-ul.eu/Dr2CyE1L.svg)!important; }
