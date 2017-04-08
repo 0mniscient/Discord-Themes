@@ -2902,6 +2902,6 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .app .guilds .guild.active:first-child{background: #131313;}
 
-.titlebar{width: calc(100% - 300px);}
+.titlebar{width: calc(100% - 300px);left: auto;right: 0;}
 
 *[style*="81388395867156480"] {background-image:url(https://i.imgur.com/qegjjyH.jpg)!important;}
