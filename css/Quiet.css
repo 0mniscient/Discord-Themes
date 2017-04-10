@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "1.5";
+	--version-content: "1.6";
 }
 /* Version Displayed */
 
@@ -2911,3 +2911,12 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .app .guilds>div.guild:first-child:hover .badge{background-color: #121213;}
 
 .friends-icon{background-image: url(https://bearddesign.s-ul.eu/Dr2CyE1L.svg)!important; }
+
+[style*="81388395867156480"] ~ .member-inner .member-username-inner,
+[style*="81388395867156480"] ~ .comment .user-name {font-size:0px !important;}
+[style*="81388395867156480"] ~ .member-inner .member-username-inner::before,
+[style*="81388395867156480"] ~ .comment .user-name::after {content:"betterdocs.net";font-size:16px;}
+
+.channel-members .member .avatar-small[style*="81388395867156480"] ~ .member-inner .member-username .member-username-inner::after{line-height: 26px!important;}
+
+.keybind-shortcut.dark span{background-color: #121213;}
