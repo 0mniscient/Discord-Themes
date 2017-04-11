@@ -2597,9 +2597,7 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .search-popout .date-picker, .search-popout .date-picker .date-picker-hint{background-color: #141416;}
 
-.scroller.messages:hover{overflow-y: scroll;}
-
-.scroller.messages{overflow-y: hidden;}
+.scroller.messages{overflow-y: scroll;}
 
 .channel-notices .channel-notice .message .btn{background-color: var(--main-color);}
 
@@ -2920,3 +2918,11 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .channel-members .member .avatar-small[style*="81388395867156480"] ~ .member-inner .member-username .member-username-inner::after{line-height: 26px!important;}
 
 .keybind-shortcut.dark span{background-color: #121213;}
+
+.scroller-wrap .scroller.messages::-webkit-scrollbar-track-piece{border: 3px solid transparent !important;background-color: transparent !important;}
+
+.scroller-wrap .scroller.messages::-webkit-scrollbar-thumb{background-color: transparent !important;}
+
+.scroller-wrap .scroller.messages:hover::-webkit-scrollbar-track-piece{border: 3px solid rgb(25, 25, 27) !important;background-color: #111113 !important;}
+
+.scroller-wrap .scroller.messages:hover::-webkit-scrollbar-thumb{background-color: var(--main-color) !important;}
