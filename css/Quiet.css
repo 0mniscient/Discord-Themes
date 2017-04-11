@@ -2948,3 +2948,5 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .change-log .embed-wrapper .embed{padding: 0;margin: 0;margin-top: 0px !important;border: none;}
 
 .change-log .embed-video-actions-inner{margin-bottom: -20px !important;height: 100% !important;padding-top: 20px !important;border-radius: 0px !important;}
+
+.tooltips .tooltip.tooltip-right[style*="left: 42px; top: 11.5px;"]{display: none !important;}	
