@@ -1144,7 +1144,7 @@ div.control-group .shortcut-recorder input[type=text]{border:2px solid var(--mai
 
 .guilds-wrapper .guilds .guild.selected:before{height:35px;margin-top:-18px;}
 
-.scroller.guilds{height: calc(100% - 109px);}
+.scroller.guilds{height: calc(100% - 140px);}
 
 code{background:#121213 !important;box-shadow: 0 0 5px -1px #000}
 
@@ -2950,3 +2950,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .change-log .embed-video-actions-inner{margin-bottom: -20px !important;height: 100% !important;padding-top: 20px !important;border-radius: 0px !important;}
 
 .tooltips .tooltip.tooltip-right[style*="left: 42px; top: 11.5px;"]{display: none !important;}	
+
+.theme-dark .ui-slider .slider-bar{background: #151516;}
+
+.ui-checkbox-wrapper .ui-checkbox.checked polyline{stroke: var(--main-color);}
