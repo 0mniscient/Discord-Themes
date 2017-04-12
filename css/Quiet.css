@@ -2956,3 +2956,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .ui-checkbox-wrapper .ui-checkbox.checked polyline{stroke: var(--main-color);}
 
 .user-popout .body .notes:only-child{width: calc(100% - 50px);}
+
+.settings-right .member-roles .member-role{background: var(--main-color) !important;visibility: visible !important;}
+
+.account .avatar-small[style*="172218388880293888"]{background-image:url(https://u.nya.is/jkjuia.png) !important;}
