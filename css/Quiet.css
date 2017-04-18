@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "1.7";
+	--version-content: "1.8
 }
 /* Version Displayed */
 
@@ -2517,8 +2517,6 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .citar-btn.quoting {background: #43b581 !important;}
 
-.new-messages-indicator-channel {top: 48px;}
-
 .popout.popout-bottom {margin-top: 0px;}
 
 .guild-channels header {margin: 5px 0 0;}
@@ -2954,3 +2952,15 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .settings-right .member-roles .member-role{background: var(--main-color) !important;visibility: visible !important;}
 
 .account .avatar-small[style*="172218388880293888"]{background-image:url(https://u.nya.is/jkjuia.png) !important;}
+
+.guilds-wrapper .guilds-error{width: 45px;height: 45px;border-radius: 25px;background: #19191b;line-height: 41px;border: 2px solid var(--main-color);}
+
+.guilds-wrapper .guilds-error:hover{background-color: var(--main-color);}
+
+.tooltip.tooltip-error.tooltip-right:after{border-right-color: var(--main-color);}
+
+.channel-notices .channel-notice.quickswitcher-notice{background: #121213 url(/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px;padding: 100px 20px 20px;top: -10px;}
+
+.new-messages-indicator.new-messages-indicator-channel.new-messages-indicator-mention{top: -10px;}
+
+.new-messages-indicator.new-messages-indicator-channel.new-messages-indicator-mention.bottom{display: none !important;}
