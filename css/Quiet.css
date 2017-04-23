@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "1.9"
+	--version-content: "1.99"
 }
 /* Version Displayed */
 
@@ -1999,8 +1999,6 @@ button.bd-customicon-settings{display:none;}
 
 .message-group:not(.compact) h2{display:flex;position:relative;}
 
-.message-group:not(.compact) .avatar-large[style*="/a_"] ~ .comment .body h2:before{content:"nitro";position:relative;margin:0 0 0 5px;padding:3px 4px 3px 4px;color:#fff;font-size:10px;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);text-transform:uppercase;background-color:var(--main-color);border-radius:3px;order:2;height:100%;top: 4px !important;}
-
 .search-bar .search-bar-inner{background:transparent;border:2px solid rgba(0, 0, 0, .2);}
 
 form.modal-content.form.need-help-modal::after{content:"";background:#fff;position:relative;z-index:10;}
@@ -2727,59 +2725,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .ui-tab-bar-item:hover:before, .ui-tab-bar-item.selected:before{opacity:1 !important;}
 
-/* Server/Client Settings Icons */
-
-.ui-tab-bar-item:nth-of-type(1):before,div.platform-win .ui-tab-bar-item:nth-of-type(2):before,div.platform-osx .ui-tab-bar-item:nth-of-type(2):before{/* Account */
- content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_person_white_24px.svg);}
-
-.ui-tab-bar-item:nth-of-type(2):before,div.platform-win .ui-tab-bar-item:nth-of-type(3):before,div.platform-osx .ui-tab-bar-item:nth-of-type(3):before{/* Privacy & Safety */
- top:113px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_security_white_24px.svg);}
-
- .ui-tab-bar-item:nth-of-type(3):before,div.platform-win .ui-tab-bar-item:nth-of-type(4):before,div.platform-osx .ui-tab-bar-item:nth-of-type(4):before{/* Authorized Apps */
- top:147px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_build_white_24px.svg);}
- 
-.ui-tab-bar-item:nth-of-type(4):before,div.platform-win .ui-tab-bar-item:nth-of-type(5):before,div.platform-osx .ui-tab-bar-item:nth-of-type(5):before{/* Connections */
- top:147px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_signal_wifi_4_bar_white_24px.svg);}
-
-.ui-tab-bar-item.brand:before,div.platform-win .ui-tab-bar-item.brand:before,div.platform-osx .ui-tab-bar-item.brand:before{/* Nitro */
- top:196px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_favorite_white_24px.svg);}
-
- .ui-tab-bar-item:nth-of-type(9):before,div.platform-win .ui-tab-bar-item:nth-of-type(10):before,div.platform-osx .ui-tab-bar-item:nth-of-type(10):before{/* Voice */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_mic_white_24px.svg);}
- 
-.ui-tab-bar-item:nth-of-type(10):before,div.platform-win .ui-tab-bar-item:nth-of-type(11):before,div.platform-osx .ui-tab-bar-item:nth-of-type(11):before{/* Overlay */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_desktop_windows_white_24px.svg);}
-
-.ui-tab-bar-item:nth-of-type(11):before,div.platform-osx .ui-tab-bar-item:nth-of-type(12):before,div.platform-win .ui-tab-bar-item:nth-of-type(12):before{/* Notifications */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_chat_white_24px.svg);}
-
-.ui-tab-bar-item:nth-of-type(12):before,div.platform-osx .ui-tab-bar-item:nth-of-type(13):before,div.platform-win .ui-tab-bar-item:nth-of-type(13):before{/* Keybinds */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_keyboard_white_24px.svg);}
-
-.ui-tab-bar-item:nth-of-type(13):before,div.platform-osx .ui-tab-bar-item:nth-of-type(14):before,div.platform-win .ui-tab-bar-item:nth-of-type(14):before{/* Games */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_gamepad_white_24px.svg);}
-
-.ui-tab-bar-item:nth-of-type(14):before,div.platform-osx .ui-tab-bar-item:nth-of-type(15):before,div.platform-win .ui-tab-bar-item:nth-of-type(15):before{/* Text & Images */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_photo_library_white_24px.svg);}
-
-.ui-tab-bar-item:nth-of-type(15):before,div.platform-osx .ui-tab-bar-item:nth-of-type(16):before,div.platform-win .ui-tab-bar-item:nth-of-type(16):before{/* Appearance */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_palette_white_24px.svg);}
-
-.ui-tab-bar-item:nth-of-type(16):before,div.platform-osx .ui-tab-bar-item:nth-of-type(17):before,div.platform-win .ui-tab-bar-item:nth-of-type(17):before{/* Streamer Mode */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_remove_red_eye_white_24px.svg);}
-
-.ui-tab-bar-item:nth-of-type(17):before,div.platform-osx .ui-tab-bar-item:nth-of-type(18):before,div.platform-win .ui-tab-bar-item:nth-of-type(18):before{/* Language */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_translate_white_24px.svg);}
-
- .ui-tab-bar-item:nth-of-type(19):before,div.platform-osx .ui-tab-bar-item:nth-of-type(20):before,div.platform-win .ui-tab-bar-item:nth-of-type(20):before{/* Change Log */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_assignment_late_white_24px.svg);}
-
- .ui-tab-bar-item.danger:before,div.platform-osx .ui-tab-bar-item.danger:before,div.platform-win .ui-tab-bar-item.danger:before{/* Log Out */
- margin-top:-4px;content:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_power_settings_new_white_24px.svg);}
-
 .ui-slider .slider-bar-fill{background:var(--main-color);}
-
-/* Server/Client Settings Icons */
 
 .theme-dark .ui-standard-sidebar-view{background:transparent;}
 
@@ -2966,3 +2912,13 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .new-messages-indicator.new-messages-indicator-channel.new-messages-indicator-mention.bottom{display: none !important;}
 
 .content{background-color: #19191b !important;}
+
+.message-group .accessory{display: flex;flex-flow: row wrap;}
+
+.message-group .accessory>*:not(:last-of-type){margin-right:10px;}
+
+.message-group .accessory>*{margin-top:5px;}
+
+.reactions{width:100%;flex:100%;order:9999999999;}
+
+.message-group:not(.compact) .avatar-large[style*="148059412165033984"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="148059412165033984"] ~ .member-inner .member-username .member-username-inner::after{content:"Cocksucker";color:#fff;background:#e21759;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:14px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;}
