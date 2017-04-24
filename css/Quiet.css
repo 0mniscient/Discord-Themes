@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "2.0"
+	--version-content: "2.1"
 }
 /* Version Displayed */
 
@@ -928,7 +928,7 @@ textarea{background:transparent !important;}
 
 .theme-dark .channel-textarea-autocomplete-inner header,.channel-textarea-autocomplete-inner header{border-bottom-color:var(--main-color);background-color:var(--main-color);color:#fff;border-radius:3px 3px 0px 0px;}
 
-.spinner-pulsing-ellipsis .spinner-item{background-color:var(--main-color);}
+.spinner-pulsing-ellipsis .spinner-item{background-color:#fff;}
 
 .message-group .mentioned .message-text{background:#111113 !important;}
 
@@ -2985,3 +2985,14 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .theme-dark .ui-quick-select-label{opacity:1;color:var(--main-color);font-weight:800;}
 
+.theme-dark .chat form .typing .ellipsis{border-top-left-radius:3px;height:23px;margin-top:0px;}
+
+.theme-dark .chat form .typing .text{border-top-right-radius:3px;line-height:20px;font-size:12px;}
+
+.theme-dark .chat form .typing .text, .theme-dark .chat form .typing .ellipsis{animation:typing .3s ease-in-out;}
+
+@keyframes typing{0%{margin-top:15px;}
+
+100%{margin-top:0px;}
+
+}
