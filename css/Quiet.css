@@ -2989,10 +2989,12 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .theme-dark .chat form .typing .text{border-top-right-radius:3px;line-height:20px;font-size:12px;}
 
-.theme-dark .chat form .typing .text, .theme-dark .chat form .typing .ellipsis{animation:typing .3s ease-in-out;}
+.theme-dark .chat form .typing .text, .theme-dark .chat form .typing .ellipsis{animation:typing .3s ease-in-out;background-color: var(--main-color) !important;}
 
 @keyframes typing{0%{margin-top:15px;}
 
 100%{margin-top:0px;}
 
 }
+
+.theme-dark .chat form .typing span{color: #fff;}
