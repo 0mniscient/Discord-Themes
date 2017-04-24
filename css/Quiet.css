@@ -12,8 +12,6 @@
 
 .themedescription:before{display:block;font-size:14px;height:15px;color:#3ddcb1;font-weight:700;content:"Updates are automatic. Just restart Discord to get the latest version.";}
 
-body:after{content:"Current Version:v" var(--version-content);z-index:10000000000000000000000000;color:#fff;background:var(--main-color);top:0;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:1s;animation-delay:1s;}
-
 body:before{content:"Thanks for using Quiet!";z-index:1000000000000000000000000;color:#fff;background:var(--main-color);top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
 
 body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface-visibility:hidden;}
