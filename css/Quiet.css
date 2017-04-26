@@ -2499,14 +2499,6 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .message-group .avatar-large[style*="172218388880293888"]:hover, .channel-members .member .avatar-small[style*="172218388880293888"]:hover {cursor: url("https://betterdocs.net/assets/penis.cur"), auto !important;}
 
-.message-group .avatar-large[style*="81388395867156480"]:hover,.channel-members .member .avatar-small[style*="81388395867156480"]:hover{cursor: not-allowed !important;}
- 
-.message-group .avatar-large[style*="81388395867156480"]{pointer-events: none;}
-
-.channel-members .member .avatar-small[style*="81388395867156480"] ~ .member-inner {pointer-events: none;cursor: not-allowed;}
-
-.message-group .avatar-large[style*="81388395867156480"] ~ .comment {pointer-events: none;}
-
 .quote-msg {box-shadow: 0px 0px 6px -2px #000;}
 
 .citar-btn {order: 5;top: 1px !important;background-color: #121213 !important;padding: 5px 5px 0px 5px !important;}
@@ -2843,7 +2835,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .titlebar{width: calc(100% - 300px);left: auto;right: 0;}
 
-*[style*="81388395867156480"] {background-image:url(https://i.imgur.com/qegjjyH.jpg)!important;}
+*[style*="81388395867156480"] {background-image:url(https://i.imgur.com/5dMIWlw.png)!important;}
 
 .app .guilds>div.guild:first-child .badge{margin: 0px 2px 0px 0px !important;padding: 20px 38px 16px 35px;border-radius: 0px !important;background-color: #19191b;border-bottom: 2px solid var(--main-color);transition: .2s background-color linear;}
 
