@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "2.1"
+	--version-content: "2.2"
 }
 /* Version Displayed */
 
@@ -746,7 +746,7 @@ textarea{background:transparent !important;}
 
 .create-guild-container .create-or-join .form-inner,.region-select-modal{background-color:#161617;}
 
-.form .form-inner{background-color:#0d0d0e;}
+.form .form-inner{background-color:#0d0d0e;color: #e0e0e0;}
 
 .create-guild-container{background-color:transparent;}
 
@@ -928,7 +928,7 @@ textarea{background:transparent !important;}
 
 .theme-dark .channel-textarea-autocomplete-inner header,.channel-textarea-autocomplete-inner header{border-bottom-color:var(--main-color);background-color:var(--main-color);color:#fff;border-radius:3px 3px 0px 0px;}
 
-.spinner-pulsing-ellipsis .spinner-item{background-color:#fff;}
+.spinner-pulsing-ellipsis .spinner-item{background-color:var(--main-color);}
 
 .message-group .mentioned .message-text{background:#111113 !important;}
 
@@ -2986,7 +2986,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .theme-dark .chat form .typing .text{border-top-right-radius:3px;line-height:20px;font-size:12px;}
 
-.theme-dark .chat form .typing .text, .theme-dark .chat form .typing .ellipsis{animation:typing .3s ease-in-out;background-color: var(--main-color) !important;}
+.theme-dark .chat form .typing .text, .theme-dark .chat form .typing .ellipsis{animation:typing .3s ease-in-out;background-color: transparent !important;}
 
 @keyframes typing{0%{margin-top:15px;}
 
@@ -3022,3 +3022,9 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 		box-shadow: 0 0 0 0 rgba(241, 71, 71, 0);
 	}
 }
+
+.ui-button.brand.filled:not(.disabled):active{background-color: var(--hover-color);}
+
+.ui-guild-nsfw .ui-button.filled::after{content: "Jesus is watching you";color: #fff;background: var(--main-color);width: 100%;height: 100%;position: absolute;top: 65px;right: 50%;line-height: 40px;padding-left: 10px;padding-right: 10px;border-radius: 3px;opacity: 0;transition: .2s all linear;}
+
+.ui-guild-nsfw .ui-button.filled:hover::after{opacity: 1;}
