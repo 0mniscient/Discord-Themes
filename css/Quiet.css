@@ -3020,3 +3020,5 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .ui-guild-nsfw .ui-button.filled::after{content: "Jesus is watching you";color: #fff;background: var(--main-color);width: 100%;height: 100%;position: absolute;top: 65px;right: 50%;line-height: 40px;padding-left: 10px;padding-right: 10px;border-radius: 3px;opacity: 0;transition: .2s all linear;}
 
 .ui-guild-nsfw .ui-button.filled:hover::after{opacity: 1;}
+
+.embed-wrapper .embed{padding-left: 18px;}
