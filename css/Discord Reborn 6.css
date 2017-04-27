@@ -1,5 +1,5 @@
 /* Version Displayed */
-:root {--version-content: "6.2";}
+:root {--version-content: "6.3";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
