@@ -236,7 +236,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small { background-colo
 
 .popout section { background-color: rgba(0, 0, 0, 0.7); }
 
-#voice-connection-popout hr { border: 1px solid var(--main-color); }
+#voice-connection-popout hr, #rtc-connection-popout hr{ border: 1px solid var(--main-color); }
 
 .small-popout-box { background: rgba(0, 0, 0, 0.5); border: 1px solid rgba(0, 0, 0, 0.28); }
 
@@ -504,7 +504,7 @@ textarea { background: transparent !important; }
 
 .links li a { color: #8C8F94; }
 
-.links, .chat, .typing, .content, .guild-channels, .private-channels, .guild-header header, .divider-red span, .messages-wrapper, #voice-connection { background: transparent !important; }
+.links, .chat, .typing, .content, .guild-channels, .private-channels, .guild-header header, .divider-red span, .messages-wrapper, #voice-connection, #rtc-connection { background: transparent !important; }
 
 .channels-wrap { background: rgba(0, 0, 0, 0.75); width: 220px; }
 
@@ -574,15 +574,15 @@ textarea { background: transparent !important; }
 
 .account .btn-deafen, .account .btn-mute { border-right: none; }
 
-#voice-connection { border-top: none !important; padding: 15px 20px 15px 18px !important; }
+#voice-connection, #rtc-connection { border-top: none !important; padding: 15px 20px 15px 18px !important; }
 
-#voice-connection .btn { background: rgba(0, 0, 0, 0.45); box-shadow: none !important; }
+#voice-connection .btn, #rtc-connection .btn { background: rgba(0, 0, 0, 0.45); box-shadow: none !important; }
 
-#voice-connection .btn:active { background: rgba(0, 0, 0, 0.6); }
+#voice-connection .btn:active, #rtc-connection .btn:active { background: rgba(0, 0, 0, 0.6); }
 
 .account .btn-deafen, .account .btn-settings { box-shadow: none !important; }
 
-.account .btn-group, #voice-connection .btn-group { border: none; }
+.account .btn-group, #voice-connection .btn-group, #rtc-connection .btn-group { border: none; }
 
 .title-wrap { border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important; background: rgba(0, 0, 0, 0.88) !important; }
 
@@ -700,7 +700,7 @@ textarea { background: transparent !important; }
 
 .bd-minimal .guild-channels h2 { margin-left: 10px; }
 
-.bd-minimal #voice-connection { width: 176px; margin-left: -46px; }
+.bd-minimal #voice-connection, .bd-minimal #rtc-connection { width: 176px; margin-left: -46px; }
 
 .bd-minimal .account { width: 176px; margin-left: -46px; }
 
@@ -1079,7 +1079,7 @@ div.control-group .shortcut-recorder input[type=text] { border: 1px solid var(--
 
 img.image { border-radius: 5px; }
 
-#voice-connection .btn { background: rgba(0, 0, 0, 0.45); box-shadow: none !important; border-radius: 40px; }
+#voice-connection .btn, #rtc-connection .btn { background: rgba(0, 0, 0, 0.45); box-shadow: none !important; border-radius: 40px; }
 
 .account .btn-deafen, .account .btn-mute, .account .btn-settings { background: rgba(0, 0, 0, 0.45); box-shadow: none !important; border-radius: 40px; }
 
@@ -1561,7 +1561,7 @@ a.avatar-small[style*="font-size: 18px;"] { top: -4px; }
 
 .guild-channels .channel-voice-states li.speaking .avatar-small:hover, .guild-channels .channel-voice-states li.speaking .draggable:hover .avatar-small { border-color: var(--hover-color); }
 
-#voice-connection .btn-info { border-right: 0px solid transparent; }
+#voice-connection .btn-info, #rtc-connection .btn-info { border-right: 0px solid transparent; }
 
 .message-group .comment .markup code.inline { background: rgba(255, 255, 255, 0.1) !important; color: rgba(255, 255, 255, 0.7) !important; padding: 0.3em 0.6em; }
 
@@ -1655,9 +1655,9 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .icon-muted, .account .btn-mute.disabled:after { background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_mic_off_white_24px.svg) !important; }
 
-#voice-connection .btn-info:after { background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_info_white_24px.svg) !important; zoom: 2.5; }
+#voice-connection .btn-info:after, #rtc-connection .btn-info:after { background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_info_white_24px.svg) !important; zoom: 2.5; }
 
-#voice-connection .btn-disconnect:after { background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_call_end_white_24px.svg); zoom: 1.3; }
+#voice-connection .btn-disconnect:after, #rtc-connection .btn-disconnect:after { background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_call_end_white_24px.svg); zoom: 1.3; }
 
 .checkbox .checkbox-inner input[type=checkbox]:checked + span:after { background: var(--hover-color); top: -3px; border-right: 0px; border-bottom: 0px; transform: translate(10px, 0px); box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4); }
 
@@ -1790,7 +1790,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
  .guilds-wrapper:hover ~ .channels-wrap {left: 80px;width: 178px;}
  .channels-wrap:hover {left: 6px;width: 178px;}
  .guild-channels .channel a {opacity: 0.7}
- #voice-connection .btn-group {margin-right: -56px;}
+ #voice-connection .btn-group, #rtc-connection .btn-group {margin-right: -56px;}
 }
 
 @media screen and (max-width: 725px) {
