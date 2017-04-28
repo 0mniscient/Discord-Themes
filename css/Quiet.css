@@ -2475,7 +2475,7 @@ to{background:#19191b}
  
 div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
-.popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item.leave:hover {cursor: url("https://betterdocs.net/assets/middlefinger.cur"), auto !important;}
+.popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item.leave:hover {cursor: url("https://betterdocs.net/classic/assets/middlefinger.cur"), auto !important;}
 
 .theme-dark .channel-textarea-autocomplete-inner ul.images li{transition:all 100ms cubic-bezier(0, 0, 0, 1);animation:images-search 1000ms cubic-bezier(.46, .16, 0, 1.31);animation-fill-mode:forwards;opacity:0;}
 
@@ -2497,7 +2497,7 @@ div.control-group .shortcut-recorder input[type=text] {line-height: 41px;}
 
 .emoji-picker .header { border-bottom: 2px solid var(--main-color);}
 
-.message-group .avatar-large[style*="172218388880293888"]:hover, .channel-members .member .avatar-small[style*="172218388880293888"]:hover {cursor: url("https://betterdocs.net/assets/penis.cur"), auto !important;}
+.message-group .avatar-large[style*="172218388880293888"]:hover, .channel-members .member .avatar-small[style*="172218388880293888"]:hover {cursor: url("https://betterdocs.net/classic/assets/penis.cur"), auto !important;}
 
 .quote-msg {box-shadow: 0px 0px 6px -2px #000;}
 
