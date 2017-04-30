@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "2.2"
+	--version-content: "2.3"
 }
 /* Version Displayed */
 
@@ -3022,3 +3022,5 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .ui-guild-nsfw .ui-button.filled:hover::after{opacity: 1;}
 
 .embed-wrapper .embed{padding-left: 18px;}
+
+.ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch{background: var(--hover-color);}
