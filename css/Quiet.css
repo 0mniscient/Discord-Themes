@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "2.4"
+	--version-content: "2.5"
 }
 /* Version Displayed */
 
@@ -3066,3 +3066,13 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .bd-blue .checkbox .checkbox-inner input[type=checkbox]:checked+span, .bd-blue .checkbox .checkbox-inner.alt input[type=checkbox]:checked+span:after, .bd-blue .download-apps .platforms .platform.active{border-color: var(--main-color);}
 
 .bd-blue .need-help-modal .header{background-color: transparent !important;}
+
+.theme-dark .private-channels .ui-scroller-wrap.ui-scroller-track>.scroller::-webkit-scrollbar-track, .theme-light .ui-scroller-themed.ui-scroller-dark.ui-scroller-track>.scroller::-webkit-scrollbar-track, .ui-scroller-themed.ui-scroller-dark.ui-scroller-track>.scroller::-webkit-scrollbar-track{background-color: #121213;}
+
+.theme-dark .private-channels .ui-scroller-wrap .scroller::-webkit-scrollbar-thumb, .theme-light .ui-scroller-themed.ui-scroller-dark .scroller::-webkit-scrollbar-thumb, .ui-scroller-themed.ui-scroller-dark .scroller::-webkit-scrollbar-thumb{background-color: var(--main-color);}
+
+.deprecated-settings-modal .settings-inner{background-color: #19191b;}
+
+.deprecated-settings-modal .settings-actions{background-color: #19191b;border-top: 2px solid var(--hover-color);}
+
+.message-group:not(.compact) .avatar-large[style*="196378466487107584"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="196378466487107584"] ~ .member-inner .member-username .member-username-inner::after{content:"Anything";color:#fff;background:#3e82e5;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:14px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;}
