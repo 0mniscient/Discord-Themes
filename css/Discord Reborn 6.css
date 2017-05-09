@@ -1,5 +1,5 @@
 /* Version Displayed */
-:root {--version-content: "6.4";}
+:root {--version-content: "6.5";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
@@ -1063,7 +1063,7 @@ div.control-group .shortcut-recorder input[type=text] { border: 1px solid var(--
 
 .offline { background-color: #982929; }
 
-.status-offline { background-color: #982929; }
+.status-offline { background-color: #747f8d; }
 
 @-webkit-keyframes friend-request-pulse { 0% { box-shadow: 0 0 0 0 #43b581; }
   70% { box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0); }
