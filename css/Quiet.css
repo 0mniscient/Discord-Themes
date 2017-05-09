@@ -3082,3 +3082,11 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .theme-dark .ui-scroller-themed.ui-scroller-light .scroller::-webkit-scrollbar-thumb, .theme-light .ui-scroller-wrap .scroller::-webkit-scrollbar-thumb, .ui-scroller-themed.ui-scroller-light .scroller::-webkit-scrollbar-thumb{background-color: var(--main-color);}
 
 #user-profile-modal .header .header-info .profile-badge{position: absolute;left: 3px;bottom: 0px;}
+
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message:last-of-type{border-bottom: 2px solid rgba(28, 36, 43, .6);}
+
+.theme-dark .search-results-wrap .action-buttons .jump-button{background-color: var(--main-color);color: #fff;transition: .2s background-color linear;}
+
+.theme-dark .search-results-wrap .action-buttons .jump-button:hover{background-color: var(--hover-color);}
+
+.search-result.expanded .jump-button{background-color: var(--hover-color) !important;;}
