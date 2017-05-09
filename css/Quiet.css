@@ -3083,7 +3083,9 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 #user-profile-modal .header .header-info .profile-badge{position: absolute;left: 3px;bottom: 0px;}
 
-.theme-dark .search-results-wrap .search-result.expanded .search-result-message:last-of-type{border-bottom: 2px solid rgba(28, 36, 43, .6);}
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit:last-of-type{border-bottom: 2px solid rgba(0, 0, 0, 0.45) !important;}
+
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message:last-of-type{border-bottom: 2px solid #19191b;}
 
 .theme-dark .search-results-wrap .action-buttons .jump-button{background-color: var(--main-color);color: #fff;transition: .2s background-color linear;}
 
