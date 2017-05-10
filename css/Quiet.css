@@ -407,7 +407,7 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 
 #friends .friends-table .friends-row .friends-column-status .status{width:100%;height:20px;border-radius:5px 5px 0 0;position:absolute;top:0;opacity:0.5;z-index:0;}
 
-#friends .friends-table .friends-row .friends-column-status .status-text{color:rgba(255, 255, 255, 0.5);font-weight:800px;max-width:90%;font-size:12px;line-height:normal;transition:color 300ms;z-index:0;}
+#friends .friends-table .friends-row .friends-column-status .status-text{color:rgba(255, 255, 255, 0.5);font-weight:800 !important;max-width:90%;font-size:12px;line-height:normal;transition:color 300ms;z-index:0;}
 
 #friends .friends-table .friends-row:hover .friends-column-status .status-text{color:#fff;}
 
