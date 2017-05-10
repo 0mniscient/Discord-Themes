@@ -3091,4 +3091,4 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .theme-dark .search-results-wrap .action-buttons .jump-button:hover{background-color: var(--hover-color);}
 
-.search-result.expanded .jump-button{background-color: var(--hover-color) !important;;}
+.search-result.expanded .jump-button{background-color: var(--hover-color) !important;}
