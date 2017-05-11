@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "2.5"
+	--version-content: "2.6"
 }
 /* Version Displayed */
 
@@ -3092,3 +3092,5 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .theme-dark .search-results-wrap .action-buttons .jump-button:hover{background-color: var(--hover-color);}
 
 .search-result.expanded .jump-button{background-color: var(--hover-color) !important;}
+
+.tooltips .tooltip{text-shadow: 0px 1px 3px #000}
