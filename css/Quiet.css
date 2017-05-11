@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "2.6"
+	--version-content: "2.7"
 }
 /* Version Displayed */
 
@@ -862,7 +862,7 @@ textarea{background:transparent !important;}
 
 .button{background-color:var(--main-color);}
 
-.guilds-wrapper .guilds-add{background:#0a0a0a;color:var(--main-color);border:1px dashed var(--main-color);}
+.guilds-wrapper .guilds-add{border: 0px solid transparent;position: fixed !important;bottom: 73px;width: 74px !important;border-radius: 0px;left: 0px;height: 3px !important;line-height: 1px;font-size: 0px !important;transition: .1s all linear;}
 
 .user-popout .body .roles .member-roles::-webkit-scrollbar{width:0px;}
 
@@ -904,7 +904,7 @@ textarea{background:transparent !important;}
 
 .markdown-modal ul li{color:#b3b3b3;}
 
-.guilds-wrapper .guilds-add:hover{color:var(--hover-color);border-color:var(--hover-color);}
+.guilds-wrapper .guilds-add:hover{border-color:transparent;height: 25px !important;line-height: 0px;font-size: 25px !important;}
 
 #friends .btn,.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected{background-color:var(--main-color);color:#fff;}
 
