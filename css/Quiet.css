@@ -3110,3 +3110,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .ui-text-area-max-length{color: #c51616;font-weight: 900;font-size: 13px;position: static;}
 
 .ui-text-area-max-length::before{content: "Characters Left: ";color: var(--hover-color);font-weight: 900;font-size: 13px;}
+
+.channel-textarea.channel-textarea-disabled .channel-textarea-inner textarea::-webkit-input-placeholder{color: #e74c3c !important;font-weight: 900;}
+
+.channel-textarea.channel-textarea-disabled{opacity: 1;}
