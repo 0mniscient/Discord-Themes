@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "2.7"
+	--version-content: "2.8"
 }
 /* Version Displayed */
 
@@ -3094,3 +3094,19 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .search-result.expanded .jump-button{background-color: var(--hover-color) !important;}
 
 .tooltips .tooltip{text-shadow: 0px 1px 3px #000}
+
+.user-popout-kick-body{color: #ffffff;}
+
+.modal-content{background-color: transparent;}
+
+.theme-light .ui-text-input .input.editable:focus:hover, .theme-light .ui-text-input .input.editable:hover:hover, .theme-light .ui-text-input .input:hover{border-color: var(--main-color);border-width: 2px;overflow-y: visible;padding-right: 0px !important;}
+	
+.theme-light .ui-text-input .input.editable, .theme-light .ui-text-input .input.editable, .theme-light .ui-text-input .input{overflow-y: hidden;padding-right: 0px !important;}
+
+.theme-light .ui-text-input .input, .theme-light .ui-text-input .input.editable:focus, .theme-light .ui-text-input .input.editable:hover{color: #c4c4c4;}
+
+.form .control-group label{color: var(--main-color) !important;}
+
+.ui-text-area-max-length{color: #c51616;font-weight: 900;font-size: 13px;position: static;}
+
+.ui-text-area-max-length::before{content: "Characters Left: ";color: var(--hover-color);font-weight: 900;font-size: 13px;}
