@@ -88,11 +88,19 @@ body{background: var(--main-color);}
 
 .settings .settings-header{background-color:var(--main-color);}
 
-.guilds-wrapper .guilds .guild .guild-inner{background-color:var(--main-color);position: relative;}
+.guilds-wrapper .guilds .guild .guild-inner{background-color:var(--main-color) !important;position: relative;}
+
+.guilds-wrapper .guilds .guild.selected .guild-inner, .guilds-wrapper .guilds .guild.active .guild-inner{background: #7289da !important;}
+
+.guilds-wrapper .guilds .guild:hover .guild-inner{background: #7289da !important;}
 
 .guilds-wrapper .guild-separator:after{background:var(--main-color);}
 
 .guilds-wrapper .guilds-add{background:transparent;color:#535559;border:1px dashed #535559;}
+
+.guilds-wrapper .guilds-add {color: var(--main-color) !important;border-color: var(--main-color) !important;filter: contrast(70%) brightness(103%)}
+
+.channel-members .member .member-activity{color: #8e8e8e;}
 
 .theme-dark .chat>.content,.theme-dark .friends-table,.theme-dark .messages-wrapper{background-color:transparent;}
 
