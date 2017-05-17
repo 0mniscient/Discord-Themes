@@ -88,7 +88,7 @@ body{background: var(--main-color);}
 
 .settings .settings-header{background-color:var(--main-color);}
 
-.guilds-wrapper .guilds .guild .guild-inner{background-color:var(--main-color) !important;}
+.guilds-wrapper .guilds .guild .guild-inner{background-color:var(--main-color);position: relative;}
 
 .guilds-wrapper .guild-separator:after{background:var(--main-color);}
 
@@ -195,3 +195,11 @@ body{background: var(--main-color);}
 .message-group .comment .markup code.inline{padding:2px 2px 0px 2px;}
 
 .invite-button{background-color:rgba(0, 0, 0, 0.15) !important;border-color:rgba(0, 0, 0, 0.07) !important;}
+
+div.guild-inner::before{content: "";width: 100%;height: 100%;left: 0px;background-color: rgba(0,0,0,0.16);position: absolute;pointer-events: none;}
+
+div.guild-inner:first-child::before{content: "";display: none;}
+
+.theme-dark .ui-standard-sidebar-view .sidebar-region{background: var(--main-color);}
+
+.theme-dark .ui-standard-sidebar-view .sidebar-region::before{content: "";width: 100%;height: 100%;position: absolute;background: rgba(0,0,0,0.19);}
