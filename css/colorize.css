@@ -196,9 +196,9 @@ body{background: var(--main-color);}
 
 .invite-button{background-color:rgba(0, 0, 0, 0.15) !important;border-color:rgba(0, 0, 0, 0.07) !important;}
 
-div.guild-inner::before{content: "";width: 100%;height: 100%;left: 0px;background-color: rgba(0,0,0,0.16);position: absolute;pointer-events: none;}
+div.guild:first-child div.guild-inner::before{content: "";display: none;}
 
-div.guild-inner:first-child::before{content: "";display: none;}
+div.guild div.guild-inner::before{content: "";width: 100%;height: 100%;left: 0px;background-color: rgba(0,0,0,0.16);position: absolute;pointer-events: none;}
 
 .theme-dark .ui-standard-sidebar-view .sidebar-region{background: var(--main-color);}
 
