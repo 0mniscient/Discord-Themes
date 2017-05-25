@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "2.8"
+	--version-content: "2.9"
 }
 /* Version Displayed */
 
@@ -3114,3 +3114,5 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .channel-textarea.channel-textarea-disabled .channel-textarea-inner textarea::-webkit-input-placeholder{color: #e74c3c !important;font-weight: 900;}
 
 .channel-textarea.channel-textarea-disabled{opacity: 1;}
+
+.theme-dark .channel-textarea-emoji{position: relative;}
