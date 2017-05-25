@@ -204,10 +204,28 @@ body{background: var(--main-color);}
 
 .invite-button{background-color:rgba(0, 0, 0, 0.15) !important;border-color:rgba(0, 0, 0, 0.07) !important;}
 
-div.guild:first-child div.guild-inner::before{content: "";display: none;}
+div.guild.active:first-child div.guild-inner::before, div.guild.selected div.guild-inner::before, div.guild div.guild-inner:hover::before{content: "";display: none;}
 
 div.guild div.guild-inner::before{content: "";width: 100%;height: 100%;left: 0px;background-color: rgba(0,0,0,0.16);position: absolute;pointer-events: none;}
 
+.guilds-wrapper .guild-separator::before{content: "";height: 100%;background-color: rgba(0,0,0,0.16);pointer-events: none;position: absolute;top: 0;left: 20%;right: 20%;z-index: 1;}
+
+.guilds-wrapper .guilds .friends-icon{z-index: 1;position: absolute;}
+
 .theme-dark .ui-standard-sidebar-view .sidebar-region{background: var(--main-color);}
 
-.theme-dark .ui-standard-sidebar-view .sidebar-region::before{content: "";width: 100%;height: 100%;position: absolute;background: rgba(0,0,0,0.19);}
+.theme-dark .ui-standard-sidebar-view .sidebar-region::before{content: "";width: 100%;height: 100%;position: absolute;background: rgba(0,0,0,0.11);}
+
+.ui-standard-sidebar-view .content-region {background: var(--main-color) !important;}
+
+.ui-card-primary {background: rgba(0,0,0,0.24) !important;border-color: rgba(0,0,0,0.20) !important;}
+
+.user-settings-connections .connect-account-btn .connect-account-btn-inner {background-color: var(--main-color) !important;border-color: rgba(0,0,0,0.39) !important;}
+
+.ui-card-primary.checked.editable{border-color: rgb(114, 137, 218) !important;background-color: rgb(114, 137, 218) !important;}
+
+.ui-card-primary.editable{background: rgba(0, 0, 0, 0.12) !important;}
+
+.ui-card.ui-card-primary.preview.outline{background-color: var(--main-color) !important;border-color: rgba(0,0,0,0.24) !important;}
+
+.theme-dark .ui-tab-bar-header{color: #757575;}
