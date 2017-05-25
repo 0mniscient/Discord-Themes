@@ -3116,3 +3116,11 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .channel-textarea.channel-textarea-disabled{opacity: 1;}
 
 .theme-dark .channel-textarea-emoji{position: relative;}
+
+.bd-pfbtn{background-color: var(--main-color);border-radius: 3px;transition: background .2s linear;}
+
+.bd-pfbtn:hover{background-color: var(--hover-color);}
+
+._3Mv0RaJ0{background-color: var(--main-color);color: #fff !important;}
+
+._3Mv0RaJ0:hover{background-color: var(--hover-color);}
