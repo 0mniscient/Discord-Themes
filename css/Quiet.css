@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "2.9"
+	--version-content: "3.0"
 }
 /* Version Displayed */
 
@@ -3124,3 +3124,53 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 ._3Mv0RaJ0{background-color: var(--main-color);color: #fff !important;}
 
 ._3Mv0RaJ0:hover{background-color: var(--hover-color);}
+
+.theme-dark .ui-popout-list{background:#141416;}
+
+.theme-dark .elevation-border-high{box-shadow:0 0 6px 1px rgba(6, 8, 11, 0.6), 0 2px 10px 0 rgba(0,0,0,.2);}
+
+.ui-selectable-item.selected, .theme-dark .ui-selectable-item:active{background:var(--main-color) !important;}
+
+.theme-dark .ui-selectable-item:active{background:var(--main-color) !important;color:#fff !important;}
+
+.theme-dark .ui-selectable-item:hover:active{color:#fff !important;}
+
+.theme-dark .ui-selectable-item:hover{background-color:#121213;color:var(--main-color) !important;border:1px solid var(--main-color);}
+
+.theme-dark .ui-selectable-item{border:1px solid transparent;}
+
+.ui-selectable-item.selected:hover{color:#fff !important;}
+
+.theme-dark .ui-audit-log .header, .theme-dark .ui-audit-log.ui-audit-log-expanded .header{background-color:#141416;}
+
+.theme-dark .ui-audit-log{border-color:#141416;}
+
+.theme-dark .ui-audit-log-change-details{background-color:#141416;}
+
+.theme-dark .ui-audit-log .divider{background-color:#1d1d1d;}
+
+.ui-audit-log.ui-audit-log-expanded{box-shadow:0px 0px 6px 0px #0b0b0b;transform:scale(1);}
+
+.ui-audit-log{box-shadow:0px 0px 5px 0px #0b0b0b;transform:scale(0.99);transition:.2s transform linear, .2s box-shadow linear;}
+
+.ui-audit-log:hover{box-shadow:0px 0px 6px 0px #0b0b0b;transform:scale(1);}
+
+.deprecated-settings-modal .settings-header{background-color:#121212;}
+
+.settings-panel h1, .selected-user .scroller-wrap .scroller h3{color:#fff;}
+
+#rtc-debug-modal #users-section .user-list li{color:#cacaca;}
+
+#rtc-debug-modal #users-section .user-list{border-right:2px solid #121212;}
+
+#rtc-debug-modal #users-section .user-list li:hover{background:linear-gradient(90deg,#121212,#19191b);}
+
+#rtc-debug-modal #users-section .user-list li:hover:before{background-color:var(--main-color);}
+
+#rtc-debug-modal #users-section .user-list li:before{width:3px;}
+
+.theme-dark .ui-popout-list .ui-scroller-wrap.ui-scroller-track>.scroller::-webkit-scrollbar-track, .theme-light .ui-popout-list .ui-scroller-themed.ui-scroller-dark.ui-scroller-track>.scroller::-webkit-scrollbar-track, .ui-popout-list .ui-scroller-themed.ui-scroller-dark.ui-scroller-track>.scroller::-webkit-scrollbar-track{background-color:#19191b !important;}
+
+.theme-dark .ui-scroller-wrap .scroller.ui-popout-list-options::-webkit-scrollbar-thumb, .theme-light .ui-scroller-themed.ui-scroller-dark .scroller.ui-popout-list-options::-webkit-scrollbar-thumb, .ui-scroller-themed.ui-scroller-dark .scroller.ui-popout-list-options::-webkit-scrollbar-thumb{background-color:var(--main-color);}
+
+.ui-scroller-wrap .scroller.ui-popout-list-options::-webkit-scrollbar{width:12px;}
