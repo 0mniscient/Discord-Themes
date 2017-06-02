@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "3.0"
+	--version-content: "3.1"
 }
 /* Version Displayed */
 
@@ -3174,3 +3174,11 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .theme-dark .ui-scroller-wrap .scroller.ui-popout-list-options::-webkit-scrollbar-thumb, .theme-light .ui-scroller-themed.ui-scroller-dark .scroller.ui-popout-list-options::-webkit-scrollbar-thumb, .ui-scroller-themed.ui-scroller-dark .scroller.ui-popout-list-options::-webkit-scrollbar-thumb{background-color:var(--main-color);}
 
 .ui-scroller-wrap .scroller.ui-popout-list-options::-webkit-scrollbar{width:12px;}
+
+.container-RYiLUQ{background-color: #19191b;}
+
+.contentSelectedText-3j5CXt, .contentSelectedVoice-gTtYM9{background-color: #121213;}
+
+.contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-gTtYM9:active, .userHovered-3tfm93:active{background-color: #151515 !important;}
+
+.containerUserOver-2YhVL6:after{background-color: rgba(2, 2, 2, 0.1);border: 2px solid var(--main-color);}
