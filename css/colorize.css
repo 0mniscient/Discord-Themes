@@ -88,17 +88,17 @@ body{background: var(--main-color);}
 
 .settings .settings-header{background-color:var(--main-color);}
 
-.guilds-wrapper .guilds .guild .guild-inner{background-color:var(--main-color) !important;position: relative;}
+.app .guilds-wrapper .guilds .guild .guild-inner{background-color:var(--main-color) !important;position: relative;}
 
-.guilds-wrapper .guilds .guild.selected .guild-inner, .guilds-wrapper .guilds .guild.active .guild-inner{background: #7289da !important;}
+.app .guilds-wrapper .guilds .guild.selected .guild-inner, .guilds-wrapper .guilds .guild.active .guild-inner{background: #7289da !important;}
 
-.guilds-wrapper .guilds .guild:hover .guild-inner{background: #7289da !important;}
+.app .guilds-wrapper .guilds .guild:hover .guild-inner{background: #7289da !important;}
 
-.guilds-wrapper .guild-separator:after{background:var(--main-color);}
+.app .guilds-wrapper .guild-separator:after{background:var(--main-color);}
 
-.guilds-wrapper .guilds-add{background:transparent;color:#535559;border:1px dashed #535559;}
+.app .guilds-wrapper .guilds-add{background:transparent;color:#535559;border:1px dashed #535559;}
 
-.guilds-wrapper .guilds-add {color: var(--main-color) !important;border-color: var(--main-color) !important;filter: contrast(70%) brightness(103%)}
+.app .guilds-wrapper .guilds-add {color: var(--main-color) !important;border-color: var(--main-color) !important;filter: contrast(70%) brightness(103%)}
 
 .channel-members .member .member-activity{color: #8e8e8e;}
 
@@ -110,7 +110,7 @@ body{background: var(--main-color);}
 
 .chat form .typing{background-color:transparent !important;}
 
-.guilds-wrapper .btn-download-apps{display:none;}
+.app .guilds-wrapper .btn-download-apps{display:none;}
 
 /*Scrollbar*/
 ::-webkit-scrollbar-track-piece,.app .scroller-wrap .scroller.messages::-webkit-scrollbar-track-piece, .app .scroller-wrap .scroller.guilds::-webkit-scrollbar-track-piece, .theme-dark .friends-table .scroller-wrap .scroller::-webkit-scrollbar-track-piece {background: rgba(0, 0, 0, 0.2);}
@@ -176,7 +176,7 @@ body{background: var(--main-color);}
 
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {background: linear-gradient(-180deg,rgba(200,200,200,.007) 0,rgba(210,210,210,.01) 100%);}
 
-.guild-channels .channel-voice .channel-arrow:hover{background-color:rgba(255,255,255,.07);}
+.app .guild-channels .channel-voice .channel-arrow:hover{background-color:rgba(255,255,255,.07);}
 
 .private-channel-recipients-invite.themed-popout{background:transparent;}
 
@@ -204,13 +204,13 @@ body{background: var(--main-color);}
 
 .invite-button{background-color:rgba(0, 0, 0, 0.15) !important;border-color:rgba(0, 0, 0, 0.07) !important;}
 
-div.guild.active:first-child div.guild-inner::before, div.guild.selected div.guild-inner::before, div.guild div.guild-inner:hover::before{content: "";display: none;}
+.app div.guild.active:first-child div.guild-inner::before, div.guild.selected div.guild-inner::before, div.guild div.guild-inner:hover::before{content: "";display: none;}
 
-div.guild div.guild-inner::before{content: "";width: 100%;height: 100%;left: 0px;background-color: rgba(0,0,0,0.16);position: absolute;pointer-events: none;}
+.app div.guild div.guild-inner::before{content: "";width: 100%;height: 100%;left: 0px;background-color: rgba(0,0,0,0.16);position: absolute;pointer-events: none;}
 
-.guilds-wrapper .guild-separator::before{content: "";height: 100%;background-color: rgba(0,0,0,0.16);pointer-events: none;position: absolute;top: 0;left: 20%;right: 20%;z-index: 1;}
+.app .guilds-wrapper .guild-separator::before{content: "";height: 100%;background-color: rgba(0,0,0,0.16);pointer-events: none;position: absolute;top: 0;left: 20%;right: 20%;z-index: 1;}
 
-.guilds-wrapper .guilds .friends-icon{z-index: 1;position: absolute;}
+.app .guilds-wrapper .guilds .friends-icon{z-index: 1;position: absolute;}
 
 .theme-dark .ui-standard-sidebar-view .sidebar-region{background: var(--main-color);}
 
@@ -250,3 +250,6 @@ div.guild div.guild-inner::before{content: "";width: 100%;height: 100%;left: 0px
 
 .wrapper-2ldvyE{background-color:var(--main-color);}
 
+.app .guild.unread.audio .guild-inner {position: inherit;}
+
+.ui-button-group-item{border-color: rgba(0, 0, 0, 0.5) !important;}
