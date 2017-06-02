@@ -3182,3 +3182,9 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-gTtYM9:active, .userHovered-3tfm93:active{background-color: #151515 !important;}
 
 .containerUserOver-2YhVL6:after{background-color: rgba(2, 2, 2, 0.1);border: 2px solid var(--main-color);}
+
+.unread-23Kvxk{background-color: var(--main-color);}
+
+.ui-scroller-wrap.ui-scroller-ghost-hairline.ui-scroller-themed.ui-scroller-fade .scroller.scroller-NXV0-d::-webkit-scrollbar-thumb{background-color: var(--main-color);}
+
+.private-channels .scroller::-webkit-scrollbar{width: 11px;}
