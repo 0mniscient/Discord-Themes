@@ -3190,5 +3190,3 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .private-channels .scroller::-webkit-scrollbar{width: 11px;}
 
 .wrapperDefault-1Dl4SS, .wrapperHovered-1KDCyZ, .wrapperMuted-PmsxPn, .wrapperUnread-450E16{height: 0px;padding-top: 7px;padding-bottom: 20px;}
-
-.popout.popout-bottom:not(.no-arrow){top: -3px !important;left: 79px !important;transform: initial !important;}
