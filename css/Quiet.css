@@ -2789,7 +2789,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .popout.popout-top:not(.no-arrow){z-index: 8;}
 
-.scroller.channel-members{height: calc(100% - 73px);}
+[class*="scroller-"].channel-members{height: calc(100% - 73px);}
 
 #friends .friends-table .friends-table-body{height: calc(100% - 133px);}
 
