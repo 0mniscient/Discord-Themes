@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "3.3"
+	--version-content: "3.4"
 }
 /* Version Displayed */
 
@@ -3199,7 +3199,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 [class*="itemDefault"]:hover{background-color: #141415;}
 
-[class*="itemDefaultSelected"]:hover{background-color: var(--hover-color);}
+.theme-dark [class*="itemDefaultSelected"]:hover{background-color: var(--hover-color);}
 
 .theme-dark [class*="cardPrimaryEditable"]{background: rgba(32,34,37,.3) !important;border-color: #202225 !important;}
 
@@ -3216,3 +3216,19 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 [class*="buttonBrandFilled"]{color: #fff !important;background-color: var(--main-color);}
 
 [class*="buttonBrandFilledDefault-"]:hover{background-color: var(--hover-color);}
+
+[class*="itemBrand-"]{color: var(--main-color);font-weight: bold;}
+
+[class*="barFill-"]{background: var(--main-color);}
+
+[class*="checked-"]{stroke: var(--main-color);}
+
+[class*="switchWrapperDefaultActive-"]:hover [class*="switch-"][class*="checked-"], .user-settings-notifications .notifications-sound:hover [class*="switch-"]{background: var(--main-color) !important;}
+
+.theme-dark [class*="switch"][class*="checked"]{background: var(--hover-color) !important;}
+
+[class*="nameDefaultText-"], [class*="nameDefaultVoice-"], [class*="nameLockedText-"], [class*="nameLockedVoice-"]{color: #828282;}
+
+[class*="nameMutedText-"], [class*="nameMutedVoice-"]{color: #5a5a5a;}
+
+[class*="nameDefault-"]{color: #a5a5a5;}
