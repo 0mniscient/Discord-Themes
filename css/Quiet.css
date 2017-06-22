@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "3.4"
+	--version-content: "3.5"
 }
 /* Version Displayed */
 
@@ -2455,7 +2455,7 @@ to{background:#19191b}
 
 .message-group .edit-message .channel-textarea-inner, .message-group .edit-message .channel-textarea-inner textarea{padding: 6px 0px!important;}
 
-.upload-modal .inner .comment .channel-textarea .channel-textarea-inner {padding: 0 0!important;border-radius: 3px!important;background: rgba(0,0,0,0.3) !important;}
+.upload-modal .inner .comment .channel-textarea .channel-textarea-inner {padding: 0 0!important;border-radius: 3px!important;background: rgba(0,0,0,0.3) !important;border-left: 0px solid transparent !important;border-right: 0px solid transparent !important;}
 
 .upload-modal .inner .comment .channel-textarea .channel-textarea-inner textarea {padding: 5px 0px !important;}
 
@@ -3232,7 +3232,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 [class*="nameDefault-"]{color: #a5a5a5;}
 
-.theme-dark [class*="modal-"]{background-color: #0f0f10;box-shadow: 0px 0px;}
+.theme-dark [class*="modal-"] [class*="inner-"] [class*="modal-"]{background-color: #0f0f10;box-shadow: 0px 0px;}
 
 .theme-dark [class*="footer-"]{box-shadow: 0px 0px;border-top: 2px solid var(--main-color);}
 
