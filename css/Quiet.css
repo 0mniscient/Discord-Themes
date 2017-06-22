@@ -2003,7 +2003,7 @@ form.modal-content.form.need-help-modal::after{content:"";background:#fff;positi
 
 .need-help-modal .header h1{color:transparent;font-weight:700;margin:38px 0px 0px;font-size:18px;margin-right:36%;top:15%;position:relative;}
 
-.need-help-modal .header h1::after{content:"Quiet";color:#fff;font-weight:700;font-size:250%;z-index:11;position:absolute;width:100%;top:110%;font-family:Satisfy;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);}
+.need-help-modal .header h1::after{content:"Quiet";color:#fff;font-weight:700;font-size:250%;z-index:11;position:absolute;width:100%;left: 0%;top: 12px;font-family:Satisfy;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);}
 
 .need-help-modal .form-inner.loading{background:transparent;padding-bottom:0px;padding-top:0px;}
 
@@ -3206,3 +3206,13 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .theme-dark [class*="checked"]{border-color: var(--main-color);background: #19191b;border-width: 2px;}
 
 .theme-dark [class*="checkbox"]{border-width: 2px;}
+
+.need-help-modal.deprecated .header{background-color: transparent;height: 125px;}
+
+.need-help-modal.deprecated .footer{padding: 0px;background-color: transparent;}
+
+.theme-dark [class*="input-"]:focus{border-color: var(--main-color);}
+
+[class*="buttonBrandFilled"]{color: #fff !important;background-color: var(--main-color);}
+
+[class*="buttonBrandFilledDefault-"]:hover{background-color: var(--hover-color);}
