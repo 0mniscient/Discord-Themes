@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "3.5"
+	--version-content: "3.7"
 }
 /* Version Displayed */
 
@@ -840,7 +840,7 @@ textarea{background:transparent !important;}
 
 .notification-settings-modal .notification-settings-modal-channel-settings-header label{color:#a0a0a0;}
 
-.notification-settings-modal .notification-settings-modal-channel-settings-list{box-shadow:0 -2px var(--main-color) !important;}
+.notification-settings-modal .notification-settings-modal-channel-settings-list{box-shadow:0 -2px var(--main-color) !important;background-color: transparent !important;}
 
 .channel-notification-settings .content label{color:#888888;}
 
@@ -3237,3 +3237,9 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .theme-dark [class*="footer-"]{box-shadow: 0px 0px;border-top: 2px solid var(--main-color);}
 
 .container-3lnMWU{background: #19191b;border-bottom: 0px solid transparent;box-shadow: 4px -1px 16px -1px rgba(0, 0, 0, 0.46);position: relative;z-index: 1;}
+
+.channel-textarea.channel-textarea-disabled textarea{text-align: center;}
+
+.form.deprecated .btn-primary{background-color: var(--main-color);}
+
+.notification-settings-modal .notification-settings-modal-channel-settings-header{background-color: transparent !important;}
