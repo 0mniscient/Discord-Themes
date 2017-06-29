@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "3.8"
+	--version-content: "3.9"
 }
 /* Version Displayed */
 
@@ -756,7 +756,7 @@ textarea{background:transparent !important;}
 
 .region-select-modal .region-select-modal-option:hover{border-color:var(--main-color);}
 
-.region-select-modal .region-select-modal-footer{color:#b1b1b1;}
+.region-select-modal .region-select-modal-footer{color:#b1b1b1;background-color: transparent !important;}
 
 .create-guild-container p{color:#bfbfbf;}
 
@@ -3271,3 +3271,25 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .popout.popout-top-right section:before, .popout.popout-top section:before{border-top-color: var(--main-color);}
 
 [class*="itemBrandSelected-"]{background-color: var(--main-color);}
+
+.create-guild-container.deprecated .action:hover.create .btn{background-color: var(--hover-color);}
+
+.create-guild-container.deprecated, .create-guild-container.deprecated .create-or-join .form-inner, .form.deprecated .form-inner, .form.deprecated .form-actions{background-color: #0d0d0d;}
+
+.form.deprecated header, .create-guild-container.deprecated .action.create .action-header{color: var(--main-color);}
+
+.create-guild-container.deprecated .action{background: #0b0b0b;box-shadow: 0px 0px 11px 0px rgb(0, 0, 0);}
+
+.form.deprecated .form-actions {border-top: 2px solid var(--main-color);}
+
+.region-select-modal .region-select-modal-header{background-color: transparent !important;}
+
+.region-select-modal .region-select-modal-options{background-color: transparent !important;}
+
+.form.deprecated .btn-default{background-color: #0d0d0d;border-bottom: 0px solid transparent;}
+
+.create-guild-container.deprecated .form-actions .btn-default{color: #c8c8c8;}
+
+.form.deprecated .btn-default:hover{border-bottom: 0px solid transparent;}
+
+.create-guild-container.deprecated .join-server .sample-link{color: var(--main-color);}
