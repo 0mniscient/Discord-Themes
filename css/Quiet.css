@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "3.9"
+	--version-content: "4.0"
 }
 /* Version Displayed */
 
@@ -61,7 +61,7 @@ padding:15px 20px 15px 18px !important;}
 
 .chat>.content .messages .message-group{border-bottom:none !important;}
 
-.chat>.content .messages .message-group a{color:#25ACE8 !important;}
+.chat>.content .messages .message-group a{color: var(--main-color) !important;}
 
 .chat>.content .messages .message-group .markup{color:#aaaaaa;line-height:1.3em;padding:0;}
 
@@ -3293,3 +3293,5 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .form.deprecated .btn-default:hover{border-bottom: 0px solid transparent;}
 
 .create-guild-container.deprecated .join-server .sample-link{color: var(--main-color);}
+
+.guilds-wrapper .guilds .guild.selected .guild-inner:not([style*="background-color:"]), .guilds-wrapper .guilds .guild:hover .guild-inner:not([style*="background-color:"]){background-color:#0a0a0a !important;}
