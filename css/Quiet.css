@@ -3297,3 +3297,5 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .guilds-wrapper .guilds .guild.selected .guild-inner:not([style*="background-color:"]), .guilds-wrapper .guilds .guild:hover .guild-inner:not([style*="background-color:"]){background-color:#0a0a0a !important;}
 
 .form.deprecated .control-group input[type=email], .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password], .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea {color: #eaeaea;}
+
+.emoji {margin: 0 !important;}
