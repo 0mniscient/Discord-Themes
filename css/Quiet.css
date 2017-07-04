@@ -61,7 +61,7 @@ padding:15px 20px 15px 18px !important;}
 
 .chat>.content .messages .message-group{border-bottom:none !important;}
 
-.chat>.content .messages .message-group a{color: var(--main-color) !important;}
+.chat>.content .messages .message-group a{color: var(--main-color) !important;font-weight: 500;}
 
 .chat>.content .messages .message-group .markup{color:#aaaaaa;line-height:1.3em;padding:0;}
 
