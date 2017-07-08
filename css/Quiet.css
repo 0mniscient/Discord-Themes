@@ -3303,3 +3303,5 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .theme-dark [class*="changeDetails"] {background: #19191b !important;border-color: rgba(32, 34, 37, 0) !important;box-shadow: 0px 0px 3px 1px #121212;}
 
 .theme-dark .layer, .theme-dark .layers, body{background: #19191b !important;}
+
+.modal-image{background: transparent !important;}
