@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "4.1"
+	--version-content: "4.2"
 }
 /* Version Displayed */
 
@@ -153,7 +153,7 @@ div.avatar-large{border-radius:5px;}
 
 .guild-channels .channel-text:hover.channel-muted:before,.guild-channels .channel-text:hover:not(.unread):before{border-left:3px solid var(--main-color);}
 
-.theme-dark .chat form{border-top: 2px solid #212121 !important;}
+.theme-dark .chat form{border-top: 2px solid #212121 !important;border-left: 2px solid #212121 !important;border-right: 2px solid #212121 !important;}
 
 .channel-textarea{box-shadow: 0 0 transparent;margin: 0px;border-radius: 0px;-webkit-transition: all 200ms ease;transition: all 200ms ease;}
 
@@ -3305,3 +3305,9 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .theme-dark .layer, .theme-dark .layers, body{background: #19191b !important;}
 
 .modal-image{background: transparent !important;}
+
+.channel-text-area-default{margin: 12px 0 14px;}
+
+.theme-dark .inner-3if5cm{background-color: #19191b;}
+	
+.theme-dark [class*="attachButtonDivider-"]{background-color:transparent;}
