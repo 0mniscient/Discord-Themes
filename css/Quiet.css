@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "4.2"
+	--version-content: "4.3"
 }
 /* Version Displayed */
 
@@ -3311,3 +3311,17 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .theme-dark .inner-3if5cm{background-color: #19191b;}
 	
 .theme-dark [class*="attachButtonDivider-"]{background-color:transparent;}
+
+.platform-osx .titlebar{width: 100%;height: 25px;absolute;top: 0;right: 0;left: 0;}
+
+.platform-osx .titlebar .osx-buttons{position: absolute;top: 17px;left: initial;right: 15px;}
+
+.platform-osx .title-wrap{padding: 0 85px 0 0;}
+
+.platform-osx .guilds-wrapper{padding: 50px 0 0 0;}
+
+.platform-osx .guilds-wrapper .guilds{height: calc(100% - 95px);}
+
+.platform-osx .channel-notices .channel-notice{margin: 10px 0 0 0;}
+
+.platform-osx .popout.popout-bottom[style*="top: 48px"]{background: none; /* you need this because the server settings looks weird when a QuickSwitcher exists on top of the channels list*/}
