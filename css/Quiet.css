@@ -2783,8 +2783,6 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 #friends .friends-table .friends-table-body::after{content: "";background: #19191b;width: 1400px;height: 70px;bottom: 0px;position: absolute;border-top: 2px solid #212121;}
 
-.guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before{left: -18px;}
-
 .account .avatar-small{margin-left: 13px;}
 
 .popout.popout-top:not(.no-arrow){z-index: 8;}
