@@ -1,12 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "4.3"
+	--version-content: "4.4"
 }
 /* Version Displayed */
 
 .version{display:inline-block;margin:0px 0px 0px 0px;}
 
 .version:after{content:var(--version-content);display:block;font-size:14px;font-weight:700;color:#43B581;}
+
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before{content: "Quiet v" var(--version-content) "\A \A Theme Options:\A \A - Show/Hide Blocked messages\A - Loading Theme Animation\A - Remove spacing between messages \A - Remove Channel Mentions Bar \A - Remove Server Mentions Bar\A - Remove Embed Enlarging\A - Christmas Things\A - Normal Guild/Server Icon Sizes\A - Circle Avatars\A - Revert bottom to default look\A - Minimized Channel Members\A - Background Around Messages\A - Minimized Servers\A - Nitro Tag \A \A Go to discord.io/mrrobot to show love and support! <3"!important;}
+
+#bd-settingspane-container .content-column.default .ui-form-title.h2::after{content: "Hi, I have a server where I post customizable options for the theme and you can give \A me feedback, also with tons of bots. Join the server at discord.io/mrrobot \A\A It's also easier to report bugs and has a higher change of getting them fixed faster."!important;}
 
 .themedescription{display:block;width:100%;margin-right:5px;}
 
@@ -2779,7 +2783,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .ui-card[style*="padding: 10px; border-color: rgb(240, 71, 71); background-color: rgb(240, 71, 71);"] {border-color: #f04747 !important;background-color: #f04747 !important;border: 2px solid #f04747 !important;}
 
-.channel-members::after {content: "Quiet v"var(--version-content);font-family: "Satisfy";text-align: center;background: #19191b;color: #2e2e30;font-weight: 700;font-size: 250%;width: 100%;height: 70px;bottom: 0px;position: absolute;line-height: 75px;border-top: 2px solid #212121;left: -2px;z-index: 1;border-radius: 0px !important;padding-right: 30px;}
+.channel-members::after {content: "Quiet v"var(--version-content);font-family: "Satisfy";text-align: center;background: #19191b;color: #2e2e30;font-weight: 700;font-size: 250%;width: 185%;height: 70px;bottom: 0px;position: absolute;line-height: 75px;border-top: 2px solid #212121;left: -30px;z-index: 1;border-radius: 0px !important;padding-right: 30px;}
 
 #friends .friends-table .friends-table-body::after{content: "";background: #19191b;width: 1400px;height: 70px;bottom: 0px;position: absolute;border-top: 2px solid #212121;}
 
@@ -3323,3 +3327,25 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .platform-osx .channel-notices .channel-notice{margin: 10px 0 0 0;}
 
 .platform-osx .popout.popout-bottom[style*="top: 48px"]{background: none; /* you need this because the server settings looks weird when a QuickSwitcher exists on top of the channels list*/}
+
+.theme-dark [class*="autocomplete-"]{background-color:#19191b;box-shadow:0px 0px 6px 0px #101010;border-radius:3px !important;margin-bottom:20px !important;animation:opacity-autocomplete 200ms;}
+
+@keyframes opacity-autocomplete{0%{opacity:0;}
+
+100%{opacity:1;}
+
+}
+
+.theme-dark [class*="selectorSelected-"]{background-color:#141414;}
+
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .ui-form-title.h2::after{display:block;position:relative;background:var(--main-color);padding:10px 15px;white-space:pre;margin-bottom:-10px;margin-top:15px;border-radius:2px;box-shadow:0 2px 10px rgba(0, 0, 0, .2);font-weight:600;color:#fff;text-transform:initial;text-align:center;}
+
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before{display:block;position:relative;background:#43B581;padding:10px 15px;white-space:pre;margin-bottom:10px;border-radius:2px;box-shadow:0 2px 10px rgba(0, 0, 0, .2);font-weight:600;margin-top:2px;color:#fff;text-transform:initial;}
+
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .ui-form-title.h2+.bd-pfbtn{top:60px;position:absolute;left:120px;background:var(--main-color);font-weight:600;}
+
+.bd-pfbtn{margin-bottom:5px;box-shadow:0 6px 10px rgba(0, 0, 0, .0);transition:all 200ms ease;border-radius:3px;}
+
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default{position:relative;}
+
+.content-region #bd-customcss-attach-controls::after{width:100%;padding:10px;content:"To change the default colors just copy and paste the code below\A and replace the hex codes with your own. (those are my colors)\A \A:root{\A --main-color:#e91e63 !important;\A --hover-color:#b81147 !important;\A}\A\A To add custom options to the theme, copy the following code from\A my server and place the options you want in the box above.\A\A Don't forget to save/update when you're done!\A";background:#43B581;margin-top:10px;display:block;border-radius:2px;font-family:Consolas, Liberation Mono, Menlo, Courier, monospace;white-space:pre;color:#fff;margin-bottom:0px;width:auto;}
