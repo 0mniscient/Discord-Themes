@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "4.5"
+	--version-content: "4.5e"
 }
 /* Version Displayed */
 
@@ -3660,15 +3660,15 @@ div.platform-win .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(15
 
 .textAreaEdit-1qc9VQ{box-shadow: 0px 0px 6px 0px #101010;}
 
-form .bf-toolbar{position:absolute;transform:translate(0px, -60px);}
+form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !important;z-index:5;}
 
-.bf-toolbar .bf-arrow{right:1px;top:16px;background-color:#19191b;opacity:1;border-left:2px solid #212121;border-right:2px solid #212121;border-top:2px solid #212121;}
+.bf-toolbar .bf-arrow{right:1px !important;top:16px !important;background-color:#19191b !important;opacity:1 !important;border-left:2px solid #212121 !important;border-right:2px solid #212121 !important;border-top:2px solid #212121 !important;z-index:1 !important;}
 
-.bf-toolbar.bf-visible .bf-arrow, .bf-toolbar.bf-hover:hover .bf-arrow{-webkit-transform:translate(7px,-5px)rotate(-90deg);-ms-transform:translate(7px,-5px)rotate(-90deg);transform:translate(7px,-5px)rotate(-90deg);width:43px;height:23px;opacity:1;border-top:2px solid #212121;border-right:2px solid #212121 !important;border-bottom:2px solid #212121;border-left:2px solid}
+.bf-toolbar.bf-visible .bf-arrow, .bf-toolbar.bf-hover:hover .bf-arrow{-webkit-transform:translate(7px,-5px)rotate(-90deg) !important;-ms-transform:translate(7px,-5px)rotate(-90deg) !important;transform:translate(7px,-5px)rotate(-90deg !important);width:43px !important;height:23px !important;opacity:1 !important;border-top:2px solid #212121 !important;border-right:2px solid #212121 !important;border-bottom:2px solid #212121 !important;border-left:2px solid #19191b!important;z-index:0 !important;}
 
-.bf-toolbar:before{content:"";width:96%;background:#19191b;box-shadow:0px 0px 7px 0px #0a0a0a;left:6px;}
+.bf-toolbar:before{content:"";width:95% !important;background:#19191b !important;box-shadow:0px 0px 0px 0px #0a0a0a !important;border:2px solid #212121 !important;border-right:0px solid transparent !important;left:6px !important;}
 
-.bf-toolbar div:not(.bf-arrow):hover{background:rgb(32, 32, 32);color:#fff;}
+.bf-toolbar div:not(.bf-arrow):hover{background:rgb(32, 32, 32) !important;color:#fff !important;}
 
 .guild.guild-sorter{height:8px !important;}
 
@@ -3678,3 +3678,10 @@ form .bf-toolbar{position:absolute;transform:translate(0px, -60px);}
 
 .ui-standard-sidebar-view #editor-detached button{background:var(--main-color) !important;}
 
+.bf-toolbar div:not(.bf-arrow){margin-top:-2px;}
+
+.bf-toolbar.bf-visible div:not(.bf-arrow), .bf-toolbar.bf-hover:hover div:not(.bf-arrow){z-index:2;}
+
+.bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before{-webkit-transform:translate(0,-4px)!important;-ms-transform:translate(0,-4px)!important;transform:translate(0,-4px) !important;z-index:1;}
+
+#autocomplete-popout .autocomplete-scroller{background-color:transparent !important;box-shadow:0px 0px 0px 0px #101010 !important;}
