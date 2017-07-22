@@ -3685,3 +3685,11 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 .bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before{-webkit-transform:translate(0,-4px)!important;-ms-transform:translate(0,-4px)!important;transform:translate(0,-4px) !important;z-index:1;}
 
 #autocomplete-popout .autocomplete-scroller{background-color:transparent !important;box-shadow:0px 0px 0px 0px #101010 !important;}
+
+.edit-container-inner .bf-toolbar.bf-visible:before, .edit-container-inner .bf-toolbar.bf-hover:before {transform: translate(0,-4px) !important;}
+
+.edit-container-inner .bf-toolbar:before {border-right: 2px solid #212121 !important;}
+
+.edit-container-inner .bf-toolbar{-webkit-transform: translate(21px,-100%);-ms-transform: translate(21px,-100%);transform: translate(21px,-100%);}
+
+.bf-toolbar div:not(.bf-arrow):hover{background: var(--hover-color) !important;}
