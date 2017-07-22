@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "4.4i"
+	--version-content: "4.5"
 }
 /* Version Displayed */
 
@@ -3659,3 +3659,22 @@ div.platform-win .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(15
 }
 
 .textAreaEdit-1qc9VQ{box-shadow: 0px 0px 6px 0px #101010;}
+
+form .bf-toolbar{position:absolute;transform:translate(0px, -60px);}
+
+.bf-toolbar .bf-arrow{right:1px;top:16px;background-color:#19191b;opacity:1;border-left:2px solid #212121;border-right:2px solid #212121;border-top:2px solid #212121;}
+
+.bf-toolbar.bf-visible .bf-arrow, .bf-toolbar.bf-hover:hover .bf-arrow{-webkit-transform:translate(7px,-5px)rotate(-90deg);-ms-transform:translate(7px,-5px)rotate(-90deg);transform:translate(7px,-5px)rotate(-90deg);width:43px;height:23px;opacity:1;border-top:2px solid #212121;border-right:2px solid #212121 !important;border-bottom:2px solid #212121;border-left:2px solid}
+
+.bf-toolbar:before{content:"";width:96%;background:#19191b;box-shadow:0px 0px 7px 0px #0a0a0a;left:6px;}
+
+.bf-toolbar div:not(.bf-arrow):hover{background:rgb(32, 32, 32);color:#fff;}
+
+.guild.guild-sorter{height:8px !important;}
+
+.guild-sorter .guild-inner{background:#19191b !important;}
+
+.bd-detached-css-editor #bd-customcss-attach-controls button:active,.ui-standard-sidebar-view #bd-customcss-attach-controls button:active,.ui-standard-sidebar-view #editor-detached button:active{background:var(--hover-color) !important;}
+
+.ui-standard-sidebar-view #editor-detached button{background:var(--main-color) !important;}
+
