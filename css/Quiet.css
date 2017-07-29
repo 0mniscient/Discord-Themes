@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "4.5e"
+	--version-content: "4.5"
 }
 /* Version Displayed */
 
@@ -3693,3 +3693,5 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 .edit-container-inner .bf-toolbar{-webkit-transform: translate(21px,-100%);-ms-transform: translate(21px,-100%);transform: translate(21px,-100%);}
 
 .bf-toolbar div:not(.bf-arrow):hover{background: var(--hover-color) !important;}
+
+.avatar-large .status{width: 100%;height: 100%;border-radius: 8px;border-width: 3px !important;right: -3px !important;top: -3px !important;}
