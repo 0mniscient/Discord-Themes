@@ -3701,3 +3701,5 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 .theme-light .radio .radio-inner span:after,.theme-dark .radio .radio-inner span:after{background-color: #19191b;}
 
 .deprecated-settings-modal .checkbox .checkbox-inner span{border: 2px solid #323234;}
+
+.theme-light .radio .radio-inner{background-color: #19191b;border-color: #323234;}
