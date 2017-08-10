@@ -3742,3 +3742,4 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .guild div.avatar-large{border-radius:0px !important;}
 
+.message-group .edit-message .edit-container-outer .bf-toolbar div:not(.bf-arrow){padding: 11px 5px;}
