@@ -3755,3 +3755,5 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 .bodyTitleText-hSiL7d{color: #ababab;}
 
 .theme-dark .message-group a{color: var(--main-color);}
+
+.guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before{margin-left: -3px !important;}
