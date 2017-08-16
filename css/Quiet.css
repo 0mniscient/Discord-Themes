@@ -1631,7 +1631,7 @@ button.bd-customicon-settings{display:none;}
 
 .header-toolbar button{-webkit-transition:all 300ms cubic-bezier(.23, .23, 0, 1);transition:all 300ms cubic-bezier(.23, .23, 0, 1);display:block;z-index:500;}
 
-.header-toolbar button.popout-open{-webkit-transform:translate(0, 48px);transform:translate(0, 48px);-webkit-transition:all 400ms cubic-bezier(.3, .3, 0, 1);transition:all 400ms cubic-bezier(.3, .3, 0, 1);}
+.header-toolbar button.popout-open{-webkit-transition:all 400ms cubic-bezier(.3, .3, 0, 1);transition:all 400ms cubic-bezier(.3, .3, 0, 1);}
 
 .messages-popout-wrap{-webkit-animation:toppopout 400ms cubic-bezier(.3, .3, 0, 1);animation:toppopout 400ms cubic-bezier(.3, .3, 0, 1)}
 
