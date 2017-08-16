@@ -10,7 +10,7 @@
 
 .ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before{content: "Quiet v" var(--version-content) "\A \A Theme Options:\A \A - Show/Hide Blocked messages\A - Loading Theme Animation\A - Remove spacing between messages \A - Remove Channel Mentions Bar \A - Remove Server Mentions Bar\A - Remove Embed Enlarging\A - Christmas Things\A - Normal Guild/Server Icon Sizes\A - Circle Avatars\A - Revert bottom to default look\A - Minimized Channel Members\A - Background Around Messages\A - Minimized Servers\A - Nitro Tag \A \A Go to discord.io/mrrobot to show love and support! <3"!important;}
 
-.need-help-modal .header h1::after{content:"Quiet v" var(--version-content);color:#fff;font-weight:700;font-size:250%;z-index:11;position:absolute;width:200%;left: 0px;margin-left: -45px;top: 12px;font-family:Satisfy;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);}
+.need-help-modal .header h1::after{content:"Quiet v" var(--version-content);color:#fff;font-weight:700;font-size:250%;z-index:11;position:absolute;width:200%;left: 0px;margin-left: -45px;top: 16px;font-family:Satisfy;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);}
 
 #bd-settingspane-container .content-column.default .ui-form-title.h2::after{content: "Hi, I have a server where I post customizable options for the theme and you can give \A me feedback, also with tons of bots. Join the server at discord.io/mrrobot \A\A It's also easier to report bugs and has a higher change of getting them fixed faster."!important;}
 
