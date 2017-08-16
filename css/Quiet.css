@@ -3751,3 +3751,5 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 .private-channel-call-btn:nth-child(2){margin-top: -30px;margin-left: 43px;}
 
 .bodyTitleText-hSiL7d{color: #ababab;}
+
+.theme-dark .message-group a{color: var(--main-color);}
