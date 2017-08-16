@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "4.7"
+	--version-content: "4.8"
 }
 /* Version Displayed */
 
@@ -3747,3 +3747,7 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 .theme-dark .checked-2TahvT{border-color: var(--main-color) !important;}
 
 .message-group:not(.compact) .avatar-large[style*="211895683123249153"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="211895683123249153"] ~ .member-inner .member-username .member-username-inner::after{content:"Forge";color:#fff;background:#3e82e5;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:14px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;}
+
+.private-channel-call-btn:nth-child(2){margin-top: -30px;margin-left: 43px;}
+
+.bodyTitleText-hSiL7d{color: #ababab;}
