@@ -3759,3 +3759,5 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 .guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before{margin-left: -3px !important;}
 
 .scroller-fzNley::-webkit-scrollbar{width: 11px;}
+
+.containerDefault-1bbItS, .containerDragAfter-3O-noP, .containerDragBefore-2hcouM, .containerUserOver-3O3u5c{padding-top: 10px;}
