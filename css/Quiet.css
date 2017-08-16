@@ -3732,11 +3732,9 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .status-3jUEha{border-radius:3px;position:absolute;bottom:-2px;right:-2px;}
 
-.userPopout-4pfA0d .status-3jUEha{width:100%;height:100%;border-width:4px !important;}
+.userPopout-4pfA0d .status-3jUEha{width:100%;height:100%;border-width:4px !important;border-radius:3px;position:absolute;}
 
-.userPopout-4pfA0d .status-3jUEha{border-radius:3px;position:absolute;bottom:-4px;right:-4px;}
-
-.avatar-1BXaQj{border-radius:0px;}
+[class*="userPopout-"] .status-3jUEha{bottom: 0px;right: 0px;}
 
 .avatarHint-2i5XWK{top:-3px;left:-3px;border-radius:3px;width:100%;height:100%;}
 
@@ -3761,3 +3759,5 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 .scroller-fzNley::-webkit-scrollbar{width: 11px;}
 
 .containerDefault-1bbItS, .containerDragAfter-3O-noP, .containerDragBefore-2hcouM, .containerUserOver-3O3u5c{padding-top: 10px;}
+
+[class*="userPopout-"] .avatar-1BXaQj{border-radius: 4px !important;}
