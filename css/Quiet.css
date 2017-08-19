@@ -3900,6 +3900,10 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .theme-light .guilds .guild:hover:first-child, .theme-light .guilds-wrapper .guilds .guild:hover:first-of-type .guild-inner, .theme-light .guilds-wrapper .guilds .guild.active:first-of-type .guild-inner, .app.theme-light .guilds .guild.active:first-child{background-color: #ececec !important;}
 
+.theme-light .layer, .theme-dark .layers, body{background: #fff !important;}
+
+.theme-light .layers{background: #fff !important;}
+
 [d*="M4.5 4.5l9 9"]{stroke: #000;}
 
 [d*="M13.5 4.5l-9 9"]{stroke: #000;}
