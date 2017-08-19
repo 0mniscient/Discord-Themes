@@ -3762,6 +3762,8 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 [class*="userPopout-"] .avatar-1BXaQj{border-radius: 4px !important;}
 
+.theme-dark .preview-inner .message-group{background-color: #171719;}
+
 .member-roles{overflow-y: scroll;max-height: 220px;}
 
 .member-roles::-webkit-scrollbar{width: 0px;}
