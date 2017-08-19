@@ -3904,9 +3904,9 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .theme-light .layers{background: #fff !important;}
 
-[d*="M4.5 4.5l9 9"]{stroke: #000;}
+.theme-light [d*="M4.5 4.5l9 9"]{stroke: #000;}
 
-[d*="M13.5 4.5l-9 9"]{stroke: #000;}
+.theme-light [d*="M13.5 4.5l-9 9"]{stroke: #000;}
 
 .theme-light .popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item .popout-menu-icon, .theme-light .popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item .popout-menu-item-label{background-color: #fff !important;}
 
