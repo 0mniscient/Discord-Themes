@@ -3898,6 +3898,8 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .theme-light #friends .friends-header .btn, .theme-light #friends .friends-header .tab-bar .tab-bar-item.selected, .theme-light #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary, .theme-light #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected){color: #fff !important;}
 
+.theme-light .guilds .guild:hover:first-child, .theme-light .guilds-wrapper .guilds .guild:hover:first-of-type .guild-inner, .theme-light .guilds-wrapper .guilds .guild.active:first-of-type .guild-inner, .app.theme-light .guilds .guild.active:first-child{background-color: #ececec !important;}
+
 [d*="M4.5 4.5l9 9"]{stroke: #000;}
 
 [d*="M13.5 4.5l-9 9"]{stroke: #000;}
