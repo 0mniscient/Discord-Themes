@@ -3794,11 +3794,11 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .theme-light .need-help-modal .footer::after{background-color:#fff;border-top:2px solid #f6f6f7;color:#212121;}
 
-.theme-light .guilds-wrapper, .theme-light .guilds .guild:hover:first-child, .guilds-wrapper .guilds .guild:hover:first-of-type .guild-inner{background:#ececec !important;}
+.theme-light .guilds-wrapper, .theme-light .guilds .guild:hover:first-child, .theme-light .guilds-wrapper .guilds .guild:hover:first-of-type .guild-inner{background:#ececec !important;}
 
 .theme-light .contentSelectedText-3j5CXt, .theme-light .contentSelectedVoice-gTtYM9{background-color:#ececec !important;}
 
-.theme-light .nameSelectedText-32NDX5, .nameSelectedVoice-XpjYTw{color:#1d1d1d !important;}
+.theme-light .nameSelectedText-32NDX5, .theme-light .nameSelectedVoice-XpjYTw{color:#1d1d1d !important;}
 
 .theme-light .message-group h2 strong{color:#2f3136 !important;}
 
