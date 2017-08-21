@@ -3770,7 +3770,7 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .theme-light .container-iksrDt{background:#2f3136 !important;width:calc(100% - -58px) !important;}
 
-.theme-light .channels-wrap{background-color:#2f3136 !important;}
+.theme-light .channels-wrap{background-color:#fff !important;}
 
 .theme-light .title-wrap, .theme-light .container-iksrDt, .theme-light .content, .theme-light .content .flex-spacer, .theme-light .chat form, .theme-light div.message-group, .theme-light .channel-members, .theme-light .container-RYiLUQ{background-color:#fff !important;}
 
@@ -3822,7 +3822,7 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .theme-light .embed-wrapper{box-shadow:2px 2px 10px #dedede !important;}
 
-.theme-light .header-1tSljs:hover, .theme-light .mention{background-color:#ececec !important;}
+.theme-light .header-1tSljs:hover, .theme-light .mention, .theme-light .header-1tSljs{background-color:#ececec !important;}
 
 .theme-light .mention:hover{color:#000 !important;}
 
@@ -3882,7 +3882,7 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .theme-light .ui-standard-sidebar-view .content-region, .theme-light .ui-standard-sidebar-view .content-region .scrollbar, .theme-light .user-settings-streamer-mode{background:#fff !important;}
 
-.theme-light [class*="itemDefault"]:hover{background:var(--hover-color);}
+.theme-light [class*="itemDefault"]:hover{background:var(--hover-color);color: #fff;}
 
 .theme-light .themeDefault-3M0dJU.valueChecked-3Bzkbm{background-color:var(--main-color);}
 
@@ -3939,4 +3939,16 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 .theme-brand .content-249Pr9{color:#fff;}
 
 .xsmall-2rXiD4{border-radius:2px;}
+
+.theme-light .cardPrimaryEditable-2IQ7-V{background-color:hsla(240,6%,97%,.6) !important;border-color:#dcddde !important;}
+
+.theme-light .descChecked-KbaI-r, .theme-light .titleChecked-3Ngoss{color:#565b62 !important;}
+
+.theme-light .Select-control{background-color:#ffffff !important;}
+
+.theme-light .checked-2TahvT{border-color:var(--main-color) !important;}
+
+.theme-light .channel-notices .channel-notice .message{color:#000;}
+
+.theme-light .channel-notices .channel-notice.quickswitcher-notice{background:#fff url(/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px;}
 
