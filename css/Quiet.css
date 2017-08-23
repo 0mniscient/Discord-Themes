@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "4.9"
+	--version-content: "5.0"
 }
 /* Version Displayed */
 
@@ -3952,3 +3952,34 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .theme-light .channel-notices .channel-notice.quickswitcher-notice{background:#fff url(/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px;}
 
+.theme-dark [class*="switch"][class*="valueUnchecked"]{background: grey !important;}
+
+.theme-dark [class*="switch"][class*="valueChecked"]{background: var(--hover-color) !important;}
+
+code{background-color: #19191b!important;background-image: linear-gradient(#121213 50%, transparent 50%)!important;background-origin: content-box!important;background-position: 0 1.5em!important;background-size: 100% 3em!important;line-height: 1.5 !important;}
+
+.theme-dark .markup .hljs[class~="java" i]::before, .theme-dark .markup .hljs[class~="sql" i]::before, .theme-dark .markup .hljs[class~="ruby" i]::before, .theme-dark .markup .hljs[class~="coffee" i]::before, .theme-dark .markup .hljs[class~="xl" i]::before, .theme-dark .markup .hljs[class~="py" i]::before, .theme-dark .markup .hljs[class~="python" i]::before, .theme-dark .markup .hljs[class~="html" i]::before, .theme-dark .markup .hljs[class~="md" i]::before, .theme-dark .markup .hljs[class~="markdown" i]::before, .theme-dark .markup .hljs[class~="bash" i]::before, .theme-dark .markup .hljs[class~="js" i]::before, .theme-dark .markup .hljs[class~="javascript" i]:before, .theme-dark .markup .hljs[class~="css" i]::before {width: 100%;height: 16px;position: relative;display: -webkit-box;margin-top: 0px;color: #fff;border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom: 5px solid #19191b;line-height: 15px !important;}
+
+.theme-dark .markup .hljs[class~="java" i], .theme-dark .markup .hljs[class~="sql" i], .theme-dark .markup .hljs[class~="ruby" i], .theme-dark .markup .hljs[class~="coffee" i], .theme-dark .markup .hljs[class~="xl" i], .theme-dark .markup .hljs[class~="py" i], .theme-dark .markup .hljs[class~="python" i], .theme-dark .markup .hljs[class~="html" i], .theme-dark .markup .hljs[class~="md" i], .theme-dark .markup .hljs[class~="markdown" i], .theme-dark .markup .hljs[class~="js" i], .theme-dark .markup .hljs[class~="javascript" i], .theme-dark .markup .hljs[class~="css" i],.theme-dark .markup .hljs[class~="bash" i]{padding: 0px !important;}
+
+.theme-dark .markup .hljs[class~="js" i]::before, .theme-dark .markup .hljs[class~="javascript" i]::before{content: " Javascript";background: #165eab;}
+
+.theme-dark .markup .hljs[class~="css" i]::before{content: " Cascading Style Sheet";background: #ab6f16;}
+
+.theme-dark .markup .hljs[class~="bash" i]::before{content: " Bash";background: #ab1663;}
+
+.theme-dark .markup .hljs[class~="markdown" i]::before, .theme-dark .markup .hljs[class~="md" i]::before{content: " Markdown";background: #ab2e16;}
+
+.theme-dark .markup .hljs[class~="html" i]::before{content: " HTML";background: #16ab6f;}
+
+.theme-dark .markup .hljs[class~="xl" i]::before{content: " eXtensible Language";background: #4872a8;}
+
+.theme-dark .markup .hljs[class~="coffee" i]::before{content: " Coffee (Javascript)";background: #3a1b1b;}
+
+.theme-dark .markup .hljs[class~="ruby" i]::before{content: " Ruby";background: #e73e3e;}
+
+.theme-dark .markup .hljs[class~="sql" i]::before{content: " SQL";background: #4474ca;}
+
+.theme-dark .markup .hljs[class~="java" i]::before{content: " Java";background: #eb2d2f;}
+
+.theme-dark .markup .hljs[class~="py" i]::before, .theme-dark .markup .hljs[class~="python" i]::before{content: " Python";background: #1622ab;}
