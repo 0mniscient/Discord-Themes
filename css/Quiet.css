@@ -4017,3 +4017,5 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .theme-light .message-group .comment .markup pre{border: 2px solid #d5d5d5;}
 
 .theme-light .hljs{color: #555555;}
+
+.tooltip.tooltip-brand.tooltip-right:after{border-right-color: var(--main-color);}
