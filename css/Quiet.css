@@ -1142,7 +1142,7 @@ div.control-group .shortcut-recorder input[type=text]{border:2px solid var(--mai
 
 .scroller.guilds{height: calc(100% - 140px);}
 
-code{background:#121213 !important;box-shadow: 0 0 5px -1px #000}
+code{background:#121213 !important;}
 
 .modal .modal-inner .modal-content .form-inner .message-group code {box-shadow: 0 0 0 0 #fff;}
 
