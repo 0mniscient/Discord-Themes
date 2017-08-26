@@ -4019,3 +4019,5 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .theme-light .hljs{color: #555555;}
 
 .tooltip.tooltip-brand.tooltip-right:after{border-right-color: var(--main-color);}
+
+.popout.popout-top-left{top: 0px !important;}
