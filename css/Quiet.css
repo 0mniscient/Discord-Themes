@@ -4047,3 +4047,25 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .theme-light .form .control-group input[type=text], .theme-light .form .control-group input[type=email], .theme-light .form .control-group input[type=password], .theme-light .form .control-group input[type=number], .theme-light .form .control-group textarea{color: var(--main-color) !important;border-bottom: 2px solid #e2e2e2;border: 2px solid #e2e2e2 !important;background: #f6f6f7;}
 
 .theme-light .form.deprecated .btn-default{background-color: #fff;border-bottom: 0px solid transparent;}
+
+.theme-light .mention:hover{color: #fff !important;background: var(--main-color) !important;}
+
+.theme-light .mention{transition: .2s all linear;}
+
+.container-iksrDt .avatar-small{border-radius: 0px;}
+
+.theme-light .mention:hover{color: #fff !important;background: var(--main-color) !important;}
+
+.theme-light .mention{transition: .2s all linear;}
+
+.theme-light .small-popout-box{background: #ffffff;border: 1px solid #f6f6f7;}
+
+.theme-light .option-popout .btn-item, .theme-light .option-popout .btn-item:hover, .context-menu.theme-light.invertY .item, .context-menu.theme-light.invertY .item:hover{color: #696969;}
+
+.context-menu.theme-light.invertY .item:hover{background: #f1f1f1;}
+
+.theme-light .icon.icon-file{-webkit-filter: grayscale(100%) !important;}
+
+.context-menu.theme-light.invertY, .context-menu.theme-light.invertY .context-menu, .theme-light .context-menu{background:#fff !important;}
+
+.theme-light .context-menu .item:hover{background: #efefef;}
