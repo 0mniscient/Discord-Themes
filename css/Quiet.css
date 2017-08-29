@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "5.1"
+	--version-content: "5.2"
 }
 /* Version Displayed */
 
@@ -3958,9 +3958,9 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 code{background-color: #19191b!important;background-image: linear-gradient(#121213 50%, transparent 50%)!important;background-origin: content-box!important;background-position: 0 1.5em!important;background-size: 100% 3em!important;line-height: 1.5 !important;}
 
-.theme-dark .markup .hljs[class~="java" i]::before, .theme-dark .markup .hljs[class~="sql" i]::before, .theme-dark .markup .hljs[class~="ruby" i]::before, .theme-dark .markup .hljs[class~="coffee" i]::before, .theme-dark .markup .hljs[class~="xl" i]::before, .theme-dark .markup .hljs[class~="py" i]::before, .theme-dark .markup .hljs[class~="python" i]::before, .theme-dark .markup .hljs[class~="html" i]::before, .theme-dark .markup .hljs[class~="md" i]::before, .theme-dark .markup .hljs[class~="markdown" i]::before, .theme-dark .markup .hljs[class~="bash" i]::before, .theme-dark .markup .hljs[class~="js" i]::before, .theme-dark .markup .hljs[class~="javascript" i]:before, .theme-dark .markup .hljs[class~="css" i]::before {width: 100%;height: 16px;position: relative;display: -webkit-box;margin-top: 0px;color: #fff;border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom: 5px solid #19191b;line-height: 15px !important;}
+.theme-dark .markup .hljs[class~="java" i]::before, .theme-dark .markup .hljs[class~="sql" i]::before, .theme-dark .markup .hljs[class~="ruby" i]::before, .theme-dark .markup .hljs[class~="coffee" i]::before, .theme-dark .markup .hljs[class~="xl" i]::before, .theme-dark .markup .hljs[class~="py" i]::before, .theme-dark .markup .hljs[class~="python" i]::before, .theme-dark .markup .hljs[class~="html" i]::before, .theme-dark .markup .hljs[class~="md" i]::before, .theme-dark .markup .hljs[class~="markdown" i]::before, .theme-dark .markup .hljs[class~="bash" i]::before, .theme-dark .markup .hljs[class~="js" i]::before, .theme-dark .markup .hljs[class~="javascript" i]:before, .theme-dark .markup .hljs[class~="css" i]::before, .theme-dark .markup .hljs[class~="vb" i]::before {width: 100%;height: 16px;position: relative;display: -webkit-box;margin-top: 0px;color: #fff;border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom: 5px solid #19191b;line-height: 15px !important;}
 
-.theme-dark .markup .hljs[class~="java" i], .theme-dark .markup .hljs[class~="sql" i], .theme-dark .markup .hljs[class~="ruby" i], .theme-dark .markup .hljs[class~="coffee" i], .theme-dark .markup .hljs[class~="xl" i], .theme-dark .markup .hljs[class~="py" i], .theme-dark .markup .hljs[class~="python" i], .theme-dark .markup .hljs[class~="html" i], .theme-dark .markup .hljs[class~="md" i], .theme-dark .markup .hljs[class~="markdown" i], .theme-dark .markup .hljs[class~="js" i], .theme-dark .markup .hljs[class~="javascript" i], .theme-dark .markup .hljs[class~="css" i],.theme-dark .markup .hljs[class~="bash" i]{padding: 0px !important;}
+.theme-dark .markup .hljs[class~="java" i], .theme-dark .markup .hljs[class~="sql" i], .theme-dark .markup .hljs[class~="ruby" i], .theme-dark .markup .hljs[class~="coffee" i], .theme-dark .markup .hljs[class~="xl" i], .theme-dark .markup .hljs[class~="py" i], .theme-dark .markup .hljs[class~="python" i], .theme-dark .markup .hljs[class~="html" i], .theme-dark .markup .hljs[class~="md" i], .theme-dark .markup .hljs[class~="markdown" i], .theme-dark .markup .hljs[class~="js" i], .theme-dark .markup .hljs[class~="javascript" i], .theme-dark .markup .hljs[class~="css" i],.theme-dark .markup .hljs[class~="bash" i],.theme-dark .markup .hljs[class~="vb" i]{padding: 0px !important;}
 
 .theme-dark .markup .hljs[class~="js" i]::before, .theme-dark .markup .hljs[class~="javascript" i]::before{content: " Javascript";background: #165eab;}
 
@@ -3983,6 +3983,8 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .theme-dark .markup .hljs[class~="java" i]::before{content: " Java";background: #eb2d2f;}
 
 .theme-dark .markup .hljs[class~="py" i]::before, .theme-dark .markup .hljs[class~="python" i]::before{content: " Python";background: #1622ab;}
+
+.theme-dark .markup .hljs[class~="vb" i]::before{content: " Visual Basic";background: #839700;}
 
 .theme-light .bda-dark #bda-qem-favourite-container, .theme-light .bda-dark #bda-qem-twitch-container, .theme-light .bda-dark .emoji-picker, .theme-light .bda-dark .emoji-picker .category, .theme-light .bda-dark .emoji-picker .header .search-bar{background-color:#fff !important;}
 
