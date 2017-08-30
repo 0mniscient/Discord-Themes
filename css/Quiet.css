@@ -4071,3 +4071,29 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .context-menu.theme-light.invertY, .context-menu.theme-light.invertY .context-menu, .theme-light .context-menu{background:#fff !important;}
 
 .theme-light .context-menu .item:hover{background: #efefef;}
+
+.tooltip.tooltip-red.tooltip-right:after{border-right-color: var(--main-color);}
+
+.theme-light #user-profile-modal .avatar-wrapper .avatar-profile, .theme-light #user-profile-modal .sub-header, .theme-light #user-profile-modal .scroller-wrap, .theme-light #user-profile-modal .empty, .theme-light #user-profile-modal .scroller{background-color: #fff !important;}
+
+.theme-light #user-profile-modal .header{background-color: #ececec;}
+
+.theme-light #user-profile-modal .tab-bar-container{background-color: #ececec;}
+
+.theme-light #user-profile-modal .header .header-info .header-info-inner .discord-tag, .theme-light #user-profile-modal .header .header-info .header-info-inner .activity{color: #4e4e4e;}
+
+.theme-light #user-profile-modal .tab-bar-container:hover .tab-bar-item {color: #292929!important; opacity: 0.7;}
+
+.theme-light #user-profile-modal .tab-bar-container .tab-bar-item::before{filter: invert();}
+
+.theme-light #user-profile-modal .tab-bar-container:hover .tab-bar-item:hover, .theme-light #user-profile-modal .tab-bar-container:hover .tab-bar-item.selected{color: #292929!important;opacity: 1;}
+
+.theme-light #user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator{color: #ffffff;}
+
+.theme-light .search-popout .option strong{color: #444444;}
+
+.theme-light .search-popout .search-query{background: #fff;color: #2b2b2b;font-weight: 600;}
+
+.theme-light .search-popout .search-query .search-for{font-size: 14px;}
+
+.theme-light .search-popout .search-query .keybind-shortcut span{background: #fff;color: var(--main-color) !important;}
