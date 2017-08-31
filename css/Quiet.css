@@ -4097,3 +4097,13 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .theme-light .search-popout .search-query .search-for{font-size: 14px;}
 
 .theme-light .search-popout .search-query .keybind-shortcut span{background: #fff;color: var(--main-color) !important;}
+
+.theme-light .channel-notices .channel-notice.quickswitcher-notice {background: #fff url(/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px;}
+
+.theme-light .channel-notices .channel-notice .message {color: #000;}
+
+.container-iksrDt .avatar-small{border-radius: 0px;}
+
+.theme-light .channel-notices .channel-notice .close{opacity: .5;filter: invert();}
+
+.theme-light .channel-notices .channel-notice.quickswitcher-notice{top: 0px !important;}
