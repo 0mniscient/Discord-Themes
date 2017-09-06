@@ -5,9 +5,15 @@ Need help with BetterDiscord? visit the <a href="https://betterdocs.net/">Better
 
 ## [Quiet](https://github.com/Chaotiic/Discord-Themes/blob/master/Themes/Quiet.theme.css)
 
+**Description:** <i>Light and Loud. Harsh on the eyes.🏻</i>
+
+![](http://i.imgur.com/I5Cmnxa.png)
+
+## [Quiet](https://github.com/Chaotiic/Discord-Themes/blob/master/Themes/Quiet.theme.css)
+
 **Description:** <i>Dark and Quiet. Easy on the eyes.🏻</i>
 
-![](http://i.imgur.com/AzXK522.png)
+![](http://i.imgur.com/1iFNeOZ.png)
 
 ## [Aesthetic](https://github.com/Chaotiic/Discord-Themes/blob/master/Themes/Aesthetic%20Discord.theme.css)
 
