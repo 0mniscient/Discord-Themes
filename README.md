@@ -3,7 +3,7 @@ Need help with BetterDiscord? visit the <a href="https://betterdocs.net/">Better
 * ***All **Themes** go into %AppData%\BetterDiscord\themes***
 * ***All **Plugins** go into %AppData%\BetterDiscord\plugins***
 
-## [Quiet](https://github.com/Chaotiic/Discord-Themes/blob/master/Themes/Quiet.theme.css)
+## [Loud](https://github.com/Chaotiic/Discord-Themes/blob/master/Themes/Quiet.theme.css)
 
 **Description:** <i>Light and Loud. Harsh on the eyes.🏻</i>
 
