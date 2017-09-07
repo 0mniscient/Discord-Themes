@@ -3274,9 +3274,11 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .create-guild-container.deprecated .action:hover.create .btn{background-color: var(--hover-color);}
 
-.create-guild-container.deprecated, .create-guild-container.deprecated .create-or-join .form-inner, .form.deprecated .form-inner, .form.deprecated .form-actions{background-color: #0d0d0d;}
+.create-guild-container.deprecated, .create-guild-container.deprecated .create-or-join .form-inner, .theme-dark .form.deprecated .form-inner, .form.deprecated .form-actions{background-color: #0d0d0d !important;}
 
 .form.deprecated header, .create-guild-container.deprecated .action.create .action-header{color: var(--main-color);}
+
+.theme-dark .form.deprecated .form-header{background: #0d0d0e !important;}
 
 .create-guild-container.deprecated .action{background: #0b0b0b;box-shadow: 0px 0px 11px 0px rgb(0, 0, 0);}
 
