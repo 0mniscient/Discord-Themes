@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "5.4"
+	--version-content: "5.5"
 }
 /* Version Displayed */
 
@@ -193,7 +193,7 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 
 .tooltip.tooltip-top:after{border-top-color:var(--main-color) !important;}
 
-.tooltip.tooltip-right:after{border-right-color: var(--main-color);}
+.tooltip.tooltip-black.tooltip-right:after, .tooltip.tooltip-right:after{border-right-color: var(--main-color) !important;}
 
 .tooltip.tooltip-bottom:after{border-bottom-color:var(--main-color) !important;}
 
@@ -4211,3 +4211,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .replyer, .quoter, body .citar-btn{background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTYgMTdoM2wyLTRWN0g1djZoM3ptOCAwaDNsMi00VjdoLTZ2NmgzeiIvPiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+)!important;color: transparent!important;background-size: 70%!important;background-position: 50%!important;background-repeat: no-repeat!important;background-color: transparent!important;transition: 100ms ease!important;animation: opacity 100ms ease;opacity: .8!important;border-radius: 2px!important;user-select: none;}
 
 .popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item:nth-of-type(10){animation-delay: 900ms;}
+
+.tooltip.tooltip-right[style*="left: 42px; top: 7.5px;"]{display: none;}
+
+.tooltip{padding: 4px 8px;}
