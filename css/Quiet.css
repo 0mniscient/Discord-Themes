@@ -4212,6 +4212,6 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item:nth-of-type(10){animation-delay: 900ms;}
 
-.tooltip.tooltip-right[style*="left: 42px; top: 7.5px;"]{display: none;}
+.tooltip.tooltip-right[style*="left: 42px; top: 7.5px;"], .tooltip.tooltip-right[style*="left: 42px; top: 10.5px;"], .tooltip.tooltip-right[style*="left: 42px;"]{display: none;}
 
 .tooltip{padding: 5px 8px !important;}
