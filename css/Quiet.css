@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "5.7"
+	--version-content: "5.8"
 }
 /* Version Displayed */
 
@@ -860,7 +860,7 @@ textarea{background:transparent !important;}
 
 .button{background-color:var(--main-color);}
 
-.guilds-wrapper .guilds-add{border: 0px solid transparent;position: fixed !important;bottom: 73px;width: 74px !important;border-radius: 0px;left: 0px;height: 3px !important;line-height: 1px;font-size: 0px !important;transition: .1s all linear;}
+.guilds-wrapper .guilds-add{border: 0px solid transparent;position: fixed !important;bottom: 72px;width: 74px !important;border-radius: 0px;left: 0px;height: 3px !important;line-height: 1px;font-size: 0px !important;transition: .1s all linear;}
 
 .user-popout .body .roles .member-roles::-webkit-scrollbar{width:0px;}
 
@@ -2791,7 +2791,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .popout.popout-top:not(.no-arrow){z-index: 8;}
 
-[class*="scroller-"].channel-members{height: calc(100% - 73px);}
+[class*="scroller-"].channel-members{height: calc(100% - 71px);}
 
 #friends .friends-table .friends-table-body{height: calc(100% - 133px);}
 
@@ -3187,7 +3187,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .avatar-small .status{width: 100%;height: 100%;border-width: 2px !important;right: -2px;bottom: -2px;}
 
-.container-iksrDt{height: 69px;background: #19191b;border-top: 2px solid #212121;width: calc(100% - -60px);position: relative;z-index: 10;color: #fff;border-radius: 0px !important;margin-left: -78px;}
+.container-iksrDt{height: 70px;background: #19191b;border-top: 2px solid #212121;width: calc(100% - -60px);position: relative;z-index: 10;color: #fff;border-radius: 0px !important;margin-left: -78px;margin-bottom: -1px;}
 
 [class*="flexChild-"] > [class*="container-"] > [class*="header"]:not(.header-toolbar){border-bottom: 2px solid var(--main-color);height: 48px;}
 .private-channels .channel.selected a, .private-channels .channel:hover a{background-color: #121213;}
@@ -4212,7 +4212,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item:nth-of-type(10){animation-delay: 900ms;}
 
-.tooltip.tooltip-right[style*="left: 42px; top: 7.5px;"], .tooltip.tooltip-right[style*="left: 42px; top: 10.5px;"], .tooltip.tooltip-right[style*="left: 42px;"]{display: none;}
+.tooltip.tooltip-right[style*="left: 42px; top: 7.5px;"], .tooltip.tooltip-right[style*="left: 42px; top: 10.5px;"]{display: none;}
 
 .tooltip{padding: 5px 8px !important;}
 
@@ -4223,3 +4223,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 [class*="nsfw-"] [class*="buttonPrimaryOutlinedDefault"]::after{content: "Your parents would be proud of you.";width: 100%;background: #049857;color: white;padding: 12px;border-radius: 3px;position: absolute;left: 50%;top: 130%;transition: .2s all linear;opacity: 0;pointer-events: none;}
 
 [class*="nsfw-"] [class*="buttonPrimaryOutlinedDefault"]:hover::after{opacity: 1;}
+
+.unread-mentions-indicator-top{top: 50px;}
+
+.unread-mentions-indicator-bottom{bottom: 80px;}
