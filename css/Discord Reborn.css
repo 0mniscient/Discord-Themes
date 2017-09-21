@@ -3,7 +3,7 @@
 
 :root { 
 	--theme-name: "Reborn";
-	--version-content: "5.8";
+	/*--version-content: "1.0";*/
  }
 
 
@@ -84,41 +84,34 @@ span.spinner{margin-top: 2px;}
 
 .unread-mentions-indicator-bottom{bottom: 10px !important;}
 
-.message-group .mentioned .message-text {
-    background: rgba(0, 0, 0, 0.45) !important;
-}
+.message-group .mentioned .message-text{background:rgba(0, 0, 0, 0.45) !important;}
 
-.theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .sidebar-region .scrollbar, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .content-region .scrollbar {
-    background: rgba(0, 0, 0, 0.65) !important;
-}
+.theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .sidebar-region .scrollbar, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .content-region .scrollbar{background:rgba(0, 0, 0, 0.75) !important;}
 
-.theme-dark .header-1-f9X5, .theme-dark .faded-1KRDbu {
-    color: #ffffff;
-}
+.theme-dark .header-1-f9X5, .theme-dark .faded-1KRDbu{color:#ffffff;}
 
-.theme-dark .description-3MVziF, .theme-dark .labelDescriptor-1BebCl {
-    color: #9a9a9a;
-}
+.theme-dark .description-3MVziF, .theme-dark .labelDescriptor-1BebCl{color:#9a9a9a;}
 
 .theme-dark [class*="cardPrimaryEditable"], .theme-dark [class*="cardPrimary"], .theme-dark [class*="cardPrimaryOutline"], .theme-dark [class*="headerClickable"], .theme-dark [class*="headerDefault"], .theme-dark [class*="headerExpanded"] {background: rgba(0, 0, 0, 0.6) !important;border-color: rgba(32, 34, 37, 0) !important;box-shadow: 0px 0px 3px 1px #121212;}
 
-.theme-dark .preview-inner .message-group {
-    background-color: transparent;
-}
+.theme-dark .preview-inner .message-group{background-color:transparent;}
 
-.user-settings-streamer-mode {
-    background: transparent;
-}
+.user-settings-streamer-mode{background:transparent;}
 
-.userPopout-4pfA0d {
-    opacity: 1;
-}
-.userPopout-4pfA0d .body-3rkFrF, .userPopout-4pfA0d .footer-2J5zqP {
-    background-color: rgba(0, 0, 0, 0.6);
-}
-.status-picker.popout-menu {
-    background: rgba(0, 0, 0, 0.4) !important;
-}
-.chat .welcome-message p {
-    color: #dadada;
-}
+.userPopout-4pfA0d{opacity:1;}
+
+.userPopout-4pfA0d .body-3rkFrF, .userPopout-4pfA0d .footer-2J5zqP{background-color:rgba(0, 0, 0, 0.6);}
+
+.status-picker.popout-menu{background:rgba(0, 0, 0, 0.4) !important;}
+
+.chat .welcome-message p{color:#dadada;}
+
+.theme-dark .message-group .comment .markup .mention{background:rgba(0, 0, 0, 0.6) !important;}
+
+.theme-dark .message-group .embed{background-color: rgba(0, 0, 0, 0.66) !important;border-color: rgba(0, 0, 0, 0.66) !important;}
+
+.theme-dark .reaction {background: rgba(0,0,0,0.4) !important;}
+
+.chat .divider.divider-red > span{background-color: rgba(0, 0, 0, 0.5) !important;}
+
+.private-channels .channel.selected a, .private-channels .channel:hover a{background-color: rgba(0, 0, 0, 0.65) !important;}
