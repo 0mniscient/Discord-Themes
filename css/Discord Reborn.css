@@ -50,13 +50,13 @@
 
 .theme-dark .channel-members::after{background: rgba(0, 0, 0, 0.78);left: 0px;}
 
-.theme-dark .chat>.content .messages .message-group .markup, .theme-dark .chat>.title-wrap>.topic{color: #fff !important;font-weight: 500;}
+.theme-dark .chat>.content .messages .message-group .markup, .theme-dark .chat>.title-wrap>.topic{color: #dad9d9 !important;font-weight: 500;}
 
 .theme-dark .friends-table .messages .message-group h2 strong, .theme-dark .messages-wrapper .messages .message-group h2 strong{font-weight: 500;}
 
 .scroller-wrap .scroller.messages:hover::-webkit-scrollbar-track-piece{border: 3px solid transparent !important;background-color: rgba(17, 17, 19, 0.43) !important;}
 
-[class*="nameDefaultText-"], [class*="nameDefaultVoice-"], [class*="nameLockedText-"], [class*="nameLockedVoice-"]{color: #dadada;}
+[class*="nameDefaultText-"], [class*="nameDefaultVoice-"], [class*="nameLockedText-"], [class*="nameLockedVoice-"]{color: rgba(255, 255, 255, 0.55);}
 
 .foreground-2zy1hc{opacity: 1;color: #fff;}
 
@@ -115,3 +115,7 @@ span.spinner{margin-top: 2px;}
 .chat .divider.divider-red > span{background-color: rgba(0, 0, 0, 0.5) !important;}
 
 .private-channels .channel.selected a, .private-channels .channel:hover a{background-color: rgba(0, 0, 0, 0.65) !important;}
+
+[class*="nameMutedText-"], [class*="nameMutedVoice-"]{color: #9f9f9f;}
+
+.nameUnreadText-1pxldj, .nameUnreadVoice-QK4gxH{color: #f1f1f1;}
