@@ -1676,7 +1676,7 @@ button.bd-customicon-settings{display:none;}
 
 .mentioned .mention:hover{color:#fff !important;opacity:0.9;}
 
-.theme-dark .message-group .comment .markup .mention{color:var(--main-color);background:#131315;border-radius:3px;padding:1px 4px 2px 3px;transition:.2s all linear;}
+.theme-dark .message-group .comment .markup .mention{color:var(--main-color);background:#131315;border-radius:3px;padding:0px 4px 0px 3px;transition:.2s all linear;}
 
 .theme-dark .message-group .comment .markup .mention:hover{background-color:var(--main-color) !important;color:#fff;opacity:0.9;}
 
