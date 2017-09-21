@@ -18,7 +18,7 @@ RECOMMENDATIONS: EVERY URL AT THE BOTTOM SHOULD BE THE SAME TO MAKE THE THEME MA
 --------------------------------------------------------------------------------------------------------------------------------------------
 /*Change the url in .app to change the background behind chat */
 
-.app { background-image: url("https://imgur.com/RG03PyX.png") !important; background-size: cover !important; }
+.app, .callout-backdrop { background-image: url("https://imgur.com/RG03PyX.png") !important; background-size: cover !important; }
 
  /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
