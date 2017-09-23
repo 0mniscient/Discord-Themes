@@ -36,7 +36,8 @@
 .guilds-wrapper .guilds .guild.active:first-of-type .guild-inner,
 .guilds-wrapper .guilds .guild:hover:first-of-type .guild-inner, 
 .app .guilds .guild.active:first-child,
-.guilds-wrapper .guilds .guild.active:first-of-type .guild-inner{background: transparent !important;}
+.guilds-wrapper .guilds .guild.active:first-of-type .guild-inner,
+.guilds-wrapper .guilds .guild:first-of-type .guild-inner{background: transparent !important;}
 
 .app .guilds .guild.active:first-child{background: rgba(0, 0, 0, 0.7) !important;}
 
