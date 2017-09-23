@@ -4227,6 +4227,4 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 [class*="nsfw-"] [class*="buttonPrimaryOutlinedDefault"]:hover::after{opacity: 1;}
 
-.unread-mentions-indicator-top{top: 50px;}
-
-.unread-mentions-indicator-bottom{bottom: 80px;}
+.unread-3nyKcq, .unreadBottom-2LxhSR, .unread-mentions-indicator-bottom, .unread-mentions-indicator-top {display: none;}
