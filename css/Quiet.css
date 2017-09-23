@@ -1614,7 +1614,7 @@ button.bd-customicon-settings{display:none;}
 
 .bda-dark .emoji-picker .scroller .emoji-item.selected{background:var(--hover-color);}
 
-.theme-dark .message-group .embed{background-color:#111113;border-color:#111113;}
+.theme-dark .message-group .embed{background-color:#111113;border-color:#111113;border-radius: 3px !important;}
 
 .embed-color-pill[style*='background-color: rgb(114, 137, 218);']{background-color:var(--main-color) !important;}
 
