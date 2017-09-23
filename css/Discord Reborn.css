@@ -21,7 +21,7 @@
 .theme-dark .channel-members,
 .theme-dark .content .flex-spacer,
 .theme-dark .friends-table,
-.theme-dark .friends-header{background: rgba(0,0,0,0.64) !important;}
+.theme-dark .friends-header{background: rgba(0,0,0,0.75) !important;}
 
 .theme-dark .chat form{background: rgba(0, 0, 0, 0.4);border-left: 0px solid transparent !important;border-right: 0px solid transparent !important;}
 
@@ -47,7 +47,7 @@
 
 .theme-dark .guilds-wrapper::after{content: "";width: 76px;height: 74px;bottom: 0px;margin-bottom: -204px;}
 
-.theme-dark .guilds-wrapper::before{content: "";background: rgba(0, 0, 0, 0.64);width: 76px;height: 74px;bottom: 0px;position: fixed;}
+.theme-dark .guilds-wrapper::before{content: "";background: rgba(0, 0, 0, 0.75);width: 76px;height: 74px;bottom: 0px;position: fixed;}
 
 .theme-dark .private-channels .search-bar-inner{background: rgba(0, 0, 0, 0.4) !important;}
 
@@ -57,9 +57,9 @@
 
 .theme-dark .container-iksrDt{height: 71px;background: rgba(0, 0, 0, 0.4);border-right: 0px solid transparent !important;width: calc(100% - -58px);}
 
-.theme-dark .channel-members::after{background: rgba(0, 0, 0, 0.78);left: 0px;}
+.theme-dark .channel-members::after{background: rgba(0, 0, 0, 0.85);left: 0px;}
 
-.theme-dark .chat>.content .messages .message-group .markup, .theme-dark .chat>.title-wrap>.topic{color: #dad9d9 !important;font-weight: 500;}
+.theme-dark .chat>.content .messages .message-group .markup, .theme-dark .chat>.title-wrap>.topic{color: #dad9d9;font-weight: 500;}
 
 .theme-dark .friends-table .messages .message-group h2 strong, .theme-dark .messages-wrapper .messages .message-group h2 strong{font-weight: 500;}
 
@@ -87,7 +87,7 @@ span.spinner{margin-top: 2px;}
 
 [class*="nameDefault-"]{color: #ffffff;}
 
-.theme-dark .search .search-bar{background-color: rgba(25, 25, 27, 0.58);border: 2px solid rgba(18, 18, 19, 0.4) !important;border-bottom: 2px solid rgba(18, 18, 19, 0.4) !important;}
+.theme-dark .search .search-bar{background-color: rgba(0, 0, 0, 0.58);border: 2px solid rgba(0, 0, 0, 0.4) !important;border-bottom: 2px solid rgba(0, 0, 0, 0.4) !important;}
 
 .chat .empty-message h1{color: #f1f1f1;}
 
