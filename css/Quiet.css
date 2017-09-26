@@ -4228,3 +4228,5 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 [class*="nsfw-"] [class*="buttonPrimaryOutlinedDefault"]:hover::after{opacity: 1;}
 
 .unread-3nyKcq, .unreadBottom-2LxhSR, .unread-mentions-indicator-bottom, .unread-mentions-indicator-top {display: none;}
+
+.message-group:not(.compact) .avatar-large[style*="104717799926034432"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="104717799926034432"] ~ .member-inner .member-username .member-username-inner::after{content:"TP";color:#fff;background:#26af2f;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
