@@ -274,3 +274,30 @@ span.spinner{margin-top: 2px;}
 .theme-light .message-group .mentioned .message-text{background:rgba(0, 0, 0, 0.45) !important;}
 
 .theme-light .popout.popout-bottom:not(.no-arrow) .popout-menu{background:transparent !important;}
+
+.theme-light .ui-standard-sidebar-view,
+.theme-light .container-RYiLUQ, 
+.theme-light .layer,
+.theme-light .layers,
+.theme-light .content,
+.theme-light .messages-wrapper .message-group,
+.theme-light #friends,
+.theme-light .popout.popout-bottom:not(.no-arrow)[style*="z-index: 1000; overflow: hidden; visibility: visible;"]{background:transparent !important;}
+
+[class*="nameHoveredText"]{color: #fff !important;}
+
+.theme-light [class*="nameDefaultText-"], 
+.theme-light [class*="nameDefaultVoice-"]{color: rgba(255, 255, 255, 0.7) !important;}
+
+.theme-light [class*="nameLockedText-"], 
+.theme-light [class*="nameLockedVoice-"]{color: rgba(255, 255, 255, 0.4) !important;}
+
+.theme-light [class*="nameMutedText-"], [class*="nameMutedVoice-"]{color: rgba(255, 255, 255, 0.5);}
+
+.theme-light [class*="itemDefault"], .theme-light .h5-3KssQU{color: #dadada !important;}
+
+.theme-light [class*="cardPrimaryEditable"], .theme-light [class*="cardPrimary"], .theme-light [class*="cardPrimaryOutline"], .theme-light [class*="headerClickable"], .theme-light [class*="headerDefault"], .theme-light [class*="headerExpanded"] {background: rgba(0, 0, 0, 0.5) !important;border-color: rgba(32, 34, 37, 0) !important;box-shadow: 0px 0px 3px 1px #121212;}
+
+#bd-settings-sidebar .ui-tab-bar-header, .theme-light .header-1-f9X5, .theme-light [class*="itemDefaultSelected"], .theme-light [class*="itemDefault"]:hover, .theme-light .defaultColor-v22dK1{color: #ffffff !important;}
+
+.theme-light [d*="M4.5 4.5l9 9"], .theme-light [d*="M13.5 4.5l-9 9"]{stroke: #fff;}
