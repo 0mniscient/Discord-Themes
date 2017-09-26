@@ -3815,7 +3815,7 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .theme-light .nameUnreadText-1pxldj, .theme-light .nameUnreadVoice-QK4gxH{color:#545454 !important;}
 
-.theme-light .message-group .comment .markup{color:#8e8e8e !important;}
+.theme-light .message-group .comment .markup{color:#8e8e8e;}
 
 .theme-light .contentHoveredText-2HYGIY, .theme-light .contentHoveredVoice-3qGNKh:active, .theme-light .contentSelectedVoice-gTtYM9:active, .theme-light .userHovered-3tfm93:active{background-color:#ececec !important;}
 
