@@ -59,7 +59,7 @@
 
 .theme-dark .container-iksrDt{height: 71px;background: rgba(0, 0, 0, 0.4);border-right: 0px solid transparent !important;width: calc(100% - -58px);}
 
-.theme-dark .channel-members::after{background: rgba(0, 0, 0, 0.85);left: 0px;}
+.theme-dark .channel-members::after{background: rgba(0, 0, 0, 0.85);left: 0px;color: rgba(0, 0, 0, 0.56) !important}
 
 .theme-dark .chat>.content .messages .message-group .markup, .theme-dark .chat>.title-wrap>.topic{color: #dad9d9;font-weight: 500;}
 
@@ -78,10 +78,10 @@
 .theme-dark .contentSelectedVoice-gTtYM9:active, 
 .theme-dark .userHovered-3tfm93:active,
 .theme-dark .channel-members .member.popout-open, 
-.theme-dark .channel-members .member:hover{background-color: rgba(18, 18, 19, 0.69) !important;}
+.theme-dark .channel-members .member:hover{background-color: rgba(0, 0, 0, 0.6) !important;}
 
 .theme-dark .channel-members .member.popout-open, 
-.theme-dark .channel-members .member:hover{background: rgba(18, 18, 19, 0.69) !important;}
+.theme-dark .channel-members .member:hover{background: rgba(0, 0, 0, 0.6) !important;}
 
 .chat .divider > span{color: #f5f5f5 !important;}
 
@@ -301,3 +301,23 @@ span.spinner{margin-top: 2px;}
 #bd-settings-sidebar .ui-tab-bar-header, .theme-light .header-1-f9X5, .theme-light [class*="itemDefaultSelected"], .theme-light [class*="itemDefault"]:hover, .theme-light .defaultColor-v22dK1{color: #ffffff !important;}
 
 .theme-light [d*="M4.5 4.5l9 9"], .theme-light [d*="M13.5 4.5l-9 9"]{stroke: #fff;}
+
+.container-3lnMWU{background: rgba(0, 0, 0, 0.5) !important;}
+
+.theme-dark .themed-popout{background-color: rgba(0, 0, 0, 0.6) !important;border-color: rgba(0, 0, 0, 0.39) !important;}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group, .messages-popout .channel-separator{border-color: rgba(0, 0, 0, 0.39) !important;background-color: rgba(0, 0, 0, 0.5) !important;}
+
+.messages-popout .channel-separator:hover{border: 2px solid var(--main-color) !important;}
+
+.theme-dark .themed-popout .header{background-color: rgba(0, 0, 0, 0.5) !important;}
+
+.emoji-picker, .emoji-picker .sticky-header, .emoji-picker .search-bar{background-color: rgba(0, 0, 0, 0.65);border-color: #000 !important;}
+
+.emoji-picker .search-bar{background-color: transparent !important;}
+
+.emoji-picker .search-bar .search-bar-inner{background-color: rgba(0, 0, 0, 0.61);border-color: #000;}
+
+.emoji-picker .dimmer.visible{background-color: rgba(0, 0, 0, 0.8);margin-left: -2px;}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece{border: 3px solid transparent !important;background-color: rgba(0, 0, 0, 0.6) !important;}
