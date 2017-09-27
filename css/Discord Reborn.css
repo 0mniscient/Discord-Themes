@@ -327,3 +327,15 @@ span.spinner{margin-top: 2px;}
 .theme-light [class*="checkbox"]{border-color: #72767d;border-width: 2px !important;}
 
 .preview .theme-dark .message-group:not(.has-divider){border-bottom-color: transparent;}
+
+.guilds-wrapper .guilds .guild .guild-inner{background: rgba(0, 0, 0, 0.7) !important;}
+
+.theme-dark .reaction .reaction-count{color: #bbbbbb;}
+
+.theme-dark .reaction.reaction-me, .theme-light .reaction.reaction-me{background: var(--main-color) !important;}
+
+.message-group .comment .markup code.inline, .message-group .comment .markup pre{background: rgba(0, 0, 0, 0.6) !important;line-height: 22px !important;}
+
+.channel-notices .channel-notice.invite{background: url(https://discordapp.com/assets/bf625d222187f542b9d7179109422e2c.svg) center 20px no-repeat rgba(0, 0, 0, 0.65);}
+
+.theme-dark .message-group.is-local-bot-message{box-shadow: 0 0 transparent;}
