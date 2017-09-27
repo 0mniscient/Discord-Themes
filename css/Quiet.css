@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "5.9";
+	--version-content: "6.0";
 	--theme-name: "Quiet";
 }
 /* Version Displayed */
@@ -4240,3 +4240,12 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 #friends .friends-table .friends-row .friends-column-actions .friends-action:nth-child(3){background-color: rgba(199, 0, 67, 0.7) !important;transition-delay: 200ms;}
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action:hover:nth-child(3){background-color: rgba(199, 0, 67, 1) !important;}
+
+#friends .friends-table .friends-row .friends-column-actions{top: 48px;}
+
+.win-buttons.win-buttons-light .win-minimize{background-color:#ffbe2f;background-image:none;border-radius:50%;height:15px;width:15px;margin-left:-80px !important;position:absolute;}
+
+.win-buttons.win-buttons-light .win-close{background-color:#ff625a;background-image:none;border-radius:50%;height:15px;width:15px;margin-left:-52px !important;position:absolute;}
+
+.win-buttons.win-buttons-light .win-maximize{background-color:#29cf42;background-image:none;border-radius:50%;height:15px;width:15px;margin-left:-25px !important;position:absolute;}
+
