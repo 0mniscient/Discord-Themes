@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "6.0";
+	--version-content: "6.1";
 	--theme-name: "Quiet";
 }
 /* Version Displayed */
@@ -9,7 +9,7 @@
 
 .version:after{content:var(--version-content);display:block;font-size:14px;font-weight:700;color:#43B581;}
 
-.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before{content: var(--theme-name)" v" var(--version-content) "\A \A Theme Options:\A \A - Show/Hide Blocked messages\A - Loading Theme Animation\A - Remove spacing between messages \A - Remove Channel Mentions Bar \A - Remove Server Mentions Bar\A - Remove Embed Enlarging\A - Christmas Things\A - Normal Guild/Server Icon Sizes\A - Circle Avatars\A - Revert bottom to default look\A - Minimized Channel Members\A - Background Around Messages\A - Minimized Servers\A - Nitro Tag \A \A Go to discord.io/mrrobot to show love and support! <3"!important;}
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before{content: var(--theme-name)" v" var(--version-content) "\A \A Theme Options:\A \A - Show/Hide Blocked messages\A - Loading Theme Animation\A - Remove spacing between messages \A - Remove Channel Mentions Bar \A - Remove Server Mentions Bar\A - Remove Embed Enlarging\A - Christmas Things\A - Normal Guild/Server Icon Sizes\A - Circle Avatars\A - Revert bottom to default look\A - Minimized Channel Members\A - Background Around Messages\A - Minimized Servers\A - Nitro Tag \A \A Go to discord.me/mrrobotserver to show love and support! <3"!important;}
 
 .need-help-modal .header h1::after{content:var(--theme-name)" v" var(--version-content);color:#fff;font-weight:700;font-size:250%;z-index:11;position:absolute;width:200%;left: 0px;margin-left: -45px;top: 16px;font-family:Satisfy;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);}
 
@@ -4243,9 +4243,9 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 #friends .friends-table .friends-row .friends-column-actions{top: 48px;}
 
-.win-buttons.win-buttons-light .win-minimize{background-color:#ffbe2f;background-image:none;border-radius:50%;height:15px;width:15px;margin-left:-80px !important;position:absolute;}
+.win-buttons.win-buttons-light .win-minimize{background-color:#ffbe2f;background-image:none;border-radius:50%;height:15px;width:15px;margin-left:-82px !important;}
 
-.win-buttons.win-buttons-light .win-close{background-color:#ff625a;background-image:none;border-radius:50%;height:15px;width:15px;margin-left:-52px !important;position:absolute;}
+.win-buttons.win-buttons-light .win-close{background-color:#ff625a;background-image:none;border-radius:50%;height:15px;width:15px;margin-left:15px !important;}
 
-.win-buttons.win-buttons-light .win-maximize{background-color:#29cf42;background-image:none;border-radius:50%;height:15px;width:15px;margin-left:-25px !important;position:absolute;}
+.win-buttons.win-buttons-light .win-maximize{background-color:#29cf42;background-image:none;border-radius:50%;height:15px;width:15px;margin-left:15px !important;}
 
