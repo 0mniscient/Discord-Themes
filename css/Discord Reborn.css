@@ -342,3 +342,54 @@ span.spinner{margin-top: 2px;}
 
 .header-toolbar button span[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCA5LjMyNTg0MjdjMCAuNzQxNTczMDMuNjE2NDM4MzYgMS4zNTk1NTA1NiAxLjM1NjE2NDM4IDEuMzU5NTUwNTYuNzM5NzI2MDMgMCAxLjM1NjE2NDQtLjYxNzk3NzUzIDEuMzU2MTY0NC0xLjM1OTU1MDU2IDAtMS40ODMxNDYwNyAxLjYwMjczOTctMS41NDQ5NDM4MiAxLjc4NzY3MTIyLTEuNTQ0OTQzODIuMTg0OTMxNSAwIDEuNzg3NjcxMjMuMDYxNzk3NzUgMS43ODc2NzEyMyAxLjU0NDk0Mzgydi4zMDg5ODg3NmMwIC42MTc5Nzc1My0uMzA4MjE5MTggMS4xMTIzNTk1NS0uODYzMDEzNyAxLjQyMTM0ODMybC0xLjIzMjg3NjcuNjc5Nzc1MjhjLS42NzgwODIyLjM3MDc4NjUtMS4wNDc5NDUyIDEuMDUwNTYxOC0xLjA0Nzk0NTIgMS43OTIxMzQ4M3YxLjExMjM1OTUyQzExLjE0MzgzNTYzIDE1LjM4MjAyMjUgMTEuNzYwMjczOTYgMTYgMTIuNSAxNmMuNzM5NzI2MDMgMCAxLjM1NjE2NDM4LS42MTc5Nzc1IDEuMzU2MTY0MzgtMS4zNTk1NTA1NnYtLjY3OTc3NTI4bC44NjMwMTM3LS40MzI1ODQyN0MxNi4xMzY5ODYzIDEyLjc4NjUxNjgyIDE3IDExLjMwMzM3MDggMTcgOS42OTY2Mjkydi0uMzcwNzg2NUMxNyA2LjQ4MzE0NjA3IDE0LjcxOTE3ODA4IDUgMTIuNSA1IDEwLjIxOTE3ODA4IDUgOCA2LjQ4MzE0NjA3IDggOS4zMjU4NDI3ek0xMi41IDE3Yy0yIDAtMiAzIDAgM3MyLTMgMC0zeiIvPgo8L3N2Zz4=");']::after{content: "R" !important;}
 
+.theme-light .mention {background-color: rgba(0, 0, 0, 0.5) !important;}
+
+.tutorial-indicators + .theme-light::before, .tutorial-indicators + .theme-light::after{display: none;}
+
+.theme-light .inner-ptMwR- .channel-3YGMy1{color: #e9e9e9;}
+
+.theme-light .chat .divider.divider-red > span{background-color: rgba(0, 0, 0, 0.6) !important;}
+
+.theme-light .textArea-20yzAH, .theme-light .textArea-20yzAH::placeholder{color: #e7e7e7;}
+
+.theme-light .buttonInfo-3r6H7z, .theme-light .buttonDisconnect-3xZpYL{filter: invert(0);}
+
+.theme-light .win-buttons button{filter: invert(0) brightness(400%);opacity: 0.7;}
+
+.theme-light .win-buttons button:hover{opacity: 1 !important;}
+
+.theme-light .nameHovered-28u_Fz, .theme-light .nameSpeaking-3ROx9q{color:#fff !important;}
+
+.theme-light .search .DraftEditor-root .public-DraftEditorPlaceholder-root, .theme-light .search .DraftEditor-root, .theme-light .search .search-bar .public-DraftEditorPlaceholder-root{color: #dadada !important;}
+
+.theme-light .DraftEditor-editorContainer, .theme-light .search .search-bar-icon{background-color: transparent;}
+
+.theme-light .search .search-bar-icon{filter: invert() brightness(400%);}
+
+.theme-light .input-2YozMi{border-color: rgba(255, 255, 255, 0.3);color: #ebebeb;border-width: 2px;}
+
+.theme-light .input-2YozMi:focus{border-color: var(--main-color);}
+
+.theme-light .buttonPrimaryLinkDefault-1PQflF, .theme-light .buttonPrimaryLinkDisabled-3Ey7-S, .theme-light .buttonPrimaryLinkSubmitting-RbBzR4{color: #f1f1f1;}
+
+.popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item:nth-of-type(11){animation-delay: 1000ms;}
+
+.emoji-picker, .emoji-picker .sticky-header{background-color: rgba(0,0,0,0.6) !important;}
+
+.emoji-picker .category {background-color:rgba(0,0,0,0.8);}
+
+#bda-qem {background-color:rgba(0,0,0,0.7);}
+
+.emote-menu-inner {background-color:rgba(0,0,0,0.0);}
+
+#bda-qem-twitch-container, #bda-qem-favourite-container {background-color:rgba(0,0,0,0.6);}
+
+.emoji-picker .header .search-bar {padding: 0px;}
+
+.theme-light .emoji-picker{border: 1px solid #000000 !important;}
+
+.theme-light .emoji-picker .search-bar .search-bar-inner, .emoji-picker .search-bar {background-color: transparent !important;border-color: transparent !important;}
+
+.theme-light .search-bar-icon{filter: invert() brightness(400%);}
+
+.theme-light .emoji-picker .categories .item.recent, .theme-light .emoji-picker .categories .item.custom, .theme-light .emoji-picker .categories .item.people, .theme-light .emoji-picker .categories .item.nature, .theme-light .emoji-picker .categories .item.food, .theme-light .emoji-picker .categories .item.activity, .theme-light .emoji-picker .categories .item.travel, .theme-light .emoji-picker .categories .item.travel, .theme-light .emoji-picker .categories .item.objects, .theme-light .emoji-picker .categories .item.symbols, .theme-light .emoji-picker .categories .item.flags{filter: invert(0) !important;}
