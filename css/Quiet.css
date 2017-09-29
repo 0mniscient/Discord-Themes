@@ -4252,3 +4252,11 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .guilds-wrapper .guilds .guild.audio .guild-inner:after, .guilds-wrapper .guilds .guild.video .guild-inner:after{background-color: var(--main-color);}
 
 .tutorial-indicators + .theme-light::before, .tutorial-indicators + .theme-light::after{display: none;}
+
+#RANbutton-frame{margin-bottom:20px solid !important;}
+
+#RANbutton-frame .guild-inner{width:45px !important;height:45px !important;border-radius:50% !important;margin-top:12px !important;transition:.2s linear all;}
+
+#RANbutton-frame .guild-inner:hover{border-radius:15px !important;background-color:var(--main-color) !important;}
+
+#RANbutton{line-height:43px !important;}
