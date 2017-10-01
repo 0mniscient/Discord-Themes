@@ -281,3 +281,5 @@ body{background: var(--main-color);}
 .private-channels .channel:hover a{color:#fff;background-color:rgba(255,255,255,0.05);}
 
 .private-channels .channel .icon-friends{opacity:1;}
+
+::-webkit-scrollbar-track-piece, .app .scroller-wrap .scroller.guilds::-webkit-scrollbar-track-piece, .theme-dark .friends-table .scroller-wrap .scroller::-webkit-scrollbar-track-piece{background: transparent;}
