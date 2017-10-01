@@ -4286,7 +4286,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .tutorial-indicators + .theme-light::before, .tutorial-indicators + .theme-light::after{display: none;}
 
-#RANbutton-frame{margin-bottom:20px solid !important;}
+#RANbutton-frame{margin-bottom:20px !important;}
 
 #RANbutton-frame .guild-inner{width:45px !important;height:45px !important;border-radius:50% !important;margin-top:12px !important;transition:.2s linear all;}
 
