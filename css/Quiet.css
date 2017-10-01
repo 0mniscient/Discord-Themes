@@ -2,6 +2,7 @@
 :root {
 	--version-content: "6.1";
 	--theme-name: "Quiet";
+	--theme-letter: "Q";
 }
 /* Version Displayed */
 
@@ -1846,6 +1847,27 @@ button.bd-customicon-settings{display:none;}
 
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:0px;z-index:1}
 
+.channel-members::after {
+    content: var(--theme-letter)" v"var(--version-content);
+    font-size: 210%;
+    left: -65px;
+}
+[class*="scroller-"].channel-members {
+    height: 100%;
+	transform: translate(142px);
+}
+[class*="scroller-"].channel-members:hover {
+    animation: member 300ms ease;
+    transform: translate(0px);
+    box-shadow: 4px 0 10px 6px rgba(0, 0, 0, 0.32);
+}
+.channel-members:hover::after {
+    display: none;
+}
+.container-iksrDt {
+    width: calc(100% - 15px);
+    margin-left: -2px;
+}
 }
 
 @media screen and (max-width:850px){.chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup, .chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup{max-width:80%;}
