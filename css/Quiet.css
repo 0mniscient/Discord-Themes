@@ -4260,3 +4260,5 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 #RANbutton-frame .guild-inner:hover{border-radius:15px !important;background-color:var(--main-color) !important;}
 
 #RANbutton{line-height:43px !important;}
+
+.message-group:not(.compact) .avatar-large[style*="92738910362292224"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="92738910362292224"] ~ .member-inner .member-username .member-username-inner::after{content:"Capy Coder";color:#fff;background:#d88d56;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:14px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
