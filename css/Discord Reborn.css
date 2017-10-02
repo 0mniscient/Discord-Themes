@@ -317,7 +317,7 @@ span.spinner{margin-top: 2px;}
 
 .emoji-picker .search-bar{background-color: transparent !important;}
 
-.emoji-picker .search-bar .search-bar-inner{background-color: rgba(0, 0, 0, 0.61);border-color: #000;}
+.emoji-picker .search-bar .search-bar-inner{background-color: transparent;border-color: transparent;}
 
 .emoji-picker .dimmer.visible{background-color: rgba(0, 0, 0, 0.8);margin-left: -2px;}
 
@@ -396,3 +396,11 @@ span.spinner{margin-top: 2px;}
 .theme-light .emoji-picker .categories .item.recent, .theme-light .emoji-picker .categories .item.custom, .theme-light .emoji-picker .categories .item.people, .theme-light .emoji-picker .categories .item.nature, .theme-light .emoji-picker .categories .item.food, .theme-light .emoji-picker .categories .item.activity, .theme-light .emoji-picker .categories .item.travel, .theme-light .emoji-picker .categories .item.travel, .theme-light .emoji-picker .categories .item.objects, .theme-light .emoji-picker .categories .item.symbols, .theme-light .emoji-picker .categories .item.flags{filter: invert(0) !important;}
 
 .channel-members::after{content: var(--theme-letter)" v"var(--version-content);font-size: 210%;left: -65px;}
+
+.need-help-modal .header h1::after{width: 240%;}
+
+.emoji-picker .category{letter-spacing: .08em;width: 100%;margin-left: -10px;border-radius: 0px !important;}
+
+.sticky-header .category{margin-left: -1px !important;}
+
+.emoji-picker .header{width: 100%;margin-left: -1px;}
