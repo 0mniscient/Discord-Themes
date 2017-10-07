@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "6.3";
+	--version-content: "6.4";
 	--theme-name: "Quiet";
 	--theme-letter: "Q";
 }
@@ -4433,3 +4433,5 @@ div[class*=wrapperMuted-]{
 .iconHoveredCollapsed-jNYgOD{top: 0px !important;}
 
 .horizontal-2BEEBe>.flex-lFgbSz.margin-reset, .wrapperHoveredCollapsed-25KVVP .flex-lFgbSz.margin-reset {margin-top: 0px !important;}
+
+.container-1 .containerDefault-1bbItS{margin-left: 4px;}
