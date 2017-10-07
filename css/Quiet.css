@@ -4296,17 +4296,135 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 }
 
-div[class*=wrapperCollapsed-]>div[class*=nameCollapsed-],div[class*=wrapperCollapsed-]>div[class*=nameDefault-],div[class*=wrapperCollapsed-]>div[class*=nameHovered-],div[class*=wrapperCollapsed-]>div[class*=nameHoveredCollapsed-],div[class*=wrapperCollapsed-]>div[class*=nameMuted-],div[class*=wrapperCollapsed-]>div[class*=nameUnread-],div[class*=wrapperDefault-]>div[class*=nameCollapsed-],div[class*=wrapperDefault-]>div[class*=nameDefault-],div[class*=wrapperDefault-]>div[class*=nameHovered-],div[class*=wrapperDefault-]>div[class*=nameHoveredCollapsed-],div[class*=wrapperDefault-]>div[class*=nameMuted-],div[class*=wrapperDefault-]>div[class*=nameUnread-],div[class*=wrapperHovered-]>div[class*=nameCollapsed-],div[class*=wrapperHovered-]>div[class*=nameDefault-],div[class*=wrapperHovered-]>div[class*=nameHovered-],div[class*=wrapperHovered-]>div[class*=nameHoveredCollapsed-],div[class*=wrapperHovered-]>div[class*=nameMuted-],div[class*=wrapperHovered-]>div[class*=nameUnread-],div[class*=wrapperHoveredCollapsed-]>div[class*=nameCollapsed-],div[class*=wrapperHoveredCollapsed-]>div[class*=nameDefault-],div[class*=wrapperHoveredCollapsed-]>div[class*=nameHovered-],div[class*=wrapperHoveredCollapsed-]>div[class*=nameHoveredCollapsed-],div[class*=wrapperHoveredCollapsed-]>div[class*=nameMuted-],div[class*=wrapperHoveredCollapsed-]>div[class*=nameUnread-]{text-align:center;display:flex;justify-content:center;align-items:center;overflow:hidden;color:#fff;opacity:.3;transition:.2s opacity ease-in-out}
- 
-div[class*=container-]>div[class*=containerDefault-]:first-child{padding:5px}
- 
-div[class*=wrapperDefault-],div[class*=wrapperHovered-],div[class*=wrapperHoveredCollapsed-]{display:flex;align-items:center;justify-content:center}
- 
-div[class*=wrapperCollapsed-]>div[class*=nameCollapsed-]:hover,div[class*=wrapperCollapsed-]>div[class*=nameDefault-]:hover,div[class*=wrapperCollapsed-]>div[class*=nameHovered-]:hover,div[class*=wrapperCollapsed-]>div[class*=nameHoveredCollapsed-]:hover,div[class*=wrapperCollapsed-]>div[class*=nameMuted-]:hover,div[class*=wrapperCollapsed-]>div[class*=nameUnread-]:hover,div[class*=wrapperDefault-]>div[class*=nameCollapsed-]:hover,div[class*=wrapperDefault-]>div[class*=nameDefault-]:hover,div[class*=wrapperDefault-]>div[class*=nameHovered-]:hover,div[class*=wrapperDefault-]>div[class*=nameHoveredCollapsed-]:hover,div[class*=wrapperDefault-]>div[class*=nameMuted-]:hover,div[class*=wrapperDefault-]>div[class*=nameUnread-]:hover,div[class*=wrapperHovered-]>div[class*=nameCollapsed-]:hover,div[class*=wrapperHovered-]>div[class*=nameDefault-]:hover,div[class*=wrapperHovered-]>div[class*=nameHovered-]:hover,div[class*=wrapperHovered-]>div[class*=nameHoveredCollapsed-]:hover,div[class*=wrapperHovered-]>div[class*=nameMuted-]:hover,div[class*=wrapperHovered-]>div[class*=nameUnread-]:hover,div[class*=wrapperHoveredCollapsed-]>div[class*=nameCollapsed-]:hover,div[class*=wrapperHoveredCollapsed-]>div[class*=nameDefault-]:hover,div[class*=wrapperHoveredCollapsed-]>div[class*=nameHovered-]:hover,div[class*=wrapperHoveredCollapsed-]>div[class*=nameHoveredCollapsed-]:hover,div[class*=wrapperHoveredCollapsed-]>div[class*=nameMuted-]:hover,div[class*=wrapperHoveredCollapsed-]>div[class*=nameUnread-]:hover{opacity:.8}
- 
-div[class*=wrapperCollapsed-]>div[class*=nameCollapsed-]:after,div[class*=wrapperCollapsed-]>div[class*=nameCollapsed-]:before,div[class*=wrapperCollapsed-]>div[class*=nameDefault-]:after,div[class*=wrapperCollapsed-]>div[class*=nameDefault-]:before,div[class*=wrapperCollapsed-]>div[class*=nameHovered-]:after,div[class*=wrapperCollapsed-]>div[class*=nameHovered-]:before,div[class*=wrapperCollapsed-]>div[class*=nameHoveredCollapsed-]:after,div[class*=wrapperCollapsed-]>div[class*=nameHoveredCollapsed-]:before,div[class*=wrapperDefault-]>div[class*=nameCollapsed-]:after,div[class*=wrapperDefault-]>div[class*=nameCollapsed-]:before,div[class*=wrapperDefault-]>div[class*=nameDefault-]:after,div[class*=wrapperDefault-]>div[class*=nameDefault-]:before,div[class*=wrapperDefault-]>div[class*=nameHovered-]:after,div[class*=wrapperDefault-]>div[class*=nameHovered-]:before,div[class*=wrapperDefault-]>div[class*=nameHoveredCollapsed-]:after,div[class*=wrapperDefault-]>div[class*=nameHoveredCollapsed-]:before,div[class*=wrapperHovered-]>div[class*=nameCollapsed-]:after,div[class*=wrapperHovered-]>div[class*=nameCollapsed-]:before,div[class*=wrapperHovered-]>div[class*=nameDefault-]:after,div[class*=wrapperHovered-]>div[class*=nameDefault-]:before,div[class*=wrapperHovered-]>div[class*=nameHovered-]:after,div[class*=wrapperHovered-]>div[class*=nameHovered-]:before,div[class*=wrapperHovered-]>div[class*=nameHoveredCollapsed-]:after,div[class*=wrapperHovered-]>div[class*=nameHoveredCollapsed-]:before,div[class*=wrapperHoveredCollapsed-]>div[class*=nameCollapsed-]:after,div[class*=wrapperHoveredCollapsed-]>div[class*=nameCollapsed-]:before,div[class*=wrapperHoveredCollapsed-]>div[class*=nameDefault-]:after,div[class*=wrapperHoveredCollapsed-]>div[class*=nameDefault-]:before,div[class*=wrapperHoveredCollapsed-]>div[class*=nameHovered-]:after,div[class*=wrapperHoveredCollapsed-]>div[class*=nameHovered-]:before,div[class*=wrapperHoveredCollapsed-]>div[class*=nameHoveredCollapsed-]:after,div[class*=wrapperHoveredCollapsed-]>div[class*=nameHoveredCollapsed-]:before{content:"";width:100%;vertical-align:middle;height:1px;background:#eee;display:inline-block;margin:0 5px;}
-
-.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .iconHovered-3PRzOR, .iconHoveredCollapsed-jNYgOD, .iconMuted-Hb4ttQ, .iconUnread-3sxnnr{left: 2px;top: -3px;height: 20px;width: 20px;}
+div[class*=wrapperCollapsed-]>div[class*=nameCollapsed-],
+div[class*=wrapperCollapsed-]>div[class*=nameDefault-],
+div[class*=wrapperCollapsed-]>div[class*=nameHovered-],
+div[class*=wrapperCollapsed-]>div[class*=nameHoveredCollapsed-],
+div[class*=wrapperCollapsed-]>div[class*=nameMuted-],
+div[class*=wrapperCollapsed-]>div[class*=nameUnread-],
+div[class*=wrapperDefault-]>div[class*=nameCollapsed-],
+div[class*=wrapperDefault-]>div[class*=nameDefault-],
+div[class*=wrapperDefault-]>div[class*=nameHovered-],
+div[class*=wrapperDefault-]>div[class*=nameHoveredCollapsed-],
+div[class*=wrapperDefault-]>div[class*=nameMuted-],
+div[class*=wrapperDefault-]>div[class*=nameUnread-],
+div[class*=wrapperHovered-]>div[class*=nameCollapsed-],
+div[class*=wrapperHovered-]>div[class*=nameDefault-],
+div[class*=wrapperHovered-]>div[class*=nameHovered-],
+div[class*=wrapperHovered-]>div[class*=nameHoveredCollapsed-],
+div[class*=wrapperHovered-]>div[class*=nameMuted-],
+div[class*=wrapperHovered-]>div[class*=nameUnread-],
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameCollapsed-],
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameDefault-],
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameHovered-],
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameHoveredCollapsed-],
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameMuted-],
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameUnread-],
+div[class*=wrapperMuted-]>div[class*=nameMuted-] {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	color: #fff;
+	opacity: .3;
+	transition: .2s opacity ease-in-out
+}
+div[class*=container-]>div[class*=containerDefault-]:first-child {
+	padding: 5px;
+}
+div[class*=wrapperDefault-],
+div[class*=wrapperHovered-],
+div[class*=wrapperHoveredCollapsed-],
+div[class*=wrapperMuted-] {
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+div[class*=wrapperCollapsed-]>div[class*=nameCollapsed-]:hover,
+div[class*=wrapperCollapsed-]>div[class*=nameDefault-]:hover,
+div[class*=wrapperCollapsed-]>div[class*=nameHovered-]:hover,
+div[class*=wrapperCollapsed-]>div[class*=nameHoveredCollapsed-]:hover,
+div[class*=wrapperCollapsed-]>div[class*=nameMuted-]:hover,
+div[class*=wrapperCollapsed-]>div[class*=nameUnread-]:hover,
+div[class*=wrapperDefault-]>div[class*=nameCollapsed-]:hover,
+div[class*=wrapperDefault-]>div[class*=nameDefault-]:hover,
+div[class*=wrapperDefault-]>div[class*=nameHovered-]:hover,
+div[class*=wrapperDefault-]>div[class*=nameHoveredCollapsed-]:hover,
+div[class*=wrapperDefault-]>div[class*=nameMuted-]:hover,
+div[class*=wrapperDefault-]>div[class*=nameUnread-]:hover,
+div[class*=wrapperHovered-]>div[class*=nameCollapsed-]:hover,
+div[class*=wrapperHovered-]>div[class*=nameDefault-]:hover,
+div[class*=wrapperHovered-]>div[class*=nameHovered-]:hover,
+div[class*=wrapperHovered-]>div[class*=nameHoveredCollapsed-]:hover,
+div[class*=wrapperHovered-]>div[class*=nameMuted-]:hover,
+div[class*=wrapperHovered-]>div[class*=nameUnread-]:hover,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameCollapsed-]:hover,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameDefault-]:hover,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameHovered-]:hover,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameHoveredCollapsed-]:hover,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameMuted-]:hover,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameUnread-]:hover ,
+div[class*=wrapperMuted-]:hover {
+	opacity: .8
+}
+div[class*=wrapperCollapsed-]>div[class*=nameCollapsed-]:after,
+div[class*=wrapperCollapsed-]>div[class*=nameCollapsed-]:before,
+div[class*=wrapperCollapsed-]>div[class*=nameDefault-]:after,
+div[class*=wrapperCollapsed-]>div[class*=nameDefault-]:before,
+div[class*=wrapperCollapsed-]>div[class*=nameHovered-]:after,
+div[class*=wrapperCollapsed-]>div[class*=nameHovered-]:before,
+div[class*=wrapperCollapsed-]>div[class*=nameHoveredCollapsed-]:after,
+div[class*=wrapperCollapsed-]>div[class*=nameHoveredCollapsed-]:before,
+div[class*=wrapperDefault-]>div[class*=nameCollapsed-]:after,
+div[class*=wrapperDefault-]>div[class*=nameCollapsed-]:before,
+div[class*=wrapperDefault-]>div[class*=nameDefault-]:after,
+div[class*=wrapperDefault-]>div[class*=nameDefault-]:before,
+div[class*=wrapperDefault-]>div[class*=nameHovered-]:after,
+div[class*=wrapperDefault-]>div[class*=nameHovered-]:before,
+div[class*=wrapperDefault-]>div[class*=nameHoveredCollapsed-]:after,
+div[class*=wrapperDefault-]>div[class*=nameHoveredCollapsed-]:before,
+div[class*=wrapperHovered-]>div[class*=nameCollapsed-]:after,
+div[class*=wrapperHovered-]>div[class*=nameCollapsed-]:before,
+div[class*=wrapperHovered-]>div[class*=nameDefault-]:after,
+div[class*=wrapperHovered-]>div[class*=nameDefault-]:before,
+div[class*=wrapperHovered-]>div[class*=nameHovered-]:after,
+div[class*=wrapperHovered-]>div[class*=nameHovered-]:before,
+div[class*=wrapperHovered-]>div[class*=nameHoveredCollapsed-]:after,
+div[class*=wrapperHovered-]>div[class*=nameHoveredCollapsed-]:before,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameCollapsed-]:after,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameCollapsed-]:before,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameDefault-]:after,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameDefault-]:before,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameHovered-]:after,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameHovered-]:before,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameHoveredCollapsed-]:after,
+div[class*=wrapperHoveredCollapsed-]>div[class*=nameHoveredCollapsed-]:before,
+div[class*=wrapperMuted-]>div[class*=nameMuted-]:after,
+div[class*=wrapperMuted-]>div[class*=nameMuted-]:before {
+	content: "";
+	width: 100%;
+	vertical-align: middle;
+	height: 1px;
+	background: #eee;
+	display: inline-block;
+	margin: 0 5px;
+}
+div[class*=wrapperMuted-]{
+	opacity: 0.5;
+}
+[class*=wrapperHoveredCollapsed-], [class*=wrapperMuted-]{
+    height: 0px !important;
+    padding-top: 10px !important;
+    padding-bottom: 20px !important;
+}
+.iconMuted-Hb4ttQ {
+    left: 2px;
+    top: 0px;
+    height: 20px;
+    width: 20px;
+}
+.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .iconHovered-3PRzOR, .iconHoveredCollapsed-jNYgOD, .iconUnread-3sxnnr{left: 2px;top: -3px;height: 20px;width: 20px;}
 
 .iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm{color: #5d5d5e;}
 
