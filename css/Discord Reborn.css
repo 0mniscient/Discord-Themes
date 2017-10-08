@@ -412,3 +412,100 @@ span.spinner{margin-top: 2px;}
 .autocomplete-1TnWNR .selectorSelected-2M0IGv {background-color:rgba(0,0,0,0) !important;}
 
 .autocomplete-1TnWNR .selectorSelected-2M0IGv:hover {background-color:rgba(0,0,0,0.7) !important;}
+
+.userPopout-4pfA0d .body-3rkFrF .bodyTitleText-hSiL7d {
+   color: #A7A7A7
+ }
+
+ .userPopout-4pfA0d .footer-2J5zqP .tip {
+   color: #A0A0A0
+ }
+
+ .userPopout-4pfA0d .headerNormal-1cioxU {
+   background: transparent!important
+ }
+
+ .avatarNormal-3luwna {
+   border-color: transparent;
+ }
+
+ .header-3mZJcV .avatarStatusNormal-1OXVjG {
+   border-color: transparent;
+ }
+
+ .userPopout-4pfA0d::before {
+   content: "";
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: -1;
+   background-position: center;
+   -webkit-filter: blur(3px);
+   filter: blur(3px);
+   overflow: hidden
+ }
+
+ .userPopout-4pfA0d .body-3rkFrF {
+   background: rgba(0, 0, 0, .65);
+   padding-bottom: 10px;
+   border-bottom: 0px
+ }
+
+ .userPopout-4pfA0d .footer-2J5zqP {
+   background: rgba(0, 0, 0, .65);
+   border-top: 2px var(--main-color) solid
+ }
+
+ .userPopout-4pfA0d .footer-2J5zqP .quick-message .quickMessage-28pD5Y {
+   border-color: transparent;
+   background: rgba(0, 0, 0, .5);
+   color: #fff
+ }
+
+ .quickMessage-28pD5Y {
+   border-color: var(--main-color);
+   background-color: rgba(0, 0, 0, 0.3);
+   color: #AEAEAE
+ }
+
+ .userPopout-4pfA0d .body-3rkFrF .roles .member-roles {
+   max-height: 230px;
+   overflow-y: auto
+ }
+
+ .theme-dark .footer-1PYmcw {
+   background: transparent !important
+ }
+
+ .theme-dark .input-2YozMi {
+   border-color: var(--main-color);
+   border-width: 2px;
+ }
+
+ .theme-dark .footer-1PYmcw {
+   background: transparent !important
+ }
+
+ .theme-dark .input-2YozMi {
+   border-color: var(--main-color);
+   border-width: 2px;
+ }
+
+ .userPopout-4pfA0d .body-3rkFrF .roles .member-roles::-webkit-scrollbar {
+   width: 14px
+ }
+
+ .userPopout-4pfA0d .body-3rkFrF .roles .member-roles::-webkit-scrollbar-thumb {
+   background-clip: padding-box;
+   border: 3px solid transparent
+ }
+
+ .userPopout-4pfA0d .body-3rkFrF .roles .member-roles::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles::-webkit-scrollbar-track-piece, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles::-webkit-scrollbar-track-piece {
+   visibility: hidden
+ }
+
+ .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece {
+   visibility: visible
+ }
