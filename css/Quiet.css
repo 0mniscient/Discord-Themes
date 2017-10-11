@@ -2711,7 +2711,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .quiet{height: 70px;}
 
-.guilds-wrapper .dms{display: block;margin-top: -10px;margin-bottom: -4px;}
+.guilds-wrapper .dms{display: block;margin-top: 7px;margin-bottom: -4px;}
 
 .app .guilds .guild:first-child{border-bottom: 2px solid var(--main-color);background: #19191b;top: 0px;padding-bottom: 1px;position: fixed;width: 79px;left: -3px;z-index: 2;}
 
