@@ -415,7 +415,7 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 
 #friends .friends-table .friends-row .friends-column-status{top:0;width:100%;justify-content:center;height:18px;}
 
-#friends .friends-table .friends-row .friends-column-status .status{width:100%;height:20px;border-radius:5px 5px 0 0;position:absolute;top:0;opacity:0.5;z-index:0;}
+#friends .friends-table .friends-row .friends-column-status .status{width:100%;height:20px;border-radius:5px 5px 0 0 !important;position:absolute;top:0;opacity:0.5;z-index:0;}
 
 #friends .friends-table .friends-row .friends-column-status .status-text{color:rgba(255, 255, 255, 0.5);font-weight:800 !important;max-width:90%;font-size:12px;line-height:normal;transition:color 300ms;z-index:0;}
 
@@ -1861,7 +1861,7 @@ button.bd-customicon-settings{display:none;}
 
 .user-popout .avatar-wrapper .avatar-hint{border-radius:0px;}
 
-.user-popout .avatar-wrapper .avatar-popout .status,.avatar-popout,#user-profile-modal .avatar-wrapper .avatar-profile{border-radius:5px !important;}
+.user-popout .avatar-wrapper .avatar-popout .status,.avatar-popout,#user-profile-modal .avatar-wrapper .avatar-profile{border-radius:5px;}
 
 .status-online{background-color:transparent;border:4px solid #43b581 !important;}
 
@@ -3676,7 +3676,7 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .containerDefault-1bbItS, .containerDragAfter-3O-noP, .containerDragBefore-2hcouM, .containerUserOver-3O3u5c{padding-top: 20px;}
 
-[class*="userPopout-"] .avatar-1BXaQj{border-radius: 4px !important;}
+[class*="userPopout-"] .avatar-1BXaQj{border-radius: 4px;}
 
 .theme-dark .preview-inner .message-group{background-color: #171719;}
 
