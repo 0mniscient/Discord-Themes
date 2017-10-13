@@ -509,3 +509,11 @@ span.spinner{margin-top: 2px;}
  .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece {
    visibility: visible
  }
+@media screen and (max-width: 970px) {
+    .theme-dark .guilds-wrapper::before {
+        display: none !important;
+    }
+    .scroller.guilds, .theme-dark .guilds-wrapper {
+    height: 100% !important;
+}
+}
