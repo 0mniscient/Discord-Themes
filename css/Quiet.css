@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "6.4";
+	--version-content: "6.5";
 	--theme-name: "Quiet";
 	--theme-letter: "Q";
 }
@@ -4214,6 +4214,10 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .guilds-wrapper:hover ~ .flex-vertical.channels-wrap, .flex-vertical.channels-wrap:hover{width:25%;border-right:0px solid transparent;z-index: 3 !important;}
 
+.theme-dark .chat form {border-left: 0px solid #212121 !important;}
+	
+.theme-dark .guilds-wrapper:hover ~ .chat form,  .theme-dark .flex-vertical.channels-wrap:hover ~ .chat form{border-left: 2px solid #212121 !important;}
+
 .channel-members{transform:translate(145px);z-index:2;transition:all 300ms ease;}
 
 .channel-members:hover{animation:member 300ms ease;transform:translate(0px);box-shadow:4px 0 10px 6px rgba(0, 0, 0, 0.32);}
@@ -4285,3 +4289,5 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .emoji-picker{width:90%;}
 
 }
+
+.iconMuted-Hb4ttQ, .nameMuted-1n0LSj {color: #6e6e6f;opacity: 0.5;}
