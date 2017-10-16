@@ -4291,3 +4291,13 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 }
 
 .iconMuted-Hb4ttQ, .nameMuted-1n0LSj {color: #6e6e6f;opacity: 0.5;}
+
+.member-perms .member-perm{background-color: var(--main-color);border: 1px solid var(--main-color);border-radius: 3px;color: #fff;font-weight: 600;text-shadow: 0px 0px 2px #000;}
+
+.member-perms::-webkit-scrollbar{width: 0px;}
+
+#permissions-modal-wrapper .role-side{background: #121213;}
+
+#permissions-modal-wrapper .header{background: #121213;}
+
+#permissions-modal-wrapper .perm-side{background-color: #19191b;}
