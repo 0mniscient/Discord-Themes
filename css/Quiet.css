@@ -1893,15 +1893,15 @@ button.bd-customicon-settings{display:none;}
 
 .message-group .comment>div:hover .btn-option,.message-group .comment>div:hover .btn-reaction,.message-group .comment>div .btn-option,.message-group .comment>div .btn-reaction{padding-top:5px !important;}
 
-.title > .status-online{background:#43b581 !important;border:0px transparent !important;}
+[class*=titleText-] > .status-online{background:#43b581 !important;border:0px transparent !important;}
 
-.title > .status-idle{background:#faa61a !important;border:0px transparent !important;}
+[class*=titleText-] > .status-idle{background:#faa61a !important;border:0px transparent !important;}
 
-.title > .status-dnd{background:#f04747 !important;border:0px transparent !important;}
+[class*=titleText-] > .status-dnd{background:#f04747 !important;border:0px transparent !important;}
 
-.title > .status-offline{background:#282829 !important;border:0px transparent !important;}
+[class*=titleText-] > .status-offline{background:#282829 !important;border:0px transparent !important;}
 
-.title > .status-offline{background:#747f8d !important;border:0px transparent !important;}
+[class*=titleText-] > .status-offline{background:#747f8d !important;border:0px transparent !important;}
 
 .message-group:not(.compact) .avatar-large[style*="/a_"] ~ .comment .body h2 .timestamp{order:3;}
 
