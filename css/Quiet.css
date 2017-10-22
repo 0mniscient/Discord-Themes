@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "6.5";
+	--version-content: "6.6";
 	--theme-name: "Quiet";
 	--theme-letter: "Q";
 }
@@ -4301,3 +4301,58 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 #permissions-modal-wrapper .header{background: #121213;}
 
 #permissions-modal-wrapper .perm-side{background-color: #19191b;}
+
+/* editor container styling */
+#bd-customcss-detach-container{padding-top:20px;text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
+
+#bd-settingspane-container .content-column.default>div h2{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;text-transform:none;}
+
+#bd-settingspane-container .CodeMirror-gutters,#bd-settingspane-container .CodeMirror-sizer{background-color:#292b2f !important;}
+
+#bd-settingspane-container .CodeMirror-linenumber{color:#9e9e9e !important;}
+
+#bd-settingspane-container .CodeMirror-cursor{border-color:#4286f4;}
+
+.CodeMirror-code{font-family:'Ubuntu Mono', monospace;font-size:15px;line-height:15px;text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;text-align:justify;color:#dcdcdc;}
+
+/* syntax styling */
+.cm-comment{color:#51707e !important;}
+
+.cm-qualifier{color:#ffac58 !important;}
+
+.cm-variable-3{color:#72bdff !important;font-style:italic;}
+
+.cm-tag{color:#ff6f4f !important;font-style:italic;}
+
+.cm-string{color:#8bff8b !important;}
+
+.cm-property{color:#54fff4 !important;}
+
+.cm-atom{color:#ff7e7e !important;font-style:italic;}
+
+.cm-number{color:#d2dd86 !important;}
+
+.cm-meta{color:#7280ff !important;}
+
+.cm-tab{visibility:hidden;font-size:0;}
+
+.cm-tab:after{content:' ';visibility:visible;font-size:initial;}
+
+.cm-keyword{color:rgb(255, 57, 255) !important;font-style:italic;}
+
+/* editor controls styles */
+#bd-customcss-attach-controls{height:90px;}
+
+#bd-customcss-attach-controls .checkbox{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
+
+#bd-customcss-attach-controls .checkbox-inner input[type='checkbox']:checked+span{text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;background-color: #4286f4;border-color: #4286f4;}
+
+#bd-customcss-detach-controls-button .btn{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
+
+#bd-customcss-detach-controls-button span{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;display:block;padding-top:4px;margin-bottom:10px;}
+
+/* detached editor styles */
+#editor-detached button.btn{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;background-color:#4286f4;}
+
+/* editor page styles */
+.ui-standard-sidebar-view .content-column[style]{max-width:100%;min-width:85%;padding-top:20px !important;}
