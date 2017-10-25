@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i);
+
 :root {
 	--version-content: "6.6";
 	--theme-name: "Quiet";
-	--theme-letter: "Q";
+    --theme-letter: "Q";
 }
 /* Version Displayed */
 
@@ -14,7 +16,7 @@
 
 .need-help-modal .header h1::after{content:var(--theme-name)" v" var(--version-content);color:#fff;font-weight:700;font-size:250%;z-index:11;position:absolute;width:200%;left: 0px;margin-left: -45px;top: 16px;font-family:Satisfy;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);}
 
-#bd-settingspane-container .content-column.default .ui-form-title.h2::after{content: "Hi, I have a server where I post customizable options for the theme and you can give \A me feedback, also with tons of bots. Join the server at discord.me/mrrobotserver \A\A It's also easier to report bugs and has a higher chance of getting them fixed faster."!important;}
+#bd-settingspane-container .content-column.default .ui-form-title.h2::after{content: "Hi, I have a server where I post customizable options for the theme and \A you can give me feedback, also with tons of bots. Join the server at \A\A discord.me/mrrobotserver \A\A It's also easier to report bugs and has a higher chance of getting them \A fixed faster.";}
 
 .themedescription{display:block;width:100%;margin-right:5px;}
 
@@ -4303,17 +4305,24 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 #permissions-modal-wrapper .perm-side{background-color: #19191b;}
 
 /* editor container styling */
-#bd-customcss-detach-container{padding-top:20px;text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
 
-#bd-settingspane-container .content-column.default>div h2{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;text-transform:none;}
+#bd-settingspane-container .content-column.default>div h2{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;text-transform:uppercase !important;font-style:normal !important;font-size:16px !important;font-weight:600 !important; font-family: 'Whitney', sans-serif !important;}
 
-#bd-settingspane-container .CodeMirror-gutters,#bd-settingspane-container .CodeMirror-sizer{background-color:#292b2f !important;}
+#bd-settingspane-container .content-column.default>div h2:after{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;font-size:16px;font-style: normal;font-family: 'Consolas', monospace;text-align:left !important;}
 
-#bd-settingspane-container .CodeMirror-linenumber{color:#9e9e9e !important;}
+#bd-settingspane-container .CodeMirror-gutters,#bd-settingspane-container .CodeMirror-sizer{background-color:#1a1a1a !important;}
+
+#bd-settingspane-container .CodeMirror-linenumber{color:#9e9e9e !important;background-color:#1a1a1a;}
+
+#bd-settingspane-container .CodeMirror-linenumbers{color:#9e9e9e !important;background-color:#1a1a1a;}
 
 #bd-settingspane-container .CodeMirror-cursor{border-color:#4286f4;}
 
-.CodeMirror-code{font-family:'Ubuntu Mono', monospace;font-size:15px;line-height:15px;text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;text-align:justify;color:#dcdcdc;}
+#bd-settingspane-container .tools {margin-left: 10px !important;width:auto;}
+
+.CodeMirror.cm-s-material.CodeMirror-simplescroll{border: solid 2px var(--main-color);border-bottom:none !important;border-radius: 2px !important;}
+
+.CodeMirror-code{font-family:'Ubuntu Mono', monospace;font-size:15px;line-height:15px;text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;text-align:left;color:#dcdcdc;background-color:#1a1a1a;}
 
 /* syntax styling */
 .cm-comment{color:#51707e !important;}
@@ -4338,21 +4347,36 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .cm-tab:after{content:' ';visibility:visible;font-size:initial;}
 
-.cm-keyword{color:rgb(255, 57, 255) !important;font-style:italic;}
+.cm-keyword{color:#ff39ff !important;font-style:italic;}
 
 /* editor controls styles */
 #bd-customcss-attach-controls{height:90px;}
 
-#bd-customcss-attach-controls .checkbox{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
+#bd-customcss-attach-controls .checkbox {margin-left:5px;}
+
+#bd-customcss-attach-controls .checkbox span{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;color:#f1f1f1;font-family:'Ubuntu Mono',monospace;font-size:20px;font-style:italic;}
+
+#bd-customcss-attach-controls {width: 100%; border:solid 2px var(--main-color) !important;border-top:none!important;}
 
 #bd-customcss-attach-controls .checkbox-inner input[type='checkbox']:checked+span{text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;background-color: #4286f4;border-color: #4286f4;}
 
 #bd-customcss-detach-controls-button .btn{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
 
-#bd-customcss-detach-controls-button span{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;display:block;padding-top:4px;margin-bottom:10px;}
+#bd-customcss-detach-controls-button span{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;display:block;padding-top:4px;margin-bottom:10px;font-family:'Ubuntu Mono',monospace;font-style:italic;font-size:18px!important;}
+    
+#bd-customcss-attach-controls:after {margin-left: -7px;margin-top: 25px !important;width:640px !important;text-shadow:rgba(0,0,0,0.4) 1px 1px 1px;}
 
 /* detached editor styles */
 #editor-detached button.btn{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;background-color:#4286f4;}
 
+#editor-detached {margin-top:0px!important;}
+   
+#editor-detached h2:after {padding-right: 0px; width:530px;content: "Hi, I have a server where I post customizable options for the \A theme and you can give me feedback, also with tons of bots. \A Join the server at \A\A discord.me/mrrobotserver \A\A It's also easier to report bugs and has a higher chance of \A getting them fixed faster."!important;}
+
+#editor-detached h3 {color: #f1f1f1 !important; margin-top: 10px;}
+
+#bd-customcss-detach-container{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
+
+#bd-customcss-detach-container {padding-top:46px; background-color: #1a1a1a; padding-bottom: 4px;}
 /* editor page styles */
-.ui-standard-sidebar-view .content-column[style]{max-width:100%;min-width:85%;padding-top:20px !important;}
+#app-mount .ui-standard-sidebar-view .content-column[style]{padding: 60px 40px 0px !important;max-width:740px;min-width:460px;}
