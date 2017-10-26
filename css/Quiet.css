@@ -4377,8 +4377,8 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 #editor-detached h3 {color: #f1f1f1 !important; margin-top: 10px;}
 
-#bd-customcss-detach-container{text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
+#bd-customcss-detach-container {padding-top:46px; background-color: #1a1a1a; padding-bottom: 4px;text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
 
-#bd-customcss-detach-container {padding-top:46px; background-color: #1a1a1a; padding-bottom: 4px;}
+#bd-customcss-detach-editor .CodeMirror.cm-s-material.CodeMirror-simplescroll{border-radius:0px!important;}
 /* editor page styles */
 #app-mount .ui-standard-sidebar-view .content-column[style]{padding: 60px 40px 0px !important;max-width:740px;min-width:460px;}
