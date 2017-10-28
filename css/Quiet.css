@@ -4425,3 +4425,16 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .image-EVRGPw {
     border-radius: 0px;
 }
+.scroller-wrap {
+    height: 100%;
+}
+.scroller.guilds {
+    height: 100% !important
+}
+.container-iksrDt {
+    margin-left: 0px !important;
+    width: 220px !important;
+}
+.guilds-add {
+    bottom: 0px !important;
+}
