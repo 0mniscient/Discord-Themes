@@ -460,3 +460,32 @@ span.spinner{margin-top: 2px;}
 .theme-dark .guilds-wrapper:hover ~ .chat form,  .theme-dark .flex-vertical.channels-wrap:hover ~ .chat form{border-left: 0px solid #212121 !important;}
 
 }
+
+.container-2OU7Cz {background: transparent!important;}
+
+.channels-3g2vYe {background-color: rgba(0,0,0,0.75)!important;}
+
+.theme-dark .title-qAcLxz {background: rgba(0,0,0,0)!important;}
+
+.private-channels {background-color: rgba(0,0,0,0) !important;}
+
+#friends > .headerBar-cxbhPD {background-color:rgba(0,0,0,0.75)!important;}
+
+.app .guilds .guild:first-child {margin-top: 18px!important;}
+
+#app-mount .titleWrapper-3Vi_wz {background-color: rgba(0,0,0,0.75);}
+
+.theme-dark .message-group .comment .markup pre {background: rgba(0, 0, 0, 0) !important;border-color: rgba(0, 0, 0, 0.65) !important;}
+
+code {background-color: rgba(25, 25, 27, 0.6)!important;background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50%,transparent 50%)!important;}
+
+.theme-dark .markup .hljs[class~="css" i]::before {background: var(--main-color);}
+
+
+.theme-dark .guilds-wrapper {
+	height: auto !important;
+}
+
+.guilds.scroller > .guild:first-child {
+	margin-top: 26px !important
+}
