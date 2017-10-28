@@ -4382,3 +4382,46 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 #bd-customcss-detach-editor .CodeMirror.cm-s-material.CodeMirror-simplescroll{border-radius:0px!important;}
 /* editor page styles */
 #app-mount .ui-standard-sidebar-view .content-column[style]{padding: 60px 40px 0px !important;max-width:740px;min-width:460px;}
+
+#app-mount .titleWrapper-3Vi_wz {
+    border-bottom: solid 2px var(--main-color);
+    background-color: #19191b;
+    margin-top: -2.2px;
+}
+#app-mount .titleWrapper-3Vi_wz > div {
+    background-color: #19191b;
+}
+#app-mount .guilds-wrapper {
+    margin-top: 10px;
+}
+.scroller-wrap .guilds.scroller .guild:first-child {
+    margin-top: 22px;
+}
+[class*="userPopout-"] .status-3jUEha {
+    bottom: -4px !important;
+    right: -4px !important;
+}
+.mask-2vyqAW {
+    -webkit-mask: none!important;
+}
+.private-channels {
+    background-color: #19191b !important;
+}
+#friends > .headerBar-cxbhPD {
+    background-color: #19191b !important;
+    border-bottom: solid 2px var(--main-color);
+    height: 46px;
+}
+.layer > .container-2OU7Cz > .base-3AoPqv {
+    overflow:visible;
+}
+.chat .content form {
+    background-color: #19191b;
+}
+.chat .content form > div  {
+    margin-bottom: 10px;
+    margin-top: 14px;
+}
+.chat .content form .typing {
+    margin-bottom: 1px;
+}
