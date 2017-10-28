@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i);
 
 :root {
-    --version-content: "6.6";
+    --version-content: "6.7";
     --theme-name: "Quiet";
     --theme-letter: "Q";
 }
@@ -4386,16 +4386,13 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 #app-mount .titleWrapper-3Vi_wz {
     border-bottom: solid 2px var(--main-color);
     background-color: #19191b;
-    margin-top: -2.2px;
+    margin-top: -2px;
 }
 #app-mount .titleWrapper-3Vi_wz > div {
     background-color: #19191b;
 }
-#app-mount .guilds-wrapper {
-    margin-top: 10px;
-}
 .scroller-wrap .guilds.scroller .guild:first-child {
-    margin-top: 22px;
+    margin-top: 26px;
 }
 [class*="userPopout-"] .status-3jUEha {
     bottom: -4px !important;
@@ -4437,4 +4434,44 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 }
 .guilds-add {
     bottom: 0px !important;
+}
+/* title bar looks */
+#app-mount {
+    background-color: #19191b;
+}
+
+#app-mount .titleBar-3_fDwJ {
+    padding-top: 4px;
+    background-color: #19191b !important;
+}
+
+#app-mount .titleBar-3_fDwJ .winButtonClose-2rIvsa {
+    margin: auto 0;
+    margin-right: 10px;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #f00;
+}
+
+#app-mount .titleBar-3_fDwJ .winButtonClose-2rIvsa + .winButtonMinMax-bT_gQ1 {
+    margin: auto 0;
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background-color: #ff0;
+}
+
+#app-mount .titleBar-3_fDwJ .winButtonClose-2rIvsa + .winButtonMinMax-bT_gQ1 + .winButtonMinMax-bT_gQ1 {
+    margin: auto 0;
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background-color: #0f0;
+}
+
+#app-mount .titleBar-3_fDwJ .winButtonClose-2rIvsa + .winButtonMinMax-bT_gQ1 + .winButtonMinMax-bT_gQ1 svg, #app-mount .titleBar-3_fDwJ .winButtonClose-2rIvsa svg, #app-mount .titleBar-3_fDwJ .winButtonClose-2rIvsa + .winButtonMinMax-bT_gQ1 svg, #app-mount .titleBar-3_fDwJ .wordmark-2L03Wr svg {
+    display: none;
 }
