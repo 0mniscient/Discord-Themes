@@ -165,7 +165,7 @@ div.avatar-large{border-radius:5px;}
 
 .guild-channels .channel-text:hover.channel-muted:before,.guild-channels .channel-text:hover:not(.unread):before{border-left:3px solid var(--main-color);}
 
-.theme-dark .chat form{/*border-top: 2px solid #212121 !important;*/border-left: 2px solid #212121 !important;border-right: 2px solid #212121 !important;margin-bottom:3px !important;}
+.theme-dark .chat form{border-top: 2px solid #212121 !important;border-left: 2px solid #212121 !important;border-right: 2px solid #212121 !important;margin-bottom:3px !important;}
 
 .channel-textarea{box-shadow: 0 0 transparent;margin: 0px;border-radius: 0px;-webkit-transition: all 200ms ease;transition: all 200ms ease;}
 
@@ -3105,7 +3105,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .avatar-small .status{width: 100%;height: 100%;border-width: 2px !important;right: -2px;bottom: -2px;}
 
-.container-iksrDt{height: 71px;background: #19191b;border-top: 2px solid #212121;width: calc(100% - -60px);position: relative;z-index: 10;color: #fff;border-radius: 0px !important;margin-left: -78px;margin-bottom: -1px;}
+.container-iksrDt{height: 71px;background: #19191b;border-top: 2px solid #212121;width: calc(100% - -18px);position: relative;z-index: 10;color: #fff;border-radius: 0px !important;margin-left: -78px;margin-bottom: -1px;}
 
 [class*="flexChild-"] > [class*="container-"] > [class*="header"]:not(.header-toolbar){border-bottom: 2px solid var(--main-color);height: 48px;}
 .private-channels .channel.selected a, .private-channels .channel:hover a{background-color: #121213;}
@@ -4256,7 +4256,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .channel-members:hover::after{display: none;}
 
-.container-iksrDt{width: calc(100% - 15px) !important;margin-left: 0px;}
+.container-iksrDt{margin-left: 0px;}
 
 .scroller-wrap .scroller::-webkit-scrollbar{width: 0px;}
 	
@@ -4383,55 +4383,34 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 /* editor page styles */
 #app-mount .ui-standard-sidebar-view .content-column[style]{padding: 60px 40px 0px !important;max-width:740px;min-width:460px;}
 
-#app-mount .titleWrapper-3Vi_wz {
-    border-bottom: solid 2px var(--main-color);
-    background-color: #19191b;
-    margin-top: -2px;
-}
-#app-mount .titleWrapper-3Vi_wz > div {
-    background-color: #19191b;
-}
-.scroller-wrap .guilds.scroller .guild:first-child {
-    margin-top: 26px;
-}
-[class*="userPopout-"] .status-3jUEha {
-    bottom: -4px !important;
-    right: -4px !important;
-}
-.mask-2vyqAW {
-    -webkit-mask: none!important;
-}
-.private-channels {
-    background-color: #19191b !important;
-}
-#friends > .headerBar-cxbhPD {
-    background-color: #19191b !important;
-    border-bottom: solid 2px var(--main-color);
-    height: 46px;
-}
-.chat .content form {
-    background-color: #19191b;
-}
-.chat .content form > div  {
-    margin-bottom: 10px;
-    margin-top: 14px;
-}
-.chat .content form .typing {
-    margin-bottom: 1px;
-}
-.image-EVRGPw {
-    border-radius: 0px;
-}
-.scroller-wrap {
-    height: 100%;
-}
-.scroller.guilds {
-    height: 100% !important
-}
-.container-iksrDt {
-    margin-left: 0px !important;
-    width: 220px !important;
-}
-.guilds-add {
-    bottom: 0px !important;
-}
+#app-mount .titleWrapper-3Vi_wz{border-bottom: solid 2px var(--main-color);background-color: #19191b;margin-top: -2px;}
+
+#app-mount .titleWrapper-3Vi_wz > div{background-color: #19191b;}
+
+.scroller-wrap .guilds.scroller .guild:first-child{margin-top: 19px;}
+
+[class*="userPopout-"] .status-3jUEha{bottom: -4px !important;right: -4px !important;}
+
+.mask-2vyqAW{-webkit-mask: none!important;}
+
+.private-channels{background-color: #19191b !important;}
+
+#friends > .headerBar-cxbhPD{background-color: #19191b !important;border-bottom: solid 2px var(--main-color);height: 46px;}
+
+.chat .content form{background-color: #19191b;}
+
+.chat .content form > div{margin-bottom: 10px;margin-top: 14px;}
+
+.chat .content form .typing margin-bottom: 1px;}
+
+.image-EVRGPw{border-radius: 0px;}
+
+.scroller-wrap{height: 100%;}
+
+.scroller.guilds{height: 100% !important}
+
+.guilds-add{bottom: 0px !important;}
+
+.typeWindows-15E0Ys{margin-top: 1px;background-color: #19191b;}
+
+.theme-dark .chat form{box-shadow: 0 0px 0 transparent !important;}
