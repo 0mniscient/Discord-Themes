@@ -58,7 +58,7 @@
 
 .theme-dark #friends .friends-table .friends-table-body::after{content: "";background: rgba(0, 0, 0, 0.4);}
 
-.theme-dark .container-iksrDt{height: 71px;background: rgba(0, 0, 0, 0.4);border-right: 0px solid transparent !important;width: calc(100% - -58px);}
+.theme-dark .container-iksrDt{height: 71px;background: rgba(0, 0, 0, 0.4);border-right: 0px solid transparent !important;width: calc(100% - 20px);margin-left: 0px;}
 
 .theme-dark .channel-members::after{background: rgba(0, 0, 0, 0.85);left: 0px;color: rgba(0, 0, 0, 0.56) !important}
 
@@ -498,4 +498,3 @@ code {background-color: rgba(25, 25, 27, 0.6)!important;background-image: linear
 .guilds-wrapper .guilds .friends-online:hover{background: var(--main-color) !important;}
 
 .typeWindows-15E0Ys{margin-top: 1px;background-color: rgba(0, 0, 0, 0.38) !important;}
-
