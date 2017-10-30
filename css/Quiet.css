@@ -4387,7 +4387,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 #app-mount .titleWrapper-3Vi_wz > div{background-color: #19191b;}
 
-.scroller-wrap .guilds.scroller .guild:first-child{margin-top: 19px;}
+#app-mount > [class*="platform-"] .scroller-wrap .guilds.scroller .guild:first-child{margin-top: 19px;}
 
 [class*="userPopout-"] .status-3jUEha{bottom: -4px !important;right: -4px !important;}
 
