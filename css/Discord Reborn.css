@@ -475,9 +475,9 @@ span.spinner{margin-top: 2px;}
 
 #app-mount .titleWrapper-3Vi_wz {background-color: rgba(0,0,0,0.75);}
 
-.theme-dark .message-group .comment .markup pre {background: rgba(0, 0, 0, 0) !important;border-color: rgba(0, 0, 0, 0.65) !important;}
+.theme-dark .message-group .comment .markup pre {background: rgba(0,0,0,0) !important;border-color: rgba(0,0,0,0.65) !important;}
 
-code {background-color: rgba(25, 25, 27, 0.6)!important;background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50%,transparent 50%)!important;}
+code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50%,transparent 50%)!important;}
 
 .theme-dark .markup .hljs[class~="css" i]::before {background: var(--main-color);}
 
@@ -499,13 +499,13 @@ code {background-color: rgba(25, 25, 27, 0.6)!important;background-image: linear
 
 .typeWindows-15E0Ys{margin-top: 1px;background-color: rgba(0, 0, 0, 0.38) !important;}
 
-.userPopout-4pfA0d .headerNormal-1cioxU {background:rgba(0,0,0,0.65)!important;background-image: url(https://betterdocs.net/img/bg.svg)!important;background-size: auto !important;}
+.userPopout-4pfA0d .headerNormal-1cioxU {background:rgba(0,0,0,0.65) !important;background-image: url(https://betterdocs.net/img/bg.svg) !important;background-size: auto !important;}
 
-.headerStreaming-3F-wjT {background:rgba(0,0,0,0.65)!important;background-image: url(https://betterdocs.net/img/bg.svg)!important;background-size:auto!important;}
+.headerStreaming-3F-wjT {background:rgba(0,0,0,0.65) !important;background-image: url(https://betterdocs.net/img/bg.svg) !important;background-size: auto !important;}
 
-.headerLive-2dDMvp{border:1px solid rgb(89,54,149)!important;}
+.headerLive-2dDMvp{border:1px solid rgb(89,54,149) !important;}
 
-.userPopout-4pfA0d, .userPopout-4pfA0d::before {filter: blur(0px)!important;border-radius: 0px!important;}
+.userPopout-4pfA0d, .userPopout-4pfA0d::before {filter: blur(0px) !important;border-radius: 0px !important;}
 
 
 .connect-account-btn .connect-account-btn-inner {background-color: transparent;}
