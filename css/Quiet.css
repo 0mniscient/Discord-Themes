@@ -4416,10 +4416,11 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .image-EVRGPw{border-radius: 0px !important;}
 
 /* Testing */
+.accountDetails-15i-_e .username{display: inline-block;max-width: 100% !important;width: 160px !important;font-family: "Satisfy";font-weight: 700;font-size: 250%;height: 56px;line-height: 56px;color: var(--main-color) !important;margin-bottom: -17px;}
 
-.accountDetails-15i-_e .username{position: fixed;right: 60px;bottom: 15px;max-width: 160px !important;width: 160px !important;overflow: visibile;font-family: "Satisfy";font-weight: 700;font-size: 250%;height: 40px;line-height: 42px;color: var(--main-color) !important;}
+.accountDetails-15i-_e .discriminator{display: inline-block;font-size: 13px;font-weight: 700;margin-bottom: 8px;}
 
-.accountDetails-15i-_e .discriminator{position:fixed;right:26px;font-size: 13px;font-weight: 700;bottom: 23px;}
+.accountDetails-15i-_e{position: fixed;right: 5px;bottom: 14px;max-width: 220px !important;min-width: 220px !important;}
 
 .channel-members::after {color: transparent !important;}
 
