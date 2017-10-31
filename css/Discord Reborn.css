@@ -538,3 +538,4 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner {background-color:transparent!important;}
     
+.status-picker.popout-menu{background: rgba(0,0,0,0.3) !important;}
