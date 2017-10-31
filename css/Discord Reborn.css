@@ -526,5 +526,15 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .guilds-wrapper .guilds .guild .guild-inner {background: rgba(0,0,0,0) !important;} 
 
+.popout section {background-color: rgba(0, 0, 0, 0.65)!important;}
 
+.ui-standard-sidebar-view .bda-slist li:nth-child(odd) {background: rgba(0, 0, 0, 0.6)!important;border-radius:2px!important;}
 
+.ui-standard-sidebar-view .bda-slist li {background: rgba(0,0,0,0.6)!important;border-radius:2px!important;}
+
+.theme-dark .user-settings-voice .preview-overlay {background-color:rgba(0,0,0,0)!important;border-color:rgba(0,0,0,0.5)!important;}
+
+.user-settings-voice .media-engine-video {background-color: rgba(0,0,0,0.3)!important;}
+
+.theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner {background-color:transparent!important;}
+    
