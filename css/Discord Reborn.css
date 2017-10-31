@@ -539,3 +539,17 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 .theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner {background-color:transparent!important;}
     
 .status-picker.popout-menu{background: rgba(0,0,0,0.3) !important;}
+
+.backdrop-2ohBEd {opacity:0.30!important;background-color: rgb(0,0,0)!important;}
+
+#user-profile-modal .header {background-color: rgba(0, 0, 0, 0.75)!important;}
+
+#user-profile-modal .avatar-wrapper .avatar-profile, #user-profile-modal .sub-header, #user-profile-modal .scroller-wrap, #user-profile-modal .empty, #user-profile-modal .scroller {background-color:rgba(0,0,0,0.75)!important;}
+
+#user-profile-modal .scroller {background:rgba(0,0,0,0)!important;}
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account {border:2px solid #202020 important;background:transparent!important;}
+
+#user-profile-modal .scroller-wrap .scroller {height:calc(100%)!important;}
+
+#user-profile-modal .tab-bar-container {background-color:rgba(18,18,18,0.5);}
