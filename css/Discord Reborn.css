@@ -551,3 +551,23 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 #user-profile-modal .scroller-wrap .scroller {height:calc(100%)!important;}
 
 #user-profile-modal .tab-bar-container {background-color:rgba(18,18,18,0.5);}
+
+.theme-dark .activityFeed-HeiGwL {background-color: rgba(0, 0, 0, 0.75)!important;}
+
+.theme-dark .headerBar-cxbhPD {-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2)!important, 0 2px 0 rgba(0,0,0,0.6)!important; background: transparent;}!important
+
+.theme-dark .body-2WmNzl {background-color: transparent;}
+
+.theme-dark .activity-3tgXuD {background-color: rgba(0, 0, 0, 0.5)!important;border-color: #2f3136!important;color: rgb(255,255,255)!important;box-shadow: none!important;}
+
+.theme-dark .newsIconCircle-2mzNOD {background-color: transparent;}
+
+.theme-dark .content-1RjmSK {background-color:rgba(0, 0, 0, 0.2)!important;}
+
+.theme-dark .partyBottomBorder-3UKgJE {background-color: transparent;}
+
+.theme-dark .sectionLine-L34YkN {background-color: transparent;}
+
+.chat   [class*='flex-']:last-of-type:after, [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {background-color: transparent;}
+
+.theme-dark .header-34ZDfM {background-color: rgba(0, 0, 0, 0.5)!important;}
