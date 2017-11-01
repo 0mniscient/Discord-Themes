@@ -571,3 +571,5 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 .chat   [class*='flex-']:last-of-type:after, [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {background-color: transparent;}
 
 .theme-dark .header-34ZDfM {background-color: rgba(0, 0, 0, 0.5)!important;}
+
+.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after, #friends [class*='flex-'] [class*='flex-']:last-of-type:after, [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {background-color: transparent!important;}
