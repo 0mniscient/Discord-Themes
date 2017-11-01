@@ -551,3 +551,7 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 #user-profile-modal .scroller-wrap .scroller {height:calc(100%)!important;}
 
 #user-profile-modal .tab-bar-container {background-color:rgba(18,18,18,0.5);}
+
+.create-guild-container.deprecated, .create-guild-container.deprecated .create-or-join .form-inner, .theme-dark .form.deprecated .form-inner, .form.deprecated .form-actions {background-color:rgba(0,0,0,0.3) !important;}
+
+.create-guild-container.deprecated .action {background:rgba(0,0,0,0.7)!important;}
