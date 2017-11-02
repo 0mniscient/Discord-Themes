@@ -587,3 +587,6 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 .chat .content form .typing {margin-bottom: -2px!important;}
 
 .theme-dark .chat form .typing .ellipsis {margin-top: -2px;!important}
+
+.theme-dark .search .search-bar {background-color:rgba(0,0,0,0.3) !important;border:2px solid rgba(0,0,0,0) !important;border-bottom:2px solid rgba(0,0,0,0) !important;}
+
