@@ -575,3 +575,11 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 .theme-dark .header-34ZDfM {background-color: rgba(0, 0, 0, 0.5)!important;}
 
 .chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after, #friends [class*='flex-'] [class*='flex-']:last-of-type:after, [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {background-color: transparent!important;}
+
+.create-guild-container.deprecated, .create-guild-container.deprecated .create-or-join .form-inner, .theme-dark .form.deprecated .form-inner, .form.deprecated .form-actions {background-color: rgba(0, 0, 0, 0.45) !important;}
+
+.create-guild-container.deprecated .action {background: rgba(0,0,0,0.4)!important;}
+
+.form.deprecated .btn-default {background-color:transparent!important;
+
+.form .control-group input[type=text], .form .control-group input[type=email], .form .control-group input[type=password], .form .control-group input[type=number], .form .control-group textarea {color: #cecece!important;background:rgba(0,0,0,0.75)!important;}
