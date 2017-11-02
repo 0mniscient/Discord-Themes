@@ -590,3 +590,50 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .theme-dark .search .search-bar {background-color:rgba(0,0,0,0.3) !important;border:2px solid rgba(0,0,0,0) !important;border-bottom:2px solid rgba(0,0,0,0) !important;}
 
+.theme-dark .search-results-wrap .search-header {background-color:transparent !important;}
+
+.theme-dark .search-results-wrap {background-color:rgba(0,0,0,0.85)!important;}
+
+.theme-dark .search-results-wrap .search-result .hit {background-color:rgba(0,0,0,0.25)!important;}
+
+div.message-group {background-color: rgba(0,0,0,0.5)!important;}
+
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {background-color: #1b1c1f!important;}
+
+.theme-dark .search-results-wrap .search-result:after {background-image: none !important;}
+
+.search-results-wrap .search-result:after, .search-results-wrap .search-result:before {display:none !important;}
+
+.theme-dark .search-results-wrap .search-result .hit {box-shadow: none;!important}
+
+.search-popout {background-color: rgba(0, 0, 0, 0.7)!important;}
+
+.search-popout .results-group {background: transparent !important;}
+
+.search-popout .date-picker, .search-popout .date-picker .date-picker-hint {background-color: transparent !important;}
+
+.theme-dark .ui-calendar-picker .react-datepicker {background-color: transparent;}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__header, .theme-light .ui-calendar-picker .react-datepicker__header {background-color: transparent !important;}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-light .ui-calendar-picker .react-datepicker__current-month {color: #f6f6f7 !important;}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--next, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous {border-color: rgb(86, 86, 86)!important;}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day-name, .theme-light .ui-calendar-picker .react-datepicker__day-name {color: hsla(240,6%,97%,.6)!important;}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--outside-month, .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day--outside-month {background-color: transparent!important;color: #fff !important;}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-light .ui-calendar-picker .react-datepicker__day:hover {background-color: var(--main-color)!important;}
+
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day, .theme-light .ui-calendar-picker .react-datepicker__day {color: #dcddde !important;}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after {background-color: var(--main-color)!important;}
+
+.theme-dark .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after {background-color: var(--main-color)!important;}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover {color: #dcddde !important;}
+
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker { background-color: transparent !important;}
