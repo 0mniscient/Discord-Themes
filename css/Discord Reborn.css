@@ -580,6 +580,13 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .create-guild-container.deprecated .action {background: rgba(0,0,0,0.4)!important;}
 
-.form.deprecated .btn-default {background-color:transparent!important;
+.form.deprecated .btn-default {background-color:transparent!important;}
 
 .form .control-group input[type=text], .form .control-group input[type=email], .form .control-group input[type=password], .form .control-group input[type=number], .form .control-group textarea {color: #cecece!important;background:rgba(0,0,0,0.75)!important;}
+
+.chat .content form .typing {margin-bottom: -2px!important;}
+
+.theme-dark .chat form .typing .ellipsis {margin-top: -2px;!important}
+
+.theme-dark .search .search-bar {background-color:rgba(0,0,0,0.3) !important;border:2px solid rgba(0,0,0,0) !important;border-bottom:2px solid rgba(0,0,0,0) !important;}
+
