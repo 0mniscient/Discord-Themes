@@ -4547,49 +4547,21 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color)!important;}
 
 /* Make Channel Categories Match Role Categories in Quiet - MasicoreLord, edited by cube_guy*/
-.nameCollapsed-3_ChMu, .nameDefault-Lnjrwm,
-.nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI,
-.nameMuted-1n0LSj, .nameUnread-WKlSv-
-{
-    color: var(--main-color) !important;
-    background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
-    background-size: 100% 3px;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 500;
-    padding-bottom: 4px;
-    opacity: 0.9;
-    transform: translateY(-8px);
-}
-.nameHovered-1YFSWq {
-    opacity: 1;
-    transform: translateY(-8px);
-}
-.nameCollapsed-3_ChMu {
-    opacity: 0.6;
-    transform: translateY(-1px);
-}
-.nameHoveredCollapsed-2c-EHI {
-    opacity: 0.8;
-    transform: translateY(-1px);
-}
+.nameCollapsed-3_ChMu, .nameDefault-Lnjrwm,.nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI,.nameMuted-1n0LSj, .nameUnread-WKlSv-{color:var(--main-color) !important;background-image:linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);background-size:100% 3px;background-repeat:no-repeat;background-position:bottom;text-align:center;font-size:12px;font-weight:500;padding-bottom:4px;opacity:0.9;transform:translateY(-8px);}
 
-[class*=container-] .containerDefault-7RImuF, .containerDragAfter-3rB7mB, .containerDragBefore-12YyA9, [class*=container-] .containerUserOver-2YhVL6 {
-    margin-top: 3px;
-}
+.nameHovered-1YFSWq{opacity:1;transform:translateY(-8px);}
+
+.nameCollapsed-3_ChMu{opacity:0.6;transform:translateY(-1px);}
+
+.nameHoveredCollapsed-2c-EHI{opacity:0.8;transform:translateY(-1px);}
+
+[class*=container-] .containerDefault-7RImuF, .containerDragAfter-3rB7mB, .containerDragBefore-12YyA9, [class*=container-] .containerUserOver-2YhVL6{margin-top:3px;}
 
 /*Categories Arrow Colored - cube_guy*/
-.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm{
-    color: var(--main-color);
-}
-.iconHoveredCollapsed-jNYgOD, .iconHovered-3PRzOR, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm{
-    color: var(--hover-color);
-}
+.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm{color:var(--main-color);}
+
+.iconHoveredCollapsed-jNYgOD, .iconHovered-3PRzOR, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm{color:var(--hover-color);}
 
 /* Color Muted Icon Arrow Quiet/Reborn - MasicoreLord */
-.iconMuted-Hb4ttQ {
-    color: var(--main-color)!important;
-    opacity: 0.6!important;
-}
+.iconMuted-Hb4ttQ{color:var(--main-color)!important;opacity:0.6!important;}
+
