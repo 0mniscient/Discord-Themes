@@ -4539,3 +4539,5 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .theme-light .feed-2fHzeU{background-color: #ffffff;}
 
 .base-3AoPqv {border-radius:0px !important;}
+
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color)!important;
