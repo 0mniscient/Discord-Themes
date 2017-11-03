@@ -26,10 +26,6 @@
 .theme-dark .friends-table,
 .theme-dark .friends-header{background: rgba(0,0,0,0.75) !important;}
 
-.theme-dark .chat form{background: rgba(0, 0, 0, 0.4);border-left: 0px solid transparent !important;border-right: 0px solid transparent !important;}
-
-.theme-dark .inner-3if5cm{background-color: rgba(0, 0, 0, 0.58);}
-
 .theme-dark .guilds-wrapper{margin-top: 48px !important;background: rgba(0, 0, 0, 0.7) !important;height: calc(100% - 119px) !important;}
 
 .app .guilds .guild:first-child{background: rgba(0,0,0,0.64) !important;} 
@@ -393,7 +389,7 @@ span.spinner{margin-top: 2px;}
 
 .theme-light .emoji-picker .categories .item.recent, .theme-light .emoji-picker .categories .item.custom, .theme-light .emoji-picker .categories .item.people, .theme-light .emoji-picker .categories .item.nature, .theme-light .emoji-picker .categories .item.food, .theme-light .emoji-picker .categories .item.activity, .theme-light .emoji-picker .categories .item.travel, .theme-light .emoji-picker .categories .item.travel, .theme-light .emoji-picker .categories .item.objects, .theme-light .emoji-picker .categories .item.symbols, .theme-light .emoji-picker .categories .item.flags{filter: invert(0) !important;}
 
-.channel-members::after{content: var(--theme-letter)" v"var(--version-content);font-size: 210%;left: -65px;}
+.channel-members::after{content: var(--theme-name)" v"var(--version-content);font-size: 210%;left: -65px;}
 
 .need-help-modal .header h1::after{width: 240%;}
 
@@ -483,15 +479,7 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .guilds.scroller > .guild:first-child{margin-top: 19px !important}
 
-.theme-dark .chat form{box-shadow: 0 0px 0 transparent !important;}
-
 .theme-dark .guilds-wrapper::before{display:none;}
-
-.theme-dark .chat form{border-top: 2px solid #212121 !important;margin-bottom: 0px !important;}
-
-.chat .content form > div{margin-bottom: 10px;margin-top: 7px;}
-
-.chat .content form > div[class*=channelTextArea] {margin-bottom: 13px!important;margin-top: 13px!important;}
 
 .guilds-wrapper .guilds .friends-online{background: transparent !important;}
 
@@ -586,8 +574,6 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .chat .content form .typing {margin-bottom: -2px!important;}
 
-.theme-dark .chat form .typing .ellipsis {margin-top: -2px;!important}
-
 .theme-dark .search .search-bar {background-color:rgba(0,0,0,0.3) !important;border:2px solid rgba(0,0,0,0) !important;border-bottom:2px solid rgba(0,0,0,0) !important;}
 
 .theme-dark .search-results-wrap .search-header {background-color:transparent !important;}
@@ -637,3 +623,8 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 
 .theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker { background-color: transparent !important;}
+
+
+.theme-dark .chat form{background-color: rgba(0, 0, 0, 0.38);}
+
+.theme-dark .inner-3if5cm{border-left: 0px solid transparent;border-right: 0px solid transparent;}
