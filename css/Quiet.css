@@ -4579,3 +4579,11 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 #bd-customcss-detach-container #bd-customcss-attach-controls .checkbox-group{margin-bottom: 0;margin-left: -54px;z-index: 5;position: relative;}
 
 #bd-customcss-detach-editor{height: calc(100% - 70px);}
+
+#app-mount .platform-linux .scroller-wrap .guilds.scroller .guild:first-child{margin-top: 0px!important;}
+
+.platform-linux .app .guilds .guild:first-child{position: relative;width: inherit;left: inherit;z-index: inherit;padding-bottom: 1px;top: inherit;transform: translateX(-14px);margin-right: -14px;}
+
+#app-mount .platform-linux .guilds-wrapper .guilds{padding: 0px 0px 70px 14px !important}
+
+.platform-linux .guilds-wrapper .guilds .friends-icon{margin-left: 10px;}
