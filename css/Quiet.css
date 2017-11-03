@@ -4551,3 +4551,31 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .channel-members::after {color: transparent !important;}
 
 #friends .tab-bar .tab-bar-item.selected .badge{background-color: #f04747 !important;}
+
+.message-group:not(.compact) .avatar-large[style*="216382288378724352"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="216382288378724352"] ~ .member-inner .member-username .member-username-inner::after{content:"Element";color:#006e84;background:#fff;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:14px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;}
+
+.message-group:not(.compact) .avatar-large[style*="120353989886869504"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="120353989886869504"] ~ .member-inner .member-username .member-username-inner::after{content:"Synapse";color:#fff;background:#D2C8E3;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:14px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;}
+
+.theme-dark .activityFeed-HeiGwL::after{content: "";background: #19191b;width: 1400px;height: 70px;bottom: 0px;position: absolute;border-top: 2px solid #212121;}
+
+.feed-2fHzeU{height: calc(100% - 92px) !important;}
+
+.activityFeed-HeiGwL [class*="footer-"]{border-top: 0px solid transparent;}
+
+.scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb{background-color: var(--main-color);}
+
+#autocomplete-popout .row a{color: #b2b2b2;}
+
+#autocomplete-popout .row.selected a, #autocomplete-popout .row:hover a{color: #dddddd;}
+
+#bd-customcss-detach-container .CodeMirror{border-left: 0px solid transparent !important;background: #19191b !important;}
+
+#bd-customcss-detach-container #bd-customcss-attach-controls{border-bottom: 0px solid transparent !important;margin-top:0px;height: 60px;box-shadow: 0px 0px transparent !important;border-left: 0px solid transparent !important;background: #19191b !important;border-top: 2px solid #212121 !important;}
+
+#bd-customcss-detach-container div#bd-customcss-detach-controls-button{margin-left: -140px;position: absolute;z-index: 5;}
+
+#bd-customcss-detach-container span[style="font-size: 10px; margin-left: 5px;"]{position: fixed; top: 30px;right: 30px;}
+
+#bd-customcss-detach-container #bd-customcss-attach-controls .checkbox-group{margin-bottom: 0;margin-left: -54px;z-index: 5;position: relative;}
+
+#bd-customcss-detach-editor{height: calc(100% - 70px);}
