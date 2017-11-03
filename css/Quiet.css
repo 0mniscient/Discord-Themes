@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i);
 
 :root {
-    --version-content: "7.1";
+    --version-content: "7.2";
     --theme-name: "Quiet";
     --theme-letter: "Q";
 }
@@ -4541,3 +4541,13 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .sidebar-region .sidebar .side-2nYO0F .separator-3z7STW{background-color: transparent;}
 
 .side-2nYO0F .item-3879bf{margin-top: 5px;}
+
+.accountDetails-15i-_e .username{display: inline-block;font-family: "Satisfy";font-weight: 700;font-size: 250%;height: 71px;line-height: 70px;color: var(--main-color) !important;margin-bottom: -18px;min-width: 100%;text-align: center;}
+
+.accountDetails-15i-_e .discriminator{right: 5px;position: fixed;}
+
+.accountDetails-15i-_e{position: fixed;right: 5px;bottom: 14px;max-width: 220px !important;min-width: 220px !important;}
+
+.channel-members::after {color: transparent !important;}
+
+#friends .tab-bar .tab-bar-item.selected .badge{background-color: #f04747 !important;}
