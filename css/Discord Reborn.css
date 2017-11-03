@@ -630,3 +630,5 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 .theme-dark .inner-3if5cm{border-left: 0px solid transparent;border-right: 0px solid transparent;}
 
 .theme-dark .activityFeed-HeiGwL::after {background: rgba(0, 0, 0, 0.4)!important;}
+
+.attachment-image .image, .message-group .comment .attachment-image img, .embed .image, .embed .embed-thumbnail img {box-shadow: none !important;}
