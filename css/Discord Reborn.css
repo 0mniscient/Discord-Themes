@@ -641,3 +641,13 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 .need-help-modal.deprecated .footer {padding-top:20px !important;background-color: transparent !important;border-top:0px transparent !important;}
 
 .need-help-modal .footer::after {background-color: rgba(0,0,0,0.45) !important;border-top: transparent !important;}
+
++.theme-dark [class*="modal-"] [class*="inner-"] [class*="modal-"] {background-color: rgba(0,0,0,0.8)!important;}
++
++.theme-dark.context-menu {background: rgba(0,0,0,0.8)!important;}
++
++.theme-dark.context-menu .item-subMenu:hover {background:url(https://discordapp.com/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) 155px 50% no-repeat rgba(30,30,30,0.35)!important;}
++
++.theme-dark.context-menu .context-menu {background: rgba(0,0,0,0.8) !important;border-color: transparent !important;}
++
++.theme-dark.context-menu .item:hover {background: rgba(30,30,30,0.35)!important;}
