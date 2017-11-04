@@ -4572,3 +4572,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .platform-linux .guilds-wrapper .guilds .friends-icon{margin-left: 10px;}
 
 .private .channelTextArea-os01xC{margin: 20px 240px 32px 0px;bottom: 21px;}
+
+.theme-dark .chat [class*="autocomplete-"]{margin-bottom: 0px !important;}
+
+.theme-dark [class*="autocomplete-"] [class*="avatarStatus-"]{border: 2px solid;}
