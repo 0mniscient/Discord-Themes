@@ -4408,6 +4408,12 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .message-group:not(.compact) .avatar-large[style*="142598737779228672"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="142598737779228672"] ~ .member-inner .member-username .member-username-inner::after{margin-left: 6px;padding: 1px 4px;border-radius: 3px;background: #f77525;color: #fff;content: "TayNation";vertical-align: bottom;text-transform: uppercase;font-weight: 600;font-size: 10px;line-height: 14px;-ms-flex-negative: 0;flex-shrink: 0;-webkit-flex-shrink: 0;text-shadow: rgba(0,0,0,0.4) 1px 1px 1px;}
 
+.message-group:not(.compact) .avatar-large[style*="203225332285833216"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="203225332285833216"] ~ .member-inner .member-username .member-username-inner::after{margin-left: 6px;padding: 1px 4px;border-radius: 3px;background: #bb2020;color: #fff;content: "!important";vertical-align: bottom;text-transform: uppercase;font-weight: 600;font-size: 10px;line-height: 14px;-ms-flex-negative: 0;flex-shrink: 0;-webkit-flex-shrink: 0;text-shadow: rgba(0,0,0,0.4) 1px 1px 1px;}
+
+.message-group:not(.compact) .avatar-large[style*="145799943980843008"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="145799943980843008"] ~ .member-inner .member-username .member-username-inner::after{margin-left: 6px;padding: 1px 4px;border-radius: 3px;background: #e91e63;color: #fff;content: "Cute Kitty";vertical-align: bottom;text-transform: uppercase;font-weight: 600;font-size: 10px;line-height: 14px;-ms-flex-negative: 0;flex-shrink: 0;-webkit-flex-shrink: 0;text-shadow: rgba(0,0,0,0.4) 1px 1px 1px;}
+
+.message-group:not(.compact) .avatar-large[style*="185119357578379264"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="185119357578379264"] ~ .member-inner .member-username .member-username-inner::after{margin-left: 6px;padding: 1px 4px;border-radius: 3px;background: #fa00ff;color: #fff;content: "Daddy";vertical-align: bottom;text-transform: uppercase;font-weight: 600;font-size: 10px;line-height: 14px;-ms-flex-negative: 0;flex-shrink: 0;-webkit-flex-shrink: 0;text-shadow: rgba(0,0,0,0.4) 1px 1px 1px;}
+
 .theme-light .private-channels{background-color: #ffffff !important;}
 
 .theme-light .private-channels .channel .channel-activity{color: #2c2828;}
@@ -4494,25 +4500,6 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color)!important;}
 
-/* Make Channel Categories Match Role Categories in Quiet - MasicoreLord, edited by cube_guy*/
-.nameCollapsed-3_ChMu, .nameDefault-Lnjrwm,.nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI,.nameMuted-1n0LSj, .nameUnread-WKlSv-{color:var(--main-color) !important;background-image:linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);background-size:100% 3px;background-repeat:no-repeat;background-position:bottom;text-align:center;font-size:12px;font-weight:500;padding-bottom:4px;opacity:0.9;transform:translateY(-8px);}
-
-.nameHovered-1YFSWq{opacity:1;transform:translateY(-8px);}
-
-.nameCollapsed-3_ChMu{opacity:0.6;transform:translateY(-1px);}
-
-.nameHoveredCollapsed-2c-EHI{opacity:0.8;transform:translateY(-1px);}
-
-[class*=container-] .containerDefault-7RImuF, .containerDragAfter-3rB7mB, .containerDragBefore-12YyA9, [class*=container-] .containerUserOver-2YhVL6{margin-top:3px;}
-
-/*Categories Arrow Colored - cube_guy*/
-.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm{color:var(--main-color);}
-
-.iconHoveredCollapsed-jNYgOD, .iconHovered-3PRzOR, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm{color:var(--hover-color);}
-
-/* Color Muted Icon Arrow Quiet/Reborn - MasicoreLord */
-.iconMuted-Hb4ttQ{color:var(--main-color)!important;opacity:0.6!important;}
-
 /* Chat Text Area (input) */
 .theme-dark .chat form{background-color:#19191b;box-shadow:0 0px 0 transparent;}
 
@@ -4589,3 +4576,4 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 #app-mount .platform-linux .guilds-wrapper .guilds{padding: 0px 0px 70px 14px !important}
 
 .platform-linux .guilds-wrapper .guilds .friends-icon{margin-left: 10px;}
+
