@@ -610,7 +610,6 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-light .ui-calendar-picker .react-datepicker__day:hover {background-color: var(--main-color)!important;}
 
-
 .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day, .theme-light .ui-calendar-picker .react-datepicker__day {color: #dcddde !important;}
 
 .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after {background-color: var(--main-color)!important;}
@@ -619,12 +618,26 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover {color: #dcddde !important;}
 
-
 .theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker { background-color: transparent !important;}
-
 
 .theme-dark .chat form{background-color: rgba(0, 0, 0, 0.38);}
 
 .theme-dark .inner-3if5cm{border-left: 0px solid transparent;border-right: 0px solid transparent;}
 
 .theme-dark .activityFeed-HeiGwL::after {background: rgba(0, 0, 0, 0.4)!important;}
+
+.theme-dark .quickswitcher-2NdiGJ {background-color: rgba(0,0,0,0.8) !important;}
+
+.theme-dark .input-MwQhcX {background-color: rgba(0,0,0,0.3)!important;}
+
+.keyboard-shortcuts-modal {background-color: rgba(0,0,0,0.8)!important;}
+
+.theme-dark [class*="modal-"] [class*="inner-"] [class*="modal-"] {background-color:transparent !important;}
+
+.keybind-shortcut.dim span {background-color:transparent !important;}
+
+.need-help-modal .form-inner.loading::after {background-color:transparent !important;}
+
+.need-help-modal.deprecated .footer {padding-top:20px !important;background-color: transparent !important;border-top:0px transparent !important;}
+
+.need-help-modal .footer::after {background-color: rgba(0,0,0,0.45) !important;border-top: transparent !important;}
