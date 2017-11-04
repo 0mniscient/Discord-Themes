@@ -56,7 +56,7 @@
 
 .theme-dark .container-iksrDt{height: 71px;background: rgba(0, 0, 0, 0.4);border-right: 0px solid transparent !important;width: calc(100% - 20px) !important;margin-left: 0px;}
 
-.theme-dark .channel-members::after{background: rgba(0, 0, 0, 0.85);left: 0px;color: rgba(0, 0, 0, 0.56) !important}
+.theme-dark .channel-members::after{background: rgba(0, 0, 0, 0.85);left: 0px;color: transparent !important}
 
 .theme-dark .chat>.content .messages .message-group .markup, .theme-dark .chat>.title-wrap>.topic{color: #dad9d9;font-weight: 500;}
 
@@ -643,3 +643,5 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 .need-help-modal .footer::after {background-color: rgba(0,0,0,0.45) !important;border-top: transparent !important;}
 
 .theme-dark .modal-3HOjGZ {background-color: rgba(0,0,0,0.80) !important;}
+
+.accountDetails-15i-_e .username{background-color: transparent !important;}
