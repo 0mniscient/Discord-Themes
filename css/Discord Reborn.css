@@ -124,7 +124,7 @@ span.spinner{margin-top: 2px;}
 
 .private-channels .channel.selected a, .private-channels .channel:hover a{background-color: rgba(0, 0, 0, 0.65) !important;}
 
-[class*="nameMutedText-"], [class*="nameMutedVoice-"]{color: #9f9f9f;}
+[class*="nameMutedText-"], [class*="nameMutedVoice-"]{color: #fff;opacity: 0.3;}
 
 .nameUnreadText-1pxldj, .nameUnreadVoice-QK4gxH{color: #f1f1f1;}
 
