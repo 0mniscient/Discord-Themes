@@ -4505,9 +4505,13 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 /* Chat Text Area (input) */
 .theme-dark .chat form{background-color:#19191b;box-shadow:0 0px 0 transparent;}
 
-.chat form{margin:0 0px -23px;}
+.theme-light .chat form{background-color:#fff;box-shadow:0 0px 0 transparent;}
+
+.chat form{margin:0 0px -23px !important;}
 
 .theme-dark .inner-3if5cm{background-color:transparent;border-left:2px solid #212121;border-right:2px solid #212121;border-top:2px solid #212121;border-radius:0px !important;margin-bottom:-18px;padding-top:14px;}
+
+.theme-light .inner-3if5cm{background-color:transparent;border-left:2px solid #f6f6f7;border-right:2px solid #f6f6f7;border-top:2px solid #f6f6f7;border-radius:0px !important;margin-bottom:-18px;padding-top:14px;}
 
 .emojiButton-38mF6t{top:26px;}
 
@@ -4517,11 +4521,17 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .theme-dark .upload-modal .inner-3if5cm{background-color: #212121;border: 0px solid transparent;margin-bottom: 0px;padding-top: 0px;border-radius: 3px !important;}
 
-.theme-dark .upload-modal .emojiButton-38mF6t{top: 11px;}
+.theme-light .upload-modal .inner-3if5cm{background-color: #fff;border: 0px solid transparent;margin-bottom: 0px;padding-top: 0px;border-radius: 3px !important;}
+
+.theme-dark .upload-modal .emojiButton-38mF6t{top: 11px !important;}
 
 .theme-dark .edit-message .inner-3if5cm{border: 0px solid transparent;margin-bottom: 0px;padding-top: 0px;}
 
-.theme-dark .edit-message .emojiButton-38mF6t{top: 11px;}
+.theme-light .edit-message .inner-3if5cm{border: 0px solid transparent;margin-bottom: 0px;padding-top: 0px;}
+
+.theme-dark .edit-message .emojiButton-38mF6t{top: 11px !important;}
+
+.theme-light .edit-message .emojiButton-38mF6t{top: 11px !important;}
 /* End Chat Text Area (input)*/
 .scrollbarGhostHairline-D_btXm::-webkit-scrollbar-thumb{background-color:var(--main-color);}
 
@@ -4578,3 +4588,31 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .theme-dark .chat [class*="autocomplete-"]{margin-bottom: 0px !important;}
 
 .theme-dark [class*="autocomplete-"] [class*="avatarStatus-"]{border: 2px solid;}
+
+/* Replace Light/Dark Mode Text - MasicoreLord */
+/* -Light Mode- */
+/* Theme Mode */
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .title-1pmpPr{line-height: 0;font-size: 0;}
+
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .title-1pmpPr:after{content: "Custom Themes";line-height: 16px;font-size: 12px;}
+
+/* Hides Real Theme Mode Name */
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras{line-height: 0;font-size: 0;}
+
+/* Replaces it with Spoofed Name */
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras:after{content: "Loud";line-height: 24px;font-size: 16px;}
+
+/* Enabled */
+.theme-light .layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras:after{content: "Loud (Enabled)"}
+
+/* -Dark Mode- */
+/* Hides Real Theme Mode Name */
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:nth-child(2) .info-1Z508c .title-1M-Ras{line-height: 0;font-size: 0;}
+
+/* Replaces it with Spoofed Name */
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:nth-child(2) .info-1Z508c .title-1M-Ras:after{content: "Quiet";line-height: 24px;font-size: 16px;}
+
+/* Enabled */
+.theme-dark .layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:nth-child(2) .info-1Z508c .title-1M-Ras:after{content: "Quiet (Enabled)";}
+
+.theme-light .accountDetails-15i-_e .username{background-color: #fff;border-top: 2px solid #f6f6f7 !important;}
