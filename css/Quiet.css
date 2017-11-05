@@ -4570,6 +4570,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .theme-light .accountDetails-15i-_e .username{background-color: #fff;border-top: 2px solid #f6f6f7 !important;}
 
 /* Donator Tags / Custom Tags */
+.message-group:not(.compact) .avatar-large[style*="ID"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="ID"] ~ .member-inner .member-username .member-username-inner::after{content:"TAG";background:color;color:#fff;border-radius:3px;border: 1px solid #672382;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
 
 .message-group:not(.compact) .avatar-large[style*="107511169366888448"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="107511169366888448"] ~ .member-inner .member-username .member-username-inner::after{content:"His Code Works";background:none;color:var(--main-color);border-radius:3px;border: 1px solid #672382;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
 
@@ -4618,5 +4619,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .message-group:not(.compact) .avatar-large[style*="92738910362292224"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="92738910362292224"] ~ .member-inner .member-username .member-username-inner::after{content:"Capy Coder";background:#d88d56;color:#fff;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:14px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
 
 .message-group:not(.compact) .avatar-large[style*="150780668677193729"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="150780668677193729"] ~ .member-inner .member-username .member-username-inner::after{content:"Lau God";background:#672382;color:#4286f4;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
+
+.message-group:not(.compact) .avatar-large[style*="97787466110472192"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="97787466110472192"] ~ .member-inner .member-username .member-username-inner::after{content:"Baba Yaga";background:#292E37;color:#fff;border-radius:3px;border: 1px solid #672382;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
 
 /* END Donator Tags / Custom Tags */
