@@ -645,3 +645,29 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 .theme-dark .modal-3HOjGZ {background-color: rgba(0,0,0,0.80) !important;}
 
 .accountDetails-15i-_e .username{background-color: transparent !important;}
+
+/* Replace Light/Dark Mode Text - MasicoreLord */
+/* -Light Mode- */
+/* Theme Mode */
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .title-1pmpPr{line-height: 0;font-size: 0;}
+
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .title-1pmpPr:after{content: "Custom Themes";line-height: 16px;font-size: 12px;}
+
+/* Hides Real Theme Mode Name */
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras{line-height: 0;font-size: 0;}
+
+/* Replaces it with Spoofed Name */
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras:after{content: "Discord Reborn Light";line-height: 24px;font-size: 16px;}
+
+/* Enabled */
+.theme-light .layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras:after{content: "Discord Reborn Light (Enabled)"}
+
+/* -Dark Mode- */
+/* Hides Real Theme Mode Name */
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:nth-child(2) .info-1Z508c .title-1M-Ras{line-height: 0;font-size: 0;}
+
+/* Replaces it with Spoofed Name */
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:nth-child(2) .info-1Z508c .title-1M-Ras:after{content: "Discord Reborn Dark";line-height: 24px;font-size: 16px;}
+
+/* Enabled */
+.theme-dark .layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:nth-child(2) .info-1Z508c .title-1M-Ras:after{content: "Discord Reborn Dark (Enabled)";}
