@@ -4541,6 +4541,8 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .theme-dark [class*="autocomplete-"] [class*="avatarStatus-"]{border: 2px solid;}
 
+div.embed-color-pill{background-color: var(--main-color) !important;}
+
 /* Replace Light/Dark Mode Text - MasicoreLord */
 /* -Light Mode- */
 /* Theme Mode */
