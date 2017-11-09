@@ -671,3 +671,33 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 /* Enabled */
 .theme-dark .layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:nth-child(2) .info-1Z508c .title-1M-Ras:after{content: "Discord Reborn Dark (Enabled)";}
+
+#app-mount .titleWrapper-3Vi_wz.theme-light{background-color:rgba(0,0,0,0.4);}
+
+#app-mount .theme-light .titleWrapper-3Vi_wz > div{background-color:rgba(0, 0, 0, 0.08) !important;}
+
+.theme-light .accountDetails-15i-_e .username{background-color:#fff;border-top:2px solid rgba(0, 0, 0, 0.4) !important;}
+
+.theme-light .channel-members::after{color:transparent !important;border-top:1px solid transparent !important;}
+
+.theme-light .inner-3if5cm{background-color:transparent;border-left:2px solid transparent;border-right:2px solid transparent;border-top:2px solid rgba(0, 0, 0, 0);}
+
+.theme-light .chat form, .theme-light .container-iksrDt{border-top:2px solid rgba(0, 0, 0, 0.4) !important;}
+
+.theme-light .channelTextArea-os01xC{margin:20px 0 31px;}
+
+.theme-light .chat form{margin:0 2px -23px !important;}
+
+.theme-light .channels-3g2vYe{background-color:rgba(0, 0, 0, 0.45)!important;}
+
+.theme-light .guilds-wrapper::before{display:none;}
+
+.theme-light .iconForeground-2c7s3m, .theme-light .title-2Ul_Rx{color:#ffffff;}
+
+#user-profile-modal .header{background-color:#fff!important;}
+
+.theme-light .channelName-1G03vu, .theme-light .groupDM-3gzbyG .channelName-1G03vu, .theme-light .groupDMManaged-2z2S1A .channelName-1G03vu, .theme-light .input-autosize-input{color:#b5b5b5;}
+
+.theme-light .topic-1KFf6J{color:rgba(255, 255, 255, 0.35);}
+
+.theme-light [d*="M11.5,9 C13.1575,9 14.5,7.6575 14.5,6 C14.5,4.3425 13.1575,3 11.5,3 C9.8425,3 8.5,4.3425 8.5,6 C8.5,7.6575 9.8425,9 11.5,9 Z M4,7 L4,5 L3,5 L3,7 L1,7 L1,8 L3,8 L3,10 L4,10 L4,8 L6,8 L6,7 L4,7 Z M11.5,10 C9.4975,10 6,11.005 6,13 L6,15 L17,15 L17,13 C17,11.005 13.5025,10 11.5,10 Z"]{fill: #fff;}
