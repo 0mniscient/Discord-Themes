@@ -57,9 +57,9 @@
 
 .theme-dark #friends .friends-table .friends-table-body::after{content: "";background: rgba(0, 0, 0, 0.4);}
 
-.theme-dark .container-iksrDt{height: 71px;background: rgba(0, 0, 0, 0.4);border-right: 0px solid transparent !important;width: calc(100% - 20px) !important;margin-left: 0px;}
+.theme-dark .container-iksrDt{height: 71px;background: rgba(0, 0, 0, 0.2);border-right: 0px solid transparent !important;width: calc(100% - 20px) !important;margin-left: 0px;border-top: 2px solid rgba(0, 0, 0, 0.3) !important;}
 
-.theme-dark .channel-members::after{background: rgba(0, 0, 0, 0.82);left: 0px;color: transparent !important}
+.theme-dark .channel-members::after{background: rgba(0, 0, 0, 0.76);left: 0px;color: transparent !important;border-top: unset !important}
 
 .theme-dark .chat>.content .messages .message-group .markup, .theme-dark .chat>.title-wrap>.topic{color: #dad9d9;font-weight: 500;}
 
@@ -615,11 +615,11 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker { background-color: transparent !important;}
 
-.theme-dark .chat form{background-color: rgba(0, 0, 0, 0.4);}
+.theme-dark .chat form{background-color: rgba(0, 0, 0, 0.2);}
 
-.theme-dark .inner-3if5cm{border-left: 0px solid transparent;border-right: 0px solid transparent;}
+.theme-dark .inner-3if5cm{border-left: 0px solid transparent;border-right: 0px solid transparent;border-top: 2px solid rgba(0, 0, 0, 0.3) !important;}
 
-.theme-dark .activityFeed-HeiGwL::after {background: rgba(0, 0, 0, 0.4)!important;}
+.theme-dark .activityFeed-HeiGwL::after {background: rgba(0, 0, 0, 0.2)!important;border-top: 2px solid rgba(0,0,0,0.3) !important;}
 
 .theme-dark .quickswitcher-2NdiGJ {background-color: rgba(0,0,0,0.8) !important;}
 
@@ -639,7 +639,7 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .theme-dark .modal-3HOjGZ {background-color: rgba(0,0,0,0.80) !important;}
 
-.accountDetails-15i-_e .username{background-color: transparent !important;}
+.accountDetails-15i-_e .username{background-color: transparent !important;border-top: 2px solid rgba(0, 0, 0, 0.8);}
 
 /* Replace Light/Dark Mode Text - MasicoreLord */
 /* -Light Mode- */
@@ -706,3 +706,9 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 .theme-light .DraftEditor-editorContainer, .theme-light .search .search-bar-icon{background-color: transparent !important;}
 
 .theme-light .guilds .friends-online{color: #d4d4d4 !important;}
+
+.private .channelTextArea-os01xC{margin: 20px 240px 32px 0px;}
+
+.accountDetails-15i-_e{right: 0px !important;bottom: 14px !important;max-width: 240px !important;min-width: 240px !important;}
+
+.private-channels ~ .container-iksrDt .accountDetails-15i-_e .username{border-top: 2px solid rgba(0, 0, 0, 0.3);}
