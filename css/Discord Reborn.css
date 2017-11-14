@@ -712,3 +712,7 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 .accountDetails-15i-_e{right: 0px !important;bottom: 14px !important;max-width: 240px !important;min-width: 240px !important;}
 
 .private-channels ~ .container-iksrDt .accountDetails-15i-_e .username{border-top: 2px solid rgba(0, 0, 0, 0.3);}
+
+.keyboard-shortcuts-modal .modal-subtitle {background-color:transparent !important;}
+
++.keyboard-shortcuts-modal .modal-title {background-color:transparent !important;}
