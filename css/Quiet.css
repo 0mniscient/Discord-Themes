@@ -4630,6 +4630,28 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .message-group:not(.compact) .avatar-large[style*="231827402102276096"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="231827402102276096"] ~ .member-inner .member-username .member-username-inner::after{content:"prince of hell";background:#CC0000;color:#fff;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
 
+/*cube_guy's Triforce Tag*/
+.message-group:not(.compact) .avatar-large[style*="131903461771051009"] ~ .comment .message h2 span.username-wrapper::before{
+    content: "`";
+    background-image: url(https://rawgit.com/cubeguy/cube_repo/master/icons/Triforce_Tag.png);
+    background-size: 25px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 20px;
+    left: 175px;
+    padding: 0px 4px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 30px;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: -1px;
+}
+.message-group:not(.compact) .avatar-large[style*="131903461771051009"] ~ .comment .message h2 .timestamp {
+    margin-left: 29px;
+}
+
 /* END Donator Tags / Custom Tags */
 
 .message-group:not(.compact) .avatar-large[style*="172218388880293888"] ~ .comment .message h2 .timestamp{margin-left: 30px;}
