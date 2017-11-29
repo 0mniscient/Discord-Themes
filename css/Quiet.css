@@ -4633,21 +4633,23 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
     background-size: 25px;
     background-position: 0px 0px;
     background-repeat: no-repeat;
-    width: 20px;
-    left: 175px;
-    padding: 0px 4px;
+    width: 0px;
+    left: -3px;
+    padding: 0px 10px;
     text-transform: uppercase;
     vertical-align: bottom;
-    line-height: 30px;
+    line-height: 16px !important;
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
-    position: absolute;
-    margin-top: -2px;
+    position: relative;
+    margin-left: -28px;
 }
 .message-group:not(.compact) .avatar-large[style*="131903461771051009"] ~ .comment .message h2 .timestamp {
-    margin-left: 29px;
+    margin-left: 4px;
 }
-
+.chat .avatar-large[style*="131903461771051009"] ~ .comment .message h2 {
+    transform: translateX(30px);
+}
 /* Symm's rainbow tag(s) of justice */ 
 .message-group:not(.compact) .avatar-large[style*="135824276535115776"] ~ .comment .message h2 span.username-wrapper::after,
 .channel-members .member .avatar-small[style*="135824276535115776"] ~ .member-inner .member-username .member-username-inner::after {
@@ -4669,7 +4671,54 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
     flex-shrink: 0;
     text-shadow: 0px 1px 3px #000;
 }
+/*beepboopme w*/ 
+.message-group:not(.compact) .avatar-large[style*="73929251660763136"] ~ .comment .message h2 span.username-wrapper::after,
+.channel-members .member .avatar-small[style*="73929251660763136"] ~ .member-inner .member-username .member-username-inner::after {
+    content: "The OG Mew";
+    color: var(--main-color);
+    background: black;
+    border-style: solid;
+    border-width: 2px;
+    border-image: url(https://cdn.discordapp.com/attachments/385001639943340033/385002899517734913/tumblr_oa80vpI46H1uruo10o1_5001.gif) 3% repeat;
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 2px 4px;
+    padding-right: 25px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px;
+    -webkit-flex-shrink:0;
+    flex-shrink:0;
+    text-shadow: 4px 1px 3px #000;
+    -webkit-filter: hue-rotate(360deg) invert();
+    animation: hue-rotate 1.5s linear infinite;
+}
 
+.message-group:not(.compact) .avatar-large[style*="73929251660763136"] ~ .comment .message h2 span.username-wrapper::before,
+.channel-members .member .avatar-small[style*="73929251660763136"] ~ .member-inner .member-username .member-username-inner::before {
+   z-index: 100;
+   position: relative;
+   top: -5px;
+   left: 127px;
+   margin-left: -20px;
+   padding: 1px 4px;
+   border-radius: 3px;
+   background: #9300ff;
+   color: white;
+   content: "💚";
+   vertical-align: bottom;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 8px;
+   line-height: 7px;
+   flex-shrink: 0;
+   -webkit-flex-shrink: 0;
+   text-shadow: rgba(0,0,0,0.4) 1px 1px 1px;
+}
+
+
+/*End tag*/
 .message-group:not(.compact) .avatar-large[style*="135824276535115776"] ~ .comment .message h2 span.username-wrapper::before,
 .channel-members .member .avatar-small[style*="135824276535115776"] ~ .member-inner .member-username .member-username-inner::before {
    z-index: 100;
