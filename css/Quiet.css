@@ -673,7 +673,7 @@ textarea{background:transparent !important;}
 
 .tab-bar.TOP .tab-bar-item.selected{border-bottom:2px solid var(--main-color);color:var(--main-color);}
 
-.tab-bar.TOP{border-bottom:1px solid var(--hover-color);}
+.tab-bar.TOP {border-top: 1px solid var(--hover-color);border-bottom: 1px solid var(--hover-color);}
 
 .tab-bar.TOP .tab-bar-item:hover{border-bottom:2px solid var(--main-color);}
 
@@ -4579,3 +4579,5 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .typeWindows-15E0Ys::after{content: "";background-image: url(https://bit.ly/omniscient-themes);}
 
 .guild.theme-top{top: 19px !important;}
+
+.status-3jUEha {width: 103% !important; height: 103% !important;}
