@@ -730,3 +730,20 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 .theme-dark .ui-hover-card:before {background-color: rgba(0, 0, 0, 0.5)!important;}
 
 .theme-dark .ui-search-bar {background-color: rgba(0, 0, 0, 0.4)!important;}
+
+.theme-dark.context-menu {background: rgba(0,0,0,0.8)!important;}
+
+.theme-dark.context-menu .item-subMenu:hover {background:url(https://discordapp.com/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) 155px 50% no-repeat rgba(30,30,30,0.35)!important;}
+
+.theme-dark.context-menu .context-menu {background: rgba(0,0,0,0.8) !important;border-color: transparent !important;}
+
+.theme-dark.context-menu .item {background-color: transparent !important;}
+
+.theme-dark.context-menu .item:hover {background: rgba(30,30,30,0.35)!important;}
+
+.theme-dark .body-8pBSC7 {background-color:transparent!important;}
+
+.theme-dark .body-8pBSC7 {background-color:transparent !important;}
+
+.theme-dark .card-2WxYqG {background-color: rgba(0, 0, 0, 0.65) !important;
+
