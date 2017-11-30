@@ -4335,8 +4335,6 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 #app-mount > [class*="platform-"] .scroller-wrap .guilds.scroller .guild:first-child{margin-top: 19px;}
 
-[class*="userPopout-"] .status-3jUEha{bottom: -4px !important;right: -4px !important;}
-
 .mask-2vyqAW{-webkit-mask: none!important;}
 
 .private-channels{background-color: #19191b !important;}
@@ -4579,3 +4577,5 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .typeWindows-15E0Ys::after{content: "";background-image: url(https://bit.ly/omniscient-themes);}
 
 .guild.theme-top{top: 19px !important;}
+
+.buttonWhiteOutlined-2KwPTg {border-color: #6441a5 !important}
