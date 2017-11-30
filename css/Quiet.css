@@ -4335,6 +4335,8 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 #app-mount > [class*="platform-"] .scroller-wrap .guilds.scroller .guild:first-child{margin-top: 19px;}
 
+[class*="userPopout-"] .status-3jUEha {bottom: -1px !important;right: -1px !important;}
+
 .mask-2vyqAW{-webkit-mask: none!important;}
 
 .private-channels{background-color: #19191b !important;}
