@@ -4579,3 +4579,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .typeWindows-15E0Ys::after{content: "";background-image: url(https://bit.ly/omniscient-themes);}
 
 .guild.theme-top{top: 19px !important;}
+
+.buttonBrandInverted-VFL7Yc {background-color: var(--main-color) !important;color: #fff !important;}
+
+.buttonBrandInvertedDefault-uUmgsD:hover {background-color:var(--hover-color) !important;}
