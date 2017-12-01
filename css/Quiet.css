@@ -4583,3 +4583,5 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .buttonWhiteOutlined-2KwPTg {border-color: #6441a5 !important}
 
 +.status-3jUEha {width: 103% !important; height: 103% !important;}
+
+#friends .friends-table .friends-table-body > div{display:flex !important;flex-flow:row wrap !important;justify-content:center !important;}
