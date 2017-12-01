@@ -675,7 +675,7 @@ textarea{background:transparent !important;}
 
 .tab-bar.TOP{border-bottom:1px solid var(--hover-color);}
 
-.tab-bar.TOP .tab-bar-item:hover{border-bottom:2px solid var(--main-color);}
+.tab-bar.TOP {border-top: 1px solid var(--hover-color);border-bottom: 1px solid var(--hover-color);}
 
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list .user-settings-modal-accounts-list-description .user-settings-modal-accounts-list-description-inner{color:#8a8a8a;}
 
@@ -4581,3 +4581,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .guild.theme-top{top: 19px !important;}
 
 .buttonWhiteOutlined-2KwPTg {border-color: #6441a5 !important}
+
++.status-3jUEha {width: 103% !important; height: 103% !important;}
+
+#friends .friends-table .friends-table-body > div{display:flex !important;flex-flow:row wrap !important;justify-content:center !important;}
