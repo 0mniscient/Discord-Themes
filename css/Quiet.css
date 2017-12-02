@@ -4608,8 +4608,6 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .newsBorderMarginTop-2PFKAf {margin-top: 10px; !important;}
 
-.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-'], #friends [class*='flex-'] [class*='flex-']:last-of-type, [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type {margin-right: 0px !important;}
-
 .theme-dark .quickMessage-28pD5Y { border-color: var(--main-color) !important;}
 
 .chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after, #friends [class*='flex-'] [class*='flex-']:last-of-type:after, [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {height: 12px !important;}
