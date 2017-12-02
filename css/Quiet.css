@@ -4593,3 +4593,25 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .statusIdleProfile-2QT8cN {box-shadow: inset 0 0 0 3px hsl(37, 100%, 61%) !important;}
 
 .avatarHint-2i5XWK {top: 0px !important;left: 0px !important;}
+
+.theme-dark .partyBottomBorder-EvU-Qp {background-color: var(--main-color) !important;}
+
+.theme-dark .sectionLine-3fsQAf {background-color: var(--main-color) !important;}
+
+.partyBottomPadding-1yML13 {padding-bottom: 0px; !important;}
+
+.partyTopPadding-2eUvVi {padding-top: 15px; !important}
+
+.soloAvatar-2Vv88I {margin-bottom: 20px; !important;}
+
+.overflowUserOverflow-2FO8KC {margin-bottom: 20px; !important;}
+
+.newsBorderMarginTop-2PFKAf {margin-top: 10px; !important;}
+
+.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-'], #friends [class*='flex-'] [class*='flex-']:last-of-type, [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type {margin-right: 0px !important;}
+
+.theme-dark .quickMessage-28pD5Y { border-color: var(--main-color) !important;}
+
+.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after, #friends [class*='flex-'] [class*='flex-']:last-of-type:after, [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {height: 12px !important;}
+
+.tabBarContainer-3RVZc- {padding-left: 0px !important;}
