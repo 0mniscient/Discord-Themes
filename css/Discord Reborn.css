@@ -486,12 +486,13 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .userPopout-4pfA0d .headerNormal-1cioxU {background:rgba(0,0,0,0.65)!important;background-image: url(https://betterdocs.net/img/bg.svg)!important;background-size: auto !important;}
 
-.headerStreaming-3F-wjT {background:rgba(0,0,0,0.65)!important;background-image: url(https://betterdocs.net/img/bg.svg)!important;background-size:auto!important;}
+.headerStreaming-3F-wjT {background:rgba(0,0,0,0.65)!important;}
 
 .headerLive-2dDMvp{border:1px solid rgb(89,54,149)!important;}
 
 .userPopout-4pfA0d, .userPopout-4pfA0d::before {filter: blur(0px)!important;border-radius: 0px!important;}
 
+.headerTop-1QGMLs {background-image: url(https://betterdocs.net/img/bg.svg)!important;background-size: auto !important;}
 
 .connect-account-btn .connect-account-btn-inner {background-color: transparent;}
 
