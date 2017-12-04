@@ -454,8 +454,6 @@ span.spinner{margin-top: 2px;}
 
 .theme-dark .guilds-wrapper:hover ~ .chat form,  .theme-dark .flex-vertical.channels-wrap:hover ~ .chat form{border-left: 0px solid #212121 !important;}
 
-}
-
 .container-2OU7Cz {background: transparent!important;}
 
 .theme-dark .title-qAcLxz {background: rgba(0,0,0,0)!important;}
@@ -484,7 +482,7 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .typeWindows-15E0Ys{margin-top: 1px;background-color: rgba(0, 0, 0, 0.38) !important;}
 
-.userPopout-4pfA0d .headerNormal-1cioxU {background:rgba(0,0,0,0.65)!important;background-image: url(https://betterdocs.net/img/bg.svg)!important;background-size: auto !important;}
+.userPopout-4pfA0d .headerNormal-1cioxU {background:rgba(0,0,0,0.65)!important;}
 
 .headerStreaming-3F-wjT {background:rgba(0,0,0,0.65)!important;}
 
