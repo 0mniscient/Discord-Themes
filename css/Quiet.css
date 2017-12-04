@@ -4598,9 +4598,9 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .theme-dark .sectionLine-3fsQAf {background-color: var(--main-color) !important;}
 
-.partyBottomPadding-1yML13 {padding-bottom: 0px; !important;}
+.partyBottomPadding-1yML13 {padding-bottom: 8px; !important;}
 
-.partyTopPadding-2eUvVi {padding-top: 15px; !important}
+.partyTopPadding-2eUvVi {padding-top: 8x; !important}
 
 .soloAvatar-2Vv88I {margin-bottom: 20px; !important;}
 
@@ -4613,3 +4613,16 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after, #friends [class*='flex-'] [class*='flex-']:last-of-type:after, [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {height: 12px !important;}
 
 .tabBarContainer-3RVZc- {padding-left: 0px !important;}
+
+.buttonBrandInverted-VFL7Yc {background-color: var(--main-color) !important;color: #fff !important;}
+
+.buttonBrandInvertedDefault-uUmgsD:hover {background-color:var(--hover-color) !important;}
+
+.tab-bar.TOP {padding-left: 20px !important;}
+
+.topSectionPlaying-3jAH9b {background-color: #202225 !important;}
+
+.headerTop-1QGMLs {background: var(--main-color) !important; background-image: url(https://betterdocs.net/img/bg.svg) !important;background-size: 10em !important;}
+
+.activity-AFBUEw {background-color: var(--main-color) !important;}
+
