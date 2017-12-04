@@ -492,8 +492,6 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .userPopout-4pfA0d, .userPopout-4pfA0d::before {filter: blur(0px)!important;border-radius: 0px!important;}
 
-.headerTop-1QGMLs {background-image: url(https://betterdocs.net/img/bg.svg)!important;background-size: auto !important;}
-
 .connect-account-btn .connect-account-btn-inner {background-color: transparent;}
 
 .theme-dark .private-channel-call { background-color: rgba(0, 0, 0, 0.75) !important;}
@@ -756,6 +754,8 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .topSectionNormal-2LlRG1 {background-color: rgba(0, 0, 0, 0.65)!important;}
 
-.headerPlaying-2eYqm9 {background: rgba(0, 0, 0, 0.65)!important;}
+.headerPlaying-2eYqm9 {background: rgba(0, 0, 0, 0.65)!important;background-image: url(https://betterdocs.net/img/bg.svg)!important;background-size: 10em !important;}
 
 .theme-dark .header-1qeJfQ {background-color:transparent !important;border-bottom-color:transparent !important;}
+
+.activity-AFBUEw {background-color: transparent;}
