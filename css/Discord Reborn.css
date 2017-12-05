@@ -450,7 +450,7 @@ span.spinner{margin-top: 2px;}
     
 .theme-dark .guilds-wrapper::before{display: none !important;}
 
-.scroller.guilds, .theme-dark .guilds-wrapper{height: 100% !important;}
+.scroller.guilds, .theme-dark .guilds-wrapper{height: auto !important;}
 
 .theme-dark .guilds-wrapper:hover ~ .chat form,  .theme-dark .flex-vertical.channels-wrap:hover ~ .chat form{border-left: 0px solid #212121 !important;}
 
