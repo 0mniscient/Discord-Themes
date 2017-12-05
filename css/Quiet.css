@@ -4626,6 +4626,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .accountDetails-15i-_e + div div{margin-left: 23px !important;}
 
+.role-3rahR_ { border: 2px solid !important;}
 
 .dms:not(:empty)::before {
     content: 'You\'ve received a new Direct Message.';
