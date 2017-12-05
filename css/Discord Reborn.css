@@ -446,7 +446,7 @@ span.spinner{margin-top: 2px;}
 
 .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-thumb, .userPopout-4pfA0d .body-3rkFrF .roles .member-roles:hover::-webkit-scrollbar-track-piece{visibility: visible;}
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 970px) {}
     
 .theme-dark .guilds-wrapper::before{display: none !important;}
 
@@ -720,8 +720,8 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .create-guild-container .create-or-join .form-inner, .region-select-modal {background-color: transparent!important;}
 
-.Select-control {background-color: rgba(0, 0, 0, 0.5) !important;
-}
+.Select-control {background-color: rgba(0, 0, 0, 0.5) !important;}
+
 .Select-menu-outer {background-color: rgba(0, 0, 0, 0.6)!important;}
 
 .theme-dark .ui-hover-card:before {background-color: rgba(0, 0, 0, 0.5)!important;}
@@ -758,6 +758,6 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .activity-AFBUEw {background-color: transparent !important;}
 
-.headerTop-1QGMLs {background: none !important;background-image: url(https://betterdocs.net/img/bg.svg) !important;background-size: 10em !important;
+.headerTop-1QGMLs {background: none !important;background-image: url(https://betterdocs.net/img/bg.svg) !important;background-size: 10em !important;}
 
 
