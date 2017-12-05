@@ -4335,8 +4335,6 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 #app-mount > [class*="platform-"] .scroller-wrap .guilds.scroller .guild:first-child{margin-top: 19px;}
 
-[class*="userPopout-"] .status-3jUEha {bottom: -1px !important;right: -1px !important;}
-
 .mask-2vyqAW{-webkit-mask: none!important;}
 
 .private-channels{background-color: #19191b !important;}
@@ -4582,8 +4580,6 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .buttonWhiteOutlined-2KwPTg {border-color: #6441a5 !important}
 
-.status-3jUEha {width: 103% !important; height: 103% !important;}
-
 #friends .friends-table .friends-table-body > div{display:flex !important;flex-flow:row wrap !important;justify-content:center !important;}
 
 .statusOnlineProfile-2tnPUH {box-shadow: inset 0 0 0 3px rgb(5, 191, 108) !important;}
@@ -4591,6 +4587,8 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .statusDndProfile-3KCGdy {box-shadow: inset 0 0 0 3px hsl(0, 96%, 61%) !important;}
 
 .statusIdleProfile-2QT8cN {box-shadow: inset 0 0 0 3px hsl(37, 100%, 61%) !important;}
+
+.statusInvisibleProfile-LRuFr_, .statusOfflineProfile-1wnfgz {-webkit-box-shadow: inset 0 0 0 2px rgba(199,204,209,.6) !important;}
 
 .avatarHint-2i5XWK {top: 0px !important;left: 0px !important;}
 
