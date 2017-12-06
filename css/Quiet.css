@@ -4578,7 +4578,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .guild.theme-top{top: 19px !important;}
 
-.buttonWhiteOutlined-2KwPTg {border-color: #6441a5 !important}
+.buttonWhiteOutlined-2KwPTg {border-color: #6441a5 !important;border: 2px solid !important; border-radius: 50px !important;}
 
 #friends .friends-table .friends-table-body > div{display:flex !important;flex-flow:row wrap !important;justify-content:center !important;}
 
@@ -4606,7 +4606,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .newsBorderMarginTop-2PFKAf {margin-top: 10px; !important;}
 
-.theme-dark .quickMessage-28pD5Y { border-color: var(--main-color) !important;}
+.theme-dark .quickMessage-28pD5Y { border-color: var(--main-color) !important;border-radius: 50px !important}
 
 .chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after, #friends [class*='flex-'] [class*='flex-']:last-of-type:after, [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {height: 12px !important;}
 
