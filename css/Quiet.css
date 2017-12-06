@@ -4630,6 +4630,8 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .statusProfile-29OBzn {bottom: 0px !important;right: 0px !important;}
 
+input, textarea {color: white;}
+
 .dms:not(:empty)::before {
     content: 'You\'ve received a new Direct Message.';
     pointer-events: none;
