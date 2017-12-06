@@ -4632,6 +4632,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 input, textarea {color: white;}
 
+/*
 .dms:not(:empty)::before {
     content: 'You\'ve received a new Direct Message.';
     pointer-events: none;
@@ -4753,3 +4754,4 @@ input, textarea {color: white;}
         box-shadow: 0 0 15px var(--hover-color), inset 0 0 10px var(--hover-color);
     }
 }
+*/
