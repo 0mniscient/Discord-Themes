@@ -95,3 +95,28 @@
 .message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 .timestamp {
     margin-left: 29px;
 }
+
+/*cube_guy's Triforce Tag*/
+.message-group:not(.compact) .avatar-large[style*="131903461771051009"] ~ .comment .message h2 span.username-wrapper::before{
+    content: "`";
+    background-image: url(https://rawgit.com/cubeguy/cube_repo/master/icons/Discord_Tag.png);
+    background-size: 25px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 0px;
+    left: -3px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px !important;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: -28px;
+}
+.message-group:not(.compact) .avatar-large[style*="131903461771051009"] ~ .comment .message h2 .timestamp {
+    margin-left: 4px;
+}
+.chat .avatar-large[style*="131903461771051009"] ~ .comment .message h2 {
+    transform: translateX(30px);
+}
