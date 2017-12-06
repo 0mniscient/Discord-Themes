@@ -482,13 +482,13 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .typeWindows-15E0Ys{margin-top: 1px;background-color: rgba(0, 0, 0, 0.38) !important;}
 
-.userPopout-4pfA0d .headerNormal-1cioxU {background:rgba(0,0,0,0.65)!important;}
+.userPopout-4pfA0d .headerNormal-1cioxU {background:rgba(0,0,0,0.65)!important;border-bottom-left-radius: 11px !important;border-bottom-right-radius: 11px !important;}
 
-.headerStreaming-3F-wjT {background:rgba(0,0,0,0.65)!important;}
+.headerStreaming-3F-wjT {background:rgba(0,0,0,0.65)!important;border-top-left-radius: 11px !important;border-top-right-radius: 11px !important;}
 
 .headerLive-2dDMvp{border:1px solid rgb(89,54,149)!important;}
 
-.userPopout-4pfA0d, .userPopout-4pfA0d::before {filter: blur(0px)!important;border-radius: 0px!important;}
+.userPopout-4pfA0d, .userPopout-4pfA0d::before {filter: blur(0px)!important;border-radius: 11.5px!important;}
 
 .connect-account-btn .connect-account-btn-inner {background-color: transparent;}
 
@@ -752,7 +752,7 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .topSectionNormal-2LlRG1 {background-color: rgba(0, 0, 0, 0.65)!important;}
 
-.headerPlaying-2eYqm9 {background: rgba(0, 0, 0, 0.65)!important;background-image: url(https://betterdocs.net/img/bg.svg)!important;background-size: 10em !important;}
+.headerPlaying-2eYqm9 {background: rgba(0, 0, 0, 0.65)!important;background-image: url(https://betterdocs.net/img/bg.svg)!important;background-size: 10em !important;border-top-left-radius: 11px !important;border-top-right-radius: 11px !important;}
 
 .theme-dark .header-1qeJfQ {background-color:transparent !important;border-bottom-color:transparent !important;}
 
