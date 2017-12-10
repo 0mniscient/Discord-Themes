@@ -760,4 +760,9 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .headerTop-1QGMLs {background: none !important;background-image: url(https://betterdocs.net/img/bg.svg) !important;background-size: 10em !important;}
 
+/* New Hover for Spoilers */
+.message-group .comment .markup.spoiler:hover {color: #aaaaaa!important;transition:color 0.3s !important;text-align:center !important;}
+
+.spoiler::before {margin-left: 30% !important;width: 40% !important;color: var(--main-color)!important;line-height: 26px !important;border-radius:11px !important;font-size: 14px !important;font-family: "Whitney" !important;}
+/* New Hover for Spoilers */
 
