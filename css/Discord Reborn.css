@@ -767,6 +767,8 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .channel-members h2 {text-shadow: 0.5px 0.5px 2px rgb(0, 0, 0) !important;}
 
+.channel-members .member .member-activity, .channel-members .member .member-username-inner {text-shadow: 0.5px 0.5px 2px rgb(0, 0, 0) !important;}
+
 .nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameHoveredText-2FFqiz, .nameHoveredVoice-TIoHRJ, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa, .nameMutedText-1YDcP-, .nameMutedVoice-26k4cP, .nameSelectedText-32NDX5, .nameSelectedVoice-XpjYTw, .nameUnreadText-1pxldj, .nameUnreadVoice-QK4gxH {text-shadow: 0.5px 0.5px 2px rgb(0, 0, 0)!important;}
 
 .theme-dark .chat>.content .messages .message-group .markup, .theme-dark .chat>.title-wrap>.topic {text-shadow: 0.5px 0.5px 2px rgb(0, 0, 0)!important;}
