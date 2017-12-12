@@ -29,7 +29,8 @@
 .theme-dark .content .flex-spacer, 
 .theme-dark .friends-table, 
 .theme-dark .friends-header, 
-.channels-3g2vYe, #app-mount .titleWrapper-3Vi_wz, 
+.channels-3g2vYe, 
+#app-mount .titleWrapper-3Vi_wz, 
 .app .guilds .guild:first-child, 
 .theme-dark .channel-members::after {
     background: rgba(0, 0, 0, 0.7) !important;}
@@ -40,7 +41,6 @@
 
 .guilds-wrapper .guilds .guild.active:first-of-type .guild-inner,
 .guilds-wrapper .guilds .guild:hover:first-of-type .guild-inner, 
-.app .guilds .guild.active:first-child,
 .guilds-wrapper .guilds .guild.active:first-of-type .guild-inner,
 .guilds-wrapper .guilds .guild:first-of-type .guild-inner{background: transparent !important;}
 
