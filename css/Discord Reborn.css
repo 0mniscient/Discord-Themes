@@ -416,8 +416,6 @@ span.spinner{margin-top: 2px;}
 
 .userPopout-4pfA0d .footer-2J5zqP .tip{color: #A0A0A0}
 
-.userPopout-4pfA0d .headerNormal-1cioxU{background: transparent!important}
-
 .avatarNormal-3luwna{border-color: transparent;}
 
 .header-3mZJcV .avatarStatusNormal-1OXVjG{border-color: transparent;}
@@ -752,7 +750,7 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .topSectionNormal-2LlRG1 {background-color: rgba(0, 0, 0, 0.65)!important;}
 
-.headerPlaying-2eYqm9 {background: rgba(0, 0, 0, 0.65)!important;background-image: url(https://betterdocs.net/img/bg.svg)!important;background-size: 10em !important;border-top-left-radius: 11px !important;border-top-right-radius: 11px !important;}
+.headerPlaying-2eYqm9 {background-image: url(https://betterdocs.net/img/bg.svg)!important;background-size: 10em !important;border-top-left-radius: 11px !important;border-top-right-radius: 11px !important;}
 
 .theme-dark .header-1qeJfQ {background-color:transparent !important;border-bottom-color:transparent !important;}
 
