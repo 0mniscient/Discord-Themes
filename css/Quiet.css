@@ -4546,6 +4546,31 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 #bd-customcss-attach-controls .checkbox-inner input[type='checkbox']:checked+span {background-color: var(--main-color);border-color: var(--main-color);}
 
+.message-group .reaction {background: none;position: relative;}
+
+.message-group .reaction, .message-group .reaction .emoji {border-radius: 50%;border: none;padding: 4px;width: 24px;height: 24px;margin-bottom: 20px!important;}
+
+.message-group .reaction .emoji {margin: 0!important;background: none;}
+
+.message-group .reaction.reaction-me {background: rgba(20,184,102,.15);}
+
+.message-group .reaction {width: 32px;height: 32px;padding: 0;margin-right: 4px;transform: none!important;}
+
+.message-group .reaction .reaction-count {position: absolute!important;color: #fff;opacity: 0.5;left: 0;right: 0;width: 36px;font-size: 11px;letter-spacing: 0;top: 37px;margin: 0 auto;z-index: 5;text-align: center;display: block;min-width: 32px!important;}
+
+.message-group .reaction.reaction-me .reaction-count {opacity: 1;}
+
+.message-group .reactions .btn-reaction {visibility: visible;opacity: 0.8!important;margin-top: -16px;}
+
+.message-group .reaction::before, .message-group .reaction::after {content: "";display: block;position: absolute;border-radius: 50%;opacity: 0;}
+
+.message-group .reaction.reaction-me::after {opacity: 1;}
+
+.message-group .reaction.reaction-me::before {-webkit-box-shadow: inset 0 0 7px var(--main-color);box-shadow: inset 0 0 7px var(--main-color);top: 1px;left: 1px;width: 30px;height: 30px;}
+
+.message-group .reaction.reaction-me::after {top: 1px;left: 1px;width: 30px;height: 30px;-webkit-box-shadow: 0 0 0 2px var(--main-color);}
+
+
 /* Replace Light/Dark Mode Text - MasicoreLord */
 /* -Light Mode- */
 /* Theme Mode */
