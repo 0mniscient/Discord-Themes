@@ -807,3 +807,5 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK { text-shadow: 0.5px 0.5px 2px black !important;}
 
 .theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0 {text-shadow: 0.5px 0.5px 2px black !important;}
+
+.theme-dark .body-3_tdh6 {background-color: rgba(0, 0, 0, 0.70) !important;}
