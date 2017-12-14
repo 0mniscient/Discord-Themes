@@ -4548,7 +4548,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .message-group .reaction {background: none;position: relative;}
 
-.message-group .reaction, .message-group .reaction .emoji {border-radius: 50%;border: none;padding: 4px;width: 24px;height: 24px;margin-bottom: 20px!important;}
+.message-group .reaction, .message-group .reaction .emoji {border-radius: 29%;border: none;padding: 4px;width: 24px;height: 24px;margin-bottom: 20px!important;}
 
 .message-group .reaction .emoji {margin: 0!important;background: none;}
 
@@ -4556,13 +4556,13 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .message-group .reaction {width: 32px;height: 32px;padding: 0;margin-right: 4px;transform: none!important;}
 
-.message-group .reaction .reaction-count {position: absolute!important;color: #fff;opacity: 0.5;left: 0;right: 0;width: 36px;font-size: 11px;letter-spacing: 0;top: 37px;margin: 0 auto;z-index: 5;text-align: center;display: block;min-width: 32px!important;}
+.message-group .reaction .reaction-count {position: absolute!important;color: #fff;opacity: 0.5;left: 0;right: 0;font-size: 11px;letter-spacing: 0;margin: 0 auto;z-index: 5;text-align: center;display: block;min-width: 32px!important;}
 
 .message-group .reaction.reaction-me .reaction-count {opacity: 1;}
 
 .message-group .reactions .btn-reaction {visibility: visible;opacity: 0.8!important;margin-top: -16px;}
 
-.message-group .reaction::before, .message-group .reaction::after {content: "";display: block;position: absolute;border-radius: 50%;opacity: 0;}
+.message-group .reaction::before, .message-group .reaction::after {content: "";display: block;position: absolute;border-radius: 30%;opacity: 0;}
 
 .message-group .reaction.reaction-me::after {opacity: 1;}
 
