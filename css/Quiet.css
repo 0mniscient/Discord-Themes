@@ -3603,17 +3603,17 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .header-3mZJcV .avatarStatusNormal-1OXVjG{border-color:var(--hover-color);height:100%;width:100%;border-width:4px;box-shadow:0px 0px 7px 0px #000;}
 
-.statusOnline-1Mp2_H{background-color:transparent;border-color:#43b581 !important;}
+.statusOnline-1Mp2_H{background-color:transparent;border: 2px solid #43b581 !important;}
 
-.statusInvisible-2ci18Q, .statusOffline-jZXr_u {background-color: transparent; border-color: #747f8d !important;}
+.statusInvisible-2ci18Q, .statusOffline-jZXr_u {background-color: transparent;border: 2px solid  #747f8d !important;}
 
-.statusDnd-35xAXU{background-color:transparent;border-color:#f04747 !important;}
+.statusDnd-35xAXU{background-color:transparent;border: 2px solid #f04747 !important;}
 
-.statusIdle-2AQdvu{background-color:transparent;border-color:#faa61a !important;}
+.statusIdle-2AQdvu{background-color:transparent;border: 2px solid :#faa61a !important;}
 
 .status-3jUEha{width:100%;height:100%;border-width:2px !important;}
 
-.status-3jUEha{border-radius:3px;position:absolute;bottom:-2px;right:-2px;}
+.status-3jUEha{position:absolute;bottom:-2px;right:-2px;}
 
 .userPopout-4pfA0d .status-3jUEha{width:100%;height:100%;border-width:4px !important;border-radius:3px;position:absolute;}
 
@@ -4590,8 +4590,6 @@ display: none !important;}
 .socialLinks-1oZoF3 {display: none !important;}
 
 .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {justify-content: flex-start !important;}
-
-.ui-standard-sidebar-view .sidebar-region {flex: 0 !important;}
 
 .popout.popout-right {margin-top: -120px !important;}
 
