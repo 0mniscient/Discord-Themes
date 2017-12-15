@@ -4496,7 +4496,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .theme-dark .header-1-f9X5{color: var(--main-color);font-size: 14px;border-bottom: 2px solid var(--main-color);padding: 3px 0px !important;}
 
-.sidebar-region .sidebar .side-2nYO0F .separator-3z7STW{background-color: transparent;}
+.sidebar-region .sidebar .side-2nYO0F .separator-3z7STW{display: none !important;}
 
 .side-2nYO0F .item-3879bf{margin-top: 5px;}
 
@@ -4571,6 +4571,32 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .message-group .reaction.reaction-me::after {top: 1px;left: 1px;width: 30px;height: 30px;-webkit-box-shadow: 0 0 0 2px var(--main-color);}
 
 .theme-dark .reaction.reaction-me, .theme-light .reaction.reaction-me {background: rgba(0,0,0,0.4)!important;}
+
+.ui-standard-sidebar-view .sidebar-region .sidebar {padding: 5px 10px 0px 10px !important;width: 200px !important;}
+
+.side-2nYO0F .item-3879bf {border-radius: 3px !important;margin-bottom: 1px !important;padding-bottom: 3px !important;padding-top: 3px !important;margin-top: 1px !important;}
+
+.header-1-f9X5 {text-align: center !important;margin-bottom: 3px !important;}
+
+#bd-settings-sidebar .ui-tab-bar-header {font-weight: 700 !important;font-size: 14px !important;border-bottom: 2px solid var(--main-color) !important;padding: 3px 0px !important;text-align: center !important;margin-bottom: 3px !important;}
+
+#bd-settings-sidebar .ui-tab-bar-separator {
+display: none !important;}
+
+#bd-settings-sidebar .ui-tab-bar-item:hover {background-color: hsla(216,4%,74%,.1)!important;}
+
+#bd-settings-sidebar .ui-tab-bar-item {margin-bottom: 1px !important;padding: 5px 10px 0px 10px !important;position: relative !important;font-size: 15px !important;line-height: 21px !important;}
+
+.socialLinks-1oZoF3 {display: none !important;}
+
+.ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {justify-content: flex-start !important;}
+
+.ui-standard-sidebar-view .sidebar-region {flex: 0 !important;}
+
+.popout.popout-right {margin-top: -120px !important;}
+
+
+
 
 /* Replace Light/Dark Mode Text - MasicoreLord */
 /* -Light Mode- */
