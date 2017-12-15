@@ -4337,7 +4337,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 #app-mount > [class*="platform-"] .scroller-wrap .guilds.scroller .guild:first-child{margin-top: 19px;}
 
-.mask-2vyqAW{-webkit-mask: none!important;}
+.mask-2vyqAW{-webkit-mask: none!important;border-radius 5% !important}
 
 .private-channels{background-color: #19191b !important;}
 
