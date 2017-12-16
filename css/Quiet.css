@@ -3615,7 +3615,7 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 .status-3jUEha{position:absolute;bottom:-2px;right:-2px;}
 
-.userPopout-4pfA0d .status-3jUEha{width:100%;height:100%;border-width:4px !important;border-radius:3px;position:absolute;}
+.userPopout-4pfA0d .status-3jUEha{width:100%;height:100%;border-radius:0px;position:absolute;}
 
 [class*="userPopout-"] .status-3jUEha{bottom: 0px;right: 0px;}
 
@@ -4636,11 +4636,11 @@ display: none !important;}
 
 #friends .friends-table .friends-table-body > div{display:flex !important;flex-flow:row wrap !important;justify-content:center !important;}
 
-.statusOnlineProfile-2tnPUH {box-shadow: inset 0 0 0 3px rgb(5, 191, 108) !important;}
+.statusOnlineProfile-2tnPUH {box-shadow: inset 0 0 0 2px rgb(5, 191, 108) !important;}
 
-.statusDndProfile-3KCGdy {box-shadow: inset 0 0 0 3px hsl(0, 96%, 61%) !important;}
+.statusDndProfile-3KCGdy {box-shadow: inset 0 0 0 2px hsl(0, 96%, 61%) !important;}
 
-.statusIdleProfile-2QT8cN {box-shadow: inset 0 0 0 3px hsl(37, 100%, 61%) !important;}
+.statusIdleProfile-2QT8cN {box-shadow: inset 0 0 0 2px hsl(37, 100%, 61%) !important;}
 
 .statusInvisibleProfile-LRuFr_, .statusOfflineProfile-1wnfgz {-webkit-box-shadow: inset 0 0 0 2px rgba(199,204,209,.6) !important;}
 
@@ -4683,6 +4683,8 @@ display: none !important;}
 .role-3rahR_ { border: 2px solid;}
 
 .statusProfile-29OBzn {bottom: 0px !important;right: 0px !important;}
+
+.image-EVRGPw, .status-3jUEha {border-radius: 0%;}
 
 input, textarea {color: white;}
 
