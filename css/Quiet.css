@@ -4636,11 +4636,11 @@ display: none !important;}
 
 .statusOnlineProfile-2tnPUH {box-shadow: none !important;}
 
-.statusDndProfile-3KCGdy {box-shadow: inset 0 0 0 2px hsl(0, 96%, 61%) !important;}
+.statusDndProfile-3KCGdy {-webkit-box-shadow: none;bottom: -2px !important;right: -2px !important;}
 
-.statusIdleProfile-2QT8cN {box-shadow: inset 0 0 0 2px hsl(37, 100%, 61%) !important;}
+.statusIdleProfile-2QT8cN {-webkit-box-shadow: none;bottom: -2px !important;right: -2px !important;}
 
-.statusInvisibleProfile-LRuFr_, .statusOfflineProfile-1wnfgz {-webkit-box-shadow: inset 0 0 0 2px rgba(199,204,209,.6) !important;}
+.statusInvisibleProfile-LRuFr_, .statusOfflineProfile-1wnfgz {-webkit-box-shadow: none;bottom: -2px !important;right: -2px !important;}
 
 .avatarHint-2i5XWK {top: 0px !important;left: 0px !important;}
 
