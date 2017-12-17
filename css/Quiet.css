@@ -3619,7 +3619,7 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 
 [class*="userPopout-"] .status-3jUEha{bottom: 0px;right: 0px;}
 
-.avatarHint-2i5XWK{top:-3px;left:-3px;border-radius:3px;width:100%;height:100%;}
+.avatarHint-2i5XWK{top:0px;left:0px;border-radius:0px;width:100%;height:100%;}
 
 .botTagInvert-gorWR_{background:var(--hover-color);color:#fff;}
 
@@ -4641,8 +4641,6 @@ display: none !important;}
 .statusIdleProfile-2QT8cN {-webkit-box-shadow: none;bottom: -2px !important;right: -2px !important;}
 
 .statusInvisibleProfile-LRuFr_, .statusOfflineProfile-1wnfgz {-webkit-box-shadow: none;bottom: -2px !important;right: -2px !important;}
-
-.avatarHint-2i5XWK {top: 0px !important;left: 0px !important;}
 
 .theme-dark .partyBottomBorder-EvU-Qp {background-color: var(--main-color) !important;}
 
