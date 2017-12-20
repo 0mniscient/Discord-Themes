@@ -22,6 +22,7 @@
 .theme-dark .channels-wrap, 
 .theme-dark .activityFeed-HeiGwL , 
 #friends  .headerBar-cxbhPD , 
+.theme-dark .lfg-3xoFkI,
 .app .guilds .guild.active:first-child , 
 .theme-dark .guilds-wrapper ,.headerPlaying-2eYqm9, 
 .userPopout-4pfA0d .headerNormal-1cioxU, 
@@ -30,6 +31,7 @@
 .headerStreaming-3F-wjT, 
 .theme-dark .title-wrap, 
 .theme-dark .channel-members, 
+.theme-dark .private-channel-call,
 .theme-dark .content .flex-spacer, 
 .theme-dark .friends-table, 
 .theme-dark .friends-header, 
@@ -492,8 +494,6 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .connect-account-btn .connect-account-btn-inner {background-color: transparent;}
 
-.theme-dark .private-channel-call { background-color: rgba(0, 0, 0, 0.75) !important;}
-
 .theme-dark .ui-video { background-color: rgba(0,0,0,0) !important;}
 
 #app-mount .titleWrapper-3Vi_wz > div {background-color:rgba(0,0,0,0) !important;}}
@@ -704,7 +704,7 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .theme-light .guilds .friends-online{color: #d4d4d4 !important;}
 
-.private .channelTextArea-os01xC{margin: 20px 240px 32px 0px;}
+.private .channelTextArea-os01xC{margin: 20px 120px 32px 0px;}
 
 .accountDetails-15i-_e{right: 0px !important;bottom: 0px !important;max-width: 240px !important;min-width: 240px !important;height: 72px !important;}
 
@@ -821,3 +821,25 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 .headerFill-TTyrtz {background-color:transparent !important;}
 
 .topSectionStreaming-3rIBIm {background:rgba(0,0,0,0.7) !important;}
+
+.theme-dark .wrapperDefault-NeXRmD {background-color: rgba(0, 0, 0, 0.5) !important;}
+
+.theme-dark .card-11ynQk:before {background-color:rgba(0,0,0,0.3) !important;border-color: transparent !important;}
+
+.theme-dark .gameDefault-2SBp6B:focus, .theme-dark .gameDefault-2SBp6B:hover {background-color: rgba(0, 0, 0, 0.2) !important;border-color: rgba(79, 84, 92, 0.3) !important;}
+
+.theme-dark .wrapperFull-2_7g2- {background-color: rgba(129, 2, 2, 0.4) !important;}
+
+.disabledButton-dEblCJ {opacity: .4 !important;background-color: rgba(129,2,2,0.4) !important;}
+
+.auth-background {background-image: url(https://imgur.com/RG03PyX.png) !important;}
+
+.form .control-group label {text-shadow: 1px 1px 1px black !important;}
+
+form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
+
+.auth-inner .auth-brand {background: rgba(0, 0, 0, 0.4) !important;}
+
+.theme-dark .gameSelector-24sFfz {background-color: rgba(0,0,0,0.25) !important;}
+
+.theme-dark .wrapper-uAa07y {background: rgba(0, 0, 0, 0.4)!important;}
