@@ -4591,7 +4591,17 @@ display: none !important;}
 
 .popout.popout-right {margin-top: -120px !important;}
 
+.emptyUser-34aCrC {background: var(--hover-color) !important;}
 
+.pill-1nbD-Z { background-color: var(--hover-color) !important;}
+
+.avatarMasked-1DKyfL {-webkit-mask-image: none !important;}
+
+.buttonGreenFilled-6QHNrw {background-color: var(--main-color) !important;}
+
+.buttonGreenFilledDefault-_lLQaz:hover {background-color: var(--hover-color) !important;}
+
+.buttonGreyFilled-3qPP_J {background-color: var(--main-color) !important;}
 
 
 /* Replace Light/Dark Mode Text - MasicoreLord */
@@ -4681,6 +4691,26 @@ display: none !important;}
 .statusProfile-29OBzn {bottom: 0px;right: 0px;}
 
 .image-EVRGPw, .status-3jUEha {border-radius: 0% !important;}
+
+.marginTop20-3UscxH {margin-top: 22px !important;}
+
+.headerText-1r7YO4 {padding-left: 20px !important;}
+
+.theme-dark .headerText-1r7YO4 {border-bottom: 2px var(--main-color) solid !important;}
+
+.theme-dark .top-2qoLb2 .itemSelected-3XxAMf {border-bottom-color: var(--main-color)!important;}
+
+.tabBarItem-2YOhcM {padding: 0px 2px 2px !important;}
+
+.theme-dark .max-mvI_jT:before {border-bottom-color: var(--main-color) !important;}
+
+.theme-dark .max-mvI_jT {background-color: var(--main-color) !important;}
+
+.buttonGreenFilledDefault-_lLQaz:hover {background-color: var(--hover-color) !important;}
+
+.buttonGreenFilled-6QHNrw {background-color: var(--main-color) !important;}
+
+
 
 input, textarea {color: white;}
 
