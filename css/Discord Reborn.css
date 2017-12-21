@@ -464,8 +464,6 @@ span.spinner{margin-top: 2px;}
 
 .private-channels {background-color: rgba(0,0,0,0) !important;}
 
-.app .guilds .guild:first-child {margin-top: 18px!important;}
-
 .theme-dark .message-group .comment .markup pre {background: rgba(0, 0, 0, 0) !important;border-color: rgba(0, 0, 0, 0.65) !important;}
 
 code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50%,transparent 50%)!important;}
