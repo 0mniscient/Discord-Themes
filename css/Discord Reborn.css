@@ -97,7 +97,7 @@ span.spinner{margin-top: 2px;}
 
 [class*="nameDefault-"]{color: #ffffff;}
 
-.theme-dark .search .search-bar{background-color: rgba(0, 0, 0, 0.58);border: 2px solid rgba(0, 0, 0, 0.4) !important;border-bottom: 2px solid rgba(0, 0, 0, 0.4) !important;}
+.theme-dark .search .search-bar{background-color: rgba(0, 0, 0, 0.3);border: 1px solid var(--hover-color)!important;}
 
 .chat .empty-message h1{color: #f1f1f1;}
 
@@ -562,8 +562,6 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .form .control-group input[type=text], .form .control-group input[type=email], .form .control-group input[type=password], .form .control-group input[type=number], .form .control-group textarea {color: #cecece!important;background:rgba(0,0,0,0.75)!important;}
 
-.theme-dark .search .search-bar {background-color:rgba(0,0,0,0.3) !important;border:2px solid rgba(0,0,0,0) !important;border-bottom:2px solid rgba(0,0,0,0) !important;}
-
 .theme-dark .search-results-wrap .search-header {background-color:transparent !important;}
 
 .theme-dark .search-results-wrap {background-color:rgba(0,0,0,0.85)!important;}
@@ -724,7 +722,7 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .theme-dark .ui-hover-card:before {background-color: rgba(0, 0, 0, 0.5)!important;}
 
-.theme-dark .ui-search-bar {background-color: rgba(0, 0, 0, 0.4)!important;}
+.theme-dark .ui-search-bar {background-color: rgba(0, 0, 0, 0.4)!important;border: 1px solid var(--hover-color) !important;}
 
 .theme-dark.context-menu {background: rgba(0,0,0,0.8)!important;}
 
@@ -841,3 +839,5 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 .theme-dark .gameSelector-24sFfz {background-color: rgba(0,0,0,0.25) !important;}
 
 .theme-dark .wrapper-uAa07y {background: rgba(0, 0, 0, 0.4)!important;}
+
+.search-bar .search-bar-inner {border: 1px solid var(--hover-color) !important;}
