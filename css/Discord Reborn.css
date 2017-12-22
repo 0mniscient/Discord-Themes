@@ -841,3 +841,15 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 .theme-dark .wrapper-uAa07y {background: rgba(0, 0, 0, 0.4)!important;}
 
 .search-bar .search-bar-inner {border: 1px solid var(--hover-color) !important;}
+
+.premium-payment-modal {background-color: rgba(0, 0, 0, 0.4) !important;border: 2px solid var(--hover-color) !important;}
+
+.fancy-credit-input {background-color: rgba(0, 0, 0, 0) !important;border: 1px solid var(--hover-color) !important;}
+
+.fancy-credit-input .expiration-placeholder, .fancy-credit-input input {background: transparent !important;border: none !important;color: #fff !important;}
+
+.fancy-credit-input .cc-number-wrapper .cc-number-placeholder {color: #000 !important;color: rgba(255, 255, 255, 0.30) !important;}
+
+.premium-payment-modal .buttonWhiteOutlinedDefault-3gEfoF:hover {border-color: hsla(0,0%,100%,.6) !important;}
+
+.premium-payment-modal .buttonWhiteOutlinedDefault-3gEfoF, .premium-payment-form .premium-payment-actions .buttonWhiteOutlinedDefault-3gEfoF {border-color: hsla(0,0%,100%,.6) !important;border-radius: 5px !important;border: 1px solid var(--hover-color)!important;}
