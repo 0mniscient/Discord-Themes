@@ -2694,7 +2694,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .popout.popout-top:not(.no-arrow){z-index: 8;}
 
-[class*="scroller-"].channel-members{height: calc(100% - 71px);}
+[class*="scroller-"].channel-members{height: calc(100% - 51px);}
 
 #friends .friends-table .friends-table-body{height: calc(100% - 133px);}
 
@@ -4506,7 +4506,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .accountDetails-15i-_e .discriminator{right: 5px;position: fixed;}
 
-.accountDetails-15i-_e{position: fixed;right: 0px;bottom: 14px;max-width: 242px !important;min-width: 242px !important;}
+.accountDetails-15i-_e{position: fixed;right: 0px;height 75px;max-width: 242px !important;min-width: 242px !important;}
 
 #friends .tab-bar .tab-bar-item.selected .badge{background-color: #f04747 !important;}
 
