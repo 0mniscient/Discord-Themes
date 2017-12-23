@@ -165,7 +165,7 @@ span.spinner{margin-top: 2px;}
 
 .theme-light .guilds-wrapper::before{content:"";background:rgba(0, 0, 0, 0.45);width:76px;height:74px;bottom:0px;position:fixed;}
 
-.theme-light .guilds-wrapper{margin-top:48px !important;height:calc(100% - 119px) !important;}
+.theme-light .guilds-wrapper{margin-top:48px !important;}
 
 .theme-light .chat form, .theme-light .container-iksrDt{border-top:2px solid #212121 !important;}
 
