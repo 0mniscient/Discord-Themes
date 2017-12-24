@@ -853,3 +853,5 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 .premium-payment-modal .buttonWhiteOutlinedDefault-3gEfoF:hover {border-color: hsla(0,0%,100%,.6) !important;}
 
 .premium-payment-modal .buttonWhiteOutlinedDefault-3gEfoF, .premium-payment-form .premium-payment-actions .buttonWhiteOutlinedDefault-3gEfoF {border-color: hsla(0,0%,100%,.6) !important;border-radius: 5px !important;border: 1px solid var(--hover-color)!important;}
+
+.small-popout-box {background: rgba(0, 0, 0, 0.60) !important;border-radius: 5px;}
