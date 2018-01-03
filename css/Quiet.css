@@ -4603,7 +4603,13 @@ display: none !important;}
 
 .buttonGreyFilled-3qPP_J {background-color: var(--main-color) !important;}
 
-.headerText-1r7YO4 {margin-left:0px !important: 0px;margin-right: 0px !important;}
+.headerText-1r7YO4 {margin-left:0px !important;margin-right: 0px !important;}
+
+.lfg-3xoFkI:after {content: "";background: #19191b;width: 1400px;height: 70px;bottom: 0px;position: absolute;border-top: 2px solid #212121;}
+
+.theme-dark .lfg-3xoFkI {background-color: #19191b;}
+
+.scroller-1nBnGs {margin-bottom: 75px;}
 
 /* Replace Light/Dark Mode Text - MasicoreLord */
 /* -Light Mode- */
