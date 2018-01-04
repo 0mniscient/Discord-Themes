@@ -2694,7 +2694,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .popout.popout-top:not(.no-arrow){z-index: 8;}
 
-[class*="scroller-"].channel-members{height: calc(100% - 51px);}
+[class*="scroller-"].channel-members{height: calc(101% - 77px);}
 
 #friends .friends-table .friends-table-body{height: calc(100% - 133px);}
 
