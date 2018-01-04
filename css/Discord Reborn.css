@@ -63,7 +63,7 @@
 
 .theme-dark .private-channels .search-bar input{background: transparent !important;}
 
-.theme-dark #friends .friends-table .friends-table-body::after{content: "";background: rgba(0, 0, 0, 0.4);}
+.theme-dark #friends .friends-table .friends-table-body::after{content: "";background: rgba(0, 0, 0, 0.2);}
 
 .theme-dark .container-iksrDt{height: 71px;background: rgba(0, 0, 0, 0.2);border-right: 0px solid transparent !important;width: calc(100% - 20px) !important;margin-left: 0px;border-top: 2px solid rgba(0, 0, 0, 0.3) !important;}
 
@@ -632,7 +632,7 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .theme-dark .modal-3HOjGZ {background-color: rgba(0,0,0,0.80) !important;}
 
-.accountDetails-15i-_e .username{background-color: rgba(0, 0, 0, 0.2) !important;border-top: 2px solid rgba(0, 0, 0, 0.8);}
+.accountDetails-15i-_e .username{background-color: transparent !important;border-top: 2px solid rgba(0, 0, 0, 0.8);}
 
 /* Replace Light/Dark Mode Text - MasicoreLord */
 /* -Light Mode- */
@@ -855,3 +855,5 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 .premium-payment-modal .buttonWhiteOutlinedDefault-3gEfoF, .premium-payment-form .premium-payment-actions .buttonWhiteOutlinedDefault-3gEfoF {border-color: hsla(0,0%,100%,.6) !important;border-radius: 5px !important;border: 1px solid var(--hover-color)!important;}
 
 .small-popout-box {background: rgba(0, 0, 0, 0.60) !important;border-radius: 5px;}
+
+.lfg-3xoFkI:after {background: rgba(0, 0, 0, 0.2) !important;}
