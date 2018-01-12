@@ -3985,8 +3985,6 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .tooltip.tooltip-brand.tooltip-right:after{border-right-color: var(--main-color);}
 
-.popout.popout-top-left{top: 0px !important;}
-
 .theme-light .scroller-wrap .scroller.messages::-webkit-scrollbar-thumb{background-color: transparent !important;}
 
 .theme-light .scroller-wrap .scroller::-webkit-scrollbar-thumb{border: 3px solid white !important;background-color: transparent !important;}
