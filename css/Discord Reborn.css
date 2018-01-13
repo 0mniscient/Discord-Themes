@@ -861,3 +861,5 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 .theme-dark .invite-CTGItT {background: rgba(0, 0, 0, 0.3)!important;}
 
 .theme-dark .attachPopout-gjwHsr {background-color: rgba(0, 0, 0, 0.6)!important;}
+
+.theme-dark .attachPopoutRow-elxASe:hover {background-color: var(--hover-color) !important;opacity: 0.8 !important;}
