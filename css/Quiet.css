@@ -4333,7 +4333,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 #app-mount .titleWrapper-3Vi_wz > div{background-color: #19191b;}
 
-#app-mount > [class*="platform-"] .scroller-wrap .guilds.scroller .guild:first-child{margin-top: 19px;}
+#app-mount > [class*="platform-"] .scroller-wrap .guilds.scroller .guild:first-child{margin-top: 19.5px;}
 
 .mask-2vyqAW{-webkit-mask: none!important;border-radius 5% !important}
 
@@ -4719,7 +4719,7 @@ display: none !important;}
 
 .buttonGreenFilled-6QHNrw {background-color: var(--main-color) !important;}
 
-
+.theme-dark .guildIconExpired-2MVLDd {background-color: var(--main-color);}
 
 input, textarea {color: white;}
 
