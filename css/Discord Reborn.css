@@ -472,8 +472,6 @@ code {background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradi
 
 .theme-dark .guilds-wrapper{height: auto !important;}
 
-.guilds.scroller > .guild:first-child{margin-top: 19px !important}
-
 .theme-dark .guilds-wrapper::before{display:none;}
 
 .guilds-wrapper .guilds .friends-online{background: transparent !important;}
@@ -861,3 +859,7 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 .theme-dark .invite-CTGItT {background: rgba(0, 0, 0, 0.3)!important;}
 
 .theme-dark .attachPopout-gjwHsr {background-color: rgba(0, 0, 0, 0.6)!important;}
+
+.theme-dark .attachPopoutRow-elxASe:hover {background-color: var(--hover-color) !important;opacity: 0.8 !important;}
+
+.theme-dark .guildIconImage-12ar3e {background-color: transparent;}
