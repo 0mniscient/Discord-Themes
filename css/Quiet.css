@@ -4570,7 +4570,11 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .theme-dark .reaction.reaction-me, .theme-light .reaction.reaction-me {background: rgba(0,0,0,0.4)!important;}
 
-.ui-standard-sidebar-view .sidebar-region .sidebar {padding: 5px 10px 0px 10px !important;width: 200px !important;}
+.ui-standard-sidebar-view .sidebar-region .sidebar {padding: 25px 10px 10px 25px !important;width: 200px !important;}
+
+.layer[layer-id="user-settings"] #bd-settings-sidebar .ui-tab-bar-item::before, .layer[layer-id="server-settings"] .item-3879bf::before, .layer[layer-id="user-settings"] .item-3879bf::before, .layer[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item::before, .layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item::before {top: -5.5px !important;}
+
+.item-3879bf {font-size: 15px;line-height: 15.5px !important;}
 
 .side-2nYO0F .item-3879bf {border-radius: 3px !important;margin-bottom: 1px !important;padding-bottom: 3px !important;padding-top: 3px !important;margin-top: 1px !important;}
 
