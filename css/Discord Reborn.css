@@ -862,9 +862,9 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 
 .theme-dark .attachPopoutRow-elxASe:hover {background-color: var(--hover-color) !important;opacity: 0.8 !important;}
 
-.theme-dark .guildIconImage-12ar3e {background-color: transparent;}
+.theme-dark .guildIconImage-12ar3e {background-color: transparent !important;}
 
-.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW {background: transparent;}
+.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW {background: transparent !important;}
 
 .theme-dark .typing-3eiiL_ {background-color: transparent;}
 
