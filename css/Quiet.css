@@ -4723,6 +4723,10 @@ display: none !important;}
 
 .theme-dark .user-settings-games .now-playing, .theme-light .user-settings-games .now-playing {background-color: var(--main-color) !important;}
 
+.theme-dark .typing-3eiiL_ {background-color: transparent !important;;}
+
+.emojiPicker-3g68GS .scroller-2dsok0 .emojiItem-3l4Fa9.selected-1LQfcZ {background-color: var(--main-color) !important;}
+	
 input, textarea {color: white;}
 
 /*
