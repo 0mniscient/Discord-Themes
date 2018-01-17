@@ -4723,6 +4723,8 @@ display: none !important;}
 
 .theme-dark .user-settings-games .now-playing, .theme-light .user-settings-games .now-playing {background-color: var(--main-color) !important;}
 
+.theme-dark .typing-3eiiL_ {background-color: transparent;}
+
 input, textarea {color: white;}
 
 /*
