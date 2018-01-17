@@ -863,3 +863,60 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 .theme-dark .attachPopoutRow-elxASe:hover {background-color: var(--hover-color) !important;opacity: 0.8 !important;}
 
 .theme-dark .guildIconImage-12ar3e {background-color: transparent;}
+
+.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW {background: transparent;}
+
+.theme-dark .typing-3eiiL_ {background-color: transparent;}
+
+.theme-dark [class*="modal-"] [class*="inner-"] [class*="modal-"] {background-color: transparent;}
+
+.separator-1hpa3S { -webkit-box-sizing: border-box !important;border-bottom: none !important;}
+
+.item-rK1j5B {color: rgba(255, 255, 255, 0.6) !important;}
+
+.theme-dark .embedPill-3sYS1X {opacity: 0.5 !important;}
+
+.theme-dark .embedInner-t4ag7g {background-color: transparent !important;}
+
+.emojiPicker-3g68GS {background-color: rgba(0, 0, 0, 0.7) !important;border: none !important;}
+
+.emojiPicker-3g68GS .stickyHeader-3LjM5X {background: transparent !important;}
+
+.theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected {background-color: rgba(0, 0, 0, 0.3) !important;}
+
+.theme-dark .add-game-popout {background-color: rgba(20, 20, 20, 0.9) !important;}
+
+.theme-dark .accountBtnInner-3zsU2z {background-color: transparent !important;}
+
+.theme-dark .themed-popout .footer {background-color: transparent !important;}
+
+.theme-dark .contextMenu-uoJTbz { background: rgba(0, 0, 0, 0.7) !important;}
+
+.theme-dark .itemSubMenu-3ZgIw- {background: rgba(0, 0, 0, 0) url(/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50% !important;}
+
+.theme-dark .itemSubMenu-3ZgIw-:hover {background: var(--main-color) url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50% !important;}
+
+.theme-dark .item-1XYaYf:hover {background: var(--main-color) !important;}
+
+.theme-dark .searchBar-YMJBu9 {background-color: rgba(0, 0, 0, 0.2) !important;}
+
+.video-3lOWa6 {background-color: transparent !important;}
+
+.theme-dark .searchAnswer-yD90ey, .theme-dark .searchFilter-1fJ0cd {background-color: transparent !important;}
+
+.calendarPicker-16Q6sl .react-datepicker, .theme-light .calendarPicker-16Q6sl .react-datepicker {background-color: rgba(0, 0, 0, 0) !important;}
+
+.calendarPicker-16Q6sl .react-datepicker__header, .theme-light .calendarPicker-16Q6sl .react-datepicker__header {background-color: transparent !important;}
+
+.calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled, .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled:hover,.calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled, .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled:hover {color: rgba(255, 255, 255, 0.5) !important;}
+
+.calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker-16Q6sl .react-datepicker__day:hover, .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:hover, .theme-light .calendarPicker-16Q6sl .react-datepicker__day:hover {background-color: var(--hover-color) !important;}
+
+.calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after, .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after {background-color: (--main-color) !important;background-color: var(--main-color) !important;}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after {background-color: var(--main-color) !important;}
+	
+.react-datepicker .react-datepicker__day-name {color: hsla(240,6%,97%,.6)!important;}
+
+.react-datepicker__week .react-datepicker__day {border: 0.5px solid rgba(255, 255, 255, 0.2) !important;}
+
