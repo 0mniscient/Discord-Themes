@@ -4732,7 +4732,23 @@ display: none !important;}
 .theme-dark .typing-3eiiL_ {background-color: transparent !important;;}
 
 .emojiPicker-3g68GS .scroller-2dsok0 .emojiItem-3l4Fa9.selected-1LQfcZ {background-color: var(--main-color) !important;}
-	
+
+.uploadModal-2KN6Mm {background-color: #2f3136 !important;}
+
+.uploadModal-2KN6Mm .footer-4pOKm8 {background-color: #2f3136 !important;}
+
+.emojiPicker-3g68GS {background-color: #2f3136;border: none !important;}
+
+.emojiPicker-3g68GS .stickyHeader-3LjM5X {background: none !important;}
+
+#bda-qem-twitch-container, #bda-qem-favourite-container {background-color: #2f3136 !important;}
+
+.menu-3BZuDT {background: #2f3136 !important;}
+
+.item-rK1j5B:hover {background-color: #222427 !important;}
+
+.separator-1hpa3S {border-bottom: none !important;}
+
 input, textarea {color: white;}
 
 /*
