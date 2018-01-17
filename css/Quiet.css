@@ -4470,7 +4470,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .emojiButton-38mF6t{top:26px;}
 
-.typing{bottom:16px;}
+.typing-3eiiL_ {bottom: 16px !important;font-size: 10px !important;}
 
 .channelTextArea-os01xC{margin:20px 0 32px;bottom:21px;}
 
@@ -4720,6 +4720,8 @@ display: none !important;}
 .buttonGreenFilled-6QHNrw {background-color: var(--main-color) !important;}
 
 .theme-dark .guildIconExpired-2MVLDd {background-color: var(--main-color);}
+
+.theme-dark .user-settings-games .now-playing, .theme-light .user-settings-games .now-playing {background-color: var(--main-color) !important;}
 
 input, textarea {color: white;}
 
