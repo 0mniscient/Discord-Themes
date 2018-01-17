@@ -861,9 +861,15 @@ textarea{background:transparent !important;}
 
 .tutorial-popout .button-area .skip-tips a{color:var(--main-color);}
 
-.button:hover{background-color:var(--hover-color);}
+.button:hover{background-color:var(--hover-color) !important; color: #fff !important;}
 
-.button{background-color:var(--main-color);}
+.button{background-color:var(--main-color) !important; color: #fff !important;}
+
+.uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {border: 2px solid var(--main-color) !important;}
+
+.uploadModal-2KN6Mm .inner-1-09ZV {border: 2px dashed var(--main-color) !important;}
+
+.uploadModal-2KN6Mm .footer-4pOKm8 .button:hover {background-color: var(--hover-color)!important;}
 
 .guilds-wrapper .guilds-add{border: 0px solid transparent;position: fixed !important;bottom: 72px;width: 74px !important;border-radius: 0px;left: 0px;height: 3px !important;line-height: 1px;font-size: 0px !important;transition: .1s all linear;}
 
