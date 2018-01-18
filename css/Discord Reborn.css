@@ -378,15 +378,15 @@ span.spinner{margin-top: 2px;}
 
 .emoji-picker, .emoji-picker .sticky-header{background-color: rgba(0,0,0,0.6) !important;}
 
-.emoji-picker .category {background-color:rgba(0,0,0,0.8);}
+.emoji-picker .category {background-color:rgba(0,0,0,0.8) !important;}
 
-#bda-qem {background-color:rgba(0,0,0,0.7);}
+#bda-qem {background-color:rgba(0,0,0,0.7) !important;}
 
-.emote-menu-inner {background-color:rgba(0,0,0,0.0);}
+.emote-menu-inner {background-color:rgba(0,0,0,0.0) !important;}
 
-#bda-qem-twitch-container, #bda-qem-favourite-container {background-color:rgba(0,0,0,0.6);}
+#bda-qem-twitch-container, #bda-qem-favourite-container {background-color:rgba(0,0,0,0.6) !important;}
 
-.emoji-picker .header .search-bar {padding: 0px;}
+.emoji-picker .header .search-bar {padding: 0px !important;}
 
 .theme-light .emoji-picker{border: 1px solid #000000 !important;}
 
