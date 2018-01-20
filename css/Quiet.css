@@ -2744,7 +2744,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .app .guilds>div.guild:first-child:hover .badge{background-color: #121213;}
 
-.friends-icon{background-image: url(https://betterdocs.net/dm-icon.svg)!important; }
+/*.friends-icon{background-image: url(https://betterdocs.net/dm-icon.svg)!important; }*/
 
 [style*="81388395867156480"] ~ .member-inner .member-username-inner,
 [style*="81388395867156480"] ~ .comment .user-name {font-size:0px !important;}
