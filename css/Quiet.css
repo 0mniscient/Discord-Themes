@@ -863,7 +863,7 @@ textarea{background:transparent !important;}
 
 .button:hover{background-color:var(--hover-color) !important; color: #fff !important;}
 
-.button{background-color:var(--main-color) !important; color: #fff !important;}
+.button{background-color:var(--main-color) !important; color: #fff !important;margin: 1px !important;}
 
 .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {border: 2px solid var(--main-color) !important;}
 
