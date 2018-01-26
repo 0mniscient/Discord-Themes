@@ -933,3 +933,21 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 .uploadModal-2KN6Mm {background-color: rgba(0, 0, 0, 0.7)!important;}
 
 .uploadModal-2KN6Mm .footer-4pOKm8 {background-color: rgba(0, 0, 0, 0.7) !important;}
+
+.form-deprecated .form-header, .form.deprecated .form-header {background: rgba(0, 0, 0, 0.7)!important;}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header {color: rgba(255, 255, 255, 0.7)!important;}
+
+.form-deprecated .form-inner, .form.deprecated .form-inner {background-color: rgba(0, 0, 0, 0.7)!important;}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .expireText-NeAc7v {color: rgba(255, 255, 255, 0.75)!important;}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions {background-color: rgba(0, 0, 0, 0.7)!important;}
+
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {background-color: rgba(0, 0, 0, 0.7)!important;}
+
+.clipboardInputInner-oj8y-S button:first-of-type:before {background: linear-gradient(90deg,hsla(0, 0%, 0%, 0),#000)!important;}
+
+.clipboardInputInner-oj8y-S {border: 1px solid rgba(225, 227, 229, 0.25)!important;}
+
+.clipboardInputInner-oj8y-S input {background-color: rgba(0, 0, 0, 0)!important;}
