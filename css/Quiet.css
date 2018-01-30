@@ -4315,13 +4315,13 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color)!important;}
 
 /* Chat Text Area (input) */
-.theme-dark .chat form{background-color:#19191b;box-shadow:0 0px 0 transparent;}
+.theme-dark .chat form{background-color:#19191b;box-shadow:0 0px 0 transparent;border-right: 2px solid #212121;}
 
 .theme-light .chat form{background-color:#fff;box-shadow:0 0px 0 transparent;}
 
 .chat form{margin:0 0px -23px !important;}
 
-.theme-dark .inner-3if5cm{background-color:transparent;border-left:2px solid #212121;border-right:2px solid #212121;border-top:2px solid #212121;border-radius:0px !important;margin-bottom:-18px;padding-top:14px;}
+.theme-dark .inner-3if5cm{background-color:transparent;border-left:2px solid #212121;border-top:2px solid #212121;border-radius:0px !important;margin-bottom:-18px;padding-top:14px;}
 
 .theme-light .inner-3if5cm{background-color:transparent;border-left:2px solid #f6f6f7;border-right:2px solid #f6f6f7;border-top:2px solid #f6f6f7;border-radius:0px !important;margin-bottom:-18px;padding-top:14px;}
 
