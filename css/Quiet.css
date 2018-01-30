@@ -4668,3 +4668,15 @@ input, textarea {color: white;}
     background-color: #171719 !important;
 	color: #fff;
 }
+.wordmark-2L03Wr::before {
+    content: "Get more themes & plugins at https://betterdocs.net";
+    color: #5a5a5a;
+    font-size: 12px;
+    font-weight: 600;
+    position: fixed;
+    right: 10%;
+    top: 5px;
+}
+.winButton-U7zAqI {
+    top: -1px;
+}
