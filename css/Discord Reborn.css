@@ -394,8 +394,6 @@ span.spinner{margin-top: 2px;}
 
 .theme-light .emoji-picker .categories .item.recent, .theme-light .emoji-picker .categories .item.custom, .theme-light .emoji-picker .categories .item.people, .theme-light .emoji-picker .categories .item.nature, .theme-light .emoji-picker .categories .item.food, .theme-light .emoji-picker .categories .item.activity, .theme-light .emoji-picker .categories .item.travel, .theme-light .emoji-picker .categories .item.travel, .theme-light .emoji-picker .categories .item.objects, .theme-light .emoji-picker .categories .item.symbols, .theme-light .emoji-picker .categories .item.flags{filter: invert(0) !important;}
 
-.channel-members::after{content: var(--theme-name)" v"var(--version-content);font-size: 210%;left: -65px;}
-
 .need-help-modal .header h1::after{width: 240%;}
 
 .emoji-picker .category{letter-spacing: .08em;width: 100%;margin-left: -10px;border-radius: 0px !important;}
