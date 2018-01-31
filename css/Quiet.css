@@ -4357,7 +4357,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .side-2nYO0F .itemSelected-3XxAMf{background-color: var(--hover-color)}
 
-.accountDetails-15i-_e .username{font-size: 120%; font-family: "Satisfy";font-weight: 700;color: var(--main-color) !important;}
+.accountDetails-15i-_e .username{font-size: 120%; font-family: "Satisfy";font-weight: 700;line-height: 25px;color: var(--main-color) !important;}
 
 .accountDetails-15i-_e .discriminator {margin-top: 0px;opacity: .6;}
 
