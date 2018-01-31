@@ -953,3 +953,13 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected){background-color: rgba(0, 0, 0, 0.6);}
 
 .theme-dark #friends .friends-table .friends-row:hover{background: rgba(0, 0, 0, 0.5);}
+
+.wrapper-VSYYTS {background: transparent !important;}
+
+.clipboardInputInner-oj8y-S {background: transparent !important;}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {color: var(--main-color) !important;}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {background-color: var(--main-color) !important;}
+
+.clipboardInputInner-oj8y-S button {border-left: none !important;}
