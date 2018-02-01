@@ -4659,3 +4659,10 @@ input, textarea {color: white;}
 .headerSpotify-1fSJPO  .buttonWhiteOutlined-2KwPTg {border-color: #1db954 !important}
 
 .barInner-2eCe2h {background-color: #1db954 !important;}
+
+.buttonGreenInverted-3wLrIA {background-color: var(--main-color)!important;color: #fff !important;}
+
+.buttonGreenInvertedDefault-3m-pe-:hover {background-color: var(--hover-color)!important;}
+
+.topSectionSpotify-3744IX  .buttonWhiteOutlined-2KwPTg {border-color:#1db954 !important;}
+
