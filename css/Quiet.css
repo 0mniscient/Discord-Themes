@@ -4602,83 +4602,46 @@ input, textarea {color: white;}
 
 .height24-2pMcnc {line-height: 25px !important;;}
 
-.theme-dark .contextMenu-uoJTbz {
-    background: #19191b;
-    box-shadow: 0px 1px 7px 2px #121111;
-}
-.theme-dark .itemGroup-oViAgA {
-    border-color: #19191b;
-}
-.item-1XYaYf {
-    border-radius: 0px;
-}
-.theme-dark .item-1XYaYf:hover {
-    background: #151517;
-}
-.theme-dark .checkbox .checkbox-inner span {
-    border-color: var(--main-color);
-}
-.theme-dark .header-1qeJfQ {
-    background-color: #111112;
-    border-bottom-color: transparent;
-}
-.theme-dark .card-2WxYqG {
-    background-color: transparent;
-    border-color: transparent;
-    color: #f6f6f7;
-	box-shadow: 0px 1px 7px 2px #121111;
-}
-.theme-dark .body-8pBSC7 {
-    background-color: #19191b;
-}
-.theme-dark .unreadIndicator-3-i9eE {
-    border-color: #121213;
-}
-.theme-dark .itemSubMenu-3ZgIw- {
-    background: #19191b url(https://canary.discordapp.com/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
-}
-.theme-dark .itemSubMenu-3ZgIw-:hover {
-    background: #151517 url(https://canary.discordapp.com/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;
-}
-.menu-3BZuDT {
-    background: #19191b !important;
-	box-shadow: 0px 1px 7px 2px #121111;
-}
-.menu-3BZuDT .status-online {
-    background-color: #43b581;
-    border: 0px solid transparent !important;
-}
-.menu-3BZuDT .status-idle {
-    background-color: #faa61a;
-    border: 0px solid transparent !important;
-}
-.menu-3BZuDT .status-dnd {
-    background-color: #f04747;
-    border: 0px solid transparent !important;
-}
-.menu-3BZuDT .status-invisible {
-    background-color: #747f8d;
-    border: 0px solid transparent !important;
-}
-.item-rK1j5B {
-    color: #f1f1f1;
-}
-.alt-2vq4VR .item-rK1j5B .helper-3X2gjI {
-    color: #dadada;
-}
-.item-rK1j5B:hover {
-    background-color: #171719 !important;
-	color: #fff;
-}
-.wordmark-2L03Wr::before {
-    content: "Get more themes & plugins at https://betterdocs.net";
-    color: #5a5a5a;
-    font-size: 12px;
-    font-weight: 600;
-    position: fixed;
-    right: 10%;
-    top: 5px;
-}
-.winButton-U7zAqI {
-    top: -1px;
-}
+.theme-dark .contextMenu-uoJTbz{background: #19191b;box-shadow: 0px 1px 7px 2px #121111;}
+
+.theme-dark .itemGroup-oViAgA{border-color: #19191b;}
+
+.item-1XYaYf{border-radius: 0px;}
+
+.theme-dark .item-1XYaYf:hover{background: #151517;}
+
+.theme-dark .checkbox .checkbox-inner span{border-color: var(--main-color);}
+
+.theme-dark .header-1qeJfQ{background-color: #111112;border-bottom-color: transparent;}
+
+.theme-dark .card-2WxYqG{background-color: transparent;border-color: transparent;color: #f6f6f7;box-shadow: 0px 1px 7px 2px #121111;}
+
+.theme-dark .body-8pBSC7{background-color: #19191b;}
+
+.theme-dark .unreadIndicator-3-i9eE{border-color: #121213;}
+
+.theme-dark .itemSubMenu-3ZgIw-{background: #19191b url(https://canary.discordapp.com/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;}
+
+.theme-dark .itemSubMenu-3ZgIw-:hover{background: #151517 url(https://canary.discordapp.com/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;}
+
+.menu-3BZuDT{background: #19191b !important;box-shadow: 0px 1px 7px 2px #121111;}
+
+.menu-3BZuDT .status-online{background-color: #43b581;border: 0px solid transparent !important;}
+
+.menu-3BZuDT .status-idle{background-color: #faa61a;border: 0px solid transparent !important;}
+
+.menu-3BZuDT .status-dnd{background-color: #f04747;border: 0px solid transparent !important;}
+
+.menu-3BZuDT .status-invisible{background-color: #747f8d;border: 0px solid transparent !important;}
+
+.item-rK1j5B{color: #f1f1f1;}
+
+.alt-2vq4VR .item-rK1j5B .helper-3X2gjI{color: #dadada;}
+
+.item-rK1j5B:hover{background-color: #171719 !important;color: #fff;}
+
+.wordmark-2L03Wr::before{content: "Get more themes & plugins at https://betterdocs.net";color: #5a5a5a;font-size: 12px;font-weight: 600;position: fixed;right: 10%;top: 5px;}
+
+.winButton-U7zAqI{top: -1px;}
+
+.embedPill-3sYS1X[style*="background-color: rgb(114, 137, 218);"]{background-color: var(--main-color);}
