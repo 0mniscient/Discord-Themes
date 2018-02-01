@@ -4391,7 +4391,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .platform-linux .guilds-wrapper .guilds .friends-icon{margin-left: 10px;}
 
-.private .channelTextArea-os01xC{margin: 20px 240px 32px 0px;bottom: 21px;}
+.private .channelTextArea-os01xC{bottom: 23px;}
 
 .theme-dark .chat [class*="autocomplete-"]{margin-bottom: 0px !important;}
 
@@ -4542,7 +4542,7 @@ display: none !important;}
 
 .tab-bar.TOP {padding-left: 20px !important;}
 
-.topSectionPlaying-3jAH9b {background-color: #202225 !important;}
+.topSectionPlaying-3jAH9b{background-color: #121213 !important;background-image: url(https://cdn.rawgit.com/0mniscient/BetterDocs-Jekyll/ab1f4ca8/img/bg.svg) !important;box-shadow: inset 230px -130px 230px 10px #121213;}
 
 .headerTop-1QGMLs {background: var(--main-color) !important; background-image: url(https://cdn.rawgit.com/0mniscient/BetterDocs-Jekyll/ab1f4ca8/img/bg.svg) !important;background-size: 10em !important;}
 
@@ -4644,4 +4644,10 @@ input, textarea {color: white;}
 
 .winButton-U7zAqI{top: -1px;}
 
-.embedPill-3sYS1X[style*="background-color: rgb(114, 137, 218);"]{background-color: var(--main-color);}
+.embedPill-3sYS1X[style*="background-color: rgb(114, 137, 218);"]{background-color: var(--main-color) !important;}
+
+.theme-dark .body-3_tdh6{background-color: #121213;}
+
+.topSectionPlaying-3jAH9b{background: var(--hover-color);}
+
+.theme-dark .embedInner-t4ag7g {background-color: #19191b;border-color: #19191b;box-shadow: 1px 1px 8px 0px #0c0c0c;}
