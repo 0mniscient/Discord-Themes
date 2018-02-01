@@ -4052,6 +4052,8 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:-145px !important;z-index:1}
 
+.chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical:only-child {margin-right:0px !importan ;z-index:1}
+	
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:0px;z-index:1}
 
 .channel-members::after{content: var(--theme-letter)" v"var(--version-content);font-size: 210%;left: -65px;}
