@@ -4651,3 +4651,9 @@ input, textarea {color: white;}
 .topSectionPlaying-3jAH9b{background: var(--hover-color);}
 
 .theme-dark .embedInner-t4ag7g {background-color: #19191b;border-color: #19191b;box-shadow: 1px 1px 8px 0px #0c0c0c;}
+
+.headerSpotify-1fSJPO {border-top-left-radius: 11px !important;border-top-right-radius: 11px !important;}
+
+.headerSpotify-1fSJPO  .buttonWhiteOutlined-2KwPTg {border-color: #1db954 !important}
+
+.barInner-2eCe2h {background-color: #1db954 !important;}
