@@ -13,7 +13,11 @@
 .theme-dark .layer,
 .theme-dark .layers,
 .theme-dark .content,
+.theme-dark .layer-kosS71, 
+.theme-dark .layers-20RVFW,
 .theme-dark .messages-wrapper .message-group,
+.wrapper-VSYYTS,
+.clipboardInputInner-oj8y-S,
 .theme-dark #friends,
 .theme-dark .popout.popout-bottom:not(.no-arrow)[style*="z-index: 1000; overflow: hidden; visibility: visible;"]{
     background:transparent !important;
@@ -35,6 +39,7 @@
 .theme-dark .content .flex-spacer, 
 .theme-dark .friends-table, 
 .theme-dark .friends-header, 
+.headerSpotify-1fSJPO,
 .channels-3g2vYe, #app-mount 
 .titleWrapper-3Vi_wz, 
 .app .guilds 
@@ -856,8 +861,6 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 
 .theme-dark .guildIconImage-12ar3e {background-color: transparent !important;}
 
-.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW {background: transparent !important;}
-
 .theme-dark .typing-3eiiL_ {background-color: transparent;}
 
 .theme-dark [class*="modal-"] [class*="inner-"] [class*="modal-"] {background-color: transparent;}
@@ -954,9 +957,6 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 
 .theme-dark #friends .friends-table .friends-row:hover{background: rgba(0, 0, 0, 0.5);}
 
-.wrapper-VSYYTS {background: transparent !important;}
-
-.clipboardInputInner-oj8y-S {background: transparent !important;}
 
 .wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {color: var(--main-color) !important;}
 
