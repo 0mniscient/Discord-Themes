@@ -3,7 +3,7 @@
 @import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/Tags.css");
 
 :root {
-    --version-content: "7.7";
+    --version-content: "7.8";
     --theme-name: "Quiet";
     --theme-letter: "Q";
 }
@@ -532,9 +532,7 @@ textarea{background:transparent !important;}
 
 .tab-bar.TOP .tab-bar-item.selected{border-bottom:2px solid var(--main-color);color:var(--main-color);}
 
-.tab-bar.TOP{border-bottom:1px solid var(--hover-color);}
-
-.tab-bar.TOP {border-top: 1px solid var(--hover-color);border-bottom: 1px solid var(--hover-color);}
+.tab-bar.TOP {border-bottom: 1px solid var(--hover-color);}
 
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list .user-settings-modal-accounts-list-description .user-settings-modal-accounts-list-description-inner{color:#8a8a8a;}
 
@@ -4055,7 +4053,7 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 .chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical:only-child {margin-right:0px !important;z-index:1}
 	
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:0px;z-index:1}
-
+	
 [class*="scroller-"].channel-members{height: 100%;transform: translate(142px);}
 
 [class*="scroller-"].channel-members:hover{animation: member 300ms ease;transform: translate(0px);box-shadow: 4px 0 10px 6px rgba(0, 0, 0, 0.32);}
@@ -4580,10 +4578,6 @@ display: none !important;}
 
 .emojiPicker-3g68GS .scroller-2dsok0 .emojiItem-3l4Fa9.selected-1LQfcZ {background-color: var(--main-color) !important;}
 
-.uploadModal-2KN6Mm {background-color: #2f3136 !important;}
-
-.uploadModal-2KN6Mm .footer-4pOKm8 {background-color: #2f3136 !important;}
-
 .emojiPicker-3g68GS {background-color: #2f3136;border: none !important;}
 
 .emojiPicker-3g68GS .stickyHeader-3LjM5X {background: none !important;}
@@ -4664,3 +4658,58 @@ input, textarea {color: white;}
 
 .topSectionSpotify-3744IX  .buttonWhiteOutlined-2KwPTg {border-color:#1db954 !important;}
 
+.topSectionPlaying-3jAH9b, .topSectionNormal-2LlRG1{background-color: #121213 !important;background-image: url(https://cdn.rawgit.com/0mniscient/BetterDocs-Jekyll/ab1f4ca8/img/bg.svg) !important;box-shadow: inset 230px -130px 230px 10px #121213;}
+
+.headerFill-TTyrtz{background-color: transparent;}
+
+.tabBarContainer-3RVZc-{border-top: 0px solid transparent;}
+
+.theme-dark .attachPopout-gjwHsr{background-color: #19191b;border-radius: 0px;border-left: 2px solid #212121;border-right: 2px solid #212121;border-top: 2px solid #212121;margin-bottom: -1px;}
+
+.theme-dark .private .inner-3if5cm{margin-bottom: -20px;}
+
+.theme-dark .attachPopoutRow-elxASe:hover{background-color: var(--hover-color);color: #fff !important}
+
+.uploadModal-2KN6Mm .inner-3if5cm{margin-bottom: unset;padding-top: unset;border: unset !important;background: #121213;border-radius: 3px !important;}
+
+.theme-brand .emojiButton-38mF6t{top: 10px;}
+
+.uploadModal-2KN6Mm, .uploadModal-2KN6Mm .footer-4pOKm8{background-color: #19191b !important;}
+	
+.theme-dark .wrapper-VSYYTS, .theme-dark .form-deprecated .form-header, .theme-dark .form.deprecated .form-header, .theme-dark .form-deprecated .form-inner, .theme-dark .form.deprecated .form-inner, .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions{background: transparent !important;}
+
+.theme-dark .form.deprecated .form-inner, .theme-dark .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions{border-top: 2px solid var(--main-color);}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header{color: #ffffff;}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz{color: #ffffff;opacity: .7;}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .expireText-NeAc7v{color: #b3b3b3;}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span{border: 2px solid #9c9c9c;}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input{color: var(--main-color);background-color: #121213;}
+
+.clipboardInputInner-oj8y-S{background: #121213;border: 1px solid #121213;}
+
+.clipboardInputInner-oj8y-S button:first-of-type:before{background: linear-gradient(90deg,hsla(0,0%,100%,0),#121213);}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_{background-color: var(--main-color);border-left: 1px solid #121213;}
+
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions{background-color: #19191b;padding-top: 10px;padding-bottom: 10px;border-top: 2px solid var(--main-color);}
+
+.form-deprecated .btn-primary, .form.deprecated .btn-primary{background-color: var(--main-color);}
+
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn-default{color: #fff;}
+
+.form-deprecated .btn-default, .form.deprecated .btn-default{border-bottom: 2px solid var(--main-color);}
+
+.form-deprecated .btn-default:hover, .form.deprecated .btn-default:hover{border-bottom: 2px solid var(--hover-color);}
+
+.form-deprecated .control-group .help-text, .form.deprecated .control-group .help-text{color: #a4a4a4;}
+
+.form-deprecated .control-group label, .form.deprecated .control-group label{color: #fff;}
+
+.theme-dark .theme-light .Select-control{background-color: #121213 !important;border: 1px solid #121213;}
+
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .has-value.Select--single>.Select-control .Select-value .Select-value-label{color: #fff;}
