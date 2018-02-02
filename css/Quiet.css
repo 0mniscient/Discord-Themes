@@ -4056,8 +4056,6 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 	
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{margin-right:0px;z-index:1}
 
-.channel-members::after{content: var(--theme-letter)" v"var(--version-content);font-size: 210%;left: -65px;}
-	
 [class*="scroller-"].channel-members{height: 100%;transform: translate(142px);}
 
 [class*="scroller-"].channel-members:hover{animation: member 300ms ease;transform: translate(0px);box-shadow: 4px 0 10px 6px rgba(0, 0, 0, 0.32);}
