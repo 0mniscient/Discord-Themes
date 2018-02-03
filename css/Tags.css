@@ -98,6 +98,8 @@
 
 .message-group:not(.compact) .avatar-large[style*="265668084084375552"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="265668084084375552"] ~ .member-inner .member-username .member-username-inner::after{content:"ÜLEM";background:#0080FF;color:#fff;border-radius:3px;border: 1px solid #672382;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
 
+.message-group:not(.compact) .avatar-large[style*="275292869831688195"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="275292869831688195"] ~ .member-inner .member-username .member-username-inner::after{content:"SUPREME LEADER";background:#007EFF;color:#fff;border-radius:3px;;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
+
 
 @keyframes hue-rotate{from{-webkit-filter:hue-rotate();}to{-webkit-filter:hue-rotate(360deg);}}
 
