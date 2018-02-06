@@ -609,7 +609,7 @@ div.message-group {background-color: rgba(0,0,0,0.5)!important;}
 
 .theme-dark .chat form{background-color: rgba(0, 0, 0, 0.2);}
 
-.theme-dark .inner-3if5cm{border-right: 2px solid rgba(0, 0, 0, 0.3) !important;border-left: 0px solid transparent;border-right: 0px solid transparent;border-top: 2px solid rgba(0, 0, 0, 0.3) !important;}
+.theme-dark .inner-3if5cm{border-left: 0px solid transparent;border-right: 0px solid transparent;border-top: 2px solid rgba(0, 0, 0, 0.3) !important;}
 
 .theme-dark .activityFeed-HeiGwL::after {background: rgba(0, 0, 0, 0.2)!important;border-top: 2px solid rgba(0,0,0,0.3) !important;}
 
@@ -965,3 +965,5 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 .clipboardInputInner-oj8y-S button {border-left: none !important;}
 
 .topSectionSpotify-3744IX {background: rgba(0, 0, 0, 0.7)!important;}
+
+.theme-dark .chat form {border-right: 2px solid rgba(0, 0, 0, 0.4);}
