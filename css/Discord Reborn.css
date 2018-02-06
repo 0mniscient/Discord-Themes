@@ -162,7 +162,7 @@ span.spinner{margin-top: 2px;}
 
 .theme-light .attachButtonPlus-2l1NEU{fill:#ffffff;}
 
-.theme-light .chat>.content .messages .message-group .markup{color:#e0e0e0;}
+.theme-light .chat>.content .messages .message-group .markup{color: #fff;font-weight: 600;text-shadow: 1px 1px #000;}
 
 .theme-light .guilds-wrapper::after{content:"";width:76px;height:74px;bottom:0px;margin-bottom:-204px;}
 
