@@ -967,3 +967,5 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 .topSectionSpotify-3744IX {background: rgba(0, 0, 0, 0.7)!important;}
 
 .theme-dark .chat form {border-right: 2px solid rgba(0, 0, 0, 0.4);}
+
+.topSectionPlaying-3jAH9b, .topSectionNormal-2LlRG1{box-shadow: inset 230px -130px 230px 10px #121213;}
