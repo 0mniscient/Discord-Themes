@@ -4731,3 +4731,7 @@ input, textarea {color: white;}
 .theme-dark .buttonPrimaryOutlinedDefault--H0hhk:hover{border-color: var(--hover-color);background: var(--hover-color) !important;color: #fff;}
 
 .theme-dark .buttonPrimaryOutlinedDefault--H0hhk, .theme-dark .buttonPrimaryOutlinedSubmitting-3m3eFx{border-color: var(--main-color);color: var(--main-color);}
+
+#app-mount > [class*="platform-"] .scroller-wrap .guilds.scroller .guild:first-child{margin-top: 19px;}
+
+#app-mount > [class*="platform-web"] .scroller-wrap .guilds.scroller .guild:first-child{margin-top: 0px !important;}
