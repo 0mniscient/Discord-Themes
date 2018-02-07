@@ -4735,3 +4735,11 @@ input, textarea {color: white;}
 #app-mount > [class*="platform-"] .scroller-wrap .guilds.scroller .guild:first-child{margin-top: 19px;}
 
 #app-mount > [class*="platform-web"] .scroller-wrap .guilds.scroller .guild:first-child{margin-top: 0px !important;}
+
+.keybindShortcut-tTramc span {box-shadow: inset 0 -4px 0 var(--hover-color)!important;}
+
+.dim-40B2HH span {background-color: var(--main-color) !important;color: #ffffff !important;}
+
+.keybindShortcut-tTramc span {background-color: var(--main-color) !important;}
+
+.dim-40B2HH span:active {color: #000000 !important;}
