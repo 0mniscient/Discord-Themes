@@ -4727,3 +4727,9 @@ input, textarea {color: white;}
 .theme-dark #friends .friends-table .friends-table-header .friends-column{color: #fff;background: var(--main-color);padding: 7px 9px 6px 9px;border-radius: 2px;width: unset;}
 
 .theme-dark #friends .friends-table .friends-table-header .friends-column{color: #fff;background: var(--main-color);padding: 7px 9px 6px 9px;border-radius: 2px;width: unset;margin-left: 180px;}
+
+ .theme-dark .wrapper-uAa07y{background: #19191b;border-color: transparent;border-left: 4px solid var(--main-color);border-radius: 4px !important;box-shadow: 1px 1px 8px 0px #0c0c0c;}
+
+.theme-dark .buttonPrimaryOutlinedDefault--H0hhk:hover{border-color: var(--hover-color);background: var(--hover-color) !important;color: #fff;}
+
+.theme-dark .buttonPrimaryOutlinedDefault--H0hhk, .theme-dark .buttonPrimaryOutlinedSubmitting-3m3eFx{border-color: var(--main-color);color: var(--main-color);}
