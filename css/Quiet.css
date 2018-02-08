@@ -4740,6 +4740,6 @@ input, textarea {color: white;}
 
 .dim-40B2HH span {background-color: var(--main-color) !important;color: #ffffff !important;}
 
-.keybindShortcut-tTramc span {background-color: var(--main-color) !important;}
+.keybindShortcut-tTramc span {color: #ffffff !important;background-color: var(--main-color) !important;}
 
 .dim-40B2HH span:active {color: #000000 !important;}
