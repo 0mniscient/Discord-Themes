@@ -964,11 +964,11 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 
 .clipboardInputInner-oj8y-S button {border-left: none !important;}
 
-.topSectionSpotify-3744IX {box-shadow: inset 230px -130px 230px 10px #121213;}
+.topSectionSpotify-3744IX {box-shadow: inset 200px -60px 200px 5px rgba(18, 18, 19, 0.9);}
 
 .theme-dark .chat form {border-right: 2px solid rgba(0, 0, 0, 0.4);}
 
-.topSectionNormal-2LlRG1, .topSectionStreaming-3rIBIm {box-shadow: inset 130px -70px 230px 20px #121213 !important;}
+.topSectionNormal-2LlRG1, .topSectionStreaming-3rIBIm {box-shadow: inset 200px -60px 200px 5px rgba(18, 18, 19, 0.9) !important;}
 
 .theme-light code{background-color: rgba(0, 0, 0, 0.2)!important;background-image: linear-gradient(rgba(0, 0, 0, 0.4) 50%, transparent 50%)!important;}
 
