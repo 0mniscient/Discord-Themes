@@ -968,7 +968,7 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 
 .theme-dark .chat form {border-right: 2px solid rgba(0, 0, 0, 0.4);}
 
-.topSectionNormal-2LlRG1{box-shadow: inset 130px -70px 230px 20px #121213 !important;}
+.topSectionNormal-2LlRG1, .topSectionStreaming-3rIBIm {box-shadow: inset 130px -70px 230px 20px #121213 !important;}
 
 .theme-light code{background-color: rgba(0, 0, 0, 0.2)!important;background-image: linear-gradient(rgba(0, 0, 0, 0.4) 50%, transparent 50%)!important;}
 
