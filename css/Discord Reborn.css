@@ -987,3 +987,13 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 .theme-light .userPopout-4pfA0d .body-3rkFrF{border-bottom: 0px solid transparent;}
 
 .theme-light .note-2AtC_s textarea{color: #f3f3f3;}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh {background: rgba(0, 0, 0, 0.6) !important;border-radius: 11px !important;}
+
+.theme-dark [class*="autocomplete-"] { background-color: transparent !important; box-shadow: none !important;}
+
+.theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background {background-color: transparent !important;}
+
+.popout.popout-bottom:not(.no-arrow), .popout.popout-bottom:not(.no-arrow) .popout-menu, .popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item .popout-menu-item-label {background: rgba(0, 0, 0, 0.65)!important;padding-bottom: 9px !important;}
+
+.theme-dark #autocomplete-popout .row.selected {background: rgba(18, 18, 18, 0.6) !important;}
