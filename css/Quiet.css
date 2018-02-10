@@ -2435,7 +2435,7 @@ form .bf-toolbar{transform:translate(0,-35px);margin-left:60px;width:auto;positi
 
 .ui-button.brand.filled:hover{background-color:var(--hover-color);}
 
-.ui-button.brand.filled, .ui-tab-bar.SIDE .ui-tab-bar-item.selected{background-color:var(--main-color);}
+.ui-button.brand.filled, .ui-tab-bar.SIDE .ui-tab-bar-item.selected{background-color:var(--main-color) !important;}
 
 .ui-tab-bar.SIDE .ui-tab-bar-item.brand{color:var(--main-color);}
 
