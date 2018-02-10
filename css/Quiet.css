@@ -3,7 +3,7 @@
 @import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/Tags.css");
 
 :root {
-    --version-content: "7.8";
+    --version-content: "7.9";
     --theme-name: "Quiet";
     --theme-letter: "Q";
 }
@@ -4753,3 +4753,19 @@ input, textarea {color: white;}
 .noticePremium-2x9Tv2 { display:none !important}
 
 .theme-dark #friends .friends-table .friends-row:hover{background: #121213;}
+
+.innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerNoAutocomplete-kaUXJZ {
+    margin-bottom: unset;
+    padding-top: unset;
+    border: 2px solid #212121;
+}
+.emojiButtonNormal-2yO7yT.emojiButton-3c_qrT.emojiButton-38mF6t {
+    top: 10px;
+}
+.buttonBrandLink-3csEAP {
+	color: var(--main-color);
+}
+.theme-dark .invite-CTGItT {
+    background: #121213;
+    border: 2px solid #212121;
+}
