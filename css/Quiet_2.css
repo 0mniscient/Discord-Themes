@@ -29,6 +29,24 @@
 .title-qAcLxz, .titleCall-3X0yGQ {
     height: 46px;
 }
+.search .search-bar {
+    background-color: var(--tertiary-color) !important;
+    height: 45px;
+    width: 170px;
+    border-radius: 0px;
+}
+.search .DraftEditor-root {
+    line-height: 39px;
+}
+.search .DraftEditor-root .public-DraftEditorPlaceholder-root {
+    color: #cecece !important;
+    padding-left: 17px;
+}
+.search .search-bar .icon {
+    top: 13px;
+    right: 14px;
+}
+
 
 /* Channel List Area */
 
@@ -156,6 +174,14 @@
 }
 .chat .attachButton-Di6YUh {
     margin: 15px 10px;
+}
+.chat .attachButtonPlus-2l1NEU {
+    opacity: .55;
+    height: 22px;
+    margin: 16px 10px;
+}
+.chat .attachButton-Di6YUh:hover {
+    transform: scale(1) !important;
 }
 .chat .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO {
 	background-color: var(--secondary-color) !important;
