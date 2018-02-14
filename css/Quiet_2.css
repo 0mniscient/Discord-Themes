@@ -219,6 +219,43 @@
 .message-group:not(.has-divider) {
     border-color: transparent !important;
 }
+.messages.scroller {
+    padding-bottom: 10px;
+}
+.chat .divider {
+    height: 28px;
+    background-color: transparent;
+}
+.friends-table .messages .divider:not(.red) span, .messages-wrapper .messages .divider:not(.red) span {
+    opacity: 1;
+}
+.chat .divider > span {
+    color: #a0a0a0 !important;
+    border-radius: 3px;
+    position: relative;
+    text-align: left;
+    left: -14px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0px 0px;
+    opacity: 1;
+    padding: 5px 15px;
+    width: 100%;
+	background: transparent !important;
+}
+
+.chat .divider.divider-red > span {
+    color: var(--main-color) !important;
+    background-color: var(--tertiary-color) !important;
+    border-radius: 3px;
+    text-align: center;
+    left: 0px;
+}
+
+.chat .divider:before {
+	display: none;
+}
+
 /* Main Chat Form */
 
 .chat form {
@@ -265,42 +302,6 @@
 }
 .chat .emojiButton-38mF6t {
     top: 15px;
-}
-
-/* Chat Dividers */
-
-.chat .divider {
-    height: 28px;
-    background-color: transparent;
-}
-.friends-table .messages .divider:not(.red) span, .messages-wrapper .messages .divider:not(.red) span {
-    opacity: 1;
-}
-.chat .divider > span {
-    color: #a0a0a0 !important;
-    border-radius: 3px;
-    position: relative;
-    text-align: left;
-    left: -14px;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin: 0px 0px;
-    opacity: 1;
-    padding: 5px 15px;
-    width: 100%;
-	background: transparent !important;
-}
-
-.chat .divider.divider-red > span {
-    color: var(--main-color) !important;
-    background-color: var(--tertiary-color) !important;
-    border-radius: 3px;
-    text-align: center;
-    left: 0px;
-}
-
-.chat .divider:before {
-	display: none;
 }
 
 /* Channel Search Pop out */
