@@ -4779,3 +4779,7 @@ input, textarea {color: white;}
 .lookInverted-2lPGe7.colorBrand-3PmwCE {background-color: var(--main-color)!important; color: #ffffff !important;}
 
 .lookInverted-2lPGe7.colorBrand-3PmwCE:hover {background-color: var(--hover-color) !important;}
+
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover {background-color: var(--hover-color);}
+
+.lookFilled-luDKDo.colorBrand-3PmwCE {background-color: var(--main-color);}
