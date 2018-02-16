@@ -4448,7 +4448,9 @@ display: none !important;}
 
 .buttonGreenFilled-6QHNrw {background-color: var(--main-color) !important;}
 
-.buttonGreenFilledDefault-_lLQaz:hover {background-color: var(--hover-color) !important;}
+.buttonInvertedPurple-15OGid:hover {background-color: var(--hover-color) !important;}
+
+.lookFilled-luDKDo.colorGreen-22At8E:hover {background-color: var(--hover-color) !important;}
 
 .buttonGreyFilled-3qPP_J {background-color: var(--main-color) !important;}
 
@@ -4500,7 +4502,7 @@ display: none !important;}
 
 .guild.theme-top{top: 19px !important;}
 
-.buttonWhiteOutlined-2KwPTg {border-color: #6441a5 !important;border: 2px solid ; border-radius: 50px !important;}
+.lookOutlined-1c5nhl.colorWhite-1IbOTe {border-color: #6441a5 !important;border: 2px solid ; border-radius: 50px !important;}
 
 #friends .friends-table .friends-table-body > div{display:flex !important;flex-flow:row wrap !important;justify-content:center !important;}
 
@@ -4564,7 +4566,7 @@ display: none !important;}
 
 .theme-dark .max-mvI_jT {background-color: var(--main-color) !important;}
 
-.buttonGreenFilledDefault-_lLQaz:hover {background-color: var(--hover-color) !important;}
+.lookFilled-luDKDo.colorGreen-22At8E:hover {background-color: var(--hover-color) !important;}
 
 .buttonGreenFilled-6QHNrw {background-color: var(--main-color) !important;}
 
@@ -4646,7 +4648,7 @@ input, textarea {color: white;}
 
 .headerSpotify-1fSJPO {border-top-left-radius: 11px !important;border-top-right-radius: 11px !important;}
 
-.headerSpotify-1fSJPO  .buttonWhiteOutlined-2KwPTg {border-color: #1db954 !important}
+.headerSpotify-1fSJPO  .lookOutlined-1c5nhl.colorWhite-1IbOTe {border-color: #1db954 !important}
 
 .barInner-2eCe2h {background-color: #1db954 !important;}
 
@@ -4654,7 +4656,7 @@ input, textarea {color: white;}
 
 .buttonGreenInvertedDefault-3m-pe-:hover {background-color: var(--hover-color)!important;}
 
-.topSectionSpotify-3744IX  .buttonWhiteOutlined-2KwPTg {border-color:#1db954 !important;}
+.topSectionSpotify-3744IX  .lookOutlined-1c5nhl.colorWhite-1IbOTe {border-color:#1db954 !important;}
 
 .topSectionPlaying-3jAH9b, .topSectionNormal-2LlRG1{background-color: #121213 !important;background-image: url(https://cdn.rawgit.com/0mniscient/BetterDocs-Jekyll/ab1f4ca8/img/bg.svg) !important;box-shadow: inset 230px -130px 230px 10px #121213;}
 
