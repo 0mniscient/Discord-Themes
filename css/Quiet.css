@@ -4771,3 +4771,11 @@ input, textarea {color: white;}
     background: #121213;
     border: 2px solid #212121;
 }
+
+.theme-dark .connectedAccount-3mKaTA, .theme-dark .userInfoSection-2WJxMm+.userInfoSection-2WJxMm {border-color: var(--hover-color)!important;}
+
+.lookFilled-luDKDo.colorGreen-22At8E { background-color: var(--main-color) !important;}
+
+.lookInverted-2lPGe7.colorBrand-3PmwCE {background-color: var(--main-color)!important; color: #ffffff !important;}
+
+.lookInverted-2lPGe7.colorBrand-3PmwCE:hover {background-color: var(--hover-color) !important;}
