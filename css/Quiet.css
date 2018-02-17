@@ -2656,7 +2656,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .content{background-color: #19191b !important;}
 
-.message-group .accessory{display: flex;flex-flow: row wrap;}
+.message-group .accessory{display: flex;}
 
 .message-group .accessory>*:not(:last-of-type){margin-right:10px;}
 
