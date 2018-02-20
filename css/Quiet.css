@@ -4785,6 +4785,13 @@ input, textarea {color: white;}
 .lookFilled-luDKDo.colorBrand-3PmwCE {background-color: var(--main-color);}
 
 
-.marginTop8-2gOa2N {margin-top: 0px};
-	
-.embedInner-t4ag7g {padding: 1px 1px;}
+.marginTop8-2gOa2N {margin-top: 0px;}
+.embedInner-t4ag7g {border: 1px solid var(--hover-color)!important;padding: 2px 3px;}
+
+.embedProviderLink-2k6W5T {display:none}
+
+.embedTitleLink-1IGDvg {display:none}
+
+.marginTop4-2rEBfJ {margin-top: 0px;}
+
+.avatarHint-2ohlkz {border-radius: 0% !important}
