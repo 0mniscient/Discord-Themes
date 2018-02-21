@@ -136,8 +136,6 @@
 
 .message-group:not(.compact) .avatar-large[style*="150780668677193729"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="150780668677193729"] ~ .member-inner .member-username .member-username-inner::after{content:"Lau God";background:#672382;color:#4286f4;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
 
-.message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="310719627292573697"] ~ .member-inner .member-username .member-username-inner::after{content:"ERROR 404";background:#fff;color:#000;border-radius:3px;margin-left:6px;font-size:10px;font-weight:998;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 2px #000;}
-
 .message-group:not(.compact) .avatar-large[style*="209044991333498882"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="209044991333498882"] ~ .member-inner .member-username .member-username-inner::after{content:"undead";background:#414FDC;color:#fff;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
 
 .message-group:not(.compact) .avatar-large[style*="231827402102276096"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="231827402102276096"] ~ .member-inner .member-username .member-username-inner::after{content:"King of Hell";background-image: url(https://i.imgur.com/ZDMAxfy.gif);color: rgba(255, 255, 255, 0.33);border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:0px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 0px 1px #000;}
@@ -168,34 +166,23 @@
 
 @keyframes hue-rotate{from{-webkit-filter:hue-rotate();}to{-webkit-filter:hue-rotate(360deg);}}
 
-/* Pout's Pill */
+/* Pout's Tag Animation */
 
-.message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 span.username-wrapper::before, .channel-members .member .avatar-small[style*="310719627292573697"] ~ .member-inner .member-username .member-username-inner::before {
-    content: ".";
-    background-image: url(https://emojipedia-us.s3.amazonaws.com/thumbs/120/microsoft/106/pill_1f48a.png);
-    background-color: transparent;
-    background-size: 25px;
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    width: 18px;
-    color: transparent;
-    border-radius: 3px;
-    left: 100px;
-    right: 100px;
-    font-size: 10px;
-    font-weight: 600;
-    padding: 0px 4px;
-    text-transform: uppercase;
-    vertical-align: bottom;
-    line-height: 30px;
-    -webkit-flex-shrink: 0;
-    flex-shrink: 0;
-    text-shadow: 0px 1px 3px #000;
-    position: absolute;
-    margin-top: -6px;
-}
-.message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 .timestamp {
-    margin-left: 29px;
+.message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="310719627292573697"] ~ .member-inner .member-username .member-username-inner::after {
+    content:"";
+    background-image: url(https://i.imgur.com/wI3tSnT.gif);
+    color:#000;
+    border-radius:0px;
+    margin-left:6px;
+    font-size:10px;
+    font-weight:998;
+    padding:4px 31px;
+    text-transform:uppercase;
+    vertical-align:bottom;
+    line-height:16px;
+    -webkit-flex-shrink:0;
+    flex-shrink:0;
+    text-shadow: 0px 1px 2px #000;
 }
 
 /*cube_guy's Triforce Tag*/
