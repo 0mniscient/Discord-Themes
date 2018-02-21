@@ -4785,10 +4785,11 @@ input, textarea {color: white;}
 .lookFilled-luDKDo.colorBrand-3PmwCE {background-color: var(--main-color);}
 
 
-.marginTop8-2gOa2N {margin-top: 0px;}
-.embedInner-t4ag7g {padding: 2px 2px;}
+.embedProviderLink-2k6W5T,.embedProvider-1KNREX   {display:none}
 
+.embedTitleLink-1IGDvg {margin-bottom: 2px;}
 
+.embedInner-t4ag7g {padding: 3px 1px 3px 5px;}
 
 .marginTop4-2rEBfJ {margin-top: 0px;}
 
