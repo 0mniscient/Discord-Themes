@@ -1334,6 +1334,9 @@ pre {
 	font-family:Satisfy;
 	text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);
 }
+.need-help-modal.deprecated .header {
+    background-color: transparent !important;
+}
 
 form.modal-content.form.need-help-modal::after{
 	content:"";
