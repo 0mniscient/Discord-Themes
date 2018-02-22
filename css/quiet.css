@@ -310,6 +310,16 @@ pre {
 
 /* Guilds Area */
 
+.guilds-wrapper .guilds .guild.unread:hover:before {
+    background: #fff;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: -20px;
+	border-radius: 0px;
+}
+.guilds-wrapper .guilds .guild.unread:before {
+    transition: all .25 linear;
+}
 .guilds-wrapper .guilds .guild .guild-inner {
 	border-radius: 2px !important;
 }
@@ -362,7 +372,7 @@ pre {
     z-index: 2;
 }
 .guilds-wrapper .guilds>div.guild:first-child .guild-inner a{
-	height: 45px;
+	height: 46px;
 }
 .guilds-wrapper .guilds>div.guild:first-child {
     height: 46px;
@@ -1905,6 +1915,34 @@ body,span:not(.spinner-item){
 }
 .videoHeight-iWOJGF.normal-3QpMz4 { 
 	margin-top: 50px;
+}
+.notice-3I4-y_ {
+    font-size: 0px !important;
+	height: 4px;
+	line-height: 18px;
+	position: fixed;
+	top: 70px;
+	width: 100%;
+	transition: all .2s linear;
+}
+.notice-3I4-y_:hover {
+    font-size: 14px !important;
+	height: 38px;
+	line-height: 38px;
+	position: fixed;
+	top: 70px;
+	width: 100%;
+}
+.notice-3I4-y_:hover .dismiss-1QjyJW {
+	height: 36px;
+}
+.dismiss-1QjyJW {
+    height: 0px;
+	right: 100px;
+	transition: all .2s linear;
+}
+.button-2TvR03 {
+	display: none !important;
 }
 @keyframes slide-up {
     from {
