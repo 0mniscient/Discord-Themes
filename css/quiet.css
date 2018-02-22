@@ -811,6 +811,10 @@ pre {
 	background: var(--tertiary-color) !important;
 	border-left: 2px solid var(--main-color);
 }
+.platform-web .container-iksrDt [class*="avatar-"] [class*="status-"] {
+    top: 46px !important;
+    left: 0px !important;
+}
 
 /* Members List Area */
 
