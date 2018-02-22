@@ -24,14 +24,14 @@
     --rs-width: 2px; /* width of the status */
     --rs-popout-spacing: 3px; /* spacing between avatar and status for user popouts */
     --rs-popout-width: 4px; /* width of the status for user popouts */
-   	--rs-profile-spacing: 3px; /* spacing between avatar and status on modals/profiles */
+    --rs-profile-spacing: 3px; /* spacing between avatar and status on modals/profiles */
     --rs-profile-width: 4px; /* width of the status on modals/profiles */
     --rs-online-color: #43b581; /* color for online status */
     --rs-idle-color: #faa61a; /* color for idle status */
     --rs-dnd-color: #f04747; /* color for dnd status */
-   	--rs-offline-color: #636b75; /* color for offline status */
+    --rs-offline-color: #636b75; /* color for offline status */
     --rs-invisible-color: #747f8d; /* color for invisible status - Note this will only show for your own invisibility */
-   	--rs-streaming-color: #643da7; /* color for streaming status */
+    --rs-streaming-color: #643da7; /* color for streaming status */
 }
 
 /* Light Mode Settings */
@@ -47,14 +47,14 @@
     --rs-width: 2px; /* width of the status */
     --rs-popout-spacing: 3px; /* spacing between avatar and status for user popouts */
     --rs-popout-width: 4px; /* width of the status for user popouts */
-   	--rs-profile-spacing: 3px; /* spacing between avatar and status on modals/profiles */
+    --rs-profile-spacing: 3px; /* spacing between avatar and status on modals/profiles */
     --rs-profile-width: 4px; /* width of the status on modals/profiles */
     --rs-online-color: #43b581; /* color for online status */
     --rs-idle-color: #faa61a; /* color for idle status */
     --rs-dnd-color: #f04747; /* color for dnd status */
-   	--rs-offline-color: #636b75; /* color for offline status */
+    --rs-offline-color: #636b75; /* color for offline status */
     --rs-invisible-color: #747f8d; /* color for invisible status - Note this will only show for your own invisibility */
-   	--rs-streaming-color: #643da7; /* color for streaming status */
+    --rs-streaming-color: #643da7; /* color for streaming status */
 }
 
 
@@ -863,6 +863,9 @@ pre {
 
 /* Main Chat Area */
 
+.spinner-pulsing-ellipsis .spinner-item {
+	background-color: var(--main-color) !important;
+}
 .message-group .edit-message .edit-operation>a {
 	color: var(--main-color) !important;
 }
