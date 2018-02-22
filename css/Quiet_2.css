@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/Tags.css");
 
 /* User Settings */
 :root {
@@ -23,14 +24,14 @@
     --rs-width: 2px; /* width of the status */
     --rs-popout-spacing: 3px; /* spacing between avatar and status for user popouts */
     --rs-popout-width: 4px; /* width of the status for user popouts */
-    --rs-profile-spacing: 3px; /* spacing between avatar and status on modals/profiles */
+   	--rs-profile-spacing: 3px; /* spacing between avatar and status on modals/profiles */
     --rs-profile-width: 4px; /* width of the status on modals/profiles */
     --rs-online-color: #43b581; /* color for online status */
     --rs-idle-color: #faa61a; /* color for idle status */
     --rs-dnd-color: #f04747; /* color for dnd status */
-    --rs-offline-color: #636b75; /* color for offline status */
+   	--rs-offline-color: #636b75; /* color for offline status */
     --rs-invisible-color: #747f8d; /* color for invisible status - Note this will only show for your own invisibility */
-    --rs-streaming-color: #643da7; /* color for streaming status */
+   	--rs-streaming-color: #643da7; /* color for streaming status */
 }
 
 /* Light Mode Settings */
@@ -46,14 +47,14 @@
     --rs-width: 2px; /* width of the status */
     --rs-popout-spacing: 3px; /* spacing between avatar and status for user popouts */
     --rs-popout-width: 4px; /* width of the status for user popouts */
-    --rs-profile-spacing: 3px; /* spacing between avatar and status on modals/profiles */
+   	--rs-profile-spacing: 3px; /* spacing between avatar and status on modals/profiles */
     --rs-profile-width: 4px; /* width of the status on modals/profiles */
     --rs-online-color: #43b581; /* color for online status */
     --rs-idle-color: #faa61a; /* color for idle status */
     --rs-dnd-color: #f04747; /* color for dnd status */
-    --rs-offline-color: #636b75; /* color for offline status */
+   	--rs-offline-color: #636b75; /* color for offline status */
     --rs-invisible-color: #747f8d; /* color for invisible status - Note this will only show for your own invisibility */
-    --rs-streaming-color: #643da7; /* color for streaming status */
+   	--rs-streaming-color: #643da7; /* color for streaming status */
 }
 
 
@@ -412,7 +413,7 @@ pre {
     content: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDEzaC02djZoLTJ2LTZINXYtMmg2VjVoMnY2aDZ2MnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==);
     background-position: 50%;
     background-repeat: no-repeat;
-    border-radius: 50%;
+    border-radius: 2px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .25), 0 -1px 0px rgba(0, 0, 0, 0.2) inset, 0 2px 1px var(--white1) inset;
     line-height:53px;
 }
@@ -724,6 +725,83 @@ pre {
     display: none!important;
 }
 
+/* Avatars */
+
+.avatar-large, 
+.avatar-profile, 
+.avatar-small, 
+.avatar-xlarge, 
+.avatar-xsmall, 
+.avatar-xxlarge {
+	border-radius: 1px !important;
+	background-size: cover !important;
+}
+[class*="avatar-"] .status, .channel-members [class*="avatar-"] .status {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+	bottom: -2px !important;
+	border-radius: 1px !important;
+	right: -2px !important;
+}
+[class*="avatar-"] .status-online {
+	border: 2px solid var(--rs-online-color) !important;
+}
+[class*="avatar-"] .status-idle {
+	border: 2px solid var(--rs-idle-color) !important;
+}
+[class*="avatar-"] .status-dnd {
+	border: 2px solid var(--rs-dnd-color) !important;
+}
+[class*="avatar-"] .status-offline {
+	border: 2px solid var(--rs-offline-color) !important;
+}
+[class*="avatar-"] .status-invisible {
+	border: 2px solid var(--rs-invisible-color) !important;
+}
+[class*="avatar-"] .status-streaming {
+	border: 2px solid var(--rs-streaming-color) !important;
+}
+.container-iksrDt [class*="avatar-"] [class*="status-"] {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    height: 2px;
+    top: 68px;
+    border: unset !important;
+}
+.container-iksrDt [class*="avatar-"]:hover {
+    opacity: 1 !important;
+}
+.container-iksrDt [class*="avatar-"] .status-online {
+	background: var(--rs-online-color) !important;
+}
+.container-iksrDt [class*="avatar-"] .status-idle {
+	background: var(--rs-idle-color) !important;
+}
+.container-iksrDt [class*="avatar-"] .status-dnd {
+	background: var(--rs-dnd-color) !important;
+}
+.container-iksrDt [class*="avatar-"] .status-offline {
+	background: var(--rs-offline-color) !important;
+}
+.container-iksrDt [class*="avatar-"] .status-invisible {
+	background: var(--main-color) !important;
+}
+.container-iksrDt [class*="avatar-"] .status-streaming {
+	background: var(--rs-streaming-color) !important;
+}
+#autocomplete-popout header {
+	background: var(--tertiary-color) !important;
+}
+#autocomplete-popout h3, .theme-dark #autocomplete-popout input[type=text] {
+	color: #fff !important;
+}
+#autocomplete-popout .row.selected {
+	background: var(--tertiary-color) !important;
+	border-left: 2px solid var(--main-color);
+}
+
 /* Members List Area */
 
 .channel-members {
@@ -785,6 +863,9 @@ pre {
 
 /* Main Chat Area */
 
+.message-group .edit-message .edit-operation>a {
+	color: var(--main-color) !important;
+}
 .message-group .comment .markup .mention {
     background-color: var(--tertiary-color) !important;
 }
@@ -966,6 +1047,9 @@ pre {
 }
 .chat .emojiButton-38mF6t {
     top: 15px;
+}
+.autocompleteInner-N7OQf1 {
+    padding-bottom: 32px;
 }
 
 /* Channel Search Pop out */
@@ -1304,6 +1388,80 @@ form.modal-content.form.need-help-modal::after{
 
 /* Modals */
 
+.theme-dark .theme-light .clipboardInputInner-oj8y-S {
+    background: var(--tertiary-color) !important;
+    border: 1px solid var(--tertiary-color);
+}
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
+	background-color: var(--tertiary-color) !important;
+	border-radius: 0px;
+	border-top: 2px solid var(--main-color);
+	padding-top: 10px;
+}
+.form-deprecated .btn-primary, 
+.form.deprecated .btn-primary {
+	background: var(--main-color) !important;
+}
+.form-deprecated .btn-primary:hover, 
+.form.deprecated .btn-primary:hover {
+	background: var(--hover-color) !important;
+}
+.form-deprecated .btn-default {
+	color: var(--main-color) !important;
+	border-color: transparent !important;
+}
+.form-deprecated .btn-default:hover {
+	color: var(--main-color) !important;
+	border-color: var(--main-color) !important;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
+    color: var(--main-color);
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
+	background-color: var(--main-color);
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .expireText-NeAc7v,
+.form-deprecated .control-group .help-text, 
+.form.deprecated .control-group .help-text {
+    color: #dadada;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz,
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header {
+    color: #ffffff;
+}
+.form-deprecated .form-header, 
+.form.deprecated .form-header,
+.form-deprecated .form-inner, 
+.form.deprecated .form-inner{
+	background-color: var(--tertiary-color) !important;
+	border-radius: 0px;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions {
+	background-color: var(--tertiary-color) !important;
+	border-radius: 0px;
+	border-top: 2px solid var(--main-color);
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions .checkbox .checkbox-inner+span {
+    color: #fff;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span,
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner span {
+    border: 2px solid var(--secondary-color-hover);;
+}
+.menu-3BZuDT {
+	background-color: var(--tertiary-color) !important;
+	border-radius: 0px;
+}
+.alt-2vq4VR .item-rK1j5B .helper-3X2gjI {
+    color: #e2e2e2;
+}
+.alt-2vq4VR .item-rK1j5B {
+    color: #fff;
+}
+.alt-2vq4VR .item-rK1j5B:hover {
+	background-color: var(--primary-color) !important;
+	border-left: 2px solid var(--main-color);
+}
 .autocomplete-1TnWNR {
     background-color: var(--tertiary-color) !important;
 }
@@ -1541,11 +1699,20 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
     transition: 50ms ease;
 }
 .item-rK1j5B {
-    color: #d5d5d5;
+    color: #b1b1b1;
+}
+.item-rK1j5B:hover .icon-3ICDZz {
+    color: #ffffff;
+	filter: grayscale(100%) brightness(250%) !important;
+}
+.item-rK1j5B.invite-YM1l0n {
+    color: var(--main-color) !important;
+	font-weight: 600 !important;
 }
 .popout-bottom .menu-3BZuDT .item-rK1j5B:hover {
     background-color: rgba(255,255,255,.03);
-
+	color: #ffffff;
+	border-left: 2px solid var(--main-color);
 }
 .popout-bottom .menu-3BZuDT .icon-3ICDZz {
     width: 40px;
@@ -1554,6 +1721,7 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
     background-size: 50%;
     background-repeat: no-repeat;
     margin-right:5px;
+	filter: grayscale(100%) brightness(100%);
 }
 
 /* Chat Typing Bar */
@@ -1643,7 +1811,8 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 .cardPrimaryEditable-2IQ7-V,
 .authedApp-2JX_oI,
 .modal-3HOjGZ .message-25xg43,
-.theme-dark .autocomplete-1TnWNR
+.theme-dark .autocomplete-1TnWNR,
+.menu-3BZuDT
  {
     box-shadow: 0 2px 20px rgba(0,0,0,.4) !important;
 }
@@ -1692,6 +1861,23 @@ body,span:not(.spinner-item){
 .checked-2TahvT {
 	border-color: var(--main-color) !important;
 }
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+	background-color: var(--main-color) !important;
+	border-color: var(--main-color) !important;
+}
+.form-deprecated .Select-control, 
+.form.deprecated .Select-control {
+	border-radius: 0px !important;
+	background: var(--primary-color) !important;
+	border-color: var(--primary-color) !important;
+}
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, 
+.has-value.Select--single>.Select-control .Select-value .Select-value-label {
+	color: #fff;
+}
+.form-deprecated .control-group label, .form.deprecated .control-group label {
+    color: #ffffff;
+}
 .bar-2cFRGz {
     background: var(--tertiary-color) !important;
 }
@@ -1703,6 +1889,19 @@ body,span:not(.spinner-item){
 }
 .container-3lnMWU {
 	border-bottom: 0px solid transparent;
+}
+.wrapper-1hQOWh {
+	margin: 0 ;
+}
+.private-channel-call.minimum .private-channel-call-info, 
+.private-channel-call.normal .private-channel-call-info {
+	padding: 0px;
+}
+.private-channel-call .private-channel-call-info { 
+	padding: 0px;
+}
+.videoHeight-iWOJGF.normal-3QpMz4 { 
+	margin-top: 50px;
 }
 @keyframes slide-up {
     from {
