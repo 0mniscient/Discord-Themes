@@ -1835,6 +1835,10 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 
 /* Misc */
 
+
+#bda-qem { border-bottom: none !important;background: none !important}
+
+
 ::selection { 
 	background: var(--main-color) !important;color: #fff !important;
 }
