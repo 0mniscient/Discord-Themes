@@ -784,9 +784,20 @@ pre {
 }
 
 /* Main Chat Area */
+
+.message-group .comment .markup .mention {
+    background-color: var(--tertiary-color) !important;
+}
+.mention {
+	color: var(--main-color) !important;
+}
+.message-group .comment .markup .mention:hover, .mention:hover {
+	background-color: var(--main-color) !important;
+	color: #fff !important;
+}
 .chat .new-messages-bar {
     background-color: var(--main-color) !important;
-}
+} 
 .chat .new-messages-bar:hover {
     background-color: var(--hover-color) !important;
 }
@@ -1293,6 +1304,35 @@ form.modal-content.form.need-help-modal::after{
 
 /* Modals */
 
+.autocomplete-1TnWNR {
+    background-color: var(--tertiary-color) !important;
+}
+.descriptionDiscriminator-3KCIMj, .contentTitle-sL6DrN {
+    color: var(--main-color) !important;
+    font-weight: 600 !important;
+}
+.description-YnaVYa, .descriptionUsername-1quCGz {
+    color: #fff !important;
+}
+.selectorSelected-2M0IGv {
+    background-color: var(--primary-color) !important;
+}
+.selector-nbyEfM {
+    border-radius: 0px;
+}
+.small-popout-box {
+    background: var(--tertiary-color) !important;
+    border: 1px solid var(--tertiary-color) !important;
+	border-radius: 0px;
+	transition: .2s all linear;
+}
+.option-popout .btn-item:hover {
+    color: var(--main-color);
+    border-left: 2px solid var(--main-color);
+}
+.option-popout .btn-item {
+    color: #fff;
+}
 .footer-1PYmcw {
 	background-color: var(--tertiary-color) !important;
 	box-shadow: 0px 0px transparent !important;
@@ -1602,7 +1642,8 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 .cardPrimary-ZVL9Jr,
 .cardPrimaryEditable-2IQ7-V,
 .authedApp-2JX_oI,
-.modal-3HOjGZ .message-25xg43
+.modal-3HOjGZ .message-25xg43,
+.theme-dark .autocomplete-1TnWNR
  {
     box-shadow: 0 2px 20px rgba(0,0,0,.4) !important;
 }
