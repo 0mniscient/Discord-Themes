@@ -875,6 +875,9 @@ pre {
 
 /* Main Chat Area */
 
+.theme-dark .noChannel-2EQ0a9 {
+	background: var(--primary-color) !important;	
+}
 .spinner-pulsing-ellipsis .spinner-item {
 	background-color: var(--main-color) !important;
 }
