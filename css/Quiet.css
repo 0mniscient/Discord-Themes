@@ -25,7 +25,9 @@
 
 .themedescription:before{display:block;font-size:14px;height:15px;color:#3ddcb1;font-weight:700;content:"Updates aren't automatic. Buy the full theme at betterdocs.net";}
 
-body:before{content:"Thanks for using "var(--theme-name)"!";z-index:1000000000000000000000000;color:#fff;background:var(--main-color);top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
+body:before{content:"Your version of "var(--theme-name)"is outdated!";z-index:1000000000000000000000000;color:#fff;background:var(--main-color);top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
+
+.wordmark-2L03Wr::before{content: "Update "var(--theme-name)"at betterdocs.net";color: #5a5a5a;font-size: 12px;font-weight: 600;position: fixed;right: 10%;top: 5px;}
 
 body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface-visibility:hidden;}
 
@@ -4633,8 +4635,6 @@ input, textarea {color: white;}
 .alt-2vq4VR .item-rK1j5B .helper-3X2gjI{color: #dadada;}
 
 .item-rK1j5B:hover{background-color: #171719 !important;color: #fff;}
-
-.wordmark-2L03Wr::before{content: "Get more themes & plugins at https://betterdocs.net";color: #5a5a5a;font-size: 12px;font-weight: 600;position: fixed;right: 10%;top: 5px;}
 
 .winButton-U7zAqI{top: -1px;}
 
