@@ -250,6 +250,23 @@ pre {
 
 /* Channel List Area */
 
+.nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
+    color: #c4c4c4;
+    opacity: 0.6;
+}
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
+    color: #c4c4c4;
+}
+.nameUnreadText-1pxldj, .nameUnreadVoice-QK4gxH {
+    color: #ffffff;
+}
+.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm {
+    color: #c4c4c4;
+}
+.iconMuted-Hb4ttQ, .nameMuted-1n0LSj {
+    color: #c4c4c4;
+    opacity: 0.6;
+}
 .container-RYiLUQ {
 	background: var(--primary-color) !important;
 }
