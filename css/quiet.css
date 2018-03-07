@@ -305,9 +305,62 @@ pre {
 	margin-right: 15px;
 	border: 2px solid var(--tertiary-color);
 }
+.channels-3g2vYe .scroller-fzNley > [class*=container-] > [class*=container]:first-of-type > [class*=wrapper] > div > div > [class*=icon] {
+  height: 31.11px; 
+}
+.channels-3g2vYe .scroller-fzNley > [class*=container-] > div:first-of-type > [class*=container] {
+  padding-top: 0;
+  margin-top: 12px;
+  margin-bottom: 6px; 
+}
+  .channels-3g2vYe .scroller-fzNley > [class*=container-] > div:first-of-type > [class*=container] > [class*=wrapper] > div > div > [class*=icon] {
+    height: 31.11px; 
+}
+.channels-3g2vYe .scroller-fzNley > [class*=container-] > [class*=container]:first-of-type {
+  padding-top: 0;
+  margin-top: 12px;
+  margin-bottom: 6px; 
+}
+.channels-3g2vYe .scroller-fzNley > [class*=container-] > [class*=container]:first-of-type > [class*=wrapper] {
+    margin-left: 0px;
+    height: 31.11px;
+    padding: 0 8px;
+    border-radius: 0px;
+    background-color: var(--tertiary-color); 
+}
+.channels-3g2vYe .scroller-fzNley > [class*=container-] > [class*=container] + [class*=container-] {
+  margin-top: 6px; 
+}
+.channels-3g2vYe .scroller-fzNley > [class*=container-] > div:first-of-type > [class*=container] > [class*=wrapper] {
+  margin-left: 8px;
+  height: 31.11px;
+  padding: 0 8px;
+  border-radius: 3px;
+  background-color: var(--tertiary-color); 
+}
+.channels-3g2vYe .scroller-fzNley > [class*=container-] > [class*=container]:first-of-type > [class*=wrapper] > [class*=icon], .channels-3g2vYe .scroller-fzNley > [class*=container-] > div:first-of-type > [class*=container] > [class*=wrapper] > [class*=icon] {
+  height: 31.11px;
+  width: 16px;
+  position: relative;
+  margin-left: -3px;
+  margin-top: -4px;
+  margin-right: 8px; 
+}
+.channels-3g2vYe .scroller-fzNley > [class*=container-] > [class*=container]:first-of-type > [class*=wrapper] > [class*=name], .channels-3g2vYe .scroller-fzNley > [class*=container-] > div:first-of-type > [class*=container] > [class*=wrapper] > [class*=name] {
+  height: 31.11px;
+  line-height: 32px; 
+}
 
 /* Guilds Area */
 
+.guilds-wrapper .guilds>div.guild:first-child .badge {
+	border-radius: 50%;
+	padding: 5px;
+	background-color: var(--main-color);
+	margin-bottom: 22px;
+	margin-right: 15px;
+	border: 2px solid var(--tertiary-color);
+}
 .guilds-wrapper .guilds .guild.unread:hover:before {
     background: #fff;
     border-radius: 20px;
