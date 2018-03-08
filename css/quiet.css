@@ -1792,6 +1792,77 @@ form.modal-content.form.need-help-modal::after{
 .headerPlaying-2Q7mBy {
     background: var(--main-color);
 }
+.role-3rahR_ {
+    border-width: 1px!important;
+    border-style: solid!important;
+    border-radius: 2px!important;
+    box-sizing: content-box!important;
+    height: 16px!important;
+    margin: 3px!important;
+    padding: 2px!important;
+    display: block!important;
+    position: relative;
+    line-height: 16px;
+    font-size: 10px!important;
+    font-weight: 400!important;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.role-3rahR_::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: inherit;
+    box-sizing: border-box;
+    opacity: 0.5;
+  }
+
+  .roleName-DUQZ9m {
+    margin: 0 4px;
+}
+
+.roleCircleButton-sMOdib {
+    padding: 0;
+    position: absolute;
+    z-index: 2;
+    height: 22px;
+    top: -1px;
+    left: -1px;
+    border-radius: 2px 0 0 2px;
+    width: 22px;
+    display: flex!important;
+    transition: transform 0.2s;
+    transform: translateX(-30px);
+}
+
+.roleCircle-3-vPZq { display: none; }
+
+.addButton-3RuTE0 {
+    line-height: 10px;
+    width: 22px;
+    box-sizing: border-box;
+    height: 22px;
+}
+
+.roleRemoveIcon-2iu0iE {
+    display: block;
+}
+
+.role-3rahR_:hover .roleCircleButton-sMOdib {
+    transition: transform 0.2s;
+    transform: translateX(0);
+}
+
+.addButtonIcon-3GVNfn {
+    height: 7px;
+    width: 7px;
+}
 
 /* Profile Pop Up */
 
