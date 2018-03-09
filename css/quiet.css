@@ -55,9 +55,42 @@
     --rs-streaming-color: #643da7; /* color for streaming status */
 }
 
+/* Table of Contents 
 
+1. User Settings
+2. Code Blocks
+3. Title Bar Area
+4. Pinned Messages
+5. DM Message List
+6. Channel List Area
+7. Guilds Area
+8. Account Area
+9. Emoji Picker
+10. Avatars
+11. Popout Menu -> User Status
+12. Members List Area
+13. Main Chat Area
+14. Friends List
+15. Main Chat Form
+16. Channel Search Pop out
+17. Search Results
+18. Context Menus
+19. Unread Pop outs
+20. Rich Embeds
+21. Help Modal
+22. Modals
+23. User Popup
+24. Profile Popup
+25. Server Settings Pop out
+26. Chat Typing Bar
+27. Scrollbars
+28. Shadows
+29. Misc
+30. Keyframes
 
-/* User Settings */
+*/
+
+/* 1. User Settings */
 
 .ui-standard-sidebar-view .sidebar-region .sidebar, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
 	background-color: var(--tertiary-color);
@@ -93,7 +126,7 @@
 	background-color: var(--main-color) !important;
 }
 
-/* Code Blocks */
+/* 2. Code Blocks */
 
 pre,
 code {
@@ -125,7 +158,7 @@ pre {
   padding-bottom: 0x !important;
 }
 
-/* Title Bar Area*/
+/* 3. Title Bar Area*/
 
 .title-qAcLxz {
 	background: var(--primary-color) !important;
@@ -177,7 +210,7 @@ pre {
     background: var(--primary-color) !important; 
 }
 
-/* Pinned Messages */
+/* 4. Pinned Messages */
 
 .theme-dark .themed-popout {
     background-color: var(--primary-color) !important;
@@ -211,7 +244,7 @@ pre {
     color: #fff !important;
 }
 
-/* DM Message List */
+/* 5. DM Message List */
 
 .channels-3g2vYe {
     background-color: var(--primary-color) !important;
@@ -248,7 +281,7 @@ pre {
 	border-left: 2px solid var(--hover-color);
 }
 
-/* Channel List Area */
+/* 6. Channel List Area */
 
 .nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
     color: #909090;
@@ -371,7 +404,7 @@ pre {
   line-height: 32px; 
 }
 
-/* Guilds Area */
+/* 7. Guilds Area */
 
 .guilds-wrapper .guilds>div.guild:first-child .badge {
 	border-radius: 50%;
@@ -522,7 +555,7 @@ pre {
     pointer-events: none;
 }
 
-/* Account Area */
+/* 8. Account Area */
 
 .container-iksrDt {
     background: var(--secondary-color) !important;
@@ -544,7 +577,7 @@ pre {
     line-height: 18px;
 }
 
-/* Emoji Picker */
+/* 9. Emoji Picker */
 
 .popout.no-shadow .emojiPicker-3g68GS,
 .popout.no-shadow #bda-qem-favourite-container,
@@ -806,7 +839,7 @@ pre {
     display: none!important;
 }
 
-/* Avatars */
+/* 10. Avatars */
 
 .avatar-large, 
 .avatar-profile, 
@@ -861,7 +894,7 @@ pre {
     left: 0px !important;
 }
 
-/* POPOUT MENU -> USER STATUS */
+/* 11. Popout Menu -> User Status */
 
 .popout.popout-top, .popout.popout-top-left {
 	overflow: visible !important;
@@ -1017,7 +1050,7 @@ pre {
 	display: none;
 }
 
-/* Members List Area */
+/* 12. Members List Area */
 
 .message-group .mentioned .message-text {
     -webkit-animation: mentionpulse 2s infinite !important;
@@ -1122,7 +1155,7 @@ display:none !important;
 	color: var(--rs-streaming-color) !important;
 }
 
-/* Main Chat Area */
+/* 13. Main Chat Area */
 
 .theme-dark .noChannel-2EQ0a9 {
 	background: var(--primary-color) !important;	
@@ -1262,13 +1295,22 @@ display:none !important;
     transform: scale(1.3)
 }
 
-/* Friends List */
+/* 14. Friends List */
 
 #friends, .friends-table {
     background-color: var(--primary-color) !important;
 }
+#friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+    background-color: var(--hover-color);
+}
+#friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: var(--main-color);
+}
+#friends .tab-bar .tab-bar-item {
+    border-radius: 0px;
+}
 
-/* Main Chat Form */
+/* 15. Main Chat Form */
 
 .chat form {
 	background-color: var(--secondary-color) !important;
@@ -1319,7 +1361,7 @@ display:none !important;
     padding-bottom: 32px;
 }
 
-/* Channel Search Pop out */
+/* 16. Channel Search Pop out */
 
 .search-popout {
 	background-color: var(--primary-color) !important;
@@ -1398,7 +1440,7 @@ display:none !important;
     padding: 0px 6px 1px 0px;
 }
 
-/* Search Results */
+/* 17. Search Results */
 
 .search-results-wrap .search-header {
     background-color: var(--tertiary-color) !important;
@@ -1437,7 +1479,7 @@ display:none !important;
     padding: 1px 7px 3px 6px;
 }
 
-/*   Context Menus   */
+/* 18. Context Menus   */
 
 .contextMenu-uoJTbz {
     background: var(--tertiary-color) !important;
@@ -1455,18 +1497,6 @@ display:none !important;
     transform-origin: 0 0!important;
 }
 
-@keyframes context-open-new {
-    0% {
-        transform:scale(1,0.8);
-    }
-}
-@keyframes context-open {
-    0% {
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-}
-
 .contextMenu-uoJTbz.invertY, .contextMenu-uoJTbz.undefined {
     animation: opacity 50ms linear, context-open-new 150ms cubic-bezier(.2,0,0,1);
     transform-origin: bottom!important;
@@ -1474,14 +1504,6 @@ display:none !important;
 
 .contextMenu-uoJTbz .itemGroup-oViAgA:not(:first-child):not(:empty) {
     border-color: var(--tertiary-color) !important;
-}
-
-@keyframes context-open-invertY {
-    0% {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        margin-top: 0px;
-    }
 }
 
 .theme-dark.contextMenu-uoJTbz .itemGroup-oViAgA {
@@ -1553,13 +1575,13 @@ display:none !important;
     opacity: 1;
 }
 
-/* Unread Pop outs */
+/* 19. Unread Pop outs */
 
 .container-2SvV0F {
     z-index: 2;
 }
 
-/* Rich Embeds */
+/* 20. Rich Embeds */
 .embedPill-3sYS1X {
     border-radius: 0px;
     width: 3px;
@@ -1573,7 +1595,7 @@ display:none !important;
 	background-color: var(--main-color) !important;
 }
 
-/* Help Modal */
+/* 21. Help Modal */
 .need-help-modal .header h1::after{
 	content:var(--theme-name)" v" var(--theme-version);
 	color:#fff;
@@ -1656,7 +1678,7 @@ form.modal-content.form.need-help-modal::after{
 
 .empty-placeholder .image[style*='background-image:url("/assets/6793e022dc1b065b21f12d6df02f91bd.svg");']{background-image:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_sentiment_very_dissatisfied_white_24px.svg)!important;opacity:0.3;}
 
-/* Modals */
+/* 22. Modals */
 
 .theme-dark .theme-light .clipboardInputInner-oj8y-S {
     background: var(--tertiary-color) !important;
@@ -1792,7 +1814,7 @@ form.modal-content.form.need-help-modal::after{
 	background: var(--primary-color) !important;
 }
 
-/* User Pop up */
+/* 23. User Popup */
 
 .rolesList-2RhjNd {
 	overflow: hidden;
@@ -1859,9 +1881,9 @@ form.modal-content.form.need-help-modal::after{
     border-color: inherit;
     box-sizing: border-box;
     opacity: 0.5;
-  }
+}
 
-  .roleName-DUQZ9m {
+.roleName-DUQZ9m {
     margin: 0 4px;
 }
 
@@ -1902,7 +1924,7 @@ form.modal-content.form.need-help-modal::after{
     width: 7px;
 }
 
-/* Profile Pop Up */
+/* 24. Profile Popup */
 
 .topSectionNormal-2LlRG1 {
 	background-color: var(--tertiary-color) !important;
@@ -1923,7 +1945,7 @@ form.modal-content.form.need-help-modal::after{
     background: var(--main-color);
 }
 
-/* Server Settings Pop out */
+/* 25. Server Settings Pop out */
 
 .guild-header.popout-open~.ui-scroller-wrap {
     -ms-transform: translate(0, 40px);
@@ -1963,22 +1985,6 @@ form.modal-content.form.need-help-modal::after{
     overflow: visible;
     transform-origin: 50% -10%;
     background:var(--primary-color)!important;
-}
-@keyframes popoutanim-inner{
-  0%{
-    transform:scale(2);
-  }
-  100%{
-    transform:scale(1);
-  }
-}
-@keyframes popoutanim{
-  0%{
-    transform:scale(0);
-  }
-  100%{
-    transform:scale(1);
-  }
 }
 body:active .popout-bottom:not(:active) .menu-3BZuDT:not(:active){
     transform:scale(1.5);
@@ -2061,7 +2067,7 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 	filter: grayscale(100%) brightness(100%);
 }
 
-/* Chat Typing Bar */
+/* 26. Chat Typing Bar */
 
 .chat form .typing-3eiiL_ {
     background: var(--tertiary-color) !important;
@@ -2092,7 +2098,7 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
     height: 31px
 }
 
-/* Scrollbars */
+/* 27. Scrollbars */
 
 .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: var(--tertiary-color) !important;
@@ -2126,7 +2132,7 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
     width: 12px;
 }
 
-/* Shadows */
+/* 28. Shadows */
 
 .channel-members-wrap, 
 .guilds-wrapper, 
@@ -2154,7 +2160,7 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
     box-shadow: 0 2px 20px rgba(0,0,0,.4) !important;
 }
 
-/* Misc */
+/* 29. Misc */
 
 
 #bda-qem { border-bottom: none !important;background: none !important}
@@ -2275,6 +2281,9 @@ body,span:not(.spinner-item){
 .spinner-wandering-cubes .spinner-item {
 	background-color: var(--main-color) !important;
 }
+
+/* 30. Keyframes */
+
 @keyframes slide-up {
     from {
         transform: translate(0, 100%);
@@ -2317,4 +2326,38 @@ body,span:not(.spinner-item){
 		transform: scale(0);
 		opacity: 0
 	}
+}
+@keyframes context-open-invertY {
+    0% {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+    }
+}
+@keyframes context-open-new {
+    0% {
+        transform:scale(1,0.8);
+    }
+}
+@keyframes context-open {
+    0% {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+@keyframes popoutanim-inner{
+  0%{
+    transform:scale(2);
+  }
+  100%{
+    transform:scale(1);
+  }
+}
+@keyframes popoutanim{
+  0%{
+    transform:scale(0);
+  }
+  100%{
+    transform:scale(1);
+  }
 }
