@@ -1157,6 +1157,16 @@ display:none !important;
 
 /* 13. Main Chat Area */
 
+.chat .messages .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO {
+    background: transparent !important;
+}
+.header-ygd_5b {
+	color: var(--main-color) !important;
+}
+.invite-CTGItT {
+    background: rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.25);
+}
 .theme-dark .noChannel-2EQ0a9 {
 	background: var(--primary-color) !important;	
 }
