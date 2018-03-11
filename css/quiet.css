@@ -93,10 +93,10 @@
 /* 1. User Settings */
 
 .ui-standard-sidebar-view .sidebar-region .sidebar, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
-	background-color: var(--tertiary-color);
+	background-color: var(--tertiary-color) !important;
 }
-.theme-dark .ui-standard-sidebar-view .content-region {
-	background-color: var(--primary-color);
+.ui-standard-sidebar-view .content-region {
+	background-color: var(--primary-color) !important;
 }
 .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
     justify-content: flex-start;
