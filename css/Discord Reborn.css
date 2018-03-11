@@ -409,7 +409,11 @@ span.spinner{margin-top: 2px;}
 
 .emoji-picker .header{width: 100%;margin-left: -1px;}
 
-.autocomplete-1TnWNR {background-color:rgba(0,0,0,0.7) !important;}
+.autocomplete-1TnWNR .selectorSelected-2M0IGv:hover {background-color: var(--hover-color) !important; opacity: 0.7;}
+
+.theme-dark .description-YnaVYa, .theme-dark .descriptionUsername-1quCGz {color: white;}
+
+.theme-dark .descriptionDiscriminator-3KCIMj {color: hsla(0, 0%, 100%, 0.6);}
 
 .autocomplete-1TnWNR .contentTitle-sL6DrN {color: #fff;}
 
