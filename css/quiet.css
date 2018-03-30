@@ -423,11 +423,11 @@ pre {
   background-color: transparent !important;
 }
 
-path[d*="M4.5 4.5l9 9"] {
+.theme-light path[d*="M4.5 4.5l9 9"] {
   stroke: #000;
 }
 
-path[d*="M13.5 4.5l-9 9"] {
+.theme-light path[d*="M13.5 4.5l-9 9"] {
   stroke: #000;
 }
 
