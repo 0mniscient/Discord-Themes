@@ -2445,7 +2445,7 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
   color: #000000;
 }
 
-.item-rK1j5B:hover .icon-3ICDZz {
+.theme-light .item-rK1j5B:hover .icon-3ICDZz {
   filter: grayscale(100%) brightness(20%) !important; 
 }
 
