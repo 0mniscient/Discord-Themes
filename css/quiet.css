@@ -1068,13 +1068,6 @@ display:none !important;
     background: transparent !important;
     margin: 0;
 }
-#app-mount span.spinner {
-    width: 100% !important;
-    height: 100% !important;
-}
-#app-mount span.spinner > .spinner-inner {
-    top: 0 !important;
-}
 #app-mount .status.status-typing .spinner-item {
     height: 3px;
     width: 3px;
@@ -2307,6 +2300,15 @@ body,span:not(.spinner-item){
 }
 .spinner-wandering-cubes .spinner-item {
 	background-color: var(--main-color) !important;
+}
+.bd-blue .tooltip {
+    background-color: var(--main-color) !important;
+}
+.bd-blue .tooltip.tooltip-right:after {
+    border-right-color: var(--main-color) !important;
+}
+.tooltip {
+    border-radius: 0px !important;
 }
 
 /* 30. Keyframes */
