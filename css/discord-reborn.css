@@ -1,1 +1,106 @@
-Hi
+/* IMPORT CSS FROM GITHUB */
+@import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/quiet.css");
+/*
+
+/* Dark Mode Settings */
+
+.app.theme-dark, .theme-dark, .theme-dark .theme-light, .theme-dark.popouts, .theme-light.popouts+.tooltips, .tooltips+.theme-dark {
+  --primary-color: rgba(0,0,0,0.75);
+  /* primary background color */
+  --secondary-color: rgba(0,0,0,0.6);
+  /* secondary background color */
+  --tertiary-color: rgba(0,0,0,0.4);
+  /* tertiary background color */
+  --quaternary-color: rgba(0,0,0,0.7);
+  /* quaternary background color */
+  --rs-spacing: 2px;
+  /* spacing between avatar and status */
+  --rs-width: 2px;
+  /* width of the status */
+  --rs-popout-spacing: 3px;
+  /* spacing between avatar and status for user popouts */
+  --rs-popout-width: 4px;
+  /* width of the status for user popouts */
+  --rs-profile-spacing: 3px;
+  /* spacing between avatar and status on modals/profiles */
+  --rs-profile-width: 4px;
+  /* width of the status on modals/profiles */
+  --rs-online-color: #43b581;
+  /* color for online status */
+  --rs-idle-color: #faa61a;
+  /* color for idle status */
+  --rs-dnd-color: #f04747;
+  /* color for dnd status */
+  --rs-offline-color: #636b75;
+  /* color for offline status */
+  --rs-invisible-color: #747f8d;
+  /* color for invisible status - Note this will only show for your own invisibility */
+  --rs-streaming-color: #643da7;
+  /* color for streaming status */
+}
+
+/* Light Mode Settings */
+
+.app.theme-light, .theme-light, .theme-light .theme-light, .theme-light.popouts, .theme-light.popouts+.tooltips, .tooltips+.theme-light {
+  --primary-color: rgba(0,0,0,0.55);
+  /* primary background color */
+  --secondary-color: rgba(0,0,0,0.4);
+  /* secondary background color */
+  --tertiary-color: rgba(0,0,0,0.2);
+  /* tertiary background color */
+  --quaternary-color: rgba(0,0,0,0.5);
+  /* quaternary background color */
+  --rs-spacing: 2px;
+  /* spacing between avatar and status */
+  --rs-width: 2px;
+  /* width of the status */
+  --rs-popout-spacing: 3px;
+  /* spacing between avatar and status for user popouts */
+  --rs-popout-width: 4px;
+  /* width of the status for user popouts */
+  --rs-profile-spacing: 3px;
+  /* spacing between avatar and status on modals/profiles */
+  --rs-profile-width: 4px;
+  /* width of the status on modals/profiles */
+  --rs-online-color: #43b581;
+  /* color for online status */
+  --rs-idle-color: #faa61a;
+  /* color for idle status */
+  --rs-dnd-color: #f04747;
+  /* color for dnd status */
+  --rs-offline-color: #636b75;
+  /* color for offline status */
+  --rs-invisible-color: #747f8d;
+  /* color for invisible status - Note this will only show for your own invisibility */
+  --rs-streaming-color: #643da7;
+  /* color for streaming status */
+}
+
+.callout-backdrop, .appMount-14L89u {
+  background-size: cover !important;
+  background-position: center !important;
+}
+.callout-backdrop, .appMount-14L89u {
+  background-image: url("https://imgur.com/RG03PyX.png") !important;
+}
+
+.chat, .container-RYiLUQ, .container-2OU7Cz, .theme-dark .ui-standard-sidebar-view .content-region, .ui-standard-sidebar-view .sidebar-region .sidebar, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller, .layer, .layers, .content, .layer-kosS71, .layers-20RVFW, .messages-wrapper .message-group, .wrapper-VSYYTS, .clipboardInputInner-oj8y-S, #friends, .activity-3NviKQ, .body-_3kd4C, .newsLink-SC025S:hover, .newsLink-SC025S, .news-XQhS0 .theme-dark .popout.popout-bottom:not(.no-arrow)[style*="z-index: 1000; overflow: hidden; visibility: visible;"] {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.guilds-wrapper .guilds>div.guild:first-child .guild-inner, .chat>.content, .container-iksrDt {
+  background-color: transparent !important;
+}
+
+.messages-wrapper {
+  background-color: var(--primary-color);
+}
+
+.theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view {
+  background: var(--quaternary-color) !important;
+}
+
+.menu-3BZuDT.alt-2vq4VR, .listeningAlong-13-Udx {
+    background: var(--primary-color) !important;
+}
