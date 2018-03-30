@@ -1160,6 +1160,9 @@ display:none !important;
 .chat .messages .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO {
     background: transparent !important;
 }
+.chat.private .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO {
+      background-color: transparent !important;
+}
 .header-ygd_5b {
 	color: var(--main-color) !important;
 }
@@ -1304,6 +1307,27 @@ display:none !important;
     -ms-transform: scale(1.3);
     transform: scale(1.3)
 }
+.private-channel-call {
+    background-color: var(--primary-color) !important;
+}
+.video-3lOWa6 {
+    background-color: var(--primary-color) !important;
+}
+.private-channel-call.minimum .private-channel-call-info, 
+.private-channel-call.normal .private-channel-call-info {
+	padding: 0px;
+}
+.private-channel-call .private-channel-call-info { 
+	padding: 0px;
+}
+.theme-dark .message-group.is-local-bot-message {
+  background-image: transparent !important;
+  box-shadow: transparent !important;
+  background-color: var(--primary-color) !important;
+}
+.wrapper-FtzxDk.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.wrapper-1hQOWh.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.alignEnd-3PVyen.spacer-2Aeq3k {
+  margin-top: 55px !important;
+}
 
 /* 14. Friends List */
 
@@ -1360,6 +1384,9 @@ display:none !important;
 }
 .chat .channelTextArea-os01xC {
     margin: 0px 0 0px;
+}
+.chat .channelTextAreaEnabledNoAttach-19CjQr.channelTextArea-1HTP3C.channelTextArea-os01xC {
+    margin: 4px 0 6px !important;
 }
 .chat .textAreaEnabled-2vOfh8 {
     padding: 17px 38px 10px 10px;
@@ -2249,16 +2276,6 @@ body,span:not(.spinner-item){
 }
 .wrapper-1hQOWh {
 	margin: 0 ;
-}
-.private-channel-call.minimum .private-channel-call-info, 
-.private-channel-call.normal .private-channel-call-info {
-	padding: 0px;
-}
-.private-channel-call .private-channel-call-info { 
-	padding: 0px;
-}
-.videoHeight-iWOJGF.normal-3QpMz4 { 
-	margin-top: 50px;
 }
 .notice-3I4-y_ {
     font-size: 0px !important;
