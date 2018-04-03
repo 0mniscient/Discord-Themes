@@ -1209,11 +1209,6 @@ pre {
 
 /* 12. Members List Area */
 
-.message-group .mentioned .message-text {
-  -webkit-animation: mentionpulse 2s infinite !important;
-  animation: mentionpulse 2s infinite !important;
-}
-
 .message-group .mentioned .message-text:after {
   display: none !important;
 }
