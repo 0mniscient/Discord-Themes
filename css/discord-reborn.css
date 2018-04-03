@@ -83,6 +83,10 @@
   /* color for streaming status */
 }
 
+.chat form {
+    transparent !important;
+}
+
 .theme-dark .chat form {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06) !important;
     background-color: rgba(0,0,0,0.6) !important;
