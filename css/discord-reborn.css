@@ -10,6 +10,8 @@
 /* Dark Mode Settings */
 
 .app.theme-dark, .theme-dark, .theme-dark .theme-light, .theme-dark.popouts, .theme-light.popouts+.tooltips, .tooltips+.theme-dark {
+  --rs-transparency: rgba(0,0,0,0);
+  /* main transparency */
   --primary-color: rgba(0,0,0,0.75);
   /* primary background color */
   --secondary-color: rgba(0,0,0,0.6);
@@ -121,7 +123,7 @@
 }
 
 .private-channels .search-bar .search-bar-inner {
-  background: transparent; !important;
+  background: transparent !important;
 }
 
 .search .search-bar, .search .search-bar-icon {
@@ -500,7 +502,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .emote-container:hover, .emojiPicker-3g68GS .scroller-fzNley .emojiItem-3l4Fa9.selected-1LQfcZ {
-  box-shadow: 0 0 0 0px transparent !important;;
+  box-shadow: 0 0 0 0px transparent !important;
   transition: 0ms;
 }
 
