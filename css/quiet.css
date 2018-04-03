@@ -1291,14 +1291,13 @@ pre {
 	font-size:15px;
 }
 
-.theme-dark .channel-members .member-2FrNV0.popout-open, .theme-dark .channel-members .member-2FrNV0:active, .theme-dark .channel-members .member-2FrNV0:hover.popout-open, .theme-dark .channel-members .member-2FrNV0:hover.popout-open:active {
-  background: var(--quaternary-color) !important;
-  border-left: 2px solid var(--main-color);
-}
+.theme-dark .channel-members .member-2FrNV0.popout-open, .theme-dark .channel-members .member-2FrNV0:active, .theme-dark .channel-members .member-2FrNV0.popout-open:hover, .theme-dark .channel-members .member-2FrNV0.popout-open:active {
+   background: var(--quaternary-color) !important;
+   border-left: 2px solid var(--main-color);
+ }
 
-.theme-dark .channel-members .member-2FrNV0:hover {
-  background: var(--secondary-color) !important;
-  border-left: 2px solid var(--hover-color);
+.channel-members .member-2FrNV0:hover .content-3JzEqq, .channel-members .member-2FrNV0.popout-open .content-3JzEqq {
+	background: var(--quaternary-color) !important;
 }
 
 .channel-members .member-2FrNV0 .activityText-258pdj {
