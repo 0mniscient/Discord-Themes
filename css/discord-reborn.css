@@ -83,7 +83,7 @@
 
 
 .theme-dark .chat form {
-    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06) !important;
     background-color: rgba(0,0,0,0.4) !important;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .messages-wrapper {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
 }
 
 .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view {
@@ -121,7 +121,7 @@
 }
 
 .private-channels .search-bar .search-bar-inner {
-  background: transparent;
+  background: transparent; !important;
 }
 
 .search .search-bar, .search .search-bar-icon {
@@ -149,7 +149,7 @@
 }
 
 .theme-dark .member-2FrNV0:hover .content-3JzEqq {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.4) !important;
   color: #fff;
 }
 
@@ -162,17 +162,17 @@
 }
 
 .contentSelectedText-3j5CXt {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.4) !important;
   border-left: 0px;
 }
 
 .contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-gTtYM9:active {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.4) !important;
   border-left: 0px;
 }
 
 .citar-btn {
-  background-color: var(--rs-transparency);
+  background-color: transparent !important;
 }
 
 /* Better Formatting Redux Re-Skin */
@@ -198,12 +198,12 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .theme-dark .card-11ynQk:before {
-  background-color: rgba(0,0,0,0.4);
-  border-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.4) !important;
+  border-color: rgba(0,0,0,0.8) !important;
 }
 
 .theme-dark #friends .friends-table .friends-row:hover {
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.4) !important;
 }
 
 .friends-table{
@@ -211,7 +211,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .guilds-wrapper .guild.guilds-add::after {
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.4) !important;
 }
 
 [class*="barFill-"] {
@@ -219,7 +219,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .header-1tSljs {
-    box-shadow: 0px 0px transparent;
+    box-shadow: 0px 0px transparent !important;
     border-bottom: 0px solid transparent !important;
 }
 
@@ -235,7 +235,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
   border-left: 0px solid var(--main-color) !important;
   border-right: 0px solid var(--main-color) !important;
   border-bottom: 0px solid var(--main-color) !important;
-  border-top: 0px solid transparent;
+  border-top: 0px solid!transparent;
 }
 
 .guilds-wrapper .guilds>div.guild:first-child {
@@ -263,7 +263,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .private-channels .channel.selected a {
-  background-color: var(--quaternary-color);
+  background-color: var(--quaternary-color) !important;
   border-left: 0px solid transparent !important;
 }
 
@@ -272,13 +272,13 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .header-1tSljs {
-  box-shadow: 0px 0px transparent;
+  box-shadow: 0px 0px transparent !important;
   border-bottom: 0px solid transparent !important;
 }
 
 .contentSelectedText-3j5CXt {
-  background-color: var(--quaternary-color);
-  border-left: 0px solid transparent;
+  background-color: var(--quaternary-color) !important;
+  border-left: 0px solid transparent !important;
 }
 
 .themeDefault-3M0dJU.valueChecked-3Bzkbm {
@@ -314,16 +314,16 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     background: #677bc4 !important;
 }
 .create-guild-container.deprecated .create-or-join .actions .or {
-    display: none;
+    display: none !important;
 }
 
 .form-deprecated header, .form.deprecated header {
-    color: #fff;
+    color: #fff !important;
 }
 
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     background-color: rgba(0,0,0,0.4) !important;
-    border-color: transparent;
+    border-color: transparent !important;
 }
 
 /* -- APRIL FOOLS CHANGES -- */
@@ -425,13 +425,13 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .ui-standard-sidebar-view .bda-slist li {
-    background: var(--secondary-color);
+    background: var(--secondary-color) !important;
     border-bottom: 0px;
     margin-top: 15px;
 }
 
 .ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
-    background: var(--secondary-color);
+    background: var(--secondary-color) !important;
     border-top: 0px;
 }
 
