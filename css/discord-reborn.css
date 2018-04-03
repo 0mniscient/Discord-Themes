@@ -84,7 +84,7 @@
 }
 
 .theme-dark .chat form {
-    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06) !important;
     background-color: rgba(0,0,0,0.6) !important;
 }
 
@@ -572,4 +572,8 @@ bc46c2d….css:1
 
 .tooltip.tooltip-black {
     display: none !important;
+}
+
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: var(--tertiary-color);
 }
