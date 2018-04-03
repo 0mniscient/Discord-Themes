@@ -213,3 +213,121 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .guilds-wrapper .guild.guilds-add::after {
   background: rgba(0,0,0,0.4);
 }
+
+[class*="barFill-"] {
+    background: transparent !important; 
+}
+
+.title-qAcLxz {
+  background: transparent !important;
+  box-shadow: 0px 0px transparent !important;
+  border-bottom: 0px solid transparent !important;
+}
+
+.header-1tSljs {
+    box-shadow: 0px 0px transparent;
+    border-bottom: 0px solid transparent !important;
+}
+
+.headerBar-cxbhPD {
+  box-shadow: 0px 0px transparent !important;
+  background: var(--primary-color) !important;
+  border-bottom: 0px solid transparent !important;
+  height: 46px !important;
+}
+
+.theme-dark .themed-popout {
+  background-color: 0px solid transparent !important;
+  border-left: 0px solid var(--main-color) !important;
+  border-right: 0px solid var(--main-color) !important;
+  border-bottom: 0px solid var(--main-color) !important;
+  border-top: 0px solid transparent;
+}
+
+.guilds-wrapper .guilds>div.guild:first-child {
+    margin-top: -48px;
+    width: 70px;
+    margin-left: -10px;
+    border-bottom: 0px solid transparent !important;
+    position: fixed;
+    z-index: 2;
+}
+
+.private-channels .search-bar {
+    border-bottom: 0px solid transparent !important;
+}
+
+.messages-popout-wrap .messages-popout .message-group:hover {
+  background-color: var(--quaternary-color) !important;
+  border-color: transparent !important;
+}
+
+.messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+  background-color: transparent !important;
+  color: #fff !important;
+  padding: 2px 7px 3px 7px;
+}
+
+.private-channels .channel.selected a {
+  background-color: var(--quaternary-color);
+  border-left: 0px solid transparent !important;
+}
+
+.private-channels .channel.selected:hover a {
+  border-left: 0px solid transparent !important;
+}
+
+.header-1tSljs {
+  box-shadow: 0px 0px transparent;
+  border-bottom: 0px solid transparent !important;
+}
+
+.contentSelectedText-3j5CXt {
+  background-color: var(--quaternary-color);
+  border-left: 0px solid transparent;
+}
+
+.themeDefault-3M0dJU.valueChecked-3Bzkbm {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.themeDefault-3M0dJU {
+    background-color: rgba(0,0,0,0.2) !important;
+}
+
+.theme-dark .user-settings-games .now-playing, .theme-light .user-settings-games .now-playing {
+    background-color: rgba(0,0,0,0.4) !important;
+}
+
+.headerPlaying-2Q7mBy {
+    background: rgba(0,0,0,0.8) !important;
+}
+
+.theme-dark .note-2AtC_s textarea:focus {
+    background-color: rgba(0,0,0,0.9) !important;
+}
+
+.private-channels .channel:hover a, .private-channels .channel.selected a {
+    background-color: rgba(0,0,0,0.4) !important;
+}
+
+.create-guild-container.deprecated, .create-guild-container.deprecated .action {
+    -webkit-box-sizing: border-box;
+    background-color: transparent !important;
+}
+
+.form-deprecated .btn-primary:hover, .form.deprecated .btn-primary:hover {
+    background: #677bc4 !important;
+}
+.create-guild-container.deprecated .create-or-join .actions .or {
+    display: none;
+}
+
+.form-deprecated header, .form.deprecated header {
+    color: #fff;
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: rgba(0,0,0,0.4) !important;
+    border-color: transparent;
+}
