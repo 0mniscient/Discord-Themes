@@ -1271,7 +1271,7 @@ pre {
   background-color: var(--rs-invisible-color) !important;
 }
 
-.channel-members {
+.channel-members, .theme-dark .members-1bid1J {
   background-color: var(--primary-color) !important;
 }
 
@@ -1293,7 +1293,7 @@ pre {
   font-size: 10px;
 }
 
-.channel-members h2 {
+.channel-members h2, .membersGroup-3_dP5E {
   color: var(--main-color) !important;
   background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
   background-size: 100% 3px;
@@ -1311,7 +1311,7 @@ pre {
   margin-left: 15px;
 }
 
-.channel-members h2:first-of-type {
+.channel-members h2:first-of-type, .membersGroup-3_dP5E:first-of-type {
   margin-top: 0px !important;
 }
 
