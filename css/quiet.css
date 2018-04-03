@@ -1639,7 +1639,7 @@ pre {
 /* 16. Channel Search Pop out */
 
 .theme-dark .search .search-bar {
-    background-color: var(--primary-color) !important;
+    background-color: var(--primary-color);
 }
 
 .search .search-bar-icon {
