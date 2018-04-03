@@ -746,6 +746,10 @@ pre {
   height: 18px;
   line-height: 18px;
 }
+
+.channel-members-wrap, .guilds-wrapper, .channels-wrap .flexChild-1KGW5q, .container-iksrDt, .container-3lnMWU, #friends .friends-header, .chat .title-wrap, .popout.popout-bottom-right.no-arrow.no-shadow, .chat form .channel-text-area-default, .search-results-wrap, .embed-2diOCQ, .emojiPicker-3g68GS, .channels-3g2vYe .scrollerWrap-2uBjct, .channels-3g2vYe .flexChild-1KGW5q, .wrapper-uAa07y, .cardPrimary-ZVL9Jr, .cardPrimaryEditable-2IQ7-V, .authedApp-2JX_oI, .modal-3HOjGZ .message-25xg43, .theme-dark .autocomplete-1TnWNR, .menu-3BZuDT {
+    box-shadow: 0 0px 0px rgba(0,0,0,0.0) !important;
+}
 /* 9. Emoji Picker */
 
 .popout.no-shadow .emojiPicker-3g68GS, .popout.no-shadow #bda-qem-favourite-container, .popout.no-shadow #bda-qem-twitch-container {
@@ -1209,6 +1213,11 @@ pre {
 
 /* 12. Members List Area */
 
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+    background-color: var(--quaternary-color) !important;
+    color: #fff;
+}
+
 .message-group .mentioned .message-text:after {
   display: none !important;
 }
@@ -1530,6 +1539,11 @@ pre {
 
 /* 14. Friends List */
 
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: var(--quaternary-color) !important;
+    border-color: transparent;
+}
+
 #friends, .friends-table {
   background-color: var(--primary-color) !important;
 }
@@ -1615,6 +1629,15 @@ pre {
 }
 
 /* 16. Channel Search Pop out */
+
+.theme-dark .search .search-bar {
+    background-color: var(--primary-color) !important;
+}
+
+.search .search-bar-icon {
+    width: 35px;
+    background-color: var(--primary-color) !important;
+}
 
 .search-popout {
   background-color: var(--primary-color) !important;
