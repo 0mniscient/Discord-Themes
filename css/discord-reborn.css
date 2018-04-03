@@ -507,3 +507,12 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .button-1aU9q1:hover {
     background-color: transparent !important;
 }
+
+.theme-dark .attachment-1Vom9D {
+    background-color: rgba(0,0,0,0.4) !important;
+    border-color: transparent !important;
+}
+
+.theme-dark .message-group a {
+    color: #fff !important;
+}
