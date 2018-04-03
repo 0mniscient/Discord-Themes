@@ -83,6 +83,21 @@
   /* color for streaming status */
 }
 
+::-webkit-scrollbar,
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+    width: 10px !important;
+    border: none !important;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: var(--rs-transparency) !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--rs-transparency) !important;
+}
+
 .theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background-color: var(--tertiary-color) !important;
 
