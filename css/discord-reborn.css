@@ -10,13 +10,13 @@
 .app.theme-dark, .theme-dark, .theme-dark .theme-light, .theme-dark.popouts, .theme-light.popouts+.tooltips, .tooltips+.theme-dark {
   --rs-transparency: rgba(0,0,0,0) !important;
   /* primary transparency */
-  --primary-color: rgba(0,0,0,0.6);
+  --primary-color: rgba(0,0,0,0.6) !important;
   /* primary background color */
-  --secondary-color: rgba(0,0,0,0.8);
+  --secondary-color: rgba(0,0,0,0.8) !important;
   /* secondary background color */
-  --tertiary-color: rgba(0,0,0,0.3);
+  --tertiary-color: rgba(0,0,0,0.3) !important;
   /* tertiary background color */
-  --quaternary-color: rgba(0,0,0,0.4);
+  --quaternary-color: rgba(0,0,0,0.4) !important;
   /* quaternary background color */
   --rs-spacing: 2px;
   /* spacing between avatar and status */
@@ -49,13 +49,13 @@
 .app.theme-light, .theme-light, .theme-light .theme-light, .theme-light.popouts, .theme-light.popouts+.tooltips, .tooltips+.theme-light {
   --rs-transparency: rgba(0,0,0,0) !important;
   /* primary transparency */
-  --primary-color: rgba(0,0,0,0.6);
+  --primary-color: rgba(0,0,0,0.6) !important;
   /* primary background color */
-  --secondary-color: rgba(0,0,0,0.8);
+  --secondary-color: rgba(0,0,0,0.8) !important;
   /* secondary background color */
-  --tertiary-color: rgba(0,0,0,0.3);
+  --tertiary-color: rgba(0,0,0,0.3) !important;
   /* tertiary background color */
-  --quaternary-color: rgba(0,0,0,0.4);
+  --quaternary-color: rgba(0,0,0,0.4) !important;
   /* quaternary background color */
   --rs-spacing: 2px;
   /* spacing between avatar and status */
