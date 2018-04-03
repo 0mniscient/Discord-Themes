@@ -556,7 +556,7 @@ pre {
 }
 
 .guilds-wrapper .guilds .guild.unread:before {
-  transition: all .25 linear;
+  transition: all ease .2s;
 }
 
 .guilds-wrapper .guilds .guild .guild-inner {
