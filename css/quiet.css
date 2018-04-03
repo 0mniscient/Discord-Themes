@@ -215,7 +215,7 @@ pre {
 }
 
 .search .search-bar {
-  background-color: var(--quaternary-color) !important;
+  background-color: var(--quaternary-color);
   height: 46px;
   width: 170px;
   border-radius: 0px;
@@ -267,7 +267,7 @@ pre {
 
 .popout .themed-popout .header {
   border-radius: 0px;
-  background-color: var(--quaternary-color) !important;
+  background-color: var(--quaternary-color)
 }
 
 .messages-popout-wrap .messages-popout .message-group {
