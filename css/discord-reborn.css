@@ -83,6 +83,9 @@
   /* color for streaming status */
 }
 
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+    background-color: var(--tertiary-color) !important;
+
 .chat form {
     transparent !important;
 }
