@@ -1059,6 +1059,14 @@ pre {
 }
 /* 11. Popout Menu -> User Status */
 
+.headerPlaying-2Q7mBy {
+    background: var(--secondary-color);
+}
+
+.topSectionPlaying-3jAH9b {
+    background: var(--secondary-color);
+}
+
 .popout.popout-top, .popout.popout-top-left {
   overflow: visible !important;
 }
