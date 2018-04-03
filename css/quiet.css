@@ -4,7 +4,7 @@
 /* User Settings */
 :root {
 	--theme-name: "Quiet";
-	--theme-version: "1.3";
+	--theme-version: "1.4";
 }
 
 /* Dark Mode Settings */
@@ -709,6 +709,12 @@ pre {
   pointer-events: none;
 }
 
+/* -- ADDED THE DASHED PLACEHOLDER WHEN DRAGGING GUILDS -- */
+
+.guilds .guild-placeholder {
+	border-radius: 0 !important;
+}
+
 /* 8. Account Area */
 
 .container-iksrDt {
@@ -994,42 +1000,62 @@ pre {
 }
 
 /* 10. Avatars */
-.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
-  border-radius: 1px !important;
-  background-size: cover !important;
+
+.mask-2vyqAW, .image-EVRGPw {
+  border-radius: 0% !important;
+  -webkit-mask: none;
+  mask: none;
 }
 
-[class*="avatar-"] .status, .channel-members [class*="avatar-"] .status {
-  height: 100%;
-  width: 100%;
-  background-color: transparent;
-  bottom: -2px !important;
-  border-radius: 1px !important;
-  right: -2px !important;
+/* -- just selecting "class*="status-"] ends up giving the voice connection status a border too -- */
+.member-2FrNV0 [class*="status-"], 
+.userPopout-11hFKo [class*="status-"], 
+.modal-2LIEKY [class*="status-"] {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 0% !important;
+    margin: 0;
+    top: -2px !important;
+    left: -2px !important;
+    background: transparent !important;
+    border:2px solid !important;
+    transition-duration: .5s !important;
 }
 
-[class*="avatar-"] .status-online {
-  border: 2px solid var(--rs-online-color) !important;
+.member-2FrNV0 [class*="status-"].statusOnline-1Mp2_H,
+.userPopout-11hFKo [class*="status-"].statusOnline-1Mp2_H,
+.modal-2LIEKY [class*="status-"].statusOnline-1Mp2_H {
+    border-color: var(--rs-online-color) !important;
 }
 
-[class*="avatar-"] .status-idle {
-  border: 2px solid var(--rs-idle-color) !important;
+.member-2FrNV0 [class*="status-"].statusIdle-2AQdvu,
+.userPopout-11hFKo [class*="status-"].statusIdle-2AQdvu,
+.modal-2LIEKY [class*="status-"].statusIdle-2AQdvu {
+    border-color: var(--rs-idle-color) !important;
 }
 
-[class*="avatar-"] .status-dnd {
-  border: 2px solid var(--rs-dnd-color) !important;
+.member-2FrNV0 [class*="status-"].statusDnd-35xAXU,
+.userPopout-11hFKo [class*="status-"].statusDnd-35xAXU,
+.modal-2LIEKY [class*="status-"].statusDnd-35xAXU {
+    border-color: var(--rs-dnd-color) !important;
 }
 
-[class*="avatar-"] .status-offline {
-  border: 2px solid var(--rs-offline-color) !important;
+.member-2FrNV0 [class*="status-"].statusStreaming-1bZ3Hq,
+.userPopout-11hFKo [class*="status-"].statusStreaming-1bZ3Hq,
+.modal-2LIEKY [class*="status-"].statusStreaming-1bZ3Hq {
+    border-color: var(--rs-streaming-color) !important;
 }
 
-[class*="avatar-"] .status-invisible {
-  border: 2px solid var(--rs-invisible-color) !important;
+.member-2FrNV0 [class*="status-"].statusOffline-jZXr_u,
+.userPopout-11hFKo [class*="status-"].statusOffline-jZXr_u,
+.modal-2LIEKY [class*="status-"].statusOffline-jZXr_u {
+    border-color: var(--rs-offline-color) !important;
 }
 
-[class*="avatar-"] .status-streaming {
-  border: 2px solid var(--rs-streaming-color) !important;
+.member-2FrNV0 [class*="status-"].statusInvisible-2ci18Q,
+.userPopout-11hFKo [class*="status-"].statusInvisible-2ci18Q,
+.modal-2LIEKY [class*="status-"].statusInvisible-2ci18Q {
+    border-color: var(--rs-invisible-color) !important;
 }
 
 .container-iksrDt [class*="avatar-"]:hover {
@@ -1217,12 +1243,9 @@ pre {
   background: transparent !important;
 }
 
-#app-mount .status.status-typing {
-  width: 100% !important;
-  height: 100% !important;
-  background: transparent !important;
-  margin: 0;
-}
+/* -- NO NEED TO IDENTIFY SPINNER, IT'S THE SAME AS THE STATUS CIRCLE IN "AVATARS" -- */
+
+/* -- MORE CLASS NAME CHANGES -- */
 
 #app-mount .status.status-typing .spinner-item {
   height: 3px;
@@ -1230,49 +1253,54 @@ pre {
   border-radius: 0px !important;
 }
 
-#app-mount .status.status-typing.status-idle .spinner-item {
-  background-color: var(--rs-idle-color) !important;
+.member-2FrNV0 [class*="status-"].statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
+  height: 3px;
+  width: 3px;
+  border-radius: 0px !important;
 }
 
-#app-mount .status.status-typing.status-dnd .spinner-item {
-  background-color: var(--rs-dnd-color) !important;
+.member-2FrNV0 [class*="status-"].statusOnline-1Mp2_H.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
+  background-color: var(--rs-online-color);
 }
 
-#app-mount .status.status-typing.status-online .spinner-item {
-  background-color: var(--rs-online-color) !important;
+.member-2FrNV0 [class*="status-"].statusIdle-2AQdvu.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
+  background-color: var(--rs-idle-color);
 }
 
-#app-mount .status.status-typing.status-offline .spinner-item {
-  background-color: var(--rs-offline-color) !important;
+.member-2FrNV0 [class*="status-"].statusDnd-35xAXU.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
+  background-color: var(--rs-dnd-color);
 }
 
-#app-mount .status.status-typing.status-streaming .spinner-item {
-  background-color: var(--rs-streaming-color) !important;
+.member-2FrNV0 [class*="status-"].statusStreaming-1bZ3Hq.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
+  background-color: var(--rs-streaming-color);
 }
 
-#app-mount .status.status-typing.status-invisible .spinner-item {
-  background-color: var(--rs-invisible-color) !important;
+.member-2FrNV0 [class*="status-"].statusOffline-jZXr_u.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
+  background-color: var(--rs-offline-color);
+}
+
+.member-2FrNV0 [class*="status-"].statusInvisible-2ci18Q.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE {
+  background-color: var(--rs-invisible-color);
 }
 
 .channel-members {
   background-color: var(--primary-color) !important;
 }
 
-.channel-members .member .member-username {
-  font-size: 15px;
+.channel-members .member-2FrNV0 .memberInner-3XUq9K .nameTag-3F0z_i{
+	font-size:15px;
 }
 
-.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:active, .theme-dark .channel-members .member:hover.popout-open, .theme-dark .channel-members .member:hover.popout-open:active {
-  background: var(--quaternary-color) !important;
-  border-left: 2px solid var(--main-color);
+.theme-dark .channel-members .member-2FrNV0.popout-open, .theme-dark .channel-members .member-2FrNV0:active, .theme-dark .channel-members .member-2FrNV0.popout-open:hover, .theme-dark .channel-members .member-2FrNV0.popout-open:active {
+   background: var(--quaternary-color) !important;
+   border-left: 2px solid var(--main-color);
+ }
+
+.channel-members .member-2FrNV0:hover .content-3JzEqq, .channel-members .member-2FrNV0.popout-open .content-3JzEqq {
+	background: var(--quaternary-color) !important;
 }
 
-.theme-dark .channel-members .member:hover {
-  background: var(--secondary-color) !important;
-  border-left: 2px solid var(--hover-color);
-}
-
-.channel-members .member .member-game {
+.channel-members .member-2FrNV0 .activityText-258pdj {
   font-size: 10px;
 }
 
@@ -1298,6 +1326,9 @@ pre {
   margin-top: 0px !important;
 }
 
+/*  ---- THIS DOESN'T WORK ANYMORE || IDENTIFIERS NESTLED IN A DIFFERENT PARENT ELEMENT
+
+
 .channel-members .member.member-status-online .member-inner .member-activity-text strong {
   color: var(--rs-online-color) !important;
 }
@@ -1318,6 +1349,7 @@ pre {
   color: var(--rs-streaming-color) !important;
 }
 
+*/
 /* 13. Main Chat Area */
 
 .chat .messages .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO {
