@@ -96,7 +96,7 @@
 }
 
 .theme-dark .friends-table, .theme-dark .messages-wrapper {
-    background-color: var(--primary-color) !important;
+    background-color: transparent !important;
 }
 
 .theme-dark .chat form {
@@ -827,7 +827,7 @@ pre {
 /* 8. Account Area */
 
 .container-iksrDt {
-  background: var(--secondary-color) !important;
+  background: transparent !important;
   height: 53px !important;
 }
 
@@ -1189,12 +1189,6 @@ pre {
 .container-iksrDt .status {
   top: -2;
   border: none;
-}
-
-.container-iksrDt {
-  position: relative;
-  background: #181a1d;
-  z-index: 100 !important;
 }
 
 .menu-3BZuDT.alt-2vq4VR {
