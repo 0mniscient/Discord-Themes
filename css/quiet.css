@@ -119,7 +119,7 @@
 /* 1. User Settings */
 
 .ui-standard-sidebar-view .sidebar-region .sidebar, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
-  background-color: var(--quaternary-color);
+  background-color: var(--quaternary-color) !important
 }
 
 .ui-standard-sidebar-view .content-region {
