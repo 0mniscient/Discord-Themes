@@ -1607,6 +1607,13 @@ pre {
   margin-top: 55px !important;
 }
 
+.theme-dark .message-group.is-local-bot-message {
+  background-image: var(--primary-color);
+  padding-left: 20px !important;
+  margin-left: 0px !important;
+  width: 100% !important;
+}
+
 /* 14. Friends List */
 
 .theme-dark #friends .friends-table .friends-row:hover {
