@@ -433,7 +433,7 @@ pre {
 }
 
 .private-channels .search-bar .search-bar-inner {
-  background: var(--quaternary-color);
+  background: transparent !important;
   border: 0px solid transparent;
   border-radius: 0px;
   padding: 0px;
@@ -743,7 +743,7 @@ pre {
 }
 
 .guilds-wrapper .guilds>div.guild:first-child .guild-inner {
-  background-color: var(--quaternary-color) !important;
+  background-color: transparent !important;
   border-radius: 0px !important;
 }
 
