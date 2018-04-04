@@ -119,11 +119,11 @@
 /* 1. User Settings */
 
 .ui-standard-sidebar-view .sidebar-region .sidebar, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
-  background-color: var(--quaternary-color) !important;
+  background-color: var(--quaternary-color);
 }
 
 .ui-standard-sidebar-view .content-region {
-  background-color: var(--primary-color) !important;
+  background-color: var(--primary-color);
 }
 
 .ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
@@ -156,7 +156,7 @@
 }
 
 .side-2nYO0F .itemSelected-3XxAMf {
-  background-color: var(--main-color) !important;
+  background-color: var(--main-color);
 }
 
 /* 2. Code Blocks */
@@ -195,8 +195,8 @@ pre {
 /* 3. Title Bar Area*/
 
 .title-qAcLxz {
-  background: var(--primary-color) !important;
-  box-shadow: 0px 0px transparent !important;
+  background: var(--primary-color);
+  box-shadow: 0px 0px transparent;
   border-bottom: 2px solid var(--main-color);
 }
 
@@ -400,7 +400,7 @@ pre {
 }
 
 .container-RYiLUQ {
-  background: var(--primary-color) !important;
+  background: var(--primary-color);
 }
 
 .channels-3g2vYe .scrollerWrap-2uBjct {
