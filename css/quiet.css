@@ -1909,17 +1909,20 @@ pre {
 
 .need-help-modal .header h1::after {
   content: var(--theme-name)" v" var(--theme-version);
+  white-space: nowrap !important;
   color: #fff;
   font-weight: 700;
-  font-size: 250%;
+  font-size: 470% !important;
   z-index: 11;
   position: absolute;
   width: 200%;
-  left: 0px;
+  height: 150% !important;
+  left: -220px !important;
   margin-left: -45px;
-  top: 16px;
+  top: 10px !important;
   font-family: Satisfy;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.4) !important;
+  
 }
 
 .need-help-modal.deprecated .header {
@@ -1947,7 +1950,7 @@ form.modal-content.form.need-help-modal::after {
   position: relative;
   z-index: 10;
   height: 150px;
-  width: 100%;
+  width: 135% !important;
   padding: 0;
   -webkit-box-pack: center;
   justify-content: center;
@@ -1980,13 +1983,17 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .need-help-modal .form-inner.loading::after {
-  content: "C\0332 r\0332 e\0332 a\0332 t\0332 o\0332 r\0332 :\A Omniscient#0002 \A\A P\0332 e\0332 r\0332 s\0332 o\0332 n\0332 a\0332 l\0332 S\0332 e\0332 r\0332 v\0332 e\0332 r\0332:\A discord.me/mrrobotserver \A\A D\0332 o\0332 n\0332 a\0332 t\0332 i\0332 o\0332 n\0332:\A paypal.me/Chaotiic \A\A C\0332 r\0332 e\0332 d\0332 i\0332 t\0332 s\0332:\A → Dingus#6977 (Helper)";
-  padding: 38px;
-  min-height: 200px;
+  line-height: 15px !important;
+  content: "\A\A\AThanks for purchasing my themes! \A\A\A\A Theme Creators: \A\A\A\A Omniscient#0002 & Kya#0001 \A\A\A\A My Server: \A\A\A\A http://discord.me/mrrobotserver " !important;
+  text-align: center;
+  padding: 58px;
+  min-height: 100px;
+  height: 350px !important;
   background-color: #19191b;
-  width: 100%;
+  width: 140% !important;
   white-space: pre;
   color: #fff;
+  font-size: 150% !important;
 }
 
 .need-help-modal .form-inner>ul {
@@ -2008,13 +2015,13 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .need-help-modal .footer::after {
-  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0Need help? Visit https://betterdocs.net";
+  content: "";
   background-color: #19191b;
-  width: 100%;
+  width: 134.3%!important;
   height: 34px;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: -89px !important;
   line-height: 32px;
   border-radius: 0 0 5px 5px;
   border-top: 2px solid #161618;
@@ -2033,6 +2040,11 @@ form.modal-content.form.need-help-modal::after {
   background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_sentiment_very_dissatisfied_white_24px.svg) !important;
   opacity: 0.3;
 }
+
+.form-deprecated .form-header, .form.deprecated .form-header, .form-deprecated .form-inner, .form.deprecated .form-inner {
+    background-color: var(--main-color) !important;
+}
+
 /* 22. Modals */
 
 .theme-dark .theme-light .clipboardInputInner-oj8y-S {
