@@ -159,6 +159,18 @@
   background-color: var(--main-color) !important;
 }
 
+.theme-dark .card-11ynQk:before, .side-2nYO0F .item-3879bf:hover { 
+	background-color: var(--secondary-color) !important; 
+	border-color: var(--secondary-color) !important 
+}
+
+.theme-dark .button-1qrA-N { background-color: var(--secondary-color) !important }
+
+.theme-dark .user-settings-games .game-name-input:focus, .theme-dark .user-settings-games .game-name-input:hover { 
+	background-color: var(--tertiary-color) !important 
+}
+
+
 /* 2. Code Blocks */
 
 pre, code {
@@ -1005,6 +1017,29 @@ pre {
 
 /* 10. Avatars */
 
+.avatar-small, .avatar-large { border-radius: 1px !important;}
+
+.avatar-small .status { 
+  height: 100%; 
+  width: 100%; 
+  top: -2px !important; 
+  left: -2px !important; 
+  border: 2px solid !important; 
+  background: transparent !important; 
+  border-radius: 1px !important;
+}
+
+.status.status-online{ border-color: var(--rs-online-color) !important}
+.status.status-idle { border-color: var(--rs-idle-color) !important}
+.status.status-dnd { border-color: var(--rs-dnd-color) !important}
+.status.status-invisible { border-color: var(--rs-invisible-color) !important}
+.status.status-streaming { border-color: var(--rs-streaming-color) !important}
+.status.status-offline { border-color: var(--rs-offline-color) !important}
+
+.member-2FrNV0 [class*="status-"] { transition: all ease .05s }
+
+.member-2FrNV0 [class*="status-"].statusTyping-lRly31 { border-radius: 20% !important; background: rgba(10,10,10,0.50) !important }
+
 .mask-2vyqAW, .image-EVRGPw {
   border-radius: 0% !important;
   -webkit-mask: none;
@@ -1295,7 +1330,7 @@ pre {
   background-color: var(--rs-invisible-color);
 }
 
-.channel-members {
+.channel-members, .theme-dark .members-1bid1J {
   background-color: var(--primary-color) !important;
 }
 
@@ -1316,7 +1351,7 @@ pre {
   font-size: 10px;
 }
 
-.channel-members h2 {
+.channel-members h2, .membersGroup-3_dP5E {
   color: var(--main-color) !important;
   background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
   background-size: 100% 3px;
@@ -1334,7 +1369,7 @@ pre {
   margin-left: 15px;
 }
 
-.channel-members h2:first-of-type {
+.channel-members h2:first-of-type, .membersGroup-3_dP5E:first-of-type {
   margin-top: 0px !important;
 }
 
@@ -1936,17 +1971,19 @@ pre {
 
 .need-help-modal .header h1::after {
   content: var(--theme-name)" v" var(--theme-version);
+  white-space: nowrap !important;
   color: #fff;
   font-weight: 700;
   font-size: 250%;
   z-index: 11;
   position: absolute;
   width: 200%;
-  left: 0px;
+  height: 150% !important;
+  left: -220px !important;
   margin-left: -45px;
-  top: 16px;
+  top: 10px !important;
   font-family: Satisfy;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.4) !important;
 }
 
 .need-help-modal.deprecated .header {
@@ -1974,7 +2011,7 @@ form.modal-content.form.need-help-modal::after {
   position: relative;
   z-index: 10;
   height: 150px;
-  width: 100%;
+  width: 135% !important;
   padding: 0;
   -webkit-box-pack: center;
   justify-content: center;
@@ -2007,13 +2044,17 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .need-help-modal .form-inner.loading::after {
-  content: "C\0332 r\0332 e\0332 a\0332 t\0332 o\0332 r\0332 :\A Omniscient#0002 \A\A P\0332 e\0332 r\0332 s\0332 o\0332 n\0332 a\0332 l\0332 S\0332 e\0332 r\0332 v\0332 e\0332 r\0332:\A discord.me/mrrobotserver \A\A D\0332 o\0332 n\0332 a\0332 t\0332 i\0332 o\0332 n\0332:\A paypal.me/Chaotiic \A\A C\0332 r\0332 e\0332 d\0332 i\0332 t\0332 s\0332:\A → Dingus#6977 (Helper)";
-  padding: 38px;
-  min-height: 200px;
+  line-height: 15px !important;
+  content: "\A\A\AThanks for purchasing my themes! \A\A\A\A Theme Creators: \A\A\A\A Omniscient#0002 & Kya#0001 \A\A\A\A My Server: \A\A\A\A http://discord.me/mrrobotserver " !important;
+  text-align: center;
+  padding: 58px;
+  min-height: 100px;
+  height: 350px !important;
   background-color: #19191b;
-  width: 100%;
+  width: 140% !important;
   white-space: pre;
   color: #fff;
+  font-size: 150% !important
 }
 
 .need-help-modal .form-inner>ul {
@@ -2035,13 +2076,13 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .need-help-modal .footer::after {
-  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0Need help? Visit https://betterdocs.net";
+  content: "";
   background-color: #19191b;
-  width: 100%;
+  width: 142% !important;
   height: 34px;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: -109px !important;
   line-height: 32px;
   border-radius: 0 0 5px 5px;
   border-top: 2px solid #161618;
@@ -2060,6 +2101,11 @@ form.modal-content.form.need-help-modal::after {
   background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_sentiment_very_dissatisfied_white_24px.svg) !important;
   opacity: 0.3;
 }
+
+.form-deprecated .form-header, .form.deprecated .form-header, .form-deprecated .form-inner, .form.deprecated .form-inner {
+    background-color: var(--main-color) !important;
+}
+
 /* 22. Modals */
 
 .theme-dark .theme-light .clipboardInputInner-oj8y-S {
