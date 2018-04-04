@@ -2739,6 +2739,14 @@ body, span:not(.spinner-item) {
   border-radius: 0px !important;
 }
 
+.titleWrapper-3Vi_wz .title-qAcLxz {
+background: var(--quaternary-color) !important;
+}
+
+.scroller-fzNley.content-region-scroller {
+    background: var(--primary-color) !important;
+}
+
 /* 30. Keyframes */
 
 @keyframes slide-up {
@@ -2828,3 +2836,4 @@ body, span:not(.spinner-item) {
     transform: scale(1);
   }
 }
+
