@@ -2017,11 +2017,11 @@ form.modal-content.form.need-help-modal::after {
 .need-help-modal .footer::after {
   content: "";
   background-color: #19191b;
-  width: 134.3%!important;
+  width: 142% !important;
   height: 34px;
   position: absolute;
   bottom: 0;
-  left: -89px !important;
+  left: -109px !important;
   line-height: 32px;
   border-radius: 0 0 5px 5px;
   border-top: 2px solid #161618;
