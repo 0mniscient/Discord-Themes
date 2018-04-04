@@ -192,7 +192,7 @@
 }
 
 .messages-wrapper {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
 }
 
 .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view {
