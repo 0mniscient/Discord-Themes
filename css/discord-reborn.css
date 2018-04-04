@@ -120,6 +120,9 @@
     background: var(--primary-color) !important;
 }
 
-.channels-3g2vYe {
+.channels-3g2vYe, .friends-table, .messages-wrapper, .channel-members {
     background-color: var(--primary-color) !important;
+}
+.title-qAcLxz {
+    background: var(--primary-color) !important;
 }
