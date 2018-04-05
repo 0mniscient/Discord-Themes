@@ -173,7 +173,7 @@ pre, code {
 
 pre.inline, code.inline {
   padding: 3px !important;
-  background: var(--primary-color) !important;
+  background: var(--quaternary-color) !important;
 }
 
 code:not(.inline) {
