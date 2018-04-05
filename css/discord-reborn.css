@@ -755,3 +755,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .textAreaDisabled-1XpYns, .textAreaEdit-1qc9VQ, .textAreaEnabledNoAttach-1zE_2h, .textAreaForm-2NWGTp {
     padding: 16px 15px 14px 15px !important;
 }
+
+.menu-3BZuDT .status-online {
+    background-color: var(--rs-online-color) !important;
+}
