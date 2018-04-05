@@ -224,7 +224,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .headerBar-cxbhPD {
   box-shadow: 0px 0px transparent !important;
   background: var(--primary-color) !important;
-  border-bottom: 0px solid transparent !important;
+  border-bottom: 2px solid var(--main-color) !important;
   height: 46px !important;
 }
 
