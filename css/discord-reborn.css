@@ -743,3 +743,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     border-radius: 16px;
     color: var(--main-color) !important;
 }
+
+.popout-bottom[style*="overflow: hidden; visibility: visible;"] {
+    top: 46px !important;
+}
