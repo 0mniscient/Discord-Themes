@@ -759,3 +759,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .menu-3BZuDT .status-online {
     background-color: var(--rs-online-color) !important;
 }
+
+.theme-dark .headerNormal-3Vn9nT {
+    background-color: var(--main-color) !important;
+}
