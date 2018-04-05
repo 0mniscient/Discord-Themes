@@ -1641,6 +1641,34 @@ pre {
 
 /* 16. Channel Search Pop out */
 
+.theme-dark .input-MwQhcX {
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.2), 0 0 0 1px rgba(0,0,0,.1);
+    background-color: var(--main-color);
+    box-shadow: 0 2px 5px rgba(0,0,0,.2), 0 0 0 1px rgba(0,0,0,.1);
+    color: #fff;
+}
+
+.theme-dark .quickswitcher-2NdiGJ {
+    background-color: var(--primary-color);
+    color: #dcddde;
+}
+
+.theme-dark .resultFocused-2geRUA {
+    background-color: var(--secondary-color);
+}
+
+.dark-2Ll8iS span {
+    -webkit-box-shadow: inset 0 -4px 0 rgba(35,39,42,.6);
+    background-color: var(--main-color);
+    border-color: transparent;
+    box-shadow: inset 0 -4px 0 rgba(35,39,42,.6);
+    color: #fff;
+}
+
+.dark-2Ll8iS span .bindArrow-3Mm64N g {
+    fill: #fff;
+}
+
 .theme-dark .search .search-bar {
     background-color: var(--primary-color);
 }
@@ -2864,4 +2892,3 @@ background: var(--primary-color) !important;
     transform: scale(1);
   }
 }
-
