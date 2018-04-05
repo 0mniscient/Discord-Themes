@@ -1309,6 +1309,7 @@ pre {
   font-weight: 600;
   text-align: center;
   border-radius: 3px;
+  line-height: 10px !important;
   width: 175px !important;
   margin-left: 30px !important;
 }
