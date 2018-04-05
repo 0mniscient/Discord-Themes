@@ -1950,7 +1950,7 @@ form.modal-content.form.need-help-modal::after {
   position: relative;
   z-index: 10;
   height: 150px;
-  width: 135% !important;
+  width: 141.8% !important;
   padding: 0;
   -webkit-box-pack: center;
   justify-content: center;
@@ -2015,17 +2015,18 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .need-help-modal .footer::after {
-  content: "";
-  background-color: #19191b;
-  width: 142% !important;
-  height: 34px;
-  position: absolute;
-  bottom: 0;
-  left: -109px !important;
-  line-height: 32px;
-  border-radius: 0 0 5px 5px;
-  border-top: 2px solid #161618;
-  color: #fff;
+    content: "Need help? Visit: betterdocs.net/" !important;
+    background-color: #19191b;
+    width: 142% !important;
+    height: 34px;
+    position: absolute;
+    text-align: center !important;
+    bottom: 0;
+    left: -109px !important;
+    line-height: 32px;
+    border-radius: 0 0 5px 5px;
+    border-top: 2px solid #161618;
+    color: #fff;
 }
 
 .need-help-modal .form-inner.loading .spinner {
