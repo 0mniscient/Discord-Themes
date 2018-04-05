@@ -727,3 +727,19 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .chat form .typing-3eiiL_ {
   background: transparent !important;
 }
+
+.bar-2cFRGz {
+    background: var(--main-color) !important;
+}
+
+.theme-dark .checked-2TahvT {
+    background-color: transparent !important;
+}
+
+.ghostPill-1yup5q {
+    -ms-flex: 0 0 auto;
+    -webkit-box-flex: 0;
+    background-color: transparent !important;
+    border-radius: 16px;
+    color: var(--main-color) !important;
+}
