@@ -1273,6 +1273,8 @@ pre {
 
 .channel-members, .theme-dark .members-1bid1J {
   background-color: var(--primary-color) !important;
+  box-shadow: 0 2px 20px rgba(0,0,0,.4);
+	
 }
 
 .channel-members .member .member-username {
