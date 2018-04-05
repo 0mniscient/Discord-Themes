@@ -683,7 +683,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .tooltip.tooltip-black {
-    display: none !important;
+    display: inherit !important;
 }
 
 
