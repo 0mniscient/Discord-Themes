@@ -192,6 +192,113 @@ pre {
   padding-bottom: 0x !important;
 }
 
+/* Languages for Header Blocks */
+
+.theme-dark .markup .hljs::before {
+    width: 100%;
+    height: 18px;
+    position: relative;
+    display: -webkit-box;
+    margin-top: 0px;
+    color: #fff;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    line-height: 17px !important;
+    padding: 2px 0 2px 0;
+    background-color: var(--main-color) !important;
+    text-align: center !important;
+}
+.theme-dark .markup .hljs {
+    padding: 2px !important;
+    font-size: 100%;
+    
+}
+.theme-dark .markup .hljs[class~="asciidoc" i]::before {
+    content: " Ascii Doc";
+}
+.theme-dark .markup .hljs[class~="js" i]::before,
+.theme-dark .markup .hljs[class~="javascript" i]::before {
+    content: " Javascript";
+}
+.theme-dark .markup .hljs[class~="css" i]::before {
+    content: " Cascading Style Sheet";
+}
+.theme-dark .markup .hljs[class~="bash" i]::before {
+    content: " Bash";
+}
+.theme-dark .markup .hljs[class~="markdown" i]::before,
+.theme-dark .markup .hljs[class~="md" i]::before {
+    content: " Markdown";
+}
+.theme-dark .markup .hljs[class~="html" i]::before {
+    content: " HTML";
+}
+.theme-dark .markup .hljs[class~="xl" i]::before {
+    content: " eXtensible Language";
+}
+.theme-dark .markup .hljs[class~="coffee" i]::before {
+    content: " Coffee (Javascript)";
+}
+.theme-dark .markup .hljs[class~="ruby" i]::before {
+    content: " Ruby";
+}
+.theme-dark .markup .hljs[class~="sql" i]::before {
+    content: " SQL";
+}
+.theme-dark .markup .hljs[class~="java" i]::before {
+    content: " Java";
+}
+.theme-dark .markup .hljs[class~="py" i]::before,
+.theme-dark .markup .hljs[class~="python" i]::before {
+    content: " Python";
+}
+.theme-dark .markup .hljs[class~="vb" i]::before,
+.theme-dark .markup .hljs[class~="visualbasic" i]::before {
+    content: " Visual Basic";
+}
+.theme-dark .markup .hljs[class~="lua" i]::before {
+    content: " Lua";
+}
+.theme-dark .markup .hljs[class~="php" i]::before {
+    content: " Php";
+}
+.theme-dark .markup .hljs[class~="swift" i]::before {
+    content: " Swift";
+}
+.theme-dark .markup .hljs[class~="makefile" i]::before {
+    content: " Makefile";
+}
+.theme-dark .markup .hljs[class~="go" i]::before {
+    content: " Go";
+}
+.theme-dark .markup .hljs[class~="ini" i]::before {
+    content: " ini";
+}
+.theme-dark .markup .hljs[class~="rust" i]::before {
+    content: " Rust";
+}
+.theme-dark .markup .hljs[class~="prolog" i]::before {
+    content: " Prolog";
+}
+.theme-dark .markup .hljs[class~="ts" i]::before,
+.theme-dark .markup .hljs[class~="typescript" i]::before {
+    content: " TypeScript";
+}
+.theme-dark .markup .hljs[class~="http" i]::before {
+    content: " HTTP";
+}
+.theme-dark .markup .hljs[class~="json" i]::before {
+    content: " Json";
+}
+.theme-dark .markup .hljs[class~="xml" i]::before {
+    content: " XML";
+}
+.theme-dark .markup .hljs[class~="less" i]::before {
+    content: " Less";
+}
+.theme-dark .markup .hljs[class~="cpp" i]::before {
+    content: " C++";
+}
 /* 3. Title Bar Area*/
 
 .title-qAcLxz {
