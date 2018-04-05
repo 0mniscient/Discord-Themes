@@ -218,7 +218,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 
 .header-1tSljs {
     box-shadow: 0px 0px transparent;
-    border-bottom: 0px solid transparent !important;
+    border-bottom: 2px solid var(--main-color) !important;
 }
 
 .headerBar-cxbhPD {
@@ -240,13 +240,13 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     margin-top: -48px;
     width: 70px;
     margin-left: -10px;
-    border-bottom: 0px solid transparent !important;
+    border-bottom: 2px solid var(--main-color) !important;
     position: fixed;
     z-index: 2;
 }
 
 .private-channels .search-bar {
-    border-bottom: 0px solid transparent !important;
+    border-bottom: 2px solid var(--main-color) !important;
 }
 
 .messages-popout-wrap .messages-popout .message-group:hover {
