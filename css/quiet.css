@@ -2360,6 +2360,18 @@ form.modal-content.form.need-help-modal::after {
 
 /* 25. Server Settings Pop out */
 
+.ui-standard-sidebar-view .custom-scroller{
+    background: var(--primary-color) !important;
+}
+
+.popoutList-2NT_IY {
+    background: var(--secondary-color) !important;
+}
+
+.selectableItem-3PW5_y:hover {
+    background: var(--quaternary-color) !important;
+}
+
 .guild-header.popout-open~.ui-scroller-wrap {
   -ms-transform: translate(0, 40px);
   transform: translate(0, 40px);
