@@ -287,7 +287,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .headerPlaying-2Q7mBy {
-    background: rgba(0,0,0,0.8) !important;
+    background: var(--main-color) !important;
 }
 
 .theme-dark .note-2AtC_s textarea:focus {
