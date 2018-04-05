@@ -747,3 +747,11 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .popout-bottom[style*="overflow: hidden; visibility: visible;"] {
     top: 46px !important;
 }
+
+.chat .channelTextAreaEnabledNoAttach-19CjQr.channelTextArea-1HTP3C.channelTextArea-os01xC {
+    margin: 0 !important;
+}
+
+.textAreaDisabled-1XpYns, .textAreaEdit-1qc9VQ, .textAreaEnabledNoAttach-1zE_2h, .textAreaForm-2NWGTp {
+    padding: 16px 15px 14px 15px !important;
+}
