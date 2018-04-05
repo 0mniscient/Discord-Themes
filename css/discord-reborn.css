@@ -713,3 +713,22 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .scroller-fzNley.content-region-scroller {
     background: transparent !important;
 }
+
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+  background: rgba(0,0,0,0.8) !important;
+  color: #8a8e94;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+  background: rgba(0,0,0,0.6) !important;
+  border-color: transparent !important;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
+  background: rgba(0,0,0,0.8) !important;
+  border-color: transparent !important;
+}
+
+.chat form .typing-3eiiL_ {
+  background: transparent !important;
+}
