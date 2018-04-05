@@ -2388,7 +2388,7 @@ form.modal-content.form.need-help-modal::after {
   top: 0px !important;
   animation: popoutanim-inner 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
   -ms-flex-direction: column !important;
-  flex-direction: column !important;
+  flex-direction: column popout popout-bottom!important;
   -ms-flex-pack: start;
   justify-content: flex-start;
   display: -ms-flexbox;
@@ -2413,7 +2413,7 @@ body:active .popout-bottom:not(:active) .menu-3BZuDT:not(:active) {
 .popout-bottom[style*="overflow: hidden; visibility: visible;"] {
   box-shadow: none !important;
   left: 75px !important;
-  top: 68px !important;
+  top: 46px !important;
   width: 230px !important;
   height: auto !important;
   margin: 0px;
