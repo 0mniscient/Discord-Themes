@@ -301,6 +301,25 @@ pre {
 }
 /* 3. Title Bar Area*/
 
+/* Revert TitleBar */
+
+div[class*="titleBar-"]{height: 0px;margin-top: 0px;}
+div[class*="titleBar-"]:before{content: '';position: absolute;left: 0;right: 0;top: 6px;height: 14px;z-index: 3002;-webkit-app-region: drag;}
+div[class*="titleBar-"]:after{content: '';position: absolute;left: 0;right: 0;top: 0;height: 6px;z-index: 3002;}
+div[class*="wordmark-"], div[class*="winButton-"] svg{display: none;}
+div[class*="winButton-"]{top: 9px;height: 30px;width: 30px;right: 8px;background-position: center;opacity: .6;transition: .2s ease;}
+div[class*="winButton-"]:hover{-webkit-transition: all .2s ease-in-out;transition: all .2s ease-in-out;background-color: var(--hover-color) !important;border-radius: 3px;opacity: 1;}
+div[class*="titleBar-"] div:nth-of-type(2){background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg) !important;background-repeat: no-repeat;background-position: center;background-size: 24px;}
+div[class*="titleBar-"] div:nth-of-type(3){background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/fullscreen.svg) !important;background-repeat: no-repeat;background-position: center;background-size: 24px;}
+div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg) !important;background-repeat: no-repeat;background-position: center 7px;background-size: 24px;}
+.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-'],
+#friends [class*='flex-'] [class*='flex-']:last-of-type,
+[class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type{margin-right: 98px;}
+.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after,
+#friends [class*='flex-'] [class*='flex-']:last-of-type:after,
+[class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {content: '';width: 1px;height: 22px;background-color: hsla(240,6%,97%,.1);}
+div[class*="titleBar-"]{transform:translateY(-6px);}div[class*="winButton-"]{height: 36px;}
+
 .title-qAcLxz {
   background: var(--primary-color);
   box-shadow: 0px 0px transparent;
