@@ -2515,6 +2515,100 @@ form.modal-content.form.need-help-modal::after {
 
 /* 25. Server Settings Pop out */
 
+/* -- APRIL FOOLS CHANGES -- */
+
+.mask-2vyqAW, .image-EVRGPw {
+    border-radius: 50%;
+    -webkit-mask: none;
+    mask: none;
+}
+
+.member-2FrNV0 [class*="status-"], 
+.userPopout-11hFKo [class*="status-"], 
+.modal-2LIEKY [class*="status-"]
+{
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50%;
+    margin: 0;
+    top: -2px !important;
+    left: -2px !important;
+    background: var(--rs-transparency) !important;
+    border:2px solid !important;
+    transition-duration: .5s !important;
+}
+
+.member-2FrNV0 [class*="status-"].statusOnline-1Mp2_H,
+.userPopout-11hFKo [class*="status-"].statusOnline-1Mp2_H,
+.modal-2LIEKY [class*="status-"].statusOnline-1Mp2_H
+{
+    border-color: var(--rs-online-color) !important;
+}
+
+.member-2FrNV0 [class*="status-"].statusIdle-2AQdvu,
+.userPopout-11hFKo [class*="status-"].statusIdle-2AQdvu,
+.modal-2LIEKY [class*="status-"].statusIdle-2AQdvu
+{
+    border-color: var(--rs-idle-color) !important;
+}
+
+.member-2FrNV0 [class*="status-"].statusDnd-35xAXU,
+.userPopout-11hFKo [class*="status-"].statusDnd-35xAXU,
+.modal-2LIEKY [class*="status-"].statusDnd-35xAXU
+{
+    border-color: var(--rs-dnd-color) !important;
+}
+
+.member-2FrNV0 [class*="status-"].statusStreaming-1bZ3Hq,
+.userPopout-11hFKo [class*="status-"].statusStreaming-1bZ3Hq,
+.modal-2LIEKY [class*="status-"].statusStreaming-1bZ3Hq
+{
+    border-color: var(--rs-streaming-color) !important;
+}
+
+.member-2FrNV0 [class*="status-"].statusOffline-jZXr_u,
+.userPopout-11hFKo [class*="status-"].statusOffline-jZXr_u,
+.modal-2LIEKY [class*="status-"].statusOffline-jZXr_u
+{
+    border-color: var(--rs-offline-color) !important;
+}
+
+.member-2FrNV0 [class*="status-"].statusInvisible-2ci18Q,
+.userPopout-11hFKo [class*="status-"].statusInvisible-2ci18Q,
+.modal-2LIEKY [class*="status-"].statusInvisible-2ci18Q
+{
+    border-color: var(--rs-invisible-color)
+!important;
+}
+
+.member-2FrNV0 [class*="status-"].statusOnline-1Mp2_H.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE
+{
+    background-color: var(--rs-online-color);
+}
+
+.member-2FrNV0 [class*="status-"].statusIdle-2AQdvu.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE
+{
+    background-color: var(--rs-idle-color);
+}
+
+.member-2FrNV0 [class*="status-"].statusDnd-35xAXU.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE{
+    background-color: var(--rs-dnd-color);
+}
+
+.member-2FrNV0 [class*="status-"].statusStreaming-1bZ3Hq.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE
+{
+    background-color: var(--rs-streaming-color);
+}
+
+.member-2FrNV0 [class*="status-"].statusOffline-jZXr_u.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE
+{
+    background-color: var(--rs-offline-color);
+}
+
+.member-2FrNV0 [class*="status-"].statusInvisible-2ci18Q.statusTyping-lRly31 .pulsingEllipsisItem-1oPdBE{
+    background-color: var(--rs-invisible-color);
+}
+
 .ui-standard-sidebar-view .custom-scroller{
     background: var(--primary-color) !important;
 }
