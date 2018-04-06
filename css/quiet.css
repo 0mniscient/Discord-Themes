@@ -246,12 +246,6 @@ div[class*="titleBar-"]{transform:translateY(-6px);}div[class*="winButton-"]{hei
   height: 46px;
 }
 
-.chat:not(.private) .channelName-1G03vu {
-  left: 8.2%;
-  position: fixed;
-  pointer-events: none;
-}
-
 .topic-1KFf6J:before {
   display: none;
 }
@@ -452,13 +446,6 @@ div[class*="titleBar-"]{transform:translateY(-6px);}div[class*="winButton-"]{hei
 .header-1tSljs {
   box-shadow: 0px 0px transparent;
   border-bottom: 2px solid var(--main-color);
-}
-
-.header-1tSljs .name-3gtcmp {
-  line-height: unset;
-  position: fixed;
-  top: 4px;
-  left: 45%;
 }
 
 .popout-open .header-1tSljs {
