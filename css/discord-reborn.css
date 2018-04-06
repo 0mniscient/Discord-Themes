@@ -802,3 +802,11 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .need-help-modal .header h1::after {
       left: -220px !important;
 }
+
+.theme-dark #friends .friends-table .friends-table-header {
+  border-bottom: 0px solid hsla(0,0%,100%,.1);
+}
+
+.theme-dark #friends .friends-table .friends-table-header .friends-column-separator {
+  background-color: transparent !important;
+}
