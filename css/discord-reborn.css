@@ -794,3 +794,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     background-color: transparent !important;
     border-color: transparent !important;
 }
+
+.theme-dark .popout .messages-popout-wrap .header {
+    background-color: var(--primary-color) !important;
+}
