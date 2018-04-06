@@ -1990,7 +1990,7 @@ div[class*="titleBar-"]{transform:translateY(-6px);}div[class*="winButton-"]{hei
   position: absolute;
   width: 200%;
   height: 150% !important;
-  left: -220px !important;
+  left: -65px;
   margin-left: -45px;
   top: 10px !important;
   font-family: Satisfy;
