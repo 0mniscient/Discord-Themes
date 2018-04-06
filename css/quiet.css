@@ -1672,6 +1672,9 @@ div[class*="winButton-"] {
 
 /* 15. Main Chat Form */
 
+.channelTextAreaDisabled-TBtxS6.channelTextArea-1HTP3C.channelTextArea-os01xC {
+    margin: 5px 0 5px;
+}
 .chat form {
   background-color: var(--secondary-color) !important;
   box-shadow: 0px 0px transparent !important;
