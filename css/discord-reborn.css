@@ -768,3 +768,29 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     background-color: var(--primary-color) !important;
     box-shadow: 0 0px 0px rgba(0,0,0,.4) !important;
 }
+
+.guilds-wrapper .guilds .guild.audio .guild-inner:after, .guilds-wrapper .guilds .guild.video .guild-inner:after {
+    background-color: transparent;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    border-radius: 12px;
+    content: " ";
+    height: 24px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: -4px;
+    top: -4px;
+    width: 24px;
+    border-radius: 0% !important;
+}
+
+.container-3lnMWU {
+    background: transparent !important;
+}
+
+.theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
