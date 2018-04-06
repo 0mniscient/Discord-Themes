@@ -798,3 +798,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .theme-dark .popout .messages-popout-wrap .header {
     background-color: var(--primary-color) !important;
 }
+
+.need-help-modal .header h1::after {
+      left: -220px !important;
+}
