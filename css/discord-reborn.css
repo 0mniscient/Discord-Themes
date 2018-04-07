@@ -810,3 +810,11 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .theme-dark #friends .friends-table .friends-table-header .friends-column-separator {
   background-color: transparent !important;
 }
+
+.theme-dark .checked-2TahvT {
+  background-color: var(--main-color) !important;
+}
+
+[stroke*="#7289da"] {
+  stroke: #fff !important;
+}
