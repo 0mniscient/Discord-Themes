@@ -2842,6 +2842,31 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 
 /* 29. Misc */
 
+/* CSS Editor Buttons */
+.bd-detached-editor .chat .title-qAcLxz > div:last-child,
+.bd-detached-editor .headerBar-cxbhPD > div:last-child {
+    margin-right: 0 !important;
+}
+#bd-customcss-detach-container #bd-customcss-attach-controls{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#bd-customcss-attach-controls {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#bd-customcss-detach-controls-button > span {
+    font-size: 0 !important;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#bd-customcss-attach-controls .checkbox-group {
+    order: 1;
+}
+
 #bda-qem {
   border-bottom: none !important;
   background: none !important
