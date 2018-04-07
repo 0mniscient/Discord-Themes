@@ -2368,7 +2368,7 @@ form.modal-content.form.need-help-modal::after {
 }
 
 .headerNormal-3Vn9nT {
-  background-color: var(--quaternary-color) !important;
+  background-color: var(--main-color) !important;
 }
 
 .body-3ljq11, .footer-2wFs91 {
@@ -2466,7 +2466,7 @@ form.modal-content.form.need-help-modal::after {
 /* 24. Profile Popup */
 
 .topSectionNormal-2LlRG1 {
-  background-color: var(--quaternary-color) !important;
+  background-color: var(--main-color) !important;
 }
 
 .tabBarContainer-3RVZc- {
