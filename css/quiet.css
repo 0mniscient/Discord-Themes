@@ -2842,6 +2842,17 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 
 /* 29. Misc */
 
+.theme-dark #memberCount {
+    background: transparent !important;
+    background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent) !important;
+    background-size: 100% 3px !important;
+    background-position: 0 0, 0 100% !important;
+    background-repeat: no-repeat !important;
+    padding-top: 25px !important;
+    font-weight: 600 !important;
+    transform: translate(0px,-25px);
+}
+
 /* CSS Editor Buttons */
 .bd-detached-editor .chat .title-qAcLxz > div:last-child,
 .bd-detached-editor .headerBar-cxbhPD > div:last-child {
