@@ -4798,3 +4798,20 @@ input, textarea {color: white;}
 .theme-dark .members-1bid1J {
 	background-color: #19191b;
 }
+
+.channel-members h2, .membersGroup-3_dP5E {
+    color: var(--main-color) !important;
+    background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
+    background-size: 100% 3px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    padding-top: 19px;
+    padding-bottom: 6px;
+    margin-top: 4px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 10px !important;
+    width: 175px !important;
+    margin-left: 30px !important;
+}
