@@ -1399,7 +1399,7 @@ div[class*="winButton-"] {
   background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
   background-size: 100% 3px;
   /* This get flipped. */
-  background-position: 0 0, 0 100%;
+  background-position: 0 0, 0 85%;
   /* The last argument gets flipped. */
   background-repeat: no-repeat;
   padding-top: 19px;
@@ -1408,7 +1408,7 @@ div[class*="winButton-"] {
   font-weight: 600;
   text-align: center;
   border-radius: 3px;
-  line-height: 10px !important;
+  line-height: 0px !important;
   width: 175px !important;
   margin-left: 30px !important;
 }
