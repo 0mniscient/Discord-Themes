@@ -972,7 +972,9 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 
 .topSectionSpotify-3744IX {box-shadow: inset 200px -60px 200px 5px rgba(18, 18, 19, 0.9);}
 
-.theme-dark .chat form {border-right: 2px solid rgba(0, 0, 0, 0.4);}
+.theme-dark .chat form {
+    background-color: transparent !important;
+}
 
 .topSectionNormal-2LlRG1, .topSectionStreaming-3rIBIm {box-shadow: inset 200px -60px 200px 5px rgba(18, 18, 19, 0.9) !important;}
 
@@ -1012,4 +1014,53 @@ form.deprecated.auth-form {background: rgba(0, 0, 0, 0.4) !important;}
 
 .theme-dark .members-1bid1J {
     background-color: rgba(0,0,0,0.7) !important;
+}
+
+.theme-dark .container-iksrDt {
+    height: 71px;
+    background: transparent !important;
+    width: calc(100% - 20px) !important;
+    margin-left: 0px;
+    border-top: 0px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+.theme-dark .inner-3if5cm {
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 0px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+.side-2nYO0F .item-3879bf {
+    border-radius: 3px !important;
+    margin-bottom: 5px !important;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+    margin-top: 1px !important;
+}
+
+.ui-standard-sidebar-view .sidebar-region .sidebar {
+    padding: 60px 0px 60px 20px !important;
+    width: 200px !important;
+}
+
+#bd-settings-sidebar .ui-tab-bar-item {
+    margin-bottom: 1px !important;
+    padding: 5px 5px 5px 10px !important;
+    position: relative !important;
+    font-size: 15px !important;
+    line-height: 21px !important;
+}
+
+
+.theme-dark .search .search-bar {
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+}
+
+.search-bar .search-bar-inner {
+    border: 0px solid var(--hover-color) !important;
+}
+
+.theme-dark .private-channels .search-bar-inner {
+    background: transparent !important;
 }
