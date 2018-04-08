@@ -315,7 +315,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
-    background-color: rgba(0,0,0,0.4) !important;
+    background-color: var(--main-color) !important;
     border-color: transparent;
 }
 
@@ -818,3 +818,9 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 [stroke*="#7289da"] {
   stroke: #fff !important;
 }
+
+.channels-3g2vYe .scroller-fzNley>[class*=container-]>div:first-of-type>[class*=container]>[class*=wrapper] {
+    background-color: transparent !important;
+}
+
+
