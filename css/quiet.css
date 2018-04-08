@@ -2853,6 +2853,16 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
     transform: translate(0px,-25px);
 }
 
+/* Mentions Edit*/
+
+.mention-RlZ5F3 {
+    background-color: var(--main-color) !important;
+}
+
+.bar-Y-RLyN {
+    background-color: var(--main-color) !important;
+}
+
 /* CSS Editor Buttons */
 .bd-detached-editor .chat .title-qAcLxz > div:last-child,
 .bd-detached-editor .headerBar-cxbhPD > div:last-child {
