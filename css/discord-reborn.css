@@ -275,7 +275,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .themeDefault-3M0dJU.valueChecked-3Bzkbm {
-    background-color: rgba(0,0,0,0.5) !important;
+    background-color: var(--main-color) !important;
 }
 
 .themeDefault-3M0dJU {
