@@ -2842,6 +2842,14 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 
 /* 29. Misc */
 
+.theme-dark .reaction.reaction-me, .theme-light .reaction.reaction-me {
+    background: var(--main-color) !important;
+}
+
+.theme-dark .reaction.reaction-me .reaction-count {
+    color: #fff !important;
+}
+
 .theme-dark #memberCount {
     background: transparent !important;
     background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent) !important;
