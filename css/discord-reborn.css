@@ -241,7 +241,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     width: 70px;
     margin-left: -10px;
     border-bottom: 2px solid var(--main-color) !important;
-    position: fixed;
+    position: absolute;
     z-index: 2;
 }
 
