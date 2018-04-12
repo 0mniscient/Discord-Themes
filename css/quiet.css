@@ -714,7 +714,7 @@ div[class*="winButton-"] {
   width: 70px;
   margin-left: -10px;
   border-bottom: 2px solid var(--main-color);
-  position: fixed;
+  position: absolute;
   z-index: 2;
 }
 
