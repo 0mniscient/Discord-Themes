@@ -824,3 +824,6 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 
+.ui-standard-sidebar-view .custom-scroller {
+    background: transparent !important;
+}
