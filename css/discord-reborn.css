@@ -147,7 +147,7 @@
 }
 
 .theme-dark .member-2FrNV0:hover .content-3JzEqq {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.4) !important;
   color: #fff;
 }
 
