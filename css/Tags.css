@@ -307,20 +307,31 @@
 
 /* Kya */
 
-.message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="310719627292573697"] ~ .member-inner .member-username .member-username-inner::after {
-    content:"XXX";
-    color:#000;
-    border-radius:0px;
-    margin-left:6px;
-    font-size:16px;
-    font-weight:998;
-    padding:4px 1px;
-    text-transform:uppercase;
-    vertical-align:bottom;
-    line-height:16px;
-    -webkit-flex-shrink:0;
-    flex-shrink:0;
-    text-shadow: 0px 1px 2px #000;
+.message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 span.username-wrapper::before{
+    content: "`";
+    background-image: url(https://discordapp.com/assets/0aae6033ad41cdda515a62cf72075afa.svg);
+    background-size: 25px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 0px;
+    left: -3px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px !important;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 0px;
+}
+.message-group .avatar-large[style*="310719627292573697"]{
+    box-shadow: 0px 0px 0px 0px !important;
+}
+.message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 .timestamp {
+    margin-left: 4px;
+}
+.chat .avatar-large[style*="131903461771051009"] ~ .comment .message h2 {
+    transform: translateX(30px);
 }
 
 /*cube_guy's Triforce Tag*/
