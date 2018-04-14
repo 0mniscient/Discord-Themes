@@ -337,7 +337,7 @@
 /*cube_guy's Triforce Tag*/
 
 .message-group:not(.compact) .avatar-large[style*="131903461771051009"] ~ .comment .message h2 span.username-wrapper::before{
-    content: "`";
+    content: ".";
     background-image: url(https://rawgit.com/cubeguy/cube_repo/master/icons/Discord_Tag.gif);
     background-size: 25px;
     background-position: 0px 0px;
