@@ -2842,6 +2842,60 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 
 /* 29. Misc */
 
+/* April 14th Patches */
+
+.theme-dark .keyboardShortcutsModal-2JhH0L {
+    background-color: var(--primary-color);
+}
+
+.theme-dark .keybindShortcut-tTramc span {
+    background-color: var(--main-color);
+}
+
+.theme-dark .popout .messages-popout-wrap .footer {
+    background-color: var(--secondary-color);
+}
+
+.statusGreen-1ADNRt {
+    color: var(--main-color);
+}
+
+.search-bar .search-bar-inner {
+    background: var(--secondary-color);
+}
+
+.theme-dark .themed-popout .footer {
+    background-color: var(--secondary-color);
+}
+
+.private-channel-recipients-invite .footer button {
+    background-color: var(--main-color);
+}
+
+.theme-dark .private-channel-recipients-invite .friend {
+    background: transparent;
+}
+
+.theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
+    background: var(--quaternary-color) !important;
+}
+
+.search-bar-tag {
+    background: var(--main-color);
+}
+
+[class*="embedPill-3sYS1X"] {
+    background-color:  var(--main-color) !important;
+}
+
+.private-channel-recipients-invite .friend .avatar-small .status {
+    border: 2px solid #fff;
+    bottom: -2px;
+    height: 25px;
+    right: -3px;
+    width: 25px;
+}
+
 /* Themed Search */
 
 .theme-dark .searchPopout-38pRYh {
