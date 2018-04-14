@@ -1440,6 +1440,14 @@ div[class*="winButton-"] {
 
 /* 13. Main Chat Area */
 
+.channelTextAreaDisabled-TBtxS6.channelTextArea-1HTP3C.channelTextArea-os01xC {
+    margin: 0px 0 0px !important;
+}
+
+.channelTextAreaDisabled-TBtxS6 {
+    opacity: 1 !important;
+}
+
 .chat .messages .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO {
   background: transparent !important;
 }
