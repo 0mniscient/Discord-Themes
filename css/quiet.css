@@ -113,6 +113,7 @@
 28. Shadows
 29. Misc
 30. Keyframes
+31. Roundness
 
 */
 
@@ -3265,4 +3266,12 @@ background: var(--primary-color) !important;
   100% {
     transform: scale(1);
   }
+}
+
+31.
+
+/* 31. Roundness */
+
+.chat .avatar-large, .container-iksrDt .avatar-small, .private-channel-recipients-invite .friend .avatar-small, [class*="avatar-"] .status, .channel-members [class*="avatar-"] .status, .private-channels .channel .avatar-small, .messages-popout .message-group .avatar-large, .guilds-wrapper .guilds .guild .guild-inner a, .guilds-wrapper .guild.guilds-add::after, .mask-2vyqAW, .image-EVRGPw, .member-2FrNV0 [class*="status-"], .userPopout-11hFKo [class*="status-"], .modal-2LIEKY [class*="status-"] {
+    border-radius: var(--roundness) !important;
 }
