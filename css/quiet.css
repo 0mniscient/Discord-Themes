@@ -2844,6 +2844,18 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 
 /* April 14th Patches */
 
+.theme-dark .container-a2vS7i, .theme-dark .reactors-2PjMP0 {
+    background-color: var(--primary-color);
+}
+
+.theme-dark .sidebar-32BRdp {
+    background: var(--primary-color);
+}
+
+.theme-dark .reactionSelected-rLBoT_ {
+    background-color: var(--main-color);
+}
+
 .theme-dark .keyboardShortcutsModal-2JhH0L {
     background-color: var(--primary-color);
 }
