@@ -2842,6 +2842,56 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 
 /* 29. Misc */
 
+/* Themed Search */
+
+.theme-dark .searchPopout-38pRYh {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+    background-color: var(--primary-color);
+    border: 0px solid var(--main-color);
+    border-left: 2px solid var(--main-color);
+    border-right: 2px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+    top: -14px;
+}
+
+.theme-dark .option-1MvVr1.selected-_bTXUG {
+    background-color: var(--quaternary-color);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker {
+    background-color: var(--primary-color);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__header {
+    background-color: var(--secondary-color);
+    border-color: var(--main-color);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: var(--quaternary-color);
+    color: hsla(240,6%,97%,.3);
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .calendarPicker-16Q6sl .react-datepicker__day:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after {
+    background-color: var(--main-color);
+}
+
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz .hintValue-45YyWZ {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day--disabled, .theme-dark .calendarPicker-16Q6sl .react-datepicker__day--outside-month {
+    background-color: var(--quartenary-color);
+    color: hsla(240,6%,97%,.3);
+}
+
 .theme-dark .reaction.reaction-me, .theme-light .reaction.reaction-me {
     background: var(--main-color) !important;
 }
