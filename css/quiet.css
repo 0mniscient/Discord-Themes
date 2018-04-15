@@ -2853,6 +2853,27 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 
 /* April 14th Patches */
 
+.inviteModal-1di4Hk .scroller {
+    background: var(--primary-color);
+    background-size: 200px 204px;
+    height: 100%;
+    position: relative;
+    width: 400px;
+}
+
+.lookFilled-luDKDo.colorGreen-22At8E {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.inviteModal-1di4Hk .inviteBody-1kVhyx {
+    color: #fff;
+}
+
+.lookFilled-luDKDo.colorGreen-22At8E:hover {
+    background-color: var(--main-color);
+}
+
 .guilds-wrapper .guilds .guild .guild-inner {
     background: transparent !important;
 }
