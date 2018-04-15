@@ -2851,6 +2851,14 @@ body:active .popout-bottom[style*="overflow: hidden; visibility: visible;"]:not(
 
 /* 29. Misc */
 
+.theme-dark .chat .jump-to-present-bar {
+    background-color: var(--main-color);
+}
+
+.theme-dark .chat .jump-to-present-bar:hover {
+    background-color: var(--hover-color);
+}
+
 /* April 14th Patches */
 
 .inviteModal-1di4Hk .scroller {
